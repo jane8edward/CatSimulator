@@ -1,0 +1,27 @@
+{
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "version": "0.1.3",
+    "resolution": "2560x1440",
+    "allAnimationsMove": true,
+    "materialsSupported": true,
+    "headFacesForward": true,
+    "idleBounds": {
+        "x": 0.25201404094696047,
+        "y": 0.4473336338996887,
+        "z": 0.5561622381210327
+    },
+    "clips": [
+        "BS18519_Rig|Idle",
+        "BS18519_Rig|Walk",
+        "BS18519_Rig|Run",
+        "BS18519_Rig|Jump",
+        "BS18519_Rig|Land",
+        "BS18519_Rig|Paw",
+        "BS18519_Rig|Scratch"
+    ],
+    "errors": [],
+    "walkPawMotion": 0.1428418904542923,
+    "runPawMotion": 0.23257602751255036,
+    "backSkinHasNoControllers": true,
+    "sampledWalkPhases": 8
+}

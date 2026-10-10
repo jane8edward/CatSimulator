@@ -1,0 +1,27 @@
+.tools/
+# Unity-generated files and local editor state
+Game/Library/
+Game/Temp/
+Game/Obj/
+Game/Logs/
+Game/UserSettings/
+Game/.vs/
+Game/.idea/
+Game/MemoryCaptures/
+Game/Recordings/
+Game/*.csproj
+Game/*.sln
+Builds/
+# Local safety copies and generated verification intermediates
+Source/Backups/
+Source/Verification/preview-frames*/
+Source/Verification/BlendSwap18519/cat-showcase-frames*/
+Source/Verification/**/*.path.txt
+Source/Blender/render-log.txt
+Source/scene-import-check.txt
+*.blend[0-9]
+*.log
+*.npz
+__pycache__/
+*.pyc
+*.pyo

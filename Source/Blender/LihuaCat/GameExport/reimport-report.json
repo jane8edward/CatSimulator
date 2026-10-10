@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "fbx_meshes": 72,
+  "bones": 27,
+  "triangles": 48226,
+  "dimensions_metres": [
+    0.26401597261428833,
+    0.8357000648975372,
+    0.5358309079892933
+  ],
+  "bounds_min": [
+    -0.13200798630714417,
+    -0.4387524127960205,
+    -0.0027999808080494404
+  ],
+  "bounds_max": [
+    0.13200798630714417,
+    0.3969476521015167,
+    0.5330309271812439
+  ],
+  "body_has_uv": true,
+  "body_has_armature_modifier": true,
+  "body_unweighted_vertices": 0,
+  "missing_image_files": [],
+  "texture_images": [
+    "Ear.L_Albedo",
+    "Ear.R_Albedo",
+    "Eye.L_Albedo",
+    "Eye.R_Albedo",
+    "EyelidSkin.L_Albedo",
+    "EyelidSkin.R_Albedo",
+    "LihuaCat_Body_Albedo",
+    "LihuaCat_Tail_Albedo"
+  ]
+}

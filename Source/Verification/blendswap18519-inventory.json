@@ -1,0 +1,4779 @@
+{
+  "source": "E:\\Game\\game_develop\\CatSimulator\\assets\\BlendSwap18519\\cat.blend",
+  "source_sha256": "fda4b80f1a06e67a1cc04396b858085faa5cd9742f28d9bde9837aaeab2727fa",
+  "blender_version": "5.2.2 LTS",
+  "autoexec_disabled": true,
+  "scenes": [
+    {
+      "name": "Scene",
+      "frame_range": [
+        1,
+        45
+      ],
+      "fps": 24.0,
+      "unit_scale": 1.0
+    }
+  ],
+  "objects": [
+    {
+      "name": "Armature",
+      "type": "ARMATURE",
+      "parent": null,
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.279075,
+        9.736797,
+        9.512985
+      ],
+      "hidden_render": false,
+      "modifiers": [],
+      "bones": [
+        {
+          "name": "Foot_front_IK_L",
+          "parent": null,
+          "deform": false,
+          "head": [
+            0.592087,
+            -1.542686,
+            -2.621931
+          ],
+          "tail": [
+            0.592087,
+            -1.920624,
+            -2.731954
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Knee_back_IK_L",
+          "parent": null,
+          "deform": false,
+          "head": [
+            0.707294,
+            3.764891,
+            -1.094442
+          ],
+          "tail": [
+            0.707294,
+            4.126372,
+            -1.094442
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Foot_Back_IK_L",
+          "parent": null,
+          "deform": false,
+          "head": [
+            0.707294,
+            2.664656,
+            -2.603336
+          ],
+          "tail": [
+            0.775808,
+            2.047374,
+            -2.713359
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Knee_front_IK_L",
+          "parent": null,
+          "deform": false,
+          "head": [
+            0.707294,
+            -0.784183,
+            -1.853338
+          ],
+          "tail": [
+            0.707294,
+            -0.534315,
+            -1.853338
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Tail_controller",
+          "parent": null,
+          "deform": false,
+          "head": [
+            -0.0,
+            4.14948,
+            6.207636
+          ],
+          "tail": [
+            -0.0,
+            4.14948,
+            6.742043
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Foot_front_IK_R",
+          "parent": null,
+          "deform": false,
+          "head": [
+            -0.592087,
+            -1.542686,
+            -2.621931
+          ],
+          "tail": [
+            -0.592087,
+            -1.920624,
+            -2.731954
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Knee_back_IK_R",
+          "parent": null,
+          "deform": true,
+          "head": [
+            -0.707294,
+            3.764891,
+            -1.094442
+          ],
+          "tail": [
+            -0.707294,
+            4.126372,
+            -1.094442
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Foot_Back_IK_R",
+          "parent": null,
+          "deform": true,
+          "head": [
+            -0.707294,
+            2.664656,
+            -2.603336
+          ],
+          "tail": [
+            -0.775808,
+            2.047374,
+            -2.713359
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Knee_front_IK_R",
+          "parent": null,
+          "deform": false,
+          "head": [
+            -0.707294,
+            -0.784183,
+            -1.853338
+          ],
+          "tail": [
+            -0.707294,
+            -0.534315,
+            -1.853338
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Spine",
+          "parent": null,
+          "deform": true,
+          "head": [
+            0.0,
+            1.581648,
+            2.221364
+          ],
+          "tail": [
+            0.0,
+            2.768799,
+            2.471744
+          ],
+          "constraints": [
+            {
+              "name": "Pivot",
+              "type": "PIVOT",
+              "target": "Armature",
+              "subtarget": "Spine.001"
+            },
+            {
+              "name": "IK",
+              "type": "IK",
+              "target": "Armature",
+              "subtarget": "Hip"
+            }
+          ]
+        },
+        {
+          "name": "Spine.001",
+          "parent": "Spine",
+          "deform": true,
+          "head": [
+            0.0,
+            1.581648,
+            2.221364
+          ],
+          "tail": [
+            -0.0,
+            0.770804,
+            2.081459
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Spine.002",
+          "parent": "Spine.001",
+          "deform": true,
+          "head": [
+            -0.0,
+            0.770804,
+            2.081459
+          ],
+          "tail": [
+            -0.0,
+            0.086611,
+            1.997064
+          ],
+          "constraints": [
+            {
+              "name": "IK",
+              "type": "IK",
+              "target": "Armature",
+              "subtarget": "Spine_controller_1"
+            }
+          ]
+        },
+        {
+          "name": "Spine.003",
+          "parent": "Spine.002",
+          "deform": true,
+          "head": [
+            -0.0,
+            0.086611,
+            1.997064
+          ],
+          "tail": [
+            -0.0,
+            -0.654319,
+            2.007115
+          ],
+          "constraints": [
+            {
+              "name": "Copy Rotation",
+              "type": "COPY_ROTATION",
+              "target": "Armature",
+              "subtarget": "Spine.002"
+            }
+          ]
+        },
+        {
+          "name": "Spine.004",
+          "parent": "Spine.003",
+          "deform": true,
+          "head": [
+            -0.0,
+            -0.654319,
+            2.007115
+          ],
+          "tail": [
+            0.0,
+            -1.194077,
+            1.85082
+          ],
+          "constraints": [
+            {
+              "name": "IK",
+              "type": "IK",
+              "target": "Armature",
+              "subtarget": "Spine_controller_2"
+            }
+          ]
+        },
+        {
+          "name": "Neck",
+          "parent": null,
+          "deform": true,
+          "head": [
+            0.0,
+            -1.18118,
+            1.826163
+          ],
+          "tail": [
+            0.0,
+            -1.809505,
+            2.395123
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Neck.001",
+          "parent": "Neck",
+          "deform": true,
+          "head": [
+            0.0,
+            -1.809505,
+            2.395123
+          ],
+          "tail": [
+            0.0,
+            -2.390402,
+            2.843812
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Neck.002",
+          "parent": "Neck.001",
+          "deform": true,
+          "head": [
+            0.0,
+            -2.390402,
+            2.843812
+          ],
+          "tail": [
+            0.0,
+            -3.116803,
+            3.352293
+          ],
+          "constraints": [
+            {
+              "name": "IK",
+              "type": "IK",
+              "target": "Armature",
+              "subtarget": "Head_controller"
+            },
+            {
+              "name": "Copy Rotation",
+              "type": "COPY_ROTATION",
+              "target": "Empty",
+              "subtarget": ""
+            },
+            {
+              "name": "Copy Rotation.001",
+              "type": "COPY_ROTATION",
+              "target": "Armature",
+              "subtarget": "Head_controller"
+            }
+          ]
+        },
+        {
+          "name": "Head",
+          "parent": "Neck.002",
+          "deform": true,
+          "head": [
+            0.0,
+            -3.116803,
+            3.352293
+          ],
+          "tail": [
+            0.0,
+            -3.580806,
+            2.628443
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Mouth",
+          "parent": "Head",
+          "deform": true,
+          "head": [
+            0.0,
+            -3.580806,
+            2.628443
+          ],
+          "tail": [
+            0.0,
+            -4.318944,
+            2.055213
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Nose",
+          "parent": "Head",
+          "deform": true,
+          "head": [
+            0.0,
+            -3.580806,
+            2.628443
+          ],
+          "tail": [
+            0.0,
+            -4.770167,
+            2.553981
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Ear_connector",
+          "parent": "Neck.002",
+          "deform": true,
+          "head": [
+            0.0,
+            -3.116803,
+            3.352293
+          ],
+          "tail": [
+            0.60455,
+            -3.49267,
+            3.670453
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Ear",
+          "parent": "Ear_connector",
+          "deform": true,
+          "head": [
+            0.60455,
+            -3.49267,
+            3.670453
+          ],
+          "tail": [
+            0.816057,
+            -3.66662,
+            4.000134
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Ear.001",
+          "parent": "Ear",
+          "deform": true,
+          "head": [
+            0.816057,
+            -3.66662,
+            4.000134
+          ],
+          "tail": [
+            1.012634,
+            -3.837336,
+            4.29774
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Ear.002",
+          "parent": "Ear.001",
+          "deform": true,
+          "head": [
+            1.012634,
+            -3.837336,
+            4.29774
+          ],
+          "tail": [
+            1.139538,
+            -3.900432,
+            4.486394
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Ear_connector.001",
+          "parent": "Neck.002",
+          "deform": true,
+          "head": [
+            0.0,
+            -3.116803,
+            3.352293
+          ],
+          "tail": [
+            -0.60455,
+            -3.49267,
+            3.670453
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Ear.006",
+          "parent": "Ear_connector.001",
+          "deform": true,
+          "head": [
+            -0.60455,
+            -3.49267,
+            3.670453
+          ],
+          "tail": [
+            -0.816057,
+            -3.66662,
+            4.000134
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Ear.003",
+          "parent": "Ear.006",
+          "deform": true,
+          "head": [
+            -0.816057,
+            -3.66662,
+            4.000134
+          ],
+          "tail": [
+            -1.012633,
+            -3.837336,
+            4.29774
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Ear.004",
+          "parent": "Ear.003",
+          "deform": true,
+          "head": [
+            -1.012633,
+            -3.837336,
+            4.29774
+          ],
+          "tail": [
+            -1.139538,
+            -3.900432,
+            4.486394
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Head_controller",
+          "parent": null,
+          "deform": false,
+          "head": [
+            0.0,
+            -3.116803,
+            3.352293
+          ],
+          "tail": [
+            0.0,
+            -3.866776,
+            4.068313
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Shoulder_front_L",
+          "parent": null,
+          "deform": true,
+          "head": [
+            0.0,
+            -1.18118,
+            1.826163
+          ],
+          "tail": [
+            0.0,
+            -2.187109,
+            1.276046
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Thigh_front_L",
+          "parent": null,
+          "deform": true,
+          "head": [
+            0.0,
+            -2.187109,
+            1.276046
+          ],
+          "tail": [
+            0.694132,
+            -1.194757,
+            0.094111
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Calf_Front_L",
+          "parent": "Thigh_front_L",
+          "deform": true,
+          "head": [
+            0.694132,
+            -1.194757,
+            0.094111
+          ],
+          "tail": [
+            0.764195,
+            -1.370182,
+            -1.914858
+          ],
+          "constraints": [
+            {
+              "name": "IK",
+              "type": "IK",
+              "target": "Armature",
+              "subtarget": "Knee_front_IK_L"
+            }
+          ]
+        },
+        {
+          "name": "Foot_front_L2",
+          "parent": "Calf_Front_L",
+          "deform": true,
+          "head": [
+            0.764195,
+            -1.370182,
+            -1.914858
+          ],
+          "tail": [
+            0.592088,
+            -1.542686,
+            -2.621933
+          ],
+          "constraints": [
+            {
+              "name": "IK",
+              "type": "IK",
+              "target": "Armature",
+              "subtarget": "Foot_front_IK_L"
+            }
+          ]
+        },
+        {
+          "name": "Foot_front_L",
+          "parent": "Foot_front_L2",
+          "deform": true,
+          "head": [
+            0.592088,
+            -1.542686,
+            -2.621933
+          ],
+          "tail": [
+            0.592088,
+            -1.920626,
+            -2.731957
+          ],
+          "constraints": [
+            {
+              "name": "Copy Rotation",
+              "type": "COPY_ROTATION",
+              "target": "Armature",
+              "subtarget": "Foot_front_IK_L"
+            }
+          ]
+        },
+        {
+          "name": "toe_connector_L.001",
+          "parent": "Foot_front_L",
+          "deform": true,
+          "head": [
+            0.592088,
+            -1.920626,
+            -2.731957
+          ],
+          "tail": [
+            0.733061,
+            -1.920626,
+            -2.731957
+          ],
+          "constraints": []
+        },
+        {
+          "name": "toe_connector_L",
+          "parent": "toe_connector_L.001",
+          "deform": true,
+          "head": [
+            0.733061,
+            -1.920626,
+            -2.731957
+          ],
+          "tail": [
+            0.884862,
+            -1.896142,
+            -2.731957
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Toe_pinky_L_front",
+          "parent": "toe_connector_L",
+          "deform": true,
+          "head": [
+            0.884862,
+            -1.896142,
+            -2.731957
+          ],
+          "tail": [
+            0.897104,
+            -2.06141,
+            -2.731957
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Toe_ring_L_front",
+          "parent": "toe_connector_L.001",
+          "deform": true,
+          "head": [
+            0.733061,
+            -1.920626,
+            -2.731957
+          ],
+          "tail": [
+            0.739182,
+            -2.167915,
+            -2.731957
+          ],
+          "constraints": []
+        },
+        {
+          "name": "toe_connector_L.002",
+          "parent": "Foot_front_L",
+          "deform": true,
+          "head": [
+            0.592088,
+            -1.920626,
+            -2.731957
+          ],
+          "tail": [
+            0.413354,
+            -1.910832,
+            -2.731957
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Toe_thumb_L_front",
+          "parent": "toe_connector_L.002",
+          "deform": true,
+          "head": [
+            0.413354,
+            -1.910832,
+            -2.731957
+          ],
+          "tail": [
+            0.426821,
+            -2.121395,
+            -2.731957
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Toe_Pointer_L_front",
+          "parent": "Foot_front_L",
+          "deform": true,
+          "head": [
+            0.592088,
+            -1.920626,
+            -2.731957
+          ],
+          "tail": [
+            0.589639,
+            -2.19852,
+            -2.731957
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Thigh_front_R",
+          "parent": null,
+          "deform": true,
+          "head": [
+            0.0,
+            -2.187109,
+            1.276046
+          ],
+          "tail": [
+            -0.694131,
+            -1.194757,
+            0.094111
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Calf_Front_R",
+          "parent": "Thigh_front_R",
+          "deform": true,
+          "head": [
+            -0.694131,
+            -1.194757,
+            0.094111
+          ],
+          "tail": [
+            -0.764194,
+            -1.370182,
+            -1.914858
+          ],
+          "constraints": [
+            {
+              "name": "IK",
+              "type": "IK",
+              "target": "Armature",
+              "subtarget": "Knee_front_IK_R"
+            }
+          ]
+        },
+        {
+          "name": "Foot_front_L2.002",
+          "parent": "Calf_Front_R",
+          "deform": true,
+          "head": [
+            -0.764194,
+            -1.370182,
+            -1.914858
+          ],
+          "tail": [
+            -0.592088,
+            -1.542686,
+            -2.621933
+          ],
+          "constraints": [
+            {
+              "name": "IK",
+              "type": "IK",
+              "target": "Armature",
+              "subtarget": "Foot_front_IK_R"
+            }
+          ]
+        },
+        {
+          "name": "Foot_front_R",
+          "parent": "Foot_front_L2.002",
+          "deform": true,
+          "head": [
+            -0.592088,
+            -1.542686,
+            -2.621933
+          ],
+          "tail": [
+            -0.592088,
+            -1.920626,
+            -2.731957
+          ],
+          "constraints": [
+            {
+              "name": "Copy Rotation",
+              "type": "COPY_ROTATION",
+              "target": "Armature",
+              "subtarget": "Foot_front_IK_R"
+            }
+          ]
+        },
+        {
+          "name": "toe_connector_R",
+          "parent": "Foot_front_R",
+          "deform": true,
+          "head": [
+            -0.592088,
+            -1.920626,
+            -2.731957
+          ],
+          "tail": [
+            -0.733061,
+            -1.920626,
+            -2.731957
+          ],
+          "constraints": []
+        },
+        {
+          "name": "toe_connector_R.001",
+          "parent": "toe_connector_R",
+          "deform": true,
+          "head": [
+            -0.733061,
+            -1.920626,
+            -2.731957
+          ],
+          "tail": [
+            -0.884862,
+            -1.896142,
+            -2.731957
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Toe_pinky_L_front.002",
+          "parent": "toe_connector_R.001",
+          "deform": true,
+          "head": [
+            -0.884862,
+            -1.896142,
+            -2.731957
+          ],
+          "tail": [
+            -0.897104,
+            -2.06141,
+            -2.731957
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Toe_ring_L_front.002",
+          "parent": "toe_connector_R",
+          "deform": true,
+          "head": [
+            -0.733061,
+            -1.920626,
+            -2.731957
+          ],
+          "tail": [
+            -0.739182,
+            -2.167915,
+            -2.731957
+          ],
+          "constraints": []
+        },
+        {
+          "name": "toe_connector_R.002",
+          "parent": "Foot_front_R",
+          "deform": true,
+          "head": [
+            -0.592088,
+            -1.920626,
+            -2.731957
+          ],
+          "tail": [
+            -0.413354,
+            -1.910832,
+            -2.731957
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Toe_thumb_L_front.002",
+          "parent": "toe_connector_R.002",
+          "deform": true,
+          "head": [
+            -0.413354,
+            -1.910832,
+            -2.731957
+          ],
+          "tail": [
+            -0.426821,
+            -2.121395,
+            -2.731957
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Toe_Pointer_L_front.002",
+          "parent": "Foot_front_R",
+          "deform": true,
+          "head": [
+            -0.592088,
+            -1.920626,
+            -2.731957
+          ],
+          "tail": [
+            -0.589639,
+            -2.19852,
+            -2.731957
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Hip",
+          "parent": null,
+          "deform": true,
+          "head": [
+            0.0,
+            2.77468,
+            2.442029
+          ],
+          "tail": [
+            -0.0,
+            3.670585,
+            1.923347
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Thigh_Back_L",
+          "parent": "Hip",
+          "deform": true,
+          "head": [
+            -0.0,
+            3.670585,
+            1.923347
+          ],
+          "tail": [
+            0.707293,
+            2.318864,
+            0.383021
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Calf_back_L",
+          "parent": "Thigh_Back_L",
+          "deform": true,
+          "head": [
+            0.707293,
+            2.318864,
+            0.383021
+          ],
+          "tail": [
+            0.707295,
+            3.76489,
+            -1.094442
+          ],
+          "constraints": [
+            {
+              "name": "IK",
+              "type": "IK",
+              "target": "Armature",
+              "subtarget": "Knee_back_IK_L"
+            }
+          ]
+        },
+        {
+          "name": "Foot_Back_L",
+          "parent": "Calf_back_L",
+          "deform": true,
+          "head": [
+            0.707295,
+            3.76489,
+            -1.094442
+          ],
+          "tail": [
+            0.707293,
+            2.664657,
+            -2.603336
+          ],
+          "constraints": [
+            {
+              "name": "IK",
+              "type": "IK",
+              "target": "Armature",
+              "subtarget": "Foot_Back_IK_L"
+            }
+          ]
+        },
+        {
+          "name": "Foot_Back_L2",
+          "parent": "Foot_Back_L",
+          "deform": true,
+          "head": [
+            0.707293,
+            2.664657,
+            -2.603336
+          ],
+          "tail": [
+            0.775807,
+            2.047373,
+            -2.713359
+          ],
+          "constraints": [
+            {
+              "name": "Copy Rotation",
+              "type": "COPY_ROTATION",
+              "target": "Armature",
+              "subtarget": "Foot_Back_IK_L"
+            }
+          ]
+        },
+        {
+          "name": "toe_connector_L_back.002",
+          "parent": "Foot_Back_L2",
+          "deform": true,
+          "head": [
+            0.775807,
+            2.047373,
+            -2.713359
+          ],
+          "tail": [
+            0.659338,
+            2.053324,
+            -2.713359
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Toe_back_L_Thumb",
+          "parent": "toe_connector_L_back.002",
+          "deform": true,
+          "head": [
+            0.659338,
+            2.053324,
+            -2.713359
+          ],
+          "tail": [
+            0.700144,
+            1.855242,
+            -2.713359
+          ],
+          "constraints": []
+        },
+        {
+          "name": "toe_connector_L_back.001",
+          "parent": "Foot_Back_L2",
+          "deform": true,
+          "head": [
+            0.775807,
+            2.047373,
+            -2.713359
+          ],
+          "tail": [
+            0.876123,
+            2.02867,
+            -2.713359
+          ],
+          "constraints": []
+        },
+        {
+          "name": "toe_connector_L_back",
+          "parent": "toe_connector_L_back.001",
+          "deform": true,
+          "head": [
+            0.876123,
+            2.02867,
+            -2.713359
+          ],
+          "tail": [
+            0.961137,
+            2.076277,
+            -2.713359
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Toe_back_L_pinky",
+          "parent": "toe_connector_L_back",
+          "deform": true,
+          "head": [
+            0.961137,
+            2.076277,
+            -2.713359
+          ],
+          "tail": [
+            0.968788,
+            1.931754,
+            -2.713359
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Toe_back_L_Ring",
+          "parent": "toe_connector_L_back.001",
+          "deform": true,
+          "head": [
+            0.876123,
+            2.02867,
+            -2.713359
+          ],
+          "tail": [
+            0.888025,
+            1.859493,
+            -2.713359
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Toe_back_L_Pointer",
+          "parent": "Foot_Back_L2",
+          "deform": true,
+          "head": [
+            0.775807,
+            2.047373,
+            -2.713359
+          ],
+          "tail": [
+            0.800461,
+            1.826337,
+            -2.713359
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Thigh_Back_R",
+          "parent": "Hip",
+          "deform": true,
+          "head": [
+            -0.0,
+            3.670585,
+            1.923347
+          ],
+          "tail": [
+            -0.707293,
+            2.318864,
+            0.383021
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Calf_back_R",
+          "parent": "Thigh_Back_R",
+          "deform": true,
+          "head": [
+            -0.707293,
+            2.318864,
+            0.383021
+          ],
+          "tail": [
+            -0.707294,
+            3.76489,
+            -1.094442
+          ],
+          "constraints": [
+            {
+              "name": "IK",
+              "type": "IK",
+              "target": "Armature",
+              "subtarget": "Knee_back_IK_R"
+            }
+          ]
+        },
+        {
+          "name": "Foot_Back_R",
+          "parent": "Calf_back_R",
+          "deform": true,
+          "head": [
+            -0.707294,
+            3.76489,
+            -1.094442
+          ],
+          "tail": [
+            -0.707294,
+            2.664657,
+            -2.603336
+          ],
+          "constraints": [
+            {
+              "name": "IK",
+              "type": "IK",
+              "target": "Armature",
+              "subtarget": "Foot_Back_IK_R"
+            }
+          ]
+        },
+        {
+          "name": "Foot_Back_L2.002",
+          "parent": "Foot_Back_R",
+          "deform": true,
+          "head": [
+            -0.707294,
+            2.664657,
+            -2.603336
+          ],
+          "tail": [
+            -0.775807,
+            2.047373,
+            -2.713359
+          ],
+          "constraints": [
+            {
+              "name": "Copy Rotation",
+              "type": "COPY_ROTATION",
+              "target": "Armature",
+              "subtarget": "Foot_Back_IK_R"
+            }
+          ]
+        },
+        {
+          "name": "toe_connector_L_back.006",
+          "parent": "Foot_Back_L2.002",
+          "deform": true,
+          "head": [
+            -0.775807,
+            2.047373,
+            -2.713359
+          ],
+          "tail": [
+            -0.659338,
+            2.053324,
+            -2.713359
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Toe_back_L_Thumb.002",
+          "parent": "toe_connector_L_back.006",
+          "deform": true,
+          "head": [
+            -0.659338,
+            2.053324,
+            -2.713359
+          ],
+          "tail": [
+            -0.700144,
+            1.855242,
+            -2.713359
+          ],
+          "constraints": []
+        },
+        {
+          "name": "toe_connector_L_back.003",
+          "parent": "Foot_Back_L2.002",
+          "deform": true,
+          "head": [
+            -0.775807,
+            2.047373,
+            -2.713359
+          ],
+          "tail": [
+            -0.876123,
+            2.02867,
+            -2.713359
+          ],
+          "constraints": []
+        },
+        {
+          "name": "toe_connector_L_back.004",
+          "parent": "toe_connector_L_back.003",
+          "deform": true,
+          "head": [
+            -0.876123,
+            2.02867,
+            -2.713359
+          ],
+          "tail": [
+            -0.961137,
+            2.076277,
+            -2.713359
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Toe_back_L_pinky.002",
+          "parent": "toe_connector_L_back.004",
+          "deform": true,
+          "head": [
+            -0.961137,
+            2.076277,
+            -2.713359
+          ],
+          "tail": [
+            -0.968788,
+            1.931754,
+            -2.713359
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Toe_back_L_Ring.002",
+          "parent": "toe_connector_L_back.003",
+          "deform": true,
+          "head": [
+            -0.876123,
+            2.02867,
+            -2.713359
+          ],
+          "tail": [
+            -0.888025,
+            1.859493,
+            -2.713359
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Toe_back_L_Pointer.002",
+          "parent": "Foot_Back_L2.002",
+          "deform": true,
+          "head": [
+            -0.775807,
+            2.047373,
+            -2.713359
+          ],
+          "tail": [
+            -0.800461,
+            1.826337,
+            -2.713359
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Tail",
+          "parent": null,
+          "deform": true,
+          "head": [
+            0.0,
+            2.77468,
+            2.442029
+          ],
+          "tail": [
+            -0.0,
+            3.607715,
+            2.677793
+          ],
+          "constraints": [
+            {
+              "name": "Copy Rotation",
+              "type": "COPY_ROTATION",
+              "target": "Armature",
+              "subtarget": "Tail.001"
+            }
+          ]
+        },
+        {
+          "name": "Tail.001",
+          "parent": "Tail",
+          "deform": true,
+          "head": [
+            -0.0,
+            3.607715,
+            2.677793
+          ],
+          "tail": [
+            -0.0,
+            3.812045,
+            3.007864
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Tail.002",
+          "parent": "Tail.001",
+          "deform": true,
+          "head": [
+            -0.0,
+            3.812045,
+            3.007864
+          ],
+          "tail": [
+            -0.0,
+            3.972801,
+            3.468098
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Tail.003",
+          "parent": "Tail.002",
+          "deform": true,
+          "head": [
+            -0.0,
+            3.972801,
+            3.468098
+          ],
+          "tail": [
+            -0.0,
+            4.087183,
+            3.895678
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Tail.004",
+          "parent": "Tail.003",
+          "deform": true,
+          "head": [
+            -0.0,
+            4.087183,
+            3.895678
+          ],
+          "tail": [
+            -0.0,
+            4.160837,
+            4.462179
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Tail.005",
+          "parent": "Tail.004",
+          "deform": true,
+          "head": [
+            -0.0,
+            4.160837,
+            4.462179
+          ],
+          "tail": [
+            -0.0,
+            4.13941,
+            5.028487
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Tail.006",
+          "parent": "Tail.005",
+          "deform": true,
+          "head": [
+            -0.0,
+            4.13941,
+            5.028487
+          ],
+          "tail": [
+            -0.0,
+            4.12939,
+            5.673605
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Tail.007",
+          "parent": "Tail.006",
+          "deform": true,
+          "head": [
+            -0.0,
+            4.12939,
+            5.673605
+          ],
+          "tail": [
+            -0.0,
+            4.14948,
+            6.207634
+          ],
+          "constraints": [
+            {
+              "name": "IK",
+              "type": "IK",
+              "target": "Armature",
+              "subtarget": "Tail_controller"
+            }
+          ]
+        },
+        {
+          "name": "Spine_controller_1",
+          "parent": null,
+          "deform": false,
+          "head": [
+            0.0,
+            -0.005471,
+            1.870357
+          ],
+          "tail": [
+            0.0,
+            -0.005471,
+            3.341255
+          ],
+          "constraints": []
+        },
+        {
+          "name": "Spine_controller_2",
+          "parent": null,
+          "deform": false,
+          "head": [
+            0.0,
+            -1.194085,
+            1.850824
+          ],
+          "tail": [
+            0.0,
+            -1.194085,
+            2.273737
+          ],
+          "constraints": []
+        }
+      ],
+      "animation": {
+        "action": "Walk",
+        "nla": [
+          {
+            "name": "[Action Stash]",
+            "muted": true,
+            "strips": [
+              {
+                "name": "Walk",
+                "action": "Walk",
+                "range": [
+                  1.0,
+                  28.0
+                ]
+              }
+            ]
+          },
+          {
+            "name": "[Action Stash].001",
+            "muted": true,
+            "strips": [
+              {
+                "name": "ArmatureAction",
+                "action": "run",
+                "range": [
+                  1.0,
+                  15.0
+                ]
+              }
+            ]
+          }
+        ],
+        "drivers": []
+      }
+    },
+    {
+      "name": "Camera",
+      "type": "CAMERA",
+      "parent": null,
+      "parent_bone": "",
+      "location": [
+        29.825624,
+        2.468404,
+        6.533983
+      ],
+      "rotation": [
+        1.395133,
+        -5e-05,
+        1.585322
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hidden_render": false,
+      "modifiers": [],
+      "animation": {
+        "action": "CameraAction",
+        "nla": [],
+        "drivers": []
+      }
+    },
+    {
+      "name": "Cat",
+      "type": "MESH",
+      "parent": "Armature",
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.84725,
+        9.997917,
+        9.299443
+      ],
+      "hidden_render": false,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "target": "Armature"
+        },
+        {
+          "name": "Subsurf",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "target": null
+        },
+        {
+          "name": "ParticleSystem 1",
+          "type": "PARTICLE_SYSTEM",
+          "viewport": true,
+          "render": true,
+          "target": null
+        },
+        {
+          "name": "ParticleSystem 2",
+          "type": "PARTICLE_SYSTEM",
+          "viewport": true,
+          "render": true,
+          "target": null
+        }
+      ],
+      "vertices": 1417,
+      "polygons": 1416,
+      "triangles": 2830,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "Knee_front_IK_L",
+        "Bone.001",
+        "Bone.002",
+        "Bone.003",
+        "Bone.004",
+        "Bone.005",
+        "Bone.006",
+        "Bone.007",
+        "Bone.008",
+        "Bone.009",
+        "Bone.010",
+        "Bone.011",
+        "Bone.012",
+        "Bone.053",
+        "Bone.054",
+        "Bone.055",
+        "Bone.056",
+        "Bone.057",
+        "Bone.058",
+        "Bone.059",
+        "Bone.060",
+        "Bone.013",
+        "Bone.014",
+        "Bone.015",
+        "Bone.016",
+        "Bone.017",
+        "Bone.019",
+        "Bone.018",
+        "Bone.020",
+        "Bone.021",
+        "Bone.022",
+        "Bone.023",
+        "Bone.024",
+        "Bone.025",
+        "Bone.027",
+        "Bone.026",
+        "Bone.028",
+        "Bone.029",
+        "Bone.030",
+        "Bone.031",
+        "Bone.032",
+        "Bone.033",
+        "Bone.035",
+        "Bone.034",
+        "Bone.036",
+        "Bone.037",
+        "Bone.038",
+        "Bone.039",
+        "Bone.040",
+        "Bone.041",
+        "Bone.043",
+        "Bone.042",
+        "Bone.044",
+        "Bone.045",
+        "Bone.046",
+        "Bone.047",
+        "Bone.048",
+        "Bone.049",
+        "Bone.050",
+        "Bone.051",
+        "Bone.052",
+        "Spine",
+        "Spine.001",
+        "Spine.002",
+        "Spine.003",
+        "Spine.004",
+        "Neck",
+        "Neck.001",
+        "Neck.002",
+        "Head",
+        "Mouth",
+        "Nose",
+        "Ear_connector",
+        "Ear",
+        "Ear.001",
+        "Ear.002",
+        "Ear_connector.002",
+        "Ear.006",
+        "Ear.006",
+        "Ear.003",
+        "Shoulder_front_L",
+        "Thigh_front_L",
+        "Calf_Front_L",
+        "Foot_front_L2",
+        "Foot_front_L",
+        "toe_connector_L.001",
+        "toe_connector_L",
+        "Toe_pinky_L_front",
+        "Toe_ring_L_front",
+        "toe_connector_L.002",
+        "Toe_thumb_L_front",
+        "Toe_Pointer_L_front",
+        "Thigh_front_R",
+        "Calf_Front_R",
+        "Foot_front_L2.002",
+        "Foot_front_R",
+        "toe_connector_R",
+        "toe_connector_R.001",
+        "Toe_pinky_L_front.002",
+        "Toe_ring_L_front.002",
+        "toe_connector_R.002",
+        "Toe_thumb_L_front.002",
+        "Toe_Pointer_L_front.002",
+        "Hip",
+        "Thigh_Back_L",
+        "Calf_back_L",
+        "Foot_Back_L",
+        "Foot_Back_L2",
+        "toe_connector_L_back.002",
+        "Toe_back_L_Thumb",
+        "toe_connector_L_back.001",
+        "toe_connector_L_back",
+        "Toe_back_L_pinky",
+        "Toe_back_L_Ring",
+        "Toe_back_L_Pointer",
+        "Thigh_Back_R",
+        "Calf_back_R",
+        "Foot_Back_R",
+        "Foot_Back_L2.002",
+        "toe_connector_L_back.006",
+        "Toe_back_L_Thumb.002",
+        "toe_connector_L_back.006",
+        "toe_connector_L_back.003",
+        "Toe_back_L_pinky.002",
+        "Toe_back_L_Ring.002",
+        "Toe_back_L_Pointer.002",
+        "Tail",
+        "Tail.001",
+        "Tail.002",
+        "Tail.003",
+        "Tail.004",
+        "Tail.005",
+        "Tail.006",
+        "Tail.007",
+        "hair",
+        "Spine.005_IK",
+        "Ear_connector.001",
+        "Ear.004",
+        "Head_controller",
+        "toe_connector_L_back.004",
+        "Knee_back_IK_L",
+        "Foot_Back_IK_L",
+        "Spine_controller_1",
+        "Spine_controller_2",
+        "Tail_controller",
+        "Knee_back_IK_R",
+        "Foot_Back_IK_R"
+      ],
+      "materials": [
+        "skin",
+        "hair",
+        "Material.002"
+      ],
+      "world_bounds": [
+        [
+          -1.275874,
+          -4.243524,
+          -2.885599
+        ],
+        [
+          -1.275874,
+          -4.243524,
+          6.413844
+        ],
+        [
+          -1.275874,
+          5.754393,
+          6.413844
+        ],
+        [
+          -1.275874,
+          5.754393,
+          -2.885599
+        ],
+        [
+          1.571376,
+          -4.243524,
+          -2.885599
+        ],
+        [
+          1.571376,
+          -4.243524,
+          6.413844
+        ],
+        [
+          1.571376,
+          5.754393,
+          6.413844
+        ],
+        [
+          1.571376,
+          5.754393,
+          -2.885599
+        ]
+      ],
+      "shape_keys": [
+        "Basis"
+      ],
+      "particles": [
+        {
+          "name": "ParticleSystem",
+          "type": "HAIR",
+          "count": 1000,
+          "hair_length": 0.6389999985694885,
+          "hair_step": 5,
+          "child_type": "INTERPOLATED",
+          "viewport_children": 10,
+          "render_children": 300,
+          "material_slot": 2,
+          "dynamic": true
+        },
+        {
+          "name": "ParticleSystem 2",
+          "type": "HAIR",
+          "count": 0,
+          "hair_length": 4.0,
+          "hair_step": 5,
+          "child_type": "NONE",
+          "viewport_children": 10,
+          "render_children": 100,
+          "material_slot": 3,
+          "dynamic": true
+        }
+      ]
+    },
+    {
+      "name": "Empty",
+      "type": "EMPTY",
+      "parent": null,
+      "parent_bone": "",
+      "location": [
+        0.0,
+        -1.830673,
+        1.164315
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hidden_render": false,
+      "modifiers": []
+    },
+    {
+      "name": "eye",
+      "type": "MESH",
+      "parent": null,
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hidden_render": false,
+      "modifiers": [],
+      "vertices": 0,
+      "polygons": 0,
+      "triangles": 0,
+      "uv_layers": [
+        "eye"
+      ],
+      "vertex_groups": [],
+      "materials": [
+        "Sclera_and_Iris",
+        "Pupil",
+        "Cornea"
+      ],
+      "world_bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "shape_keys": [],
+      "particles": []
+    },
+    {
+      "name": "Plane",
+      "type": "MESH",
+      "parent": null,
+      "parent_bone": "",
+      "location": [
+        0.0,
+        0.0,
+        -2.774888
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        95.633842,
+        95.633842,
+        95.633842
+      ],
+      "dimensions": [
+        153.691818,
+        166.040619,
+        44.725018
+      ],
+      "hidden_render": false,
+      "modifiers": [
+        {
+          "name": "Subsurf",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "target": null
+        }
+      ],
+      "vertices": 34,
+      "polygons": 16,
+      "triangles": 32,
+      "uv_layers": [],
+      "vertex_groups": [],
+      "materials": [
+        "Material"
+      ],
+      "world_bounds": [
+        [
+          -70.671501,
+          -83.020309,
+          -2.774888
+        ],
+        [
+          -70.671501,
+          -83.020309,
+          41.95013
+        ],
+        [
+          -70.671501,
+          83.020309,
+          41.95013
+        ],
+        [
+          -70.671501,
+          83.020309,
+          -2.774888
+        ],
+        [
+          83.020309,
+          -83.020309,
+          -2.774888
+        ],
+        [
+          83.020309,
+          -83.020309,
+          41.95013
+        ],
+        [
+          83.020309,
+          83.020309,
+          41.95013
+        ],
+        [
+          83.020309,
+          83.020309,
+          -2.774888
+        ]
+      ],
+      "shape_keys": [],
+      "particles": [],
+      "animation": {
+        "action": null,
+        "nla": [],
+        "drivers": []
+      }
+    },
+    {
+      "name": "Sphere",
+      "type": "MESH",
+      "parent": "Armature",
+      "parent_bone": "",
+      "location": [
+        0.381888,
+        -4.109735,
+        3.056925
+      ],
+      "rotation": [
+        1.421537,
+        0.017793,
+        0.11666
+      ],
+      "scale": [
+        0.16999,
+        0.169996,
+        0.169987
+      ],
+      "dimensions": [
+        0.335929,
+        0.335777,
+        0.334883
+      ],
+      "hidden_render": false,
+      "modifiers": [
+        {
+          "name": "Subsurf",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "target": null
+        },
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "target": "Armature"
+        }
+      ],
+      "vertices": 482,
+      "polygons": 512,
+      "triangles": 960,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "Spine",
+        "Spine.001",
+        "Spine.002",
+        "Spine.003",
+        "Spine.004",
+        "Neck",
+        "Neck.001",
+        "Neck.002",
+        "Head",
+        "Mouth",
+        "Nose",
+        "Ear_connector",
+        "Ear",
+        "Ear.001",
+        "Ear.002",
+        "Ear_connector.001",
+        "Ear.006",
+        "Ear.003",
+        "Ear.004",
+        "Shoulder_front_L",
+        "Thigh_front_L",
+        "Calf_Front_L",
+        "Foot_front_L2",
+        "Foot_front_L",
+        "toe_connector_L.001",
+        "toe_connector_L",
+        "Toe_pinky_L_front",
+        "Toe_ring_L_front",
+        "toe_connector_L.002",
+        "Toe_thumb_L_front",
+        "Toe_Pointer_L_front",
+        "Thigh_front_R",
+        "Calf_Front_R",
+        "Foot_front_L2.002",
+        "Foot_front_R",
+        "toe_connector_R",
+        "toe_connector_R.001",
+        "Toe_pinky_L_front.002",
+        "Toe_ring_L_front.002",
+        "toe_connector_R.002",
+        "Toe_thumb_L_front.002",
+        "Toe_Pointer_L_front.002",
+        "Hip",
+        "Thigh_Back_L",
+        "Calf_back_L",
+        "Foot_Back_L",
+        "Foot_Back_L2",
+        "toe_connector_L_back.002",
+        "Toe_back_L_Thumb",
+        "toe_connector_L_back.001",
+        "toe_connector_L_back",
+        "Toe_back_L_pinky",
+        "Toe_back_L_Ring",
+        "Toe_back_L_Pointer",
+        "Thigh_Back_R",
+        "Calf_back_R",
+        "Foot_Back_R",
+        "Foot_Back_L2.002",
+        "toe_connector_L_back.006",
+        "Toe_back_L_Thumb.002",
+        "toe_connector_L_back.003",
+        "toe_connector_L_back.004",
+        "Toe_back_L_pinky.002",
+        "Toe_back_L_Ring.002",
+        "Toe_back_L_Pointer.002",
+        "Tail",
+        "Tail.001",
+        "Tail.002",
+        "Tail.003",
+        "Tail.004",
+        "Tail.005",
+        "Tail.006",
+        "Tail.007",
+        "Knee_back_IK_R",
+        "Foot_Back_IK_R"
+      ],
+      "materials": [
+        "PBR Dielectric"
+      ],
+      "world_bounds": [
+        [
+          0.195318,
+          -3.488192,
+          0.770136
+        ],
+        [
+          0.234743,
+          -3.816998,
+          0.819927
+        ],
+        [
+          0.234799,
+          -3.766718,
+          1.151918
+        ],
+        [
+          0.195373,
+          -3.437912,
+          1.102127
+        ],
+        [
+          0.52891,
+          -3.449098,
+          0.764159
+        ],
+        [
+          0.568335,
+          -3.777904,
+          0.81395
+        ],
+        [
+          0.568391,
+          -3.727624,
+          1.145941
+        ],
+        [
+          0.528966,
+          -3.398818,
+          1.09615
+        ]
+      ],
+      "shape_keys": [],
+      "particles": [],
+      "animation": {
+        "action": null,
+        "nla": [],
+        "drivers": []
+      }
+    },
+    {
+      "name": "Sphere.001",
+      "type": "MESH",
+      "parent": "Armature",
+      "parent_bone": "",
+      "location": [
+        -0.367758,
+        -4.109735,
+        3.056925
+      ],
+      "rotation": [
+        1.680066,
+        0.004785,
+        -0.184799
+      ],
+      "scale": [
+        0.16999,
+        0.169996,
+        0.169987
+      ],
+      "dimensions": [
+        0.334871,
+        0.334242,
+        0.335224
+      ],
+      "hidden_render": false,
+      "modifiers": [
+        {
+          "name": "Subsurf",
+          "type": "SUBSURF",
+          "viewport": true,
+          "render": true,
+          "target": null
+        },
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "viewport": true,
+          "render": true,
+          "target": "Armature"
+        }
+      ],
+      "vertices": 482,
+      "polygons": 512,
+      "triangles": 960,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "vertex_groups": [
+        "Spine",
+        "Spine.001",
+        "Spine.002",
+        "Spine.003",
+        "Spine.004",
+        "Neck",
+        "Neck.001",
+        "Neck.002",
+        "Head",
+        "Mouth",
+        "Nose",
+        "Ear_connector",
+        "Ear",
+        "Ear.001",
+        "Ear.002",
+        "Ear_connector.001",
+        "Ear.006",
+        "Ear.003",
+        "Ear.004",
+        "Shoulder_front_L",
+        "Thigh_front_L",
+        "Calf_Front_L",
+        "Foot_front_L2",
+        "Foot_front_L",
+        "toe_connector_L.001",
+        "toe_connector_L",
+        "Toe_pinky_L_front",
+        "Toe_ring_L_front",
+        "toe_connector_L.002",
+        "Toe_thumb_L_front",
+        "Toe_Pointer_L_front",
+        "Thigh_front_R",
+        "Calf_Front_R",
+        "Foot_front_L2.002",
+        "Foot_front_R",
+        "toe_connector_R",
+        "toe_connector_R.001",
+        "Toe_pinky_L_front.002",
+        "Toe_ring_L_front.002",
+        "toe_connector_R.002",
+        "Toe_thumb_L_front.002",
+        "Toe_Pointer_L_front.002",
+        "Hip",
+        "Thigh_Back_L",
+        "Calf_back_L",
+        "Foot_Back_L",
+        "Foot_Back_L2",
+        "toe_connector_L_back.002",
+        "Toe_back_L_Thumb",
+        "toe_connector_L_back.001",
+        "toe_connector_L_back",
+        "Toe_back_L_pinky",
+        "Toe_back_L_Ring",
+        "Toe_back_L_Pointer",
+        "Thigh_Back_R",
+        "Calf_back_R",
+        "Foot_Back_R",
+        "Foot_Back_L2.002",
+        "toe_connector_L_back.006",
+        "Toe_back_L_Thumb.002",
+        "toe_connector_L_back.003",
+        "toe_connector_L_back.004",
+        "Toe_back_L_pinky.002",
+        "Toe_back_L_Ring.002",
+        "Toe_back_L_Pointer.002",
+        "Tail",
+        "Tail.001",
+        "Tail.002",
+        "Tail.003",
+        "Tail.004",
+        "Tail.005",
+        "Tail.006",
+        "Tail.007",
+        "Knee_back_IK_R",
+        "Foot_Back_IK_R"
+      ],
+      "materials": [
+        "PBR Dielectric"
+      ],
+      "world_bounds": [
+        [
+          -0.499031,
+          -3.39533,
+          0.811205
+        ],
+        [
+          -0.560433,
+          -3.722849,
+          0.774648
+        ],
+        [
+          -0.565568,
+          -3.758971,
+          1.106893
+        ],
+        [
+          -0.504166,
+          -3.431452,
+          1.143449
+        ],
+        [
+          -0.169866,
+          -3.456862,
+          0.809602
+        ],
+        [
+          -0.231268,
+          -3.784381,
+          0.773046
+        ],
+        [
+          -0.236402,
+          -3.820503,
+          1.10529
+        ],
+        [
+          -0.175,
+          -3.492983,
+          1.141847
+        ]
+      ],
+      "shape_keys": [],
+      "particles": [],
+      "animation": {
+        "action": null,
+        "nla": [],
+        "drivers": []
+      }
+    }
+  ],
+  "actions": [
+    {
+      "name": "CameraAction",
+      "range": [
+        0.0,
+        0.0
+      ],
+      "channels": [
+        {
+          "path": "rotation_euler",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "rotation_euler",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "rotation_euler",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "location",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "location",
+          "index": 2,
+          "keys": 1
+        }
+      ]
+    },
+    {
+      "name": "run",
+      "range": [
+        1.0,
+        15.0
+      ],
+      "channels": [
+        {
+          "path": "pose.bones[\"Foot_front_IK_L\"].rotation_quaternion",
+          "index": 0,
+          "keys": 8
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_L\"].rotation_quaternion",
+          "index": 1,
+          "keys": 8
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_L\"].rotation_quaternion",
+          "index": 2,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_L\"].rotation_quaternion",
+          "index": 3,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_L\"].location",
+          "index": 0,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_L\"].location",
+          "index": 1,
+          "keys": 8
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_L\"].location",
+          "index": 2,
+          "keys": 8
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_L\"].scale",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_L\"].scale",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_L\"].scale",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_R\"].rotation_quaternion",
+          "index": 0,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_R\"].rotation_quaternion",
+          "index": 1,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_R\"].rotation_quaternion",
+          "index": 2,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_R\"].rotation_quaternion",
+          "index": 3,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_R\"].location",
+          "index": 0,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_R\"].location",
+          "index": 1,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_R\"].location",
+          "index": 2,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_R\"].scale",
+          "index": 0,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_R\"].scale",
+          "index": 1,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_R\"].scale",
+          "index": 2,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_R\"].location",
+          "index": 0,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_R\"].location",
+          "index": 1,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_R\"].location",
+          "index": 2,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_R\"].rotation_quaternion",
+          "index": 0,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_R\"].rotation_quaternion",
+          "index": 1,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_R\"].rotation_quaternion",
+          "index": 2,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_R\"].rotation_quaternion",
+          "index": 3,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_R\"].scale",
+          "index": 0,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_R\"].scale",
+          "index": 1,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_R\"].scale",
+          "index": 2,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_L\"].location",
+          "index": 0,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_L\"].location",
+          "index": 1,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_L\"].location",
+          "index": 2,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_L\"].rotation_quaternion",
+          "index": 0,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_L\"].rotation_quaternion",
+          "index": 1,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_L\"].rotation_quaternion",
+          "index": 2,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_L\"].rotation_quaternion",
+          "index": 3,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_L\"].scale",
+          "index": 0,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_L\"].scale",
+          "index": 1,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_L\"].scale",
+          "index": 2,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_2\"].location",
+          "index": 0,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_2\"].location",
+          "index": 1,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_2\"].location",
+          "index": 2,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_2\"].rotation_quaternion",
+          "index": 0,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_2\"].rotation_quaternion",
+          "index": 1,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_2\"].rotation_quaternion",
+          "index": 2,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_2\"].rotation_quaternion",
+          "index": 3,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_2\"].scale",
+          "index": 0,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_2\"].scale",
+          "index": 1,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_2\"].scale",
+          "index": 2,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Spine\"].location",
+          "index": 0,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Spine\"].location",
+          "index": 1,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Spine\"].location",
+          "index": 2,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Spine\"].rotation_quaternion",
+          "index": 0,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Spine\"].rotation_quaternion",
+          "index": 1,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Spine\"].rotation_quaternion",
+          "index": 2,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Spine\"].rotation_quaternion",
+          "index": 3,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Spine\"].scale",
+          "index": 0,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Spine\"].scale",
+          "index": 1,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Spine\"].scale",
+          "index": 2,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Head_controller\"].location",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head_controller\"].location",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head_controller\"].location",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head_controller\"].rotation_quaternion",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head_controller\"].rotation_quaternion",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head_controller\"].rotation_quaternion",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head_controller\"].rotation_quaternion",
+          "index": 3,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head_controller\"].scale",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head_controller\"].scale",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head_controller\"].scale",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Neck\"].location",
+          "index": 0,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Neck\"].location",
+          "index": 1,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Neck\"].location",
+          "index": 2,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Neck\"].rotation_quaternion",
+          "index": 0,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Neck\"].rotation_quaternion",
+          "index": 1,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Neck\"].rotation_quaternion",
+          "index": 2,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Neck\"].rotation_quaternion",
+          "index": 3,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Neck\"].scale",
+          "index": 0,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Neck\"].scale",
+          "index": 1,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Neck\"].scale",
+          "index": 2,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Head\"].location",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head\"].location",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head\"].location",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head\"].rotation_quaternion",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head\"].rotation_quaternion",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head\"].rotation_quaternion",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head\"].rotation_quaternion",
+          "index": 3,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head\"].scale",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head\"].scale",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Head\"].scale",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Shoulder_front_L\"].location",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Shoulder_front_L\"].location",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Shoulder_front_L\"].location",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Shoulder_front_L\"].rotation_quaternion",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Shoulder_front_L\"].rotation_quaternion",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Shoulder_front_L\"].rotation_quaternion",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Shoulder_front_L\"].rotation_quaternion",
+          "index": 3,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Shoulder_front_L\"].scale",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Shoulder_front_L\"].scale",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Shoulder_front_L\"].scale",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Tail_controller\"].location",
+          "index": 0,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Tail_controller\"].location",
+          "index": 1,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Tail_controller\"].location",
+          "index": 2,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Tail_controller\"].rotation_quaternion",
+          "index": 0,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Tail_controller\"].rotation_quaternion",
+          "index": 1,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Tail_controller\"].rotation_quaternion",
+          "index": 2,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Tail_controller\"].rotation_quaternion",
+          "index": 3,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Tail_controller\"].scale",
+          "index": 0,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Tail_controller\"].scale",
+          "index": 1,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Tail_controller\"].scale",
+          "index": 2,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Tail\"].location",
+          "index": 0,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Tail\"].location",
+          "index": 1,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Tail\"].location",
+          "index": 2,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Tail\"].rotation_quaternion",
+          "index": 0,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Tail\"].rotation_quaternion",
+          "index": 1,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Tail\"].rotation_quaternion",
+          "index": 2,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Tail\"].rotation_quaternion",
+          "index": 3,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Tail\"].scale",
+          "index": 0,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Tail\"].scale",
+          "index": 1,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Tail\"].scale",
+          "index": 2,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Ear\"].location",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear\"].location",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear\"].location",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear\"].rotation_quaternion",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear\"].rotation_quaternion",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear\"].rotation_quaternion",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear\"].rotation_quaternion",
+          "index": 3,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear\"].scale",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear\"].scale",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear\"].scale",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.001\"].location",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.001\"].location",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.001\"].location",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.001\"].rotation_quaternion",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.001\"].rotation_quaternion",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.001\"].rotation_quaternion",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.001\"].rotation_quaternion",
+          "index": 3,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.001\"].scale",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.001\"].scale",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.001\"].scale",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.002\"].location",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.002\"].location",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.002\"].location",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.002\"].rotation_quaternion",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.002\"].rotation_quaternion",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.002\"].rotation_quaternion",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.002\"].rotation_quaternion",
+          "index": 3,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.002\"].scale",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.002\"].scale",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.002\"].scale",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.006\"].location",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.006\"].location",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.006\"].location",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.006\"].rotation_quaternion",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.006\"].rotation_quaternion",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.006\"].rotation_quaternion",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.006\"].rotation_quaternion",
+          "index": 3,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.006\"].scale",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.006\"].scale",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.006\"].scale",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.003\"].location",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.003\"].location",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.003\"].location",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.003\"].rotation_quaternion",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.003\"].rotation_quaternion",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.003\"].rotation_quaternion",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.003\"].rotation_quaternion",
+          "index": 3,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.003\"].scale",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.003\"].scale",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.003\"].scale",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.004\"].location",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.004\"].location",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.004\"].location",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.004\"].rotation_quaternion",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.004\"].rotation_quaternion",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.004\"].rotation_quaternion",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.004\"].rotation_quaternion",
+          "index": 3,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.004\"].scale",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.004\"].scale",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Ear.004\"].scale",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_L\"].location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_L\"].location",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_L\"].location",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_L\"].rotation_quaternion",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_L\"].rotation_quaternion",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_L\"].rotation_quaternion",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_L\"].rotation_quaternion",
+          "index": 3,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_L\"].scale",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_L\"].scale",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_L\"].scale",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_R\"].location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_R\"].location",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_R\"].location",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_R\"].rotation_quaternion",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_R\"].rotation_quaternion",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_R\"].rotation_quaternion",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_R\"].rotation_quaternion",
+          "index": 3,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_R\"].scale",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_R\"].scale",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_R\"].scale",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Hip\"].location",
+          "index": 0,
+          "keys": 2
+        },
+        {
+          "path": "pose.bones[\"Hip\"].location",
+          "index": 1,
+          "keys": 2
+        },
+        {
+          "path": "pose.bones[\"Hip\"].location",
+          "index": 2,
+          "keys": 2
+        },
+        {
+          "path": "pose.bones[\"Hip\"].rotation_quaternion",
+          "index": 0,
+          "keys": 2
+        },
+        {
+          "path": "pose.bones[\"Hip\"].rotation_quaternion",
+          "index": 1,
+          "keys": 2
+        },
+        {
+          "path": "pose.bones[\"Hip\"].rotation_quaternion",
+          "index": 2,
+          "keys": 2
+        },
+        {
+          "path": "pose.bones[\"Hip\"].rotation_quaternion",
+          "index": 3,
+          "keys": 2
+        },
+        {
+          "path": "pose.bones[\"Hip\"].scale",
+          "index": 0,
+          "keys": 2
+        },
+        {
+          "path": "pose.bones[\"Hip\"].scale",
+          "index": 1,
+          "keys": 2
+        },
+        {
+          "path": "pose.bones[\"Hip\"].scale",
+          "index": 2,
+          "keys": 2
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_1\"].location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_1\"].location",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_1\"].location",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_1\"].rotation_quaternion",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_1\"].rotation_quaternion",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_1\"].rotation_quaternion",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_1\"].rotation_quaternion",
+          "index": 3,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_1\"].scale",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_1\"].scale",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_1\"].scale",
+          "index": 2,
+          "keys": 1
+        }
+      ]
+    },
+    {
+      "name": "Walk",
+      "range": [
+        1.0,
+        28.0
+      ],
+      "channels": [
+        {
+          "path": "pose.bones[\"Foot_front_IK_L\"].location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_L\"].location",
+          "index": 1,
+          "keys": 12
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_L\"].location",
+          "index": 2,
+          "keys": 12
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_L\"].rotation_quaternion",
+          "index": 0,
+          "keys": 9
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_L\"].rotation_quaternion",
+          "index": 1,
+          "keys": 9
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_L\"].location",
+          "index": 0,
+          "keys": 8
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_L\"].location",
+          "index": 1,
+          "keys": 8
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_L\"].location",
+          "index": 2,
+          "keys": 8
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_L\"].rotation_quaternion",
+          "index": 0,
+          "keys": 8
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_L\"].rotation_quaternion",
+          "index": 1,
+          "keys": 8
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_L\"].rotation_quaternion",
+          "index": 2,
+          "keys": 8
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_L\"].rotation_quaternion",
+          "index": 3,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Knee_front_IK_L\"].location",
+          "index": 0,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Knee_front_IK_L\"].location",
+          "index": 1,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Knee_front_IK_L\"].location",
+          "index": 2,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Tail_controller\"].location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Tail_controller\"].location",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Tail_controller\"].location",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Tail_controller\"].rotation_quaternion",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Tail_controller\"].rotation_quaternion",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Tail_controller\"].rotation_quaternion",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Tail_controller\"].rotation_quaternion",
+          "index": 3,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_R\"].location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_R\"].location",
+          "index": 1,
+          "keys": 8
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_R\"].location",
+          "index": 2,
+          "keys": 8
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_R\"].rotation_quaternion",
+          "index": 0,
+          "keys": 8
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_R\"].rotation_quaternion",
+          "index": 1,
+          "keys": 8
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_R\"].rotation_quaternion",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Foot_front_IK_R\"].rotation_quaternion",
+          "index": 3,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_R\"].location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_R\"].location",
+          "index": 1,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_R\"].location",
+          "index": 2,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_R\"].location",
+          "index": 0,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_R\"].location",
+          "index": 1,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_R\"].location",
+          "index": 2,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_R\"].rotation_quaternion",
+          "index": 0,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_R\"].rotation_quaternion",
+          "index": 1,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_R\"].rotation_quaternion",
+          "index": 2,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_IK_R\"].rotation_quaternion",
+          "index": 3,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Hip\"].location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Hip\"].location",
+          "index": 1,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Hip\"].location",
+          "index": 2,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Hip\"].rotation_quaternion",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Hip\"].rotation_quaternion",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Hip\"].rotation_quaternion",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Hip\"].rotation_quaternion",
+          "index": 3,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_1\"].location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_1\"].location",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_1\"].location",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_1\"].rotation_quaternion",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_1\"].rotation_quaternion",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_1\"].rotation_quaternion",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_1\"].rotation_quaternion",
+          "index": 3,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Head_controller\"].location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Head_controller\"].location",
+          "index": 1,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Head_controller\"].location",
+          "index": 2,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Head_controller\"].rotation_quaternion",
+          "index": 0,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Head_controller\"].rotation_quaternion",
+          "index": 1,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Head_controller\"].rotation_quaternion",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Head_controller\"].rotation_quaternion",
+          "index": 3,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Neck\"].location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Neck\"].location",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Neck\"].location",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Neck\"].rotation_quaternion",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Neck\"].rotation_quaternion",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Neck\"].rotation_quaternion",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Neck\"].rotation_quaternion",
+          "index": 3,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Shoulder_front_L\"].location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Shoulder_front_L\"].location",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Shoulder_front_L\"].location",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Shoulder_front_L\"].rotation_quaternion",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Shoulder_front_L\"].rotation_quaternion",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Shoulder_front_L\"].rotation_quaternion",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Shoulder_front_L\"].rotation_quaternion",
+          "index": 3,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Thigh_front_L\"].location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Thigh_front_L\"].location",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Thigh_front_L\"].location",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Thigh_front_L\"].rotation_quaternion",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Thigh_front_L\"].rotation_quaternion",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Thigh_front_L\"].rotation_quaternion",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Thigh_front_L\"].rotation_quaternion",
+          "index": 3,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Foot_front_L2\"].rotation_quaternion",
+          "index": 0,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Foot_front_L2\"].rotation_quaternion",
+          "index": 1,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Foot_front_L2\"].rotation_quaternion",
+          "index": 2,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Foot_front_L2\"].rotation_quaternion",
+          "index": 3,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Spine\"].location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine\"].location",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine\"].location",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine\"].rotation_quaternion",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine\"].rotation_quaternion",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine\"].rotation_quaternion",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine\"].rotation_quaternion",
+          "index": 3,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Tail\"].location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Tail\"].location",
+          "index": 1,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Tail\"].location",
+          "index": 2,
+          "keys": 5
+        },
+        {
+          "path": "pose.bones[\"Tail\"].rotation_quaternion",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Tail\"].rotation_quaternion",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Tail\"].rotation_quaternion",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Tail\"].rotation_quaternion",
+          "index": 3,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Thigh_front_R\"].location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Thigh_front_R\"].location",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Thigh_front_R\"].location",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Thigh_front_R\"].rotation_quaternion",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Thigh_front_R\"].rotation_quaternion",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Thigh_front_R\"].rotation_quaternion",
+          "index": 2,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Thigh_front_R\"].rotation_quaternion",
+          "index": 3,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Knee_front_IK_R\"].location",
+          "index": 0,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Knee_front_IK_R\"].location",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Knee_front_IK_R\"].location",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Foot_front_L2.002\"].rotation_quaternion",
+          "index": 0,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_front_L2.002\"].rotation_quaternion",
+          "index": 1,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_front_L2.002\"].rotation_quaternion",
+          "index": 2,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_front_L2.002\"].rotation_quaternion",
+          "index": 3,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Calf_Front_R\"].rotation_quaternion",
+          "index": 0,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Calf_Front_R\"].rotation_quaternion",
+          "index": 1,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Calf_Front_R\"].rotation_quaternion",
+          "index": 2,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Calf_Front_R\"].rotation_quaternion",
+          "index": 3,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_R\"].rotation_quaternion",
+          "index": 0,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_R\"].rotation_quaternion",
+          "index": 1,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_R\"].rotation_quaternion",
+          "index": 2,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_R\"].rotation_quaternion",
+          "index": 3,
+          "keys": 4
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_L\"].location",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Knee_back_IK_L\"].location",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_L\"].rotation_quaternion",
+          "index": 0,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_L\"].rotation_quaternion",
+          "index": 1,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_L\"].rotation_quaternion",
+          "index": 2,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Foot_Back_L\"].rotation_quaternion",
+          "index": 3,
+          "keys": 6
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_2\"].location",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_2\"].location",
+          "index": 1,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_2\"].location",
+          "index": 2,
+          "keys": 3
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_2\"].rotation_quaternion",
+          "index": 0,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_2\"].rotation_quaternion",
+          "index": 1,
+          "keys": 1
+        },
+        {
+          "path": "pose.bones[\"Spine_controller_2\"].rotation_quaternion",
+          "index": 3,
+          "keys": 1
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "11967-diffuse.jpg.001",
+      "source": "FILE",
+      "path": "//Jonas Dichelle\\web\\Projects\\Projects\\Animations\\Cats\\11967-diffuse.jpg",
+      "resolved_path": "E:\\Game\\game_develop\\CatSimulator\\assets\\BlendSwap18519\\Jonas Dichelle\\web\\Projects\\Projects\\Animations\\Cats\\11967-diffuse.jpg",
+      "exists": false,
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "black-cat-fur-texture.jpg",
+      "source": "FILE",
+      "path": "//Jonas Dichelle\\web\\Projects\\Projects\\Animations\\Cats\\black-cat-fur-texture.jpg",
+      "resolved_path": "E:\\Game\\game_develop\\CatSimulator\\assets\\BlendSwap18519\\Jonas Dichelle\\web\\Projects\\Projects\\Animations\\Cats\\black-cat-fur-texture.jpg",
+      "exists": false,
+      "packed": true,
+      "size": [
+        3888,
+        2592
+      ]
+    },
+    {
+      "name": "EXR",
+      "source": "FILE",
+      "path": "//..\\AppData\\Roaming\\Blender Foundation\\Blender\\2.77\\scripts\\addons\\pro_lighting_skies_demo\\hdris\\cloudy08_EXR.exr",
+      "resolved_path": "E:\\Game\\game_develop\\CatSimulator\\assets\\BlendSwap18519\\..\\AppData\\Roaming\\Blender Foundation\\Blender\\2.77\\scripts\\addons\\pro_lighting_skies_demo\\hdris\\cloudy08_EXR.exr",
+      "exists": false,
+      "packed": true,
+      "size": [
+        3000,
+        1500
+      ]
+    },
+    {
+      "name": "green_eye_diff.jpg.001",
+      "source": "FILE",
+      "path": "//Jonas Dichelle\\web\\Projects\\Projects\\Animations\\Cats\\green_eye_diff.jpg",
+      "resolved_path": "E:\\Game\\game_develop\\CatSimulator\\assets\\BlendSwap18519\\Jonas Dichelle\\web\\Projects\\Projects\\Animations\\Cats\\green_eye_diff.jpg",
+      "exists": false,
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "JPG",
+      "source": "FILE",
+      "path": "//..\\AppData\\Roaming\\Blender Foundation\\Blender\\2.77\\scripts\\addons\\pro_lighting_skies_demo\\hdris\\cloudy08_medium.jpg",
+      "resolved_path": "E:\\Game\\game_develop\\CatSimulator\\assets\\BlendSwap18519\\..\\AppData\\Roaming\\Blender Foundation\\Blender\\2.77\\scripts\\addons\\pro_lighting_skies_demo\\hdris\\cloudy08_medium.jpg",
+      "exists": false,
+      "packed": true,
+      "size": [
+        7500,
+        3750
+      ]
+    },
+    {
+      "name": "Render Result",
+      "source": "VIEWER",
+      "path": "",
+      "resolved_path": "",
+      "exists": false,
+      "packed": false,
+      "size": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Untitled",
+      "source": "FILE",
+      "path": "//Jonas Dichelle\\web\\Projects\\Projects\\Animations\\Cats\\cat_texture_new.png",
+      "resolved_path": "E:\\Game\\game_develop\\CatSimulator\\assets\\BlendSwap18519\\Jonas Dichelle\\web\\Projects\\Projects\\Animations\\Cats\\cat_texture_new.png",
+      "exists": false,
+      "packed": true,
+      "size": [
+        1500,
+        1500
+      ]
+    },
+    {
+      "name": "Viewer Node",
+      "source": "VIEWER",
+      "path": "",
+      "resolved_path": "",
+      "exists": false,
+      "packed": false,
+      "size": [
+        256,
+        256
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Cornea",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Mix Shader",
+          "type": "ShaderNodeMixShader",
+          "image": null
+        },
+        {
+          "name": "Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null
+        },
+        {
+          "name": "Value.01",
+          "type": "ShaderNodeValue",
+          "image": null
+        },
+        {
+          "name": "GlossyBSDF",
+          "type": "ShaderNodeBsdfAnisotropic",
+          "image": null
+        },
+        {
+          "name": "TransparentBSDF",
+          "type": "ShaderNodeBsdfTransparent",
+          "image": null
+        },
+        {
+          "name": "RGB",
+          "type": "ShaderNodeRGB",
+          "image": null
+        },
+        {
+          "name": "Geo",
+          "type": "ShaderNodeNewGeometry",
+          "image": null
+        },
+        {
+          "name": "Value",
+          "type": "ShaderNodeValue",
+          "image": null
+        },
+        {
+          "name": "Math",
+          "type": "ShaderNodeMath",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "hair",
+      "color": [
+        0.8,
+        0.8,
+        0.8,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null
+        },
+        {
+          "name": "Hair BSDF.001",
+          "type": "ShaderNodeBsdfHair",
+          "image": null
+        },
+        {
+          "name": "Hair BSDF",
+          "type": "ShaderNodeBsdfHair",
+          "image": null
+        },
+        {
+          "name": "Diffuse BSDF",
+          "type": "ShaderNodeBsdfDiffuse",
+          "image": null
+        },
+        {
+          "name": "Reroute",
+          "type": "NodeReroute",
+          "image": null
+        },
+        {
+          "name": "Hair Info",
+          "type": "ShaderNodeHairInfo",
+          "image": null
+        },
+        {
+          "name": "Hue Saturation Value",
+          "type": "ShaderNodeHueSaturation",
+          "image": null
+        },
+        {
+          "name": "Add Shader",
+          "type": "ShaderNodeAddShader",
+          "image": null
+        },
+        {
+          "name": "Mix",
+          "type": "ShaderNodeMix",
+          "image": null
+        },
+        {
+          "name": "Transparent BSDF",
+          "type": "ShaderNodeBsdfTransparent",
+          "image": null
+        },
+        {
+          "name": "ColorRamp",
+          "type": "ShaderNodeValToRGB",
+          "image": null
+        },
+        {
+          "name": "ColorRamp.001",
+          "type": "ShaderNodeValToRGB",
+          "image": null
+        },
+        {
+          "name": "Mix Shader",
+          "type": "ShaderNodeMixShader",
+          "image": null
+        },
+        {
+          "name": "Mix Shader.001",
+          "type": "ShaderNodeMixShader",
+          "image": null
+        },
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "image": "Untitled"
+        }
+      ]
+    },
+    {
+      "name": "Material",
+      "color": [
+        0.8,
+        0.8,
+        0.8,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null
+        },
+        {
+          "name": "Diffuse BSDF",
+          "type": "ShaderNodeBsdfDiffuse",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Material.002",
+      "color": [
+        0.8,
+        0.8,
+        0.8,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null
+        },
+        {
+          "name": "Diffuse BSDF",
+          "type": "ShaderNodeBsdfDiffuse",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "PBR Dielectric",
+      "color": [
+        0.8,
+        0.8,
+        0.8,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Mapping",
+          "type": "ShaderNodeMapping",
+          "image": null
+        },
+        {
+          "name": "Texture Coordinate",
+          "type": "ShaderNodeTexCoord",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null
+        },
+        {
+          "name": "RGB Curves",
+          "type": "ShaderNodeRGBCurve",
+          "image": null
+        },
+        {
+          "name": "Group",
+          "type": "ShaderNodeGroup",
+          "image": null
+        },
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "image": "11967-diffuse.jpg.001"
+        }
+      ]
+    },
+    {
+      "name": "Pupil",
+      "color": [
+        0.799103,
+        0.799103,
+        0.799103,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null
+        },
+        {
+          "name": "DiffuseBSDF",
+          "type": "ShaderNodeBsdfDiffuse",
+          "image": null
+        },
+        {
+          "name": "Geo",
+          "type": "ShaderNodeNewGeometry",
+          "image": null
+        },
+        {
+          "name": "TextureCoor",
+          "type": "ShaderNodeTexCoord",
+          "image": null
+        },
+        {
+          "name": "ImageTex",
+          "type": "ShaderNodeTexImage",
+          "image": "green_eye_diff.jpg.001"
+        }
+      ]
+    },
+    {
+      "name": "Sclera_and_Iris",
+      "color": [
+        0.799103,
+        0.799103,
+        0.799103,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Value.03",
+          "type": "ShaderNodeValue",
+          "image": null
+        },
+        {
+          "name": "Value.04",
+          "type": "ShaderNodeValue",
+          "image": null
+        },
+        {
+          "name": "RGB to BW",
+          "type": "ShaderNodeRGBToBW",
+          "image": null
+        },
+        {
+          "name": "Bright/Contrast",
+          "type": "ShaderNodeBrightContrast",
+          "image": null
+        },
+        {
+          "name": "Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null
+        },
+        {
+          "name": "Bump",
+          "type": "ShaderNodeBump",
+          "image": null
+        },
+        {
+          "name": "Value",
+          "type": "ShaderNodeValue",
+          "image": null
+        },
+        {
+          "name": "TextureCoor",
+          "type": "ShaderNodeTexCoord",
+          "image": null
+        },
+        {
+          "name": "GlossyBSDF",
+          "type": "ShaderNodeBsdfAnisotropic",
+          "image": null
+        },
+        {
+          "name": "DiffuseBSDF",
+          "type": "ShaderNodeBsdfDiffuse",
+          "image": null
+        },
+        {
+          "name": "Reroute",
+          "type": "NodeReroute",
+          "image": null
+        },
+        {
+          "name": "Value.02",
+          "type": "ShaderNodeValue",
+          "image": null
+        },
+        {
+          "name": "ImageTex.01",
+          "type": "ShaderNodeTexImage",
+          "image": "green_eye_diff.jpg.001"
+        },
+        {
+          "name": "ImageTex",
+          "type": "ShaderNodeTexImage",
+          "image": "green_eye_diff.jpg.001"
+        },
+        {
+          "name": "Mix Shader",
+          "type": "ShaderNodeMixShader",
+          "image": null
+        },
+        {
+          "name": "Math",
+          "type": "ShaderNodeMath",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "skin",
+      "color": [
+        0.8,
+        0.8,
+        0.8,
+        1.0
+      ],
+      "nodes": [
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "image": "Untitled"
+        },
+        {
+          "name": "Diffuse BSDF",
+          "type": "ShaderNodeBsdfDiffuse",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null
+        }
+      ]
+    }
+  ],
+  "embedded_texts": []
+}

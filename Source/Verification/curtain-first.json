@@ -1,0 +1,22 @@
+{
+    "order": "curtain-first",
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "resolution": "1920x1080",
+    "optionalDoesNotComplete": true,
+    "firstTaskDoesNotComplete": true,
+    "bothComplete": true,
+    "replayResets": true,
+    "cupMoves": true,
+    "clothChanges": true,
+    "movementWorks": true,
+    "jumpLands": true,
+    "climbHasSupport": true,
+    "cupColliderSized": true,
+    "cameraClearAtInteractions": true,
+    "roomRegressionPass": true,
+    "averageFps": 189.0309600830078,
+    "p95FrameMs": 8.225496292114258,
+    "p99FrameMs": 10.886798858642579,
+    "frames": 1540,
+    "errors": []
+}

@@ -1,0 +1,9 @@
+Rigged and animated Cat
+作者：JonasDichelle（Jonas Dichelle）
+来源：https://blendswap.com/blend/18519
+授权：CC-BY（资源页面未注明具体版本）
+授权说明：https://creativecommons.org/licenses/by/
+
+使用原作网格、贴图、骨骼及 Walk / run 动画。
+本项目进行了尺寸调整、骨骼动画烘焙、实时毛发转换、
+眼睛材质烘焙、URP 材质转换，并补充游戏互动动作。

@@ -1,0 +1,154 @@
+{
+    "passed": true,
+    "tableSofaSeparated": true,
+    "tableExitWorks": true,
+    "obstaclesKeepSteering": true,
+    "catBodyClearsSofa": true,
+    "tableSofaGap": 1.195000171661377,
+    "physicalMeshCount": 77,
+    "missingCollisions": [],
+    "movement": [
+        {
+            "location": "under-table",
+            "progressed": true,
+            "noReversal": true,
+            "exitedTable": true,
+            "travel": 1.6329425573349,
+            "maxAutomaticCameraYaw": 110.83538055419922,
+            "lateralDrift": 2.971403390006344e-8,
+            "movementBlockers": [],
+            "finalPosition": {
+                "x": 0.8124998807907105,
+                "y": 0.05060000717639923,
+                "z": 0.3070572316646576
+            }
+        },
+        {
+            "location": "right-wall",
+            "progressed": true,
+            "noReversal": true,
+            "exitedTable": false,
+            "travel": 1.172760009765625,
+            "maxAutomaticCameraYaw": 0.0,
+            "lateralDrift": 1.0252593796167275e-7,
+            "movementBlockers": [],
+            "finalPosition": {
+                "x": 3.9800000190734865,
+                "y": 0.018805131316184999,
+                "z": 0.4772399067878723
+            }
+        },
+        {
+            "location": "beside-sofa",
+            "progressed": true,
+            "noReversal": true,
+            "exitedTable": false,
+            "travel": 1.0162991285324097,
+            "maxAutomaticCameraYaw": 79.99993896484375,
+            "lateralDrift": 5.9534624341495149e-8,
+            "movementBlockers": [],
+            "finalPosition": {
+                "x": -0.611299455165863,
+                "y": 0.05059981346130371,
+                "z": -1.1899999380111695
+            }
+        },
+        {
+            "location": "beside-box",
+            "progressed": true,
+            "noReversal": true,
+            "exitedTable": false,
+            "travel": 1.0140272378921509,
+            "maxAutomaticCameraYaw": 0.0,
+            "lateralDrift": 6.044074041255954e-8,
+            "movementBlockers": [],
+            "finalPosition": {
+                "x": -0.6109726428985596,
+                "y": 0.050600215792655948,
+                "z": 2.125
+            }
+        }
+    ],
+    "blockers": [
+        {
+            "objectName": "Sofa_Back",
+            "blocksController": true,
+            "stoppedBeforeSurface": 0.1499999761581421,
+            "meshSurfaceHit": true,
+            "touchedFurniture": true,
+            "maximumPenetration": 0.0
+        },
+        {
+            "objectName": "Sofa_Arm_Right",
+            "blocksController": true,
+            "stoppedBeforeSurface": 0.04488050937652588,
+            "meshSurfaceHit": true,
+            "touchedFurniture": true,
+            "maximumPenetration": 0.0
+        },
+        {
+            "objectName": "Sofa_Base",
+            "blocksController": true,
+            "stoppedBeforeSurface": 0.16760790348052979,
+            "meshSurfaceHit": true,
+            "touchedFurniture": true,
+            "maximumPenetration": 0.0
+        },
+        {
+            "objectName": "Back_Cushion",
+            "blocksController": true,
+            "stoppedBeforeSurface": 0.3349999189376831,
+            "meshSurfaceHit": true,
+            "touchedFurniture": true,
+            "maximumPenetration": 0.0
+        },
+        {
+            "objectName": "MediaCabinet",
+            "blocksController": true,
+            "stoppedBeforeSurface": 0.14999985694885255,
+            "meshSurfaceHit": true,
+            "touchedFurniture": true,
+            "maximumPenetration": 0.0
+        },
+        {
+            "objectName": "TVFrame",
+            "blocksController": true,
+            "stoppedBeforeSurface": 0.16549968719482423,
+            "meshSurfaceHit": true,
+            "touchedFurniture": true,
+            "maximumPenetration": 0.0
+        },
+        {
+            "objectName": "PlantPot",
+            "blocksController": true,
+            "stoppedBeforeSurface": 0.14999985694885255,
+            "meshSurfaceHit": true,
+            "touchedFurniture": true,
+            "maximumPenetration": 0.0
+        },
+        {
+            "objectName": "Table_Leg",
+            "blocksController": true,
+            "stoppedBeforeSurface": 0.1499999761581421,
+            "meshSurfaceHit": true,
+            "touchedFurniture": true,
+            "maximumPenetration": 0.0
+        },
+        {
+            "objectName": "SisalPost",
+            "blocksController": true,
+            "stoppedBeforeSurface": -0.06672501564025879,
+            "meshSurfaceHit": true,
+            "touchedFurniture": true,
+            "maximumPenetration": 0.0
+        },
+        {
+            "objectName": "Box_Front",
+            "blocksController": true,
+            "stoppedBeforeSurface": 0.1499999761581421,
+            "meshSurfaceHit": true,
+            "touchedFurniture": true,
+            "maximumPenetration": 0.0
+        }
+    ]
+}

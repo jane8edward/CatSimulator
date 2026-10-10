@@ -1,0 +1,20 @@
+{
+  "fbx": "E:\\Game\\game_develop\\CatSimulator\\Source\\Blender\\LihuaCat\\GameExport\\LihuaCat.fbx",
+  "textures": [
+    "E:\\Game\\game_develop\\CatSimulator\\Source\\Blender\\LihuaCat\\GameExport\\Textures\\LihuaCat_Body_Albedo.png",
+    "E:\\Game\\game_develop\\CatSimulator\\Source\\Blender\\LihuaCat\\GameExport\\Textures\\LihuaCat_Tail_Albedo.png",
+    "E:\\Game\\game_develop\\CatSimulator\\Source\\Blender\\LihuaCat\\GameExport\\Textures\\Ear_L_Albedo.png",
+    "E:\\Game\\game_develop\\CatSimulator\\Source\\Blender\\LihuaCat\\GameExport\\Textures\\Ear_R_Albedo.png",
+    "E:\\Game\\game_develop\\CatSimulator\\Source\\Blender\\LihuaCat\\GameExport\\Textures\\Eye_L_Albedo.png",
+    "E:\\Game\\game_develop\\CatSimulator\\Source\\Blender\\LihuaCat\\GameExport\\Textures\\Eye_R_Albedo.png",
+    "E:\\Game\\game_develop\\CatSimulator\\Source\\Blender\\LihuaCat\\GameExport\\Textures\\EyelidSkin_L_Albedo.png",
+    "E:\\Game\\game_develop\\CatSimulator\\Source\\Blender\\LihuaCat\\GameExport\\Textures\\EyelidSkin_R_Albedo.png"
+  ],
+  "mesh_vertices": 24177,
+  "base_triangles_before_nonbody_modifiers": 47302,
+  "body_nonmanifold_edges": 0,
+  "body_unweighted_vertices": 0,
+  "bones": 27,
+  "native_groom_in_fbx": false,
+  "animation_validation": "Rest pose only. No walk cycle or Unity integration has been validated."
+}

@@ -1,0 +1,104 @@
+{
+  "source": "https://blendswap.com/blend/18519",
+  "author": "JonasDichelle",
+  "license": "CC-BY (version unspecified on the asset page)",
+  "source_sha256": "fda4b80f1a06e67a1cc04396b858085faa5cd9742f28d9bde9837aaeab2727fa",
+  "original_file_unchanged": true,
+  "scale": 0.0468,
+  "bones": 85,
+  "cards": 5999,
+  "whiskers": 30,
+  "nonDeformBones": [
+    "Foot_front_IK_L",
+    "Knee_back_IK_L",
+    "Foot_Back_IK_L",
+    "Knee_front_IK_L",
+    "Tail_controller",
+    "Foot_front_IK_R",
+    "Knee_front_IK_R",
+    "Head_controller",
+    "Spine_controller_1",
+    "Spine_controller_2"
+  ],
+  "skinWeightsExcludeControllers": true,
+  "maxInfluences": 8,
+  "sizeFactorFromInitialImport": 0.9,
+  "maxCoatHairLengthM": 0.005616,
+  "original_animation_max_position_error_m": 1.3012340005815535e-07,
+  "nativeSpeeds": {
+    "Walk": 0.31392128677368164,
+    "Run": 1.444393322324753
+  },
+  "clips": [
+    {
+      "name": "Walk",
+      "frames": 28,
+      "seconds": 1.125,
+      "origin": "JonasDichelle original IK bake"
+    },
+    {
+      "name": "Run",
+      "frames": 15,
+      "seconds": 0.5833333333333334,
+      "origin": "JonasDichelle original IK bake"
+    },
+    {
+      "name": "Idle",
+      "frames": 49,
+      "seconds": 2.0,
+      "origin": "CatSimulator supplemental gameplay animation"
+    },
+    {
+      "name": "Jump",
+      "frames": 20,
+      "seconds": 0.7916666666666666,
+      "origin": "CatSimulator supplemental gameplay animation"
+    },
+    {
+      "name": "Land",
+      "frames": 7,
+      "seconds": 0.25,
+      "origin": "CatSimulator supplemental gameplay animation"
+    },
+    {
+      "name": "Paw",
+      "frames": 24,
+      "seconds": 0.9583333333333334,
+      "origin": "CatSimulator supplemental gameplay animation"
+    },
+    {
+      "name": "Scratch",
+      "frames": 59,
+      "seconds": 2.4166666666666665,
+      "origin": "CatSimulator supplemental gameplay animation"
+    }
+  ],
+  "triangles": 102424,
+  "meshes": [
+    {
+      "name": "BS18519_Body",
+      "vertices": 22650,
+      "triangles": 45296
+    },
+    {
+      "name": "BS18519_FurCards",
+      "vertices": 59990,
+      "triangles": 47992
+    },
+    {
+      "name": "BS18519_Whiskers",
+      "vertices": 750,
+      "triangles": 1200
+    },
+    {
+      "name": "BS18519_EyeMesh_0",
+      "vertices": 1986,
+      "triangles": 3968
+    },
+    {
+      "name": "BS18519_EyeMesh_1",
+      "vertices": 1986,
+      "triangles": 3968
+    }
+  ]
+}

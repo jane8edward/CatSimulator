@@ -1,0 +1,13 @@
+{
+  "factor": 1.25,
+  "oldFloorM": [
+    6.8,
+    5.8
+  ],
+  "newFloorM": [
+    8.5,
+    7.25
+  ],
+  "furnitureScaleUnchanged": true,
+  "roomObjects": 313
+}

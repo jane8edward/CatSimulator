@@ -1,0 +1,7 @@
+Idle: length=2, sampled bone motion=0
+Walk: length=1.125, sampled bone motion=0.1488332
+Run: length=0.5833334, sampled bone motion=0.2333101
+Jump: length=0.7916667, sampled bone motion=0.0468272
+Land: length=0.25, sampled bone motion=0
+Paw: length=0.9583334, sampled bone motion=0.09185772
+Scratch: length=2.416667, sampled bone motion=0.06083318

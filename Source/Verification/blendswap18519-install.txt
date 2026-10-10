@@ -1,0 +1,4 @@
+Installed into existing LivingRoom scene. Room colliders preserved: 82
+Head: (-0.81, 0.35, 0.83)
+Forward dot: 0.5063213
+Clips: BS18519_Rig|Idle (2s), BS18519_Rig|Walk (1.125s), BS18519_Rig|Run (0.5833334s), BS18519_Rig|Jump (0.7916667s), BS18519_Rig|Land (0.25s), BS18519_Rig|Paw (0.9583334s), BS18519_Rig|Scratch (2.416667s)

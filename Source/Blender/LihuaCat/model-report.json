@@ -1,0 +1,12 @@
+{
+  "blend": "E:\\Game\\game_develop\\CatSimulator\\Source\\Blender\\LihuaCat\\LihuaCat.blend",
+  "body_vertices": 15883,
+  "body_faces": 15881,
+  "bones": 27,
+  "groom_strands": 203409,
+  "reference_files": [
+    "image-20261010181403625.png",
+    "image-20261010181450004.png",
+    "image-20261010181517493.png"
+  ]
+}
