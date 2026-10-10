@@ -8,7 +8,7 @@ namespace CatSimulator
     {
         public CatController cat;
         public LevelSession session;
-        Text tasks, prompt, nameLabel, rating;
+        Text tasks, prompt, nameLabel, rating, version;
         GameObject pause, completion, credits;
         InputField nameInput;
         Font font;
@@ -28,7 +28,7 @@ namespace CatSimulator
             prompt = Label(transform,"InteractionPrompt",new Vector2(-280,140),new Vector2(560,54),28,new Vector2(.5f,0));
             prompt.alignment = TextAnchor.MiddleCenter;
             Label(transform,"Controls",new Vector2(24,60),new Vector2(1350,38),21,new Vector2(0,0)).text = "WASD 移动  ·  鼠标转镜头  ·  空格跳跃  ·  Shift 奔跑  ·  E 互动  ·  Esc 菜单";
-            Label(transform,"Version",new Vector2(-285,54),new Vector2(260,32),18,new Vector2(1,0)).text="开发原型 "+Application.version+" · 客厅";
+            version=Label(transform,"Version",new Vector2(-285,54),new Vector2(260,32),18,new Vector2(1,0));
             pause = Panel("Pause",new Vector2(-270,260),new Vector2(540,520),new Vector2(.5f,.5f)).gameObject;
             Label(pause.transform,"Title",new Vector2(30,-24),new Vector2(480,50),32).text="小猫休息一下";
             Label(pause.transform,"NameHint",new Vector2(30,-91),new Vector2(480,35),22).text="给小猫取个名字";
@@ -58,6 +58,7 @@ namespace CatSimulator
         {
             if (!cat.Automated && Input.GetKeyDown(KeyCode.Escape)) { completion.SetActive(false);credits.SetActive(false);SetPaused(!cat.Paused);pause.SetActive(cat.Paused); }
             prompt.text = cat.Paused ? "" : cat.IsBusy ? "" : cat.Nearest != null ? "E  " + cat.Nearest.prompt : "";
+            version.text="开发原型 "+Application.version+" · "+(cat.transform.position.x>4.25f?"卧室":"客厅");
         }
 
         void Refresh()

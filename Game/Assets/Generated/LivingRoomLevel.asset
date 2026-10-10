@@ -18,8 +18,8 @@ MonoBehaviour:
   - spill-cup
   - damage-curtain
   activityBounds:
-    m_Center: {x: 0, y: 1.5, z: 0}
-    m_Extent: {x: 4.35, y: 2, z: 3.725}
+    m_Center: {x: 2.8, y: 1.5, z: 0}
+    m_Extent: {x: 7.15, y: 2, z: 3.725}
   spawnPosition: {x: -0.8125, y: 0.06, z: 1}
   spawnYaw: 180
   daylightColor: {r: 1, g: 0.91, b: 0.78, a: 1}

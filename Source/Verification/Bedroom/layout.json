@@ -1,0 +1,54 @@
+{
+  "reference": "assets/video/catSimulator02.mp4",
+  "livingRoomM": [
+    8.5,
+    7.25
+  ],
+  "bedroomM": [
+    5.6,
+    6.1
+  ],
+  "doorwayWidthM": 1.6,
+  "bedM": [
+    2.03,
+    2.4
+  ],
+  "deskM": [
+    2.2,
+    0.88
+  ],
+  "looseProps": [
+    "Bedroom_Prop_Lamp_Left",
+    "Bedroom_Prop_Lamp_Right",
+    "Bedroom_Prop_DeskMat",
+    "Bedroom_Prop_Monitor",
+    "Bedroom_Prop_Keyboard",
+    "Bedroom_Prop_Mouse",
+    "Bedroom_Prop_Computer",
+    "Bedroom_Prop_Tissues",
+    "Bedroom_Prop_Book_0",
+    "Bedroom_Prop_Book_1",
+    "Bedroom_Prop_Book_2",
+    "Bedroom_Prop_PenCup",
+    "Bedroom_Prop_Plant",
+    "Bedroom_Prop_Phone"
+  ],
+  "bedSideClearanceM": {
+    "wardrobeSide": 0.888,
+    "otherSide": 1.535
+  },
+  "mainWalkingRouteBlender": [
+    [
+      -5.38,
+      -1.1
+    ],
+    [
+      -8.2,
+      -1.1
+    ]
+  ],
+  "objects": 741,
+  "meshObjects": 687,
+  "source": "Source/Blender/living-room-bedroom.blend",
+  "existingCatUnchanged": true
+}

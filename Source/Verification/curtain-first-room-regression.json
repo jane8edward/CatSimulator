@@ -5,7 +5,7 @@
     "obstaclesKeepSteering": true,
     "catBodyClearsSofa": true,
     "tableSofaGap": 1.195000171661377,
-    "physicalMeshCount": 77,
+    "physicalMeshCount": 286,
     "missingCollisions": [],
     "movement": [
         {
@@ -13,14 +13,14 @@
             "progressed": true,
             "noReversal": true,
             "exitedTable": true,
-            "travel": 1.6329425573349,
-            "maxAutomaticCameraYaw": 110.83538055419922,
-            "lateralDrift": 2.971403390006344e-8,
+            "travel": 1.6330921649932862,
+            "maxAutomaticCameraYaw": 110.43486785888672,
+            "lateralDrift": 2.978429591848908e-8,
             "movementBlockers": [],
             "finalPosition": {
                 "x": 0.8124998807907105,
-                "y": 0.05060000717639923,
-                "z": 0.3070572316646576
+                "y": 0.05059999227523804,
+                "z": 0.30690762400627139
             }
         },
         {
@@ -28,14 +28,14 @@
             "progressed": true,
             "noReversal": true,
             "exitedTable": false,
-            "travel": 1.172760009765625,
+            "travel": 1.1724705696105958,
             "maxAutomaticCameraYaw": 0.0,
-            "lateralDrift": 1.0252593796167275e-7,
+            "lateralDrift": 1.0250063553485234e-7,
             "movementBlockers": [],
             "finalPosition": {
                 "x": 3.9800000190734865,
-                "y": 0.018805131316184999,
-                "z": 0.4772399067878723
+                "y": 0.00010004639625549316,
+                "z": 0.4775294363498688
             }
         },
         {
@@ -43,12 +43,12 @@
             "progressed": true,
             "noReversal": true,
             "exitedTable": false,
-            "travel": 1.0162991285324097,
-            "maxAutomaticCameraYaw": 79.99993896484375,
-            "lateralDrift": 5.9534624341495149e-8,
+            "travel": 1.01417875289917,
+            "maxAutomaticCameraYaw": 79.99994659423828,
+            "lateralDrift": 5.9593951107217438e-8,
             "movementBlockers": [],
             "finalPosition": {
-                "x": -0.611299455165863,
+                "x": -0.6091791391372681,
                 "y": 0.05059981346130371,
                 "z": -1.1899999380111695
             }
@@ -58,13 +58,13 @@
             "progressed": true,
             "noReversal": true,
             "exitedTable": false,
-            "travel": 1.0140272378921509,
+            "travel": 1.0142444372177125,
             "maxAutomaticCameraYaw": 0.0,
-            "lateralDrift": 6.044074041255954e-8,
+            "lateralDrift": 6.045368650120509e-8,
             "movementBlockers": [],
             "finalPosition": {
-                "x": -0.6109726428985596,
-                "y": 0.050600215792655948,
+                "x": -0.610755443572998,
+                "y": 0.05060020089149475,
                 "z": 2.125
             }
         }

@@ -1,0 +1,97 @@
+using UnityEngine;
+
+namespace CatSimulator
+{
+    [RequireComponent(typeof(MeshFilter), typeof(MeshCollider))]
+    public sealed class SoftPillow : MonoBehaviour
+    {
+        public float maximumSink = .045f;
+        public float recoveryTime = .42f;
+        public float CurrentIndentation { get; private set; }
+        public float CollisionIndentation { get; private set; }
+        Mesh mesh;
+        MeshCollider surface;
+        Vector3[] rest, restWorld, deformed;
+        readonly Vector3[] paws = new Vector3[4];
+        Bounds restBounds;
+        CatController cat;
+        float pressure, pressureVelocity, nextCollisionUpdate, lastSurfaceUpdate;
+        bool collisionDirty;
+
+        void Awake()
+        {
+            var filter = GetComponent<MeshFilter>();
+            mesh = Instantiate(filter.sharedMesh);
+            mesh.name = name + "_SoftSurface";
+            mesh.MarkDynamic();
+            filter.sharedMesh = mesh;
+            rest = mesh.vertices;
+            restWorld = new Vector3[rest.Length];
+            for (var i = 0; i < rest.Length; i++) restWorld[i] = transform.TransformPoint(rest[i]);
+            deformed = (Vector3[])rest.Clone();
+            surface = GetComponent<MeshCollider>();
+            surface.sharedMesh = mesh;
+            restBounds = GetComponent<Renderer>().bounds;
+            cat = FindFirstObjectByType<CatController>();
+        }
+
+        void LateUpdate()
+        {
+            if (cat == null) return;
+            var elapsed = Time.time - lastSurfaceUpdate;
+            if (elapsed < 1f / 30) return;
+            lastSurfaceUpdate = Time.time;
+            var foot = cat.transform.position;
+            var loaded = foot.y >= restBounds.min.y - .03f && foot.y <= restBounds.max.y + .12f
+                && foot.x > restBounds.min.x - .10f && foot.x < restBounds.max.x + .10f
+                && foot.z > restBounds.min.z - .10f && foot.z < restBounds.max.z + .10f;
+            if (loaded)
+            {
+                paws[0] = cat.transform.TransformPoint(new Vector3(-.075f, 0, .16f));
+                paws[1] = cat.transform.TransformPoint(new Vector3(.075f, 0, .16f));
+                paws[2] = cat.transform.TransformPoint(new Vector3(-.075f, 0, -.09f));
+                paws[3] = cat.transform.TransformPoint(new Vector3(.075f, 0, -.09f));
+            }
+            var previous = pressure;
+            pressure = Mathf.SmoothDamp(pressure, loaded ? 1 : 0, ref pressureVelocity,
+                loaded ? .10f : recoveryTime, Mathf.Infinity, elapsed);
+            if (pressure < .0005f && previous < .0005f && CurrentIndentation == 0) return;
+            CurrentIndentation = 0;
+            var localDown = transform.InverseTransformVector(Vector3.down);
+            for (var i = 0; i < rest.Length; i++)
+            {
+                var world = restWorld[i];
+                var height = Mathf.InverseLerp(restBounds.min.y, restBounds.max.y, world.y);
+                var influence = 0f;
+                for (var p = 0; p < paws.Length; p++)
+                {
+                    var dx = world.x - paws[p].x;
+                    var dz = world.z - paws[p].z;
+                    influence += Mathf.Exp(-(dx * dx + dz * dz) / (.145f * .145f));
+                }
+                var depth = maximumSink * pressure * Mathf.Min(1, influence / 1.8f)
+                    * Mathf.SmoothStep(0, 1, height);
+                if (pressure < .0005f) depth = 0;
+                deformed[i] = rest[i] + localDown * depth;
+                CurrentIndentation = Mathf.Max(CurrentIndentation, depth);
+            }
+            mesh.vertices = deformed;
+            mesh.RecalculateNormals();
+            mesh.RecalculateBounds();
+            collisionDirty = true;
+        }
+
+        void FixedUpdate()
+        {
+            if (!collisionDirty || Time.time < nextCollisionUpdate) return;
+            // Re-cook only loaded/recovering cushions, at 15 Hz; both paws and render use this surface.
+            surface.sharedMesh = null;
+            surface.sharedMesh = mesh;
+            CollisionIndentation = CurrentIndentation;
+            nextCollisionUpdate = Time.time + 1f / 15;
+            collisionDirty = false;
+        }
+
+        void OnDestroy() { if (mesh != null) Destroy(mesh); }
+    }
+}

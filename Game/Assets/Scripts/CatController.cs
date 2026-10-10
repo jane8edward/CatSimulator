@@ -68,12 +68,22 @@ namespace CatSimulator
             requestedJump=false;
             verticalSpeed -= 12 * Time.deltaTime;
             var horizontalMove = direction * speed * Time.deltaTime;
+            if (horizontalMove.sqrMagnitude > .0000001f)
+            {
+                // Low objects sit below the nose capsule. Front paws can nudge them before
+                // the character controller treats a mouse or book as a small step.
+                var paw = transform.TransformPoint(new Vector3(0, .045f, .16f));
+                if (Physics.SphereCast(paw, .028f, direction, out var pawHit,
+                    horizontalMove.magnitude + .10f, ~(1 << 8), QueryTriggerInteraction.Ignore))
+                    PushProp(pawHit.collider, direction, pawHit.point, speed);
+            }
             MovementBlocker = null;
             BodyPoints(transform.rotation, out var bodyRear, out var bodyFront);
             if (horizontalMove.sqrMagnitude > .0000001f && Physics.CapsuleCast(bodyRear, bodyFront, BodyRadius,
                 horizontalMove.normalized, out var bodyHit, horizontalMove.magnitude + .012f, ~(1 << 8), QueryTriggerInteraction.Ignore))
             {
                 MovementBlocker = bodyHit.collider.name;
+                PushProp(bodyHit.collider, direction, bodyHit.point, speed);
                 horizontalMove = horizontalMove.normalized * Mathf.Max(0, bodyHit.distance - .012f);
             }
             controller.Move(horizontalMove + Vector3.up * verticalSpeed * Time.deltaTime);
@@ -92,6 +102,18 @@ namespace CatSimulator
             // The cat's body is longer than a vertical controller capsule; protect its nose and rump too.
             rear = transform.position + rotation * new Vector3(0, .1935f, -.072f);
             front = transform.position + rotation * new Vector3(0, .1935f, .2025f);
+        }
+
+        void OnControllerColliderHit(ControllerColliderHit hit)
+        {
+            if (Mathf.Abs(hit.normal.y) > .65f) return;
+            PushProp(hit.collider, hit.moveDirection, hit.point, walkSpeed);
+        }
+
+        static void PushProp(Collider collider, Vector3 direction, Vector3 point, float speed)
+        {
+            var prop = collider.GetComponentInParent<PushableProp>();
+            if (prop != null) prop.RequestPush(direction, point, 4.5f + speed * 3);
         }
 
         void UpdateNearest()

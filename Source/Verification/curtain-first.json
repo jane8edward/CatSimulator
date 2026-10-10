@@ -14,9 +14,9 @@
     "cupColliderSized": true,
     "cameraClearAtInteractions": true,
     "roomRegressionPass": true,
-    "averageFps": 189.0309600830078,
-    "p95FrameMs": 8.225496292114258,
-    "p99FrameMs": 10.886798858642579,
-    "frames": 1540,
+    "averageFps": 221.53018188476563,
+    "p95FrameMs": 5.140398025512695,
+    "p99FrameMs": 5.433099269866943,
+    "frames": 1793,
     "errors": []
 }

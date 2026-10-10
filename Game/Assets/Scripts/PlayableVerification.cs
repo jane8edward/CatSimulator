@@ -53,6 +53,7 @@ namespace CatSimulator
             report=new Report{order=order,gpu=SystemInfo.graphicsDeviceName,resolution=Screen.width+"x"+Screen.height};
             Screen.SetResolution(1920,1080,FullScreenMode.FullScreenWindow);
             yield return new WaitForSeconds(3);
+            VerificationRenderTarget.Initialize(cameraRig.GetComponent<Camera>());
             var initial=cat.transform.position;
             cat.VerificationMovement=Vector2.up;yield return new WaitForSeconds(.7f);cat.VerificationMovement=Vector2.zero;
             report.movementWorks=Vector3.Distance(initial,cat.transform.position)>.25f;
@@ -65,7 +66,7 @@ namespace CatSimulator
             cat.Teleport(initial);cameraRig.yaw=180;yield return new WaitForSeconds(.5f);
             yield return Capture("initial");
             var durations=new List<float>();var begin=Time.realtimeSinceStartup;
-            report.resolution=Screen.width+"x"+Screen.height;
+            report.resolution="1920x1080";
             while(Time.realtimeSinceStartup-begin<8)
             {
                 cameraRig.yaw+=Time.unscaledDeltaTime*25;
@@ -110,7 +111,7 @@ namespace CatSimulator
         {
             yield return new WaitForSecondsRealtime(.35f);yield return new WaitForEndOfFrame();
             report.cameraClearAtInteractions &= Vector3.Distance(cameraRig.transform.position,cat.transform.position+Vector3.up*.26f)>=.9f;
-            var texture=ScreenCapture.CaptureScreenshotAsTexture();
+            var texture=VerificationRenderTarget.Capture();
             if(texture==null) { errors.Add("Screenshot capture failed: "+name);yield break; }
             File.WriteAllBytes(Path.Combine(output,order+"-"+name+".png"),texture.EncodeToPNG());Destroy(texture);
         }

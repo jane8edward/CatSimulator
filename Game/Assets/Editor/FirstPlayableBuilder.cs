@@ -27,19 +27,7 @@ namespace CatSimulator.Editor
             SetUpRendering();CreateMaterials();ImportModels();
             Debug.Log("BUILD_STAGE: Scene");
             var scene=EditorSceneManager.NewScene(NewSceneSetup.EmptyScene,NewSceneMode.Single);
-            var room=UnityEngine.Object.Instantiate(AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Art/LivingRoom.fbx"));room.name="LivingRoom";
-            ReplaceMaterials(room);
-            foreach(var t in room.GetComponentsInChildren<Transform>())
-            {
-                if(t.name.StartsWith("COL_"))
-                {
-                    if(t.name=="COL_Floor" || t.name.StartsWith("COL_Wall_") || t.name=="COL_Back" || t.name=="COL_WindowWall")
-                        t.gameObject.AddComponent<BoxCollider>();
-                    t.GetComponent<Renderer>().enabled=false;
-                }
-                else GameObjectUtility.SetStaticEditorFlags(t.gameObject,StaticEditorFlags.BatchingStatic);
-            }
-            ConfigureRoomCollisions(room);
+            var room=InstantiateRoom();
             var session=new GameObject("LevelSession").AddComponent<LevelSession>();
             var definition=ScriptableObject.CreateInstance<LevelDefinition>();definition.spawnPosition=new Vector3(-.8125f,.06f,1f);definition.spawnYaw=180;
             definition.activityBounds=new Bounds(new Vector3(0,1.5f,0),new Vector3(8.7f,4,7.45f));
@@ -75,9 +63,17 @@ namespace CatSimulator.Editor
             var hud=new GameObject("GameHUD").AddComponent<GameHud>();hud.cat=cat;hud.session=session;
             var test=new GameObject("DevelopmentVerification").AddComponent<PlayableVerification>();test.cat=cat;test.session=session;test.cameraRig=follow;
             CreateLighting(definition);
+            if(room.GetComponentsInChildren<Transform>().Any(t=>t.name=="BedroomCenter"))
+            {
+                SetBedroomBounds(definition);
+                ConfigureBedroomLighting(room);
+                test.gameObject.AddComponent<BedroomVerification>();
+                test.gameObject.AddComponent<BedroomPhysicsVerification>();
+            }
             EditorSceneManager.SaveScene(scene,"Assets/Scenes/LivingRoom.unity");
             EditorBuildSettings.scenes=new[]{new EditorBuildSettingsScene("Assets/Scenes/LivingRoom.unity",true)};
-            PlayerSettings.companyName="Jamari";PlayerSettings.productName="Cat Simulator";PlayerSettings.bundleVersion=BlendSwapCatIntegration.Available?"0.1.3":"0.1.1";
+            PlayerSettings.companyName="Jamari";PlayerSettings.productName="Cat Simulator";
+            PlayerSettings.bundleVersion=room.GetComponentsInChildren<Transform>().Any(t=>t.name=="BedroomCenter")?"0.1.5":BlendSwapCatIntegration.Available?"0.1.3":"0.1.1";
             PlayerSettings.colorSpace=ColorSpace.Linear;PlayerSettings.defaultScreenWidth=1920;PlayerSettings.defaultScreenHeight=1080;
             PlayerSettings.fullScreenMode=FullScreenMode.Windowed;PlayerSettings.runInBackground=true;PlayerSettings.resizableWindow=true;
             PlayerSettings.SetScriptingBackend(NamedBuildTarget.Standalone,ScriptingImplementation.Mono2x);
@@ -101,6 +97,100 @@ namespace CatSimulator.Editor
             File.WriteAllText("../Source/build-result.txt",report.summary.result+"\nBytes: "+report.summary.totalSize+"\nTime: "+report.summary.totalTime);
             if(report.summary.result!=UnityEditor.Build.Reporting.BuildResult.Succeeded) throw new Exception("Windows build failed");
             if(File.Exists("../THIRD_PARTY_NOTICES.md")) File.Copy("../THIRD_PARTY_NOTICES.md","../Builds/Windows/THIRD_PARTY_NOTICES.md",true);
+        }
+
+        [MenuItem("Cat Simulator/Apply Bedroom Expansion")]
+        public static void ApplyBedroomExpansion()
+        {
+            AssetDatabase.Refresh();
+            AssetDatabase.ImportAsset("Assets/Art/LivingRoom.fbx",ImportAssetOptions.ForceUpdate);
+            var importer=(ModelImporter)AssetImporter.GetAtPath("Assets/Art/LivingRoom.fbx");
+            if(!importer.isReadable) { importer.isReadable=true;importer.SaveAndReimport(); }
+            CreateMaterials();
+            var scene=EditorSceneManager.OpenScene("Assets/Scenes/LivingRoom.unity");
+            var session=UnityEngine.Object.FindFirstObjectByType<LevelSession>();
+            var cat=UnityEngine.Object.FindFirstObjectByType<CatController>();
+            if(session==null || cat==null) throw new InvalidOperationException("The saved level must contain its player and session.");
+            var previousVisual=cat.visual;
+            var previousAnimator=cat.animator;
+            var previousController=cat.animator.runtimeAnimatorController;
+            var previousRoom=GameObject.Find("LivingRoom");
+            var room=InstantiateRoom();
+            // Validate the new model before replacing the saved room; keep the player and camera.
+            Find(room,"BedroomCenter");Find(room,"BedroomDoorInside");
+            if(previousRoom!=null) UnityEngine.Object.DestroyImmediate(previousRoom);
+            AddInteractions(room,session);
+            BlendSwapCatIntegration.FitInteractions();
+            SetBedroomBounds(session.definition);
+            ConfigureBedroomLighting(room);
+            if(cat.visual!=previousVisual || cat.animator!=previousAnimator || cat.animator.runtimeAnimatorController!=previousController)
+                throw new InvalidOperationException("Room replacement changed the existing cat setup.");
+            var verification=UnityEngine.Object.FindFirstObjectByType<PlayableVerification>();
+            if(verification!=null && verification.GetComponent<BedroomVerification>()==null)
+                verification.gameObject.AddComponent<BedroomVerification>();
+            if(verification!=null && verification.GetComponent<BedroomPhysicsVerification>()==null)
+                verification.gameObject.AddComponent<BedroomPhysicsVerification>();
+            PlayerSettings.bundleVersion="0.1.5";
+            EditorUtility.SetDirty(session.definition);
+            EditorSceneManager.SaveScene(scene);
+            AssetDatabase.SaveAssets();
+            Debug.Log("BEDROOM_EXPANSION_APPLIED: player, camera and cat visual preserved");
+        }
+
+        public static void ApplyBedroomExpansionAndBuild() { ApplyBedroomExpansion(); Build(); }
+
+        static GameObject InstantiateRoom()
+        {
+            var room=UnityEngine.Object.Instantiate(AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Art/LivingRoom.fbx"));
+            room.name="LivingRoom";
+            ReplaceMaterials(room);
+            foreach(var t in room.GetComponentsInChildren<Transform>())
+            {
+                if(t.name.StartsWith("COL_"))
+                {
+                    if(t.name.StartsWith("COL_Floor") || t.name.StartsWith("COL_Wall_") || t.name=="COL_Back" || t.name=="COL_WindowWall")
+                        t.gameObject.AddComponent<BoxCollider>();
+                    var renderer=t.GetComponent<Renderer>();
+                    if(renderer!=null) renderer.enabled=false;
+                }
+                else GameObjectUtility.SetStaticEditorFlags(t.gameObject,StaticEditorFlags.BatchingStatic);
+            }
+            ConfigureRoomCollisions(room);
+            if(room.GetComponentsInChildren<Transform>().Any(t=>t.name=="Bedroom_Prop_Phone")) BedroomPhysicsSetup.Apply(room);
+            return room;
+        }
+
+        static void SetBedroomBounds(LevelDefinition definition)
+        {
+            // FBX maps Blender's -X extension onto Unity's +X.
+            definition.activityBounds=new Bounds(new Vector3(2.8f,1.5f,0),new Vector3(14.3f,4,7.45f));
+            EditorUtility.SetDirty(definition);
+        }
+
+        static void ConfigureBedroomLighting(GameObject room)
+        {
+            var previous=GameObject.Find("BedroomLighting");
+            if(previous!=null) UnityEngine.Object.DestroyImmediate(previous);
+            var root=new GameObject("BedroomLighting");
+            foreach(var side in new[]{"Left","Right"})
+            {
+                var lamp=new GameObject("BedsideWarmLight_"+side).AddComponent<Light>();
+                lamp.transform.SetParent(Find(room,"Bedroom_LampLight_"+side));lamp.transform.localPosition=Vector3.zero;
+                lamp.type=LightType.Point;lamp.color=new Color(1,.86f,.65f);lamp.intensity=.65f;lamp.range=3.6f;
+                lamp.shadows=LightShadows.None;
+            }
+            var window=new GameObject("BedroomWindowFill").AddComponent<Light>();
+            window.transform.SetParent(root.transform);window.transform.position=Find(room,"BedroomWindowLight").position;
+            window.type=LightType.Point;window.color=new Color(1,.965f,.90f);window.intensity=3.8f;window.range=6.8f;
+            window.shadows=LightShadows.None;
+            var bounce=new GameObject("BedroomSoftBounce").AddComponent<Light>();bounce.transform.SetParent(root.transform);
+            bounce.transform.position=Find(room,"BedroomCenter").position+Vector3.up*1.2f;
+            bounce.type=LightType.Point;bounce.color=new Color(1,.94f,.83f);bounce.intensity=1.25f;bounce.range=5.8f;
+            bounce.shadows=LightShadows.None;
+            var probe=new GameObject("BedroomReflections").AddComponent<ReflectionProbe>();probe.transform.SetParent(root.transform);
+            probe.transform.position=Find(room,"BedroomCenter").position;probe.size=new Vector3(5.6f,3,6.1f);
+            probe.mode=ReflectionProbeMode.Realtime;probe.refreshMode=ReflectionProbeRefreshMode.OnAwake;probe.resolution=128;
+            probe.boxProjection=true;probe.cullingMask=~(1<<8);probe.intensity=.7f;
         }
 
         static void SetUpRendering()
@@ -153,6 +243,12 @@ namespace CatSimulator.Editor
                     mat.SetColor("_BaseColor",new Color(color.r,color.g,color.b,entry.name=="Glass_Clear"?.2f:.3f));
                     mat.EnableKeyword("_SURFACE_TYPE_TRANSPARENT");mat.renderQueue=3000;mat.SetOverrideTag("RenderType","Transparent");
                 }
+                if(entry.name=="Bedroom_LampGlow" || entry.name=="Bedroom_Screen" || entry.name=="Bedroom_PhoneScreen" || entry.name=="Bedroom_ChargingGreen")
+                {
+                    mat.shader=Shader.Find("Universal Render Pipeline/Lit");mat.SetColor("_BaseColor",color);
+                    mat.SetColor("_EmissionColor",color*(entry.name=="Bedroom_LampGlow"?1.4f:.25f));
+                    mat.EnableKeyword("_EMISSION");
+                }
                 SaveAsset(mat,Generated+"/"+entry.name+".mat");materials[entry.name]=AssetDatabase.LoadAssetAtPath<Material>(Generated+"/"+entry.name+".mat");
             }
             var outline=new Material(Shader.Find("CatSimulator/InteractionOutline"));SaveAsset(outline,Generated+"/Outline.mat");
@@ -168,7 +264,7 @@ namespace CatSimulator.Editor
         }
         static void ImportModels()
         {
-            var room=(ModelImporter)AssetImporter.GetAtPath("Assets/Art/LivingRoom.fbx");room.globalScale=1;room.SaveAndReimport();
+            var room=(ModelImporter)AssetImporter.GetAtPath("Assets/Art/LivingRoom.fbx");room.globalScale=1;room.isReadable=true;room.SaveAndReimport();
             var cat=(ModelImporter)AssetImporter.GetAtPath("Assets/Art/ReferenceCat.fbx");cat.animationType=ModelImporterAnimationType.Generic;
             cat.avatarSetup=ModelImporterAvatarSetup.CreateFromThisModel;
             cat.importAnimation=true;cat.animationCompression=ModelImporterAnimationCompression.Off;cat.optimizeGameObjects=false;

@@ -20,7 +20,7 @@ namespace CatSimulator
             {
                 yield return new WaitForEndOfFrame();
                 if(!Recording) break;
-                var image=ScreenCapture.CaptureScreenshotAsTexture();
+                var image=VerificationRenderTarget.Capture();
                 if(image==null) break;
                 File.WriteAllBytes(Path.Combine(folder,(frame++).ToString("D5")+".jpg"),image.EncodeToJPG(90));Destroy(image);
             }

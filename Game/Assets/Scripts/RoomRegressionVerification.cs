@@ -144,7 +144,7 @@ namespace CatSimulator
             if(location=="under-table")
             {
                 yield return new WaitForSeconds(.4f);yield return new WaitForEndOfFrame();
-                var texture=ScreenCapture.CaptureScreenshotAsTexture();
+                var texture=VerificationRenderTarget.Capture();
                 if(texture!=null) {File.WriteAllBytes(Path.Combine(output,order+"-table-exit.png"),texture.EncodeToPNG());Destroy(texture);}
             }
         }
