@@ -68,3 +68,11 @@ Builds/Mac/CatSimulator.app/Contents/MacOS/Cat\ Simulator \
 - 初次预览发现高墙遮挡和色彩空间差异，已修正并重新构建、运行、检查截图。
 
 完整结果与截图见 `Source/Verification/ModelResources/validation-summary.json`、`Runtime`、`Playable`。
+
+### Windows 复核与原生猫贴图修复
+
+PR #1 复核发现原生 `Abyssinian_Cat_WalkRig.blend` 的四张贴图引用了仓库外的旧目录。现改为仓库内 `Game/Assets/Cat/Source` 的相对路径，并将 basecolor、metallic、normal、roughness 四张贴图打包进 `.blend`。修复前后网格、对象变换、骨骼和蒙皮权重的 SHA-256 指纹一致，原 Unity FBX 和动画未变动。
+
+Windows / Unity 6000.3.26f1 / RTX 3050 Laptop 复核：原生 84 类资产读取、38 骨骼的 241 姿态检查、1352 网格住宅加载，以及新猫实际动画、位移、暂停和重置均通过。Windows 构建成功；现有关卡的两种任务顺序、卧室通行与镜头、动态物品和软枕头四项回归通过，1080p 平均约 185–214 FPS。
+
+截图复核通过临时离屏渲染验证器使用 Direct3D 11 完成。PR 自带的 `ScreenCapture` 检查在 Windows 隐藏窗口下无法截图，其他检查项正常，未将这次退出码 2 记为通过；现有关卡四项回归使用默认 Direct3D 12 并以退出码 0 完成。临时验证脚本和本机生成的 Unity 设置不随修复提交。
