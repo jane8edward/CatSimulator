@@ -1,0 +1,182 @@
+{
+  "id": "H90-ARC-001",
+  "category": "ARC",
+  "slug": "WoodFloor",
+  "name": "木地板模块",
+  "rooms": [
+    "MBR",
+    "OFF",
+    "ENT",
+    "HALL",
+    "LIV"
+  ],
+  "quantity": "5个区域",
+  "size": "D：净区域合计56.30㎡",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M01"
+  ],
+  "priority": "P0",
+  "references": [
+    "R01",
+    "D01"
+  ],
+  "splitAndInteractionPlan": "按房间切分；落地碰撞",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/ARC/H90-ARC-001_WoodFloor",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_MBR_ARC001_Floor_MBR_01_ROOT",
+      "assetId": "H90-ARC-001",
+      "room": "MBR",
+      "location_m": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.0
+      ],
+      "minimum_m": [
+        0.20000004768371582,
+        0.19999992847442627,
+        -0.032999999821186066
+      ],
+      "maximum_m": [
+        4.140000343322754,
+        3.940000057220459,
+        0.003000000026077032
+      ],
+      "dimensions_m": [
+        3.940000295639038,
+        3.7400001287460327,
+        0.0359999998472631
+      ]
+    },
+    {
+      "name": "H90_OFF_ARC001_Floor_OFF_01_ROOT",
+      "assetId": "H90-ARC-001",
+      "room": "OFF",
+      "location_m": [
+        0.20000000298023224,
+        4.059999942779541,
+        0.0
+      ],
+      "minimum_m": [
+        0.20000004768371582,
+        4.059999942779541,
+        -0.032999999821186066
+      ],
+      "maximum_m": [
+        2.940000057220459,
+        6.940000057220459,
+        0.003000000026077032
+      ],
+      "dimensions_m": [
+        2.740000009536743,
+        2.880000114440918,
+        0.0359999998472631
+      ]
+    },
+    {
+      "name": "H90_HALL_ARC001_Floor_HALL_01_ROOT",
+      "assetId": "H90-ARC-001",
+      "room": "HALL",
+      "location_m": [
+        3.059999942779541,
+        4.059999942779541,
+        0.0
+      ],
+      "minimum_m": [
+        3.059999942779541,
+        4.059999942779541,
+        -0.032999999821186066
+      ],
+      "maximum_m": [
+        4.139999866485596,
+        6.940000057220459,
+        0.003000000026077032
+      ],
+      "dimensions_m": [
+        1.0799999237060547,
+        2.880000114440918,
+        0.0359999998472631
+      ]
+    },
+    {
+      "name": "H90_ENT_ARC001_Floor_ENT_01_ROOT",
+      "assetId": "H90-ARC-001",
+      "room": "ENT",
+      "location_m": [
+        0.20000000298023224,
+        7.059999942779541,
+        0.0
+      ],
+      "minimum_m": [
+        0.20000004768371582,
+        7.059999942779541,
+        -0.032999999821186066
+      ],
+      "maximum_m": [
+        4.140000343322754,
+        8.800000190734863,
+        0.003000000026077032
+      ],
+      "dimensions_m": [
+        3.940000295639038,
+        1.7400002479553223,
+        0.0359999998472631
+      ]
+    },
+    {
+      "name": "H90_LIV_ARC001_Floor_LIV_01_ROOT",
+      "assetId": "H90-ARC-001",
+      "room": "LIV",
+      "location_m": [
+        4.260000228881836,
+        1.659999966621399,
+        0.0
+      ],
+      "minimum_m": [
+        4.260000228881836,
+        1.6600000858306885,
+        -0.032999999821186066
+      ],
+      "maximum_m": [
+        9.800000190734863,
+        5.940000534057617,
+        0.003000000026077032
+      ],
+      "dimensions_m": [
+        5.539999961853027,
+        4.280000448226929,
+        0.0359999998472631
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_ARC_001_WoodFloor_v001",
+  "nativeBlenderSource": "02_资产库/ARC/H90-ARC-001_WoodFloor/Source/H90_ARC_001_WoodFloor_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_MBR_ARC001_Floor_MBR_01_ROOT",
+    "H90_MBR_ARC001_Floor_MBR_01_P01_Subfloor",
+    "H90_MBR_ARC001_Floor_MBR_01_P02_Floor_Module",
+    "H90_OFF_ARC001_Floor_OFF_01_ROOT",
+    "H90_OFF_ARC001_Floor_OFF_01_P01_Subfloor",
+    "H90_OFF_ARC001_Floor_OFF_01_P02_Floor_Module",
+    "H90_HALL_ARC001_Floor_HALL_01_ROOT",
+    "H90_HALL_ARC001_Floor_HALL_01_P01_Subfloor",
+    "H90_HALL_ARC001_Floor_HALL_01_P02_Floor_Module",
+    "H90_ENT_ARC001_Floor_ENT_01_ROOT",
+    "H90_ENT_ARC001_Floor_ENT_01_P01_Subfloor",
+    "H90_ENT_ARC001_Floor_ENT_01_P02_Floor_Module",
+    "H90_LIV_ARC001_Floor_LIV_01_ROOT",
+    "H90_LIV_ARC001_Floor_LIV_01_P01_Subfloor",
+    "H90_LIV_ARC001_Floor_LIV_01_P02_Floor_Module"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "H90-ENV-002",
+  "category": "ENV",
+  "slug": "TreeLine",
+  "name": "窗外树带",
+  "rooms": [
+    "EXT"
+  ],
+  "quantity": "1组",
+  "size": "T：远景卡片/低细节造型",
+  "sizeBasis": "待定",
+  "materials": [
+    "M13"
+  ],
+  "priority": "P2",
+  "references": [
+    "R04"
+  ],
+  "splitAndInteractionPlan": "与城市远景去重；不作为室内绿植",
+  "optional": false,
+  "status": "待建模",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/ENV/H90-ENV-002_TreeLine",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": null,
+  "engineAcceptance": false,
+  "expectedBasename": "H90_ENV_002_TreeLine_v001"
+}

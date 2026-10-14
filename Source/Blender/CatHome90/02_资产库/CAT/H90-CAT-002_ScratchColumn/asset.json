@@ -1,0 +1,84 @@
+{
+  "id": "H90-CAT-002",
+  "category": "CAT",
+  "slug": "ScratchColumn",
+  "name": "剑麻抓柱与高位卧台",
+  "rooms": [
+    "LIV"
+  ],
+  "quantity": "1件",
+  "size": "E：底座约0.55×0.55；总高2.30m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M08",
+    "M01",
+    "M05"
+  ],
+  "priority": "P0",
+  "references": [
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "柱、顶部卧台与底座分开；抓挠/休息点",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/CAT/H90-CAT-002_ScratchColumn",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_LIV_CAT002_ScratchColumn_01_ROOT",
+      "assetId": "H90-CAT-002",
+      "room": "LIV",
+      "location_m": [
+        9.300000190734863,
+        5.150000095367432,
+        0.0
+      ],
+      "minimum_m": [
+        8.195487976074219,
+        4.0369086265563965,
+        -0.9399999976158142
+      ],
+      "maximum_m": [
+        10.416000366210938,
+        6.263091564178467,
+        3.0950000286102295
+      ],
+      "dimensions_m": [
+        2.2205123901367188,
+        2.2261829376220703,
+        4.035000026226044
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_CAT_002_ScratchColumn_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G08",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-002_ScratchColumn_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "54d6b5419ed3f50c14591a10610f4c6d25874cd45c4742661f2bba7d8e2a29b6"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/CAT/H90-CAT-002_ScratchColumn/Source/H90_CAT_002_ScratchColumn_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_LIV_CAT002_ScratchColumn_01_ROOT",
+    "H90_LIV_CAT002_ScratchColumn_01_P01_Base",
+    "H90_LIV_CAT002_ScratchColumn_01_P02_SisalColumn",
+    "H90_LIV_CAT002_ScratchColumn_01_P03_WoundSisalRope",
+    "H90_LIV_CAT002_ScratchColumn_01_P04_RoundSleepingTray",
+    "H90_LIV_CAT002_ScratchColumn_01_P05_CreamBedPad"
+  ]
+}

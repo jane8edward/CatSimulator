@@ -1,0 +1,95 @@
+{
+  "id": "H90-ARC-002",
+  "category": "ARC",
+  "slug": "GreyTileFloor",
+  "name": "浅灰瓷砖地面",
+  "rooms": [
+    "KIT",
+    "BAL"
+  ],
+  "quantity": "2个区域",
+  "size": "D：合计15.48㎡",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M03"
+  ],
+  "priority": "P0",
+  "references": [
+    "R01",
+    "D01"
+  ],
+  "splitAndInteractionPlan": "按房间切分；落地碰撞",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/ARC/H90-ARC-002_GreyTileFloor",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_KIT_ARC002_Floor_KIT_01_ROOT",
+      "assetId": "H90-ARC-002",
+      "room": "KIT",
+      "location_m": [
+        6.860000133514404,
+        6.059999942779541,
+        0.0
+      ],
+      "minimum_m": [
+        6.859999656677246,
+        6.059999942779541,
+        -0.032999999821186066
+      ],
+      "maximum_m": [
+        9.800000190734863,
+        8.800000190734863,
+        0.003000000026077032
+      ],
+      "dimensions_m": [
+        2.940000534057617,
+        2.7400002479553223,
+        0.0359999998472631
+      ]
+    },
+    {
+      "name": "H90_BAL_ARC002_Floor_BAL_01_ROOT",
+      "assetId": "H90-ARC-002",
+      "room": "BAL",
+      "location_m": [
+        4.260000228881836,
+        0.20000000298023224,
+        0.0
+      ],
+      "minimum_m": [
+        4.260000228881836,
+        0.19999998807907104,
+        -0.032999999821186066
+      ],
+      "maximum_m": [
+        9.800000190734863,
+        1.5399999618530273,
+        0.003000000026077032
+      ],
+      "dimensions_m": [
+        5.539999961853027,
+        1.3399999737739563,
+        0.0359999998472631
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_ARC_002_GreyTileFloor_v001",
+  "nativeBlenderSource": "02_资产库/ARC/H90-ARC-002_GreyTileFloor/Source/H90_ARC_002_GreyTileFloor_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_KIT_ARC002_Floor_KIT_01_ROOT",
+    "H90_KIT_ARC002_Floor_KIT_01_P01_Subfloor",
+    "H90_KIT_ARC002_Floor_KIT_01_P02_Floor_Module",
+    "H90_BAL_ARC002_Floor_BAL_01_ROOT",
+    "H90_BAL_ARC002_Floor_BAL_01_P01_Subfloor",
+    "H90_BAL_ARC002_Floor_BAL_01_P02_Floor_Module"
+  ]
+}

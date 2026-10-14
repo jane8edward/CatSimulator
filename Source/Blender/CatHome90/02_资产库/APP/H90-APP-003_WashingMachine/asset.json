@@ -1,0 +1,89 @@
+{
+  "id": "H90-APP-003",
+  "category": "APP",
+  "slug": "WashingMachine",
+  "name": "滚筒洗衣机",
+  "rooms": [
+    "BAL"
+  ],
+  "quantity": "1台",
+  "size": "E：0.60×0.60×0.85m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M11",
+    "M10",
+    "M09"
+  ],
+  "priority": "P1",
+  "references": [
+    "R02",
+    "R04"
+  ],
+  "splitAndInteractionPlan": "机身、门盖、滚筒分开；仅普通家电交互",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/APP/H90-APP-003_WashingMachine",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_BAL_APP003_WashingMachine_01_ROOT",
+      "assetId": "H90-APP-003",
+      "room": "BAL",
+      "location_m": [
+        4.670000076293945,
+        0.8199999928474426,
+        0.0
+      ],
+      "minimum_m": [
+        4.369999885559082,
+        0.5199999809265137,
+        0.0
+      ],
+      "maximum_m": [
+        4.970000267028809,
+        1.1740000247955322,
+        0.8600000143051147
+      ],
+      "dimensions_m": [
+        0.6000003814697266,
+        0.6540000438690186,
+        0.8600000143051147
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_APP_003_WashingMachine_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G07",
+      "source": "R04",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-003_WashingMachine_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "77a9b2fad47729b7a9cb9a03cb8d3d65d5f4ff8fc8e0dfd3faf8ed1f8dde35f5"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/APP/H90-APP-003_WashingMachine/Source/H90_APP_003_WashingMachine_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_BAL_APP003_WashingMachine_01_ROOT",
+    "H90_BAL_APP003_WashingMachine_01_P01_ApplianceBody",
+    "H90_BAL_APP003_WashingMachine_01_P02_TopPanel",
+    "H90_BAL_APP003_WashingMachine_01_P03_ControlPanel",
+    "H90_BAL_APP003_WashingMachine_01_P04_DetergentDrawer",
+    "H90_BAL_APP003_WashingMachine_01_P05_Display",
+    "H90_BAL_APP003_WashingMachine_01_P06_Dial",
+    "H90_BAL_APP003_WashingMachine_01_P07_DoorDarkInterior",
+    "H90_BAL_APP003_WashingMachine_01_P08_DoorOuterTrim",
+    "H90_BAL_APP003_WashingMachine_01_P09_DoorRubberSeal",
+    "H90_BAL_APP003_WashingMachine_01_P10_AccessCover"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "H90-PRP-019",
+  "category": "PRP",
+  "slug": "LaundryBasket",
+  "name": "洗衣篮",
+  "rooms": [
+    "BAL"
+  ],
+  "quantity": "1件",
+  "size": "E：直径0.30、高0.40m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M08"
+  ],
+  "priority": "P2",
+  "references": [
+    "R02"
+  ],
+  "splitAndInteractionPlan": "壳体与内物分开",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-019_LaundryBasket",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_BAL_PRP019_WickerBasket_01_ROOT",
+      "assetId": "H90-PRP-019",
+      "room": "BAL",
+      "location_m": [
+        5.230000019073486,
+        1.149999976158142,
+        0.0
+      ],
+      "minimum_m": [
+        4.079999923706055,
+        0.0,
+        -0.9750000238418579
+      ],
+      "maximum_m": [
+        6.380000114440918,
+        2.299999952316284,
+        1.3700000047683716
+      ],
+      "dimensions_m": [
+        2.3000001907348633,
+        2.299999952316284,
+        2.3450000286102295
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_019_LaundryBasket_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G14",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-019_LaundryBasket_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "27e7b11bc804369f86f8ff19e440479c632d1ec2953fd60982e789935631b3f9"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/PRP/H90-PRP-019_LaundryBasket/Source/H90_PRP_019_LaundryBasket_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_BAL_PRP019_WickerBasket_01_ROOT",
+    "H90_BAL_PRP019_WickerBasket_01_P01_BasketBody",
+    "H90_BAL_PRP019_WickerBasket_01_P02_BasketBottom",
+    "H90_BAL_PRP019_WickerBasket_01_P03_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P04_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P05_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P06_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P07_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P08_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P09_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P10_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P11_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P12_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P13_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P14_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P15_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P16_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P17_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P18_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P19_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P20_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P21_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P22_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P23_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P24_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P25_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P26_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P27_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P28_HorizontalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P29_TopRim",
+    "H90_BAL_PRP019_WickerBasket_01_P30_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P31_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P32_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P33_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P34_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P35_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P36_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P37_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P38_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P39_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P40_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P41_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P42_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P43_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P44_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P45_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P46_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P47_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P48_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P49_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P50_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P51_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P52_VerticalWeave",
+    "H90_BAL_PRP019_WickerBasket_01_P53_VerticalWeave"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+    "rigType": "Generic",
+    "clip": "Assets/Cat/Animations/Abyssinian_Walk.anim",
+    "notes": "Baked on a repaired copy of the source 38-bone rig. Original FBX weights omitted hind limbs/head/tail; reweighted with Blender bone heat (four influences per vertex). Front shoulder translation approximates scapular follow-through; no separate anatomical scapula bone exists. World travel is provided by CatWalkPlayback at the matched stride speed. Muscle simulation is not included.",
+    "boneCount": 38,
+    "curveCount": 266,
+    "sampledPoses": 241,
+    "unweightedVertexCount": 0,
+    "cycleSeconds": 1.2000000476837159,
+    "strideMeters": 0.2800000011920929,
+    "speedMetersPerSecond": 0.23333331942558289,
+    "maxIKGoalErrorMeters": 6.322466106212232e-7,
+    "maxPlantedFootDriftMetersPerSample": 0.0000014943244650567067,
+    "maxPlantedFootSpeedMetersPerSecond": 0.0002988648775499314,
+    "lowestMeshVertexMeters": -0.00030477624386548996,
+    "maxBoneLengthDifferenceMeters": 3.0547380447387697e-7,
+    "seamPositionMeters": 4.799926567322643e-10,
+    "seamRotationDegrees": 0.0,
+    "avatarValid": true,
+    "loopEnabled": true,
+    "contactOrder": [
+        "LH",
+        "LF",
+        "RH",
+        "RF"
+    ],
+    "contactSeconds": [
+        0.0,
+        0.30000001192092898,
+        0.6000000238418579,
+        0.8999999761581421
+    ],
+    "pawMeshMotionMeters": [
+        0.18543609976768495,
+        0.1604752242565155,
+        0.14354345202445985,
+        0.11606354266405106
+    ]
+}

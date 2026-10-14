@@ -1,0 +1,111 @@
+{
+  "id": "H90-PRP-003",
+  "category": "PRP",
+  "slug": "BeddingKit",
+  "name": "床单与被褥套件",
+  "rooms": [
+    "MBR",
+    "OFF"
+  ],
+  "quantity": "2组",
+  "size": "E：适配1.8m/1.2m床",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M05",
+    "M06",
+    "M07"
+  ],
+  "priority": "P2",
+  "references": [
+    "R02"
+  ],
+  "splitAndInteractionPlan": "分床单、被褥；床体已在FUR登记",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-003_BeddingKit",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_MBR_PRP003_Bedding_01_ROOT",
+      "assetId": "H90-PRP-003",
+      "room": "MBR",
+      "location_m": [
+        1.649999976158142,
+        2.9000000953674316,
+        0.0
+      ],
+      "minimum_m": [
+        0.7324999570846558,
+        1.9150002002716064,
+        0.550000011920929
+      ],
+      "maximum_m": [
+        2.567500114440918,
+        3.8450000286102295,
+        0.6084999442100525
+      ],
+      "dimensions_m": [
+        1.8350001573562622,
+        1.929999828338623,
+        0.058499932289123535
+      ]
+    },
+    {
+      "name": "H90_OFF_PRP003_Bedding_01_ROOT",
+      "assetId": "H90-PRP-003",
+      "room": "OFF",
+      "location_m": [
+        0.8500000238418579,
+        5.900000095367432,
+        0.0
+      ],
+      "minimum_m": [
+        0.23250001668930054,
+        4.914999961853027,
+        0.44999998807907104
+      ],
+      "maximum_m": [
+        1.4674999713897705,
+        6.845000267028809,
+        0.5084999799728394
+      ],
+      "dimensions_m": [
+        1.23499995470047,
+        1.9300003051757812,
+        0.05849999189376831
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_003_BeddingKit_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Duvet",
+      "groupId": "G10",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-003_BeddingKit_Duvet_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "f9b612c63fcf94e89432878d22aa2d54d56ddece5b2c4e3d791bc12ccfe9a6fd"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/PRP/H90-PRP-003_BeddingKit/Source/H90_PRP_003_BeddingKit_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_MBR_PRP003_Bedding_01_ROOT",
+    "H90_MBR_PRP003_Bedding_01_P01_SageQuilt",
+    "H90_MBR_PRP003_Bedding_01_P02_FoldedQuiltEdge",
+    "H90_MBR_PRP003_Bedding_01_P03_CreamSheet",
+    "H90_OFF_PRP003_Bedding_01_ROOT",
+    "H90_OFF_PRP003_Bedding_01_P01_SageQuilt",
+    "H90_OFF_PRP003_Bedding_01_P02_FoldedQuiltEdge",
+    "H90_OFF_PRP003_Bedding_01_P03_CreamSheet"
+  ]
+}

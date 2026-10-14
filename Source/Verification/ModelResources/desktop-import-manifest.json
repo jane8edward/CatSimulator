@@ -1,0 +1,853 @@
+{
+  "desktopOriginalsPreserved": true,
+  "unityOriginals": [
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Scripts.meta",
+      "repository": "Game/Assets/Cat/Scripts.meta",
+      "originalSha256": "213d67d494d7477eb87463a05dd9e9e56b6a2a91c6d052eaf513afffe84a84f7",
+      "copiedUnchanged": true,
+      "repositorySha256": "213d67d494d7477eb87463a05dd9e9e56b6a2a91c6d052eaf513afffe84a84f7",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Materials.meta",
+      "repository": "Game/Assets/Cat/Materials.meta",
+      "originalSha256": "93151b8782353bd8a018c7caf77543bf9aba1458bee7a3a4020f29a20bad1ce9",
+      "copiedUnchanged": true,
+      "repositorySha256": "93151b8782353bd8a018c7caf77543bf9aba1458bee7a3a4020f29a20bad1ce9",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Editor.meta",
+      "repository": "Game/Assets/Cat/Editor.meta",
+      "originalSha256": "6fe86e51a284f5c4ccf95e8d54d5929526e1855c9d35815993f7562cfa475792",
+      "copiedUnchanged": true,
+      "repositorySha256": "6fe86e51a284f5c4ccf95e8d54d5929526e1855c9d35815993f7562cfa475792",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Prefabs.meta",
+      "repository": "Game/Assets/Cat/Prefabs.meta",
+      "originalSha256": "0c88594fe8fec609a566581f965e86dbc2df2c88dc2345cb0ad1c95e24faa616",
+      "copiedUnchanged": true,
+      "repositorySha256": "0c88594fe8fec609a566581f965e86dbc2df2c88dc2345cb0ad1c95e24faa616",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Resources.meta",
+      "repository": "Game/Assets/Cat/Resources.meta",
+      "originalSha256": "420d3feae478884ebb72f494a8a8311de3d482df397868939861593ccf717e16",
+      "copiedUnchanged": true,
+      "repositorySha256": "420d3feae478884ebb72f494a8a8311de3d482df397868939861593ccf717e16",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source.meta",
+      "repository": "Game/Assets/Cat/Source.meta",
+      "originalSha256": "d3a3dbb398a39410fd6366f27ad0e19d68071dcc0fc028b504c4f61ffc76e7d1",
+      "copiedUnchanged": true,
+      "repositorySha256": "d3a3dbb398a39410fd6366f27ad0e19d68071dcc0fc028b504c4f61ffc76e7d1",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Animations.meta",
+      "repository": "Game/Assets/Cat/Animations.meta",
+      "originalSha256": "390c31417ef688b23e3c0ffae27a1f21a447cd1af50598835ba36157e8426ce5",
+      "copiedUnchanged": true,
+      "repositorySha256": "390c31417ef688b23e3c0ffae27a1f21a447cd1af50598835ba36157e8426ce5",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Reports.meta",
+      "repository": "Game/Assets/Cat/Reports.meta",
+      "originalSha256": "b6429bb96f8d8eec101d013da9db3391bc50f5f1d9cfc042dd39d9c0f94ffc04",
+      "copiedUnchanged": true,
+      "repositorySha256": "b6429bb96f8d8eec101d013da9db3391bc50f5f1d9cfc042dd39d9c0f94ffc04",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Scenes.meta",
+      "repository": "Game/Assets/Cat/Scenes.meta",
+      "originalSha256": "f72da004d1fc8b12bf235f2f5b46b5bbfdd32c0ee61ef05a37ac8277eb43004e",
+      "copiedUnchanged": true,
+      "repositorySha256": "f72da004d1fc8b12bf235f2f5b46b5bbfdd32c0ee61ef05a37ac8277eb43004e",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Scenes/Walk_Preview.unity",
+      "repository": "Game/Assets/Cat/Scenes/Walk_Preview.unity",
+      "originalSha256": "ee16ec40e1c96430dc1b4b99aefd901397ffdc7933def9b51592e41232b1b50b",
+      "copiedUnchanged": true,
+      "repositorySha256": "ee16ec40e1c96430dc1b4b99aefd901397ffdc7933def9b51592e41232b1b50b",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Scenes/Walk_Preview.unity.meta",
+      "repository": "Game/Assets/Cat/Scenes/Walk_Preview.unity.meta",
+      "originalSha256": "4e00b3da9ac221b1566b43d60ff7d27bfb1ec17d2e40cd80ac90b883c4b8070c",
+      "copiedUnchanged": true,
+      "repositorySha256": "4e00b3da9ac221b1566b43d60ff7d27bfb1ec17d2e40cd80ac90b883c4b8070c",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Materials/GroundGrid.asset",
+      "repository": "Game/Assets/Cat/Materials/GroundGrid.asset",
+      "originalSha256": "a1bc2954e159d3fb7fa06b939afed555fcacce6c3c1ec5a02234a484a1ee559b",
+      "copiedUnchanged": true,
+      "repositorySha256": "a1bc2954e159d3fb7fa06b939afed555fcacce6c3c1ec5a02234a484a1ee559b",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Materials/GroundGrid.asset.meta",
+      "repository": "Game/Assets/Cat/Materials/GroundGrid.asset.meta",
+      "originalSha256": "59135b3d18ae7095dd2e3038bc6491ea33af7235fd4698870feb554a3885f5f3",
+      "copiedUnchanged": true,
+      "repositorySha256": "59135b3d18ae7095dd2e3038bc6491ea33af7235fd4698870feb554a3885f5f3",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Materials/Abyssinian_Coat.mat.meta",
+      "repository": "Game/Assets/Cat/Materials/Abyssinian_Coat.mat.meta",
+      "originalSha256": "2a3c5501a73223b4f129800f9bd082272d4e55ca7874bfc0c8f0de8462daa627",
+      "copiedUnchanged": true,
+      "repositorySha256": "2a3c5501a73223b4f129800f9bd082272d4e55ca7874bfc0c8f0de8462daa627",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Materials/Abyssinian_Coat.mat",
+      "repository": "Game/Assets/Cat/Materials/Abyssinian_Coat.mat",
+      "originalSha256": "aa884dee385b3318a036d784c8fb4cf6b5750d2803fc6b7c91da9e8758b0747a",
+      "copiedUnchanged": false,
+      "repositorySha256": "8409633f0d25318b4633e7d714664821da810b7ef6df54d330f4ab45a594827e",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Materials/Ground.mat.meta",
+      "repository": "Game/Assets/Cat/Materials/Ground.mat.meta",
+      "originalSha256": "4b20a667162c62d3452ecb2445c0467d09f75851bff029c7a3c66fc613fdd79c",
+      "copiedUnchanged": true,
+      "repositorySha256": "4b20a667162c62d3452ecb2445c0467d09f75851bff029c7a3c66fc613fdd79c",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Materials/Ground.mat",
+      "repository": "Game/Assets/Cat/Materials/Ground.mat",
+      "originalSha256": "a17633bcf649adae3bccd3a7addf2d20760d2e1a872d1d06f1632533887f205e",
+      "copiedUnchanged": false,
+      "repositorySha256": "73e9ad52c37028dfebbd9de691919dd9eafac4f24bcfbab91c08de2bee56037f",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Prefabs/Abyssinian_Walking_Cat.prefab",
+      "repository": "Game/Assets/Cat/Prefabs/Abyssinian_Walking_Cat.prefab",
+      "originalSha256": "74f6119beb417a346b07fbefa8e22a401e3587a72e4e6494c42a1355d00a0b8d",
+      "copiedUnchanged": true,
+      "repositorySha256": "74f6119beb417a346b07fbefa8e22a401e3587a72e4e6494c42a1355d00a0b8d",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Prefabs/Abyssinian_Walking_Cat.prefab.meta",
+      "repository": "Game/Assets/Cat/Prefabs/Abyssinian_Walking_Cat.prefab.meta",
+      "originalSha256": "ea0e68b7fd7680ed59cb846501575144eb4c5cd02244ad7e57060003afbebed8",
+      "copiedUnchanged": true,
+      "repositorySha256": "ea0e68b7fd7680ed59cb846501575144eb4c5cd02244ad7e57060003afbebed8",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Resources/NotoSansSC.ttf.meta",
+      "repository": "Game/Assets/Cat/Resources/NotoSansSC.ttf.meta",
+      "originalSha256": "3a45f07d1901d92b795c9d4be12c0517135db5b049d99cee4786d38b928fd0e1",
+      "copiedUnchanged": true,
+      "repositorySha256": "3a45f07d1901d92b795c9d4be12c0517135db5b049d99cee4786d38b928fd0e1",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Resources/NotoSansSC.ttf",
+      "repository": "Game/Assets/Cat/Resources/NotoSansSC.ttf",
+      "originalSha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "copiedUnchanged": true,
+      "repositorySha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbx",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbx",
+      "originalSha256": "1972ef29b48f3b4d384420bb02ec01c8aee96309f55853f85c4b24598b51feae",
+      "copiedUnchanged": true,
+      "repositorySha256": "1972ef29b48f3b4d384420bb02ec01c8aee96309f55853f85c4b24598b51feae",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm.meta",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm.meta",
+      "originalSha256": "23b16090acc30d9307c8470c8f0f4d9bf701169f1c032d4e3555f94555155add",
+      "copiedUnchanged": true,
+      "repositorySha256": "23b16090acc30d9307c8470c8f0f4d9bf701169f1c032d4e3555f94555155add",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbx.meta",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbx.meta",
+      "originalSha256": "b2987321563016d2fc2f17f071318f29b8fd39c34f2b06c0b5f59d183b0ed79f",
+      "copiedUnchanged": true,
+      "repositorySha256": "b2987321563016d2fc2f17f071318f29b8fd39c34f2b06c0b5f59d183b0ed79f",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/Abyssinian_Cat_WalkRig.fbx.meta",
+      "repository": "Game/Assets/Cat/Source/Abyssinian_Cat_WalkRig.fbx.meta",
+      "originalSha256": "2780314edbaadc6439c63ecf6944ab103b2244963955b9da020a059b2204d3b5",
+      "copiedUnchanged": true,
+      "repositorySha256": "2780314edbaadc6439c63ecf6944ab103b2244963955b9da020a059b2204d3b5",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/Abyssinian_Cat_WalkRig.fbx",
+      "repository": "Game/Assets/Cat/Source/Abyssinian_Cat_WalkRig.fbx",
+      "originalSha256": "3c04e212410f9183bedf6bd5ca0a64a6a11bc6cee9745b3820eca48443b54c76",
+      "copiedUnchanged": true,
+      "repositorySha256": "3c04e212410f9183bedf6bd5ca0a64a6a11bc6cee9745b3820eca48443b54c76",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_normal.JPEG",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_normal.JPEG",
+      "originalSha256": "63e9e7e6659e0108cd89867d281d4ae481156d12abdedff19e53c309d0294c36",
+      "copiedUnchanged": true,
+      "repositorySha256": "63e9e7e6659e0108cd89867d281d4ae481156d12abdedff19e53c309d0294c36",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_basecolor.JPEG.meta",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_basecolor.JPEG.meta",
+      "originalSha256": "f936f6216432a2b1186d462ef1f21011ef086c7ad59fd78b54fc955e5158af03",
+      "copiedUnchanged": true,
+      "repositorySha256": "f936f6216432a2b1186d462ef1f21011ef086c7ad59fd78b54fc955e5158af03",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_normal.JPEG.meta",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_normal.JPEG.meta",
+      "originalSha256": "d581385efb56025483adafbcfce3573f247aa03e78b40e0d46356f3a0b62ad2a",
+      "copiedUnchanged": true,
+      "repositorySha256": "d581385efb56025483adafbcfce3573f247aa03e78b40e0d46356f3a0b62ad2a",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_metallic.JPEG",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_metallic.JPEG",
+      "originalSha256": "cbece138d6ce1efa05c80dc9776a6e2f166c2fcd6708b3775373229262ddcce4",
+      "copiedUnchanged": true,
+      "repositorySha256": "cbece138d6ce1efa05c80dc9776a6e2f166c2fcd6708b3775373229262ddcce4",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_roughness.JPEG",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_roughness.JPEG",
+      "originalSha256": "0ca588b59df862e0bbedec4c8b60f14c6b085e009437daa2be2541f4bf694c1e",
+      "copiedUnchanged": true,
+      "repositorySha256": "0ca588b59df862e0bbedec4c8b60f14c6b085e009437daa2be2541f4bf694c1e",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_roughness.JPEG.meta",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_roughness.JPEG.meta",
+      "originalSha256": "e42373ebbe6d9489d5e39585dcec8f876eb1762caf88b657c06cbe9f85f264fb",
+      "copiedUnchanged": true,
+      "repositorySha256": "e42373ebbe6d9489d5e39585dcec8f876eb1762caf88b657c06cbe9f85f264fb",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_rm.PNG.meta",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_rm.PNG.meta",
+      "originalSha256": "7195a8e0c0a7d7223474751868fd7cb7ec60610f0672e9c4851e23cd9400d49d",
+      "copiedUnchanged": true,
+      "repositorySha256": "7195a8e0c0a7d7223474751868fd7cb7ec60610f0672e9c4851e23cd9400d49d",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_rm.PNG",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_rm.PNG",
+      "originalSha256": "c065ae6e1955d2993e27ecb89ab019a3011a74408beafc4f8be0d9e5bb15ea88",
+      "copiedUnchanged": true,
+      "repositorySha256": "c065ae6e1955d2993e27ecb89ab019a3011a74408beafc4f8be0d9e5bb15ea88",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_metallic.JPEG.meta",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_metallic.JPEG.meta",
+      "originalSha256": "6a87264dd0c32588207250a0ab7a51e12979dd1692c6d8d1c9176a09eee3909e",
+      "copiedUnchanged": true,
+      "repositorySha256": "6a87264dd0c32588207250a0ab7a51e12979dd1692c6d8d1c9176a09eee3909e",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_basecolor.JPEG",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_basecolor.JPEG",
+      "originalSha256": "bcf36488da5085af9ba17aa50fb4cef2bcbc8cd2e5424dd97674f0314f74b0f5",
+      "copiedUnchanged": true,
+      "repositorySha256": "bcf36488da5085af9ba17aa50fb4cef2bcbc8cd2e5424dd97674f0314f74b0f5",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Scripts/CatWalkPlayback.cs",
+      "repository": "Game/Assets/Cat/Scripts/CatWalkPlayback.cs",
+      "originalSha256": "b1a18f75cdcc28ff1f59d581b51f83aaa3056a0e56f8b8ff0f6b148cb0b4b4b6",
+      "copiedUnchanged": true,
+      "repositorySha256": "b1a18f75cdcc28ff1f59d581b51f83aaa3056a0e56f8b8ff0f6b148cb0b4b4b6",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Scripts/CatWalkPlayback.cs.meta",
+      "repository": "Game/Assets/Cat/Scripts/CatWalkPlayback.cs.meta",
+      "originalSha256": "89546938596b03119a3f76d303d225827d26f2c34933108120f3eb944fe18e3a",
+      "copiedUnchanged": true,
+      "repositorySha256": "89546938596b03119a3f76d303d225827d26f2c34933108120f3eb944fe18e3a",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Animations/Abyssinian_Walk.anim.meta",
+      "repository": "Game/Assets/Cat/Animations/Abyssinian_Walk.anim.meta",
+      "originalSha256": "66be4ece79330dfd756caf8002d076c38fc9377932acc08dc3c515b38f1cc23d",
+      "copiedUnchanged": true,
+      "repositorySha256": "66be4ece79330dfd756caf8002d076c38fc9377932acc08dc3c515b38f1cc23d",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Animations/Abyssinian_Walk.anim",
+      "repository": "Game/Assets/Cat/Animations/Abyssinian_Walk.anim",
+      "originalSha256": "d8cb8a99de55fc5408ee5cbf06dbd0d6aa48320adc59b931effa2237c6f29084",
+      "copiedUnchanged": true,
+      "repositorySha256": "d8cb8a99de55fc5408ee5cbf06dbd0d6aa48320adc59b931effa2237c6f29084",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Animations/Abyssinian_Walk.controller",
+      "repository": "Game/Assets/Cat/Animations/Abyssinian_Walk.controller",
+      "originalSha256": "9ab59b58a5d05f76b7122d74fff89b18c3f134fefc943a52a4bc738c29aebe73",
+      "copiedUnchanged": true,
+      "repositorySha256": "9ab59b58a5d05f76b7122d74fff89b18c3f134fefc943a52a4bc738c29aebe73",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Animations/Abyssinian_Walk.controller.meta",
+      "repository": "Game/Assets/Cat/Animations/Abyssinian_Walk.controller.meta",
+      "originalSha256": "8bf9eb9f3a16686c42424cb1668e3f68cbb85c5bc07e50457b722fb09cf190bf",
+      "copiedUnchanged": true,
+      "repositorySha256": "8bf9eb9f3a16686c42424cb1668e3f68cbb85c5bc07e50457b722fb09cf190bf",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Editor/CatWalkAuthoring.cs.meta",
+      "repository": "Game/Assets/Cat/Editor/CatWalkAuthoring.cs.meta",
+      "originalSha256": "0b06e06ea95159e1e8ba0ee9b85e738c79653c83952bfe76f10e285ee7ac57b3",
+      "copiedUnchanged": true,
+      "repositorySha256": "0b06e06ea95159e1e8ba0ee9b85e738c79653c83952bfe76f10e285ee7ac57b3",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Editor/CatWalkAuthoring.cs",
+      "repository": "Game/Assets/Cat/Editor/CatWalkAuthoring.cs",
+      "originalSha256": "cc125f0da07553828d8167794c873a72f40dfeb2c3ab458a8b92db597a7983d6",
+      "copiedUnchanged": false,
+      "repositorySha256": "4474258360f27505cbf8510abb18cd0200adea1ae5523659252825f299a49d82",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Reports/Rig_Mapping.json",
+      "repository": "Game/Assets/Cat/Reports/Rig_Mapping.json",
+      "originalSha256": "4a934b998cfb202cfa6e1935a3589aaa0a2b604f1767ca922160b3278f9b11fc",
+      "copiedUnchanged": true,
+      "repositorySha256": "4a934b998cfb202cfa6e1935a3589aaa0a2b604f1767ca922160b3278f9b11fc",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Reports/Skinning_Repair.json.meta",
+      "repository": "Game/Assets/Cat/Reports/Skinning_Repair.json.meta",
+      "originalSha256": "5f434b7442da71ed7f5197d3461c300621a5ab7e91d6bf0d652b43c045424965",
+      "copiedUnchanged": true,
+      "repositorySha256": "5f434b7442da71ed7f5197d3461c300621a5ab7e91d6bf0d652b43c045424965",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Reports/Walk_Checks.json.meta",
+      "repository": "Game/Assets/Cat/Reports/Walk_Checks.json.meta",
+      "originalSha256": "b74ae552502030c505edeffa3af99861d511f5d51106cce484e705ab5219e500",
+      "copiedUnchanged": true,
+      "repositorySha256": "b74ae552502030c505edeffa3af99861d511f5d51106cce484e705ab5219e500",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Reports/Skinning_Repair.json",
+      "repository": "Game/Assets/Cat/Reports/Skinning_Repair.json",
+      "originalSha256": "46c56d9f2d0a1e97df514bcb998b4bb79702a94df28a5910052518878b15665e",
+      "copiedUnchanged": true,
+      "repositorySha256": "46c56d9f2d0a1e97df514bcb998b4bb79702a94df28a5910052518878b15665e",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Reports/Walk_Checks.json",
+      "repository": "Game/Assets/Cat/Reports/Walk_Checks.json",
+      "originalSha256": "6d8b50cf4adad3636e52de87016fb1afb125ff0dcf6fe1dece335694360a3e0b",
+      "copiedUnchanged": true,
+      "repositorySha256": "6d8b50cf4adad3636e52de87016fb1afb125ff0dcf6fe1dece335694360a3e0b",
+      "desktopOriginalPreserved": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Reports/Rig_Mapping.json.meta",
+      "repository": "Game/Assets/Cat/Reports/Rig_Mapping.json.meta",
+      "originalSha256": "9e04f2352d764cde5f001203e0f5d651b749bc6f70f7cafade99ea1e1deef850",
+      "copiedUnchanged": true,
+      "repositorySha256": "9e04f2352d764cde5f001203e0f5d651b749bc6f70f7cafade99ea1e1deef850",
+      "desktopOriginalPreserved": true
+    }
+  ],
+  "stage": "Import manifest updated after URP compatibility fixes",
+  "nativeModelCopies": [
+    {
+      "repository": "Source/Blender/CatHome90/04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+      "sha256": "5fceb3244edb4f3978cf3385dff83f5a92e957026483dc182cdada5e49cdabf1",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/04_场景工程/Blender/Layout/Views/H90_Overview_view_v001.blend",
+      "sha256": "8b9f1615e92abed3ea7e03ed0f3b82b1bd2f7ed8898f7f638efb8d0ea9cb81a4",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/04_场景工程/Blender/Layout/Views/H90_Top_view_v001.blend",
+      "sha256": "c197426f7b58c5acebeb50c7a4ab33c33ef9c3288cc48a37a9a653e25495c3c9",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/04_场景工程/Blender/Layout/Views/H90_Living_view_v001.blend",
+      "sha256": "ed2907b87d0533ff72a227dff1f64e5e09f406c922b5fbdd81d0bb515f5c8aaf",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/04_场景工程/Blender/Layout/Views/H90_Balcony_view_v001.blend",
+      "sha256": "d545e6b067f122ee701cdc8a31a0b8d664ed8c582fc451bfae7bc829e5ec5038",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/CAT/H90-CAT-006_LitterCabinet/Source/H90_CAT_006_LitterCabinet_v001_native.blend",
+      "sha256": "b47687a62bef398b3a9a55014dade5af35cc7624746a47ab1e0ee460e9f269f4",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/CAT/H90-CAT-005_WaterFountain/Source/H90_CAT_005_WaterFountain_v001_native.blend",
+      "sha256": "ef5032557b6b3c7e6f5231c10cff98914f4bcb130678b45f0028aa1902d8dc0c",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/CAT/H90-CAT-003_WallPlatformKit/Source/H90_CAT_003_WallPlatformKit_v001_native.blend",
+      "sha256": "df9191ea89026108dc854d84d72d0a970f2694e3ace8709bc067495ca7ea468c",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/CAT/H90-CAT-002_ScratchColumn/Source/H90_CAT_002_ScratchColumn_v001_native.blend",
+      "sha256": "fef919b2a4cee7afd68956bfb96106a85164f9843c94ed9a181772703203ce31",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/CAT/H90-CAT-007_WindowPerch/Source/H90_CAT_007_WindowPerch_v001_native.blend",
+      "sha256": "b99965ed4d6769ec8e9961009d422fbc1b9f385f5ef2b0d5da01a2a1c6dda633",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/CAT/H90-CAT-001_Hideout/Source/H90_CAT_001_Hideout_v001_native.blend",
+      "sha256": "c5a36b42ea604cdefaf7e4806de4ab27034fc68a097fffda2f8c4264c990ae1f",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/CAT/H90-CAT-008_ToyKit/Source/H90_CAT_008_ToyKit_v001_native.blend",
+      "sha256": "09b0d3e317f1a1e5ccfd6c3bb096148f295b95372a73598a3b69295f70010cfe",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/CAT/H90-CAT-004_FeedingStation/Source/H90_CAT_004_FeedingStation_v001_native.blend",
+      "sha256": "aeeec1a5f8c82e10ce8d1e49eca2cd136036e11915a785383853cfac5cbbd541",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/CHR/H90-CHR-001_ReferenceCat/Source/H90_CHR_001_ReferenceCat_v001_native.blend",
+      "sha256": "a9a978c31839f8686f1cefae9e0778a185fa72dc78da55d4b196246675fb2e9f",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-008_Toilet/Source/H90_APP_008_Toilet_v001_native.blend",
+      "sha256": "3277bad0561df3b44e1756e27ade8c57298de2f76e575db633aade0837b54082",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-005_ExtractorHood/Source/H90_APP_005_ExtractorHood_v001_native.blend",
+      "sha256": "1978651a81db24de93475777a5ae2d341379864551d20c090e57b88d3fa4cd0b",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-010_Laptop/Source/H90_APP_010_Laptop_v001_native.blend",
+      "sha256": "133aa5fef1d5c80b3399392dee480ae35b3d57fc121de03a167fcce5360fb5ba",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-009_ShowerKit/Source/H90_APP_009_ShowerKit_v001_native.blend",
+      "sha256": "4c4306294322a81c49c233b869d66fff05f8f3174b44795998e3ded3b459a5ed",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-002_Refrigerator/Source/H90_APP_002_Refrigerator_v001_native.blend",
+      "sha256": "e113f0a9e034092fad15c6a4c8f17bd9143338d150f6d6ffb8da7dedc40420a5",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-006_KitchenSink/Source/H90_APP_006_KitchenSink_v001_native.blend",
+      "sha256": "19c01318f9a7639e1db1192d41fd42e40316fb37ddcb3849375df4f9948d42fd",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-003_WashingMachine/Source/H90_APP_003_WashingMachine_v001_native.blend",
+      "sha256": "0a18aa034c7233e442c5cf78adc41c5fb9a1361623f063aff218b75ce62f196a",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-007_BathVanity/Source/H90_APP_007_BathVanity_v001_native.blend",
+      "sha256": "c12cf18ffb2af9a3634169696ef41cbc7b81ed82661099f87f420a58c63d9c8e",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-001_Television/Source/H90_APP_001_Television_v001_native.blend",
+      "sha256": "a33ea942f502f3af5c0a658288361cb2c6f06241f11933f8afa36199a08bc419",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-004_Cooktop/Source/H90_APP_004_Cooktop_v001_native.blend",
+      "sha256": "b48f8f043bd26bfedd1d08ea7f9cf6037c0383f228ea1925f29e03a353a02c59",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-005_BalconyGlassSlider/Source/H90_DOR_005_BalconyGlassSlider_v001_native.blend",
+      "sha256": "fdb97b628735e8f9b9335fb4e98fb59e12e1e1c112bf6f6b3e2e66373e61e25e",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-007_KitchenWindow/Source/H90_DOR_007_KitchenWindow_v001_native.blend",
+      "sha256": "848471fe1e9b378025ed100bfa00a695d0d95bae7e99f0df0f7db284bd386064",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-003_BathSlider/Source/H90_DOR_003_BathSlider_v001_native.blend",
+      "sha256": "b9c360729eae6d03d4fe91761580c6d7478ae546a1358c20875f8f3380b8efbf",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-002_BedroomDoor/Source/H90_DOR_002_BedroomDoor_v001_native.blend",
+      "sha256": "3a98ff3791474ca53483415d1af7dfc71163a459beea923225855ae6fca1492d",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-009_BalconyGlazing/Source/H90_DOR_009_BalconyGlazing_v001_native.blend",
+      "sha256": "e96cbd951c3a7ba559910ff55a93a1f2acde835b53f9e47840653c9dc973375b",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-006_BedroomWindow/Source/H90_DOR_006_BedroomWindow_v001_native.blend",
+      "sha256": "7dbb461677c8912fc503958d9f41c88d28cbc96f2cfb18a907d87650f5cdb9c8",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-001_EntranceDoor/Source/H90_DOR_001_EntranceDoor_v001_native.blend",
+      "sha256": "36e0c45b2249d7de1b5008b6a521a0ff1c46331ef39fbb3ad08e048c403459dd",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-004_KitchenGlassSlider/Source/H90_DOR_004_KitchenGlassSlider_v001_native.blend",
+      "sha256": "4adb434b8bf090ed90aa124257bd05bf4bfde82b605184b7673916fd9b36c2aa",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-008_BathHighWindow/Source/H90_DOR_008_BathHighWindow_v001_native.blend",
+      "sha256": "7ae1a45230ac3a4c99cce9e2e594c79fd3c99cfe8e0c277c34edafcf3ce70408",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/LGT/H90-LGT-001_Downlight/Source/H90_LGT_001_Downlight_v001_native.blend",
+      "sha256": "b6420a4ac87d538b6f7ae516ab488c47b8efa988479a74228731697ce6bbc387",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/LGT/H90-LGT-002_DiningPendant/Source/H90_LGT_002_DiningPendant_v001_native.blend",
+      "sha256": "7735dcc1d23dffcc7d43444ab25cf20593cc79927c921c14c2851175e43dcfbc",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/LGT/H90-LGT-003_BedsideLamp/Source/H90_LGT_003_BedsideLamp_v001_native.blend",
+      "sha256": "28cb721a680c0ebaaf3ae923144ad1c4307e3caa9d2cc5823241d76dbab12084",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/LGT/H90-LGT-004_CabinetStrip/Source/H90_LGT_004_CabinetStrip_v001_native.blend",
+      "sha256": "05a11b95e652b2ed284c0133b3ac6f09f9add149fd3e718e8898f104e7be5022",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-002_CoffeeTable/Source/H90_FUR_002_CoffeeTable_v001_native.blend",
+      "sha256": "288f27d7a74276860c9e7d2ab35e7ee527bbd5ad4530dcec16af0d3439a5d563",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-013_OfficeChair/Source/H90_FUR_013_OfficeChair_v001_native.blend",
+      "sha256": "3220b6491a580847e273f4a2ff6e8ca1183c677ca1fc431c19428f08dd862eb1",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-017_KitchenBaseCabinet/Source/H90_FUR_017_KitchenBaseCabinet_v001_native.blend",
+      "sha256": "8feb23e5b497b12131aabbc7be569509ee9d81a2e52d71e5b6cc3f16a5bb0283",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-019_LaundryStorage/Source/H90_FUR_019_LaundryStorage_v001_native.blend",
+      "sha256": "bafc0b55e733c9ce0636992cf9903e4d855bd1075042b1d54fec2698f5b5bb4a",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-018_KitchenWallCabinet/Source/H90_FUR_018_KitchenWallCabinet_v001_native.blend",
+      "sha256": "37e59a2dd919089b9f76290cf46993b1c7e41d73eb359179d3467cc5d6951f5f",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-020_BalconyBench/Source/H90_FUR_020_BalconyBench_v001_native.blend",
+      "sha256": "7b81dceb71c5d45a5172eed0f21a3bf9fff2572e363f6a25e6297d4a0888324c",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-021_Ottoman/Source/H90_FUR_021_Ottoman_v001_native.blend",
+      "sha256": "cf9954abd2abd1bfbd7d5dd386c2e79f5e0a83940c2882c53697d3df625ed0d0",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-014_EntryStorage/Source/H90_FUR_014_EntryStorage_v001_native.blend",
+      "sha256": "2a1678b18c4df78c893ad88924ed8403ea09cc641cc7f30bddf672d790c57b4a",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-007_MasterBed/Source/H90_FUR_007_MasterBed_v001_native.blend",
+      "sha256": "57b6f3bb6dbdb1b71338f9ad1e8509f460a1a18caaa4bbc26d0f9223b968e6fc",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-003_TVConsole/Source/H90_FUR_003_TVConsole_v001_native.blend",
+      "sha256": "15cd42ced43812166b7f3095dfd8d50a43a34ce7029ba8571e13423773f95b4c",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-011_GuestStorage/Source/H90_FUR_011_GuestStorage_v001_native.blend",
+      "sha256": "6f05fefb2abda0f513e49ff6a1f277b0f8d6b9ae74bad7609f98f8b86778ef84",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-009_BedsideTable/Source/H90_FUR_009_BedsideTable_v001_native.blend",
+      "sha256": "ad475b6acb8165a6da27e16e54650e1301d19c894ac475afff8e416a3b958c6b",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-004_DiningTable/Source/H90_FUR_004_DiningTable_v001_native.blend",
+      "sha256": "e12afea5ee2b4e044958f1d3fc456698ffb99ed6e1ccd04722c5b25732583412",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-008_GuestBed/Source/H90_FUR_008_GuestBed_v001_native.blend",
+      "sha256": "dbd6ba52ec063d6304a5033f03824dce162aad0dad3442a5eaca8dc8671d5e8d",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-016_EntryBench/Source/H90_FUR_016_EntryBench_v001_native.blend",
+      "sha256": "88812a76cb4106118a59bd4117f576fae90263345e535e8f0b764c51038780b1",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-001_Sofa/Source/H90_FUR_001_Sofa_v001_native.blend",
+      "sha256": "09d221c48e866c84876a03bb04f8fc904598e42026c134c8ea43cda429b66878",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-012_Desk/Source/H90_FUR_012_Desk_v001_native.blend",
+      "sha256": "febc54ce28e9a0d02e99a4c9dabf4954dc5141612338d2a4dc9e49ee5af27c66",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-005_DiningChair/Source/H90_FUR_005_DiningChair_v001_native.blend",
+      "sha256": "fb656df34c0c4edb457df069f19085d82db58f148d72f5ebacbbce539d747096",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-010_MasterWardrobe/Source/H90_FUR_010_MasterWardrobe_v001_native.blend",
+      "sha256": "f31277922b0956423722929c01be35f0253562f4afcae64a582ab50fea19ccfa",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-006_DiningBench/Source/H90_FUR_006_DiningBench_v001_native.blend",
+      "sha256": "b2329528ec45ed485294f2b4e2273b001a0f0906d89044ecc1a8bb3de69edcf8",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-015_EntryConsole/Source/H90_FUR_015_EntryConsole_v001_native.blend",
+      "sha256": "bfaf4ea4ff31b9314fe704d68b8806ca1235362b1637f7a8e3dbf60c26bfa675",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-012_PlantTrailing/Source/H90_PRP_012_PlantTrailing_v001_native.blend",
+      "sha256": "b3230ca81bec48a827945ae74793f1a9057d00353bb07122c418d12272425aa8",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-009_CeramicMug/Source/H90_PRP_009_CeramicMug_v001_native.blend",
+      "sha256": "2416b3ae1a3979c6958f3543415ef7e2936bf9ac44412ac3e98f99b2567f7b7c",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-014_PlanterKit/Source/H90_PRP_014_PlanterKit_v001_native.blend",
+      "sha256": "d64beb12270bd74a8d32fffa90f517afe76470adc1676e334a9c8b8ab16d8f30",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-006_EntryMat/Source/H90_PRP_006_EntryMat_v001_native.blend",
+      "sha256": "6a7a3219b84a905e63fa658ca79afde0701e895352dacaf81bf2cc05c0ca6422",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-019_LaundryBasket/Source/H90_PRP_019_LaundryBasket_v001_native.blend",
+      "sha256": "6e03e8a08db3a9a37815b9b57bbe6df0136e5228d3d5c2339444e355e1d562c6",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-008_BookMagazineKit/Source/H90_PRP_008_BookMagazineKit_v001_native.blend",
+      "sha256": "8d56098465f27d7725acdc16a9f149ac511d6fe36e4ac0e1c0fdeb071dd718de",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-017_LaundryBottleKit/Source/H90_PRP_017_LaundryBottleKit_v001_native.blend",
+      "sha256": "ab65d0f511ea5c8042823fabbd4bb0710e20c912af8d3558d2785660e8f9bf62",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-002_SleepingPillow/Source/H90_PRP_002_SleepingPillow_v001_native.blend",
+      "sha256": "b7b97d5e6a2aab0aa30223f939c3ce195ca2c0b5e7d45df8a5fe42ea7482e388",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-015_GrassPot/Source/H90_PRP_015_GrassPot_v001_native.blend",
+      "sha256": "8e61fd0b435fa1490272a4b7264c33d91d171b35a3db525e845df7ee4b8250da",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-020_ChoppingBoardKit/Source/H90_PRP_020_ChoppingBoardKit_v001_native.blend",
+      "sha256": "38ada88708f0a45d0d8fc40614ac1061f8d45fa4d195facddfc570cfa36c4c36",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-007_CatMatKit/Source/H90_PRP_007_CatMatKit_v001_native.blend",
+      "sha256": "ea1ecda468e6335f6064c84b3c2c87654823546a49074aa540533ea9c1d74dd4",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-010_ServingTray/Source/H90_PRP_010_ServingTray_v001_native.blend",
+      "sha256": "b7946ac5621175b17f4bdd44f3996631dca05b68da84f7ee390ef042aa39bd54",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-003_BeddingKit/Source/H90_PRP_003_BeddingKit_v001_native.blend",
+      "sha256": "04af5749b204974824e8c1bd2b9837c5a812e7683228b8f5954b60aa15714995",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-013_PlantBranching/Source/H90_PRP_013_PlantBranching_v001_native.blend",
+      "sha256": "f5ad5964ce8f62b432f4995b07f9966f81f420a8975633cd40cc67c94d054888",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-005_RoomRug/Source/H90_PRP_005_RoomRug_v001_native.blend",
+      "sha256": "ebc707d2dd2f358b852298bdd9cb6a39cbd02ea2438ac0d51d0c4343fbaa58e1",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-011_PlantBroadleaf/Source/H90_PRP_011_PlantBroadleaf_v001_native.blend",
+      "sha256": "3f62950649f4762d2c53a6ea789f80f73c1e3dfafe0dac9deecf8bf7511cc44f",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-018_TowelStack/Source/H90_PRP_018_TowelStack_v001_native.blend",
+      "sha256": "6aeed5db91c4662c40b2323d599d949e2c545de9c159e38c4925e3aecfdfa850",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-001_DecorCushion/Source/H90_PRP_001_DecorCushion_v001_native.blend",
+      "sha256": "9a4451b07c50f91b9d9b6068ed446d27680bd21c1573cf203d4dec2a12999bfa",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-004_ThrowBlanket/Source/H90_PRP_004_ThrowBlanket_v001_native.blend",
+      "sha256": "e3356753429c426fec7ad0ae74c3a26ea80719ed158f91dc2d0844008389f6b8",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-016_ShoePairKit/Source/H90_PRP_016_ShoePairKit_v001_native.blend",
+      "sha256": "5666c04e030bfdde298aeb7b3c7a159357e74b224c02f1dd431fabd9e1c95705",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-001_WoodFloor/Source/H90_ARC_001_WoodFloor_v001_native.blend",
+      "sha256": "4c92e7214fb3f5cbd29535682f3414988cf827ffa7258e49055c454c736a147a",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-008_BathWallTile/Source/H90_ARC_008_BathWallTile_v001_native.blend",
+      "sha256": "a480fb1ad8f933b7a6ec8084ff2416c11411e4e2bf6b0e8dc9af5780f2d1aee9",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-007_SkirtingKit/Source/H90_ARC_007_SkirtingKit_v001_native.blend",
+      "sha256": "e411612e38e7cac68228e50fc74da456810b3568859951847313f46b74f3eb47",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-005_PartitionWallKit/Source/H90_ARC_005_PartitionWallKit_v001_native.blend",
+      "sha256": "53639597e22aec008d350d9f3ef472a80ed27e09afe97649bbfaea5b88ee949f",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-006_CeilingKit/Source/H90_ARC_006_CeilingKit_v001_native.blend",
+      "sha256": "c0c88586e297bc3ec07acdeaaf1ae41d16026cefc1c8eab583e3100518305f5c",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-003_BathFloor/Source/H90_ARC_003_BathFloor_v001_native.blend",
+      "sha256": "09880e541f35b077d1646da2f1770716785fcb254f5347b00146d780c12e6a57",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-010_CeilingBulkhead/Source/H90_ARC_010_CeilingBulkhead_v001_native.blend",
+      "sha256": "46c397e2e6b41c1efd5f2221254922eee11a47797e19b9f8132956502ec0b92e",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-011_VentGrille/Source/H90_ARC_011_VentGrille_v001_native.blend",
+      "sha256": "952c0446098a15e01e13bcaf1db6b969f564b0909ac9e77d7cf235d31ac98fe2",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-009_KitchenBacksplash/Source/H90_ARC_009_KitchenBacksplash_v001_native.blend",
+      "sha256": "589f28d311ee8e0a16ecc4b556a39ea9d8775803c6094a2a0708f107dc3a4a2c",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-002_GreyTileFloor/Source/H90_ARC_002_GreyTileFloor_v001_native.blend",
+      "sha256": "9267eec5a58772db1f650b115e5e40924ec396992f807ec59a89d4bb0e207263",
+      "desktopMatches": true
+    },
+    {
+      "repository": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-004_ExteriorWallKit/Source/H90_ARC_004_ExteriorWallKit_v001_native.blend",
+      "sha256": "670d9dd0318c1cbd439ef2fe9514ee287a8c0d0bdc1298afe8b0dc30286ebf0e",
+      "desktopMatches": true
+    }
+  ]
+}

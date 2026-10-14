@@ -1,0 +1,31 @@
+{
+  "id": "H90-ENV-001",
+  "category": "ENV",
+  "slug": "CityBackdrop",
+  "name": "窗外城市远景",
+  "rooms": [
+    "EXT"
+  ],
+  "quantity": "1组",
+  "size": "T：远景尺度、距离与覆盖角度",
+  "sizeBasis": "待定",
+  "materials": [
+    "M02",
+    "M10"
+  ],
+  "priority": "P2",
+  "references": [
+    "R04"
+  ],
+  "splitAndInteractionPlan": "远景可用低细节模型/背景卡；不进入室内碰撞",
+  "optional": false,
+  "status": "待建模",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/ENV/H90-ENV-001_CityBackdrop",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": null,
+  "engineAcceptance": false,
+  "expectedBasename": "H90_ENV_001_CityBackdrop_v001"
+}

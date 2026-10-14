@@ -1,0 +1,182 @@
+{
+  "id": "H90-PRP-012",
+  "category": "PRP",
+  "slug": "PlantTrailing",
+  "name": "垂挂绿植造型",
+  "rooms": [
+    "LIV",
+    "BAL"
+  ],
+  "quantity": "按统一摆放图确认",
+  "size": "E：垂长0.30～0.60m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M13"
+  ],
+  "priority": "P2",
+  "references": [
+    "R03",
+    "R04"
+  ],
+  "splitAndInteractionPlan": "叶片与枝条；图中不同视角不累计数量",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-012_PlantTrailing",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_OFF_PRP012_TablePlant_03_INST",
+      "assetId": "H90-PRP-012",
+      "room": "OFF",
+      "location_m": [
+        2.6500000953674316,
+        6.610000133514404,
+        0.7580000162124634
+      ],
+      "minimum_m": [
+        1.5954724550247192,
+        5.559449195861816,
+        -0.1369999647140503
+      ],
+      "maximum_m": [
+        3.7070302963256836,
+        7.662127494812012,
+        1.9279999732971191
+      ],
+      "dimensions_m": [
+        2.1115578413009644,
+        2.1026782989501953,
+        2.0649999380111694
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP012_TablePlant_01_INST",
+      "assetId": "H90-PRP-012",
+      "room": "LIV",
+      "location_m": [
+        6.380000114440918,
+        3.430000066757202,
+        0.41200000047683716
+      ],
+      "minimum_m": [
+        5.325472354888916,
+        2.379448890686035,
+        -0.4829999804496765
+      ],
+      "maximum_m": [
+        7.43703031539917,
+        4.4821271896362305,
+        1.5820000171661377
+      ],
+      "dimensions_m": [
+        2.111557960510254,
+        2.1026782989501953,
+        2.064999997615814
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP012_TablePlant_02_INST",
+      "assetId": "H90-PRP-012",
+      "room": "LIV",
+      "location_m": [
+        9.59000015258789,
+        4.300000190734863,
+        0.4580000042915344
+      ],
+      "minimum_m": [
+        8.535472869873047,
+        3.2494490146636963,
+        -0.43699997663497925
+      ],
+      "maximum_m": [
+        10.647029876708984,
+        5.352127552032471,
+        1.628000020980835
+      ],
+      "dimensions_m": [
+        2.1115570068359375,
+        2.1026785373687744,
+        2.064999997615814
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP012_TrailingPlant_01_INST",
+      "assetId": "H90-PRP-012",
+      "room": "LIV",
+      "location_m": [
+        9.649999618530273,
+        4.75,
+        2.1549999713897705
+      ],
+      "minimum_m": [
+        8.4399995803833,
+        3.692969799041748,
+        0.8650000095367432
+      ],
+      "maximum_m": [
+        10.702127456665039,
+        5.804527759552002,
+        3.3249998092651367
+      ],
+      "dimensions_m": [
+        2.2621278762817383,
+        2.111557960510254,
+        2.4599997997283936
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP012_TablePlant_04_INST",
+      "assetId": "H90-PRP-012",
+      "room": "BAL",
+      "location_m": [
+        4.849999904632568,
+        0.6499999761581421,
+        0.9729999899864197
+      ],
+      "minimum_m": [
+        3.7954721450805664,
+        -0.4005511999130249,
+        0.078000009059906
+      ],
+      "maximum_m": [
+        5.90703010559082,
+        1.7021273374557495,
+        2.1429998874664307
+      ],
+      "dimensions_m": [
+        2.111557960510254,
+        2.1026785373687744,
+        2.0649998784065247
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_012_PlantTrailing_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G12",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-012_PlantTrailing_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "834097237018f7986cb0a8878008a87d7a239d4d7ba4ed318fd89b52803488cb"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/PRP/H90-PRP-012_PlantTrailing/Source/H90_PRP_012_PlantTrailing_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_OFF_PRP012_TablePlant_03_INST",
+    "H90_LIV_PRP012_TablePlant_01_INST",
+    "H90_LIV_PRP012_TablePlant_02_INST",
+    "H90_LIV_PRP012_TrailingPlant_01_INST",
+    "H90_BAL_PRP012_TablePlant_04_INST"
+  ]
+}

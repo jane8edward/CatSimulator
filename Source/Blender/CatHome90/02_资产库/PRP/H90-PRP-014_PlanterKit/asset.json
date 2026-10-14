@@ -1,0 +1,85 @@
+{
+  "id": "H90-PRP-014",
+  "category": "PRP",
+  "slug": "PlanterKit",
+  "name": "花盆套件",
+  "rooms": [
+    "ENT",
+    "LIV",
+    "MBR",
+    "OFF",
+    "BAL"
+  ],
+  "quantity": "随绿植实例确认",
+  "size": "E：直径0.12/0.25/0.35m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M11",
+    "M01"
+  ],
+  "priority": "P2",
+  "references": [
+    "R02",
+    "R03",
+    "R04"
+  ],
+  "splitAndInteractionPlan": "小/中/大三个母版；与植物组合",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-014_PlanterKit",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_ENT_PRP014_SparePlanter_01_ROOT",
+      "assetId": "H90-PRP-014",
+      "room": "ENT",
+      "location_m": [
+        2.6500000953674316,
+        7.369999885559082,
+        0.8579999804496765
+      ],
+      "minimum_m": [
+        2.5850000381469727,
+        7.304999828338623,
+        0.8579999804496765
+      ],
+      "maximum_m": [
+        2.7150001525878906,
+        7.434999942779541,
+        0.9779999852180481
+      ],
+      "dimensions_m": [
+        0.13000011444091797,
+        0.13000011444091797,
+        0.12000000476837158
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_014_PlanterKit_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G13",
+      "source": "R04",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-014_PlanterKit_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "f15f99c2f2aa1f322894f2bad1c9fcf4304ca96a3a3df7653ef1697ab2232adb"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/PRP/H90-PRP-014_PlanterKit/Source/H90_PRP_014_PlanterKit_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_ENT_PRP014_SparePlanter_01_ROOT",
+    "H90_ENT_PRP014_SparePlanter_01_P01_CeramicPot",
+    "H90_ENT_PRP014_SparePlanter_01_P02_Soil"
+  ]
+}

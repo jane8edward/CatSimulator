@@ -1,0 +1,10 @@
+{
+  "id": "H90-MAT-013",
+  "alias": "M13",
+  "name": "绿植叶片",
+  "slug": "Leaves",
+  "usage": "植物造型与透明边缘",
+  "status": "待制作",
+  "renderer": "待与目标Unity项目确认",
+  "actualTextureResolution": null
+}

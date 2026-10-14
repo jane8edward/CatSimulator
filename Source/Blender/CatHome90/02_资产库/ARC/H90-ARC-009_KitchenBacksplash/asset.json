@@ -1,0 +1,39 @@
+{
+  "id": "H90-ARC-009",
+  "category": "ARC",
+  "slug": "KitchenBacksplash",
+  "name": "厨房防溅饰面",
+  "rooms": [
+    "KIT"
+  ],
+  "quantity": "1组",
+  "size": "E：L形长度、高度待定",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M14"
+  ],
+  "priority": "P1",
+  "references": [
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "避免与台面重复面",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/ARC/H90-ARC-009_KitchenBacksplash",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_ARC_009_KitchenBacksplash_v001",
+  "nativeBlenderSource": "02_资产库/ARC/H90-ARC-009_KitchenBacksplash/Source/H90_ARC_009_KitchenBacksplash_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_KitchenBacksplash_North",
+    "H90_KitchenBacksplash_East"
+  ]
+}

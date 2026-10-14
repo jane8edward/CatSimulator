@@ -1,0 +1,22 @@
+{
+    "order": "cup-first",
+    "gpu": "Apple M4",
+    "resolution": "1920x1080",
+    "optionalDoesNotComplete": true,
+    "firstTaskDoesNotComplete": true,
+    "bothComplete": true,
+    "replayResets": true,
+    "cupMoves": true,
+    "clothChanges": true,
+    "movementWorks": true,
+    "jumpLands": true,
+    "climbHasSupport": true,
+    "cupColliderSized": true,
+    "cameraClearAtInteractions": true,
+    "roomRegressionPass": true,
+    "averageFps": 301.7026672363281,
+    "p95FrameMs": 3.856292486190796,
+    "p99FrameMs": 4.151792526245117,
+    "frames": 2433,
+    "errors": []
+}

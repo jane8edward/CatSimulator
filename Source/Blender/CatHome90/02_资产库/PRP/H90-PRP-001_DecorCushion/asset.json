@@ -1,0 +1,223 @@
+{
+  "id": "H90-PRP-001",
+  "category": "PRP",
+  "slug": "DecorCushion",
+  "name": "装饰靠垫套件",
+  "rooms": [
+    "LIV",
+    "MBR",
+    "BAL"
+  ],
+  "quantity": "6～8个暂估",
+  "size": "E：0.40～0.50m，厚0.12m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M05",
+    "M06",
+    "M07"
+  ],
+  "priority": "P2",
+  "references": [
+    "R02",
+    "R03",
+    "R04"
+  ],
+  "splitAndInteractionPlan": "方形/腰枕母版；独立软装，布料模拟未实现",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-001_DecorCushion",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_MBR_PRP001_DecorCushion_06_INST",
+      "assetId": "H90-PRP-001",
+      "room": "MBR",
+      "location_m": [
+        1.649999976158142,
+        3.069999933242798,
+        0.6000000238418579
+      ],
+      "minimum_m": [
+        1.4499999284744263,
+        2.9876294136047363,
+        0.5942819714546204
+      ],
+      "maximum_m": [
+        1.850000023841858,
+        3.1523704528808594,
+        1.0057181119918823
+      ],
+      "dimensions_m": [
+        0.40000009536743164,
+        0.16474103927612305,
+        0.41143614053726196
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP001_DecorCushion_01_INST",
+      "assetId": "H90-PRP-001",
+      "room": "LIV",
+      "location_m": [
+        4.800000190734863,
+        2.950000047683716,
+        0.45500001311302185
+      ],
+      "minimum_m": [
+        4.717629909515381,
+        2.75,
+        0.4492819309234619
+      ],
+      "maximum_m": [
+        4.882370471954346,
+        3.1500000953674316,
+        0.8607181310653687
+      ],
+      "dimensions_m": [
+        0.16474056243896484,
+        0.40000009536743164,
+        0.41143620014190674
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP001_DecorCushion_02_INST",
+      "assetId": "H90-PRP-001",
+      "room": "LIV",
+      "location_m": [
+        4.800000190734863,
+        3.680000066757202,
+        0.45500001311302185
+      ],
+      "minimum_m": [
+        4.717629909515381,
+        3.4800000190734863,
+        0.4492819309234619
+      ],
+      "maximum_m": [
+        4.882370471954346,
+        3.880000114440918,
+        0.8607181310653687
+      ],
+      "dimensions_m": [
+        0.16474056243896484,
+        0.40000009536743164,
+        0.41143620014190674
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP001_DecorCushion_03_INST",
+      "assetId": "H90-PRP-001",
+      "room": "LIV",
+      "location_m": [
+        4.800000190734863,
+        4.360000133514404,
+        0.45500001311302185
+      ],
+      "minimum_m": [
+        4.717629909515381,
+        4.160000324249268,
+        0.4492819309234619
+      ],
+      "maximum_m": [
+        4.882370471954346,
+        4.559999942779541,
+        0.8607181310653687
+      ],
+      "dimensions_m": [
+        0.16474056243896484,
+        0.39999961853027344,
+        0.41143620014190674
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP001_DecorCushion_04_INST",
+      "assetId": "H90-PRP-001",
+      "room": "BAL",
+      "location_m": [
+        6.449999809265137,
+        0.46000000834465027,
+        0.44999998807907104
+      ],
+      "minimum_m": [
+        6.25,
+        0.37762948870658875,
+        0.4442819058895111
+      ],
+      "maximum_m": [
+        6.649999618530273,
+        0.5423705577850342,
+        0.8557180762290955
+      ],
+      "dimensions_m": [
+        0.39999961853027344,
+        0.16474106907844543,
+        0.41143617033958435
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP001_DecorCushion_05_INST",
+      "assetId": "H90-PRP-001",
+      "room": "BAL",
+      "location_m": [
+        6.929999828338623,
+        0.46000000834465027,
+        0.44999998807907104
+      ],
+      "minimum_m": [
+        6.730000019073486,
+        0.37762948870658875,
+        0.4442819058895111
+      ],
+      "maximum_m": [
+        7.12999963760376,
+        0.5423705577850342,
+        0.8557180762290955
+      ],
+      "dimensions_m": [
+        0.39999961853027344,
+        0.16474106907844543,
+        0.41143617033958435
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_001_DecorCushion_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Sage",
+      "groupId": "G10",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-001_DecorCushion_Sage_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "c1d422c6032a66b4b5701f0573e8ff626ae04096f001d4eb4817c49fa76b8042"
+    },
+    {
+      "variant": "Cream",
+      "groupId": "G20",
+      "source": "R04",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-001_DecorCushion_Cream_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "4cc3a63663708233578e5b80c2ab3b32f1e119f862a5748ab08fbaac7414c7bd"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/PRP/H90-PRP-001_DecorCushion/Source/H90_PRP_001_DecorCushion_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_MBR_PRP001_DecorCushion_06_INST",
+    "H90_LIV_PRP001_DecorCushion_01_INST",
+    "H90_LIV_PRP001_DecorCushion_02_INST",
+    "H90_LIV_PRP001_DecorCushion_03_INST",
+    "H90_BAL_PRP001_DecorCushion_04_INST",
+    "H90_BAL_PRP001_DecorCushion_05_INST"
+  ]
+}

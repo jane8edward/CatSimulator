@@ -1,0 +1,10 @@
+{
+  "id": "H90-MAT-008",
+  "alias": "M08",
+  "name": "剑麻绳与纤维",
+  "slug": "Sisal",
+  "usage": "抓柱、抓垫、玩具",
+  "status": "待制作",
+  "renderer": "待与目标Unity项目确认",
+  "actualTextureResolution": null
+}

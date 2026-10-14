@@ -1,0 +1,95 @@
+{
+  "id": "H90-FUR-012",
+  "category": "FUR",
+  "slug": "Desk",
+  "name": "办公桌",
+  "rooms": [
+    "OFF"
+  ],
+  "quantity": "1件",
+  "size": "D：1.20×0.60×0.75m",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M01"
+  ],
+  "priority": "P1",
+  "references": [
+    "D01",
+    "R02"
+  ],
+  "splitAndInteractionPlan": "桌面放置点；电器独立",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/FUR/H90-FUR-012_Desk",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_OFF_FUR012_Desk_01_ROOT",
+      "assetId": "H90-FUR-012",
+      "room": "OFF",
+      "location_m": [
+        2.25,
+        6.550000190734863,
+        0.0
+      ],
+      "minimum_m": [
+        1.649999976158142,
+        6.25,
+        0.011071138083934784
+      ],
+      "maximum_m": [
+        2.8499999046325684,
+        6.850000381469727,
+        0.75
+      ],
+      "dimensions_m": [
+        1.1999999284744263,
+        0.6000003814697266,
+        0.7389288619160652
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "layoutRecord": {
+    "id": "desk",
+    "name": "办公桌",
+    "rect": [
+      1.65,
+      6.25,
+      1.2,
+      0.6
+    ],
+    "height_m": 0.75
+  },
+  "expectedBasename": "H90_FUR_012_Desk_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G02",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-012_Desk_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "26e54bb33a838e865155156c19df4cc8addadda53d7c62521db37895628b4e40"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/FUR/H90-FUR-012_Desk/Source/H90_FUR_012_Desk_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_OFF_FUR012_Desk_01_ROOT",
+    "H90_OFF_FUR012_Desk_01_P01_Top",
+    "H90_OFF_FUR012_Desk_01_P02_TaperedLeg",
+    "H90_OFF_FUR012_Desk_01_P03_TaperedLeg",
+    "H90_OFF_FUR012_Desk_01_P04_TaperedLeg",
+    "H90_OFF_FUR012_Desk_01_P05_TaperedLeg",
+    "H90_OFF_FUR012_Desk_01_P06_Apron_Front",
+    "H90_OFF_FUR012_Desk_01_P07_Apron_Back"
+  ]
+}

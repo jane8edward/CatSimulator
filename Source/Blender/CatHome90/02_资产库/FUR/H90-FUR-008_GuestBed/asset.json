@@ -1,0 +1,96 @@
+{
+  "id": "H90-FUR-008",
+  "category": "FUR",
+  "slug": "GuestBed",
+  "name": "次卧单人床体",
+  "rooms": [
+    "OFF"
+  ],
+  "quantity": "1件",
+  "size": "D：床面1.20×2.00，高0.45m；床头E",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M01",
+    "M05"
+  ],
+  "priority": "P1",
+  "references": [
+    "D01",
+    "R02"
+  ],
+  "splitAndInteractionPlan": "床架、床垫分开",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/FUR/H90-FUR-008_GuestBed",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_OFF_FUR008_GuestBed_01_ROOT",
+      "assetId": "H90-FUR-008",
+      "room": "OFF",
+      "location_m": [
+        0.8500000238418579,
+        5.900000095367432,
+        0.0
+      ],
+      "minimum_m": [
+        0.20000004768371582,
+        4.860000133514404,
+        0.0
+      ],
+      "maximum_m": [
+        1.5,
+        6.940000057220459,
+        1.0
+      ],
+      "dimensions_m": [
+        1.2999999523162842,
+        2.0799999237060547,
+        1.0
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "layoutRecord": {
+    "id": "guest_bed",
+    "name": "次卧床",
+    "rect": [
+      0.25,
+      4.9,
+      1.2,
+      2.0
+    ],
+    "height_m": 0.45
+  },
+  "expectedBasename": "H90_FUR_008_GuestBed_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G01",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-008_GuestBed_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "851cdf3affbbfd78ca9307b6f531e00250b9082002d0bbddade6019d8ec7219b"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/FUR/H90-FUR-008_GuestBed/Source/H90_FUR_008_GuestBed_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_OFF_FUR008_GuestBed_01_ROOT",
+    "H90_OFF_FUR008_GuestBed_01_P01_OakFrame",
+    "H90_OFF_FUR008_GuestBed_01_P02_Foot",
+    "H90_OFF_FUR008_GuestBed_01_P03_Foot",
+    "H90_OFF_FUR008_GuestBed_01_P04_Foot",
+    "H90_OFF_FUR008_GuestBed_01_P05_Foot",
+    "H90_OFF_FUR008_GuestBed_01_P06_Headboard",
+    "H90_OFF_FUR008_GuestBed_01_P07_Mattress"
+  ]
+}

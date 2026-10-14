@@ -1,0 +1,65 @@
+{
+  "id": "H90-ARC-008",
+  "category": "ARC",
+  "slug": "BathWallTile",
+  "name": "卫生间墙面饰面",
+  "rooms": [
+    "BTH"
+  ],
+  "quantity": "1组",
+  "size": "E：按墙网铺设，顶高待定",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M04"
+  ],
+  "priority": "P1",
+  "references": [
+    "R02"
+  ],
+  "splitAndInteractionPlan": "与结构墙分开",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/ARC/H90-ARC-008_BathWallTile",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_BTH_ARC008_BathTileFace_01_ROOT",
+      "assetId": "H90-ARC-008",
+      "room": "BTH",
+      "location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "minimum_m": [
+        4.260000228881836,
+        6.059999942779541,
+        0.0
+      ],
+      "maximum_m": [
+        6.739999771118164,
+        8.800000190734863,
+        1.149999976158142
+      ],
+      "dimensions_m": [
+        2.479999542236328,
+        2.7400002479553223,
+        1.149999976158142
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_ARC_008_BathWallTile_v001",
+  "nativeBlenderSource": "02_资产库/ARC/H90-ARC-008_BathWallTile/Source/H90_ARC_008_BathWallTile_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_BTH_ARC008_BathTileFace_01_ROOT",
+    "H90_EastBathTile_Upper",
+    "H90_NorthBathTile_WindowSill"
+  ]
+}

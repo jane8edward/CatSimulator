@@ -1,0 +1,105 @@
+{
+  "id": "H90-FUR-001",
+  "category": "FUR",
+  "slug": "Sofa",
+  "name": "米色三人沙发",
+  "rooms": [
+    "LIV"
+  ],
+  "quantity": "1件",
+  "size": "D：占地1.00×2.45，高0.85m",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M05",
+    "M06",
+    "M01"
+  ],
+  "priority": "P0",
+  "references": [
+    "D01",
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "骨架、坐垫分开；爪子落点与抓挠面预留",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/FUR/H90-FUR-001_Sofa",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_LIV_FUR001_Sofa_01_ROOT",
+      "assetId": "H90-FUR-001",
+      "room": "LIV",
+      "location_m": [
+        5.0,
+        3.625,
+        0.0
+      ],
+      "minimum_m": [
+        4.5,
+        2.3999998569488525,
+        0.0
+      ],
+      "maximum_m": [
+        5.5,
+        4.849999904632568,
+        0.8590841293334961
+      ],
+      "dimensions_m": [
+        1.0,
+        2.450000047683716,
+        0.8590841293334961
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "layoutRecord": {
+    "id": "sofa",
+    "name": "沙发",
+    "rect": [
+      4.5,
+      2.4,
+      1.0,
+      2.45
+    ],
+    "height_m": 0.85
+  },
+  "expectedBasename": "H90_FUR_001_Sofa_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G01",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-001_Sofa_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "733ffbd882cd5c4908e52784933874f5c43b0d42c6b42af2ea3809327d742d66"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/FUR/H90-FUR-001_Sofa/Source/H90_FUR_001_Sofa_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_LIV_FUR001_Sofa_01_ROOT",
+    "H90_LIV_FUR001_Sofa_01_P01_OakBase",
+    "H90_LIV_FUR001_Sofa_01_P02_Foot",
+    "H90_LIV_FUR001_Sofa_01_P03_Foot",
+    "H90_LIV_FUR001_Sofa_01_P04_Foot",
+    "H90_LIV_FUR001_Sofa_01_P05_Foot",
+    "H90_LIV_FUR001_Sofa_01_P06_BackFrame",
+    "H90_LIV_FUR001_Sofa_01_P07_Arm",
+    "H90_LIV_FUR001_Sofa_01_P08_Arm",
+    "H90_LIV_FUR001_Sofa_01_P09_SeatCushion_1",
+    "H90_LIV_FUR001_Sofa_01_P10_BackCushion_1",
+    "H90_LIV_FUR001_Sofa_01_P11_SeatCushion_2",
+    "H90_LIV_FUR001_Sofa_01_P12_BackCushion_2",
+    "H90_LIV_FUR001_Sofa_01_P13_SeatCushion_3",
+    "H90_LIV_FUR001_Sofa_01_P14_BackCushion_3"
+  ]
+}

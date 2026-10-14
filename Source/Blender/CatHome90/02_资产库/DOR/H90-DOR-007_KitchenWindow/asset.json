@@ -1,0 +1,88 @@
+{
+  "id": "H90-DOR-007",
+  "category": "DOR",
+  "slug": "KitchenWindow",
+  "name": "厨房北窗",
+  "rooms": [
+    "KIT"
+  ],
+  "quantity": "1套",
+  "size": "D：宽1.90，高1.40m",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M09",
+    "M10"
+  ],
+  "priority": "P0",
+  "references": [
+    "R01",
+    "D01",
+    "R02"
+  ],
+  "splitAndInteractionPlan": "固定与开启状态待深化",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/DOR/H90-DOR-007_KitchenWindow",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_KIT_DOR007_kitchen_north_01_ROOT",
+      "assetId": "H90-DOR-007",
+      "room": "KIT",
+      "location_m": [
+        8.350000381469727,
+        8.899999618530273,
+        1.0
+      ],
+      "minimum_m": [
+        7.400000095367432,
+        8.832499504089355,
+        1.0
+      ],
+      "maximum_m": [
+        9.300000190734863,
+        8.934999465942383,
+        2.4000000953674316
+      ],
+      "dimensions_m": [
+        1.9000000953674316,
+        0.10249996185302734,
+        1.4000000953674316
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_DOR_007_KitchenWindow_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G18",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-DOR-007_KitchenWindow_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "91bcc44421e5ce2b0bbc620dd8e5662316ea0233c63c91f14eb33ed8c4708483"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/DOR/H90-DOR-007_KitchenWindow/Source/H90_DOR_007_KitchenWindow_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_KIT_DOR007_kitchen_north_01_ROOT",
+    "H90_KIT_DOR007_kitchen_north_01_P01_Header",
+    "H90_KIT_DOR007_kitchen_north_01_P02_Sill",
+    "H90_KIT_DOR007_kitchen_north_01_P03_LeftJamb",
+    "H90_KIT_DOR007_kitchen_north_01_P04_RightJamb",
+    "H90_KIT_DOR007_kitchen_north_01_P05_Mullion",
+    "H90_KIT_DOR007_kitchen_north_01_P06_Glass_1",
+    "H90_KIT_DOR007_kitchen_north_01_P07_Glass_2",
+    "H90_KIT_DOR007_kitchen_north_01_P08_Pull_Handle",
+    "H90_KIT_DOR007_kitchen_north_01_P09_Pull_Handle"
+  ]
+}

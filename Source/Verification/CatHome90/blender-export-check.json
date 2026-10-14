@@ -1,0 +1,17 @@
+{
+  "nativeAssets": 84,
+  "arrays": 22,
+  "collectionInstances": 51,
+  "missingTextures": [],
+  "exportedMeshObjects": 1352,
+  "uniqueMeshes": 887,
+  "vertices": 237352,
+  "engineFile": "Game/Assets/Art/CatHome90/H90_Residence.fbx",
+  "engineFileBytes": 9394604,
+  "sourcePreserved": true,
+  "units": "metres",
+  "limitations": [
+    "Procedural wood, textile and glass shading is approximated with URP materials; texture baking and LOD remain future work.",
+    "This is a separate scene preview; existing gameplay has not been replaced."
+  ]
+}

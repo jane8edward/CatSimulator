@@ -1,0 +1,10 @@
+{
+  "id": "H90-MAT-010",
+  "alias": "M10",
+  "name": "深色金属",
+  "slug": "DarkMetal",
+  "usage": "窗框、电器边框、部分五金",
+  "status": "待制作",
+  "renderer": "待与目标Unity项目确认",
+  "actualTextureResolution": null
+}

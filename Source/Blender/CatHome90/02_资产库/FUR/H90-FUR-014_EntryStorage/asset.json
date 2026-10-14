@@ -1,0 +1,87 @@
+{
+  "id": "H90-FUR-014",
+  "category": "FUR",
+  "slug": "EntryStorage",
+  "name": "玄关衣鞋柜",
+  "rooms": [
+    "ENT"
+  ],
+  "quantity": "1组",
+  "size": "E：0.60×1.55×2.40m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M01"
+  ],
+  "priority": "P1",
+  "references": [
+    "R01",
+    "R02"
+  ],
+  "splitAndInteractionPlan": "柜门、挂物点分开",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/FUR/H90-FUR-014_EntryStorage",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_ENT_FUR014_EntryStorage_01_ROOT",
+      "assetId": "H90-FUR-014",
+      "room": "ENT",
+      "location_m": [
+        0.5099999904632568,
+        7.929999828338623,
+        0.0
+      ],
+      "minimum_m": [
+        0.2099999189376831,
+        7.154999732971191,
+        0.0
+      ],
+      "maximum_m": [
+        0.8245000243186951,
+        8.704999923706055,
+        2.4000000953674316
+      ],
+      "dimensions_m": [
+        0.614500105381012,
+        1.5500001907348633,
+        2.4000000953674316
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_FUR_014_EntryStorage_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G05",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-014_EntryStorage_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "6ca4d06cb23203df3dbb51d3c1e429923a3dfa49a5669a9f0a05ae181b842478"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/FUR/H90-FUR-014_EntryStorage/Source/H90_FUR_014_EntryStorage_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_ENT_FUR014_EntryStorage_01_ROOT",
+    "H90_ENT_FUR014_EntryStorage_01_P01_Carcass_Top",
+    "H90_ENT_FUR014_EntryStorage_01_P02_Carcass_Bottom",
+    "H90_ENT_FUR014_EntryStorage_01_P03_Carcass_Back",
+    "H90_ENT_FUR014_EntryStorage_01_P04_Side",
+    "H90_ENT_FUR014_EntryStorage_01_P05_Side",
+    "H90_ENT_FUR014_EntryStorage_01_P06_Door_1",
+    "H90_ENT_FUR014_EntryStorage_01_P07_Door_2",
+    "H90_ENT_FUR014_EntryStorage_01_P08_Divider",
+    "H90_ENT_FUR014_EntryStorage_01_P09_Door_3",
+    "H90_ENT_FUR014_EntryStorage_01_P10_Divider"
+  ]
+}

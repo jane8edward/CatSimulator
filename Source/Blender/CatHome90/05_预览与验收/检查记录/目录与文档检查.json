@@ -1,0 +1,23 @@
+{
+  "checked": "2026-10-12",
+  "root": "Source/Blender/CatHome90",
+  "assets": 91,
+  "materials": 15,
+  "priorities": {
+    "P0": 24,
+    "P1": 31,
+    "P2": 36
+  },
+  "statuses": {
+    "待建模": 86,
+    "待确认": 4,
+    "已入库待核验": 1
+  },
+  "markdownFiles": 98,
+  "directories": 555,
+  "uniqueIds": true,
+  "metadataConsistent": true,
+  "markdownLinksResolve": true,
+  "referenceAndCharacterCopiesVerified": true,
+  "note": "Document and directory verification only; no mesh/import/gameplay acceptance is implied."
+}

@@ -1,0 +1,91 @@
+{
+  "id": "H90-APP-009",
+  "category": "APP",
+  "slug": "ShowerKit",
+  "name": "淋浴与玻璃隔断",
+  "rooms": [
+    "BTH"
+  ],
+  "quantity": "1套",
+  "size": "E：占地1.20×1.15，高2.10m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M09",
+    "M10"
+  ],
+  "priority": "P1",
+  "references": [
+    "R01",
+    "R02"
+  ],
+  "splitAndInteractionPlan": "玻璃门、龙头、排水口分开",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/APP/H90-APP-009_ShowerKit",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_BTH_APP009_ShowerKit_01_ROOT",
+      "assetId": "H90-APP-009",
+      "room": "BTH",
+      "location_m": [
+        6.099999904632568,
+        6.730000019073486,
+        0.0
+      ],
+      "minimum_m": [
+        5.329999923706055,
+        5.630000114440918,
+        -0.5299999713897705
+      ],
+      "maximum_m": [
+        7.630000114440918,
+        7.909999847412109,
+        3.0299999713897705
+      ],
+      "dimensions_m": [
+        2.3000001907348633,
+        2.2799997329711914,
+        3.559999942779541
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_APP_009_ShowerKit_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G19",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-009_ShowerKit_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "f5e4e62606068f516e37a475febfa45c7482d1370e15817b24465ad1e16031e5"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/APP/H90-APP-009_ShowerKit/Source/H90_APP_009_ShowerKit_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_BTH_APP009_ShowerKit_01_ROOT",
+    "H90_BTH_APP009_ShowerKit_01_P01_NorthGlass",
+    "H90_BTH_APP009_ShowerKit_01_P02_WestReturn",
+    "H90_BTH_APP009_ShowerKit_01_P03_MetalEdge",
+    "H90_BTH_APP009_ShowerKit_01_P04_MetalEdge",
+    "H90_BTH_APP009_ShowerKit_01_P05_MetalEdge",
+    "H90_BTH_APP009_ShowerKit_01_P06_MetalEdge",
+    "H90_BTH_APP009_ShowerKit_01_P07_MetalEdge",
+    "H90_BTH_APP009_ShowerKit_01_P08_Riser",
+    "H90_BTH_APP009_ShowerKit_01_P09_RainHead",
+    "H90_BTH_APP009_ShowerKit_01_P10_Mixer",
+    "H90_BTH_APP009_ShowerKit_01_P11_FlexibleHose",
+    "H90_BTH_APP009_ShowerKit_01_P12_HandShower",
+    "H90_BTH_APP009_ShowerKit_01_P13_DrainGrate"
+  ]
+}

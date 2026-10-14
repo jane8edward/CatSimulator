@@ -1,0 +1,91 @@
+{
+  "id": "H90-CAT-007",
+  "category": "CAT",
+  "slug": "WindowPerch",
+  "name": "主卧窗边猫台",
+  "rooms": [
+    "MBR"
+  ],
+  "quantity": "1件",
+  "size": "E：1.60×0.35×0.45m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M01",
+    "M05"
+  ],
+  "priority": "P1",
+  "references": [
+    "R01",
+    "R02"
+  ],
+  "splitAndInteractionPlan": "台面、软垫分开；窗边休息点",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/CAT/H90-CAT-007_WindowPerch",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_MBR_CAT007_WindowPerch_01_ROOT",
+      "assetId": "H90-CAT-007",
+      "room": "MBR",
+      "location_m": [
+        1.7000000476837158,
+        0.4699999988079071,
+        0.0
+      ],
+      "minimum_m": [
+        0.9000000357627869,
+        0.2949999272823334,
+        0.0
+      ],
+      "maximum_m": [
+        2.500000238418579,
+        0.6595000624656677,
+        0.3799999952316284
+      ],
+      "dimensions_m": [
+        1.6000002026557922,
+        0.36450013518333435,
+        0.3799999952316284
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_CAT_007_WindowPerch_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G08",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-007_WindowPerch_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "f67118b73f9cf93fcf08bdbd8faecac3d47b63203fc0e77830490bcf6383defd"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/CAT/H90-CAT-007_WindowPerch/Source/H90_CAT_007_WindowPerch_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_MBR_CAT007_WindowPerch_01_ROOT",
+    "H90_MBR_CAT007_WindowPerch_01_P01_Carcass_Top",
+    "H90_MBR_CAT007_WindowPerch_01_P02_Carcass_Bottom",
+    "H90_MBR_CAT007_WindowPerch_01_P03_Carcass_Back",
+    "H90_MBR_CAT007_WindowPerch_01_P04_Side",
+    "H90_MBR_CAT007_WindowPerch_01_P05_Side",
+    "H90_MBR_CAT007_WindowPerch_01_P06_Door_1",
+    "H90_MBR_CAT007_WindowPerch_01_P07_Door_2",
+    "H90_MBR_CAT007_WindowPerch_01_P08_Divider",
+    "H90_MBR_CAT007_WindowPerch_01_P09_Door_3",
+    "H90_MBR_CAT007_WindowPerch_01_P10_Divider",
+    "H90_MBR_CAT007_WindowPerch_01_P11_PerchMat",
+    "H90_MBR_CAT007_WindowPerch_01_P12_OvalBedRim",
+    "H90_MBR_CAT007_WindowPerch_01_P13_BedPad"
+  ]
+}

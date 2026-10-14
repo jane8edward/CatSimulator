@@ -1,0 +1,78 @@
+{
+  "id": "H90-PRP-013",
+  "category": "PRP",
+  "slug": "PlantBranching",
+  "name": "枝条绿植造型",
+  "rooms": [
+    "LIV",
+    "OFF"
+  ],
+  "quantity": "按统一摆放图确认",
+  "size": "E：高0.25～0.50m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M13"
+  ],
+  "priority": "P2",
+  "references": [
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "与桌面花盆组合",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-013_PlantBranching",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_LIV_PRP013_BranchingPlant_01_INST",
+      "assetId": "H90-PRP-013",
+      "room": "LIV",
+      "location_m": [
+        6.329999923706055,
+        5.389999866485596,
+        0.7590000033378601
+      ],
+      "minimum_m": [
+        5.192047119140625,
+        4.250512599945068,
+        -0.0910000205039978
+      ],
+      "maximum_m": [
+        7.46999979019165,
+        6.500857353210449,
+        2.159345865249634
+      ],
+      "dimensions_m": [
+        2.2779526710510254,
+        2.250344753265381,
+        2.2503458857536316
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_013_PlantBranching_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G12",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-013_PlantBranching_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "7c39f05a3a75a9f16ec5abdb536ea1e2627d6ce3b06ff215e26a48300fbcd863"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/PRP/H90-PRP-013_PlantBranching/Source/H90_PRP_013_PlantBranching_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_LIV_PRP013_BranchingPlant_01_INST"
+  ]
+}

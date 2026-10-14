@@ -1,0 +1,118 @@
+{
+  "id": "H90-DOR-002",
+  "category": "DOR",
+  "slug": "BedroomDoor",
+  "name": "卧室平开门",
+  "rooms": [
+    "MBR",
+    "OFF"
+  ],
+  "quantity": "2套",
+  "size": "D：宽0.90/0.85，高2.20m",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M01",
+    "M10"
+  ],
+  "priority": "P0",
+  "references": [
+    "R01",
+    "D01",
+    "R02"
+  ],
+  "splitAndInteractionPlan": "共用母版，保留宽度变体；门叶独立",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/DOR/H90-DOR-002_BedroomDoor",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_MBR_DOR002_master_01_ROOT",
+      "assetId": "H90-DOR-002",
+      "room": "MBR",
+      "location_m": [
+        3.5999999046325684,
+        4.0,
+        0.0
+      ],
+      "minimum_m": [
+        2.799999952316284,
+        2.940000057220459,
+        0.0
+      ],
+      "maximum_m": [
+        4.909999847412109,
+        4.940000057220459,
+        2.200000047683716
+      ],
+      "dimensions_m": [
+        2.109999895095825,
+        2.0,
+        2.200000047683716
+      ]
+    },
+    {
+      "name": "H90_OFF_DOR002_guest_01_ROOT",
+      "assetId": "H90-DOR-002",
+      "room": "OFF",
+      "location_m": [
+        3.0,
+        5.574999809265137,
+        0.0
+      ],
+      "minimum_m": [
+        2.059999942779541,
+        4.75,
+        0.0
+      ],
+      "maximum_m": [
+        4.059999942779541,
+        6.859999656677246,
+        2.200000047683716
+      ],
+      "dimensions_m": [
+        2.0,
+        2.109999656677246,
+        2.200000047683716
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_DOR_002_BedroomDoor_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G17",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-DOR-002_BedroomDoor_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "097a6718264e9217c1e94d3919b2eb0477e1475427453915e4aada2876acba04"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/DOR/H90-DOR-002_BedroomDoor/Source/H90_DOR_002_BedroomDoor_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_MBR_DOR002_master_01_ROOT",
+    "H90_MBR_DOR002_master_01_P01_Door_Slab",
+    "H90_MBR_DOR002_master_01_P02_Door_Frame",
+    "H90_MBR_DOR002_master_01_P03_Door_Frame",
+    "H90_MBR_DOR002_master_01_P04_Header",
+    "H90_MBR_DOR002_master_01_P05_Handle_Rose",
+    "H90_MBR_DOR002_master_01_P06_Lever",
+    "H90_OFF_DOR002_guest_01_ROOT",
+    "H90_OFF_DOR002_guest_01_P01_Door_Slab",
+    "H90_OFF_DOR002_guest_01_P02_Door_Frame",
+    "H90_OFF_DOR002_guest_01_P03_Door_Frame",
+    "H90_OFF_DOR002_guest_01_P04_Header",
+    "H90_OFF_DOR002_guest_01_P05_Handle_Rose",
+    "H90_OFF_DOR002_guest_01_P06_Lever"
+  ]
+}

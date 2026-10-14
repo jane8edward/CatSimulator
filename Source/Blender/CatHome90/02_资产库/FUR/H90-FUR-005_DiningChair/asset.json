@@ -1,0 +1,104 @@
+{
+  "id": "H90-FUR-005",
+  "category": "FUR",
+  "slug": "DiningChair",
+  "name": "餐椅",
+  "rooms": [
+    "LIV"
+  ],
+  "quantity": "2件",
+  "size": "E：0.48×0.50×0.82m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M01",
+    "M06"
+  ],
+  "priority": "P1",
+  "references": [
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "同一资产实例化；是否可推动待玩法确认",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/FUR/H90-FUR-005_DiningChair",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_LIV_FUR005_DiningChair_01_INST",
+      "assetId": "H90-FUR-005",
+      "room": "LIV",
+      "location_m": [
+        6.0,
+        4.800000190734863,
+        0.0
+      ],
+      "minimum_m": [
+        5.775000095367432,
+        4.559709072113037,
+        0.010987791232764721
+      ],
+      "maximum_m": [
+        6.224999904632568,
+        5.025000095367432,
+        0.8230943083763123
+      ],
+      "dimensions_m": [
+        0.4499998092651367,
+        0.46529102325439453,
+        0.8121065171435475
+      ]
+    },
+    {
+      "name": "H90_LIV_FUR005_DiningChair_02_INST",
+      "assetId": "H90-FUR-005",
+      "room": "LIV",
+      "location_m": [
+        6.679999828338623,
+        4.800000190734863,
+        0.0
+      ],
+      "minimum_m": [
+        6.454999923706055,
+        4.559709072113037,
+        0.010987791232764721
+      ],
+      "maximum_m": [
+        6.904999732971191,
+        5.025000095367432,
+        0.8230943083763123
+      ],
+      "dimensions_m": [
+        0.4499998092651367,
+        0.46529102325439453,
+        0.8121065171435475
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_FUR_005_DiningChair_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G03",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-005_DiningChair_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "10de3d840a5f2fec476deb8617607949cbeb48c5189f9d8edd18703d200ad577"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/FUR/H90-FUR-005_DiningChair/Source/H90_FUR_005_DiningChair_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_LIV_FUR005_DiningChair_01_INST",
+    "H90_LIV_FUR005_DiningChair_02_INST"
+  ]
+}

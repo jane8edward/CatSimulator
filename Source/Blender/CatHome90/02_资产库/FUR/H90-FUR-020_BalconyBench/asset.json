@@ -1,0 +1,104 @@
+{
+  "id": "H90-FUR-020",
+  "category": "FUR",
+  "slug": "BalconyBench",
+  "name": "阳台观景卧榻",
+  "rooms": [
+    "BAL"
+  ],
+  "quantity": "1件",
+  "size": "D：2.55×0.40×0.45m",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M01",
+    "M06",
+    "M05"
+  ],
+  "priority": "P0",
+  "references": [
+    "D01",
+    "R02",
+    "R04"
+  ],
+  "splitAndInteractionPlan": "木柜体与软垫分开；猫咪观景落点",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/FUR/H90-FUR-020_BalconyBench",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_BAL_FUR020_BalconyBench_01_ROOT",
+      "assetId": "H90-FUR-020",
+      "room": "BAL",
+      "location_m": [
+        7.275000095367432,
+        0.47999998927116394,
+        0.0
+      ],
+      "minimum_m": [
+        6.0,
+        0.27999985218048096,
+        0.0
+      ],
+      "maximum_m": [
+        8.550000190734863,
+        0.6945001482963562,
+        0.44999998807907104
+      ],
+      "dimensions_m": [
+        2.5500001907348633,
+        0.41450029611587524,
+        0.44999998807907104
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "layoutRecord": {
+    "id": "balcony_bench",
+    "name": "观景猫卧榻",
+    "rect": [
+      6.0,
+      0.28,
+      2.55,
+      0.4
+    ],
+    "height_m": 0.45
+  },
+  "expectedBasename": "H90_FUR_020_BalconyBench_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G01",
+      "source": "R04",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-020_BalconyBench_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "2b826b7406e6b14b55f5ed0b707dc076acd910b265551e47929ecc9922f3e1ea"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/FUR/H90-FUR-020_BalconyBench/Source/H90_FUR_020_BalconyBench_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_BAL_FUR020_BalconyBench_01_ROOT",
+    "H90_BAL_FUR020_BalconyBench_01_P01_Carcass_Top",
+    "H90_BAL_FUR020_BalconyBench_01_P02_Carcass_Bottom",
+    "H90_BAL_FUR020_BalconyBench_01_P03_Carcass_Back",
+    "H90_BAL_FUR020_BalconyBench_01_P04_Side",
+    "H90_BAL_FUR020_BalconyBench_01_P05_Side",
+    "H90_BAL_FUR020_BalconyBench_01_P06_Door_1",
+    "H90_BAL_FUR020_BalconyBench_01_P07_Door_2",
+    "H90_BAL_FUR020_BalconyBench_01_P08_Divider",
+    "H90_BAL_FUR020_BalconyBench_01_P09_Door_3",
+    "H90_BAL_FUR020_BalconyBench_01_P10_Divider",
+    "H90_BAL_FUR020_BalconyBench_01_P11_SeatPad",
+    "H90_BAL_FUR020_BalconyBench_01_P12_SeatPad",
+    "H90_BAL_FUR020_BalconyBench_01_P13_SeatPad"
+  ]
+}

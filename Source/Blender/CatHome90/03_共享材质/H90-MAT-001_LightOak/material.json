@@ -1,0 +1,10 @@
+{
+  "id": "H90-MAT-001",
+  "alias": "M01",
+  "name": "浅橡木",
+  "slug": "LightOak",
+  "usage": "地板、柜体、家具；允许色调变体",
+  "status": "待制作",
+  "renderer": "待与目标Unity项目确认",
+  "actualTextureResolution": null
+}

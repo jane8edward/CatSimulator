@@ -1,0 +1,100 @@
+{
+  "id": "H90-FUR-019",
+  "category": "FUR",
+  "slug": "LaundryStorage",
+  "name": "洗衣收纳柜",
+  "rooms": [
+    "BAL"
+  ],
+  "quantity": "1组",
+  "size": "D：占地0.70×0.76，高2.40m",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M01",
+    "M14"
+  ],
+  "priority": "P1",
+  "references": [
+    "D01",
+    "R02",
+    "R04"
+  ],
+  "splitAndInteractionPlan": "预留洗衣机；门板独立；不与电器重叠",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/FUR/H90-FUR-019_LaundryStorage",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_BAL_FUR019_LaundryStorage_01_ROOT",
+      "assetId": "H90-FUR-019",
+      "room": "BAL",
+      "location_m": [
+        4.670000076293945,
+        0.8600000143051147,
+        0.0
+      ],
+      "minimum_m": [
+        4.3125,
+        0.47999992966651917,
+        0.0
+      ],
+      "maximum_m": [
+        5.027500152587891,
+        1.2400000095367432,
+        2.4000000953674316
+      ],
+      "dimensions_m": [
+        0.7150001525878906,
+        0.760000079870224,
+        2.4000000953674316
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "layoutRecord": {
+    "id": "balcony_laundry",
+    "name": "洗衣收纳",
+    "rect": [
+      4.32,
+      0.48,
+      0.7,
+      0.76
+    ],
+    "height_m": 2.4
+  },
+  "expectedBasename": "H90_FUR_019_LaundryStorage_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G05",
+      "source": "R04",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-019_LaundryStorage_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "86cf56fcd2ee9054fcbee612670395638320aa09f339c7c0a78fd52019ee31e3"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/FUR/H90-FUR-019_LaundryStorage/Source/H90_FUR_019_LaundryStorage_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_BAL_FUR019_LaundryStorage_01_ROOT",
+    "H90_BAL_FUR019_LaundryStorage_01_P01_SideSupport",
+    "H90_BAL_FUR019_LaundryStorage_01_P02_SideSupport",
+    "H90_BAL_FUR019_LaundryStorage_01_P03_Counter",
+    "H90_BAL_FUR019_LaundryStorage_01_P04_UpperBack",
+    "H90_BAL_FUR019_LaundryStorage_01_P05_UpperSide",
+    "H90_BAL_FUR019_LaundryStorage_01_P06_UpperSide",
+    "H90_BAL_FUR019_LaundryStorage_01_P07_UpperTop",
+    "H90_BAL_FUR019_LaundryStorage_01_P08_UpperBottom",
+    "H90_BAL_FUR019_LaundryStorage_01_P09_UpperDoor",
+    "H90_BAL_FUR019_LaundryStorage_01_P10_UpperDoor"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "H90-FUR-002",
+  "category": "FUR",
+  "slug": "CoffeeTable",
+  "name": "圆角茶几",
+  "rooms": [
+    "LIV"
+  ],
+  "quantity": "1件",
+  "size": "D：1.00×0.65×0.38m",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M01"
+  ],
+  "priority": "P0",
+  "references": [
+    "D01",
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "台面落点；桌腿简化碰撞",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/FUR/H90-FUR-002_CoffeeTable",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_LIV_FUR002_CoffeeTable_01_ROOT",
+      "assetId": "H90-FUR-002",
+      "room": "LIV",
+      "location_m": [
+        6.699999809265137,
+        3.325000047683716,
+        0.0
+      ],
+      "minimum_m": [
+        6.199999809265137,
+        3.0,
+        0.0066297780722379684
+      ],
+      "maximum_m": [
+        7.199999809265137,
+        3.6500000953674316,
+        0.3799999952316284
+      ],
+      "dimensions_m": [
+        1.0,
+        0.6500000953674316,
+        0.37337021715939045
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "layoutRecord": {
+    "id": "coffee_table",
+    "name": "茶几",
+    "rect": [
+      6.2,
+      3.0,
+      1.0,
+      0.65
+    ],
+    "height_m": 0.38
+  },
+  "expectedBasename": "H90_FUR_002_CoffeeTable_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G02",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-002_CoffeeTable_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "1c32a144edd46389e31a7145e4e2cc7c6264bd3a36842de9c53e1cc2f33e7b63"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/FUR/H90-FUR-002_CoffeeTable/Source/H90_FUR_002_CoffeeTable_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_LIV_FUR002_CoffeeTable_01_ROOT",
+    "H90_LIV_FUR002_CoffeeTable_01_P01_Top",
+    "H90_LIV_FUR002_CoffeeTable_01_P02_TaperedLeg",
+    "H90_LIV_FUR002_CoffeeTable_01_P03_TaperedLeg",
+    "H90_LIV_FUR002_CoffeeTable_01_P04_TaperedLeg",
+    "H90_LIV_FUR002_CoffeeTable_01_P05_TaperedLeg",
+    "H90_LIV_FUR002_CoffeeTable_01_P06_Apron_Front",
+    "H90_LIV_FUR002_CoffeeTable_01_P07_Apron_Back"
+  ]
+}

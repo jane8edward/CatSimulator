@@ -1,0 +1,85 @@
+{
+  "id": "H90-APP-004",
+  "category": "APP",
+  "slug": "Cooktop",
+  "name": "灶台",
+  "rooms": [
+    "KIT"
+  ],
+  "quantity": "1套",
+  "size": "E：0.60×0.45×0.06m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M10"
+  ],
+  "priority": "P1",
+  "references": [
+    "R01",
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "表面与旋钮分组",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/APP/H90-APP-004_Cooktop",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_KIT_APP004_Cooktop_01_ROOT",
+      "assetId": "H90-APP-004",
+      "room": "KIT",
+      "location_m": [
+        9.5,
+        7.170000076293945,
+        0.9049999713897705
+      ],
+      "minimum_m": [
+        9.274999618530273,
+        6.869999885559082,
+        0.9049999713897705
+      ],
+      "maximum_m": [
+        9.725000381469727,
+        7.470000267028809,
+        0.9570000171661377
+      ],
+      "dimensions_m": [
+        0.4500007629394531,
+        0.6000003814697266,
+        0.05200004577636719
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_APP_004_Cooktop_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G06",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-004_Cooktop_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "d61b06ad4b295f65c4dd9cee03834c5507ecfa9e44631559d6178dab80f8bda2"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/APP/H90-APP-004_Cooktop/Source/H90_APP_004_Cooktop_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_KIT_APP004_Cooktop_01_ROOT",
+    "H90_KIT_APP004_Cooktop_01_P01_GlassCooktop",
+    "H90_KIT_APP004_Cooktop_01_P02_BurnerOuterRing",
+    "H90_KIT_APP004_Cooktop_01_P03_BurnerInnerRing",
+    "H90_KIT_APP004_Cooktop_01_P04_ControlKnob",
+    "H90_KIT_APP004_Cooktop_01_P05_BurnerOuterRing",
+    "H90_KIT_APP004_Cooktop_01_P06_BurnerInnerRing",
+    "H90_KIT_APP004_Cooktop_01_P07_ControlKnob"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "H90-PRP-009",
+  "category": "PRP",
+  "slug": "CeramicMug",
+  "name": "陶瓷杯",
+  "rooms": [
+    "LIV"
+  ],
+  "quantity": "1个",
+  "size": "E：直径0.085、高0.10m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M11"
+  ],
+  "priority": "P1",
+  "references": [
+    "R03"
+  ],
+  "splitAndInteractionPlan": "杯体独立；推倒交互建议",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-009_CeramicMug",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_OFF_PRP009_DeskMug_01_ROOT",
+      "assetId": "H90-PRP-009",
+      "room": "OFF",
+      "location_m": [
+        2.6700000762939453,
+        6.340000152587891,
+        0.7649999856948853
+      ],
+      "minimum_m": [
+        1.7100000381469727,
+        5.340000152587891,
+        -0.2120000123977661
+      ],
+      "maximum_m": [
+        3.739000082015991,
+        7.340000152587891,
+        1.8519999980926514
+      ],
+      "dimensions_m": [
+        2.0290000438690186,
+        2.0,
+        2.0640000104904175
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP009_CoffeeMug_01_ROOT",
+      "assetId": "H90-PRP-009",
+      "room": "LIV",
+      "location_m": [
+        6.949999809265137,
+        3.4600000381469727,
+        0.4099999964237213
+      ],
+      "minimum_m": [
+        5.989999771118164,
+        2.4600000381469727,
+        -0.5670000314712524
+      ],
+      "maximum_m": [
+        8.019000053405762,
+        4.460000038146973,
+        1.496999979019165
+      ],
+      "dimensions_m": [
+        2.0290002822875977,
+        2.0,
+        2.0640000104904175
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_009_CeramicMug_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G13",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-009_CeramicMug_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "e3b0248dd48b8402c6a182796ba0bbde6c09ea86aa3a461e27cd1204f5eba7ca"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/PRP/H90-PRP-009_CeramicMug/Source/H90_PRP_009_CeramicMug_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_OFF_PRP009_DeskMug_01_ROOT",
+    "H90_OFF_PRP009_DeskMug_01_P01_MugBody",
+    "H90_OFF_PRP009_DeskMug_01_P02_Handle",
+    "H90_LIV_PRP009_CoffeeMug_01_ROOT",
+    "H90_LIV_PRP009_CoffeeMug_01_P01_MugBody",
+    "H90_LIV_PRP009_CoffeeMug_01_P02_Handle"
+  ]
+}

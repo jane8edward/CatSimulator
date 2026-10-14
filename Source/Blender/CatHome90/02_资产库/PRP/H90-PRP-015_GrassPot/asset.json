@@ -1,0 +1,80 @@
+{
+  "id": "H90-PRP-015",
+  "category": "PRP",
+  "slug": "GrassPot",
+  "name": "阳台草盆造型",
+  "rooms": [
+    "BAL"
+  ],
+  "quantity": "1组",
+  "size": "E：直径0.20、高0.30m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M13",
+    "M11"
+  ],
+  "priority": "P2",
+  "references": [
+    "R04"
+  ],
+  "splitAndInteractionPlan": "盆、草分组；按图中视觉形状制作",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-015_GrassPot",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_BAL_PRP015_GrassPot_01_ROOT",
+      "assetId": "H90-PRP-015",
+      "room": "BAL",
+      "location_m": [
+        9.399999618530273,
+        0.6000000238418579,
+        0.7139999866485596
+      ],
+      "minimum_m": [
+        9.256965637207031,
+        0.44518589973449707,
+        0.7139999866485596
+      ],
+      "maximum_m": [
+        9.545660972595215,
+        0.7563719153404236,
+        1.0989975929260254
+      ],
+      "dimensions_m": [
+        0.2886953353881836,
+        0.3111860156059265,
+        0.3849976062774658
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_015_GrassPot_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G12",
+      "source": "R04",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-015_GrassPot_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "950ddc5179479a6a5d47820b04458556c5e2487a9e4ad6ede37271442af4127d"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/PRP/H90-PRP-015_GrassPot/Source/H90_PRP_015_GrassPot_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_BAL_PRP015_GrassPot_01_ROOT",
+    "H90_BAL_PRP015_GrassPot_01_P01_CeramicPot",
+    "H90_BAL_PRP015_GrassPot_01_P02_Soil",
+    "H90_BAL_PRP015_GrassPot_01_P03_GrassCanopy"
+  ]
+}

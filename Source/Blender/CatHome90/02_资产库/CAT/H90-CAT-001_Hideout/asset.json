@@ -1,0 +1,86 @@
+{
+  "id": "H90-CAT-001",
+  "category": "CAT",
+  "slug": "Hideout",
+  "name": "猫咪躲藏屋",
+  "rooms": [
+    "LIV"
+  ],
+  "quantity": "1件",
+  "size": "E：0.55×0.55×0.55m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M01"
+  ],
+  "priority": "P0",
+  "references": [
+    "R01",
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "真实入口空腔；进出点与内部碰撞",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/CAT/H90-CAT-001_Hideout",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_LIV_CAT001_Hideout_01_ROOT",
+      "assetId": "H90-CAT-001",
+      "room": "LIV",
+      "location_m": [
+        8.649999618530273,
+        5.230000019073486,
+        0.0
+      ],
+      "minimum_m": [
+        8.374999046325684,
+        4.952500343322754,
+        0.0
+      ],
+      "maximum_m": [
+        8.925000190734863,
+        5.505000114440918,
+        0.550000011920929
+      ],
+      "dimensions_m": [
+        0.5500011444091797,
+        0.5524997711181641,
+        0.550000011920929
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_CAT_001_Hideout_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G08",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-001_Hideout_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "6505196cd6486e44733225b8068d6a9e946be8bb367e3d7aea8803d53135aaf8"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/CAT/H90-CAT-001_Hideout/Source/H90_CAT_001_Hideout_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_LIV_CAT001_Hideout_01_ROOT",
+    "H90_LIV_CAT001_Hideout_01_P01_Top",
+    "H90_LIV_CAT001_Hideout_01_P02_Bottom",
+    "H90_LIV_CAT001_Hideout_01_P03_Back",
+    "H90_LIV_CAT001_Hideout_01_P04_SideL",
+    "H90_LIV_CAT001_Hideout_01_P05_SideR",
+    "H90_LIV_CAT001_Hideout_01_P06_EntrancePanel",
+    "H90_LIV_CAT001_Hideout_01_P08_SquareStile",
+    "H90_LIV_CAT001_Hideout_01_P09_SquareStile"
+  ]
+}

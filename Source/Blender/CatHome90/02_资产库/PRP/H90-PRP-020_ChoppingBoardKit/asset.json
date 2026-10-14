@@ -1,0 +1,196 @@
+{
+  "id": "H90-PRP-020",
+  "category": "PRP",
+  "slug": "ChoppingBoardKit",
+  "name": "厨房砧板与调味罐",
+  "rooms": [
+    "KIT"
+  ],
+  "quantity": "1组",
+  "size": "E：砧板0.35×0.25m；瓶罐T",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M01",
+    "M11"
+  ],
+  "priority": "P2",
+  "references": [
+    "R03"
+  ],
+  "splitAndInteractionPlan": "两种砧板与瓶罐；不与台面合并",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-020_ChoppingBoardKit",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_KIT_PRP020_ChoppingBoardLarge_01_ROOT",
+      "assetId": "H90-PRP-020",
+      "room": "KIT",
+      "location_m": [
+        9.739999771118164,
+        7.769999980926514,
+        0.9160000085830688
+      ],
+      "minimum_m": [
+        9.731499671936035,
+        7.65500020980835,
+        0.9160000085830688
+      ],
+      "maximum_m": [
+        9.748499870300293,
+        7.884999752044678,
+        1.3009999990463257
+      ],
+      "dimensions_m": [
+        0.017000198364257812,
+        0.22999954223632812,
+        0.38499999046325684
+      ]
+    },
+    {
+      "name": "H90_KIT_PRP020_ChoppingBoardSmall_01_ROOT",
+      "assetId": "H90-PRP-020",
+      "room": "KIT",
+      "location_m": [
+        9.699999809265137,
+        8.039999961853027,
+        0.9160000085830688
+      ],
+      "minimum_m": [
+        9.691499710083008,
+        7.949999809265137,
+        0.9160000085830688
+      ],
+      "maximum_m": [
+        9.708499908447266,
+        8.130000114440918,
+        1.2510000467300415
+      ],
+      "dimensions_m": [
+        0.017000198364257812,
+        0.18000030517578125,
+        0.33500003814697266
+      ]
+    },
+    {
+      "name": "H90_KIT_PRP020_SeasoningJar_01_ROOT",
+      "assetId": "H90-PRP-020",
+      "room": "KIT",
+      "location_m": [
+        9.359999656677246,
+        7.849999904632568,
+        0.9160000085830688
+      ],
+      "minimum_m": [
+        9.314000129699707,
+        7.803999900817871,
+        0.9160000085830688
+      ],
+      "maximum_m": [
+        9.405999183654785,
+        7.895999908447266,
+        1.0220000743865967
+      ],
+      "dimensions_m": [
+        0.09199905395507812,
+        0.09200000762939453,
+        0.10600006580352783
+      ]
+    },
+    {
+      "name": "H90_KIT_PRP020_CeramicCanister_01_ROOT",
+      "assetId": "H90-PRP-020",
+      "room": "KIT",
+      "location_m": [
+        9.039999961853027,
+        8.510000228881836,
+        0.9160000085830688
+      ],
+      "minimum_m": [
+        8.994000434875488,
+        8.464000701904297,
+        0.9160000085830688
+      ],
+      "maximum_m": [
+        9.085999488830566,
+        8.555999755859375,
+        1.0410000085830688
+      ],
+      "dimensions_m": [
+        0.09199905395507812,
+        0.09199905395507812,
+        0.125
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_020_ChoppingBoardKit_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "BoardLarge",
+      "groupId": "G15",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-020_ChoppingBoardKit_BoardLarge_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "8f002a6c2444f66e40a2f8b5425be9c61e009b08b21be832490608e60c79c7b9"
+    },
+    {
+      "variant": "BoardSmall",
+      "groupId": "G15",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-020_ChoppingBoardKit_BoardSmall_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "3b828bd1aaf3628a69a4cfa624320abeb3f43cd5e190f6e75dd5616f410cb0aa"
+    },
+    {
+      "variant": "JarGlass",
+      "groupId": "G15",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-020_ChoppingBoardKit_JarGlass_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "c143df683ef9a00bed693a3eaf4509cf974d12f4c0cd21bd0f6dd48f832af363"
+    },
+    {
+      "variant": "JarCeramic",
+      "groupId": "G15",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-020_ChoppingBoardKit_JarCeramic_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "63c6fcc3e39d9be6b4712a4cdb590f76f04c494c5fe0edd0cb57adf27e7cd8a0"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/PRP/H90-PRP-020_ChoppingBoardKit/Source/H90_PRP_020_ChoppingBoardKit_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_KIT_PRP020_ChoppingBoardLarge_01_ROOT",
+    "H90_KIT_PRP020_ChoppingBoardLarge_01_P01_ChoppingBoard",
+    "H90_KIT_PRP020_ChoppingBoardSmall_01_ROOT",
+    "H90_KIT_PRP020_ChoppingBoardSmall_01_P01_ChoppingBoard",
+    "H90_KIT_PRP020_SeasoningJar_01_ROOT",
+    "H90_KIT_PRP020_SeasoningJar_01_P01_Jar",
+    "H90_KIT_PRP020_SeasoningJar_01_P02_SaltContents",
+    "H90_KIT_PRP020_SeasoningJar_01_P03_Lid",
+    "H90_KIT_PRP020_CeramicCanister_01_ROOT",
+    "H90_KIT_PRP020_CeramicCanister_01_P01_Jar",
+    "H90_KIT_PRP020_CeramicCanister_01_P02_Lid",
+    "H90_KIT_PRP020_CeramicCanister_01_P03_LidKnob"
+  ]
+}

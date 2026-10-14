@@ -1,0 +1,95 @@
+{
+  "editor": "6000.3.26f1 Apple Silicon",
+  "liveSamples": [
+    {
+      "frame": 1618,
+      "time": 26.94966,
+      "observedFrames": 1618,
+      "elapsed": 26.9696712,
+      "previewLoopDistance": 7.0,
+      "paused": false,
+      "position": "(0.01710, 0.00000, 6.29290)",
+      "paw": "(0.00000, 0.01389, 0.00000, 0.99990)",
+      "normalized": 22.458046
+    },
+    {
+      "frame": 3416,
+      "time": 57.2204628,
+      "observedFrames": 3416,
+      "elapsed": 57.24043,
+      "previewLoopDistance": 7.0,
+      "paused": false,
+      "position": "(0.01727, 0.00000, 6.35608)",
+      "paw": "(0.00000, -0.04465, 0.00000, 0.99900)",
+      "normalized": 47.6837769
+    }
+  ],
+  "pauseSamples": [
+    {
+      "frame": 80902,
+      "time": 104.460335,
+      "elapsed": 74.60823,
+      "paused": true,
+      "previewLoopDistance": 0.0,
+      "position": "(0.04731, 0.00000, 17.40837)",
+      "start": "(0.00, 0.00, 0.00)",
+      "normalized": 62.1563263
+    },
+    {
+      "frame": 99702,
+      "time": 146.796951,
+      "elapsed": 74.60823,
+      "paused": true,
+      "position": "(0.04731, 0.00000, 17.40837)",
+      "normalized": 62.1563263
+    }
+  ],
+  "console": {
+    "sampledUtc": "2026-10-11T16:11:54.18854Z",
+    "ageMs": 246,
+    "compilationFailed": false,
+    "compiling": false,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "consoleLogs": 0,
+    "seeded": true
+  },
+  "sourceFilesUnchanged": [
+    {
+      "file": "tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbx",
+      "sha256": "1972ef29b48f3b4d384420bb02ec01c8aee96309f55853f85c4b24598b51feae"
+    },
+    {
+      "file": "tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_normal.JPEG",
+      "sha256": "63e9e7e6659e0108cd89867d281d4ae481156d12abdedff19e53c309d0294c36"
+    },
+    {
+      "file": "tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_metallic.JPEG",
+      "sha256": "cbece138d6ce1efa05c80dc9776a6e2f166c2fcd6708b3775373229262ddcce4"
+    },
+    {
+      "file": "tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_roughness.JPEG",
+      "sha256": "0ca588b59df862e0bbedec4c8b60f14c6b085e009437daa2be2541f4bf694c1e"
+    },
+    {
+      "file": "tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_rm.PNG",
+      "sha256": "c065ae6e1955d2993e27ecb89ab019a3011a74408beafc4f8be0d9e5bb15ea88"
+    },
+    {
+      "file": "tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_basecolor.JPEG",
+      "sha256": "bcf36488da5085af9ba17aa50fb4cef2bcbc8cd2e5424dd97674f0314f74b0f5"
+    }
+  ],
+  "video": {
+    "file": "Preview/阿比尼西亚猫_行走预览.mp4",
+    "frames": 144,
+    "fps": 30,
+    "durationSeconds": 4.8,
+    "dimensions": [
+      960,
+      720
+    ],
+    "decodeVerified": true
+  },
+  "checksPassed": true
+}

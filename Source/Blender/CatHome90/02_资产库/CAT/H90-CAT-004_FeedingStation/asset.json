@@ -1,0 +1,98 @@
+{
+  "id": "H90-CAT-004",
+  "category": "CAT",
+  "slug": "FeedingStation",
+  "name": "双碗喂食站",
+  "rooms": [
+    "LIV"
+  ],
+  "quantity": "1套",
+  "size": "D：0.58×0.30×0.35m",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M01",
+    "M11"
+  ],
+  "priority": "P0",
+  "references": [
+    "D01",
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "支架、双碗、食粮面分节点；吃食状态预留",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/CAT/H90-CAT-004_FeedingStation",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_LIV_CAT004_FeedingStation_01_ROOT",
+      "assetId": "H90-CAT-004",
+      "room": "LIV",
+      "location_m": [
+        4.670000076293945,
+        5.699999809265137,
+        0.0
+      ],
+      "minimum_m": [
+        4.380000114440918,
+        5.549999713897705,
+        0.0
+      ],
+      "maximum_m": [
+        4.960000038146973,
+        5.849999904632568,
+        0.3700000047683716
+      ],
+      "dimensions_m": [
+        0.5799999237060547,
+        0.3000001907348633,
+        0.3700000047683716
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "layoutRecord": {
+    "id": "feeder",
+    "name": "喂食站",
+    "rect": [
+      4.38,
+      5.55,
+      0.58,
+      0.3
+    ],
+    "height_m": 0.35
+  },
+  "expectedBasename": "H90_CAT_004_FeedingStation_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G09",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-004_FeedingStation_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "59e4fa359cbe764993bcd9627bb70fa91a96cae680a661f7e0364aa45b80a61a"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/CAT/H90-CAT-004_FeedingStation/Source/H90_CAT_004_FeedingStation_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_LIV_CAT004_FeedingStation_01_ROOT",
+    "H90_LIV_CAT004_FeedingStation_01_P01_FeederTop",
+    "H90_LIV_CAT004_FeedingStation_01_P03_CeramicBowl",
+    "H90_LIV_CAT004_FeedingStation_01_P05_CeramicBowl",
+    "H90_LIV_CAT004_FeedingStation_01_P06_Leg",
+    "H90_LIV_CAT004_FeedingStation_01_P07_Leg",
+    "H90_LIV_CAT004_FeedingStation_01_P08_Leg",
+    "H90_LIV_CAT004_FeedingStation_01_P09_Leg",
+    "H90_LIV_CAT004_FeedingStation_01_P10_LowerShelf"
+  ]
+}

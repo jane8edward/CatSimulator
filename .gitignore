@@ -25,3 +25,14 @@ Source/scene-import-check.txt
 __pycache__/
 *.pyc
 *.pyo
+
+# Imported desktop resources: local caches and safety copies
+.DS_Store
+**/Library/
+**/Temp/
+**/Obj/
+**/Logs/
+**/UserSettings/
+**/Builds/
+**/99_归档/
+**/90_待整理/

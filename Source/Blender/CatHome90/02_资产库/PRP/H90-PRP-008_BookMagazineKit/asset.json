@@ -1,0 +1,105 @@
+{
+  "id": "H90-PRP-008",
+  "category": "PRP",
+  "slug": "BookMagazineKit",
+  "name": "书籍与杂志套件",
+  "rooms": [
+    "LIV",
+    "OFF"
+  ],
+  "quantity": "1组可复用",
+  "size": "E：0.15～0.30m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M05",
+    "M01"
+  ],
+  "priority": "P2",
+  "references": [
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "书本、叠书母版；轻物理可选",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-008_BookMagazineKit",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_LIV_PRP008_Book_01_INST",
+      "assetId": "H90-PRP-008",
+      "room": "LIV",
+      "location_m": [
+        6.909999847412109,
+        3.1700000762939453,
+        0.4099999964237213
+      ],
+      "minimum_m": [
+        6.75499963760376,
+        3.057500123977661,
+        0.40950000286102295
+      ],
+      "maximum_m": [
+        7.065000057220459,
+        3.2825000286102295,
+        0.4375
+      ],
+      "dimensions_m": [
+        0.3100004196166992,
+        0.22499990463256836,
+        0.02799999713897705
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP008_Book_02_INST",
+      "assetId": "H90-PRP-008",
+      "room": "LIV",
+      "location_m": [
+        6.909999847412109,
+        3.1700000762939453,
+        0.43799999356269836
+      ],
+      "minimum_m": [
+        6.751695156097412,
+        3.05290150642395,
+        0.4375
+      ],
+      "maximum_m": [
+        7.068304538726807,
+        3.2870986461639404,
+        0.46549999713897705
+      ],
+      "dimensions_m": [
+        0.31660938262939453,
+        0.23419713973999023,
+        0.02799999713897705
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_008_BookMagazineKit_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Book",
+      "groupId": "G13",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-008_BookMagazineKit_Book_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "ce3c2e2d85aad99cbbd7061cbc3777f8d5b67fc458ddc60f092c7c03646b01b9"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/PRP/H90-PRP-008_BookMagazineKit/Source/H90_PRP_008_BookMagazineKit_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_LIV_PRP008_Book_01_INST",
+    "H90_LIV_PRP008_Book_02_INST"
+  ]
+}

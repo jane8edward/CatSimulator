@@ -1,0 +1,10 @@
+{
+  "id": "H90-MAT-003",
+  "alias": "M03",
+  "name": "浅灰瓷砖",
+  "slug": "GreyTile",
+  "usage": "厨房、阳台地面",
+  "status": "待制作",
+  "renderer": "待与目标Unity项目确认",
+  "actualTextureResolution": null
+}
