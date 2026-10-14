@@ -1,0 +1,183 @@
+{
+  "id": "H90-CAT-003",
+  "category": "CAT",
+  "slug": "WallPlatformKit",
+  "name": "墙面攀爬平台套件",
+  "rooms": [
+    "LIV"
+  ],
+  "quantity": "5个节点",
+  "size": "D：台面标高0.35/0.75/1.15/1.65/2.15m；台宽深E",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M01",
+    "M05"
+  ],
+  "priority": "P0",
+  "references": [
+    "D01",
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "两种平台母版；5个实例；按设计节点统一跨图差异",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/CAT/H90-CAT-003_WallPlatformKit",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_LIV_CAT003_WallPlatform_01_INST",
+      "assetId": "H90-CAT-003",
+      "room": "LIV",
+      "location_m": [
+        9.649999618530273,
+        4.75,
+        0.3499999940395355
+      ],
+      "minimum_m": [
+        9.5,
+        4.510000228881836,
+        0.29499998688697815
+      ],
+      "maximum_m": [
+        9.799999237060547,
+        4.989999771118164,
+        0.3499999940395355
+      ],
+      "dimensions_m": [
+        0.2999992370605469,
+        0.4799995422363281,
+        0.05500000715255737
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT003_WallPlatform_02_INST",
+      "assetId": "H90-CAT-003",
+      "room": "LIV",
+      "location_m": [
+        9.649999618530273,
+        5.699999809265137,
+        0.75
+      ],
+      "minimum_m": [
+        9.5,
+        5.460000038146973,
+        0.6949999928474426
+      ],
+      "maximum_m": [
+        9.799999237060547,
+        5.939999580383301,
+        0.75
+      ],
+      "dimensions_m": [
+        0.2999992370605469,
+        0.4799995422363281,
+        0.05500000715255737
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT003_WallPlatform_03_INST",
+      "assetId": "H90-CAT-003",
+      "room": "LIV",
+      "location_m": [
+        9.649999618530273,
+        4.75,
+        1.149999976158142
+      ],
+      "minimum_m": [
+        9.5,
+        4.510000228881836,
+        1.0950000286102295
+      ],
+      "maximum_m": [
+        9.799999237060547,
+        4.989999771118164,
+        1.149999976158142
+      ],
+      "dimensions_m": [
+        0.2999992370605469,
+        0.4799995422363281,
+        0.0549999475479126
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT003_WallPlatform_04_INST",
+      "assetId": "H90-CAT-003",
+      "room": "LIV",
+      "location_m": [
+        9.649999618530273,
+        5.699999809265137,
+        1.649999976158142
+      ],
+      "minimum_m": [
+        9.5,
+        5.460000038146973,
+        1.5950000286102295
+      ],
+      "maximum_m": [
+        9.799999237060547,
+        5.939999580383301,
+        1.649999976158142
+      ],
+      "dimensions_m": [
+        0.2999992370605469,
+        0.4799995422363281,
+        0.0549999475479126
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT003_WallPlatform_05_INST",
+      "assetId": "H90-CAT-003",
+      "room": "LIV",
+      "location_m": [
+        9.649999618530273,
+        4.75,
+        2.1500000953674316
+      ],
+      "minimum_m": [
+        9.5,
+        4.510000228881836,
+        2.0950000286102295
+      ],
+      "maximum_m": [
+        9.799999237060547,
+        4.989999771118164,
+        2.1500000953674316
+      ],
+      "dimensions_m": [
+        0.2999992370605469,
+        0.4799995422363281,
+        0.05500006675720215
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_CAT_003_WallPlatformKit_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Module",
+      "groupId": "G09",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-003_WallPlatformKit_Module_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "7fd86825f75f8ed0acb767d5e0b2742d2c5f5ef569f80d928f53fec2e32224e9"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/CAT/H90-CAT-003_WallPlatformKit/Source/H90_CAT_003_WallPlatformKit_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_LIV_CAT003_WallPlatform_01_INST",
+    "H90_LIV_CAT003_WallPlatform_02_INST",
+    "H90_LIV_CAT003_WallPlatform_03_INST",
+    "H90_LIV_CAT003_WallPlatform_04_INST",
+    "H90_LIV_CAT003_WallPlatform_05_INST"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "H90-APP-006",
+  "category": "APP",
+  "slug": "KitchenSink",
+  "name": "厨房水槽与龙头",
+  "rooms": [
+    "KIT"
+  ],
+  "quantity": "1套",
+  "size": "E：槽0.70×0.38m；高度T",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M10",
+    "M15"
+  ],
+  "priority": "P1",
+  "references": [
+    "R01",
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "龙头、水面分开；出水效果后续制作",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/APP/H90-APP-006_KitchenSink",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_KIT_APP006_KitchenSink_01_ROOT",
+      "assetId": "H90-APP-006",
+      "room": "KIT",
+      "location_m": [
+        8.300000190734863,
+        8.5,
+        0.9010000228881836
+      ],
+      "minimum_m": [
+        7.5,
+        7.460000038146973,
+        -0.09299999475479126
+      ],
+      "maximum_m": [
+        9.539999961853027,
+        9.65999984741211,
+        2.2209999561309814
+      ],
+      "dimensions_m": [
+        2.0399999618530273,
+        2.1999998092651367,
+        2.3139999508857727
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_APP_006_KitchenSink_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G06",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-006_KitchenSink_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "bccf7341b9036e64f583ce2abb31421fad78bc985e0b667bfa83188e6290ab8d"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/APP/H90-APP-006_KitchenSink/Source/H90_APP_006_KitchenSink_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_KIT_APP006_KitchenSink_01_ROOT",
+    "H90_KIT_APP006_KitchenSink_01_P01_DrainBoard",
+    "H90_KIT_APP006_KitchenSink_01_P02_Flange",
+    "H90_KIT_APP006_KitchenSink_01_P03_Flange",
+    "H90_KIT_APP006_KitchenSink_01_P04_Flange",
+    "H90_KIT_APP006_KitchenSink_01_P05_BasinBottom",
+    "H90_KIT_APP006_KitchenSink_01_P06_BasinWall",
+    "H90_KIT_APP006_KitchenSink_01_P07_BasinWall",
+    "H90_KIT_APP006_KitchenSink_01_P08_BasinWall",
+    "H90_KIT_APP006_KitchenSink_01_P09_BasinWall",
+    "H90_KIT_APP006_KitchenSink_01_P10_Drain",
+    "H90_KIT_APP006_KitchenSink_01_P11_DrainRim",
+    "H90_KIT_APP006_KitchenSink_01_P12_DrainBoardGroove",
+    "H90_KIT_APP006_KitchenSink_01_P13_Faucet",
+    "H90_KIT_APP006_KitchenSink_01_P14_FaucetLever"
+  ]
+}

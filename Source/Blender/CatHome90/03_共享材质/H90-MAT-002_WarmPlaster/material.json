@@ -1,0 +1,10 @@
+{
+  "id": "H90-MAT-002",
+  "alias": "M02",
+  "name": "暖白墙面",
+  "slug": "WarmPlaster",
+  "usage": "墙面、顶面",
+  "status": "待制作",
+  "renderer": "待与目标Unity项目确认",
+  "actualTextureResolution": null
+}

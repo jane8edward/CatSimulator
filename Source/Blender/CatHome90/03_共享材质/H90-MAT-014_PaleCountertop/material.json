@@ -1,0 +1,10 @@
+{
+  "id": "H90-MAT-014",
+  "alias": "M14",
+  "name": "浅色台面",
+  "slug": "PaleCountertop",
+  "usage": "厨房、洗衣与猫砂柜台面",
+  "status": "待制作",
+  "renderer": "待与目标Unity项目确认",
+  "actualTextureResolution": null
+}

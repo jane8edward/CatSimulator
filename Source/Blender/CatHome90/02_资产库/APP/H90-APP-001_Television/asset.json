@@ -1,0 +1,82 @@
+{
+  "id": "H90-APP-001",
+  "category": "APP",
+  "slug": "Television",
+  "name": "电视",
+  "rooms": [
+    "LIV"
+  ],
+  "quantity": "1台",
+  "size": "E：1.20×0.08×0.72m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M10",
+    "M12"
+  ],
+  "priority": "P1",
+  "references": [
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "边框、屏幕、支脚；开关状态预留",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/APP/H90-APP-001_Television",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_LIV_APP001_Television_01_ROOT",
+      "assetId": "H90-APP-001",
+      "room": "LIV",
+      "location_m": [
+        9.619999885559082,
+        3.549999952316284,
+        0.4560000002384186
+      ],
+      "minimum_m": [
+        9.504999160766602,
+        2.9499998092651367,
+        0.4580000042915344
+      ],
+      "maximum_m": [
+        9.694999694824219,
+        4.150000095367432,
+        1.2660000324249268
+      ],
+      "dimensions_m": [
+        0.1900005340576172,
+        1.200000286102295,
+        0.8080000281333923
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_APP_001_Television_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G07",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-001_Television_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "acb19e8f6e86e312eb5dd4c4230437fe463298f8a3af2e42497f373a3b69fbd9"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/APP/H90-APP-001_Television/Source/H90_APP_001_Television_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_LIV_APP001_Television_01_ROOT",
+    "H90_LIV_APP001_Television_01_P01_TVBack",
+    "H90_LIV_APP001_Television_01_P02_DisplayPanel",
+    "H90_LIV_APP001_Television_01_P03_StandStem",
+    "H90_LIV_APP001_Television_01_P04_StandBase"
+  ]
+}

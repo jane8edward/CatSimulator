@@ -1,0 +1,139 @@
+{
+  "id": "H90-PRP-018",
+  "category": "PRP",
+  "slug": "TowelStack",
+  "name": "折叠毛巾套件",
+  "rooms": [
+    "BAL"
+  ],
+  "quantity": "1组，约3条",
+  "size": "E：折叠0.30×0.20×0.06m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M07"
+  ],
+  "priority": "P2",
+  "references": [
+    "R04"
+  ],
+  "splitAndInteractionPlan": "折叠母版实例化",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-018_TowelStack",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_BAL_PRP018_FoldedTowel_01_INST",
+      "assetId": "H90-PRP-018",
+      "room": "BAL",
+      "location_m": [
+        4.820000171661377,
+        0.9900000095367432,
+        0.9760000109672546
+      ],
+      "minimum_m": [
+        4.670000076293945,
+        0.8899999856948853,
+        0.9760000109672546
+      ],
+      "maximum_m": [
+        4.970000267028809,
+        1.090000033378601,
+        1.0334999561309814
+      ],
+      "dimensions_m": [
+        0.3000001907348633,
+        0.20000004768371582,
+        0.05749994516372681
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP018_FoldedTowel_02_INST",
+      "assetId": "H90-PRP-018",
+      "room": "BAL",
+      "location_m": [
+        4.820000171661377,
+        0.9900000095367432,
+        1.031000018119812
+      ],
+      "minimum_m": [
+        4.670000076293945,
+        0.8899999856948853,
+        1.031000018119812
+      ],
+      "maximum_m": [
+        4.970000267028809,
+        1.090000033378601,
+        1.0885000228881836
+      ],
+      "dimensions_m": [
+        0.3000001907348633,
+        0.20000004768371582,
+        0.05750000476837158
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP018_FoldedTowel_03_INST",
+      "assetId": "H90-PRP-018",
+      "room": "BAL",
+      "location_m": [
+        4.820000171661377,
+        0.9900000095367432,
+        1.0859999656677246
+      ],
+      "minimum_m": [
+        4.670000076293945,
+        0.8899999856948853,
+        1.0859999656677246
+      ],
+      "maximum_m": [
+        4.970000267028809,
+        1.090000033378601,
+        1.1434999704360962
+      ],
+      "dimensions_m": [
+        0.3000001907348633,
+        0.20000004768371582,
+        0.05750000476837158
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_018_TowelStack_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Towel",
+      "groupId": "G14",
+      "source": "R04",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-018_TowelStack_Towel_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "b2fefc6be05e1913be1a2206eaf08d2f0e5aa2d242f65894345b19f25068f543"
+    },
+    {
+      "variant": "Stack",
+      "groupId": "G20",
+      "source": "R04",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-018_TowelStack_Stack_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "1824d86e58f954b1df0c21aa6ef772cc81cdb3c5acbb53c7dc66fb8c335fa616"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/PRP/H90-PRP-018_TowelStack/Source/H90_PRP_018_TowelStack_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_BAL_PRP018_FoldedTowel_01_INST",
+    "H90_BAL_PRP018_FoldedTowel_02_INST",
+    "H90_BAL_PRP018_FoldedTowel_03_INST"
+  ]
+}

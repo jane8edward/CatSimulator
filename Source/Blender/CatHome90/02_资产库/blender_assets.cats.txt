@@ -1,0 +1,11 @@
+# Blender Asset Catalog
+VERSION 1
+
+49815c7a-753a-5826-a62f-a00e93472c0a:ARC_建筑构件:建筑构件
+eb5e8c7e-ce7f-5d88-acd0-35d0e23af2d0:DOR_门窗:门窗
+5ce3ac91-3342-5722-9731-ac4cf214d05c:FUR_家具:家具
+7a71ac6c-ca8d-58c3-a40c-5aec6c58be5e:APP_电器卫浴:电器卫浴
+7dde4daf-6ffb-59d4-909e-de955adf6bb3:CAT_猫用品:猫用品
+2e9e641f-cb90-5f27-ab8f-255b5a8f5bf7:PRP_生活道具:生活道具
+97397f5a-8329-55ec-93f0-e7e527b8ca46:LGT_灯具:灯具
+c78d60b4-0def-5881-98e6-a08d4d37ac31:CHR_猫角色:猫角色

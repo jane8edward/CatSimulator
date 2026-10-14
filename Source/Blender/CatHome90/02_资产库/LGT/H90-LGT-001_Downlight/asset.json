@@ -1,0 +1,311 @@
+{
+  "id": "H90-LGT-001",
+  "category": "LGT",
+  "slug": "Downlight",
+  "name": "嵌入式筒灯",
+  "rooms": [
+    "ALL"
+  ],
+  "quantity": "数量待灯光设计",
+  "size": "E：直径0.08～0.12m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M11",
+    "M10"
+  ],
+  "priority": "P2",
+  "references": [
+    "R03"
+  ],
+  "splitAndInteractionPlan": "灯具几何与灯光组件分开",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/LGT/H90-LGT-001_Downlight",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_MBR_LGT001_Downlight_05_INST",
+      "assetId": "H90-LGT-001",
+      "room": "MBR",
+      "location_m": [
+        1.7000000476837158,
+        1.399999976158142,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        1.6500000953674316,
+        1.350000023841858,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        1.75,
+        1.4499999284744263,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.09999990463256836,
+        0.09999990463256836,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_OFF_LGT001_Downlight_06_INST",
+      "assetId": "H90-LGT-001",
+      "room": "OFF",
+      "location_m": [
+        1.899999976158142,
+        5.449999809265137,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        1.850000023841858,
+        5.399999618530273,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        1.9499999284744263,
+        5.5,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.09999990463256836,
+        0.10000038146972656,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_ENT_LGT001_Downlight_07_INST",
+      "assetId": "H90-LGT-001",
+      "room": "ENT",
+      "location_m": [
+        2.6500000953674316,
+        7.900000095367432,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        2.6000001430511475,
+        7.849999904632568,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        2.700000047683716,
+        7.950000286102295,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.09999990463256836,
+        0.10000038146972656,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_BTH_LGT001_Downlight_09_INST",
+      "assetId": "H90-LGT-001",
+      "room": "BTH",
+      "location_m": [
+        5.199999809265137,
+        7.599999904632568,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        5.149999618530273,
+        7.549999713897705,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        5.25,
+        7.650000095367432,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.10000038146972656,
+        0.10000038146972656,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_KIT_LGT001_Downlight_08_INST",
+      "assetId": "H90-LGT-001",
+      "room": "KIT",
+      "location_m": [
+        8.199999809265137,
+        7.5,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        8.149999618530273,
+        7.449999809265137,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        8.25,
+        7.550000190734863,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.10000038146972656,
+        0.10000038146972656,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_LIV_LGT001_Downlight_01_INST",
+      "assetId": "H90-LGT-001",
+      "room": "LIV",
+      "location_m": [
+        5.800000190734863,
+        2.3499999046325684,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        5.75,
+        2.299999952316284,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        5.850000381469727,
+        2.3999998569488525,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.10000038146972656,
+        0.09999990463256836,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_LIV_LGT001_Downlight_02_INST",
+      "assetId": "H90-LGT-001",
+      "room": "LIV",
+      "location_m": [
+        8.300000190734863,
+        2.3499999046325684,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        8.25,
+        2.299999952316284,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        8.350000381469727,
+        2.3999998569488525,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.10000038146972656,
+        0.09999990463256836,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_LIV_LGT001_Downlight_03_INST",
+      "assetId": "H90-LGT-001",
+      "room": "LIV",
+      "location_m": [
+        5.800000190734863,
+        4.449999809265137,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        5.75,
+        4.399999618530273,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        5.850000381469727,
+        4.5,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.10000038146972656,
+        0.10000038146972656,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_LIV_LGT001_Downlight_04_INST",
+      "assetId": "H90-LGT-001",
+      "room": "LIV",
+      "location_m": [
+        8.300000190734863,
+        4.449999809265137,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        8.25,
+        4.399999618530273,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        8.350000381469727,
+        4.5,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.10000038146972656,
+        0.10000038146972656,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_BAL_LGT001_Downlight_10_INST",
+      "assetId": "H90-LGT-001",
+      "room": "BAL",
+      "location_m": [
+        7.199999809265137,
+        0.8999999761581421,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        7.149999618530273,
+        0.8499999642372131,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        7.25,
+        0.949999988079071,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.10000038146972656,
+        0.10000002384185791,
+        0.0214998722076416
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_LGT_001_Downlight_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G16",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-LGT-001_Downlight_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "6655196d28b1f9556bdff996264f66422b8d69dc365ebb006932253f396132b3"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/LGT/H90-LGT-001_Downlight/Source/H90_LGT_001_Downlight_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_MBR_LGT001_Downlight_05_INST",
+    "H90_OFF_LGT001_Downlight_06_INST",
+    "H90_ENT_LGT001_Downlight_07_INST",
+    "H90_BTH_LGT001_Downlight_09_INST",
+    "H90_KIT_LGT001_Downlight_08_INST",
+    "H90_LIV_LGT001_Downlight_01_INST",
+    "H90_LIV_LGT001_Downlight_02_INST",
+    "H90_LIV_LGT001_Downlight_03_INST",
+    "H90_LIV_LGT001_Downlight_04_INST",
+    "H90_BAL_LGT001_Downlight_10_INST"
+  ]
+}

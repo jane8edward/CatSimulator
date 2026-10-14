@@ -1,0 +1,90 @@
+{
+  "created": "2026-10-12",
+  "designOriginal": "assets/Reference/CatHome90Design",
+  "files": [
+    {
+      "copy": "01_参考资料/角色参考/三花小猫_后视图_v1.png",
+      "sha256": "093b59c9a5383bfb0ecdeef068872e9834693a0360351d692e6ace81b36e78d1",
+      "bytes": 1784757
+    },
+    {
+      "copy": "01_参考资料/角色参考/三花小猫_右视图_v1.png",
+      "sha256": "ca6b127a4cb93916cb085d27d65a0256cfbf11526bfe93033984eec91cbb008c",
+      "bytes": 2124458
+    },
+    {
+      "copy": "01_参考资料/角色参考/三花小猫_前视图_v1.png",
+      "sha256": "0681ad3723fc4df9f426bcda637c039f8cfa39f64ad4c921d9f9681a9947455b",
+      "bytes": 1776636
+    },
+    {
+      "copy": "01_参考资料/角色参考/三花小猫_左视图_v1.png",
+      "sha256": "edf1aab9a96eda174f28832df14e542cb655a09d5f3ad8d30307a5534b4b1bb7",
+      "bytes": 1938299
+    },
+    {
+      "copy": "01_参考资料/效果图/03_客厅与猫咪活动区_效果图.png",
+      "sha256": "740a015093c2332ae49d227433fb20ab3ccf0f95228d8f9f13d6ece6fbd7448c",
+      "bytes": 2620965
+    },
+    {
+      "copy": "01_参考资料/效果图/02_全屋轴测效果图.png",
+      "sha256": "d47372672e8d827abb721699a5251897ce51397e2cdd613a30fd9410eb463e5f",
+      "bytes": 2039741
+    },
+    {
+      "copy": "01_参考资料/效果图/04_阳台与猫咪观景区_效果图.png",
+      "sha256": "f84149df5a471e45cfbc932fecba384d0d936654bf36fcd31f9848e1a7427b88",
+      "bytes": 2376151
+    },
+    {
+      "copy": "01_参考资料/设计数据/90㎡养猫之家_建模尺寸与布局.json",
+      "sha256": "b51e2929102b49fd26eb2f8923f3e8f02d5c1d10cd7295099f93b9a048a43f13",
+      "bytes": 8860
+    },
+    {
+      "copy": "01_参考资料/设计数据/设计图提示词与生成记录.json",
+      "sha256": "a99d53b6c7233928c594f77429748bde78ce61eaa1eff8594ecd3689a524ac10",
+      "bytes": 13148
+    },
+    {
+      "copy": "01_参考资料/设计数据/方案说明.md",
+      "sha256": "2fb090a399d8010174767c623484d7ae77010cc656e4327d03af96a6a79766e4",
+      "bytes": 3398
+    },
+    {
+      "copy": "01_参考资料/图纸/01_90㎡养猫之家_设计平面图.svg",
+      "sha256": "5405d8c723eb06bf00d3ce400b925d51ce735c4d49ea2cc38d6b0209e45c8b5b",
+      "bytes": 25596
+    },
+    {
+      "copy": "01_参考资料/图纸/01_90㎡养猫之家_设计平面图.png",
+      "sha256": "0865ef8df5c486cf8b2e0d3c27e712556f7cd8c5ed0d5722a059bd0c4d050740",
+      "bytes": 443659
+    },
+    {
+      "original": "Source/Blender/CatHome90/02_资产库/CHR/H90-CHR-001_ReferenceCat/Source/Original/tripo_convert_83705d6a-4c92-49aa-bb88-feae40d01349.fbx",
+      "copy": "02_资产库/CHR/H90-CHR-001_ReferenceCat/Source/Original/tripo_convert_83705d6a-4c92-49aa-bb88-feae40d01349.fbx",
+      "sha256": "96fd58bf35bdaa64882329d224a68934b23fc5d0f85c31eaba967c432215d4a3",
+      "bytes": 2187068
+    },
+    {
+      "original": "Source/Blender/CatHome90/02_资产库/CHR/H90-CHR-001_ReferenceCat/Source/Original/tripo_convert_83705d6a-4c92-49aa-bb88-feae40d01349.fbm/tripo_rgb_8986aa93-0c7c-4128-9ec3-4086e1981d88.jpg",
+      "copy": "02_资产库/CHR/H90-CHR-001_ReferenceCat/Source/Original/tripo_convert_83705d6a-4c92-49aa-bb88-feae40d01349.fbm/tripo_rgb_8986aa93-0c7c-4128-9ec3-4086e1981d88.jpg",
+      "sha256": "9cbb9c3c4ff3ae312bdb40ba1c1308fafb6114b591c40a1b05964185fba8c1ea",
+      "bytes": 4648025
+    }
+  ],
+  "sourceDesignPreserved": true,
+  "originalCharacterPreserved": true,
+  "verifiedReferenceIds": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "D01",
+    "D02",
+    "C02"
+  ],
+  "verifiedFileHashes": true
+}

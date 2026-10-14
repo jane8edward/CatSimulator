@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-14",
+  "status": "complete",
+  "sceneFile": "Source/Blender/CatHome90/04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "nativeAssets": 84,
+  "arrays": 22,
+  "instances": 51,
+  "renders": [
+    {
+      "view": "Overview",
+      "image": "Source/Blender/CatHome90/05_预览与验收/场景预览/H90_v001/H90_Overview_Cycles_v001.png",
+      "resolution": [
+        1600,
+        1280
+      ],
+      "scenePreset": "Source/Blender/CatHome90/04_场景工程/Blender/Layout/Views/H90_Overview_view_v001.blend",
+      "sha256": "ce29ea96369f12c76db75815a03d6bbe9877ccee606b4092fcd0677dfadcac97",
+      "status": "rendered and visually reviewed"
+    },
+    {
+      "view": "Living",
+      "image": "Source/Blender/CatHome90/05_预览与验收/场景预览/H90_v001/H90_Living_Cycles_v001.png",
+      "resolution": [
+        1600,
+        1067
+      ],
+      "scenePreset": "Source/Blender/CatHome90/04_场景工程/Blender/Layout/Views/H90_Living_view_v001.blend",
+      "sha256": "6e437906821012338003ea1097ec2a2b1fd16657b41dde75156188ef332ae483",
+      "status": "rendered and visually reviewed"
+    },
+    {
+      "view": "Balcony",
+      "image": "Source/Blender/CatHome90/05_预览与验收/场景预览/H90_v001/H90_Balcony_Cycles_v001.png",
+      "resolution": [
+        1600,
+        1067
+      ],
+      "scenePreset": "Source/Blender/CatHome90/04_场景工程/Blender/Layout/Views/H90_Balcony_view_v001.blend",
+      "sha256": "3ef57ab9d763a90214b5ae023fedbcac9198e3647cc2161f37432416585cc90a",
+      "status": "rendered and visually reviewed"
+    },
+    {
+      "view": "Top",
+      "image": "Source/Blender/CatHome90/05_预览与验收/场景预览/H90_v001/H90_Top_Cycles_v001.png",
+      "resolution": [
+        1400,
+        1120
+      ],
+      "scenePreset": "Source/Blender/CatHome90/04_场景工程/Blender/Layout/Views/H90_Top_view_v001.blend",
+      "sha256": "3f8e6739c25ab825c63ea7a39f65eec2afe4293d12358b22636d2da761cb9ef5",
+      "status": "rendered and visually reviewed"
+    }
+  ],
+  "missingFiles": [],
+  "scope": "按用户确认直接依照参考图建模；完整室内基础场景和基础渲染交付"
+}

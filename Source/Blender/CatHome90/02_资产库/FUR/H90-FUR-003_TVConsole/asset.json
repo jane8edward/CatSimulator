@@ -1,0 +1,106 @@
+{
+  "id": "H90-FUR-003",
+  "category": "FUR",
+  "slug": "TVConsole",
+  "name": "电视柜",
+  "rooms": [
+    "LIV"
+  ],
+  "quantity": "1件",
+  "size": "D：1.90×0.40×0.45m",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M01"
+  ],
+  "priority": "P1",
+  "references": [
+    "D01",
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "柜体、门板、抽屉分节点",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/FUR/H90-FUR-003_TVConsole",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_LIV_FUR003_TVConsole_01_ROOT",
+      "assetId": "H90-FUR-003",
+      "room": "LIV",
+      "location_m": [
+        9.600000381469727,
+        3.549999952316284,
+        0.0
+      ],
+      "minimum_m": [
+        9.380999565124512,
+        2.5999999046325684,
+        0.0
+      ],
+      "maximum_m": [
+        9.800000190734863,
+        4.5,
+        0.44999998807907104
+      ],
+      "dimensions_m": [
+        0.41900062561035156,
+        1.9000000953674316,
+        0.44999998807907104
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "layoutRecord": {
+    "id": "tv_console",
+    "name": "电视柜",
+    "rect": [
+      9.4,
+      2.6,
+      0.4,
+      1.9
+    ],
+    "height_m": 0.45
+  },
+  "expectedBasename": "H90_FUR_003_TVConsole_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G02",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-003_TVConsole_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "ef93645b8d722c1f4435833de3d2014a20cebd44df403c59e013e34adc7bf57c"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/FUR/H90-FUR-003_TVConsole/Source/H90_FUR_003_TVConsole_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_LIV_FUR003_TVConsole_01_ROOT",
+    "H90_LIV_FUR003_TVConsole_01_P01_Carcass_Top",
+    "H90_LIV_FUR003_TVConsole_01_P02_Carcass_Bottom",
+    "H90_LIV_FUR003_TVConsole_01_P03_Carcass_Back",
+    "H90_LIV_FUR003_TVConsole_01_P04_Side",
+    "H90_LIV_FUR003_TVConsole_01_P05_Side",
+    "H90_LIV_FUR003_TVConsole_01_P06_Foot",
+    "H90_LIV_FUR003_TVConsole_01_P07_Foot",
+    "H90_LIV_FUR003_TVConsole_01_P08_Foot",
+    "H90_LIV_FUR003_TVConsole_01_P09_Foot",
+    "H90_LIV_FUR003_TVConsole_01_P10_Door_1",
+    "H90_LIV_FUR003_TVConsole_01_P11_Drawer_1",
+    "H90_LIV_FUR003_TVConsole_01_P12_Door_2",
+    "H90_LIV_FUR003_TVConsole_01_P13_Drawer_2",
+    "H90_LIV_FUR003_TVConsole_01_P14_Divider",
+    "H90_LIV_FUR003_TVConsole_01_P15_Door_3",
+    "H90_LIV_FUR003_TVConsole_01_P16_Drawer_3",
+    "H90_LIV_FUR003_TVConsole_01_P17_Divider"
+  ]
+}

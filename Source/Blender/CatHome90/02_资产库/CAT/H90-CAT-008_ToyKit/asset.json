@@ -1,0 +1,145 @@
+{
+  "id": "H90-CAT-008",
+  "category": "CAT",
+  "slug": "ToyKit",
+  "name": "猫玩具套件",
+  "rooms": [
+    "LIV"
+  ],
+  "quantity": "1组，约3件",
+  "size": "E：单件0.05～0.35m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M08",
+    "M01"
+  ],
+  "priority": "P1",
+  "references": [
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "滚球与杆状玩具分开；轻物理交互",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/CAT/H90-CAT-008_ToyKit",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_LIV_CAT008_SisalBall_01_INST",
+      "assetId": "H90-CAT-008",
+      "room": "LIV",
+      "location_m": [
+        9.0600004196167,
+        4.639999866485596,
+        0.004999999888241291
+      ],
+      "minimum_m": [
+        9.02400016784668,
+        4.604000091552734,
+        0.004999999888241291
+      ],
+      "maximum_m": [
+        9.096000671386719,
+        4.675999641418457,
+        0.07699999958276749
+      ],
+      "dimensions_m": [
+        0.07200050354003906,
+        0.07199954986572266,
+        0.0719999996945262
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT008_SisalBall_02_INST",
+      "assetId": "H90-CAT-008",
+      "room": "LIV",
+      "location_m": [
+        8.710000038146973,
+        4.78000020980835,
+        0.004999999888241291
+      ],
+      "minimum_m": [
+        8.673999786376953,
+        4.744000434875488,
+        0.004999999888241291
+      ],
+      "maximum_m": [
+        8.746000289916992,
+        4.815999984741211,
+        0.07699999958276749
+      ],
+      "dimensions_m": [
+        0.07200050354003906,
+        0.07199954986572266,
+        0.0719999996945262
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT008_ScratchBall_01_ROOT",
+      "assetId": "H90-CAT-008",
+      "room": "LIV",
+      "location_m": [
+        8.25,
+        5.099999904632568,
+        0.0
+      ],
+      "minimum_m": [
+        8.164999961853027,
+        5.014999866485596,
+        0.0
+      ],
+      "maximum_m": [
+        8.335000038146973,
+        5.184999942779541,
+        0.2900000214576721
+      ],
+      "dimensions_m": [
+        0.1700000762939453,
+        0.1700000762939453,
+        0.2900000214576721
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_CAT_008_ToyKit_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Ball",
+      "groupId": "G09",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-008_ToyKit_Ball_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "83b6e74f6f86058e29af3368bc3d11fccff5098fc857a47bbe4aafc636f8eb5a"
+    },
+    {
+      "variant": "ScratchBall",
+      "groupId": "G20",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-008_ToyKit_ScratchBall_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "437081922b6840d31d970f2603cbeefc550fae40c1ee142e364c3d669b9f8ac8"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/CAT/H90-CAT-008_ToyKit/Source/H90_CAT_008_ToyKit_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_LIV_CAT008_SisalBall_01_INST",
+    "H90_LIV_CAT008_SisalBall_02_INST",
+    "H90_LIV_CAT008_ScratchBall_01_ROOT",
+    "H90_LIV_CAT008_ScratchBall_01_P01_Base",
+    "H90_LIV_CAT008_ScratchBall_01_P02_UpperBase",
+    "H90_LIV_CAT008_ScratchBall_01_P03_SisalStem",
+    "H90_LIV_CAT008_ScratchBall_01_P04_SisalTopBall"
+  ]
+}

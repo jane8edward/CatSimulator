@@ -1,0 +1,118 @@
+{
+  "id": "H90-PRP-007",
+  "category": "PRP",
+  "slug": "CatMatKit",
+  "name": "猫区纤维地垫",
+  "rooms": [
+    "LIV"
+  ],
+  "quantity": "1～2张暂估",
+  "size": "E：直径0.45～0.65m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M08"
+  ],
+  "priority": "P2",
+  "references": [
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "圆形/矩形变体；抓柱底座另归CAT",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-007_CatMatKit",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_LIV_PRP007_RoundCatMat_01_ROOT",
+      "assetId": "H90-PRP-007",
+      "room": "LIV",
+      "location_m": [
+        9.300000190734863,
+        5.150000095367432,
+        0.012000000104308128
+      ],
+      "minimum_m": [
+        7.985994815826416,
+        3.830237865447998,
+        -0.972000002861023
+      ],
+      "maximum_m": [
+        10.625,
+        6.459749698638916,
+        1.027999997138977
+      ],
+      "dimensions_m": [
+        2.639005184173584,
+        2.629511833190918,
+        2.0
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP007_ScratchPad_01_ROOT",
+      "assetId": "H90-PRP-007",
+      "room": "LIV",
+      "location_m": [
+        8.289999961853027,
+        4.900000095367432,
+        0.0
+      ],
+      "minimum_m": [
+        8.180000305175781,
+        4.815000057220459,
+        0.0
+      ],
+      "maximum_m": [
+        8.399999618530273,
+        4.985000133514404,
+        0.05000000074505806
+      ],
+      "dimensions_m": [
+        0.2199993133544922,
+        0.1700000762939453,
+        0.05000000074505806
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_007_CatMatKit_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Round",
+      "groupId": "G11",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-007_CatMatKit_Round_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "7f746d2df3dc86736cdf76d9f24c082cf1892bf714e5d47569e837c386c0d066"
+    },
+    {
+      "variant": "Rectangular",
+      "groupId": "G19",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-007_CatMatKit_Rectangular_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "f2d7f95d635ac25fdf2ebc7a3148d87b32b49e1c136e263567af87f195052605"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/PRP/H90-PRP-007_CatMatKit/Source/H90_PRP_007_CatMatKit_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_LIV_PRP007_RoundCatMat_01_ROOT",
+    "H90_LIV_PRP007_RoundCatMat_01_P01_SisalMat",
+    "H90_LIV_PRP007_RoundCatMat_01_P02_BraidedSpiral",
+    "H90_LIV_PRP007_ScratchPad_01_ROOT",
+    "H90_LIV_PRP007_ScratchPad_01_P01_OakBase",
+    "H90_LIV_PRP007_ScratchPad_01_P02_SisalPad"
+  ]
+}

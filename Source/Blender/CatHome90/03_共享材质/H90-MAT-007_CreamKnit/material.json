@@ -1,0 +1,10 @@
+{
+  "id": "H90-MAT-007",
+  "alias": "M07",
+  "name": "奶油色织纹",
+  "slug": "CreamKnit",
+  "usage": "针织毯、布艺脚凳、毛巾变体",
+  "status": "待制作",
+  "renderer": "待与目标Unity项目确认",
+  "actualTextureResolution": null
+}

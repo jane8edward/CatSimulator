@@ -1,0 +1,70 @@
+{
+  "id": "H90-CHR-001",
+  "category": "CHR",
+  "slug": "ReferenceCat",
+  "name": "三花小猫角色依赖",
+  "rooms": [
+    "ALL"
+  ],
+  "quantity": "1只",
+  "size": "T：模型比例与骨架需核验",
+  "sizeBasis": "待定",
+  "materials": [
+    "独立角色材质"
+  ],
+  "priority": "P0",
+  "references": [
+    "C01",
+    "C02"
+  ],
+  "splitAndInteractionPlan": "已找到FBX；不重复制造多只猫，不推断绑定已完成",
+  "optional": false,
+  "status": "已入库待核验",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/CHR/H90-CHR-001_ReferenceCat",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_BAL_CHR001_ReferenceCat_Static_01_ROOT",
+      "assetId": "H90-CHR-001",
+      "room": "BAL",
+      "location_m": [
+        7.46999979019165,
+        0.49000000953674316,
+        0.4580000042915344
+      ],
+      "minimum_m": [
+        7.395969867706299,
+        0.2572211027145386,
+        0.4580000042915344
+      ],
+      "maximum_m": [
+        7.544029712677002,
+        0.722778856754303,
+        0.7779999375343323
+      ],
+      "dimensions_m": [
+        0.14805984497070312,
+        0.4655577540397644,
+        0.31999993324279785
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "sourceFiles": [
+    "02_资产库/CHR/H90-CHR-001_ReferenceCat/Source/Original/tripo_convert_83705d6a-4c92-49aa-bb88-feae40d01349.fbx",
+    "02_资产库/CHR/H90-CHR-001_ReferenceCat/Source/Original/tripo_convert_83705d6a-4c92-49aa-bb88-feae40d01349.fbm/tripo_rgb_8986aa93-0c7c-4128-9ec3-4086e1981d88.jpg"
+  ],
+  "expectedBasename": "H90_CHR_001_ReferenceCat_v001",
+  "nativeBlenderSource": "02_资产库/CHR/H90-CHR-001_ReferenceCat/Source/H90_CHR_001_ReferenceCat_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_BAL_CHR001_ReferenceCat_Static_01_ROOT",
+    "H90_BAL_CHR001_ReferenceCat_Static_01_P01_Body"
+  ],
+  "staticScenePlacementStatus": "已摆放并校准静态尺寸；未验收动画绑定"
+}

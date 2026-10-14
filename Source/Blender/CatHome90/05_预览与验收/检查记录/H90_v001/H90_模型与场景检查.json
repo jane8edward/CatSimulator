@@ -1,0 +1,4334 @@
+{
+  "date": "2026-10-14",
+  "scene": "H90_Residence_Main",
+  "units": "metres",
+  "footprint_m": [
+    10,
+    9
+  ],
+  "clearHeight_m": 2.8,
+  "objects": 859,
+  "assetTypes": 84,
+  "nativeSourceCount": 84,
+  "collectionInstances": [
+    {
+      "name": "H90_MBR_FUR009_BedsideTable_01_INST",
+      "assetId": "H90-FUR-009",
+      "prototype": "H90_LIB_BedsideTable"
+    },
+    {
+      "name": "H90_MBR_FUR009_BedsideTable_02_INST",
+      "assetId": "H90-FUR-009",
+      "prototype": "H90_LIB_BedsideTable"
+    },
+    {
+      "name": "H90_MBR_PRP002_SleepingPillow_01_INST",
+      "assetId": "H90-PRP-002",
+      "prototype": "H90_LIB_SleepingPillow"
+    },
+    {
+      "name": "H90_MBR_PRP002_SleepingPillow_02_INST",
+      "assetId": "H90-PRP-002",
+      "prototype": "H90_LIB_SleepingPillow"
+    },
+    {
+      "name": "H90_MBR_PRP001_DecorCushion_06_INST",
+      "assetId": "H90-PRP-001",
+      "prototype": "H90_LIB_DecorCushionSage"
+    },
+    {
+      "name": "H90_MBR_PRP011_BroadleafPlant_03_INST",
+      "assetId": "H90-PRP-011",
+      "prototype": "H90_LIB_BroadleafPlant"
+    },
+    {
+      "name": "H90_MBR_LGT003_BedsideLamp_01_INST",
+      "assetId": "H90-LGT-003",
+      "prototype": "H90_LIB_BedsideLamp"
+    },
+    {
+      "name": "H90_MBR_LGT003_BedsideLamp_02_INST",
+      "assetId": "H90-LGT-003",
+      "prototype": "H90_LIB_BedsideLamp"
+    },
+    {
+      "name": "H90_MBR_LGT001_Downlight_05_INST",
+      "assetId": "H90-LGT-001",
+      "prototype": "H90_LIB_Downlight"
+    },
+    {
+      "name": "H90_OFF_PRP002_SleepingPillow_03_INST",
+      "assetId": "H90-PRP-002",
+      "prototype": "H90_LIB_SleepingPillow"
+    },
+    {
+      "name": "H90_OFF_PRP012_TablePlant_03_INST",
+      "assetId": "H90-PRP-012",
+      "prototype": "H90_LIB_TablePlant"
+    },
+    {
+      "name": "H90_OFF_LGT001_Downlight_06_INST",
+      "assetId": "H90-LGT-001",
+      "prototype": "H90_LIB_Downlight"
+    },
+    {
+      "name": "H90_ENT_PRP011_BroadleafPlant_04_INST",
+      "assetId": "H90-PRP-011",
+      "prototype": "H90_LIB_BroadleafPlant"
+    },
+    {
+      "name": "H90_ENT_PRP016_HouseSlipper_01_INST",
+      "assetId": "H90-PRP-016",
+      "prototype": "H90_LIB_HouseSlipper"
+    },
+    {
+      "name": "H90_ENT_PRP016_HouseSlipper_02_INST",
+      "assetId": "H90-PRP-016",
+      "prototype": "H90_LIB_HouseSlipper"
+    },
+    {
+      "name": "H90_ENT_LGT001_Downlight_07_INST",
+      "assetId": "H90-LGT-001",
+      "prototype": "H90_LIB_Downlight"
+    },
+    {
+      "name": "H90_BTH_LGT001_Downlight_09_INST",
+      "assetId": "H90-LGT-001",
+      "prototype": "H90_LIB_Downlight"
+    },
+    {
+      "name": "H90_KIT_LGT001_Downlight_08_INST",
+      "assetId": "H90-LGT-001",
+      "prototype": "H90_LIB_Downlight"
+    },
+    {
+      "name": "H90_LIV_FUR005_DiningChair_01_INST",
+      "assetId": "H90-FUR-005",
+      "prototype": "H90_LIB_DiningChair"
+    },
+    {
+      "name": "H90_LIV_FUR005_DiningChair_02_INST",
+      "assetId": "H90-FUR-005",
+      "prototype": "H90_LIB_DiningChair"
+    },
+    {
+      "name": "H90_LIV_CAT003_WallPlatform_01_INST",
+      "assetId": "H90-CAT-003",
+      "prototype": "H90_LIB_WallPlatform"
+    },
+    {
+      "name": "H90_LIV_CAT003_WallPlatform_02_INST",
+      "assetId": "H90-CAT-003",
+      "prototype": "H90_LIB_WallPlatform"
+    },
+    {
+      "name": "H90_LIV_CAT003_WallPlatform_03_INST",
+      "assetId": "H90-CAT-003",
+      "prototype": "H90_LIB_WallPlatform"
+    },
+    {
+      "name": "H90_LIV_CAT003_WallPlatform_04_INST",
+      "assetId": "H90-CAT-003",
+      "prototype": "H90_LIB_WallPlatform"
+    },
+    {
+      "name": "H90_LIV_CAT003_WallPlatform_05_INST",
+      "assetId": "H90-CAT-003",
+      "prototype": "H90_LIB_WallPlatform"
+    },
+    {
+      "name": "H90_LIV_PRP001_DecorCushion_01_INST",
+      "assetId": "H90-PRP-001",
+      "prototype": "H90_LIB_DecorCushionSage"
+    },
+    {
+      "name": "H90_LIV_PRP001_DecorCushion_02_INST",
+      "assetId": "H90-PRP-001",
+      "prototype": "H90_LIB_DecorCushionCream"
+    },
+    {
+      "name": "H90_LIV_PRP001_DecorCushion_03_INST",
+      "assetId": "H90-PRP-001",
+      "prototype": "H90_LIB_DecorCushionSage"
+    },
+    {
+      "name": "H90_LIV_PRP011_BroadleafPlant_02_INST",
+      "assetId": "H90-PRP-011",
+      "prototype": "H90_LIB_BroadleafPlant"
+    },
+    {
+      "name": "H90_LIV_PRP012_TablePlant_01_INST",
+      "assetId": "H90-PRP-012",
+      "prototype": "H90_LIB_TablePlant"
+    },
+    {
+      "name": "H90_LIV_PRP012_TablePlant_02_INST",
+      "assetId": "H90-PRP-012",
+      "prototype": "H90_LIB_TablePlant"
+    },
+    {
+      "name": "H90_LIV_PRP012_TrailingPlant_01_INST",
+      "assetId": "H90-PRP-012",
+      "prototype": "H90_LIB_TrailingPlant"
+    },
+    {
+      "name": "H90_LIV_PRP013_BranchingPlant_01_INST",
+      "assetId": "H90-PRP-013",
+      "prototype": "H90_LIB_BranchingPlant"
+    },
+    {
+      "name": "H90_LIV_PRP008_Book_01_INST",
+      "assetId": "H90-PRP-008",
+      "prototype": "H90_LIB_Book"
+    },
+    {
+      "name": "H90_LIV_PRP008_Book_02_INST",
+      "assetId": "H90-PRP-008",
+      "prototype": "H90_LIB_Book"
+    },
+    {
+      "name": "H90_LIV_CAT008_SisalBall_01_INST",
+      "assetId": "H90-CAT-008",
+      "prototype": "H90_LIB_SisalBall"
+    },
+    {
+      "name": "H90_LIV_CAT008_SisalBall_02_INST",
+      "assetId": "H90-CAT-008",
+      "prototype": "H90_LIB_SisalBall"
+    },
+    {
+      "name": "H90_LIV_LGT001_Downlight_01_INST",
+      "assetId": "H90-LGT-001",
+      "prototype": "H90_LIB_Downlight"
+    },
+    {
+      "name": "H90_LIV_LGT001_Downlight_02_INST",
+      "assetId": "H90-LGT-001",
+      "prototype": "H90_LIB_Downlight"
+    },
+    {
+      "name": "H90_LIV_LGT001_Downlight_03_INST",
+      "assetId": "H90-LGT-001",
+      "prototype": "H90_LIB_Downlight"
+    },
+    {
+      "name": "H90_LIV_LGT001_Downlight_04_INST",
+      "assetId": "H90-LGT-001",
+      "prototype": "H90_LIB_Downlight"
+    },
+    {
+      "name": "H90_BAL_PRP001_DecorCushion_04_INST",
+      "assetId": "H90-PRP-001",
+      "prototype": "H90_LIB_DecorCushionSage"
+    },
+    {
+      "name": "H90_BAL_PRP001_DecorCushion_05_INST",
+      "assetId": "H90-PRP-001",
+      "prototype": "H90_LIB_DecorCushionCream"
+    },
+    {
+      "name": "H90_BAL_PRP011_BroadleafPlant_01_INST",
+      "assetId": "H90-PRP-011",
+      "prototype": "H90_LIB_BroadleafPlant"
+    },
+    {
+      "name": "H90_BAL_PRP012_TablePlant_04_INST",
+      "assetId": "H90-PRP-012",
+      "prototype": "H90_LIB_TablePlant"
+    },
+    {
+      "name": "H90_BAL_PRP017_LaundryBottle_01_INST",
+      "assetId": "H90-PRP-017",
+      "prototype": "H90_LIB_LaundryBottle"
+    },
+    {
+      "name": "H90_BAL_PRP017_LaundryBottle_02_INST",
+      "assetId": "H90-PRP-017",
+      "prototype": "H90_LIB_LaundryBottle"
+    },
+    {
+      "name": "H90_BAL_PRP018_FoldedTowel_01_INST",
+      "assetId": "H90-PRP-018",
+      "prototype": "H90_LIB_FoldedTowel"
+    },
+    {
+      "name": "H90_BAL_PRP018_FoldedTowel_02_INST",
+      "assetId": "H90-PRP-018",
+      "prototype": "H90_LIB_FoldedTowel"
+    },
+    {
+      "name": "H90_BAL_PRP018_FoldedTowel_03_INST",
+      "assetId": "H90-PRP-018",
+      "prototype": "H90_LIB_FoldedTowel"
+    },
+    {
+      "name": "H90_BAL_LGT001_Downlight_10_INST",
+      "assetId": "H90-LGT-001",
+      "prototype": "H90_LIB_Downlight"
+    }
+  ],
+  "arrayModifiers": [
+    {
+      "object": "H90_MBR_ARC001_Floor_MBR_01_P02_Floor_Module",
+      "modifier": "ARRAY_Planks_X",
+      "count": 5,
+      "offset_m": [
+        0.7879999876022339,
+        0.0,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_MBR_ARC001_Floor_MBR_01_P02_Floor_Module",
+      "modifier": "ARRAY_Rows_Y",
+      "count": 20,
+      "offset_m": [
+        0.0,
+        0.18700000643730164,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_OFF_ARC001_Floor_OFF_01_P02_Floor_Module",
+      "modifier": "ARRAY_Planks_X",
+      "count": 3,
+      "offset_m": [
+        0.9133333563804626,
+        0.0,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_OFF_ARC001_Floor_OFF_01_P02_Floor_Module",
+      "modifier": "ARRAY_Rows_Y",
+      "count": 16,
+      "offset_m": [
+        0.0,
+        0.18000000715255737,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_HALL_ARC001_Floor_HALL_01_P02_Floor_Module",
+      "modifier": "ARRAY_Planks_X",
+      "count": 2,
+      "offset_m": [
+        0.5400000214576721,
+        0.0,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_HALL_ARC001_Floor_HALL_01_P02_Floor_Module",
+      "modifier": "ARRAY_Rows_Y",
+      "count": 16,
+      "offset_m": [
+        0.0,
+        0.18000000715255737,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_ENT_ARC001_Floor_ENT_01_P02_Floor_Module",
+      "modifier": "ARRAY_Planks_X",
+      "count": 5,
+      "offset_m": [
+        0.7879999876022339,
+        0.0,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_ENT_ARC001_Floor_ENT_01_P02_Floor_Module",
+      "modifier": "ARRAY_Rows_Y",
+      "count": 10,
+      "offset_m": [
+        0.0,
+        0.17399999499320984,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_BTH_ARC003_Floor_BTH_01_P02_Floor_Module",
+      "modifier": "ARRAY_Tiles_X",
+      "count": 5,
+      "offset_m": [
+        0.4959999918937683,
+        0.0,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_BTH_ARC003_Floor_BTH_01_P02_Floor_Module",
+      "modifier": "ARRAY_Rows_Y",
+      "count": 5,
+      "offset_m": [
+        0.0,
+        0.5479999780654907,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_KIT_ARC002_Floor_KIT_01_P02_Floor_Module",
+      "modifier": "ARRAY_Tiles_X",
+      "count": 5,
+      "offset_m": [
+        0.5879999995231628,
+        0.0,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_KIT_ARC002_Floor_KIT_01_P02_Floor_Module",
+      "modifier": "ARRAY_Rows_Y",
+      "count": 5,
+      "offset_m": [
+        0.0,
+        0.5479999780654907,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_LIV_ARC001_Floor_LIV_01_P02_Floor_Module",
+      "modifier": "ARRAY_Planks_X",
+      "count": 6,
+      "offset_m": [
+        0.9233333468437195,
+        0.0,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_LIV_ARC001_Floor_LIV_01_P02_Floor_Module",
+      "modifier": "ARRAY_Rows_Y",
+      "count": 23,
+      "offset_m": [
+        0.0,
+        0.18608695268630981,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_BAL_ARC002_Floor_BAL_01_P02_Floor_Module",
+      "modifier": "ARRAY_Tiles_X",
+      "count": 10,
+      "offset_m": [
+        0.5540000200271606,
+        0.0,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_BAL_ARC002_Floor_BAL_01_P02_Floor_Module",
+      "modifier": "ARRAY_Rows_Y",
+      "count": 3,
+      "offset_m": [
+        0.0,
+        0.4466666579246521,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_OFF_APP010_Laptop_01_P03_Key",
+      "modifier": "ARRAY_Keys_Columns",
+      "count": 12,
+      "offset_m": [
+        0.023000000044703484,
+        0.0,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_OFF_APP010_Laptop_01_P03_Key",
+      "modifier": "ARRAY_Keys_Rows",
+      "count": 4,
+      "offset_m": [
+        0.0,
+        0.023000000044703484,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_KIT_APP006_KitchenSink_01_P12_DrainBoardGroove",
+      "modifier": "ARRAY_DrainBoard_Grooves",
+      "count": 6,
+      "offset_m": [
+        0.0,
+        0.04600000008940697,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_LIV_ARC011_VentGrille_01_P02_Louver",
+      "modifier": "ARRAY_Grille_Louvers",
+      "count": 8,
+      "offset_m": [
+        0.0,
+        0.0,
+        0.014000000432133675
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_BAL_DOR005_balcony_slider_01_P05_Mullion",
+      "modifier": "ARRAY_Frame_Mullions",
+      "count": 3,
+      "offset_m": [
+        0.7774999737739563,
+        0.0,
+        0.0
+      ],
+      "relativeOffset": false
+    },
+    {
+      "object": "H90_BAL_DOR009_balcony_south_01_P05_Mullion",
+      "modifier": "ARRAY_Frame_Mullions",
+      "count": 4,
+      "offset_m": [
+        1.062000036239624,
+        0.0,
+        0.0
+      ],
+      "relativeOffset": false
+    }
+  ],
+  "objectScaleFlags": [],
+  "nonstandardNameFlags": [],
+  "missingExternalImages": [],
+  "dimensions": [
+    {
+      "name": "H90_BTH_ARC008_BathTileFace_01_ROOT",
+      "assetId": "H90-ARC-008",
+      "room": "BTH",
+      "location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "minimum_m": [
+        4.260000228881836,
+        6.059999942779541,
+        0.0
+      ],
+      "maximum_m": [
+        6.739999771118164,
+        8.800000190734863,
+        1.149999976158142
+      ],
+      "dimensions_m": [
+        2.479999542236328,
+        2.7400002479553223,
+        1.149999976158142
+      ]
+    },
+    {
+      "name": "H90_LIV_ARC010_LivingBulkhead_01_ROOT",
+      "assetId": "H90-ARC-010",
+      "room": "LIV",
+      "location_m": [
+        7.03000020980835,
+        5.800000190734863,
+        2.690000057220459
+      ],
+      "minimum_m": [
+        -2.7699999809265137,
+        -0.14000000059604645,
+        -0.10999999940395355
+      ],
+      "maximum_m": [
+        2.7699999809265137,
+        0.14000000059604645,
+        0.10999999940395355
+      ],
+      "dimensions_m": [
+        5.539999961853027,
+        0.2800000011920929,
+        0.2199999988079071
+      ]
+    },
+    {
+      "name": "H90_MBR_ARC001_Floor_MBR_01_ROOT",
+      "assetId": "H90-ARC-001",
+      "room": "MBR",
+      "location_m": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.0
+      ],
+      "minimum_m": [
+        0.20000004768371582,
+        0.19999992847442627,
+        -0.032999999821186066
+      ],
+      "maximum_m": [
+        4.140000343322754,
+        3.940000057220459,
+        0.003000000026077032
+      ],
+      "dimensions_m": [
+        3.940000295639038,
+        3.7400001287460327,
+        0.0359999998472631
+      ]
+    },
+    {
+      "name": "H90_OFF_ARC001_Floor_OFF_01_ROOT",
+      "assetId": "H90-ARC-001",
+      "room": "OFF",
+      "location_m": [
+        0.20000000298023224,
+        4.059999942779541,
+        0.0
+      ],
+      "minimum_m": [
+        0.20000004768371582,
+        4.059999942779541,
+        -0.032999999821186066
+      ],
+      "maximum_m": [
+        2.940000057220459,
+        6.940000057220459,
+        0.003000000026077032
+      ],
+      "dimensions_m": [
+        2.740000009536743,
+        2.880000114440918,
+        0.0359999998472631
+      ]
+    },
+    {
+      "name": "H90_HALL_ARC001_Floor_HALL_01_ROOT",
+      "assetId": "H90-ARC-001",
+      "room": "HALL",
+      "location_m": [
+        3.059999942779541,
+        4.059999942779541,
+        0.0
+      ],
+      "minimum_m": [
+        3.059999942779541,
+        4.059999942779541,
+        -0.032999999821186066
+      ],
+      "maximum_m": [
+        4.139999866485596,
+        6.940000057220459,
+        0.003000000026077032
+      ],
+      "dimensions_m": [
+        1.0799999237060547,
+        2.880000114440918,
+        0.0359999998472631
+      ]
+    },
+    {
+      "name": "H90_ENT_ARC001_Floor_ENT_01_ROOT",
+      "assetId": "H90-ARC-001",
+      "room": "ENT",
+      "location_m": [
+        0.20000000298023224,
+        7.059999942779541,
+        0.0
+      ],
+      "minimum_m": [
+        0.20000004768371582,
+        7.059999942779541,
+        -0.032999999821186066
+      ],
+      "maximum_m": [
+        4.140000343322754,
+        8.800000190734863,
+        0.003000000026077032
+      ],
+      "dimensions_m": [
+        3.940000295639038,
+        1.7400002479553223,
+        0.0359999998472631
+      ]
+    },
+    {
+      "name": "H90_BTH_ARC003_Floor_BTH_01_ROOT",
+      "assetId": "H90-ARC-003",
+      "room": "BTH",
+      "location_m": [
+        4.260000228881836,
+        6.059999942779541,
+        0.0
+      ],
+      "minimum_m": [
+        4.260000228881836,
+        6.059999942779541,
+        -0.032999999821186066
+      ],
+      "maximum_m": [
+        6.739999771118164,
+        8.800000190734863,
+        0.003000000026077032
+      ],
+      "dimensions_m": [
+        2.479999542236328,
+        2.7400002479553223,
+        0.0359999998472631
+      ]
+    },
+    {
+      "name": "H90_KIT_ARC002_Floor_KIT_01_ROOT",
+      "assetId": "H90-ARC-002",
+      "room": "KIT",
+      "location_m": [
+        6.860000133514404,
+        6.059999942779541,
+        0.0
+      ],
+      "minimum_m": [
+        6.859999656677246,
+        6.059999942779541,
+        -0.032999999821186066
+      ],
+      "maximum_m": [
+        9.800000190734863,
+        8.800000190734863,
+        0.003000000026077032
+      ],
+      "dimensions_m": [
+        2.940000534057617,
+        2.7400002479553223,
+        0.0359999998472631
+      ]
+    },
+    {
+      "name": "H90_LIV_ARC001_Floor_LIV_01_ROOT",
+      "assetId": "H90-ARC-001",
+      "room": "LIV",
+      "location_m": [
+        4.260000228881836,
+        1.659999966621399,
+        0.0
+      ],
+      "minimum_m": [
+        4.260000228881836,
+        1.6600000858306885,
+        -0.032999999821186066
+      ],
+      "maximum_m": [
+        9.800000190734863,
+        5.940000534057617,
+        0.003000000026077032
+      ],
+      "dimensions_m": [
+        5.539999961853027,
+        4.280000448226929,
+        0.0359999998472631
+      ]
+    },
+    {
+      "name": "H90_BAL_ARC002_Floor_BAL_01_ROOT",
+      "assetId": "H90-ARC-002",
+      "room": "BAL",
+      "location_m": [
+        4.260000228881836,
+        0.20000000298023224,
+        0.0
+      ],
+      "minimum_m": [
+        4.260000228881836,
+        0.19999998807907104,
+        -0.032999999821186066
+      ],
+      "maximum_m": [
+        9.800000190734863,
+        1.5399999618530273,
+        0.003000000026077032
+      ],
+      "dimensions_m": [
+        5.539999961853027,
+        1.3399999737739563,
+        0.0359999998472631
+      ]
+    },
+    {
+      "name": "H90_MBR_DOR002_master_01_ROOT",
+      "assetId": "H90-DOR-002",
+      "room": "MBR",
+      "location_m": [
+        3.5999999046325684,
+        4.0,
+        0.0
+      ],
+      "minimum_m": [
+        2.799999952316284,
+        2.940000057220459,
+        0.0
+      ],
+      "maximum_m": [
+        4.909999847412109,
+        4.940000057220459,
+        2.200000047683716
+      ],
+      "dimensions_m": [
+        2.109999895095825,
+        2.0,
+        2.200000047683716
+      ]
+    },
+    {
+      "name": "H90_MBR_DOR006_master_south_01_ROOT",
+      "assetId": "H90-DOR-006",
+      "room": "MBR",
+      "location_m": [
+        2.049999952316284,
+        0.10000000149011612,
+        0.8999999761581421
+      ],
+      "minimum_m": [
+        0.8499999046325684,
+        0.0325000025331974,
+        0.8999999761581421
+      ],
+      "maximum_m": [
+        3.25,
+        0.13500000536441803,
+        2.4000000953674316
+      ],
+      "dimensions_m": [
+        2.4000000953674316,
+        0.10250000283122063,
+        1.5000001192092896
+      ]
+    },
+    {
+      "name": "H90_MBR_FUR007_MasterBed_01_ROOT",
+      "assetId": "H90-FUR-007",
+      "room": "MBR",
+      "location_m": [
+        1.649999976158142,
+        2.9000000953674316,
+        0.0
+      ],
+      "minimum_m": [
+        0.699999988079071,
+        1.8600001335144043,
+        0.0
+      ],
+      "maximum_m": [
+        2.5999999046325684,
+        3.940000057220459,
+        1.0
+      ],
+      "dimensions_m": [
+        1.8999999165534973,
+        2.0799999237060547,
+        1.0
+      ]
+    },
+    {
+      "name": "H90_MBR_FUR009_BedsideTable_01_INST",
+      "assetId": "H90-FUR-009",
+      "room": "MBR",
+      "location_m": [
+        0.4399999976158142,
+        3.559999942779541,
+        0.0
+      ],
+      "minimum_m": [
+        -0.699999988079071,
+        2.369999885559082,
+        -0.7599999904632568
+      ],
+      "maximum_m": [
+        1.5799999237060547,
+        4.428999900817871,
+        1.2400000095367432
+      ],
+      "dimensions_m": [
+        2.2799999117851257,
+        2.059000015258789,
+        2.0
+      ]
+    },
+    {
+      "name": "H90_MBR_FUR009_BedsideTable_02_INST",
+      "assetId": "H90-FUR-009",
+      "room": "MBR",
+      "location_m": [
+        2.880000114440918,
+        3.559999942779541,
+        0.0
+      ],
+      "minimum_m": [
+        1.7400001287460327,
+        2.369999885559082,
+        -0.7599999904632568
+      ],
+      "maximum_m": [
+        4.019999980926514,
+        4.428999900817871,
+        1.2400000095367432
+      ],
+      "dimensions_m": [
+        2.279999852180481,
+        2.059000015258789,
+        2.0
+      ]
+    },
+    {
+      "name": "H90_MBR_FUR010_MasterWardrobe_01_ROOT",
+      "assetId": "H90-FUR-010",
+      "room": "MBR",
+      "location_m": [
+        3.6500000953674316,
+        1.725000023841858,
+        0.0
+      ],
+      "minimum_m": [
+        3.3355000019073486,
+        0.6499999761581421,
+        0.0
+      ],
+      "maximum_m": [
+        3.950000047683716,
+        2.8000001907348633,
+        2.6000001430511475
+      ],
+      "dimensions_m": [
+        0.6145000457763672,
+        2.150000214576721,
+        2.6000001430511475
+      ]
+    },
+    {
+      "name": "H90_MBR_CAT007_WindowPerch_01_ROOT",
+      "assetId": "H90-CAT-007",
+      "room": "MBR",
+      "location_m": [
+        1.7000000476837158,
+        0.4699999988079071,
+        0.0
+      ],
+      "minimum_m": [
+        0.9000000357627869,
+        0.2949999272823334,
+        0.0
+      ],
+      "maximum_m": [
+        2.500000238418579,
+        0.6595000624656677,
+        0.3799999952316284
+      ],
+      "dimensions_m": [
+        1.6000002026557922,
+        0.36450013518333435,
+        0.3799999952316284
+      ]
+    },
+    {
+      "name": "H90_MBR_PRP005_MasterRug_01_ROOT",
+      "assetId": "H90-PRP-005",
+      "room": "MBR",
+      "location_m": [
+        1.649999976158142,
+        2.609999895095825,
+        0.0
+      ],
+      "minimum_m": [
+        0.32499992847442627,
+        1.309999942779541,
+        0.0
+      ],
+      "maximum_m": [
+        2.9749999046325684,
+        3.9099998474121094,
+        0.017999999225139618
+      ],
+      "dimensions_m": [
+        2.649999976158142,
+        2.5999999046325684,
+        0.017999999225139618
+      ]
+    },
+    {
+      "name": "H90_MBR_PRP003_Bedding_01_ROOT",
+      "assetId": "H90-PRP-003",
+      "room": "MBR",
+      "location_m": [
+        1.649999976158142,
+        2.9000000953674316,
+        0.0
+      ],
+      "minimum_m": [
+        0.7324999570846558,
+        1.9150002002716064,
+        0.550000011920929
+      ],
+      "maximum_m": [
+        2.567500114440918,
+        3.8450000286102295,
+        0.6084999442100525
+      ],
+      "dimensions_m": [
+        1.8350001573562622,
+        1.929999828338623,
+        0.058499932289123535
+      ]
+    },
+    {
+      "name": "H90_MBR_PRP002_SleepingPillow_01_INST",
+      "assetId": "H90-PRP-002",
+      "room": "MBR",
+      "location_m": [
+        1.159999966621399,
+        3.509999990463257,
+        0.5669999718666077
+      ],
+      "minimum_m": [
+        0.85999995470047,
+        3.319999933242798,
+        0.5669999718666077
+      ],
+      "maximum_m": [
+        1.4600000381469727,
+        3.700000047683716,
+        0.7069999575614929
+      ],
+      "dimensions_m": [
+        0.6000000834465027,
+        0.38000011444091797,
+        0.13999998569488525
+      ]
+    },
+    {
+      "name": "H90_MBR_PRP002_SleepingPillow_02_INST",
+      "assetId": "H90-PRP-002",
+      "room": "MBR",
+      "location_m": [
+        2.119999885559082,
+        3.509999990463257,
+        0.5669999718666077
+      ],
+      "minimum_m": [
+        1.8199999332427979,
+        3.319999933242798,
+        0.5669999718666077
+      ],
+      "maximum_m": [
+        2.419999837875366,
+        3.700000047683716,
+        0.7069999575614929
+      ],
+      "dimensions_m": [
+        0.5999999046325684,
+        0.38000011444091797,
+        0.13999998569488525
+      ]
+    },
+    {
+      "name": "H90_MBR_PRP001_DecorCushion_06_INST",
+      "assetId": "H90-PRP-001",
+      "room": "MBR",
+      "location_m": [
+        1.649999976158142,
+        3.069999933242798,
+        0.6000000238418579
+      ],
+      "minimum_m": [
+        1.4499999284744263,
+        2.9876294136047363,
+        0.5942819714546204
+      ],
+      "maximum_m": [
+        1.850000023841858,
+        3.1523704528808594,
+        1.0057181119918823
+      ],
+      "dimensions_m": [
+        0.40000009536743164,
+        0.16474103927612305,
+        0.41143614053726196
+      ]
+    },
+    {
+      "name": "H90_MBR_PRP011_BroadleafPlant_03_INST",
+      "assetId": "H90-PRP-011",
+      "room": "MBR",
+      "location_m": [
+        3.700000047683716,
+        0.41999998688697815,
+        0.0
+      ],
+      "minimum_m": [
+        2.1477980613708496,
+        -1.1239750385284424,
+        -0.8199999928474426
+      ],
+      "maximum_m": [
+        5.250754356384277,
+        1.9724501371383667,
+        1.4553585052490234
+      ],
+      "dimensions_m": [
+        3.1029562950134277,
+        3.096425175666809,
+        2.275358498096466
+      ]
+    },
+    {
+      "name": "H90_MBR_LGT003_BedsideLamp_01_INST",
+      "assetId": "H90-LGT-003",
+      "room": "MBR",
+      "location_m": [
+        0.4399999976158142,
+        3.559999942779541,
+        0.4779999852180481
+      ],
+      "minimum_m": [
+        0.35499998927116394,
+        3.4749999046325684,
+        0.4779999852180481
+      ],
+      "maximum_m": [
+        0.5249999761581421,
+        3.6449999809265137,
+        0.8279999494552612
+      ],
+      "dimensions_m": [
+        0.16999998688697815,
+        0.1700000762939453,
+        0.34999996423721313
+      ]
+    },
+    {
+      "name": "H90_MBR_LGT003_BedsideLamp_02_INST",
+      "assetId": "H90-LGT-003",
+      "room": "MBR",
+      "location_m": [
+        2.880000114440918,
+        3.559999942779541,
+        0.4779999852180481
+      ],
+      "minimum_m": [
+        2.7950000762939453,
+        3.4749999046325684,
+        0.4779999852180481
+      ],
+      "maximum_m": [
+        2.9650001525878906,
+        3.6449999809265137,
+        0.8279999494552612
+      ],
+      "dimensions_m": [
+        0.1700000762939453,
+        0.1700000762939453,
+        0.34999996423721313
+      ]
+    },
+    {
+      "name": "H90_MBR_LGT001_Downlight_05_INST",
+      "assetId": "H90-LGT-001",
+      "room": "MBR",
+      "location_m": [
+        1.7000000476837158,
+        1.399999976158142,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        1.6500000953674316,
+        1.350000023841858,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        1.75,
+        1.4499999284744263,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.09999990463256836,
+        0.09999990463256836,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_OFF_DOR002_guest_01_ROOT",
+      "assetId": "H90-DOR-002",
+      "room": "OFF",
+      "location_m": [
+        3.0,
+        5.574999809265137,
+        0.0
+      ],
+      "minimum_m": [
+        2.059999942779541,
+        4.75,
+        0.0
+      ],
+      "maximum_m": [
+        4.059999942779541,
+        6.859999656677246,
+        2.200000047683716
+      ],
+      "dimensions_m": [
+        2.0,
+        2.109999656677246,
+        2.200000047683716
+      ]
+    },
+    {
+      "name": "H90_OFF_DOR006_guest_west_01_ROOT",
+      "assetId": "H90-DOR-006",
+      "room": "OFF",
+      "location_m": [
+        0.10000000149011612,
+        5.599999904632568,
+        0.8999999761581421
+      ],
+      "minimum_m": [
+        0.06499996781349182,
+        4.849999904632568,
+        0.8999999761581421
+      ],
+      "maximum_m": [
+        0.16750003397464752,
+        6.349999904632568,
+        2.4000000953674316
+      ],
+      "dimensions_m": [
+        0.1025000661611557,
+        1.5,
+        1.5000001192092896
+      ]
+    },
+    {
+      "name": "H90_OFF_FUR008_GuestBed_01_ROOT",
+      "assetId": "H90-FUR-008",
+      "room": "OFF",
+      "location_m": [
+        0.8500000238418579,
+        5.900000095367432,
+        0.0
+      ],
+      "minimum_m": [
+        0.20000004768371582,
+        4.860000133514404,
+        0.0
+      ],
+      "maximum_m": [
+        1.5,
+        6.940000057220459,
+        1.0
+      ],
+      "dimensions_m": [
+        1.2999999523162842,
+        2.0799999237060547,
+        1.0
+      ]
+    },
+    {
+      "name": "H90_OFF_FUR011_GuestStorage_01_ROOT",
+      "assetId": "H90-FUR-011",
+      "room": "OFF",
+      "location_m": [
+        1.0199999809265137,
+        4.380000114440918,
+        0.0
+      ],
+      "minimum_m": [
+        0.2449999898672104,
+        4.140500068664551,
+        0.0
+      ],
+      "maximum_m": [
+        1.7950000762939453,
+        4.605000019073486,
+        0.6600000262260437
+      ],
+      "dimensions_m": [
+        1.550000086426735,
+        0.46449995040893555,
+        0.6600000262260437
+      ]
+    },
+    {
+      "name": "H90_OFF_FUR012_Desk_01_ROOT",
+      "assetId": "H90-FUR-012",
+      "room": "OFF",
+      "location_m": [
+        2.25,
+        6.550000190734863,
+        0.0
+      ],
+      "minimum_m": [
+        1.649999976158142,
+        6.25,
+        0.011071138083934784
+      ],
+      "maximum_m": [
+        2.8499999046325684,
+        6.850000381469727,
+        0.75
+      ],
+      "dimensions_m": [
+        1.1999999284744263,
+        0.6000003814697266,
+        0.7389288619160652
+      ]
+    },
+    {
+      "name": "H90_OFF_FUR013_OfficeChair_01_ROOT",
+      "assetId": "H90-FUR-013",
+      "room": "OFF",
+      "location_m": [
+        2.25,
+        5.820000171661377,
+        0.0
+      ],
+      "minimum_m": [
+        1.9750001430511475,
+        5.528811931610107,
+        0.0
+      ],
+      "maximum_m": [
+        2.5249998569488525,
+        6.070000171661377,
+        0.8346911668777466
+      ],
+      "dimensions_m": [
+        0.5499997138977051,
+        0.5411882400512695,
+        0.8346911668777466
+      ]
+    },
+    {
+      "name": "H90_OFF_FUR021_Ottoman_01_ROOT",
+      "assetId": "H90-FUR-021",
+      "room": "OFF",
+      "location_m": [
+        2.0199999809265137,
+        4.96999979019165,
+        0.0
+      ],
+      "minimum_m": [
+        1.7949999570846558,
+        4.744999885559082,
+        0.0
+      ],
+      "maximum_m": [
+        2.244999885559082,
+        5.194999694824219,
+        0.3499999940395355
+      ],
+      "dimensions_m": [
+        0.44999992847442627,
+        0.4499998092651367,
+        0.3499999940395355
+      ]
+    },
+    {
+      "name": "H90_OFF_PRP003_Bedding_01_ROOT",
+      "assetId": "H90-PRP-003",
+      "room": "OFF",
+      "location_m": [
+        0.8500000238418579,
+        5.900000095367432,
+        0.0
+      ],
+      "minimum_m": [
+        0.23250001668930054,
+        4.914999961853027,
+        0.44999998807907104
+      ],
+      "maximum_m": [
+        1.4674999713897705,
+        6.845000267028809,
+        0.5084999799728394
+      ],
+      "dimensions_m": [
+        1.23499995470047,
+        1.9300003051757812,
+        0.05849999189376831
+      ]
+    },
+    {
+      "name": "H90_OFF_PRP002_SleepingPillow_03_INST",
+      "assetId": "H90-PRP-002",
+      "room": "OFF",
+      "location_m": [
+        0.8500000238418579,
+        6.480000019073486,
+        0.46700000762939453
+      ],
+      "minimum_m": [
+        0.550000011920929,
+        6.289999961853027,
+        0.46700000762939453
+      ],
+      "maximum_m": [
+        1.1500000953674316,
+        6.670000076293945,
+        0.6069999933242798
+      ],
+      "dimensions_m": [
+        0.6000000834465027,
+        0.38000011444091797,
+        0.13999998569488525
+      ]
+    },
+    {
+      "name": "H90_OFF_APP010_Laptop_01_ROOT",
+      "assetId": "H90-APP-010",
+      "room": "OFF",
+      "location_m": [
+        2.1600000858306885,
+        6.510000228881836,
+        0.7549999952316284
+      ],
+      "minimum_m": [
+        1.9850001335144043,
+        6.385000228881836,
+        0.7565000057220459
+      ],
+      "maximum_m": [
+        2.3350000381469727,
+        6.659240245819092,
+        1.0047935247421265
+      ],
+      "dimensions_m": [
+        0.34999990463256836,
+        0.27424001693725586,
+        0.24829351902008057
+      ]
+    },
+    {
+      "name": "H90_OFF_PRP012_TablePlant_03_INST",
+      "assetId": "H90-PRP-012",
+      "room": "OFF",
+      "location_m": [
+        2.6500000953674316,
+        6.610000133514404,
+        0.7580000162124634
+      ],
+      "minimum_m": [
+        1.5954724550247192,
+        5.559449195861816,
+        -0.1369999647140503
+      ],
+      "maximum_m": [
+        3.7070302963256836,
+        7.662127494812012,
+        1.9279999732971191
+      ],
+      "dimensions_m": [
+        2.1115578413009644,
+        2.1026782989501953,
+        2.0649999380111694
+      ]
+    },
+    {
+      "name": "H90_OFF_PRP009_DeskMug_01_ROOT",
+      "assetId": "H90-PRP-009",
+      "room": "OFF",
+      "location_m": [
+        2.6700000762939453,
+        6.340000152587891,
+        0.7649999856948853
+      ],
+      "minimum_m": [
+        1.7100000381469727,
+        5.340000152587891,
+        -0.2120000123977661
+      ],
+      "maximum_m": [
+        3.739000082015991,
+        7.340000152587891,
+        1.8519999980926514
+      ],
+      "dimensions_m": [
+        2.0290000438690186,
+        2.0,
+        2.0640000104904175
+      ]
+    },
+    {
+      "name": "H90_OFF_LGT001_Downlight_06_INST",
+      "assetId": "H90-LGT-001",
+      "room": "OFF",
+      "location_m": [
+        1.899999976158142,
+        5.449999809265137,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        1.850000023841858,
+        5.399999618530273,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        1.9499999284744263,
+        5.5,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.09999990463256836,
+        0.10000038146972656,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_ENT_DOR001_entry_01_ROOT",
+      "assetId": "H90-DOR-001",
+      "room": "ENT",
+      "location_m": [
+        3.3499999046325684,
+        8.899999618530273,
+        0.0
+      ],
+      "minimum_m": [
+        2.5999999046325684,
+        7.839999675750732,
+        0.0
+      ],
+      "maximum_m": [
+        4.710000038146973,
+        9.839999198913574,
+        2.200000047683716
+      ],
+      "dimensions_m": [
+        2.1100001335144043,
+        1.9999995231628418,
+        2.200000047683716
+      ]
+    },
+    {
+      "name": "H90_ENT_FUR014_EntryStorage_01_ROOT",
+      "assetId": "H90-FUR-014",
+      "room": "ENT",
+      "location_m": [
+        0.5099999904632568,
+        7.929999828338623,
+        0.0
+      ],
+      "minimum_m": [
+        0.2099999189376831,
+        7.154999732971191,
+        0.0
+      ],
+      "maximum_m": [
+        0.8245000243186951,
+        8.704999923706055,
+        2.4000000953674316
+      ],
+      "dimensions_m": [
+        0.614500105381012,
+        1.5500001907348633,
+        2.4000000953674316
+      ]
+    },
+    {
+      "name": "H90_ENT_FUR015_EntryConsole_01_ROOT",
+      "assetId": "H90-FUR-015",
+      "room": "ENT",
+      "location_m": [
+        2.1500000953674316,
+        7.360000133514404,
+        0.0
+      ],
+      "minimum_m": [
+        1.5250000953674316,
+        7.110000133514404,
+        0.0
+      ],
+      "maximum_m": [
+        2.7750000953674316,
+        7.629000186920166,
+        0.8500000238418579
+      ],
+      "dimensions_m": [
+        1.25,
+        0.5190000534057617,
+        0.8500000238418579
+      ]
+    },
+    {
+      "name": "H90_ENT_FUR016_EntryBench_01_ROOT",
+      "assetId": "H90-FUR-016",
+      "room": "ENT",
+      "location_m": [
+        1.7999999523162842,
+        8.5,
+        0.0
+      ],
+      "minimum_m": [
+        1.2249999046325684,
+        8.289999961853027,
+        0.04500000178813934
+      ],
+      "maximum_m": [
+        2.375,
+        8.710000038146973,
+        0.45000001788139343
+      ],
+      "dimensions_m": [
+        1.1500000953674316,
+        0.4200000762939453,
+        0.4050000160932541
+      ]
+    },
+    {
+      "name": "H90_ENT_PRP006_EntryMat_01_ROOT",
+      "assetId": "H90-PRP-006",
+      "room": "ENT",
+      "location_m": [
+        3.299999952316284,
+        8.350000381469727,
+        0.0
+      ],
+      "minimum_m": [
+        2.8999998569488525,
+        8.050000190734863,
+        0.0
+      ],
+      "maximum_m": [
+        3.700000047683716,
+        8.65000057220459,
+        0.012000000104308128
+      ],
+      "dimensions_m": [
+        0.8000001907348633,
+        0.6000003814697266,
+        0.012000000104308128
+      ]
+    },
+    {
+      "name": "H90_ENT_PRP011_BroadleafPlant_04_INST",
+      "assetId": "H90-PRP-011",
+      "room": "ENT",
+      "location_m": [
+        1.0,
+        7.360000133514404,
+        0.0
+      ],
+      "minimum_m": [
+        -0.5232605338096619,
+        5.854645729064941,
+        -0.8199999928474426
+      ],
+      "maximum_m": [
+        2.503274440765381,
+        8.86935806274414,
+        1.4553585052490234
+      ],
+      "dimensions_m": [
+        3.0265349745750427,
+        3.014712333679199,
+        2.275358498096466
+      ]
+    },
+    {
+      "name": "H90_ENT_PRP014_SparePlanter_01_ROOT",
+      "assetId": "H90-PRP-014",
+      "room": "ENT",
+      "location_m": [
+        2.6500000953674316,
+        7.369999885559082,
+        0.8579999804496765
+      ],
+      "minimum_m": [
+        2.5850000381469727,
+        7.304999828338623,
+        0.8579999804496765
+      ],
+      "maximum_m": [
+        2.7150001525878906,
+        7.434999942779541,
+        0.9779999852180481
+      ],
+      "dimensions_m": [
+        0.13000011444091797,
+        0.13000011444091797,
+        0.12000000476837158
+      ]
+    },
+    {
+      "name": "H90_ENT_PRP016_HouseSlipper_01_INST",
+      "assetId": "H90-PRP-016",
+      "room": "ENT",
+      "location_m": [
+        1.4199999570846558,
+        8.460000038146973,
+        0.12600000202655792
+      ],
+      "minimum_m": [
+        1.3700000047683716,
+        8.327500343322754,
+        0.1274999976158142
+      ],
+      "maximum_m": [
+        1.46999990940094,
+        8.592499732971191,
+        0.20500001311302185
+      ],
+      "dimensions_m": [
+        0.09999990463256836,
+        0.2649993896484375,
+        0.07750001549720764
+      ]
+    },
+    {
+      "name": "H90_ENT_PRP016_HouseSlipper_02_INST",
+      "assetId": "H90-PRP-016",
+      "room": "ENT",
+      "location_m": [
+        1.5399999618530273,
+        8.460000038146973,
+        0.12600000202655792
+      ],
+      "minimum_m": [
+        1.4900000095367432,
+        8.327500343322754,
+        0.1274999976158142
+      ],
+      "maximum_m": [
+        1.5899999141693115,
+        8.592499732971191,
+        0.20500001311302185
+      ],
+      "dimensions_m": [
+        0.09999990463256836,
+        0.2649993896484375,
+        0.07750001549720764
+      ]
+    },
+    {
+      "name": "H90_ENT_LGT001_Downlight_07_INST",
+      "assetId": "H90-LGT-001",
+      "room": "ENT",
+      "location_m": [
+        2.6500000953674316,
+        7.900000095367432,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        2.6000001430511475,
+        7.849999904632568,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        2.700000047683716,
+        7.950000286102295,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.09999990463256836,
+        0.10000038146972656,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_BTH_DOR003_bath_slider_01_ROOT",
+      "assetId": "H90-DOR-003",
+      "room": "BTH",
+      "location_m": [
+        4.199999809265137,
+        7.824999809265137,
+        0.0
+      ],
+      "minimum_m": [
+        3.2599997520446777,
+        7.0,
+        0.0
+      ],
+      "maximum_m": [
+        5.259999752044678,
+        9.109999656677246,
+        2.200000047683716
+      ],
+      "dimensions_m": [
+        2.0,
+        2.109999656677246,
+        2.200000047683716
+      ]
+    },
+    {
+      "name": "H90_BTH_DOR008_bath_north_01_ROOT",
+      "assetId": "H90-DOR-008",
+      "room": "BTH",
+      "location_m": [
+        5.5,
+        8.899999618530273,
+        1.5
+      ],
+      "minimum_m": [
+        4.849999904632568,
+        8.832499504089355,
+        1.5
+      ],
+      "maximum_m": [
+        6.150000095367432,
+        8.934999465942383,
+        2.4000000953674316
+      ],
+      "dimensions_m": [
+        1.3000001907348633,
+        0.10249996185302734,
+        0.9000000953674316
+      ]
+    },
+    {
+      "name": "H90_BTH_APP007_BathVanity_01_ROOT",
+      "assetId": "H90-APP-007",
+      "room": "BTH",
+      "location_m": [
+        4.989999771118164,
+        8.53499984741211,
+        0.0
+      ],
+      "minimum_m": [
+        3.989999771118164,
+        7.644999980926514,
+        -0.1499999761581421
+      ],
+      "maximum_m": [
+        5.989999771118164,
+        9.734999656677246,
+        2.0399999618530273
+      ],
+      "dimensions_m": [
+        2.0,
+        2.0899996757507324,
+        2.1899999380111694
+      ]
+    },
+    {
+      "name": "H90_BTH_APP008_Toilet_01_ROOT",
+      "assetId": "H90-APP-008",
+      "room": "BTH",
+      "location_m": [
+        4.829999923706055,
+        6.769999980926514,
+        0.0
+      ],
+      "minimum_m": [
+        4.579999923706055,
+        6.439499855041504,
+        0.004999995231628418
+      ],
+      "maximum_m": [
+        5.079999923706055,
+        7.160000324249268,
+        0.8040000200271606
+      ],
+      "dimensions_m": [
+        0.5,
+        0.7205004692077637,
+        0.7990000247955322
+      ]
+    },
+    {
+      "name": "H90_BTH_APP009_ShowerKit_01_ROOT",
+      "assetId": "H90-APP-009",
+      "room": "BTH",
+      "location_m": [
+        6.099999904632568,
+        6.730000019073486,
+        0.0
+      ],
+      "minimum_m": [
+        5.329999923706055,
+        5.630000114440918,
+        -0.5299999713897705
+      ],
+      "maximum_m": [
+        7.630000114440918,
+        7.909999847412109,
+        3.0299999713897705
+      ],
+      "dimensions_m": [
+        2.3000001907348633,
+        2.2799997329711914,
+        3.559999942779541
+      ]
+    },
+    {
+      "name": "H90_BTH_LGT001_Downlight_09_INST",
+      "assetId": "H90-LGT-001",
+      "room": "BTH",
+      "location_m": [
+        5.199999809265137,
+        7.599999904632568,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        5.149999618530273,
+        7.549999713897705,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        5.25,
+        7.650000095367432,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.10000038146972656,
+        0.10000038146972656,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_KIT_DOR004_kitchen_slider_01_ROOT",
+      "assetId": "H90-DOR-004",
+      "room": "KIT",
+      "location_m": [
+        8.300000190734863,
+        6.0,
+        0.0
+      ],
+      "minimum_m": [
+        7.75,
+        5.93250036239624,
+        0.0
+      ],
+      "maximum_m": [
+        8.850000381469727,
+        6.034999847412109,
+        2.200000047683716
+      ],
+      "dimensions_m": [
+        1.1000003814697266,
+        0.10249948501586914,
+        2.200000047683716
+      ]
+    },
+    {
+      "name": "H90_KIT_DOR007_kitchen_north_01_ROOT",
+      "assetId": "H90-DOR-007",
+      "room": "KIT",
+      "location_m": [
+        8.350000381469727,
+        8.899999618530273,
+        1.0
+      ],
+      "minimum_m": [
+        7.400000095367432,
+        8.832499504089355,
+        1.0
+      ],
+      "maximum_m": [
+        9.300000190734863,
+        8.934999465942383,
+        2.4000000953674316
+      ],
+      "dimensions_m": [
+        1.9000000953674316,
+        0.10249996185302734,
+        1.4000000953674316
+      ]
+    },
+    {
+      "name": "H90_KIT_FUR017_KitchenBase_North_01_ROOT",
+      "assetId": "H90-FUR-017",
+      "room": "KIT",
+      "location_m": [
+        8.329999923706055,
+        8.5,
+        0.0
+      ],
+      "minimum_m": [
+        6.859999656677246,
+        8.18549919128418,
+        0.0
+      ],
+      "maximum_m": [
+        9.800000190734863,
+        8.80105972290039,
+        0.8999999761581421
+      ],
+      "dimensions_m": [
+        2.940000534057617,
+        0.6155605316162109,
+        0.8999999761581421
+      ]
+    },
+    {
+      "name": "H90_KIT_FUR017_KitchenBase_East_01_ROOT",
+      "assetId": "H90-FUR-017",
+      "room": "KIT",
+      "location_m": [
+        9.5,
+        7.130000114440918,
+        0.0
+      ],
+      "minimum_m": [
+        9.18549919128418,
+        6.059999942779541,
+        0.0
+      ],
+      "maximum_m": [
+        9.800000190734863,
+        8.199999809265137,
+        0.8999999761581421
+      ],
+      "dimensions_m": [
+        0.6145009994506836,
+        2.1399998664855957,
+        0.8999999761581421
+      ]
+    },
+    {
+      "name": "H90_KIT_FUR018_KitchenUpper_01_ROOT",
+      "assetId": "H90-FUR-018",
+      "room": "KIT",
+      "location_m": [
+        9.640000343322754,
+        7.130000114440918,
+        1.8300000429153442
+      ],
+      "minimum_m": [
+        9.465499877929688,
+        6.059999942779541,
+        1.8300000429153442
+      ],
+      "maximum_m": [
+        9.800000190734863,
+        8.199999809265137,
+        2.5299999713897705
+      ],
+      "dimensions_m": [
+        0.3345003128051758,
+        2.1399998664855957,
+        0.6999999284744263
+      ]
+    },
+    {
+      "name": "H90_KIT_APP006_KitchenSink_01_ROOT",
+      "assetId": "H90-APP-006",
+      "room": "KIT",
+      "location_m": [
+        8.300000190734863,
+        8.5,
+        0.9010000228881836
+      ],
+      "minimum_m": [
+        7.5,
+        7.460000038146973,
+        -0.09299999475479126
+      ],
+      "maximum_m": [
+        9.539999961853027,
+        9.65999984741211,
+        2.2209999561309814
+      ],
+      "dimensions_m": [
+        2.0399999618530273,
+        2.1999998092651367,
+        2.3139999508857727
+      ]
+    },
+    {
+      "name": "H90_KIT_APP004_Cooktop_01_ROOT",
+      "assetId": "H90-APP-004",
+      "room": "KIT",
+      "location_m": [
+        9.5,
+        7.170000076293945,
+        0.9049999713897705
+      ],
+      "minimum_m": [
+        9.274999618530273,
+        6.869999885559082,
+        0.9049999713897705
+      ],
+      "maximum_m": [
+        9.725000381469727,
+        7.470000267028809,
+        0.9570000171661377
+      ],
+      "dimensions_m": [
+        0.4500007629394531,
+        0.6000003814697266,
+        0.05200004577636719
+      ]
+    },
+    {
+      "name": "H90_KIT_APP005_ExtractorHood_01_ROOT",
+      "assetId": "H90-APP-005",
+      "room": "KIT",
+      "location_m": [
+        9.5600004196167,
+        7.170000076293945,
+        1.690000057220459
+      ],
+      "minimum_m": [
+        9.345000267028809,
+        6.840000152587891,
+        1.6810001134872437
+      ],
+      "maximum_m": [
+        9.77500057220459,
+        7.5,
+        1.809999942779541
+      ],
+      "dimensions_m": [
+        0.43000030517578125,
+        0.6599998474121094,
+        0.12899982929229736
+      ]
+    },
+    {
+      "name": "H90_KIT_APP002_Refrigerator_01_ROOT",
+      "assetId": "H90-APP-002",
+      "room": "KIT",
+      "location_m": [
+        7.25,
+        6.630000114440918,
+        0.0
+      ],
+      "minimum_m": [
+        6.010000228881836,
+        5.225000381469727,
+        -0.7599999904632568
+      ],
+      "maximum_m": [
+        8.010000228881836,
+        7.2330002784729,
+        2.2899999618530273
+      ],
+      "dimensions_m": [
+        2.0,
+        2.007999897003174,
+        3.049999952316284
+      ]
+    },
+    {
+      "name": "H90_KIT_PRP020_ChoppingBoardLarge_01_ROOT",
+      "assetId": "H90-PRP-020",
+      "room": "KIT",
+      "location_m": [
+        9.739999771118164,
+        7.769999980926514,
+        0.9160000085830688
+      ],
+      "minimum_m": [
+        9.731499671936035,
+        7.65500020980835,
+        0.9160000085830688
+      ],
+      "maximum_m": [
+        9.748499870300293,
+        7.884999752044678,
+        1.3009999990463257
+      ],
+      "dimensions_m": [
+        0.017000198364257812,
+        0.22999954223632812,
+        0.38499999046325684
+      ]
+    },
+    {
+      "name": "H90_KIT_PRP020_ChoppingBoardSmall_01_ROOT",
+      "assetId": "H90-PRP-020",
+      "room": "KIT",
+      "location_m": [
+        9.699999809265137,
+        8.039999961853027,
+        0.9160000085830688
+      ],
+      "minimum_m": [
+        9.691499710083008,
+        7.949999809265137,
+        0.9160000085830688
+      ],
+      "maximum_m": [
+        9.708499908447266,
+        8.130000114440918,
+        1.2510000467300415
+      ],
+      "dimensions_m": [
+        0.017000198364257812,
+        0.18000030517578125,
+        0.33500003814697266
+      ]
+    },
+    {
+      "name": "H90_KIT_PRP020_SeasoningJar_01_ROOT",
+      "assetId": "H90-PRP-020",
+      "room": "KIT",
+      "location_m": [
+        9.359999656677246,
+        7.849999904632568,
+        0.9160000085830688
+      ],
+      "minimum_m": [
+        9.314000129699707,
+        7.803999900817871,
+        0.9160000085830688
+      ],
+      "maximum_m": [
+        9.405999183654785,
+        7.895999908447266,
+        1.0220000743865967
+      ],
+      "dimensions_m": [
+        0.09199905395507812,
+        0.09200000762939453,
+        0.10600006580352783
+      ]
+    },
+    {
+      "name": "H90_KIT_PRP020_CeramicCanister_01_ROOT",
+      "assetId": "H90-PRP-020",
+      "room": "KIT",
+      "location_m": [
+        9.039999961853027,
+        8.510000228881836,
+        0.9160000085830688
+      ],
+      "minimum_m": [
+        8.994000434875488,
+        8.464000701904297,
+        0.9160000085830688
+      ],
+      "maximum_m": [
+        9.085999488830566,
+        8.555999755859375,
+        1.0410000085830688
+      ],
+      "dimensions_m": [
+        0.09199905395507812,
+        0.09199905395507812,
+        0.125
+      ]
+    },
+    {
+      "name": "H90_KIT_LGT001_Downlight_08_INST",
+      "assetId": "H90-LGT-001",
+      "room": "KIT",
+      "location_m": [
+        8.199999809265137,
+        7.5,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        8.149999618530273,
+        7.449999809265137,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        8.25,
+        7.550000190734863,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.10000038146972656,
+        0.10000038146972656,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_KIT_LGT004_CabinetStrip_01_ROOT",
+      "assetId": "H90-LGT-004",
+      "room": "KIT",
+      "location_m": [
+        9.579999923706055,
+        7.130000114440918,
+        1.8049999475479126
+      ],
+      "minimum_m": [
+        9.568499565124512,
+        6.105000019073486,
+        1.7954999208450317
+      ],
+      "maximum_m": [
+        9.591500282287598,
+        8.154999732971191,
+        1.8114999532699585
+      ],
+      "dimensions_m": [
+        0.023000717163085938,
+        2.049999713897705,
+        0.016000032424926758
+      ]
+    },
+    {
+      "name": "H90_LIV_FUR001_Sofa_01_ROOT",
+      "assetId": "H90-FUR-001",
+      "room": "LIV",
+      "location_m": [
+        5.0,
+        3.625,
+        0.0
+      ],
+      "minimum_m": [
+        4.5,
+        2.3999998569488525,
+        0.0
+      ],
+      "maximum_m": [
+        5.5,
+        4.849999904632568,
+        0.8590841293334961
+      ],
+      "dimensions_m": [
+        1.0,
+        2.450000047683716,
+        0.8590841293334961
+      ]
+    },
+    {
+      "name": "H90_LIV_FUR002_CoffeeTable_01_ROOT",
+      "assetId": "H90-FUR-002",
+      "room": "LIV",
+      "location_m": [
+        6.699999809265137,
+        3.325000047683716,
+        0.0
+      ],
+      "minimum_m": [
+        6.199999809265137,
+        3.0,
+        0.0066297780722379684
+      ],
+      "maximum_m": [
+        7.199999809265137,
+        3.6500000953674316,
+        0.3799999952316284
+      ],
+      "dimensions_m": [
+        1.0,
+        0.6500000953674316,
+        0.37337021715939045
+      ]
+    },
+    {
+      "name": "H90_LIV_FUR003_TVConsole_01_ROOT",
+      "assetId": "H90-FUR-003",
+      "room": "LIV",
+      "location_m": [
+        9.600000381469727,
+        3.549999952316284,
+        0.0
+      ],
+      "minimum_m": [
+        9.380999565124512,
+        2.5999999046325684,
+        0.0
+      ],
+      "maximum_m": [
+        9.800000190734863,
+        4.5,
+        0.44999998807907104
+      ],
+      "dimensions_m": [
+        0.41900062561035156,
+        1.9000000953674316,
+        0.44999998807907104
+      ]
+    },
+    {
+      "name": "H90_LIV_FUR004_DiningTable_01_ROOT",
+      "assetId": "H90-FUR-004",
+      "room": "LIV",
+      "location_m": [
+        6.349999904632568,
+        5.349999904632568,
+        0.0
+      ],
+      "minimum_m": [
+        5.75,
+        5.0,
+        0.011071138083934784
+      ],
+      "maximum_m": [
+        6.949999809265137,
+        5.699999809265137,
+        0.75
+      ],
+      "dimensions_m": [
+        1.1999998092651367,
+        0.6999998092651367,
+        0.7389288619160652
+      ]
+    },
+    {
+      "name": "H90_LIV_FUR005_DiningChair_01_INST",
+      "assetId": "H90-FUR-005",
+      "room": "LIV",
+      "location_m": [
+        6.0,
+        4.800000190734863,
+        0.0
+      ],
+      "minimum_m": [
+        5.775000095367432,
+        4.559709072113037,
+        0.010987791232764721
+      ],
+      "maximum_m": [
+        6.224999904632568,
+        5.025000095367432,
+        0.8230943083763123
+      ],
+      "dimensions_m": [
+        0.4499998092651367,
+        0.46529102325439453,
+        0.8121065171435475
+      ]
+    },
+    {
+      "name": "H90_LIV_FUR005_DiningChair_02_INST",
+      "assetId": "H90-FUR-005",
+      "room": "LIV",
+      "location_m": [
+        6.679999828338623,
+        4.800000190734863,
+        0.0
+      ],
+      "minimum_m": [
+        6.454999923706055,
+        4.559709072113037,
+        0.010987791232764721
+      ],
+      "maximum_m": [
+        6.904999732971191,
+        5.025000095367432,
+        0.8230943083763123
+      ],
+      "dimensions_m": [
+        0.4499998092651367,
+        0.46529102325439453,
+        0.8121065171435475
+      ]
+    },
+    {
+      "name": "H90_LIV_FUR006_DiningBench_01_ROOT",
+      "assetId": "H90-FUR-006",
+      "room": "LIV",
+      "location_m": [
+        6.349999904632568,
+        5.730000019073486,
+        0.0
+      ],
+      "minimum_m": [
+        5.75,
+        5.554999828338623,
+        0.00809783861041069
+      ],
+      "maximum_m": [
+        6.949999809265137,
+        5.90500020980835,
+        0.7799999713897705
+      ],
+      "dimensions_m": [
+        1.1999998092651367,
+        0.35000038146972656,
+        0.7719021327793598
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT001_Hideout_01_ROOT",
+      "assetId": "H90-CAT-001",
+      "room": "LIV",
+      "location_m": [
+        8.649999618530273,
+        5.230000019073486,
+        0.0
+      ],
+      "minimum_m": [
+        8.374999046325684,
+        4.952500343322754,
+        0.0
+      ],
+      "maximum_m": [
+        8.925000190734863,
+        5.505000114440918,
+        0.550000011920929
+      ],
+      "dimensions_m": [
+        0.5500011444091797,
+        0.5524997711181641,
+        0.550000011920929
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT002_ScratchColumn_01_ROOT",
+      "assetId": "H90-CAT-002",
+      "room": "LIV",
+      "location_m": [
+        9.300000190734863,
+        5.150000095367432,
+        0.0
+      ],
+      "minimum_m": [
+        8.195487976074219,
+        4.0369086265563965,
+        -0.9399999976158142
+      ],
+      "maximum_m": [
+        10.416000366210938,
+        6.263091564178467,
+        3.0950000286102295
+      ],
+      "dimensions_m": [
+        2.2205123901367188,
+        2.2261829376220703,
+        4.035000026226044
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT003_WallPlatform_01_INST",
+      "assetId": "H90-CAT-003",
+      "room": "LIV",
+      "location_m": [
+        9.649999618530273,
+        4.75,
+        0.3499999940395355
+      ],
+      "minimum_m": [
+        9.5,
+        4.510000228881836,
+        0.29499998688697815
+      ],
+      "maximum_m": [
+        9.799999237060547,
+        4.989999771118164,
+        0.3499999940395355
+      ],
+      "dimensions_m": [
+        0.2999992370605469,
+        0.4799995422363281,
+        0.05500000715255737
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT003_WallPlatform_02_INST",
+      "assetId": "H90-CAT-003",
+      "room": "LIV",
+      "location_m": [
+        9.649999618530273,
+        5.699999809265137,
+        0.75
+      ],
+      "minimum_m": [
+        9.5,
+        5.460000038146973,
+        0.6949999928474426
+      ],
+      "maximum_m": [
+        9.799999237060547,
+        5.939999580383301,
+        0.75
+      ],
+      "dimensions_m": [
+        0.2999992370605469,
+        0.4799995422363281,
+        0.05500000715255737
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT003_WallPlatform_03_INST",
+      "assetId": "H90-CAT-003",
+      "room": "LIV",
+      "location_m": [
+        9.649999618530273,
+        4.75,
+        1.149999976158142
+      ],
+      "minimum_m": [
+        9.5,
+        4.510000228881836,
+        1.0950000286102295
+      ],
+      "maximum_m": [
+        9.799999237060547,
+        4.989999771118164,
+        1.149999976158142
+      ],
+      "dimensions_m": [
+        0.2999992370605469,
+        0.4799995422363281,
+        0.0549999475479126
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT003_WallPlatform_04_INST",
+      "assetId": "H90-CAT-003",
+      "room": "LIV",
+      "location_m": [
+        9.649999618530273,
+        5.699999809265137,
+        1.649999976158142
+      ],
+      "minimum_m": [
+        9.5,
+        5.460000038146973,
+        1.5950000286102295
+      ],
+      "maximum_m": [
+        9.799999237060547,
+        5.939999580383301,
+        1.649999976158142
+      ],
+      "dimensions_m": [
+        0.2999992370605469,
+        0.4799995422363281,
+        0.0549999475479126
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT003_WallPlatform_05_INST",
+      "assetId": "H90-CAT-003",
+      "room": "LIV",
+      "location_m": [
+        9.649999618530273,
+        4.75,
+        2.1500000953674316
+      ],
+      "minimum_m": [
+        9.5,
+        4.510000228881836,
+        2.0950000286102295
+      ],
+      "maximum_m": [
+        9.799999237060547,
+        4.989999771118164,
+        2.1500000953674316
+      ],
+      "dimensions_m": [
+        0.2999992370605469,
+        0.4799995422363281,
+        0.05500006675720215
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT004_FeedingStation_01_ROOT",
+      "assetId": "H90-CAT-004",
+      "room": "LIV",
+      "location_m": [
+        4.670000076293945,
+        5.699999809265137,
+        0.0
+      ],
+      "minimum_m": [
+        4.380000114440918,
+        5.549999713897705,
+        0.0
+      ],
+      "maximum_m": [
+        4.960000038146973,
+        5.849999904632568,
+        0.3700000047683716
+      ],
+      "dimensions_m": [
+        0.5799999237060547,
+        0.3000001907348633,
+        0.3700000047683716
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT005_WaterFountain_01_ROOT",
+      "assetId": "H90-CAT-005",
+      "room": "LIV",
+      "location_m": [
+        9.319999694824219,
+        2.0,
+        0.0
+      ],
+      "minimum_m": [
+        8.319999694824219,
+        1.0,
+        -0.8759999871253967
+      ],
+      "maximum_m": [
+        10.355999946594238,
+        3.0,
+        1.184999942779541
+      ],
+      "dimensions_m": [
+        2.0360002517700195,
+        2.0,
+        2.0609999299049377
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP005_LivingRug_01_ROOT",
+      "assetId": "H90-PRP-005",
+      "room": "LIV",
+      "location_m": [
+        6.659999847412109,
+        3.319999933242798,
+        0.0
+      ],
+      "minimum_m": [
+        5.509999752044678,
+        2.444999933242798,
+        0.0
+      ],
+      "maximum_m": [
+        7.809999942779541,
+        4.194999694824219,
+        0.017999999225139618
+      ],
+      "dimensions_m": [
+        2.3000001907348633,
+        1.749999761581421,
+        0.017999999225139618
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP001_DecorCushion_01_INST",
+      "assetId": "H90-PRP-001",
+      "room": "LIV",
+      "location_m": [
+        4.800000190734863,
+        2.950000047683716,
+        0.45500001311302185
+      ],
+      "minimum_m": [
+        4.717629909515381,
+        2.75,
+        0.4492819309234619
+      ],
+      "maximum_m": [
+        4.882370471954346,
+        3.1500000953674316,
+        0.8607181310653687
+      ],
+      "dimensions_m": [
+        0.16474056243896484,
+        0.40000009536743164,
+        0.41143620014190674
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP001_DecorCushion_02_INST",
+      "assetId": "H90-PRP-001",
+      "room": "LIV",
+      "location_m": [
+        4.800000190734863,
+        3.680000066757202,
+        0.45500001311302185
+      ],
+      "minimum_m": [
+        4.717629909515381,
+        3.4800000190734863,
+        0.4492819309234619
+      ],
+      "maximum_m": [
+        4.882370471954346,
+        3.880000114440918,
+        0.8607181310653687
+      ],
+      "dimensions_m": [
+        0.16474056243896484,
+        0.40000009536743164,
+        0.41143620014190674
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP001_DecorCushion_03_INST",
+      "assetId": "H90-PRP-001",
+      "room": "LIV",
+      "location_m": [
+        4.800000190734863,
+        4.360000133514404,
+        0.45500001311302185
+      ],
+      "minimum_m": [
+        4.717629909515381,
+        4.160000324249268,
+        0.4492819309234619
+      ],
+      "maximum_m": [
+        4.882370471954346,
+        4.559999942779541,
+        0.8607181310653687
+      ],
+      "dimensions_m": [
+        0.16474056243896484,
+        0.39999961853027344,
+        0.41143620014190674
+      ]
+    },
+    {
+      "name": "H90_LIV_APP001_Television_01_ROOT",
+      "assetId": "H90-APP-001",
+      "room": "LIV",
+      "location_m": [
+        9.619999885559082,
+        3.549999952316284,
+        0.4560000002384186
+      ],
+      "minimum_m": [
+        9.504999160766602,
+        2.9499998092651367,
+        0.4580000042915344
+      ],
+      "maximum_m": [
+        9.694999694824219,
+        4.150000095367432,
+        1.2660000324249268
+      ],
+      "dimensions_m": [
+        0.1900005340576172,
+        1.200000286102295,
+        0.8080000281333923
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP011_BroadleafPlant_02_INST",
+      "assetId": "H90-PRP-011",
+      "room": "LIV",
+      "location_m": [
+        9.270000457763672,
+        4.71999979019165,
+        0.0
+      ],
+      "minimum_m": [
+        7.738491058349609,
+        3.1893045902252197,
+        -0.8199999928474426
+      ],
+      "maximum_m": [
+        10.812323570251465,
+        6.272716999053955,
+        1.4553585052490234
+      ],
+      "dimensions_m": [
+        3.0738325119018555,
+        3.0834124088287354,
+        2.275358498096466
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP012_TablePlant_01_INST",
+      "assetId": "H90-PRP-012",
+      "room": "LIV",
+      "location_m": [
+        6.380000114440918,
+        3.430000066757202,
+        0.41200000047683716
+      ],
+      "minimum_m": [
+        5.325472354888916,
+        2.379448890686035,
+        -0.4829999804496765
+      ],
+      "maximum_m": [
+        7.43703031539917,
+        4.4821271896362305,
+        1.5820000171661377
+      ],
+      "dimensions_m": [
+        2.111557960510254,
+        2.1026782989501953,
+        2.064999997615814
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP012_TablePlant_02_INST",
+      "assetId": "H90-PRP-012",
+      "room": "LIV",
+      "location_m": [
+        9.59000015258789,
+        4.300000190734863,
+        0.4580000042915344
+      ],
+      "minimum_m": [
+        8.535472869873047,
+        3.2494490146636963,
+        -0.43699997663497925
+      ],
+      "maximum_m": [
+        10.647029876708984,
+        5.352127552032471,
+        1.628000020980835
+      ],
+      "dimensions_m": [
+        2.1115570068359375,
+        2.1026785373687744,
+        2.064999997615814
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP012_TrailingPlant_01_INST",
+      "assetId": "H90-PRP-012",
+      "room": "LIV",
+      "location_m": [
+        9.649999618530273,
+        4.75,
+        2.1549999713897705
+      ],
+      "minimum_m": [
+        8.4399995803833,
+        3.692969799041748,
+        0.8650000095367432
+      ],
+      "maximum_m": [
+        10.702127456665039,
+        5.804527759552002,
+        3.3249998092651367
+      ],
+      "dimensions_m": [
+        2.2621278762817383,
+        2.111557960510254,
+        2.4599997997283936
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP013_BranchingPlant_01_INST",
+      "assetId": "H90-PRP-013",
+      "room": "LIV",
+      "location_m": [
+        6.329999923706055,
+        5.389999866485596,
+        0.7590000033378601
+      ],
+      "minimum_m": [
+        5.192047119140625,
+        4.250512599945068,
+        -0.0910000205039978
+      ],
+      "maximum_m": [
+        7.46999979019165,
+        6.500857353210449,
+        2.159345865249634
+      ],
+      "dimensions_m": [
+        2.2779526710510254,
+        2.250344753265381,
+        2.2503458857536316
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP009_CoffeeMug_01_ROOT",
+      "assetId": "H90-PRP-009",
+      "room": "LIV",
+      "location_m": [
+        6.949999809265137,
+        3.4600000381469727,
+        0.4099999964237213
+      ],
+      "minimum_m": [
+        5.989999771118164,
+        2.4600000381469727,
+        -0.5670000314712524
+      ],
+      "maximum_m": [
+        8.019000053405762,
+        4.460000038146973,
+        1.496999979019165
+      ],
+      "dimensions_m": [
+        2.0290002822875977,
+        2.0,
+        2.0640000104904175
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP008_Book_01_INST",
+      "assetId": "H90-PRP-008",
+      "room": "LIV",
+      "location_m": [
+        6.909999847412109,
+        3.1700000762939453,
+        0.4099999964237213
+      ],
+      "minimum_m": [
+        6.75499963760376,
+        3.057500123977661,
+        0.40950000286102295
+      ],
+      "maximum_m": [
+        7.065000057220459,
+        3.2825000286102295,
+        0.4375
+      ],
+      "dimensions_m": [
+        0.3100004196166992,
+        0.22499990463256836,
+        0.02799999713897705
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP008_Book_02_INST",
+      "assetId": "H90-PRP-008",
+      "room": "LIV",
+      "location_m": [
+        6.909999847412109,
+        3.1700000762939453,
+        0.43799999356269836
+      ],
+      "minimum_m": [
+        6.751695156097412,
+        3.05290150642395,
+        0.4375
+      ],
+      "maximum_m": [
+        7.068304538726807,
+        3.2870986461639404,
+        0.46549999713897705
+      ],
+      "dimensions_m": [
+        0.31660938262939453,
+        0.23419713973999023,
+        0.02799999713897705
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP010_OvalTray_01_ROOT",
+      "assetId": "H90-PRP-010",
+      "room": "LIV",
+      "location_m": [
+        6.909999847412109,
+        3.1700000762939453,
+        0.4659999907016754
+      ],
+      "minimum_m": [
+        6.7599968910217285,
+        3.080000162124634,
+        0.4659999907016754
+      ],
+      "maximum_m": [
+        7.06000280380249,
+        3.259999990463257,
+        0.4909999966621399
+      ],
+      "dimensions_m": [
+        0.3000059127807617,
+        0.17999982833862305,
+        0.025000005960464478
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP007_RoundCatMat_01_ROOT",
+      "assetId": "H90-PRP-007",
+      "room": "LIV",
+      "location_m": [
+        9.300000190734863,
+        5.150000095367432,
+        0.012000000104308128
+      ],
+      "minimum_m": [
+        7.985994815826416,
+        3.830237865447998,
+        -0.972000002861023
+      ],
+      "maximum_m": [
+        10.625,
+        6.459749698638916,
+        1.027999997138977
+      ],
+      "dimensions_m": [
+        2.639005184173584,
+        2.629511833190918,
+        2.0
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP007_ScratchPad_01_ROOT",
+      "assetId": "H90-PRP-007",
+      "room": "LIV",
+      "location_m": [
+        8.289999961853027,
+        4.900000095367432,
+        0.0
+      ],
+      "minimum_m": [
+        8.180000305175781,
+        4.815000057220459,
+        0.0
+      ],
+      "maximum_m": [
+        8.399999618530273,
+        4.985000133514404,
+        0.05000000074505806
+      ],
+      "dimensions_m": [
+        0.2199993133544922,
+        0.1700000762939453,
+        0.05000000074505806
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT008_SisalBall_01_INST",
+      "assetId": "H90-CAT-008",
+      "room": "LIV",
+      "location_m": [
+        9.0600004196167,
+        4.639999866485596,
+        0.004999999888241291
+      ],
+      "minimum_m": [
+        9.02400016784668,
+        4.604000091552734,
+        0.004999999888241291
+      ],
+      "maximum_m": [
+        9.096000671386719,
+        4.675999641418457,
+        0.07699999958276749
+      ],
+      "dimensions_m": [
+        0.07200050354003906,
+        0.07199954986572266,
+        0.0719999996945262
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT008_SisalBall_02_INST",
+      "assetId": "H90-CAT-008",
+      "room": "LIV",
+      "location_m": [
+        8.710000038146973,
+        4.78000020980835,
+        0.004999999888241291
+      ],
+      "minimum_m": [
+        8.673999786376953,
+        4.744000434875488,
+        0.004999999888241291
+      ],
+      "maximum_m": [
+        8.746000289916992,
+        4.815999984741211,
+        0.07699999958276749
+      ],
+      "dimensions_m": [
+        0.07200050354003906,
+        0.07199954986572266,
+        0.0719999996945262
+      ]
+    },
+    {
+      "name": "H90_LIV_CAT008_ScratchBall_01_ROOT",
+      "assetId": "H90-CAT-008",
+      "room": "LIV",
+      "location_m": [
+        8.25,
+        5.099999904632568,
+        0.0
+      ],
+      "minimum_m": [
+        8.164999961853027,
+        5.014999866485596,
+        0.0
+      ],
+      "maximum_m": [
+        8.335000038146973,
+        5.184999942779541,
+        0.2900000214576721
+      ],
+      "dimensions_m": [
+        0.1700000762939453,
+        0.1700000762939453,
+        0.2900000214576721
+      ]
+    },
+    {
+      "name": "H90_LIV_LGT002_DiningPendant_01_ROOT",
+      "assetId": "H90-LGT-002",
+      "room": "LIV",
+      "location_m": [
+        6.349999904632568,
+        5.349999904632568,
+        0.0
+      ],
+      "minimum_m": [
+        5.349999904632568,
+        4.349999904632568,
+        0.9750000238418579
+      ],
+      "maximum_m": [
+        7.349999904632568,
+        6.349999904632568,
+        3.73799991607666
+      ],
+      "dimensions_m": [
+        2.0,
+        2.0,
+        2.7629998922348022
+      ]
+    },
+    {
+      "name": "H90_LIV_LGT001_Downlight_01_INST",
+      "assetId": "H90-LGT-001",
+      "room": "LIV",
+      "location_m": [
+        5.800000190734863,
+        2.3499999046325684,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        5.75,
+        2.299999952316284,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        5.850000381469727,
+        2.3999998569488525,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.10000038146972656,
+        0.09999990463256836,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_LIV_LGT001_Downlight_02_INST",
+      "assetId": "H90-LGT-001",
+      "room": "LIV",
+      "location_m": [
+        8.300000190734863,
+        2.3499999046325684,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        8.25,
+        2.299999952316284,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        8.350000381469727,
+        2.3999998569488525,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.10000038146972656,
+        0.09999990463256836,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_LIV_LGT001_Downlight_03_INST",
+      "assetId": "H90-LGT-001",
+      "room": "LIV",
+      "location_m": [
+        5.800000190734863,
+        4.449999809265137,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        5.75,
+        4.399999618530273,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        5.850000381469727,
+        4.5,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.10000038146972656,
+        0.10000038146972656,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_LIV_LGT001_Downlight_04_INST",
+      "assetId": "H90-LGT-001",
+      "room": "LIV",
+      "location_m": [
+        8.300000190734863,
+        4.449999809265137,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        8.25,
+        4.399999618530273,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        8.350000381469727,
+        4.5,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.10000038146972656,
+        0.10000038146972656,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_LIV_ARC011_VentGrille_01_ROOT",
+      "assetId": "H90-ARC-011",
+      "room": "LIV",
+      "location_m": [
+        7.400000095367432,
+        5.650000095367432,
+        2.630000114440918
+      ],
+      "minimum_m": [
+        6.474999904632568,
+        5.625,
+        2.56000018119812
+      ],
+      "maximum_m": [
+        8.324999809265137,
+        5.6620001792907715,
+        2.700000047683716
+      ],
+      "dimensions_m": [
+        1.8499999046325684,
+        0.037000179290771484,
+        0.1399998664855957
+      ]
+    },
+    {
+      "name": "H90_BAL_DOR005_balcony_slider_01_ROOT",
+      "assetId": "H90-DOR-005",
+      "room": "BAL",
+      "location_m": [
+        7.050000190734863,
+        1.600000023841858,
+        0.0
+      ],
+      "minimum_m": [
+        5.450000286102295,
+        1.5325000286102295,
+        0.0
+      ],
+      "maximum_m": [
+        8.65000057220459,
+        1.6349999904632568,
+        2.200000047683716
+      ],
+      "dimensions_m": [
+        3.200000286102295,
+        0.10249996185302734,
+        2.200000047683716
+      ]
+    },
+    {
+      "name": "H90_BAL_DOR009_balcony_south_01_ROOT",
+      "assetId": "H90-DOR-009",
+      "room": "BAL",
+      "location_m": [
+        7.100000381469727,
+        0.10000000149011612,
+        0.0
+      ],
+      "minimum_m": [
+        4.40000057220459,
+        0.0325000025331974,
+        0.0
+      ],
+      "maximum_m": [
+        9.800000190734863,
+        0.13500000536441803,
+        2.5
+      ],
+      "dimensions_m": [
+        5.399999618530273,
+        0.10250000283122063,
+        2.5
+      ]
+    },
+    {
+      "name": "H90_BAL_FUR020_BalconyBench_01_ROOT",
+      "assetId": "H90-FUR-020",
+      "room": "BAL",
+      "location_m": [
+        7.275000095367432,
+        0.47999998927116394,
+        0.0
+      ],
+      "minimum_m": [
+        6.0,
+        0.27999985218048096,
+        0.0
+      ],
+      "maximum_m": [
+        8.550000190734863,
+        0.6945001482963562,
+        0.44999998807907104
+      ],
+      "dimensions_m": [
+        2.5500001907348633,
+        0.41450029611587524,
+        0.44999998807907104
+      ]
+    },
+    {
+      "name": "H90_BAL_FUR019_LaundryStorage_01_ROOT",
+      "assetId": "H90-FUR-019",
+      "room": "BAL",
+      "location_m": [
+        4.670000076293945,
+        0.8600000143051147,
+        0.0
+      ],
+      "minimum_m": [
+        4.3125,
+        0.47999992966651917,
+        0.0
+      ],
+      "maximum_m": [
+        5.027500152587891,
+        1.2400000095367432,
+        2.4000000953674316
+      ],
+      "dimensions_m": [
+        0.7150001525878906,
+        0.760000079870224,
+        2.4000000953674316
+      ]
+    },
+    {
+      "name": "H90_BAL_CAT006_LitterCabinet_01_ROOT",
+      "assetId": "H90-CAT-006",
+      "room": "BAL",
+      "location_m": [
+        9.399999618530273,
+        0.625,
+        0.0
+      ],
+      "minimum_m": [
+        9.019999504089355,
+        0.2999999523162842,
+        0.0
+      ],
+      "maximum_m": [
+        9.779999732971191,
+        0.95250004529953,
+        0.699999988079071
+      ],
+      "dimensions_m": [
+        0.7600002288818359,
+        0.6525000929832458,
+        0.699999988079071
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP001_DecorCushion_04_INST",
+      "assetId": "H90-PRP-001",
+      "room": "BAL",
+      "location_m": [
+        6.449999809265137,
+        0.46000000834465027,
+        0.44999998807907104
+      ],
+      "minimum_m": [
+        6.25,
+        0.37762948870658875,
+        0.4442819058895111
+      ],
+      "maximum_m": [
+        6.649999618530273,
+        0.5423705577850342,
+        0.8557180762290955
+      ],
+      "dimensions_m": [
+        0.39999961853027344,
+        0.16474106907844543,
+        0.41143617033958435
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP001_DecorCushion_05_INST",
+      "assetId": "H90-PRP-001",
+      "room": "BAL",
+      "location_m": [
+        6.929999828338623,
+        0.46000000834465027,
+        0.44999998807907104
+      ],
+      "minimum_m": [
+        6.730000019073486,
+        0.37762948870658875,
+        0.4442819058895111
+      ],
+      "maximum_m": [
+        7.12999963760376,
+        0.5423705577850342,
+        0.8557180762290955
+      ],
+      "dimensions_m": [
+        0.39999961853027344,
+        0.16474106907844543,
+        0.41143617033958435
+      ]
+    },
+    {
+      "name": "H90_BAL_APP003_WashingMachine_01_ROOT",
+      "assetId": "H90-APP-003",
+      "room": "BAL",
+      "location_m": [
+        4.670000076293945,
+        0.8199999928474426,
+        0.0
+      ],
+      "minimum_m": [
+        4.369999885559082,
+        0.5199999809265137,
+        0.0
+      ],
+      "maximum_m": [
+        4.970000267028809,
+        1.1740000247955322,
+        0.8600000143051147
+      ],
+      "dimensions_m": [
+        0.6000003814697266,
+        0.6540000438690186,
+        0.8600000143051147
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP011_BroadleafPlant_01_INST",
+      "assetId": "H90-PRP-011",
+      "room": "BAL",
+      "location_m": [
+        5.460000038146973,
+        0.6200000047683716,
+        0.0
+      ],
+      "minimum_m": [
+        4.267240524291992,
+        -0.5634530782699585,
+        -0.8199999928474426
+      ],
+      "maximum_m": [
+        6.616277694702148,
+        1.8093549013137817,
+        1.4553585052490234
+      ],
+      "dimensions_m": [
+        2.3490371704101562,
+        2.3728079795837402,
+        2.275358498096466
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP012_TablePlant_04_INST",
+      "assetId": "H90-PRP-012",
+      "room": "BAL",
+      "location_m": [
+        4.849999904632568,
+        0.6499999761581421,
+        0.9729999899864197
+      ],
+      "minimum_m": [
+        3.7954721450805664,
+        -0.4005511999130249,
+        0.078000009059906
+      ],
+      "maximum_m": [
+        5.90703010559082,
+        1.7021273374557495,
+        2.1429998874664307
+      ],
+      "dimensions_m": [
+        2.111557960510254,
+        2.1026785373687744,
+        2.0649998784065247
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP015_GrassPot_01_ROOT",
+      "assetId": "H90-PRP-015",
+      "room": "BAL",
+      "location_m": [
+        9.399999618530273,
+        0.6000000238418579,
+        0.7139999866485596
+      ],
+      "minimum_m": [
+        9.256965637207031,
+        0.44518589973449707,
+        0.7139999866485596
+      ],
+      "maximum_m": [
+        9.545660972595215,
+        0.7563719153404236,
+        1.0989975929260254
+      ],
+      "dimensions_m": [
+        0.2886953353881836,
+        0.3111860156059265,
+        0.3849976062774658
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP004_DrapedThrow_01_ROOT",
+      "assetId": "H90-PRP-004",
+      "room": "BAL",
+      "location_m": [
+        8.020000457763672,
+        0.47999998927116394,
+        0.0
+      ],
+      "minimum_m": [
+        6.744000434875488,
+        -0.27900001406669617,
+        -0.8769999742507935
+      ],
+      "maximum_m": [
+        9.29800033569336,
+        1.7239999771118164,
+        1.1660000085830688
+      ],
+      "dimensions_m": [
+        2.553999900817871,
+        2.0029999911785126,
+        2.0429999828338623
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP017_LaundryBottle_01_INST",
+      "assetId": "H90-PRP-017",
+      "room": "BAL",
+      "location_m": [
+        4.420000076293945,
+        1.0499999523162842,
+        0.9729999899864197
+      ],
+      "minimum_m": [
+        3.371000051498413,
+        0.04999995231628418,
+        0.21999996900558472
+      ],
+      "maximum_m": [
+        5.420000076293945,
+        2.049999952316284,
+        2.2320001125335693
+      ],
+      "dimensions_m": [
+        2.0490000247955322,
+        2.0,
+        2.0120001435279846
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP017_LaundryBottle_02_INST",
+      "assetId": "H90-PRP-017",
+      "room": "BAL",
+      "location_m": [
+        4.550000190734863,
+        1.0499999523162842,
+        0.9729999899864197
+      ],
+      "minimum_m": [
+        3.161343812942505,
+        -0.31724265217781067,
+        0.21999996900558472
+      ],
+      "maximum_m": [
+        5.8949971199035645,
+        2.3949971199035645,
+        2.2320001125335693
+      ],
+      "dimensions_m": [
+        2.7336533069610596,
+        2.712239772081375,
+        2.0120001435279846
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP018_FoldedTowel_01_INST",
+      "assetId": "H90-PRP-018",
+      "room": "BAL",
+      "location_m": [
+        4.820000171661377,
+        0.9900000095367432,
+        0.9760000109672546
+      ],
+      "minimum_m": [
+        4.670000076293945,
+        0.8899999856948853,
+        0.9760000109672546
+      ],
+      "maximum_m": [
+        4.970000267028809,
+        1.090000033378601,
+        1.0334999561309814
+      ],
+      "dimensions_m": [
+        0.3000001907348633,
+        0.20000004768371582,
+        0.05749994516372681
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP018_FoldedTowel_02_INST",
+      "assetId": "H90-PRP-018",
+      "room": "BAL",
+      "location_m": [
+        4.820000171661377,
+        0.9900000095367432,
+        1.031000018119812
+      ],
+      "minimum_m": [
+        4.670000076293945,
+        0.8899999856948853,
+        1.031000018119812
+      ],
+      "maximum_m": [
+        4.970000267028809,
+        1.090000033378601,
+        1.0885000228881836
+      ],
+      "dimensions_m": [
+        0.3000001907348633,
+        0.20000004768371582,
+        0.05750000476837158
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP018_FoldedTowel_03_INST",
+      "assetId": "H90-PRP-018",
+      "room": "BAL",
+      "location_m": [
+        4.820000171661377,
+        0.9900000095367432,
+        1.0859999656677246
+      ],
+      "minimum_m": [
+        4.670000076293945,
+        0.8899999856948853,
+        1.0859999656677246
+      ],
+      "maximum_m": [
+        4.970000267028809,
+        1.090000033378601,
+        1.1434999704360962
+      ],
+      "dimensions_m": [
+        0.3000001907348633,
+        0.20000004768371582,
+        0.05750000476837158
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP019_WickerBasket_01_ROOT",
+      "assetId": "H90-PRP-019",
+      "room": "BAL",
+      "location_m": [
+        5.230000019073486,
+        1.149999976158142,
+        0.0
+      ],
+      "minimum_m": [
+        4.079999923706055,
+        0.0,
+        -0.9750000238418579
+      ],
+      "maximum_m": [
+        6.380000114440918,
+        2.299999952316284,
+        1.3700000047683716
+      ],
+      "dimensions_m": [
+        2.3000001907348633,
+        2.299999952316284,
+        2.3450000286102295
+      ]
+    },
+    {
+      "name": "H90_BAL_LGT001_Downlight_10_INST",
+      "assetId": "H90-LGT-001",
+      "room": "BAL",
+      "location_m": [
+        7.199999809265137,
+        0.8999999761581421,
+        2.7720000743865967
+      ],
+      "minimum_m": [
+        7.149999618530273,
+        0.8499999642372131,
+        2.758500099182129
+      ],
+      "maximum_m": [
+        7.25,
+        0.949999988079071,
+        2.7799999713897705
+      ],
+      "dimensions_m": [
+        0.10000038146972656,
+        0.10000002384185791,
+        0.0214998722076416
+      ]
+    },
+    {
+      "name": "H90_BAL_LGT004_CabinetStrip_01_ROOT",
+      "assetId": "H90-LGT-004",
+      "room": "BAL",
+      "location_m": [
+        4.670000076293945,
+        0.8600000143051147,
+        1.715000033378601
+      ],
+      "minimum_m": [
+        4.349999904632568,
+        0.8485000133514404,
+        1.7055000066757202
+      ],
+      "maximum_m": [
+        4.990000247955322,
+        0.8715000152587891,
+        1.721500039100647
+      ],
+      "dimensions_m": [
+        0.6400003433227539,
+        0.023000001907348633,
+        0.016000032424926758
+      ]
+    },
+    {
+      "name": "H90_BAL_CHR001_ReferenceCat_Static_01_ROOT",
+      "assetId": "H90-CHR-001",
+      "room": "BAL",
+      "location_m": [
+        7.46999979019165,
+        0.49000000953674316,
+        0.4580000042915344
+      ],
+      "minimum_m": [
+        7.395969867706299,
+        0.2572211027145386,
+        0.4580000042915344
+      ],
+      "maximum_m": [
+        7.544029712677002,
+        0.722778856754303,
+        0.7779999375343323
+      ],
+      "dimensions_m": [
+        0.14805984497070312,
+        0.4655577540397644,
+        0.31999993324279785
+      ]
+    }
+  ],
+  "renderEngine": "CYCLES",
+  "gpuDevice": "Apple M4 / Metal",
+  "cameras": [
+    "H90_CAM_Overview",
+    "H90_CAM_Living",
+    "H90_CAM_Balcony",
+    "H90_CAM_Top"
+  ],
+  "modelingScope": "基础场景模型；未完成游戏引擎、碰撞体、UV烘焙与动画验收",
+  "nativeSources": [
+    {
+      "id": "H90-ARC-004",
+      "name": "外墙组件",
+      "path": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-004_ExteriorWallKit/Source/H90_ARC_004_ExteriorWallKit_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-ARC-005",
+      "name": "内墙组件",
+      "path": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-005_PartitionWallKit/Source/H90_ARC_005_PartitionWallKit_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-ARC-008",
+      "name": "卫生间墙面饰面",
+      "path": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-008_BathWallTile/Source/H90_ARC_008_BathWallTile_v001_native.blend",
+      "variants": 2
+    },
+    {
+      "id": "H90-ARC-006",
+      "name": "顶面组件",
+      "path": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-006_CeilingKit/Source/H90_ARC_006_CeilingKit_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-ARC-010",
+      "name": "顶面边沿与灯槽",
+      "path": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-010_CeilingBulkhead/Source/H90_ARC_010_CeilingBulkhead_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-ARC-001",
+      "name": "木地板模块",
+      "path": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-001_WoodFloor/Source/H90_ARC_001_WoodFloor_v001_native.blend",
+      "variants": 5
+    },
+    {
+      "id": "H90-ARC-003",
+      "name": "卫生间地面",
+      "path": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-003_BathFloor/Source/H90_ARC_003_BathFloor_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-ARC-002",
+      "name": "浅灰瓷砖地面",
+      "path": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-002_GreyTileFloor/Source/H90_ARC_002_GreyTileFloor_v001_native.blend",
+      "variants": 2
+    },
+    {
+      "id": "H90-ARC-007",
+      "name": "踢脚线模块",
+      "path": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-007_SkirtingKit/Source/H90_ARC_007_SkirtingKit_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-ARC-009",
+      "name": "厨房防溅饰面",
+      "path": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-009_KitchenBacksplash/Source/H90_ARC_009_KitchenBacksplash_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-DOR-002",
+      "name": "卧室平开门",
+      "path": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-002_BedroomDoor/Source/H90_DOR_002_BedroomDoor_v001_native.blend",
+      "variants": 2
+    },
+    {
+      "id": "H90-DOR-006",
+      "name": "卧室窗组件",
+      "path": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-006_BedroomWindow/Source/H90_DOR_006_BedroomWindow_v001_native.blend",
+      "variants": 2
+    },
+    {
+      "id": "H90-FUR-007",
+      "name": "主卧床体",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-007_MasterBed/Source/H90_FUR_007_MasterBed_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-009",
+      "name": "床头柜",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-009_BedsideTable/Source/H90_FUR_009_BedsideTable_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-010",
+      "name": "主卧衣柜",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-010_MasterWardrobe/Source/H90_FUR_010_MasterWardrobe_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-CAT-007",
+      "name": "主卧窗边猫台",
+      "path": "Source/Blender/CatHome90/02_资产库/CAT/H90-CAT-007_WindowPerch/Source/H90_CAT_007_WindowPerch_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-PRP-005",
+      "name": "客厅与主卧地毯",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-005_RoomRug/Source/H90_PRP_005_RoomRug_v001_native.blend",
+      "variants": 2
+    },
+    {
+      "id": "H90-PRP-003",
+      "name": "床单与被褥套件",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-003_BeddingKit/Source/H90_PRP_003_BeddingKit_v001_native.blend",
+      "variants": 2
+    },
+    {
+      "id": "H90-PRP-002",
+      "name": "睡眠枕头",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-002_SleepingPillow/Source/H90_PRP_002_SleepingPillow_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-PRP-001",
+      "name": "装饰靠垫套件",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-001_DecorCushion/Source/H90_PRP_001_DecorCushion_v001_native.blend",
+      "variants": 2
+    },
+    {
+      "id": "H90-PRP-011",
+      "name": "阔叶绿植造型",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-011_PlantBroadleaf/Source/H90_PRP_011_PlantBroadleaf_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-LGT-003",
+      "name": "床头台灯",
+      "path": "Source/Blender/CatHome90/02_资产库/LGT/H90-LGT-003_BedsideLamp/Source/H90_LGT_003_BedsideLamp_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-LGT-001",
+      "name": "嵌入式筒灯",
+      "path": "Source/Blender/CatHome90/02_资产库/LGT/H90-LGT-001_Downlight/Source/H90_LGT_001_Downlight_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-008",
+      "name": "次卧单人床体",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-008_GuestBed/Source/H90_FUR_008_GuestBed_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-011",
+      "name": "次卧储物柜",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-011_GuestStorage/Source/H90_FUR_011_GuestStorage_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-012",
+      "name": "办公桌",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-012_Desk/Source/H90_FUR_012_Desk_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-013",
+      "name": "办公椅",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-013_OfficeChair/Source/H90_FUR_013_OfficeChair_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-021",
+      "name": "布艺脚凳",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-021_Ottoman/Source/H90_FUR_021_Ottoman_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-APP-010",
+      "name": "办公笔记本",
+      "path": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-010_Laptop/Source/H90_APP_010_Laptop_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-PRP-012",
+      "name": "垂挂绿植造型",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-012_PlantTrailing/Source/H90_PRP_012_PlantTrailing_v001_native.blend",
+      "variants": 2
+    },
+    {
+      "id": "H90-PRP-009",
+      "name": "陶瓷杯",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-009_CeramicMug/Source/H90_PRP_009_CeramicMug_v001_native.blend",
+      "variants": 2
+    },
+    {
+      "id": "H90-DOR-001",
+      "name": "入户门组件",
+      "path": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-001_EntranceDoor/Source/H90_DOR_001_EntranceDoor_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-014",
+      "name": "玄关衣鞋柜",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-014_EntryStorage/Source/H90_FUR_014_EntryStorage_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-015",
+      "name": "玄关置物台",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-015_EntryConsole/Source/H90_FUR_015_EntryConsole_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-016",
+      "name": "换鞋凳",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-016_EntryBench/Source/H90_FUR_016_EntryBench_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-PRP-006",
+      "name": "入户地垫",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-006_EntryMat/Source/H90_PRP_006_EntryMat_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-PRP-014",
+      "name": "花盆套件",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-014_PlanterKit/Source/H90_PRP_014_PlanterKit_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-PRP-016",
+      "name": "玄关鞋子套件",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-016_ShoePairKit/Source/H90_PRP_016_ShoePairKit_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-DOR-003",
+      "name": "卫生间移门",
+      "path": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-003_BathSlider/Source/H90_DOR_003_BathSlider_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-DOR-008",
+      "name": "卫生间高窗",
+      "path": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-008_BathHighWindow/Source/H90_DOR_008_BathHighWindow_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-APP-007",
+      "name": "浴室洗手台",
+      "path": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-007_BathVanity/Source/H90_APP_007_BathVanity_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-APP-008",
+      "name": "坐便器",
+      "path": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-008_Toilet/Source/H90_APP_008_Toilet_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-APP-009",
+      "name": "淋浴与玻璃隔断",
+      "path": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-009_ShowerKit/Source/H90_APP_009_ShowerKit_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-DOR-004",
+      "name": "厨房玻璃移门",
+      "path": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-004_KitchenGlassSlider/Source/H90_DOR_004_KitchenGlassSlider_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-DOR-007",
+      "name": "厨房北窗",
+      "path": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-007_KitchenWindow/Source/H90_DOR_007_KitchenWindow_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-017",
+      "name": "厨房地柜与台面",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-017_KitchenBaseCabinet/Source/H90_FUR_017_KitchenBaseCabinet_v001_native.blend",
+      "variants": 2
+    },
+    {
+      "id": "H90-FUR-018",
+      "name": "厨房吊柜",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-018_KitchenWallCabinet/Source/H90_FUR_018_KitchenWallCabinet_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-APP-006",
+      "name": "厨房水槽与龙头",
+      "path": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-006_KitchenSink/Source/H90_APP_006_KitchenSink_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-APP-004",
+      "name": "灶台",
+      "path": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-004_Cooktop/Source/H90_APP_004_Cooktop_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-APP-005",
+      "name": "抽油烟机",
+      "path": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-005_ExtractorHood/Source/H90_APP_005_ExtractorHood_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-APP-002",
+      "name": "冰箱",
+      "path": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-002_Refrigerator/Source/H90_APP_002_Refrigerator_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-PRP-020",
+      "name": "厨房砧板与调味罐",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-020_ChoppingBoardKit/Source/H90_PRP_020_ChoppingBoardKit_v001_native.blend",
+      "variants": 4
+    },
+    {
+      "id": "H90-LGT-004",
+      "name": "柜下灯带",
+      "path": "Source/Blender/CatHome90/02_资产库/LGT/H90-LGT-004_CabinetStrip/Source/H90_LGT_004_CabinetStrip_v001_native.blend",
+      "variants": 2
+    },
+    {
+      "id": "H90-FUR-001",
+      "name": "米色三人沙发",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-001_Sofa/Source/H90_FUR_001_Sofa_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-002",
+      "name": "圆角茶几",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-002_CoffeeTable/Source/H90_FUR_002_CoffeeTable_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-003",
+      "name": "电视柜",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-003_TVConsole/Source/H90_FUR_003_TVConsole_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-004",
+      "name": "餐桌",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-004_DiningTable/Source/H90_FUR_004_DiningTable_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-005",
+      "name": "餐椅",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-005_DiningChair/Source/H90_FUR_005_DiningChair_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-006",
+      "name": "餐桌长凳",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-006_DiningBench/Source/H90_FUR_006_DiningBench_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-CAT-001",
+      "name": "猫咪躲藏屋",
+      "path": "Source/Blender/CatHome90/02_资产库/CAT/H90-CAT-001_Hideout/Source/H90_CAT_001_Hideout_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-CAT-002",
+      "name": "剑麻抓柱与高位卧台",
+      "path": "Source/Blender/CatHome90/02_资产库/CAT/H90-CAT-002_ScratchColumn/Source/H90_CAT_002_ScratchColumn_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-CAT-003",
+      "name": "墙面攀爬平台套件",
+      "path": "Source/Blender/CatHome90/02_资产库/CAT/H90-CAT-003_WallPlatformKit/Source/H90_CAT_003_WallPlatformKit_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-CAT-004",
+      "name": "双碗喂食站",
+      "path": "Source/Blender/CatHome90/02_资产库/CAT/H90-CAT-004_FeedingStation/Source/H90_CAT_004_FeedingStation_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-CAT-005",
+      "name": "猫咪饮水器",
+      "path": "Source/Blender/CatHome90/02_资产库/CAT/H90-CAT-005_WaterFountain/Source/H90_CAT_005_WaterFountain_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-APP-001",
+      "name": "电视",
+      "path": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-001_Television/Source/H90_APP_001_Television_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-PRP-013",
+      "name": "枝条绿植造型",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-013_PlantBranching/Source/H90_PRP_013_PlantBranching_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-PRP-008",
+      "name": "书籍与杂志套件",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-008_BookMagazineKit/Source/H90_PRP_008_BookMagazineKit_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-PRP-010",
+      "name": "小托盘",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-010_ServingTray/Source/H90_PRP_010_ServingTray_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-PRP-007",
+      "name": "猫区纤维地垫",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-007_CatMatKit/Source/H90_PRP_007_CatMatKit_v001_native.blend",
+      "variants": 2
+    },
+    {
+      "id": "H90-CAT-008",
+      "name": "猫玩具套件",
+      "path": "Source/Blender/CatHome90/02_资产库/CAT/H90-CAT-008_ToyKit/Source/H90_CAT_008_ToyKit_v001_native.blend",
+      "variants": 2
+    },
+    {
+      "id": "H90-LGT-002",
+      "name": "餐区吊灯",
+      "path": "Source/Blender/CatHome90/02_资产库/LGT/H90-LGT-002_DiningPendant/Source/H90_LGT_002_DiningPendant_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-ARC-011",
+      "name": "空调通风格栅",
+      "path": "Source/Blender/CatHome90/02_资产库/ARC/H90-ARC-011_VentGrille/Source/H90_ARC_011_VentGrille_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-DOR-005",
+      "name": "客厅阳台移门",
+      "path": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-005_BalconyGlassSlider/Source/H90_DOR_005_BalconyGlassSlider_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-DOR-009",
+      "name": "阳台南侧封窗",
+      "path": "Source/Blender/CatHome90/02_资产库/DOR/H90-DOR-009_BalconyGlazing/Source/H90_DOR_009_BalconyGlazing_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-020",
+      "name": "阳台观景卧榻",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-020_BalconyBench/Source/H90_FUR_020_BalconyBench_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-FUR-019",
+      "name": "洗衣收纳柜",
+      "path": "Source/Blender/CatHome90/02_资产库/FUR/H90-FUR-019_LaundryStorage/Source/H90_FUR_019_LaundryStorage_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-CAT-006",
+      "name": "阳台猫砂柜",
+      "path": "Source/Blender/CatHome90/02_资产库/CAT/H90-CAT-006_LitterCabinet/Source/H90_CAT_006_LitterCabinet_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-APP-003",
+      "name": "滚筒洗衣机",
+      "path": "Source/Blender/CatHome90/02_资产库/APP/H90-APP-003_WashingMachine/Source/H90_APP_003_WashingMachine_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-PRP-015",
+      "name": "阳台草盆造型",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-015_GrassPot/Source/H90_PRP_015_GrassPot_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-PRP-004",
+      "name": "阳台针织毯",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-004_ThrowBlanket/Source/H90_PRP_004_ThrowBlanket_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-PRP-017",
+      "name": "洗护瓶罐套件",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-017_LaundryBottleKit/Source/H90_PRP_017_LaundryBottleKit_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-PRP-018",
+      "name": "折叠毛巾套件",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-018_TowelStack/Source/H90_PRP_018_TowelStack_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-PRP-019",
+      "name": "洗衣篮",
+      "path": "Source/Blender/CatHome90/02_资产库/PRP/H90-PRP-019_LaundryBasket/Source/H90_PRP_019_LaundryBasket_v001_native.blend",
+      "variants": 1
+    },
+    {
+      "id": "H90-CHR-001",
+      "name": "三花小猫角色依赖",
+      "path": "Source/Blender/CatHome90/02_资产库/CHR/H90-CHR-001_ReferenceCat/Source/H90_CHR_001_ReferenceCat_v001_native.blend",
+      "variants": 1
+    }
+  ]
+}

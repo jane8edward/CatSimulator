@@ -1,0 +1,102 @@
+{
+  "id": "H90-PRP-017",
+  "category": "PRP",
+  "slug": "LaundryBottleKit",
+  "name": "洗护瓶罐套件",
+  "rooms": [
+    "BAL"
+  ],
+  "quantity": "1组，约2～3瓶",
+  "size": "E：单瓶高0.18～0.30m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M11"
+  ],
+  "priority": "P2",
+  "references": [
+    "R04"
+  ],
+  "splitAndInteractionPlan": "中性标签；瓶体、泵头分开",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-017_LaundryBottleKit",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_BAL_PRP017_LaundryBottle_01_INST",
+      "assetId": "H90-PRP-017",
+      "room": "BAL",
+      "location_m": [
+        4.420000076293945,
+        1.0499999523162842,
+        0.9729999899864197
+      ],
+      "minimum_m": [
+        3.371000051498413,
+        0.04999995231628418,
+        0.21999996900558472
+      ],
+      "maximum_m": [
+        5.420000076293945,
+        2.049999952316284,
+        2.2320001125335693
+      ],
+      "dimensions_m": [
+        2.0490000247955322,
+        2.0,
+        2.0120001435279846
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP017_LaundryBottle_02_INST",
+      "assetId": "H90-PRP-017",
+      "room": "BAL",
+      "location_m": [
+        4.550000190734863,
+        1.0499999523162842,
+        0.9729999899864197
+      ],
+      "minimum_m": [
+        3.161343812942505,
+        -0.31724265217781067,
+        0.21999996900558472
+      ],
+      "maximum_m": [
+        5.8949971199035645,
+        2.3949971199035645,
+        2.2320001125335693
+      ],
+      "dimensions_m": [
+        2.7336533069610596,
+        2.712239772081375,
+        2.0120001435279846
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_017_LaundryBottleKit_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "PumpBottle",
+      "groupId": "G14",
+      "source": "R04",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-017_LaundryBottleKit_PumpBottle_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "a15ad69578e65aeba1fb0a9128beb00e2db779d4428c839c307b2ef99a97ab45"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/PRP/H90-PRP-017_LaundryBottleKit/Source/H90_PRP_017_LaundryBottleKit_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_BAL_PRP017_LaundryBottle_01_INST",
+    "H90_BAL_PRP017_LaundryBottle_02_INST"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "H90-FUR-021",
+  "category": "FUR",
+  "slug": "Ottoman",
+  "name": "布艺脚凳",
+  "rooms": [
+    "LIV",
+    "OFF"
+  ],
+  "quantity": "2件暂估",
+  "size": "E：直径0.45、高0.35m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M07"
+  ],
+  "priority": "P2",
+  "references": [
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "复用造型；不同位置不另建资产",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/FUR/H90-FUR-021_Ottoman",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_OFF_FUR021_Ottoman_01_ROOT",
+      "assetId": "H90-FUR-021",
+      "room": "OFF",
+      "location_m": [
+        2.0199999809265137,
+        4.96999979019165,
+        0.0
+      ],
+      "minimum_m": [
+        1.7949999570846558,
+        4.744999885559082,
+        0.0
+      ],
+      "maximum_m": [
+        2.244999885559082,
+        5.194999694824219,
+        0.3499999940395355
+      ],
+      "dimensions_m": [
+        0.44999992847442627,
+        0.4499998092651367,
+        0.3499999940395355
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_FUR_021_Ottoman_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G03",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-021_Ottoman_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "9320b56a9c8b2f87edd1a5114886ee5c4b0184a53f9346536813cbd9b5fb7d72"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/FUR/H90-FUR-021_Ottoman/Source/H90_FUR_021_Ottoman_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_OFF_FUR021_Ottoman_01_ROOT",
+    "H90_OFF_FUR021_Ottoman_01_P01_KnittedPouf"
+  ]
+}

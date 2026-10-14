@@ -1,0 +1,46 @@
+{
+  "id": "H90-ARC-006",
+  "category": "ARC",
+  "slug": "CeilingKit",
+  "name": "顶面组件",
+  "rooms": [
+    "ALL"
+  ],
+  "quantity": "8个区域",
+  "size": "D：高度2.80m；厚度T",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M02"
+  ],
+  "priority": "P1",
+  "references": [
+    "D01",
+    "R03",
+    "R04"
+  ],
+  "splitAndInteractionPlan": "按房间分组；轴测展示可隐藏",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/ARC/H90-ARC-006_CeilingKit",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_ARC_006_CeilingKit_v001",
+  "nativeBlenderSource": "02_资产库/ARC/H90-ARC-006_CeilingKit/Source/H90_ARC_006_CeilingKit_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_Ceiling_MBR",
+    "H90_Ceiling_OFF",
+    "H90_Ceiling_HALL",
+    "H90_Ceiling_ENT",
+    "H90_Ceiling_BTH",
+    "H90_Ceiling_KIT",
+    "H90_Ceiling_LIV",
+    "H90_Ceiling_BAL"
+  ]
+}

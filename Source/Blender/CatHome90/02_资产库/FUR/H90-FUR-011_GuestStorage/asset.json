@@ -1,0 +1,87 @@
+{
+  "id": "H90-FUR-011",
+  "category": "FUR",
+  "slug": "GuestStorage",
+  "name": "次卧储物柜",
+  "rooms": [
+    "OFF"
+  ],
+  "quantity": "1件",
+  "size": "E：1.55×0.45×0.75m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M01"
+  ],
+  "priority": "P1",
+  "references": [
+    "R01",
+    "R02"
+  ],
+  "splitAndInteractionPlan": "抽屉/门板独立；按占位核对",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/FUR/H90-FUR-011_GuestStorage",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_OFF_FUR011_GuestStorage_01_ROOT",
+      "assetId": "H90-FUR-011",
+      "room": "OFF",
+      "location_m": [
+        1.0199999809265137,
+        4.380000114440918,
+        0.0
+      ],
+      "minimum_m": [
+        0.2449999898672104,
+        4.140500068664551,
+        0.0
+      ],
+      "maximum_m": [
+        1.7950000762939453,
+        4.605000019073486,
+        0.6600000262260437
+      ],
+      "dimensions_m": [
+        1.550000086426735,
+        0.46449995040893555,
+        0.6600000262260437
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_FUR_011_GuestStorage_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G04",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-011_GuestStorage_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "f72041b118588f73ad4d78b7b202c4ad2cd89f1ce6d30db9b4dd110b95d26a71"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/FUR/H90-FUR-011_GuestStorage/Source/H90_FUR_011_GuestStorage_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_OFF_FUR011_GuestStorage_01_ROOT",
+    "H90_OFF_FUR011_GuestStorage_01_P01_Carcass_Top",
+    "H90_OFF_FUR011_GuestStorage_01_P02_Carcass_Bottom",
+    "H90_OFF_FUR011_GuestStorage_01_P03_Carcass_Back",
+    "H90_OFF_FUR011_GuestStorage_01_P04_Side",
+    "H90_OFF_FUR011_GuestStorage_01_P05_Side",
+    "H90_OFF_FUR011_GuestStorage_01_P06_Door_1",
+    "H90_OFF_FUR011_GuestStorage_01_P07_Door_2",
+    "H90_OFF_FUR011_GuestStorage_01_P08_Divider",
+    "H90_OFF_FUR011_GuestStorage_01_P09_Door_3",
+    "H90_OFF_FUR011_GuestStorage_01_P10_Divider"
+  ]
+}

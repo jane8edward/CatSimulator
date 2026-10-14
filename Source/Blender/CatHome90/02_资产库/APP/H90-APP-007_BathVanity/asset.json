@@ -1,0 +1,94 @@
+{
+  "id": "H90-APP-007",
+  "category": "APP",
+  "slug": "BathVanity",
+  "name": "浴室洗手台",
+  "rooms": [
+    "BTH"
+  ],
+  "quantity": "1套",
+  "size": "E：柜1.00×0.50×0.85m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M11",
+    "M01",
+    "M10"
+  ],
+  "priority": "P1",
+  "references": [
+    "R01",
+    "R02"
+  ],
+  "splitAndInteractionPlan": "柜体、盆、龙头分组",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/APP/H90-APP-007_BathVanity",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_BTH_APP007_BathVanity_01_ROOT",
+      "assetId": "H90-APP-007",
+      "room": "BTH",
+      "location_m": [
+        4.989999771118164,
+        8.53499984741211,
+        0.0
+      ],
+      "minimum_m": [
+        3.989999771118164,
+        7.644999980926514,
+        -0.1499999761581421
+      ],
+      "maximum_m": [
+        5.989999771118164,
+        9.734999656677246,
+        2.0399999618530273
+      ],
+      "dimensions_m": [
+        2.0,
+        2.0899996757507324,
+        2.1899999380111694
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_APP_007_BathVanity_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G06",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-007_BathVanity_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "544bc46dfeb285576a885b40de0b8a246a2943c5b51d6f5c5617604cbaf18983"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/APP/H90-APP-007_BathVanity/Source/H90_APP_007_BathVanity_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_BTH_APP007_BathVanity_01_ROOT",
+    "H90_BTH_APP007_BathVanity_01_P01_FloatingCabinet",
+    "H90_BTH_APP007_BathVanity_01_P02_DrawerFace",
+    "H90_BTH_APP007_BathVanity_01_P03_DrawerFace",
+    "H90_BTH_APP007_BathVanity_01_P04_StoneCounter",
+    "H90_BTH_APP007_BathVanity_01_P06_BasinRim",
+    "H90_BTH_APP007_BathVanity_01_P07_BasinRim",
+    "H90_BTH_APP007_BathVanity_01_P08_BasinRim",
+    "H90_BTH_APP007_BathVanity_01_P09_BasinRim",
+    "H90_BTH_APP007_BathVanity_01_P10_BasinBottom",
+    "H90_BTH_APP007_BathVanity_01_P11_BasinWall",
+    "H90_BTH_APP007_BathVanity_01_P12_BasinWall",
+    "H90_BTH_APP007_BathVanity_01_P13_BasinWall",
+    "H90_BTH_APP007_BathVanity_01_P14_BasinWall",
+    "H90_BTH_APP007_BathVanity_01_P15_MixerTap",
+    "H90_BTH_APP007_BathVanity_01_P16_Drain"
+  ]
+}

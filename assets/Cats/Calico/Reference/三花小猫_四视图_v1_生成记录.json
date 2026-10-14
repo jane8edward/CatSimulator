@@ -1,0 +1,98 @@
+{
+  "createdDate": "2026-10-12",
+  "tool": "image_gen.imagegen (built-in)",
+  "referenceOriginalLocation": "assets/Reference/三花小猫/cat_three_view_modeling_reference_v1.png",
+  "referenceArchive": "tools/outputs/reference_cat_four_views_v1/原始三视图参考.png",
+  "prompts": [
+    {
+      "view": "left",
+      "prompt": "Use case: scientific-educational.\nAsset type: a SINGLE left-side orthographic reference image for modeling the exact kitten in the supplied character reference.\nInput image 1: identity, anatomy, fur pattern and pose reference. It is a three-view board; generate ONE isolated cat only.\nPrimary request: show the kitten's ANATOMICAL LEFT SIDE, head pointing RIGHT across the image, tail toward LEFT. Strict 90-degree profile, orthographic projection, camera level, zero three-quarter perspective. Eye looks directly forward in line with head.\nPreserve the reference cat: compact young kitten, rounded head, large upright triangular ears, short fluffy coat, brown/golden tabby mixed with warm orange patches and white, amber eyes with large dark pupils, pink nose, white muzzle, white throat/chest/belly and white paws. Keep the distinctive forehead M stripes, cheek stripes, dark back mottling, orange shoulder and haunch patches, narrow irregular white upper-back patch, dark tail rings and dark tip. This is the reference kitten, not an Abyssinian cat.\nPose: relaxed neutral standing quadruped, spine level, all four feet planted on one plane, paired limbs aligned at matching fore and hind positions rather than a walking pose. Head level, mouth closed, ears upright. Tail hangs diagonally backward and downward, rounded tip close to paw level, exactly as reference side view. Natural kitten joint anatomy and matching torso length, head size, leg length.\nOutput composition: landscape canvas 1536 x 1024 pixels. Full body including whiskers and entire tail, centered horizontally with generous clean margins. Ground-contact baseline at y=910, ear tips approximately y=130, same physical scale will be used for the other views. Cat should fit inside x=150..1386. Preserve proportions; no squeezing to fit.\nStyle: highly detailed photorealistic modeling reference, fine short fur with clean readable silhouette, evenly diffused neutral studio light. Pure white background; only a very faint contact shadow. No typography, no labels, no borders, no grid, no inset panels, no props, no collars. ONE LEFT VIEW ONLY."
+    },
+    {
+      "view": "front",
+      "prompt": "Use case: scientific-educational.\nAsset type: ONE front orthographic reference image in a four-view set for 3D modeling.\nInput image 1: original three-view identity reference; match its FRONT panel facial identity and asymmetric foreleg markings.\nInput image 2: newly established LEFT reference of the SAME kitten, defines exact body build, neutral standing pose, physical scale, fur detail, background and lighting.\nPrimary request: show this SAME kitten directly from the FRONT, facing the camera, exactly zero yaw/roll/pitch and zero three-quarter view. Camera is orthographic and level, not looking down. Whole body visible. Anatomical left foreleg is on viewer's RIGHT.\nPreserve the exact young rounded kitten from the references: short dense golden/brown tabby fur with orange patches and white; large amber eyes and dark round pupils; pink nose; white muzzle, chin, chest, belly and paws; dark forehead M and cheek stripes; same large upright ears, same gentle neutral closed-mouth expression. Keep original FRONT panel's foreleg markings, including the distinct dark bands on the viewer-right foreleg, and the warmer orange/tabby patch on the viewer-left foreleg.\nPose invariant: this is the front projection of image 2's neutral standing quadruped. Four paws on a single ground plane. Left and right paws placed symmetrically about body center, natural modest separation, forefeet obscure rearfeet where they overlap in a true front projection. Do not change kitten age, size, body volume, head/torso proportions or limb length. Tail remains in the same low backward-hanging position and may be hidden behind the body.\nComposition: landscape canvas 1536 x 1024 pixels, kitten centerline x=768. Match image 2's physical scale: ear-tip line about y=78 and paw-bottom baseline about y=946. Full body width should approximately 350-400 pixels, so abundant white space on both sides; do not enlarge the front view to fill the width. Keep all whiskers and paw edges.\nMedium: photorealistic clean modeling reference, neutral evenly diffused studio light, pure white background, minimal faint contact shadow. No text, no FRONT label, no grid, no guides, no extra panels, no accessories. SINGLE FRONT VIEW ONLY."
+    },
+    {
+      "view": "right",
+      "prompt": "Use case: scientific-educational.\nAsset type: ONE RIGHT orthographic modeling reference, third view in a coordinated four-view set.\nInput image 1: original three-view board, exact kitten identity, original FRONT and BACK markings.\nInput image 2: LEFT view, master for neutral standing anatomy, full body proportions, framing, fur rendering, low tail position and physical scale.\nInput image 3: FRONT view, exact facial identity and side-specific foreleg color.\nPrimary request: rotate the SAME kitten to show its ANATOMICAL RIGHT SIDE. Head faces LEFT across the canvas, tail is behind the body toward RIGHT. Strict 90-degree full profile with one visible eye, orthographic camera level with the body. Keep head aligned with spine and forward gaze, no three-quarter face and no perspective foreshortening.\nInvariants: compact young kitten, rounded head, large upright ears, amber eye and large dark pupil, pink nose, white muzzle/throat/chest/belly/feet, brown-golden tabby stripes with warm orange patches and white interruptions, dark dorsal mottling, broad brown/orange rump, ringed brown tail with dark rounded tip. Photorealistic short fluffy fur. Preserve natural anatomical mass, chest depth, pelvis width, leg length and body length from image 2 exactly.\nMaintain the same neutral four-legged standing pose: left/right corresponding limbs are aligned under their corresponding shoulder/hip, all paws planted, not walking or sitting; closed mouth, calm expression, level back. Same tail root/length and downward-backward relaxed tail path, tip just above ground.\nShow genuine opposite-side markings rather than a simple mirrored duplicate: visible RIGHT foreleg corresponds to image 3's viewer-left foreleg, warmer orange/tabby patch with white paw; visible left-side dark foreleg bands may be glimpsed on the far foreleg. Carry across the dorsal white/orange patches around the body consistently using image 1's BACK reference. The unseen right flank should be plausibly continued with brown tabby plus orange and white patches, retaining the overall character coat distribution.\nCanvas: 1536 x 1024 landscape. Full head, paws, whiskers and entire tail, centered, same scale as LEFT; ear tips approximately y=75, paw-contact baseline y=947. Keep margins around all contours, no cropping.\nPure white seamless background, neutral diffuse light, minimal faint contact shadow. No letters, labels, inset panels, lines, grid, accessories or extra cats. SINGLE RIGHT SIDE VIEW ONLY."
+    },
+    {
+      "view": "back",
+      "prompt": "Use case: scientific-educational.\nAsset type: ONE BACK orthographic image for a four-view 3D character modeling reference set.\nInput image 1: original three-view kitten reference. Its BACK panel is the main authority for rear coat markings and silhouette.\nInput image 2: generated LEFT image of the same kitten, defines physical scale and fixed neutral standing pose.\nInput image 3: generated FRONT image of the same kitten, defines face/head/body width, ear size, paw separation.\nInput image 4: generated RIGHT image of the same kitten, defines opposite flank color continuity.\nPrimary request: rotate exactly this kitten to a strict straight BACK view. Camera directly behind cat, orthographic, horizontal optical axis, no three-quarter turn, no looking down. See backs of both ears, back of head/nape, shoulders, spine, rump, both rear legs/paws and the tail. Head faces straight away from camera, no eye, cheek or nose visible. Cat body centerline is vertical at x=768.\nPreserve the reference: young compact rounded kitten, short fluffy brown/golden tabby with warm orange patches and white. Two upright triangular ears with golden outer fur, narrow dark stripes on the back of the head and central spine. Reproduce original BACK panel's irregular white nape/upper-shoulder band with a small white upper-back patch, orange upper flank patches around brown dark tabby centerline, brown/orange rump, white distal hind legs and white rounded rear paws, dark-ringed tail and dark tip.\nNeutral standing invariant: same posture and body dimensions as images 2-4. Hind paws naturally separated, corresponding left and right limbs aligned on the ground, all four paws planted. Front limbs mostly hidden by hind limbs in true orthographic rear projection; no fake extra-leg splay. Preserve the rounded pelvic volume and natural thigh/ankle contours. Same relaxed low backward-and-down tail as side references, centered in this back projection, tail tip approximately y=860, a little above the paw baseline; do not curl or lift tail sideways.\nCanvas: landscape 1536 x 1024 pixels. Ear tips near y=75, paw baseline near y=947. Same world scale as side views and front; total silhouette width about 350-410 pixels. Full kitten and tail with ample pure white space on both sides. Do not enlarge to fill width.\nPhotorealistic fine short fur, clean readable outline, neutral soft studio lighting and minimal faint contact shadow, pure white background. No labels, captions, text, grids, guide lines, accessories or separate panels. SINGLE BACK VIEW ONLY."
+    },
+    {
+      "view": "back_alignment",
+      "prompt": "Use case: identity-preserve.\nInput image 1: BACK view edit target. Input image 2: LEFT view pose/scale reference. Input image 3: RIGHT view pose/scale reference.\nMake one targeted correction to the back modeling view: align its framing and low tail pose to the side references.\nPreserve the kitten's existing rear anatomy, all fur colors/patches, back-of-head stripes, white nape band and white dorsal patch, natural proportions, symmetry, paws and ears. Keep strict direct back orthographic camera; no face visible. Keep this as ONE cat on a plain white 1536 x 1024 canvas with no text.\nTranslate the back-view kitten downward slightly as a whole so paw bottoms are at y=947 and ear tips about y=75, matching images 2/3. Do not crop it.\nCorrect the tail to the SAME relaxed backward-and-down tail seen in the side references: tip must end at about y=860, approximately 85 pixels ABOVE the ground-contact line, centered between the hind limbs in this projection. Show the back thighs and both white rear paws, with no tail below their ground plane. Preserve tail thickness, dark transverse rings, fluffy dark rounded tip and correct attachment at rump; foreshortening of backward length is natural in the back view. Do not raise tail upward or curl sideways. All four paw positions stay on the same plane.\nOnly correct image 1's placement and tail projection. Maintain fine photorealistic short fur, clean silhouette, neutral studio light and very faint contact shadow."
+    }
+  ],
+  "finalGeneratedImages": [
+    {
+      "view": "前",
+      "source": "[local generation output]"
+    },
+    {
+      "view": "左",
+      "source": "[local generation output]"
+    },
+    {
+      "view": "右",
+      "source": "[local generation output]"
+    },
+    {
+      "view": "后",
+      "source": "[local generation output]"
+    }
+  ],
+  "replacedVariant": {
+    "view": "后",
+    "source": "[local generation output]"
+  },
+  "notes": "Images generated separately using shared identity and pose references. Right-flank details absent from original reference were inferred. Images are not measured projections of an identical 3D mesh.",
+  "savedOutputs": [
+    {
+      "view": "前",
+      "file": "assets/Reference/三花小猫_前视图_v1.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "0681ad3723fc4df9f426bcda637c039f8cfa39f64ad4c921d9f9681a9947455b",
+      "bytes": 1776636
+    },
+    {
+      "view": "左",
+      "file": "assets/Reference/三花小猫_左视图_v1.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "edf1aab9a96eda174f28832df14e542cb655a09d5f3ad8d30307a5534b4b1bb7",
+      "bytes": 1938299
+    },
+    {
+      "view": "右",
+      "file": "assets/Reference/三花小猫_右视图_v1.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "ca6b127a4cb93916cb085d27d65a0256cfbf11526bfe93033984eec91cbb008c",
+      "bytes": 2124458
+    },
+    {
+      "view": "后",
+      "file": "assets/Reference/三花小猫_后视图_v1.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "093b59c9a5383bfb0ecdeef068872e9834693a0360351d692e6ace81b36e78d1",
+      "bytes": 1784757
+    }
+  ],
+  "selectedVersion": 1
+}

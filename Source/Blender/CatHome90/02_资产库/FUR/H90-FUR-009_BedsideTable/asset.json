@@ -1,0 +1,103 @@
+{
+  "id": "H90-FUR-009",
+  "category": "FUR",
+  "slug": "BedsideTable",
+  "name": "床头柜",
+  "rooms": [
+    "MBR"
+  ],
+  "quantity": "2件",
+  "size": "E：0.40×0.45×0.48m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M01"
+  ],
+  "priority": "P1",
+  "references": [
+    "R01",
+    "R02"
+  ],
+  "splitAndInteractionPlan": "共用资产；图中圆形与平面占位需统一",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/FUR/H90-FUR-009_BedsideTable",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_MBR_FUR009_BedsideTable_01_INST",
+      "assetId": "H90-FUR-009",
+      "room": "MBR",
+      "location_m": [
+        0.4399999976158142,
+        3.559999942779541,
+        0.0
+      ],
+      "minimum_m": [
+        -0.699999988079071,
+        2.369999885559082,
+        -0.7599999904632568
+      ],
+      "maximum_m": [
+        1.5799999237060547,
+        4.428999900817871,
+        1.2400000095367432
+      ],
+      "dimensions_m": [
+        2.2799999117851257,
+        2.059000015258789,
+        2.0
+      ]
+    },
+    {
+      "name": "H90_MBR_FUR009_BedsideTable_02_INST",
+      "assetId": "H90-FUR-009",
+      "room": "MBR",
+      "location_m": [
+        2.880000114440918,
+        3.559999942779541,
+        0.0
+      ],
+      "minimum_m": [
+        1.7400001287460327,
+        2.369999885559082,
+        -0.7599999904632568
+      ],
+      "maximum_m": [
+        4.019999980926514,
+        4.428999900817871,
+        1.2400000095367432
+      ],
+      "dimensions_m": [
+        2.279999852180481,
+        2.059000015258789,
+        2.0
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_FUR_009_BedsideTable_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G04",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-009_BedsideTable_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "ce4529fb37ea16ca8e28b995957a7ebd2b3c30f312e4a7eec9d6d70baedb7839"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/FUR/H90-FUR-009_BedsideTable/Source/H90_FUR_009_BedsideTable_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_MBR_FUR009_BedsideTable_01_INST",
+    "H90_MBR_FUR009_BedsideTable_02_INST"
+  ]
+}

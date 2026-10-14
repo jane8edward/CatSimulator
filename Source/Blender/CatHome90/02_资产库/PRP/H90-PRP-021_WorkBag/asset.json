@@ -1,0 +1,30 @@
+{
+  "id": "H90-PRP-021",
+  "category": "PRP",
+  "slug": "WorkBag",
+  "name": "通勤包（可选）",
+  "rooms": [
+    "ENT"
+  ],
+  "quantity": "1件建议",
+  "size": "E：0.35×0.15×0.30m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M05"
+  ],
+  "priority": "P2",
+  "references": [
+    "D02"
+  ],
+  "splitAndInteractionPlan": "效果图未明确展示；用于补足上班族生活细节",
+  "optional": true,
+  "status": "待确认",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-021_WorkBag",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": null,
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_021_WorkBag_v001"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "H90-MAT-004",
+  "alias": "M04",
+  "name": "蓝灰瓷砖",
+  "slug": "BlueGreyTile",
+  "usage": "卫生间地面与墙面",
+  "status": "待制作",
+  "renderer": "待与目标Unity项目确认",
+  "actualTextureResolution": null
+}

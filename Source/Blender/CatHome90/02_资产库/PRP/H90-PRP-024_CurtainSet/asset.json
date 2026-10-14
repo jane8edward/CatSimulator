@@ -1,0 +1,31 @@
+{
+  "id": "H90-PRP-024",
+  "category": "PRP",
+  "slug": "CurtainSet",
+  "name": "窗帘组件（可选）",
+  "rooms": [
+    "MBR",
+    "LIV"
+  ],
+  "quantity": "2组建议",
+  "size": "T：长度、窗侧安装点待定",
+  "sizeBasis": "待定",
+  "materials": [
+    "M05"
+  ],
+  "priority": "P2",
+  "references": [
+    "D02"
+  ],
+  "splitAndInteractionPlan": "图片未明确展示；抓挠玩法可后续采用",
+  "optional": true,
+  "status": "待确认",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-024_CurtainSet",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": null,
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_024_CurtainSet_v001"
+}

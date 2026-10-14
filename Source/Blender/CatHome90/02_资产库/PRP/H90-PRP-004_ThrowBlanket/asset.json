@@ -1,0 +1,101 @@
+{
+  "id": "H90-PRP-004",
+  "category": "PRP",
+  "slug": "ThrowBlanket",
+  "name": "阳台针织毯",
+  "rooms": [
+    "BAL"
+  ],
+  "quantity": "1条",
+  "size": "E：展开1.20×0.80m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M07"
+  ],
+  "priority": "P2",
+  "references": [
+    "R02",
+    "R04"
+  ],
+  "splitAndInteractionPlan": "静态悬挂造型；另留铺开变体",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-004_ThrowBlanket",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_BAL_PRP004_DrapedThrow_01_ROOT",
+      "assetId": "H90-PRP-004",
+      "room": "BAL",
+      "location_m": [
+        8.020000457763672,
+        0.47999998927116394,
+        0.0
+      ],
+      "minimum_m": [
+        6.744000434875488,
+        -0.27900001406669617,
+        -0.8769999742507935
+      ],
+      "maximum_m": [
+        9.29800033569336,
+        1.7239999771118164,
+        1.1660000085830688
+      ],
+      "dimensions_m": [
+        2.553999900817871,
+        2.0029999911785126,
+        2.0429999828338623
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_004_ThrowBlanket_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G10",
+      "source": "R04",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-004_ThrowBlanket_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "9992ca778f5c98c1f1dd71e625f63e42d5437dac76133fad2abe03d1cac200db"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/PRP/H90-PRP-004_ThrowBlanket/Source/H90_PRP_004_ThrowBlanket_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_BAL_PRP004_DrapedThrow_01_ROOT",
+    "H90_BAL_PRP004_DrapedThrow_01_P01_DrapedKnittedThrow",
+    "H90_BAL_PRP004_DrapedThrow_01_P02_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P03_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P04_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P05_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P06_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P07_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P08_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P09_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P10_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P11_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P12_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P13_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P14_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P15_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P16_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P17_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P18_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P19_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P20_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P21_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P22_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P23_Fringe",
+    "H90_BAL_PRP004_DrapedThrow_01_P24_Fringe"
+  ]
+}

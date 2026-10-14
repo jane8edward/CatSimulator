@@ -1,0 +1,30 @@
+{
+  "id": "H90-ENV-003",
+  "category": "ENV",
+  "slug": "DaySky",
+  "name": "日间天空资源",
+  "rooms": [
+    "EXT"
+  ],
+  "quantity": "1套",
+  "size": "T：天空盒或背景资源",
+  "sizeBasis": "待定",
+  "materials": [
+    "无"
+  ],
+  "priority": "P2",
+  "references": [
+    "R04"
+  ],
+  "splitAndInteractionPlan": "资源类型为环境；图片不视作已完成360度天空",
+  "optional": false,
+  "status": "待建模",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/ENV/H90-ENV-003_DaySky",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": null,
+  "engineAcceptance": false,
+  "expectedBasename": "H90_ENV_003_DaySky_v001"
+}

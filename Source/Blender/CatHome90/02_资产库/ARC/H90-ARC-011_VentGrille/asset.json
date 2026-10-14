@@ -1,0 +1,78 @@
+{
+  "id": "H90-ARC-011",
+  "category": "ARC",
+  "slug": "VentGrille",
+  "name": "空调通风格栅",
+  "rooms": [
+    "LIV"
+  ],
+  "quantity": "2处暂估",
+  "size": "E：长0.6～1.8m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M10"
+  ],
+  "priority": "P2",
+  "references": [
+    "R03"
+  ],
+  "splitAndInteractionPlan": "格栅表面；主机未在图中确认",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/ARC/H90-ARC-011_VentGrille",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_LIV_ARC011_VentGrille_01_ROOT",
+      "assetId": "H90-ARC-011",
+      "room": "LIV",
+      "location_m": [
+        7.400000095367432,
+        5.650000095367432,
+        2.630000114440918
+      ],
+      "minimum_m": [
+        6.474999904632568,
+        5.625,
+        2.56000018119812
+      ],
+      "maximum_m": [
+        8.324999809265137,
+        5.6620001792907715,
+        2.700000047683716
+      ],
+      "dimensions_m": [
+        1.8499999046325684,
+        0.037000179290771484,
+        0.1399998664855957
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_ARC_011_VentGrille_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G19",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-ARC-011_VentGrille_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "1f3228db8d530772dde72c42e4de98c3b4907dc924b233142cfe1d4381e99c32"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/ARC/H90-ARC-011_VentGrille/Source/H90_ARC_011_VentGrille_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_LIV_ARC011_VentGrille_01_ROOT",
+    "H90_LIV_ARC011_VentGrille_01_P01_GrilleFrame",
+    "H90_LIV_ARC011_VentGrille_01_P02_Louver"
+  ]
+}

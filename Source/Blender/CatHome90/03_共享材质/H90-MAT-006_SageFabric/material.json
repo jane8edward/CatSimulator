@@ -1,0 +1,10 @@
+{
+  "id": "H90-MAT-006",
+  "alias": "M06",
+  "name": "鼠尾草绿织物",
+  "slug": "SageFabric",
+  "usage": "椅面、靠垫、床品",
+  "status": "待制作",
+  "renderer": "待与目标Unity项目确认",
+  "actualTextureResolution": null
+}

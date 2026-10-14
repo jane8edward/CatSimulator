@@ -1,0 +1,10 @@
+{
+  "id": "H90-MAT-009",
+  "alias": "M09",
+  "name": "透明玻璃",
+  "slug": "ClearGlass",
+  "usage": "门窗与淋浴隔断；按交付渲染管线配置",
+  "status": "待制作",
+  "renderer": "待与目标Unity项目确认",
+  "actualTextureResolution": null
+}

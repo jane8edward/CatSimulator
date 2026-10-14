@@ -1,0 +1,83 @@
+{
+  "id": "H90-APP-010",
+  "category": "APP",
+  "slug": "Laptop",
+  "name": "办公笔记本",
+  "rooms": [
+    "OFF"
+  ],
+  "quantity": "1台",
+  "size": "E：0.35×0.25m；开屏高0.24m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M10",
+    "M12"
+  ],
+  "priority": "P2",
+  "references": [
+    "R02"
+  ],
+  "splitAndInteractionPlan": "屏幕铰链与键盘分开",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/APP/H90-APP-010_Laptop",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_OFF_APP010_Laptop_01_ROOT",
+      "assetId": "H90-APP-010",
+      "room": "OFF",
+      "location_m": [
+        2.1600000858306885,
+        6.510000228881836,
+        0.7549999952316284
+      ],
+      "minimum_m": [
+        1.9850001335144043,
+        6.385000228881836,
+        0.7565000057220459
+      ],
+      "maximum_m": [
+        2.3350000381469727,
+        6.659240245819092,
+        1.0047935247421265
+      ],
+      "dimensions_m": [
+        0.34999990463256836,
+        0.27424001693725586,
+        0.24829351902008057
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_APP_010_Laptop_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G20",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-010_Laptop_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "28aab6abe95bcfb4804d59b3af4b8b4cd914b7100ec7c4a63d32e17fc5d62a8c"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/APP/H90-APP-010_Laptop/Source/H90_APP_010_Laptop_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_OFF_APP010_Laptop_01_ROOT",
+    "H90_OFF_APP010_Laptop_01_P01_KeyboardBase",
+    "H90_OFF_APP010_Laptop_01_P02_KeyboardInset",
+    "H90_OFF_APP010_Laptop_01_P03_Key",
+    "H90_OFF_APP010_Laptop_01_P04_Touchpad",
+    "H90_OFF_APP010_Laptop_01_P05_Lid",
+    "H90_OFF_APP010_Laptop_01_P06_Screen"
+  ]
+}

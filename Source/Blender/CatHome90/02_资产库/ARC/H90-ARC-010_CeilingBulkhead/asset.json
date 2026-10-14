@@ -1,0 +1,66 @@
+{
+  "id": "H90-ARC-010",
+  "category": "ARC",
+  "slug": "CeilingBulkhead",
+  "name": "顶面边沿与灯槽",
+  "rooms": [
+    "LIV",
+    "BAL"
+  ],
+  "quantity": "2组暂估",
+  "size": "E：宽0.15～0.30m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M02"
+  ],
+  "priority": "P2",
+  "references": [
+    "R03",
+    "R04"
+  ],
+  "splitAndInteractionPlan": "独立可隐藏模块",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/ARC/H90-ARC-010_CeilingBulkhead",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_LIV_ARC010_LivingBulkhead_01_ROOT",
+      "assetId": "H90-ARC-010",
+      "room": "LIV",
+      "location_m": [
+        7.03000020980835,
+        5.800000190734863,
+        2.690000057220459
+      ],
+      "minimum_m": [
+        -2.7699999809265137,
+        -0.14000000059604645,
+        -0.10999999940395355
+      ],
+      "maximum_m": [
+        2.7699999809265137,
+        0.14000000059604645,
+        0.10999999940395355
+      ],
+      "dimensions_m": [
+        5.539999961853027,
+        0.2800000011920929,
+        0.2199999988079071
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_ARC_010_CeilingBulkhead_v001",
+  "nativeBlenderSource": "02_资产库/ARC/H90-ARC-010_CeilingBulkhead/Source/H90_ARC_010_CeilingBulkhead_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_LIV_ARC010_LivingBulkhead_01_ROOT",
+    "H90_LIV_ARC010_LivingBulkhead_01_P01_Bulkhead"
+  ]
+}

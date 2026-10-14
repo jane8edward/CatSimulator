@@ -1,0 +1,86 @@
+{
+  "id": "H90-DOR-008",
+  "category": "DOR",
+  "slug": "BathHighWindow",
+  "name": "卫生间高窗",
+  "rooms": [
+    "BTH"
+  ],
+  "quantity": "1套",
+  "size": "D：宽1.30，高0.90m",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M09",
+    "M10"
+  ],
+  "priority": "P0",
+  "references": [
+    "R01",
+    "D01",
+    "R02"
+  ],
+  "splitAndInteractionPlan": "窗台高1.50m",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/DOR/H90-DOR-008_BathHighWindow",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_BTH_DOR008_bath_north_01_ROOT",
+      "assetId": "H90-DOR-008",
+      "room": "BTH",
+      "location_m": [
+        5.5,
+        8.899999618530273,
+        1.5
+      ],
+      "minimum_m": [
+        4.849999904632568,
+        8.832499504089355,
+        1.5
+      ],
+      "maximum_m": [
+        6.150000095367432,
+        8.934999465942383,
+        2.4000000953674316
+      ],
+      "dimensions_m": [
+        1.3000001907348633,
+        0.10249996185302734,
+        0.9000000953674316
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_DOR_008_BathHighWindow_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G18",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-DOR-008_BathHighWindow_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "a1f89cac3634945efe731fbd1fdddd43cf387dac625c4c1863434b83f7b4d7da"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/DOR/H90-DOR-008_BathHighWindow/Source/H90_DOR_008_BathHighWindow_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_BTH_DOR008_bath_north_01_ROOT",
+    "H90_BTH_DOR008_bath_north_01_P01_Header",
+    "H90_BTH_DOR008_bath_north_01_P02_Sill",
+    "H90_BTH_DOR008_bath_north_01_P03_LeftJamb",
+    "H90_BTH_DOR008_bath_north_01_P04_RightJamb",
+    "H90_BTH_DOR008_bath_north_01_P05_Glass_1",
+    "H90_BTH_DOR008_bath_north_01_P06_Pull_Handle",
+    "H90_BTH_DOR008_bath_north_01_P07_Pull_Handle"
+  ]
+}

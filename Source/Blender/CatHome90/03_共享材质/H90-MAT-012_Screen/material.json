@@ -1,0 +1,10 @@
+{
+  "id": "H90-MAT-012",
+  "alias": "M12",
+  "name": "显示屏",
+  "slug": "Screen",
+  "usage": "电视、笔记本屏幕状态",
+  "status": "待制作",
+  "renderer": "待与目标Unity项目确认",
+  "actualTextureResolution": null
+}

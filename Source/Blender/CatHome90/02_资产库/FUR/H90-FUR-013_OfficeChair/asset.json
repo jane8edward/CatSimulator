@@ -1,0 +1,86 @@
+{
+  "id": "H90-FUR-013",
+  "category": "FUR",
+  "slug": "OfficeChair",
+  "name": "办公椅",
+  "rooms": [
+    "OFF"
+  ],
+  "quantity": "1件",
+  "size": "E：0.55×0.55×0.85m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M06",
+    "M10"
+  ],
+  "priority": "P1",
+  "references": [
+    "R01",
+    "R02"
+  ],
+  "splitAndInteractionPlan": "主体复用；旋转/移动为后续接口",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/FUR/H90-FUR-013_OfficeChair",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_OFF_FUR013_OfficeChair_01_ROOT",
+      "assetId": "H90-FUR-013",
+      "room": "OFF",
+      "location_m": [
+        2.25,
+        5.820000171661377,
+        0.0
+      ],
+      "minimum_m": [
+        1.9750001430511475,
+        5.528811931610107,
+        0.0
+      ],
+      "maximum_m": [
+        2.5249998569488525,
+        6.070000171661377,
+        0.8346911668777466
+      ],
+      "dimensions_m": [
+        0.5499997138977051,
+        0.5411882400512695,
+        0.8346911668777466
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_FUR_013_OfficeChair_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G03",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-013_OfficeChair_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "fb1b6890147e89122773457e3b6ae952f396af53823b90680586af7f9c51fe35"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/FUR/H90-FUR-013_OfficeChair/Source/H90_FUR_013_OfficeChair_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_OFF_FUR013_OfficeChair_01_ROOT",
+    "H90_OFF_FUR013_OfficeChair_01_P01_DarkLeg",
+    "H90_OFF_FUR013_OfficeChair_01_P02_DarkLeg",
+    "H90_OFF_FUR013_OfficeChair_01_P03_DarkLeg",
+    "H90_OFF_FUR013_OfficeChair_01_P04_DarkLeg",
+    "H90_OFF_FUR013_OfficeChair_01_P05_Seat",
+    "H90_OFF_FUR013_OfficeChair_01_P06_Back",
+    "H90_OFF_FUR013_OfficeChair_01_P07_Arm",
+    "H90_OFF_FUR013_OfficeChair_01_P08_Arm"
+  ]
+}

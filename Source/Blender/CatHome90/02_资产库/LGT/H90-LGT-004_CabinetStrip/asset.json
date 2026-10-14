@@ -1,0 +1,108 @@
+{
+  "id": "H90-LGT-004",
+  "category": "LGT",
+  "slug": "CabinetStrip",
+  "name": "柜下灯带",
+  "rooms": [
+    "KIT",
+    "BAL"
+  ],
+  "quantity": "2段暂估",
+  "size": "E：长度随柜体，宽0.02m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M10"
+  ],
+  "priority": "P2",
+  "references": [
+    "R03",
+    "R04"
+  ],
+  "splitAndInteractionPlan": "发光面与灯光组件分开",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/LGT/H90-LGT-004_CabinetStrip",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_KIT_LGT004_CabinetStrip_01_ROOT",
+      "assetId": "H90-LGT-004",
+      "room": "KIT",
+      "location_m": [
+        9.579999923706055,
+        7.130000114440918,
+        1.8049999475479126
+      ],
+      "minimum_m": [
+        9.568499565124512,
+        6.105000019073486,
+        1.7954999208450317
+      ],
+      "maximum_m": [
+        9.591500282287598,
+        8.154999732971191,
+        1.8114999532699585
+      ],
+      "dimensions_m": [
+        0.023000717163085938,
+        2.049999713897705,
+        0.016000032424926758
+      ]
+    },
+    {
+      "name": "H90_BAL_LGT004_CabinetStrip_01_ROOT",
+      "assetId": "H90-LGT-004",
+      "room": "BAL",
+      "location_m": [
+        4.670000076293945,
+        0.8600000143051147,
+        1.715000033378601
+      ],
+      "minimum_m": [
+        4.349999904632568,
+        0.8485000133514404,
+        1.7055000066757202
+      ],
+      "maximum_m": [
+        4.990000247955322,
+        0.8715000152587891,
+        1.721500039100647
+      ],
+      "dimensions_m": [
+        0.6400003433227539,
+        0.023000001907348633,
+        0.016000032424926758
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_LGT_004_CabinetStrip_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G16",
+      "source": "R04",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-LGT-004_CabinetStrip_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "d625705710864a74508d9b1a280b3b9dedc9f8ca7432be70d21fb3c824ef06d2"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/LGT/H90-LGT-004_CabinetStrip/Source/H90_LGT_004_CabinetStrip_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_KIT_LGT004_CabinetStrip_01_ROOT",
+    "H90_KIT_LGT004_CabinetStrip_01_P01_AluminumChannel",
+    "H90_KIT_LGT004_CabinetStrip_01_P02_Diffuser",
+    "H90_BAL_LGT004_CabinetStrip_01_ROOT",
+    "H90_BAL_LGT004_CabinetStrip_01_P01_AluminumChannel",
+    "H90_BAL_LGT004_CabinetStrip_01_P02_Diffuser"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "H90-FUR-010",
+  "category": "FUR",
+  "slug": "MasterWardrobe",
+  "name": "主卧衣柜",
+  "rooms": [
+    "MBR"
+  ],
+  "quantity": "1组",
+  "size": "D：占地0.60×2.15，高2.60m",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M01"
+  ],
+  "priority": "P1",
+  "references": [
+    "D01",
+    "R02"
+  ],
+  "splitAndInteractionPlan": "柜门与柜体分开；层板可简化",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/FUR/H90-FUR-010_MasterWardrobe",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_MBR_FUR010_MasterWardrobe_01_ROOT",
+      "assetId": "H90-FUR-010",
+      "room": "MBR",
+      "location_m": [
+        3.6500000953674316,
+        1.725000023841858,
+        0.0
+      ],
+      "minimum_m": [
+        3.3355000019073486,
+        0.6499999761581421,
+        0.0
+      ],
+      "maximum_m": [
+        3.950000047683716,
+        2.8000001907348633,
+        2.6000001430511475
+      ],
+      "dimensions_m": [
+        0.6145000457763672,
+        2.150000214576721,
+        2.6000001430511475
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "layoutRecord": {
+    "id": "master_wardrobe",
+    "name": "主卧衣柜",
+    "rect": [
+      3.35,
+      0.65,
+      0.6,
+      2.15
+    ],
+    "height_m": 2.6
+  },
+  "expectedBasename": "H90_FUR_010_MasterWardrobe_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G05",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-010_MasterWardrobe_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "0f276c10940d06025bac03ded82c7a2b86f37a2d69c56e0580b9638dfd410109"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/FUR/H90-FUR-010_MasterWardrobe/Source/H90_FUR_010_MasterWardrobe_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_MBR_FUR010_MasterWardrobe_01_ROOT",
+    "H90_MBR_FUR010_MasterWardrobe_01_P01_Carcass_Top",
+    "H90_MBR_FUR010_MasterWardrobe_01_P02_Carcass_Bottom",
+    "H90_MBR_FUR010_MasterWardrobe_01_P03_Carcass_Back",
+    "H90_MBR_FUR010_MasterWardrobe_01_P04_Side",
+    "H90_MBR_FUR010_MasterWardrobe_01_P05_Side",
+    "H90_MBR_FUR010_MasterWardrobe_01_P06_Door_1",
+    "H90_MBR_FUR010_MasterWardrobe_01_P07_Door_2",
+    "H90_MBR_FUR010_MasterWardrobe_01_P08_Divider",
+    "H90_MBR_FUR010_MasterWardrobe_01_P09_Door_3",
+    "H90_MBR_FUR010_MasterWardrobe_01_P10_Divider",
+    "H90_MBR_FUR010_MasterWardrobe_01_P11_Door_4",
+    "H90_MBR_FUR010_MasterWardrobe_01_P12_Divider",
+    "H90_MBR_FUR010_MasterWardrobe_01_P13_Door_5",
+    "H90_MBR_FUR010_MasterWardrobe_01_P14_Divider",
+    "H90_MBR_FUR010_MasterWardrobe_01_P15_Door_6",
+    "H90_MBR_FUR010_MasterWardrobe_01_P16_Divider"
+  ]
+}

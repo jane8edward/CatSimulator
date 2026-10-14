@@ -1,0 +1,10 @@
+{
+  "id": "H90-MAT-011",
+  "alias": "M11",
+  "name": "白色陶瓷与涂装",
+  "slug": "WhiteCeramic",
+  "usage": "洁具、饮水器、杯与器皿",
+  "status": "待制作",
+  "renderer": "待与目标Unity项目确认",
+  "actualTextureResolution": null
+}

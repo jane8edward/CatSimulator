@@ -1,0 +1,129 @@
+{
+  "id": "H90-PRP-002",
+  "category": "PRP",
+  "slug": "SleepingPillow",
+  "name": "睡眠枕头",
+  "rooms": [
+    "MBR",
+    "OFF"
+  ],
+  "quantity": "3个",
+  "size": "E：0.65×0.40×0.15m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M05"
+  ],
+  "priority": "P2",
+  "references": [
+    "R02"
+  ],
+  "splitAndInteractionPlan": "主卧2、次卧1；复用",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-002_SleepingPillow",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_MBR_PRP002_SleepingPillow_01_INST",
+      "assetId": "H90-PRP-002",
+      "room": "MBR",
+      "location_m": [
+        1.159999966621399,
+        3.509999990463257,
+        0.5669999718666077
+      ],
+      "minimum_m": [
+        0.85999995470047,
+        3.319999933242798,
+        0.5669999718666077
+      ],
+      "maximum_m": [
+        1.4600000381469727,
+        3.700000047683716,
+        0.7069999575614929
+      ],
+      "dimensions_m": [
+        0.6000000834465027,
+        0.38000011444091797,
+        0.13999998569488525
+      ]
+    },
+    {
+      "name": "H90_MBR_PRP002_SleepingPillow_02_INST",
+      "assetId": "H90-PRP-002",
+      "room": "MBR",
+      "location_m": [
+        2.119999885559082,
+        3.509999990463257,
+        0.5669999718666077
+      ],
+      "minimum_m": [
+        1.8199999332427979,
+        3.319999933242798,
+        0.5669999718666077
+      ],
+      "maximum_m": [
+        2.419999837875366,
+        3.700000047683716,
+        0.7069999575614929
+      ],
+      "dimensions_m": [
+        0.5999999046325684,
+        0.38000011444091797,
+        0.13999998569488525
+      ]
+    },
+    {
+      "name": "H90_OFF_PRP002_SleepingPillow_03_INST",
+      "assetId": "H90-PRP-002",
+      "room": "OFF",
+      "location_m": [
+        0.8500000238418579,
+        6.480000019073486,
+        0.46700000762939453
+      ],
+      "minimum_m": [
+        0.550000011920929,
+        6.289999961853027,
+        0.46700000762939453
+      ],
+      "maximum_m": [
+        1.1500000953674316,
+        6.670000076293945,
+        0.6069999933242798
+      ],
+      "dimensions_m": [
+        0.6000000834465027,
+        0.38000011444091797,
+        0.13999998569488525
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_002_SleepingPillow_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Cream",
+      "groupId": "G10",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-002_SleepingPillow_Cream_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "79e0f26c2a6aa6b6c4af70982009152b6a2448350b88a9f107afa00f63027c5f"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/PRP/H90-PRP-002_SleepingPillow/Source/H90_PRP_002_SleepingPillow_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_MBR_PRP002_SleepingPillow_01_INST",
+    "H90_MBR_PRP002_SleepingPillow_02_INST",
+    "H90_OFF_PRP002_SleepingPillow_03_INST"
+  ]
+}

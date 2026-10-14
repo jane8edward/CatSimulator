@@ -1,0 +1,10 @@
+{
+  "id": "H90-MAT-005",
+  "alias": "M05",
+  "name": "米色织物",
+  "slug": "BeigeFabric",
+  "usage": "沙发、部分靠垫与床品",
+  "status": "待制作",
+  "renderer": "待与目标Unity项目确认",
+  "actualTextureResolution": null
+}

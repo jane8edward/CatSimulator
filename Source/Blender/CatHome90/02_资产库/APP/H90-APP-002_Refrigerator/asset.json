@@ -1,0 +1,83 @@
+{
+  "id": "H90-APP-002",
+  "category": "APP",
+  "slug": "Refrigerator",
+  "name": "冰箱",
+  "rooms": [
+    "KIT"
+  ],
+  "quantity": "1台",
+  "size": "E：0.68×0.70×1.80m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M10"
+  ],
+  "priority": "P1",
+  "references": [
+    "D01",
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "门叶与把手分开；门缝与内部状态待定",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/APP/H90-APP-002_Refrigerator",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_KIT_APP002_Refrigerator_01_ROOT",
+      "assetId": "H90-APP-002",
+      "room": "KIT",
+      "location_m": [
+        7.25,
+        6.630000114440918,
+        0.0
+      ],
+      "minimum_m": [
+        6.010000228881836,
+        5.225000381469727,
+        -0.7599999904632568
+      ],
+      "maximum_m": [
+        8.010000228881836,
+        7.2330002784729,
+        2.2899999618530273
+      ],
+      "dimensions_m": [
+        2.0,
+        2.007999897003174,
+        3.049999952316284
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_APP_002_Refrigerator_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G07",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-002_Refrigerator_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "74515a8d14461c8381b81ba1585cbf0c9d88bd68b1d3a1ac7d7d6ae469abf32f"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/APP/H90-APP-002_Refrigerator/Source/H90_APP_002_Refrigerator_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_KIT_APP002_Refrigerator_01_ROOT",
+    "H90_KIT_APP002_Refrigerator_01_P01_RefrigeratorBody",
+    "H90_KIT_APP002_Refrigerator_01_P02_UpperDoor",
+    "H90_KIT_APP002_Refrigerator_01_P03_FreezerDrawer",
+    "H90_KIT_APP002_Refrigerator_01_P04_VerticalHandle",
+    "H90_KIT_APP002_Refrigerator_01_P05_VerticalHandle"
+  ]
+}

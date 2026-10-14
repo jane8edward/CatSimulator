@@ -1,0 +1,93 @@
+{
+  "id": "H90-CAT-005",
+  "category": "CAT",
+  "slug": "WaterFountain",
+  "name": "猫咪饮水器",
+  "rooms": [
+    "LIV"
+  ],
+  "quantity": "1套",
+  "size": "D：0.40×0.40×0.18m",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M11",
+    "M15"
+  ],
+  "priority": "P0",
+  "references": [
+    "D01",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "水面、出水点与底座分开；真实高度按布局统一",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/CAT/H90-CAT-005_WaterFountain",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_LIV_CAT005_WaterFountain_01_ROOT",
+      "assetId": "H90-CAT-005",
+      "room": "LIV",
+      "location_m": [
+        9.319999694824219,
+        2.0,
+        0.0
+      ],
+      "minimum_m": [
+        8.319999694824219,
+        1.0,
+        -0.8759999871253967
+      ],
+      "maximum_m": [
+        10.355999946594238,
+        3.0,
+        1.184999942779541
+      ],
+      "dimensions_m": [
+        2.0360002517700195,
+        2.0,
+        2.0609999299049377
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "layoutRecord": {
+    "id": "water",
+    "name": "饮水站",
+    "rect": [
+      9.12,
+      1.8,
+      0.4,
+      0.4
+    ],
+    "height_m": 0.18
+  },
+  "expectedBasename": "H90_CAT_005_WaterFountain_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G09",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-005_WaterFountain_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "1395c91b79eebd834921cc511f0afd58bf36220c77038bf6493527da78282b0f"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/CAT/H90-CAT-005_WaterFountain/Source/H90_CAT_005_WaterFountain_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_LIV_CAT005_WaterFountain_01_ROOT",
+    "H90_LIV_CAT005_WaterFountain_01_P01_CeramicReservoir",
+    "H90_LIV_CAT005_WaterFountain_01_P02_WaterSurface",
+    "H90_LIV_CAT005_WaterFountain_01_P03_CentralSpout",
+    "H90_LIV_CAT005_WaterFountain_01_P04_WaterStream"
+  ]
+}

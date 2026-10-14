@@ -1,0 +1,305 @@
+{
+  "desktopOriginalsPreserved": true,
+  "unityOriginals": [
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Scripts.meta",
+      "repository": "Game/Assets/Cat/Scripts.meta",
+      "originalSha256": "213d67d494d7477eb87463a05dd9e9e56b6a2a91c6d052eaf513afffe84a84f7",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Materials.meta",
+      "repository": "Game/Assets/Cat/Materials.meta",
+      "originalSha256": "93151b8782353bd8a018c7caf77543bf9aba1458bee7a3a4020f29a20bad1ce9",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Editor.meta",
+      "repository": "Game/Assets/Cat/Editor.meta",
+      "originalSha256": "6fe86e51a284f5c4ccf95e8d54d5929526e1855c9d35815993f7562cfa475792",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Prefabs.meta",
+      "repository": "Game/Assets/Cat/Prefabs.meta",
+      "originalSha256": "0c88594fe8fec609a566581f965e86dbc2df2c88dc2345cb0ad1c95e24faa616",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Resources.meta",
+      "repository": "Game/Assets/Cat/Resources.meta",
+      "originalSha256": "420d3feae478884ebb72f494a8a8311de3d482df397868939861593ccf717e16",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source.meta",
+      "repository": "Game/Assets/Cat/Source.meta",
+      "originalSha256": "d3a3dbb398a39410fd6366f27ad0e19d68071dcc0fc028b504c4f61ffc76e7d1",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Animations.meta",
+      "repository": "Game/Assets/Cat/Animations.meta",
+      "originalSha256": "390c31417ef688b23e3c0ffae27a1f21a447cd1af50598835ba36157e8426ce5",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Reports.meta",
+      "repository": "Game/Assets/Cat/Reports.meta",
+      "originalSha256": "b6429bb96f8d8eec101d013da9db3391bc50f5f1d9cfc042dd39d9c0f94ffc04",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Scenes.meta",
+      "repository": "Game/Assets/Cat/Scenes.meta",
+      "originalSha256": "f72da004d1fc8b12bf235f2f5b46b5bbfdd32c0ee61ef05a37ac8277eb43004e",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Scenes/Walk_Preview.unity",
+      "repository": "Game/Assets/Cat/Scenes/Walk_Preview.unity",
+      "originalSha256": "ee16ec40e1c96430dc1b4b99aefd901397ffdc7933def9b51592e41232b1b50b",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Scenes/Walk_Preview.unity.meta",
+      "repository": "Game/Assets/Cat/Scenes/Walk_Preview.unity.meta",
+      "originalSha256": "4e00b3da9ac221b1566b43d60ff7d27bfb1ec17d2e40cd80ac90b883c4b8070c",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Materials/GroundGrid.asset",
+      "repository": "Game/Assets/Cat/Materials/GroundGrid.asset",
+      "originalSha256": "a1bc2954e159d3fb7fa06b939afed555fcacce6c3c1ec5a02234a484a1ee559b",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Materials/GroundGrid.asset.meta",
+      "repository": "Game/Assets/Cat/Materials/GroundGrid.asset.meta",
+      "originalSha256": "59135b3d18ae7095dd2e3038bc6491ea33af7235fd4698870feb554a3885f5f3",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Materials/Abyssinian_Coat.mat.meta",
+      "repository": "Game/Assets/Cat/Materials/Abyssinian_Coat.mat.meta",
+      "originalSha256": "2a3c5501a73223b4f129800f9bd082272d4e55ca7874bfc0c8f0de8462daa627",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Materials/Abyssinian_Coat.mat",
+      "repository": "Game/Assets/Cat/Materials/Abyssinian_Coat.mat",
+      "originalSha256": "aa884dee385b3318a036d784c8fb4cf6b5750d2803fc6b7c91da9e8758b0747a",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Materials/Ground.mat.meta",
+      "repository": "Game/Assets/Cat/Materials/Ground.mat.meta",
+      "originalSha256": "4b20a667162c62d3452ecb2445c0467d09f75851bff029c7a3c66fc613fdd79c",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Materials/Ground.mat",
+      "repository": "Game/Assets/Cat/Materials/Ground.mat",
+      "originalSha256": "a17633bcf649adae3bccd3a7addf2d20760d2e1a872d1d06f1632533887f205e",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Prefabs/Abyssinian_Walking_Cat.prefab",
+      "repository": "Game/Assets/Cat/Prefabs/Abyssinian_Walking_Cat.prefab",
+      "originalSha256": "74f6119beb417a346b07fbefa8e22a401e3587a72e4e6494c42a1355d00a0b8d",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Prefabs/Abyssinian_Walking_Cat.prefab.meta",
+      "repository": "Game/Assets/Cat/Prefabs/Abyssinian_Walking_Cat.prefab.meta",
+      "originalSha256": "ea0e68b7fd7680ed59cb846501575144eb4c5cd02244ad7e57060003afbebed8",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Resources/NotoSansSC.ttf.meta",
+      "repository": "Game/Assets/Cat/Resources/NotoSansSC.ttf.meta",
+      "originalSha256": "3a45f07d1901d92b795c9d4be12c0517135db5b049d99cee4786d38b928fd0e1",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Resources/NotoSansSC.ttf",
+      "repository": "Game/Assets/Cat/Resources/NotoSansSC.ttf",
+      "originalSha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbx",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbx",
+      "originalSha256": "1972ef29b48f3b4d384420bb02ec01c8aee96309f55853f85c4b24598b51feae",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm.meta",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm.meta",
+      "originalSha256": "23b16090acc30d9307c8470c8f0f4d9bf701169f1c032d4e3555f94555155add",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbx.meta",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbx.meta",
+      "originalSha256": "b2987321563016d2fc2f17f071318f29b8fd39c34f2b06c0b5f59d183b0ed79f",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/Abyssinian_Cat_WalkRig.fbx.meta",
+      "repository": "Game/Assets/Cat/Source/Abyssinian_Cat_WalkRig.fbx.meta",
+      "originalSha256": "2780314edbaadc6439c63ecf6944ab103b2244963955b9da020a059b2204d3b5",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/Abyssinian_Cat_WalkRig.fbx",
+      "repository": "Game/Assets/Cat/Source/Abyssinian_Cat_WalkRig.fbx",
+      "originalSha256": "3c04e212410f9183bedf6bd5ca0a64a6a11bc6cee9745b3820eca48443b54c76",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_normal.JPEG",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_normal.JPEG",
+      "originalSha256": "63e9e7e6659e0108cd89867d281d4ae481156d12abdedff19e53c309d0294c36",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_basecolor.JPEG.meta",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_basecolor.JPEG.meta",
+      "originalSha256": "f936f6216432a2b1186d462ef1f21011ef086c7ad59fd78b54fc955e5158af03",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_normal.JPEG.meta",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_normal.JPEG.meta",
+      "originalSha256": "d581385efb56025483adafbcfce3573f247aa03e78b40e0d46356f3a0b62ad2a",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_metallic.JPEG",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_metallic.JPEG",
+      "originalSha256": "cbece138d6ce1efa05c80dc9776a6e2f166c2fcd6708b3775373229262ddcce4",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_roughness.JPEG",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_roughness.JPEG",
+      "originalSha256": "0ca588b59df862e0bbedec4c8b60f14c6b085e009437daa2be2541f4bf694c1e",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_roughness.JPEG.meta",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_roughness.JPEG.meta",
+      "originalSha256": "e42373ebbe6d9489d5e39585dcec8f876eb1762caf88b657c06cbe9f85f264fb",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_rm.PNG.meta",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_rm.PNG.meta",
+      "originalSha256": "7195a8e0c0a7d7223474751868fd7cb7ec60610f0672e9c4851e23cd9400d49d",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_rm.PNG",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_rm.PNG",
+      "originalSha256": "c065ae6e1955d2993e27ecb89ab019a3011a74408beafc4f8be0d9e5bb15ea88",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_metallic.JPEG.meta",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_metallic.JPEG.meta",
+      "originalSha256": "6a87264dd0c32588207250a0ab7a51e12979dd1692c6d8d1c9176a09eee3909e",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_basecolor.JPEG",
+      "repository": "Game/Assets/Cat/Source/tripo_convert_45f28305-4a37-4a3f-a576-12a91ddb791f.fbm/阿比尼西亚猫-拓扑-绑定_basecolor.JPEG",
+      "originalSha256": "bcf36488da5085af9ba17aa50fb4cef2bcbc8cd2e5424dd97674f0314f74b0f5",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Scripts/CatWalkPlayback.cs",
+      "repository": "Game/Assets/Cat/Scripts/CatWalkPlayback.cs",
+      "originalSha256": "b1a18f75cdcc28ff1f59d581b51f83aaa3056a0e56f8b8ff0f6b148cb0b4b4b6",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Scripts/CatWalkPlayback.cs.meta",
+      "repository": "Game/Assets/Cat/Scripts/CatWalkPlayback.cs.meta",
+      "originalSha256": "89546938596b03119a3f76d303d225827d26f2c34933108120f3eb944fe18e3a",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Animations/Abyssinian_Walk.anim.meta",
+      "repository": "Game/Assets/Cat/Animations/Abyssinian_Walk.anim.meta",
+      "originalSha256": "66be4ece79330dfd756caf8002d076c38fc9377932acc08dc3c515b38f1cc23d",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Animations/Abyssinian_Walk.anim",
+      "repository": "Game/Assets/Cat/Animations/Abyssinian_Walk.anim",
+      "originalSha256": "d8cb8a99de55fc5408ee5cbf06dbd0d6aa48320adc59b931effa2237c6f29084",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Animations/Abyssinian_Walk.controller",
+      "repository": "Game/Assets/Cat/Animations/Abyssinian_Walk.controller",
+      "originalSha256": "9ab59b58a5d05f76b7122d74fff89b18c3f134fefc943a52a4bc738c29aebe73",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Animations/Abyssinian_Walk.controller.meta",
+      "repository": "Game/Assets/Cat/Animations/Abyssinian_Walk.controller.meta",
+      "originalSha256": "8bf9eb9f3a16686c42424cb1668e3f68cbb85c5bc07e50457b722fb09cf190bf",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Editor/CatWalkAuthoring.cs.meta",
+      "repository": "Game/Assets/Cat/Editor/CatWalkAuthoring.cs.meta",
+      "originalSha256": "0b06e06ea95159e1e8ba0ee9b85e738c79653c83952bfe76f10e285ee7ac57b3",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Editor/CatWalkAuthoring.cs",
+      "repository": "Game/Assets/Cat/Editor/CatWalkAuthoring.cs",
+      "originalSha256": "cc125f0da07553828d8167794c873a72f40dfeb2c3ab458a8b92db597a7983d6",
+      "copiedUnchanged": false
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Reports/Rig_Mapping.json",
+      "repository": "Game/Assets/Cat/Reports/Rig_Mapping.json",
+      "originalSha256": "4a934b998cfb202cfa6e1935a3589aaa0a2b604f1767ca922160b3278f9b11fc",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Reports/Skinning_Repair.json.meta",
+      "repository": "Game/Assets/Cat/Reports/Skinning_Repair.json.meta",
+      "originalSha256": "5f434b7442da71ed7f5197d3461c300621a5ab7e91d6bf0d652b43c045424965",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Reports/Walk_Checks.json.meta",
+      "repository": "Game/Assets/Cat/Reports/Walk_Checks.json.meta",
+      "originalSha256": "b74ae552502030c505edeffa3af99861d511f5d51106cce484e705ab5219e500",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Reports/Skinning_Repair.json",
+      "repository": "Game/Assets/Cat/Reports/Skinning_Repair.json",
+      "originalSha256": "46c56d9f2d0a1e97df514bcb998b4bb79702a94df28a5910052518878b15665e",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Reports/Walk_Checks.json",
+      "repository": "Game/Assets/Cat/Reports/Walk_Checks.json",
+      "originalSha256": "6d8b50cf4adad3636e52de87016fb1afb125ff0dcf6fe1dece335694360a3e0b",
+      "copiedUnchanged": true
+    },
+    {
+      "source": "阿比尼西亚猫/阿比尼西亚猫-Unity行走动画/Assets/Cat/Reports/Rig_Mapping.json.meta",
+      "repository": "Game/Assets/Cat/Reports/Rig_Mapping.json.meta",
+      "originalSha256": "9e04f2352d764cde5f001203e0f5d651b749bc6f70f7cafade99ea1e1deef850",
+      "copiedUnchanged": true
+    }
+  ]
+}

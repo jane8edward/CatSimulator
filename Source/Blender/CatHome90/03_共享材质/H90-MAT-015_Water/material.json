@@ -1,0 +1,10 @@
+{
+  "id": "H90-MAT-015",
+  "alias": "M15",
+  "name": "水面",
+  "slug": "Water",
+  "usage": "饮水器与水槽；动态效果另行制作",
+  "status": "待制作",
+  "renderer": "待与目标Unity项目确认",
+  "actualTextureResolution": null
+}

@@ -1,0 +1,96 @@
+{
+  "id": "H90-FUR-007",
+  "category": "FUR",
+  "slug": "MasterBed",
+  "name": "主卧床体",
+  "rooms": [
+    "MBR"
+  ],
+  "quantity": "1件",
+  "size": "D：床面1.80×2.00，高0.55m；床头E",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M01",
+    "M05"
+  ],
+  "priority": "P1",
+  "references": [
+    "D01",
+    "R02"
+  ],
+  "splitAndInteractionPlan": "床架、床垫分开；床面落点",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/FUR/H90-FUR-007_MasterBed",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_MBR_FUR007_MasterBed_01_ROOT",
+      "assetId": "H90-FUR-007",
+      "room": "MBR",
+      "location_m": [
+        1.649999976158142,
+        2.9000000953674316,
+        0.0
+      ],
+      "minimum_m": [
+        0.699999988079071,
+        1.8600001335144043,
+        0.0
+      ],
+      "maximum_m": [
+        2.5999999046325684,
+        3.940000057220459,
+        1.0
+      ],
+      "dimensions_m": [
+        1.8999999165534973,
+        2.0799999237060547,
+        1.0
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "layoutRecord": {
+    "id": "master_bed",
+    "name": "主卧床",
+    "rect": [
+      0.75,
+      1.9,
+      1.8,
+      2.0
+    ],
+    "height_m": 0.55
+  },
+  "expectedBasename": "H90_FUR_007_MasterBed_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G01",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-007_MasterBed_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "6a048bdebdf771cc406f1c5e4514659dc7e4ee752ce98931b9d2106d1f182623"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/FUR/H90-FUR-007_MasterBed/Source/H90_FUR_007_MasterBed_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_MBR_FUR007_MasterBed_01_ROOT",
+    "H90_MBR_FUR007_MasterBed_01_P01_OakFrame",
+    "H90_MBR_FUR007_MasterBed_01_P02_Foot",
+    "H90_MBR_FUR007_MasterBed_01_P03_Foot",
+    "H90_MBR_FUR007_MasterBed_01_P04_Foot",
+    "H90_MBR_FUR007_MasterBed_01_P05_Foot",
+    "H90_MBR_FUR007_MasterBed_01_P06_Headboard",
+    "H90_MBR_FUR007_MasterBed_01_P07_Mattress"
+  ]
+}

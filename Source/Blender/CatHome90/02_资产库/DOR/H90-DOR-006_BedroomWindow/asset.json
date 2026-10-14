@@ -1,0 +1,123 @@
+{
+  "id": "H90-DOR-006",
+  "category": "DOR",
+  "slug": "BedroomWindow",
+  "name": "卧室窗组件",
+  "rooms": [
+    "MBR",
+    "OFF"
+  ],
+  "quantity": "2套",
+  "size": "D：宽2.40/1.50，高1.50m",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M09",
+    "M10"
+  ],
+  "priority": "P0",
+  "references": [
+    "R01",
+    "D01"
+  ],
+  "splitAndInteractionPlan": "窗框、玻璃与可开启片独立",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/DOR/H90-DOR-006_BedroomWindow",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_MBR_DOR006_master_south_01_ROOT",
+      "assetId": "H90-DOR-006",
+      "room": "MBR",
+      "location_m": [
+        2.049999952316284,
+        0.10000000149011612,
+        0.8999999761581421
+      ],
+      "minimum_m": [
+        0.8499999046325684,
+        0.0325000025331974,
+        0.8999999761581421
+      ],
+      "maximum_m": [
+        3.25,
+        0.13500000536441803,
+        2.4000000953674316
+      ],
+      "dimensions_m": [
+        2.4000000953674316,
+        0.10250000283122063,
+        1.5000001192092896
+      ]
+    },
+    {
+      "name": "H90_OFF_DOR006_guest_west_01_ROOT",
+      "assetId": "H90-DOR-006",
+      "room": "OFF",
+      "location_m": [
+        0.10000000149011612,
+        5.599999904632568,
+        0.8999999761581421
+      ],
+      "minimum_m": [
+        0.06499996781349182,
+        4.849999904632568,
+        0.8999999761581421
+      ],
+      "maximum_m": [
+        0.16750003397464752,
+        6.349999904632568,
+        2.4000000953674316
+      ],
+      "dimensions_m": [
+        0.1025000661611557,
+        1.5,
+        1.5000001192092896
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_DOR_006_BedroomWindow_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G18",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-DOR-006_BedroomWindow_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "18402e40a43d71368835f60a2818c818dc70e7f8ec53677b163034e576a1b4cd"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/DOR/H90-DOR-006_BedroomWindow/Source/H90_DOR_006_BedroomWindow_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_MBR_DOR006_master_south_01_ROOT",
+    "H90_MBR_DOR006_master_south_01_P01_Header",
+    "H90_MBR_DOR006_master_south_01_P02_Sill",
+    "H90_MBR_DOR006_master_south_01_P03_LeftJamb",
+    "H90_MBR_DOR006_master_south_01_P04_RightJamb",
+    "H90_MBR_DOR006_master_south_01_P05_Mullion",
+    "H90_MBR_DOR006_master_south_01_P06_Glass_1",
+    "H90_MBR_DOR006_master_south_01_P07_Glass_2",
+    "H90_MBR_DOR006_master_south_01_P08_Pull_Handle",
+    "H90_MBR_DOR006_master_south_01_P09_Pull_Handle",
+    "H90_OFF_DOR006_guest_west_01_ROOT",
+    "H90_OFF_DOR006_guest_west_01_P01_Header",
+    "H90_OFF_DOR006_guest_west_01_P02_Sill",
+    "H90_OFF_DOR006_guest_west_01_P03_LeftJamb",
+    "H90_OFF_DOR006_guest_west_01_P04_RightJamb",
+    "H90_OFF_DOR006_guest_west_01_P05_Mullion",
+    "H90_OFF_DOR006_guest_west_01_P06_Glass_1",
+    "H90_OFF_DOR006_guest_west_01_P07_Glass_2",
+    "H90_OFF_DOR006_guest_west_01_P08_Pull_Handle",
+    "H90_OFF_DOR006_guest_west_01_P09_Pull_Handle"
+  ]
+}

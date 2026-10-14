@@ -1,0 +1,98 @@
+{
+  "id": "H90-CAT-006",
+  "category": "CAT",
+  "slug": "LitterCabinet",
+  "name": "阳台猫砂柜",
+  "rooms": [
+    "BAL"
+  ],
+  "quantity": "1套",
+  "size": "D：0.76×0.65×0.70m",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M01",
+    "M14"
+  ],
+  "priority": "P0",
+  "references": [
+    "D01",
+    "R02",
+    "R04"
+  ],
+  "splitAndInteractionPlan": "柜体、入口、砂盆、砂面、检修板分开",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/CAT/H90-CAT-006_LitterCabinet",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_BAL_CAT006_LitterCabinet_01_ROOT",
+      "assetId": "H90-CAT-006",
+      "room": "BAL",
+      "location_m": [
+        9.399999618530273,
+        0.625,
+        0.0
+      ],
+      "minimum_m": [
+        9.019999504089355,
+        0.2999999523162842,
+        0.0
+      ],
+      "maximum_m": [
+        9.779999732971191,
+        0.95250004529953,
+        0.699999988079071
+      ],
+      "dimensions_m": [
+        0.7600002288818359,
+        0.6525000929832458,
+        0.699999988079071
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "layoutRecord": {
+    "id": "litter_cabinet",
+    "name": "猫砂柜",
+    "rect": [
+      9.02,
+      0.3,
+      0.76,
+      0.65
+    ],
+    "height_m": 0.7
+  },
+  "expectedBasename": "H90_CAT_006_LitterCabinet_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G08",
+      "source": "R04",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-006_LitterCabinet_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "05b8ed67f934173be0d2a943ebccd40539e9d9884c1b7460d17d7a926107cfe1"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/CAT/H90-CAT-006_LitterCabinet/Source/H90_CAT_006_LitterCabinet_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_BAL_CAT006_LitterCabinet_01_ROOT",
+    "H90_BAL_CAT006_LitterCabinet_01_P01_Top",
+    "H90_BAL_CAT006_LitterCabinet_01_P02_Bottom",
+    "H90_BAL_CAT006_LitterCabinet_01_P03_Back",
+    "H90_BAL_CAT006_LitterCabinet_01_P04_SideL",
+    "H90_BAL_CAT006_LitterCabinet_01_P05_SideR",
+    "H90_BAL_CAT006_LitterCabinet_01_P06_EntrancePanel",
+    "H90_BAL_CAT006_LitterCabinet_01_P10_SquareStile",
+    "H90_BAL_CAT006_LitterCabinet_01_P11_SquareStile"
+  ]
+}

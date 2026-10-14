@@ -1,0 +1,159 @@
+{
+  "id": "H90-PRP-011",
+  "category": "PRP",
+  "slug": "PlantBroadleaf",
+  "name": "阔叶绿植造型",
+  "rooms": [
+    "ENT",
+    "LIV",
+    "MBR",
+    "BAL"
+  ],
+  "quantity": "按统一摆放图确认",
+  "size": "E：高0.30～0.85m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M13"
+  ],
+  "priority": "P2",
+  "references": [
+    "R02",
+    "R03",
+    "R04"
+  ],
+  "splitAndInteractionPlan": "只定义视觉造型；与花盆分开",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-011_PlantBroadleaf",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_MBR_PRP011_BroadleafPlant_03_INST",
+      "assetId": "H90-PRP-011",
+      "room": "MBR",
+      "location_m": [
+        3.700000047683716,
+        0.41999998688697815,
+        0.0
+      ],
+      "minimum_m": [
+        2.1477980613708496,
+        -1.1239750385284424,
+        -0.8199999928474426
+      ],
+      "maximum_m": [
+        5.250754356384277,
+        1.9724501371383667,
+        1.4553585052490234
+      ],
+      "dimensions_m": [
+        3.1029562950134277,
+        3.096425175666809,
+        2.275358498096466
+      ]
+    },
+    {
+      "name": "H90_ENT_PRP011_BroadleafPlant_04_INST",
+      "assetId": "H90-PRP-011",
+      "room": "ENT",
+      "location_m": [
+        1.0,
+        7.360000133514404,
+        0.0
+      ],
+      "minimum_m": [
+        -0.5232605338096619,
+        5.854645729064941,
+        -0.8199999928474426
+      ],
+      "maximum_m": [
+        2.503274440765381,
+        8.86935806274414,
+        1.4553585052490234
+      ],
+      "dimensions_m": [
+        3.0265349745750427,
+        3.014712333679199,
+        2.275358498096466
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP011_BroadleafPlant_02_INST",
+      "assetId": "H90-PRP-011",
+      "room": "LIV",
+      "location_m": [
+        9.270000457763672,
+        4.71999979019165,
+        0.0
+      ],
+      "minimum_m": [
+        7.738491058349609,
+        3.1893045902252197,
+        -0.8199999928474426
+      ],
+      "maximum_m": [
+        10.812323570251465,
+        6.272716999053955,
+        1.4553585052490234
+      ],
+      "dimensions_m": [
+        3.0738325119018555,
+        3.0834124088287354,
+        2.275358498096466
+      ]
+    },
+    {
+      "name": "H90_BAL_PRP011_BroadleafPlant_01_INST",
+      "assetId": "H90-PRP-011",
+      "room": "BAL",
+      "location_m": [
+        5.460000038146973,
+        0.6200000047683716,
+        0.0
+      ],
+      "minimum_m": [
+        4.267240524291992,
+        -0.5634530782699585,
+        -0.8199999928474426
+      ],
+      "maximum_m": [
+        6.616277694702148,
+        1.8093549013137817,
+        1.4553585052490234
+      ],
+      "dimensions_m": [
+        2.3490371704101562,
+        2.3728079795837402,
+        2.275358498096466
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_011_PlantBroadleaf_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G12",
+      "source": "R04",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-011_PlantBroadleaf_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "7be0ac5765b231d2ccd872e143e0f3982989a25d1daa633c385da1129745beed"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/PRP/H90-PRP-011_PlantBroadleaf/Source/H90_PRP_011_PlantBroadleaf_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_MBR_PRP011_BroadleafPlant_03_INST",
+    "H90_ENT_PRP011_BroadleafPlant_04_INST",
+    "H90_LIV_PRP011_BroadleafPlant_02_INST",
+    "H90_BAL_PRP011_BroadleafPlant_01_INST"
+  ]
+}

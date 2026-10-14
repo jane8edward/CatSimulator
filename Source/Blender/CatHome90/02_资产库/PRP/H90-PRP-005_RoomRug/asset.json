@@ -1,0 +1,118 @@
+{
+  "id": "H90-PRP-005",
+  "category": "PRP",
+  "slug": "RoomRug",
+  "name": "客厅与主卧地毯",
+  "rooms": [
+    "LIV",
+    "MBR"
+  ],
+  "quantity": "2张",
+  "size": "E：客厅约1.8×1.5m；主卧T",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M07"
+  ],
+  "priority": "P1",
+  "references": [
+    "R01",
+    "R02",
+    "R03"
+  ],
+  "splitAndInteractionPlan": "两种尺寸；薄表面不重复地面碰撞",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/PRP/H90-PRP-005_RoomRug",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_MBR_PRP005_MasterRug_01_ROOT",
+      "assetId": "H90-PRP-005",
+      "room": "MBR",
+      "location_m": [
+        1.649999976158142,
+        2.609999895095825,
+        0.0
+      ],
+      "minimum_m": [
+        0.32499992847442627,
+        1.309999942779541,
+        0.0
+      ],
+      "maximum_m": [
+        2.9749999046325684,
+        3.9099998474121094,
+        0.017999999225139618
+      ],
+      "dimensions_m": [
+        2.649999976158142,
+        2.5999999046325684,
+        0.017999999225139618
+      ]
+    },
+    {
+      "name": "H90_LIV_PRP005_LivingRug_01_ROOT",
+      "assetId": "H90-PRP-005",
+      "room": "LIV",
+      "location_m": [
+        6.659999847412109,
+        3.319999933242798,
+        0.0
+      ],
+      "minimum_m": [
+        5.509999752044678,
+        2.444999933242798,
+        0.0
+      ],
+      "maximum_m": [
+        7.809999942779541,
+        4.194999694824219,
+        0.017999999225139618
+      ],
+      "dimensions_m": [
+        2.3000001907348633,
+        1.749999761581421,
+        0.017999999225139618
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_PRP_005_RoomRug_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Living",
+      "groupId": "G11",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-005_RoomRug_Living_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "14dceac8b0541d257a72a34962adc321526da68bed30020e474095cd3054e5c9"
+    },
+    {
+      "variant": "Bedroom",
+      "groupId": "G11",
+      "source": "R02",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-005_RoomRug_Bedroom_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "15490e2e15fc2f0fc3e59e8adb5f0267cdb98461889be4ddc8d660b3cde3b226"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/PRP/H90-PRP-005_RoomRug/Source/H90_PRP_005_RoomRug_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_MBR_PRP005_MasterRug_01_ROOT",
+    "H90_MBR_PRP005_MasterRug_01_P01_WovenRug",
+    "H90_LIV_PRP005_LivingRug_01_ROOT",
+    "H90_LIV_PRP005_LivingRug_01_P01_WovenRug"
+  ]
+}

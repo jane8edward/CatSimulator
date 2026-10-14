@@ -1,0 +1,66 @@
+{
+  "id": "H90-ARC-003",
+  "category": "ARC",
+  "slug": "BathFloor",
+  "name": "卫生间地面",
+  "rooms": [
+    "BTH"
+  ],
+  "quantity": "1个区域",
+  "size": "D：2.48×2.74m",
+  "sizeBasis": "设计给定",
+  "materials": [
+    "M04"
+  ],
+  "priority": "P0",
+  "references": [
+    "R01",
+    "D01"
+  ],
+  "splitAndInteractionPlan": "地面与排水装饰分开",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/ARC/H90-ARC-003_BathFloor",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_BTH_ARC003_Floor_BTH_01_ROOT",
+      "assetId": "H90-ARC-003",
+      "room": "BTH",
+      "location_m": [
+        4.260000228881836,
+        6.059999942779541,
+        0.0
+      ],
+      "minimum_m": [
+        4.260000228881836,
+        6.059999942779541,
+        -0.032999999821186066
+      ],
+      "maximum_m": [
+        6.739999771118164,
+        8.800000190734863,
+        0.003000000026077032
+      ],
+      "dimensions_m": [
+        2.479999542236328,
+        2.7400002479553223,
+        0.0359999998472631
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_ARC_003_BathFloor_v001",
+  "nativeBlenderSource": "02_资产库/ARC/H90-ARC-003_BathFloor/Source/H90_ARC_003_BathFloor_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_BTH_ARC003_Floor_BTH_01_ROOT",
+    "H90_BTH_ARC003_Floor_BTH_01_P01_Subfloor",
+    "H90_BTH_ARC003_Floor_BTH_01_P02_Floor_Module"
+  ]
+}

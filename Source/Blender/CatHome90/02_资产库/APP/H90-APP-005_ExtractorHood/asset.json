@@ -1,0 +1,80 @@
+{
+  "id": "H90-APP-005",
+  "category": "APP",
+  "slug": "ExtractorHood",
+  "name": "抽油烟机",
+  "rooms": [
+    "KIT"
+  ],
+  "quantity": "1套",
+  "size": "E：0.60×0.45×0.30m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M10"
+  ],
+  "priority": "P2",
+  "references": [
+    "R03"
+  ],
+  "splitAndInteractionPlan": "与吊柜安装高度联动",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/APP/H90-APP-005_ExtractorHood",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [
+    {
+      "name": "H90_KIT_APP005_ExtractorHood_01_ROOT",
+      "assetId": "H90-APP-005",
+      "room": "KIT",
+      "location_m": [
+        9.5600004196167,
+        7.170000076293945,
+        1.690000057220459
+      ],
+      "minimum_m": [
+        9.345000267028809,
+        6.840000152587891,
+        1.6810001134872437
+      ],
+      "maximum_m": [
+        9.77500057220459,
+        7.5,
+        1.809999942779541
+      ],
+      "dimensions_m": [
+        0.43000030517578125,
+        0.6599998474121094,
+        0.12899982929229736
+      ]
+    }
+  ],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_APP_005_ExtractorHood_v001",
+  "generatedReferenceImages": [
+    {
+      "variant": "Main",
+      "groupId": "G07",
+      "source": "R03",
+      "path": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-005_ExtractorHood_Main_ref_v001.png",
+      "imageSize": [
+        768,
+        768
+      ],
+      "sha256": "978fd7127b678bdb1c478cd0f973dc8b6dfb5b2a125ce4a8a9ebd547e1322210"
+    }
+  ],
+  "nativeBlenderSource": "02_资产库/APP/H90-APP-005_ExtractorHood/Source/H90_APP_005_ExtractorHood_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_KIT_APP005_ExtractorHood_01_ROOT",
+    "H90_KIT_APP005_ExtractorHood_01_P01_ExtractorBody",
+    "H90_KIT_APP005_ExtractorHood_01_P02_FilterMesh",
+    "H90_KIT_APP005_ExtractorHood_01_P03_UnderLight",
+    "H90_KIT_APP005_ExtractorHood_01_P04_UnderLight"
+  ]
+}

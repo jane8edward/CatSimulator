@@ -1,0 +1,55 @@
+{
+  "id": "H90-ARC-007",
+  "category": "ARC",
+  "slug": "SkirtingKit",
+  "name": "踢脚线模块",
+  "rooms": [
+    "ALL"
+  ],
+  "quantity": "沿墙长统计",
+  "size": "E：高0.08，厚0.015m",
+  "sizeBasis": "建模建议估算",
+  "materials": [
+    "M01",
+    "M02"
+  ],
+  "priority": "P2",
+  "references": [
+    "R02",
+    "R03",
+    "R04"
+  ],
+  "splitAndInteractionPlan": "复用直段与转角",
+  "optional": false,
+  "status": "基础模型已建·待引擎验收",
+  "assignee": "未指派",
+  "relativeDirectory": "02_资产库/ARC/H90-ARC-007_SkirtingKit",
+  "approvedVersion": null,
+  "actualTriangles": null,
+  "actualTextureResolution": null,
+  "actualDimensions_m": [],
+  "engineAcceptance": false,
+  "expectedBasename": "H90_ARC_007_SkirtingKit_v001",
+  "nativeBlenderSource": "02_资产库/ARC/H90-ARC-007_SkirtingKit/Source/H90_ARC_007_SkirtingKit_v001_native.blend",
+  "modelingMethod": "reference-based procedural Blender geometry",
+  "modelingStage": "基础模型已建",
+  "sceneFile": "04_场景工程/Blender/Layout/H90_Residence_v001.blend",
+  "sceneObjectNames": [
+    "H90_Skirting_MBR_S",
+    "H90_Skirting_MBR_W",
+    "H90_Skirting_MBR_E",
+    "H90_Skirting_OFF_S",
+    "H90_Skirting_OFF_N",
+    "H90_Skirting_OFF_W",
+    "H90_Skirting_HALL_S",
+    "H90_Skirting_ENT_W",
+    "H90_Skirting_LIV_E",
+    "H90_Skirting_LIV_S_W",
+    "H90_Skirting_LIV_S_E",
+    "H90_Skirting_ENT_S",
+    "H90_Skirting_HALL_W_S",
+    "H90_Skirting_HALL_W_N",
+    "H90_Skirting_HALL_E_S",
+    "H90_Skirting_HALL_E_N"
+  ]
+}
