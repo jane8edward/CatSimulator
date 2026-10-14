@@ -56,3 +56,15 @@ Builds/Mac/CatSimulator.app/Contents/MacOS/Cat\ Simulator \
 ```
 
 本次复测结果在 `Source/Verification/ModelResources`，旧 Windows 性能数据不代表本次 Mac 测试。
+
+### 2026-10-14 本次结果
+
+- Blender 5.2.2：84 个独立资产库可读取，89 个住宅原生 `.blend` 副本与桌面源文件一致；无缺失贴图。
+- Unity 6000.3.26f1：1352 个住宅网格对象导入，新增资源 `.meta` 齐全，无重复 GUID；38 骨骼 Generic 动画的 241 姿态检查通过。
+- Mac 通用开发构建（ARM64 + x86_64）：Succeeded，0 个构建错误。
+- Apple M4 实际渲染运行：猫动画、位移、暂停、重置、住宅加载通过，运行错误 0。
+- 现有关卡回归：移动、跳跃、爬架支撑、碰撞、两项任务、镜头与重玩通过；测试顺序为先水杯后窗帘，未改动原场景或玩家脚本。
+- 第一次包初始化时 NUnit 依赖尚未完整导入，完成导入并重开后编译通过，仓库依赖版本保持原样。
+- 初次预览发现高墙遮挡和色彩空间差异，已修正并重新构建、运行、检查截图。
+
+完整结果与截图见 `Source/Verification/ModelResources/validation-summary.json`、`Runtime`、`Playable`。

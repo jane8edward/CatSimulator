@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-14",
+  "unityVersion": "6000.3.26f1",
+  "blenderVersion": "5.2.2 LTS",
+  "gpu": "Apple M4",
+  "buildArchitectures": [
+    "arm64",
+    "x86_64"
+  ],
+  "baseMain": "c9e6f61244f50b062a546983f573bd6fc7c91c64",
+  "blender": {
+    "nativeAssets": 84,
+    "arrays": 22,
+    "collectionInstances": 51,
+    "missingTextures": [],
+    "exportedMeshObjects": 1352,
+    "uniqueMeshes": 887,
+    "vertices": 237352,
+    "engineFile": "Game/Assets/Art/CatHome90/H90_Residence.fbx",
+    "engineFileBytes": 9394604,
+    "sourcePreserved": true,
+    "units": "metres",
+    "limitations": [
+      "Procedural wood, textile and glass shading is approximated with URP materials; texture baking and LOD remain future work.",
+      "This is a separate scene preview; existing gameplay has not been replaced."
+    ]
+  },
+  "unityImport": {
+    "passed": true,
+    "homeMeshRenderers": 1352,
+    "walkAvatarValid": true,
+    "missingMeta": 0,
+    "existingPlayablePresent": true
+  },
+  "macBuild": {
+    "result": "Succeeded",
+    "errors": 0,
+    "bytes": 406610673
+  },
+  "runtimeSmoke": {
+    "passed": true,
+    "avatarValid": true,
+    "animationMoved": true,
+    "pauseStable": true,
+    "resetWorks": true,
+    "homeLoaded": true,
+    "travelledMeters": 0.10149919241666794,
+    "expectedMeters": 0.10149921476840973,
+    "maxBoneMotionMeters": 0.00012204951053718105,
+    "homeRenderers": 1352,
+    "gpu": "Apple M4",
+    "errors": []
+  },
+  "playableRegression": {
+    "order": "cup-first",
+    "gpu": "Apple M4",
+    "resolution": "1920x1080",
+    "optionalDoesNotComplete": true,
+    "firstTaskDoesNotComplete": true,
+    "bothComplete": true,
+    "replayResets": true,
+    "cupMoves": true,
+    "clothChanges": true,
+    "movementWorks": true,
+    "jumpLands": true,
+    "climbHasSupport": true,
+    "cupColliderSized": true,
+    "cameraClearAtInteractions": true,
+    "roomRegressionPass": true,
+    "averageFps": 301.7026672363281,
+    "p95FrameMs": 3.856292486190796,
+    "p99FrameMs": 4.151792526245117,
+    "frames": 2433,
+    "errors": []
+  },
+  "noSharedGameplayChanges": true,
+  "scope": "Separate art and previews; existing playable unchanged",
+  "limitations": [
+    "House preview uses approximate URP materials; texture baking, LOD and full-house gameplay/collision QA remain future work.",
+    "Historical desktop reports are separate from this integration test."
+  ],
+  "firstImportNote": "Initial package resolution had transient NUnit compile errors; second full import completed without changing package versions.",
+  "preservedEmptyDirectories": 273
+}
