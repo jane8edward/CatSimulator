@@ -1,0 +1,14 @@
+{
+    "passed": true,
+    "avatarValid": true,
+    "animationMoved": true,
+    "pauseStable": true,
+    "resetWorks": true,
+    "homeLoaded": true,
+    "travelledMeters": 0.10149919241666794,
+    "expectedMeters": 0.10149921476840973,
+    "maxBoneMotionMeters": 0.00012204951053718105,
+    "homeRenderers": 1352,
+    "gpu": "Apple M4",
+    "errors": []
+}

@@ -103,3 +103,7 @@ git lfs pull
 以上是当前原型在取消帧率限制后的 **8 秒镜头环绕测试**，录制发生在性能测试之后；普通试玩设为 60 FPS。这不是最终画质、完整住宅、手机性能或长时间稳定性的验收结果。
 
 通过 `tools/verify.ps1` 可复测；添加 `-RecordPreview` 还会保存游戏内画面序列。完整结果与方法见 `docs/first-playable-validation.md`、`docs/camera-collision-fix.md`，原始报告、日志及截图位于 `Source/Verification`。
+
+## 新增美术资源（2026-10-14）
+
+90㎡养猫住宅、84 类独立原生资产、物体参考图、猫四视图、阿比尼西亚猫蒙皮修复与循环行走动画已作为独立资源接入。打开方式与 Mac 构建/复测见 [资源接入说明](docs/model-resources-20261014.md)。现有 `LivingRoom.unity` 的玩法和玩家保持原样，另有 `Home90_Preview.unity` 与 `Assets/Cat/Scenes/Walk_Preview.unity` 供检查。
