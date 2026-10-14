@@ -92,7 +92,10 @@ namespace CatSimulator.Editor
             // Build the saved level; artist edits must survive ordinary rebuilds.
             if(!File.Exists("Assets/Scenes/LivingRoom.unity")) Create();
             Directory.CreateDirectory("../Builds/Windows");
-            var report=UnityEditor.BuildPipeline.BuildPlayer(new BuildPlayerOptions { scenes=new[]{"Assets/Scenes/LivingRoom.unity"},
+            var scenes=new[]{"Assets/Scenes/LivingRoom.unity","Assets/Cat/Scenes/Walk_Preview.unity","Assets/Scenes/Home90_Preview.unity"};
+            foreach(var path in scenes)
+                if(!File.Exists(path)) throw new FileNotFoundException("Build scene missing",path);
+            var report=UnityEditor.BuildPipeline.BuildPlayer(new BuildPlayerOptions { scenes=scenes,
                 locationPathName="../Builds/Windows/CatSimulator.exe",target=BuildTarget.StandaloneWindows64,options=BuildOptions.None });
             File.WriteAllText("../Source/build-result.txt",report.summary.result+"\nBytes: "+report.summary.totalSize+"\nTime: "+report.summary.totalTime);
             if(report.summary.result!=UnityEditor.Build.Reporting.BuildResult.Succeeded) throw new Exception("Windows build failed");

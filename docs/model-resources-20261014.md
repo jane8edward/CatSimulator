@@ -27,6 +27,8 @@ Unity 现有 `.meta` 的 GUID 沿用桌面工程；新增资源的 `.meta` 随�
 4. 全屋预览：`Assets/Scenes/Home90_Preview.unity`。这是供美术检查的独立场景。
 5. 在 Blender 5.2 打开 `Source/Blender/CatHome90/04_场景工程/Blender/Layout/H90_Residence_v001.blend`。
 
+Windows 包通过 `tools/build.ps1` 构建，包含原关卡和两个预览。打开 `Builds/Windows/CatSimulator.exe` 后，在启动菜单选择“进入游戏”“新猫 · 行走动画”或“90㎡住宅 · 全屋预览”；运行时按 F4 可再次选择。新猫和住宅预览用于美术检查，尚未成为新的可玩关卡。
+
 住宅原生源文件保留 22 个阵列与 51 个集合实例；FBX 将它们展开为 1352 个网格对象，使用米制。
 Unity 基础材质近似原生程序化材质；木纹、布料与玻璃的最终纹理烘焙、LOD、全屋玩法与碰撞验收待后续制作。
 猫的步幅为 0.28m、周期 1.2s，匹配 0.2333m/s。现骨架以肩根移动近似肩胛滑动，尚无肌肉动力学。
