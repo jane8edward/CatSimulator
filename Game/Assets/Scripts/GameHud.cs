@@ -27,9 +27,13 @@ namespace CatSimulator
             tasks = Label(taskPanel,"Tasks",new Vector2(24,-70),new Vector2(420,110),23);
             prompt = Label(transform,"InteractionPrompt",new Vector2(-280,140),new Vector2(560,54),28,new Vector2(.5f,0));
             prompt.alignment = TextAnchor.MiddleCenter;
-            Label(transform,"Controls",new Vector2(24,60),new Vector2(1350,38),21,new Vector2(0,0)).text = "WASD 移动  ·  鼠标转镜头  ·  空格跳跃  ·  Shift 奔跑  ·  E 互动  ·  Esc 菜单";
+            var controlStrip = Panel("ControlsBackground",new Vector2(18,76),new Vector2(1370,48),new Vector2(0,0));
+            controlStrip.GetComponent<Image>().raycastTarget=false;
+            Label(controlStrip,"Controls",new Vector2(12,-5),new Vector2(1346,38),21).text = session.definition.IsExploration ?
+                "WASD 移动  ·  鼠标转镜头  ·  空格跳跃  ·  Shift 奔跑  ·  Esc 菜单" :
+                "WASD 移动  ·  鼠标转镜头  ·  空格跳跃  ·  Shift 奔跑  ·  E 互动  ·  Esc 菜单";
             version=Label(transform,"Version",new Vector2(-285,54),new Vector2(260,32),18,new Vector2(1,0));
-            pause = Panel("Pause",new Vector2(-270,260),new Vector2(540,520),new Vector2(.5f,.5f)).gameObject;
+            pause = Panel("Pause",new Vector2(-270,300),new Vector2(540,600),new Vector2(.5f,.5f)).gameObject;
             Label(pause.transform,"Title",new Vector2(30,-24),new Vector2(480,50),32).text="小猫休息一下";
             Label(pause.transform,"NameHint",new Vector2(30,-91),new Vector2(480,35),22).text="给小猫取个名字";
             var input = Panel("NameInput",new Vector2(30,-138),new Vector2(480,55),new Vector2(0,1),pause.transform);
@@ -37,8 +41,9 @@ namespace CatSimulator
             nameInput.characterLimit=12; nameInput.text=session.CatName; nameInput.onEndEdit.AddListener(session.Rename);
             Button(pause.transform,"继续玩",new Vector2(30,-224),()=>SetPaused(false));
             Button(pause.transform,"重新开始这一关",new Vector2(30,-300),session.Replay);
-            Button(pause.transform,"退出游戏",new Vector2(30,-376),()=>Application.Quit()); pause.SetActive(false);
+            Button(pause.transform,"返回开始界面",new Vector2(30,-376),()=>ContentPreviewMenu.Instance.ReturnToStart()); pause.SetActive(false);
             Button(pause.transform,"资源署名",new Vector2(30,-450),()=>{pause.SetActive(false);credits.SetActive(true);});
+            Button(pause.transform,"退出游戏",new Vector2(30,-526),()=>Application.Quit());
             credits=Panel("Credits",new Vector2(-410,255),new Vector2(820,510),new Vector2(.5f,.5f)).gameObject;
             Label(credits.transform,"Title",new Vector2(30,-22),new Vector2(760,48),30).text="资源署名";
             var creditText=Resources.Load<TextAsset>("ThirdPartyCredits");
@@ -59,13 +64,14 @@ namespace CatSimulator
             if (ContentPreviewMenu.GameplayInputBlocked) return;
             if (!cat.Automated && Input.GetKeyDown(KeyCode.Escape)) { completion.SetActive(false);credits.SetActive(false);SetPaused(!cat.Paused);pause.SetActive(cat.Paused); }
             prompt.text = cat.Paused ? "" : cat.IsBusy ? "" : cat.Nearest != null ? "E  " + cat.Nearest.prompt : "";
-            version.text="开发原型 "+Application.version+" · "+(cat.transform.position.x>4.25f?"卧室":"客厅");
+            version.text="开发原型 "+Application.version+" · "+session.definition.LocationAt(cat.transform.position);
         }
 
         void Refresh()
         {
-            nameLabel.text=session.CatName+" · 客厅里的小淘气";
-            tasks.text=(session.HasObjective("spill-cup")?"✓":"○")+" 打翻桌上的水杯\n"+(session.HasObjective("damage-curtain")?"✓":"○")+" 抓坏窗边的窗帘";
+            nameLabel.text=session.CatName+" · "+session.definition.displayName;
+            tasks.text=session.definition.IsExploration ? "自由探索\n去卧室、厨房或阳台看看" :
+                (session.HasObjective("spill-cup")?"✓":"○")+" 打翻桌上的水杯\n"+(session.HasObjective("damage-curtain")?"✓":"○")+" 抓坏窗边的窗帘";
             rating.text = new string('★',session.Stars)+new string('☆',5-session.Stars);
             if(session.IsComplete && !resultShown && !cat.Automated) ShowResult();
         }

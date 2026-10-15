@@ -67,7 +67,7 @@ namespace CatSimulator
                 "beside-box",checks,output,order);
             result.movement = checks.ToArray();
             result.obstaclesKeepSteering = checks.All(c => c.progressed && c.noReversal && c.lateralDrift < .05f)
-                && checks.Any(c => c.maxAutomaticCameraYaw > 10);
+                && checks.All(c => c.maxAutomaticCameraYaw < .05f);
 
             var sofaBase=room.GetComponentsInChildren<Renderer>().First(r=>r.name=="Sofa_Base").bounds;
             cat.Teleport(new Vector3(sofaBase.center.x,.065f,sofaBase.max.z+.8f));
@@ -134,7 +134,7 @@ namespace CatSimulator
                 var position=cat.transform.position;
                 if(cat.MovementBlocker!=null) blockers.Add(cat.MovementBlocker);
                 check.noReversal &= Vector3.Dot(position-previous,forward)>=-.003f;
-                check.maxAutomaticCameraYaw=Mathf.Max(check.maxAutomaticCameraYaw,Mathf.Abs(cameraRig.AutomaticYawOffset));
+                check.maxAutomaticCameraYaw=Mathf.Max(check.maxAutomaticCameraYaw,Mathf.Abs(Mathf.DeltaAngle(yaw,cameraRig.transform.eulerAngles.y)));
                 check.lateralDrift=Mathf.Max(check.lateralDrift,Mathf.Abs(Vector3.Dot(position-begin,Quaternion.Euler(0,yaw,0)*Vector3.right)));
                 previous=position;
             }

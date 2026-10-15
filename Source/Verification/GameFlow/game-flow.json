@@ -1,0 +1,61 @@
+{
+    "passed": true,
+    "twoStartButtons": true,
+    "levelChoice": true,
+    "galleryChoices": true,
+    "selectionSaved": true,
+    "separateControllers": true,
+    "stage": "complete",
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "cats": [
+        {
+            "id": "original",
+            "nativeRig": true,
+            "firstLevelTasks": true,
+            "exploration": true,
+            "jumps": true,
+            "stableSteering": true,
+            "replayKeepsCat": true,
+            "bones": 0,
+            "physicalMeshes": 1352,
+            "missingCollisions": 0,
+            "averageFps": 151.8424530029297,
+            "visitedRooms": [
+                "客餐厅",
+                "走廊",
+                "主卧",
+                "次卧与书房",
+                "玄关",
+                "卫生间",
+                "厨房",
+                "阳台"
+            ],
+            "unreachableRooms": []
+        },
+        {
+            "id": "abyssinian",
+            "nativeRig": true,
+            "firstLevelTasks": true,
+            "exploration": true,
+            "jumps": true,
+            "stableSteering": true,
+            "replayKeepsCat": true,
+            "bones": 38,
+            "physicalMeshes": 1352,
+            "missingCollisions": 0,
+            "averageFps": 190.87330627441407,
+            "visitedRooms": [
+                "客餐厅",
+                "走廊",
+                "主卧",
+                "次卧与书房",
+                "玄关",
+                "卫生间",
+                "厨房",
+                "阳台"
+            ],
+            "unreachableRooms": []
+        }
+    ],
+    "errors": []
+}

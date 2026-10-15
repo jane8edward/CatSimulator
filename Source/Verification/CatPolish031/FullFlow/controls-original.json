@@ -1,0 +1,14 @@
+{
+    "passed": true,
+    "exitedTable": true,
+    "closeViewTriggered": true,
+    "manualTurnFollowed": true,
+    "cameraRecovered": true,
+    "maxViewAngleError": 0.0,
+    "maxMoveAngleError": 0.0,
+    "maxFacingAngleError": 0.0,
+    "minimumDistance": 0.14992183446884156,
+    "recoveredDistance": 2.010251045227051,
+    "underTableFrames": 52,
+    "clippedFrames": 0
+}

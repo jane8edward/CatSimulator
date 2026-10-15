@@ -1,0 +1,4 @@
+Expansion: 1.18
+Dynamic props: 35
+Soft surfaces: 27
+Dining intersections: 0

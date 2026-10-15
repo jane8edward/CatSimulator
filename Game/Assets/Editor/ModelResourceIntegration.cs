@@ -142,10 +142,11 @@ namespace CatSimulator.Editor
 
         public static void BuildMac()
         {
+            FullGameBuilder.EnsureAssets();
             Validate();
             Directory.CreateDirectory("../Builds/Mac");
             var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions {
-                scenes = new[]{"Assets/Scenes/LivingRoom.unity", CatWalkAuthoring.ScenePath, Preview},
+                scenes = FullGameBuilder.ScenePaths,
                 locationPathName = "../Builds/Mac/CatSimulator.app", target = BuildTarget.StandaloneOSX,
                 options = BuildOptions.Development });
             File.WriteAllText("../Source/Verification/ModelResources/mac-build.json", "{\"result\":\"" + report.summary.result +

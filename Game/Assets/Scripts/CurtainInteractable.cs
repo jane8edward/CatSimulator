@@ -11,14 +11,14 @@ namespace CatSimulator
         public override IEnumerator Perform(CatController cat)
         {
             performed = true;
-            cat.animator.SetTrigger("WalkAction");
+            cat.TriggerAnimation("WalkAction");
             yield return cat.MoveTo(actionPosition.position, .45f);
             var facing = Vector3.ProjectOnPlane(Anchor.position - cat.transform.position, Vector3.up);
             cat.transform.rotation = Quaternion.LookRotation(facing);
             var ground = cat.transform.position;
-            cat.animator.SetTrigger("Jump");
+            cat.TriggerAnimation("Jump");
             yield return cat.MoveTo(ground + Vector3.up * .75f + facing.normalized * .08f, .6f, .12f);
-            cat.animator.SetTrigger("Scratch");
+            cat.TriggerAnimation("Scratch");
             var elapsed = 0f;
             var rotation = intact.transform.localRotation;
             while (elapsed < 2.2f)
@@ -30,10 +30,10 @@ namespace CatSimulator
             intact.transform.localRotation = rotation;
             intact.SetActive(false);
             damaged.SetActive(true);
-            cat.animator.SetTrigger("Jump");
+            cat.TriggerAnimation("Jump");
             yield return cat.MoveTo(ground, .5f);
             session.CompleteObjective("damage-curtain");
-            cat.animator.SetTrigger("Idle");
+            cat.TriggerAnimation("Idle");
         }
     }
 

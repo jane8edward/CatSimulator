@@ -11,9 +11,9 @@ namespace CatSimulator
         {
             for (var index = 0; index < route.Length; index++)
             {
-                cat.animator.SetTrigger(index == 0 ? "WalkAction" : "Jump");
+                cat.TriggerAnimation(index == 0 ? "WalkAction" : "Jump");
                 yield return cat.MoveTo(route[index].position, index == 0 ? .6f : .7f, index == 0 ? 0 : .2f);
-                cat.animator.SetTrigger("Land");
+                cat.TriggerAnimation("Land");
                 yield return new WaitForSeconds(.16f);
             }
             session.Discover(interactionId);

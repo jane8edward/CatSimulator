@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7088c47a44bff414c899674207662592, type: 3}
+  m_Name: CatCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::CatSimulator.CatCatalog
+  cats:
+  - id: original
+    displayName: "\u539F\u7248\u732B"
+    description: "\u539F\u6709\u5F85\u673A\u3001\u884C\u8D70\u3001\u5954\u8DD1\u4E0E\u4E92\u52A8\u52A8\u4F5C"
+    visualPrefab: {fileID: 7337433372315882418, guid: 62072ba54be760a4fbdcee5da1acd175, type: 3}
+    visualEuler: {x: 0, y: 180, z: 0}
+    visualScale: 1
+    walkSpeed: 0.78
+    runSpeed: 1.62
+    animationKind: 0
+    cycleSeconds: 1.2
+    strideMeters: 0.28
+  - id: abyssinian
+    displayName: "\u963F\u6BD4\u5C3C\u897F\u4E9A\u732B"
+    description: "\u72EC\u7ACB\u884C\u8D70\u52A8\u753B\uFF1B\u4E92\u52A8\u4F7F\u7528\u8FD9\u53EA\u732B\u7684\u59FF\u6001\u8FC7\u6E21"
+    visualPrefab: {fileID: 12011454841337786, guid: 6ca041d8ba1284b9494177c81622bbff, type: 3}
+    visualEuler: {x: 0, y: -0.1557, z: 0}
+    visualScale: 0.62
+    walkSpeed: 0.52
+    runSpeed: 1.05
+    animationKind: 1
+    cycleSeconds: 1.2
+    strideMeters: 0.28
+  - id: balcony
+    displayName: "\u9633\u53F0\u4E09\u82B1\u732B"
+    description: "\u5706\u6EDA\u6EDA\u7684\u4E09\u82B1\u5C0F\u732B\uFF0C\u597D\u5947\u53C8\u9ECF\u4EBA"
+    visualPrefab: {fileID: 6009670541406240699, guid: 0e2e39a20a453e14ea164d25cd4935c8, type: 3}
+    visualEuler: {x: 0, y: 180, z: 0}
+    visualScale: 1
+    walkSpeed: 0.78
+    runSpeed: 1.62
+    animationKind: 0
+    cycleSeconds: 1.2
+    strideMeters: 0.28

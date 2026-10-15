@@ -11,11 +11,11 @@ namespace CatSimulator
         public override IEnumerator Perform(CatController cat)
         {
             performed = true;
-            cat.animator.SetTrigger("WalkAction");
+            cat.TriggerAnimation("WalkAction");
             yield return cat.MoveTo(actionPosition.position, .65f, .35f);
             var facing = Vector3.ProjectOnPlane(cupBody.position - cat.transform.position, Vector3.up);
             cat.transform.rotation = Quaternion.LookRotation(facing);
-            cat.animator.SetTrigger("Paw");
+            cat.TriggerAnimation("Paw");
             yield return new WaitForSeconds(.42f);
             cupBody.isKinematic = false;
             cupBody.AddForce((facing.normalized + Vector3.up * .2f) * .2f, ForceMode.Impulse);

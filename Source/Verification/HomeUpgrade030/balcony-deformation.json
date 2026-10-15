@@ -1,0 +1,194 @@
+{
+  "passed": true,
+  "clips": [
+    {
+      "name": "Idle",
+      "frames": 49,
+      "minimumVertexZ": 0.000999952433630824,
+      "maximumExtent": 0.49976152181625366,
+      "finite": true,
+      "minimumFrame": 1,
+      "minimumWeights": [
+        [
+          "tripo::0_Right_Limb_2",
+          0.891757607460022
+        ],
+        [
+          "tripo::0_Right_Limb_3",
+          0.10662319511175156
+        ],
+        [
+          "tripo::0_Right_Limb_1",
+          0.001506119966506958
+        ],
+        [
+          "tripo::Head_2",
+          0.00011306416854495183
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "Walk",
+      "frames": 28,
+      "minimumVertexZ": 0.0005034919595345855,
+      "maximumExtent": 0.4989575147628784,
+      "finite": true,
+      "minimumFrame": 1,
+      "minimumWeights": [
+        [
+          "tripo::0_Right_Limb_2",
+          0.9955975413322449
+        ],
+        [
+          "tripo::0_Right_Limb_1",
+          0.003619198454543948
+        ],
+        [
+          "tripo::0_Right_Limb_3",
+          0.0007143162656575441
+        ],
+        [
+          "tripo::Head_2",
+          6.895121623529121e-05
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "Run",
+      "frames": 15,
+      "minimumVertexZ": 0.0010010241530835629,
+      "maximumExtent": 0.5161912888288498,
+      "finite": true,
+      "minimumFrame": 3,
+      "minimumWeights": [
+        [
+          "tripo::0_Right_Limb_2",
+          0.9955975413322449
+        ],
+        [
+          "tripo::0_Right_Limb_1",
+          0.003619198454543948
+        ],
+        [
+          "tripo::0_Right_Limb_3",
+          0.0007143162656575441
+        ],
+        [
+          "tripo::Head_2",
+          6.895121623529121e-05
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "Jump",
+      "frames": 20,
+      "minimumVertexZ": 0.0006151863490231335,
+      "maximumExtent": 0.499759316444397,
+      "finite": true,
+      "minimumFrame": 3,
+      "minimumWeights": [
+        [
+          "tripo::0_Left_Limb_2",
+          0.7429336905479431
+        ],
+        [
+          "tripo::0_Left_Limb_3",
+          0.2547757625579834
+        ],
+        [
+          "tripo::0_Left_Limb_1",
+          0.0021119883749634027
+        ],
+        [
+          "bone_49",
+          0.00017853132158052176
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "Land",
+      "frames": 7,
+      "minimumVertexZ": 0.0009995184373110533,
+      "maximumExtent": 0.49975596368312836,
+      "finite": true,
+      "minimumFrame": 1,
+      "minimumWeights": [
+        [
+          "tripo::1_Left_Limb_2",
+          0.7949228882789612
+        ],
+        [
+          "tripo::1_Left_Limb_3",
+          0.196681946516037
+        ],
+        [
+          "tripo::1_Left_Limb_1",
+          0.006818563677370548
+        ],
+        [
+          "bone_49",
+          0.0015765929128974676
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "Paw",
+      "frames": 24,
+      "minimumVertexZ": 0.0009991680271923542,
+      "maximumExtent": 0.5364525467157364,
+      "finite": true,
+      "minimumFrame": 2,
+      "minimumWeights": [
+        [
+          "tripo::0_Right_Limb_2",
+          0.9955975413322449
+        ],
+        [
+          "tripo::0_Right_Limb_1",
+          0.003619198454543948
+        ],
+        [
+          "tripo::0_Right_Limb_3",
+          0.0007143162656575441
+        ],
+        [
+          "tripo::Head_2",
+          6.895121623529121e-05
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "Scratch",
+      "frames": 59,
+      "minimumVertexZ": 0.0009945250349119306,
+      "maximumExtent": 0.5759726613759995,
+      "finite": true,
+      "minimumFrame": 4,
+      "minimumWeights": [
+        [
+          "tripo::1_Left_Limb_2",
+          0.7949228882789612
+        ],
+        [
+          "tripo::1_Left_Limb_3",
+          0.196681946516037
+        ],
+        [
+          "tripo::1_Left_Limb_1",
+          0.006818563677370548
+        ],
+        [
+          "bone_49",
+          0.0015765929128974676
+        ]
+      ],
+      "passed": true
+    }
+  ]
+}

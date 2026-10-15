@@ -110,7 +110,8 @@ namespace CatSimulator
         IEnumerator Capture(string name)
         {
             yield return new WaitForSecondsRealtime(.35f);yield return new WaitForEndOfFrame();
-            report.cameraClearAtInteractions &= Vector3.Distance(cameraRig.transform.position,cat.transform.position+Vector3.up*.26f)>=.9f;
+            report.cameraClearAtInteractions &= Quaternion.Angle(cameraRig.transform.rotation,cameraRig.ViewRotation)<.05f &&
+                !Physics.CheckSphere(cameraRig.transform.position,.03f*cat.BodyScale,~(1<<8),QueryTriggerInteraction.Ignore);
             var texture=VerificationRenderTarget.Capture();
             if(texture==null) { errors.Add("Screenshot capture failed: "+name);yield break; }
             File.WriteAllBytes(Path.Combine(output,order+"-"+name+".png"),texture.EncodeToPNG());Destroy(texture);

@@ -1,0 +1,12 @@
+NOTE: This import sample was refreshed during 0.3.1 development and is not a preserved 0.3.0 snapshot.
+For 0.3.0 runtime evidence use FullFlow/game-flow.json. Current import evidence is in ../CatPolish031/balcony-animation-import.txt.
+
+50 bones; 25,515 source vertices; 47875 imported vertices after UV/normal splits; normalized weights; native UV and texture retained.
+BalconyCat_Rig|Land: 0.25s; paw sample displacement 0.0001135208m
+BalconyCat_Rig|Jump: 0.7916667s; paw sample displacement 0.03099264m
+BalconyCat_Rig|Scratch: 2.416667s; paw sample displacement 0.02825105m
+BalconyCat_Rig|Walk: 1.166667s; paw sample displacement 0.137599m
+BalconyCat_Rig|Run: 0.625s; paw sample displacement 0.1367704m
+BalconyCat_Rig|Paw: 0.9583334s; paw sample displacement 0.07982021m
+BalconyCat_Rig|Idle: 2s; paw sample displacement 0m
+

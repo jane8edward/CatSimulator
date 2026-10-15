@@ -1,0 +1,73 @@
+{
+  "version": "0.3.0",
+  "verifiedAt": "2026-10-15T20:14:39.8886333+08:00",
+  "passed": true,
+  "unity": "6000.3.26f1",
+  "resolution": "1920x1080",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "assemblyCSharpSHA256": "13B6C20C802CC8A756C4E6A68AFA0A533152734069D2BFE0D7891567607CD828",
+  "expandedHorizontalFactor": 1.18,
+  "dynamicProps": 35,
+  "softSurfaces": 27,
+  "cats": [
+    {
+      "id": "original",
+      "fps": 114.88167572021484,
+      "rooms": [
+        "客餐厅",
+        "走廊",
+        "主卧",
+        "次卧与书房",
+        "玄关",
+        "卫生间",
+        "厨房",
+        "阳台"
+      ],
+      "rig": true,
+      "tasks": true,
+      "controls": true,
+      "physics": true,
+      "missingCollisions": 0
+    },
+    {
+      "id": "abyssinian",
+      "fps": 123.6246109008789,
+      "rooms": [
+        "客餐厅",
+        "走廊",
+        "主卧",
+        "次卧与书房",
+        "玄关",
+        "卫生间",
+        "厨房",
+        "阳台"
+      ],
+      "rig": true,
+      "tasks": true,
+      "controls": true,
+      "physics": true,
+      "missingCollisions": 0
+    },
+    {
+      "id": "balcony",
+      "fps": 119.86849212646484,
+      "rooms": [
+        "客餐厅",
+        "走廊",
+        "主卧",
+        "次卧与书房",
+        "玄关",
+        "卫生间",
+        "厨房",
+        "阳台"
+      ],
+      "rig": true,
+      "tasks": true,
+      "controls": true,
+      "physics": true,
+      "missingCollisions": 0
+    }
+  ],
+  "originalBedroomPhysics": true,
+  "all202AnimationFrames": true
+}

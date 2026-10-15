@@ -1,0 +1,137 @@
+{
+    "version": "0.3.1",
+    "passed": true,
+    "separatingContact": true,
+    "offCentreEnergy": true,
+    "walkTailRaised": true,
+    "runTailTrails": true,
+    "incidentEnergy": 0.2657812833786011,
+    "remainingEnergy": 0.25053587555885317,
+    "idleTailRise": 0.08477246761322022,
+    "walkTailRise": 0.0846136212348938,
+    "runTailRise": 0.027797266840934755,
+    "masses": [
+        {
+            "mass": 0.04500000178813934,
+            "expected": 0.5822551250457764,
+            "actual": 0.5822551250457764,
+            "passed": true
+        },
+        {
+            "mass": 0.2199999988079071,
+            "expected": 0.5221956372261047,
+            "actual": 0.5221956372261047,
+            "passed": true
+        },
+        {
+            "mass": 0.6499999761581421,
+            "expected": 0.41660547256469729,
+            "actual": 0.41660547256469729,
+            "passed": true
+        },
+        {
+            "mass": 1.7999999523162842,
+            "expected": 0.270386278629303,
+            "actual": 0.270386278629303,
+            "passed": true
+        },
+        {
+            "mass": 8.0,
+            "expected": 0.0934872254729271,
+            "actual": 0.0934872254729271,
+            "passed": true
+        }
+    ],
+    "frameRates": [
+        {
+            "renderRate": 30,
+            "peakSpeed": 0.6000000238418579,
+            "passed": true
+        },
+        {
+            "renderRate": 60,
+            "peakSpeed": 0.6000000238418579,
+            "passed": true
+        },
+        {
+            "renderRate": 144,
+            "peakSpeed": 0.6000000238418579,
+            "passed": true
+        }
+    ],
+    "realContacts": [
+        {
+            "name": "H90_LIB_CAT008_SisalBall_01_Item_1",
+            "mode": "walk",
+            "catSpeed": 0.5849999785423279,
+            "peakHorizontal": 0.5022355914115906,
+            "peakUp": 0.0,
+            "travel": 0.4275169372558594,
+            "passed": true
+        },
+        {
+            "name": "H90_LIB_CAT008_SisalBall_01_Item_1",
+            "mode": "run",
+            "catSpeed": 1.215000033378601,
+            "peakHorizontal": 1.0147689580917359,
+            "peakUp": 0.0,
+            "travel": 1.1234550476074219,
+            "passed": true
+        },
+        {
+            "name": "H90_LIB_PRP008_Book_01_Item_1",
+            "mode": "walk",
+            "catSpeed": 0.5849999785423279,
+            "peakHorizontal": 0.3634810745716095,
+            "peakUp": 0.0,
+            "travel": 0.18889103829860688,
+            "passed": true
+        },
+        {
+            "name": "H90_LIB_PRP008_Book_01_Item_1",
+            "mode": "run",
+            "catSpeed": 1.215000033378601,
+            "peakHorizontal": 0.9924766421318054,
+            "peakUp": 0.0,
+            "travel": 0.2798851430416107,
+            "passed": true
+        },
+        {
+            "name": "H90_LIV_PRP009_CoffeeMug_01_Item_1",
+            "mode": "walk",
+            "catSpeed": 0.5849999785423279,
+            "peakHorizontal": 0.6072543859481812,
+            "peakUp": 0.128790944814682,
+            "travel": 0.10026448965072632,
+            "passed": true
+        },
+        {
+            "name": "H90_LIV_PRP009_CoffeeMug_01_Item_1",
+            "mode": "run",
+            "catSpeed": 1.215000033378601,
+            "peakHorizontal": 1.0480215549468995,
+            "peakUp": 0.3062124252319336,
+            "travel": 0.7047849893569946,
+            "passed": true
+        },
+        {
+            "name": "H90_LIB_PRP012_TablePlant_01_Item_4",
+            "mode": "walk",
+            "catSpeed": 0.5849999785423279,
+            "peakHorizontal": 0.6517261862754822,
+            "peakUp": 0.167985200881958,
+            "travel": 0.30616530776023867,
+            "passed": true
+        },
+        {
+            "name": "H90_LIB_PRP012_TablePlant_01_Item_4",
+            "mode": "run",
+            "catSpeed": 1.215000033378601,
+            "peakHorizontal": 1.189582109451294,
+            "peakUp": 0.3891330659389496,
+            "travel": 0.999748945236206,
+            "passed": true
+        }
+    ],
+    "errors": []
+}

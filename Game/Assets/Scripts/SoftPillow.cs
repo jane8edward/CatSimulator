@@ -7,6 +7,8 @@ namespace CatSimulator
     {
         public float maximumSink = .045f;
         public float recoveryTime = .42f;
+        public bool useSharedHeightRange;
+        public float deformationBaseY,deformationTopY,activationCeilingY;
         public float CurrentIndentation { get; private set; }
         public float CollisionIndentation { get; private set; }
         Mesh mesh;
@@ -42,15 +44,15 @@ namespace CatSimulator
             if (elapsed < 1f / 30) return;
             lastSurfaceUpdate = Time.time;
             var foot = cat.transform.position;
-            var loaded = foot.y >= restBounds.min.y - .03f && foot.y <= restBounds.max.y + .12f
+            var loaded = foot.y >= restBounds.min.y - .03f && foot.y <= Mathf.Max(restBounds.max.y + .12f,activationCeilingY)
                 && foot.x > restBounds.min.x - .10f && foot.x < restBounds.max.x + .10f
                 && foot.z > restBounds.min.z - .10f && foot.z < restBounds.max.z + .10f;
             if (loaded)
             {
-                paws[0] = cat.transform.TransformPoint(new Vector3(-.075f, 0, .16f));
-                paws[1] = cat.transform.TransformPoint(new Vector3(.075f, 0, .16f));
-                paws[2] = cat.transform.TransformPoint(new Vector3(-.075f, 0, -.09f));
-                paws[3] = cat.transform.TransformPoint(new Vector3(.075f, 0, -.09f));
+                paws[0] = cat.transform.TransformPoint(new Vector3(-.075f, 0, .16f)*cat.BodyScale);
+                paws[1] = cat.transform.TransformPoint(new Vector3(.075f, 0, .16f)*cat.BodyScale);
+                paws[2] = cat.transform.TransformPoint(new Vector3(-.075f, 0, -.09f)*cat.BodyScale);
+                paws[3] = cat.transform.TransformPoint(new Vector3(.075f, 0, -.09f)*cat.BodyScale);
             }
             var previous = pressure;
             pressure = Mathf.SmoothDamp(pressure, loaded ? 1 : 0, ref pressureVelocity,
@@ -61,7 +63,8 @@ namespace CatSimulator
             for (var i = 0; i < rest.Length; i++)
             {
                 var world = restWorld[i];
-                var height = Mathf.InverseLerp(restBounds.min.y, restBounds.max.y, world.y);
+                var height = Mathf.InverseLerp(useSharedHeightRange?deformationBaseY:restBounds.min.y,
+                    useSharedHeightRange?deformationTopY:restBounds.max.y,world.y);
                 var influence = 0f;
                 for (var p = 0; p < paws.Length; p++)
                 {

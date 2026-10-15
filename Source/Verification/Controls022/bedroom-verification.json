@@ -1,0 +1,43 @@
+{
+    "version": "0.2.2",
+    "resolution": "1920x1080",
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "passed": true,
+    "doorwayClear": true,
+    "floorSupported": true,
+    "catVisualPreserved": true,
+    "physicalMeshes": 286,
+    "missingCollisions": [],
+    "errors": [],
+    "walking": [
+        {
+            "route": "living-to-bedroom",
+            "reached": true,
+            "noReversal": true,
+            "travel": 1.694417953491211,
+            "minimumCameraDistance": 2.052870750427246
+        },
+        {
+            "route": "bedroom-to-living",
+            "reached": true,
+            "noReversal": true,
+            "travel": 1.6950325965881348,
+            "minimumCameraDistance": 2.053144931793213
+        },
+        {
+            "route": "bedroom-center-aisle",
+            "reached": true,
+            "noReversal": true,
+            "travel": 2.884871482849121,
+            "minimumCameraDistance": 2.0526442527770998
+        }
+    ],
+    "bedroomFloorSize": {
+        "x": 5.59999942779541,
+        "y": 0.15000072121620179,
+        "z": 6.09999942779541
+    },
+    "averageFps": 213.4691162109375,
+    "p95FrameMs": 5.164505481719971,
+    "p99FrameMs": 5.368494987487793
+}

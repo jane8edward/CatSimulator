@@ -1,0 +1,88 @@
+{
+  "version": "0.3.1",
+  "verifiedAt": "2026-10-15T22:24:20.4753905+08:00",
+  "passed": true,
+  "unity": "6000.3.26f1",
+  "resolution": "1920x1080",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "assemblyCSharpSHA256": "4DA95AEED75EB306A40DC708CB1F2483E9C092FB8C496830DE3397C676B314B1",
+  "sceneFilesPreserved": true,
+  "backup": "Source/Backups/before-031-20261015-204302",
+  "animationFrames": 204.0,
+  "animationContinuity": true,
+  "physicalContacts": true,
+  "originalBedroomPhysics": true,
+  "finiteMassesKg": [
+    0.04500000178813934,
+    0.2199999988079071,
+    0.6499999761581421,
+    1.7999999523162842,
+    8.0
+  ],
+  "sustainedContactPeakSpeeds": [
+    0.6000000238418579,
+    0.6000000238418579,
+    0.6000000238418579
+  ],
+  "offCentreIncidentEnergyJ": 0.2657812833786011,
+  "offCentreRemainingEnergyJ": 0.25053587555885315,
+  "cats": [
+    {
+      "id": "original",
+      "fps": 87.79703521728516,
+      "rooms": [
+        "客餐厅",
+        "走廊",
+        "主卧",
+        "次卧与书房",
+        "玄关",
+        "卫生间",
+        "厨房",
+        "阳台"
+      ],
+      "rig": true,
+      "tasks": true,
+      "controls": true,
+      "physics": true,
+      "missingCollisions": 0
+    },
+    {
+      "id": "abyssinian",
+      "fps": 101.63092041015625,
+      "rooms": [
+        "客餐厅",
+        "走廊",
+        "主卧",
+        "次卧与书房",
+        "玄关",
+        "卫生间",
+        "厨房",
+        "阳台"
+      ],
+      "rig": true,
+      "tasks": true,
+      "controls": true,
+      "physics": true,
+      "missingCollisions": 0
+    },
+    {
+      "id": "balcony",
+      "fps": 108.14521789550781,
+      "rooms": [
+        "客餐厅",
+        "走廊",
+        "主卧",
+        "次卧与书房",
+        "玄关",
+        "卫生间",
+        "厨房",
+        "阳台"
+      ],
+      "rig": true,
+      "tasks": true,
+      "controls": true,
+      "physics": true,
+      "missingCollisions": 0
+    }
+  ]
+}

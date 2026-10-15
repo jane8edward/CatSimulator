@@ -22,15 +22,15 @@ Unity 现有 `.meta` 的 GUID 沿用桌面工程；新增资源的 `.meta` 随�
 ## 打开
 
 1. 使用 Unity 6000.3.26f1 打开仓库的 `Game`，先完成 `git lfs pull`。
-2. 原关卡仍是 `Assets/Scenes/LivingRoom.unity`。本次不替换现有玩家、场景及任务。
+2. 开始界面是 `Assets/Scenes/StartMenu.unity`。第一关仍是 `Assets/Scenes/LivingRoom.unity`，第二关是 `Assets/Scenes/Home90.unity`。
 3. 行走预览：`Assets/Cat/Scenes/Walk_Preview.unity`，点 Play。可暂停、重置、切换前进与原地。
 4. 全屋预览：`Assets/Scenes/Home90_Preview.unity`。这是供美术检查的独立场景。
 5. 在 Blender 5.2 打开 `Source/Blender/CatHome90/04_场景工程/Blender/Layout/H90_Residence_v001.blend`。
 
-Windows 包通过 `tools/build.ps1` 构建，包含原关卡和两个预览。打开 `Builds/Windows/CatSimulator.exe` 后，在启动菜单选择“进入游戏”“新猫 · 行走动画”或“90㎡住宅 · 全屋预览”；运行时按 F4 可再次选择。新猫和住宅预览用于美术检查，尚未成为新的可玩关卡。
+Windows 包通过 `tools/build.ps1` 构建。打开 `Builds/Windows/CatSimulator.exe` 后，开始界面提供“开始游戏”和“查看猫咪模型”两个按钮；开始游戏后选择第一关客厅与卧室任务，或第二关 90㎡住宅自由探索。模型页面可旋转、缩放、播放行走并选用原版猫或阿比尼西亚猫；选择会保存，进入关卡和重玩时沿用。完整玩法说明见 `docs/gameplay-0.2.0.md`。
 
 住宅原生源文件保留 22 个阵列与 51 个集合实例；FBX 将它们展开为 1352 个网格对象，使用米制。
-Unity 基础材质近似原生程序化材质；木纹、布料与玻璃的最终纹理烘焙、LOD、全屋玩法与碰撞验收待后续制作。
+Unity 基础材质近似原生程序化材质；木纹、布料与玻璃的最终纹理烘焙和 LOD 待后续制作。可探索住宅是单独的游戏场景，包含物理碰撞、打开的室内通道和第三人称猫咪控制；原生住宅和历史轴测预览保持独立。
 猫的步幅为 0.28m、周期 1.2s，匹配 0.2333m/s。现骨架以肩根移动近似肩胛滑动，尚无肌肉动力学。
 
 ## 复测

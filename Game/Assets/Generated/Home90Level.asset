@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44df6d217c801e6438c98d621e96c7b5, type: 3}
+  m_Name: Home90Level
+  m_EditorClassIdentifier: Assembly-CSharp::CatSimulator.LevelDefinition
+  levelId: home90-02
+  displayName: "\u5BBD\u655E\u4F4F\u5B85 \xB7 \u81EA\u7531\u63A2\u7D22"
+  requiredObjectives: []
+  activityBounds:
+    m_Center: {x: -5.8999996, y: 1.5, z: -5.31}
+    m_Extent: {x: 5.664, y: 2, z: 5.074}
+  spawnPosition: {x: -8.967999, y: 0.025, z: -3.9529998}
+  spawnYaw: 180
+  playerScale: 0.75
+  daylightColor: {r: 1, g: 0.91, b: 0.78, a: 1}
+  sunlightEuler: {x: 42, y: -32, z: 0}
+  areas:
+  - name: "\u5BA2\u9910\u5385"
+    bounds:
+      m_Center: {x: -8.2954, y: 1.4, z: -4.484}
+      m_Extent: {x: 3.2685997, y: 1.6, z: 2.5251997}
+  - name: "\u4E3B\u5367"
+    bounds:
+      m_Center: {x: -2.5605998, y: 1.4, z: -2.4425998}
+      m_Extent: {x: 2.3246, y: 1.6, z: 2.2065997}
+  - name: "\u6B21\u5367\u4E0E\u4E66\u623F"
+    bounds:
+      m_Center: {x: -1.8525999, y: 1.4, z: -6.49}
+      m_Extent: {x: 1.6165999, y: 1.6, z: 1.6991998}
+  - name: "\u8D70\u5ECA"
+    bounds:
+      m_Center: {x: -4.2479997, y: 1.4, z: -6.49}
+      m_Extent: {x: 0.6372, y: 1.6, z: 1.6991998}
+  - name: "\u7384\u5173"
+    bounds:
+      m_Center: {x: -2.5605998, y: 1.4, z: -9.357399}
+      m_Extent: {x: 2.3246, y: 1.6, z: 1.0265999}
+  - name: "\u536B\u751F\u95F4"
+    bounds:
+      m_Center: {x: -6.49, y: 1.4, z: -8.7674}
+      m_Extent: {x: 1.4631999, y: 1.6, z: 1.6165998}
+  - name: "\u53A8\u623F"
+    bounds:
+      m_Center: {x: -9.829399, y: 1.4, z: -8.7674}
+      m_Extent: {x: 1.7346, y: 1.6, z: 1.6165998}
+  - name: "\u9633\u53F0"
+    bounds:
+      m_Center: {x: -8.2954, y: 1.4, z: -1.0266}
+      m_Extent: {x: 3.2685997, y: 1.6, z: 0.79059994}

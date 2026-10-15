@@ -1,0 +1,55 @@
+{
+    "passed": true,
+    "expanded": true,
+    "fridgeFacesInterior": true,
+    "propsStable": true,
+    "propsPresented": true,
+    "coffeeItemsSupported": true,
+    "catRollsBall": true,
+    "bookMoves": true,
+    "lampTips": true,
+    "plantFalls": true,
+    "layersFollow": true,
+    "dynamicProps": 35,
+    "softSurfaces": 27,
+    "ballTravel": 3.1347947120666506,
+    "bookTravel": 0.07643627375364304,
+    "lampAngle": 40.86098098754883,
+    "soft": [
+        {
+            "name": "H90_LIV_FUR001_Sofa_01_P11_SeatCushion_2_E0657",
+            "deforms": true,
+            "collisionFollows": true,
+            "recovers": true,
+            "indentation": 0.034999996423721316,
+            "surfaceDrop": 0.0350000262260437,
+            "recovered": 0.0
+        },
+        {
+            "name": "H90_MBR_FUR007_MasterBed_01_P07_Mattress_E0168",
+            "deforms": true,
+            "collisionFollows": true,
+            "recovers": true,
+            "indentation": 0.03500000014901161,
+            "surfaceDrop": 0.034999966621398929,
+            "recovered": 0.0
+        },
+        {
+            "name": "H90_LIB_PRP002_SleepingPillow_01_P01_CottonPillow_E0220",
+            "deforms": true,
+            "collisionFollows": true,
+            "recovers": true,
+            "indentation": 0.04500000178813934,
+            "surfaceDrop": 0.04500001668930054,
+            "recovered": 0.0
+        }
+    ],
+    "unstableProps": [],
+    "coffeeSupports": [
+        "H90_LIB_PRP008_Book_01_Item_1 actual-surface-gap=0.00003 bounds-center-gap=-0.02398",
+        "H90_LIB_PRP008_Book_01_Item_2 actual-surface-gap=-0.00012 bounds-center-gap=-0.00994",
+        "H90_LIB_PRP012_TablePlant_01_Item_2 actual-surface-gap=0.00000 bounds-center-gap=0.00000",
+        "H90_LIV_PRP009_CoffeeMug_01_Item_1 actual-surface-gap=0.00000 bounds-center-gap=0.00000",
+        "H90_LIV_PRP010_OvalTray_01_Item_1 actual-surface-gap=0.00004 bounds-center-gap=-0.00199"
+    ]
+}

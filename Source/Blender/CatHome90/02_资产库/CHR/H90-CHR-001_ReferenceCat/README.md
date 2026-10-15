@@ -26,3 +26,9 @@
 [原生模型](Source/H90_CHR_001_ReferenceCat_v001_native.blend)｜已按米制尺寸建模并保留部件结构、材质与修改器。
 
 可在 Blender 资产浏览器中通过对应资产分类查找；游戏引擎验收待后续完成。
+
+## 0.3.0 可玩角色变体
+
+阳台装饰实例保留。新增的“阳台三花猫”使用独立资产目录 `Source/Blender/BalconyCat` 与 `Game/Assets/Art/BalconyCat`，保留原模型和贴图，以原有 50 骨骼蒙皮为基础整理权重，并适配第一只猫的七组动作。Unity 开始界面可查看并选择，在两关中使用。
+
+可编辑文件为 `Source/Blender/BalconyCat/BalconyCat_Rigged.blend`，动作与权重报告为同目录 `rig-report.json`。实机报告及截图位于 `Source/Verification/HomeUpgrade030`；详细方法见根目录 `docs/home-upgrade-030.md`。以上路径均相对仓库根目录，原始 FBX 和原生静态资产未覆盖。

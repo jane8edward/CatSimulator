@@ -1,0 +1,49 @@
+{
+    "version": "0.2.2",
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "resolution": "1920x1080",
+    "passed": true,
+    "propsStable": true,
+    "catPushesMouse": true,
+    "lampTips": true,
+    "plantFallsAndSettles": true,
+    "phoneTetherWorks": true,
+    "replayResets": true,
+    "deskSize": {
+        "x": 2.200000286102295,
+        "y": 0.060000061988830569,
+        "z": 0.8799999952316284
+    },
+    "dynamicProps": 14,
+    "mouseTravel": 1.3898454904556275,
+    "lampAngle": 107.51209259033203,
+    "plantFloorHeight": -0.003278985619544983,
+    "cableDistance": 1.0897401571273804,
+    "maximumCableDistance": 1.1077016592025757,
+    "phoneTravel": 0.63157719373703,
+    "averageFps": 135.725341796875,
+    "p95FrameMs": 9.0964994430542,
+    "p99FrameMs": 10.834197044372559,
+    "missingDynamicCollisions": [],
+    "errors": [],
+    "pillows": [
+        {
+            "name": "Bedroom_Pillow",
+            "deforms": true,
+            "collisionFollows": true,
+            "recovers": true,
+            "indentation": 0.03968502953648567,
+            "surfaceDrop": 0.03652900457382202,
+            "recoveryError": 0.000024020671844482422
+        },
+        {
+            "name": "Bedroom_Pillow.001",
+            "deforms": true,
+            "collisionFollows": true,
+            "recovers": true,
+            "indentation": 0.03961389511823654,
+            "surfaceDrop": 0.0365256667137146,
+            "recoveryError": 0.00002092123031616211
+        }
+    ]
+}

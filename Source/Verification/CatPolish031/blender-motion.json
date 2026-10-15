@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "clips": [
+    {
+      "name": "Idle",
+      "frames": 49,
+      "minVertexZ": 0.0009999544126912951,
+      "maxExtent": 0.4787076264619827,
+      "maxElbowStep": 9.18569267238524e-08,
+      "maxWristStep": 6.146728992462158e-08,
+      "minimumPawSeparation": 0.05856512859463692,
+      "minTailRise": 0.14389576017856598,
+      "maxTailRise": 0.15175940096378326,
+      "maxPawBank": 1.5646217832454568e-07,
+      "loopStep": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Walk",
+      "frames": 29,
+      "minVertexZ": 0.0007223489228636026,
+      "maxExtent": 0.4938715845346451,
+      "maxElbowStep": 0.03005373464104981,
+      "maxWristStep": 0.03765365141237611,
+      "minimumPawSeparation": 0.058563366532325745,
+      "minTailRise": 0.14701737463474274,
+      "maxTailRise": 0.15418706834316254,
+      "maxPawBank": 2.8276477337385586e-07,
+      "loopStep": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Run",
+      "frames": 16,
+      "minVertexZ": -0.002824330236762762,
+      "maxExtent": 0.556208074092865,
+      "maxElbowStep": 0.055780565956540296,
+      "maxWristStep": 0.057212091064035075,
+      "minimumPawSeparation": 0.04809008538722992,
+      "minTailRise": 0.057949721813201904,
+      "maxTailRise": 0.07284706830978394,
+      "maxPawBank": 4.096749535165145e-07,
+      "loopStep": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Jump",
+      "frames": 20,
+      "minVertexZ": 0.000704387086443603,
+      "maxExtent": 0.5345421731472015,
+      "maxElbowStep": 0.012864881456555394,
+      "maxWristStep": 0.00922572606044175,
+      "minimumPawSeparation": 0.058565134182572365,
+      "minTailRise": 0.09483577311038971,
+      "maxTailRise": 0.13609908521175385,
+      "maxPawBank": 2.3840497931360005e-07,
+      "loopStep": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Land",
+      "frames": 7,
+      "minVertexZ": 0.0009951541433110833,
+      "maxExtent": 0.5226694643497467,
+      "maxElbowStep": 0.007084822093857668,
+      "maxWristStep": 8.867932077799006e-07,
+      "minimumPawSeparation": 0.058565134182572365,
+      "minTailRise": 0.10615549981594086,
+      "maxTailRise": 0.11820419132709503,
+      "maxPawBank": 2.0116567611694336e-07,
+      "loopStep": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Paw",
+      "frames": 24,
+      "minVertexZ": 0.0010001430055126548,
+      "maxExtent": 0.5146665573120117,
+      "maxElbowStep": 0.02299030384061159,
+      "maxWristStep": 0.02742123588377169,
+      "minimumPawSeparation": 0.058565130457282066,
+      "minTailRise": 0.14157642424106598,
+      "maxTailRise": 0.1498374193906784,
+      "maxPawBank": 2.1194730948081997e-07,
+      "loopStep": 0.0,
+      "passed": true
+    },
+    {
+      "name": "Scratch",
+      "frames": 59,
+      "minVertexZ": -0.0009006410837173462,
+      "maxExtent": 0.5841020941734314,
+      "maxElbowStep": 0.043484809090138375,
+      "maxWristStep": 0.05765180926716269,
+      "minimumPawSeparation": 0.058565134182572365,
+      "minTailRise": 0.06758804619312286,
+      "maxTailRise": 0.08219936490058899,
+      "maxPawBank": 2.7921521450480213e-07,
+      "loopStep": 0.0,
+      "passed": true
+    }
+  ]
+}

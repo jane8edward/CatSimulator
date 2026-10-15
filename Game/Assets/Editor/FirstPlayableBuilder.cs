@@ -92,7 +92,8 @@ namespace CatSimulator.Editor
             // Build the saved level; artist edits must survive ordinary rebuilds.
             if(!File.Exists("Assets/Scenes/LivingRoom.unity")) Create();
             Directory.CreateDirectory("../Builds/Windows");
-            var scenes=new[]{"Assets/Scenes/LivingRoom.unity","Assets/Cat/Scenes/Walk_Preview.unity","Assets/Scenes/Home90_Preview.unity"};
+            FullGameBuilder.EnsureAssets();
+            var scenes=FullGameBuilder.ScenePaths;
             foreach(var path in scenes)
                 if(!File.Exists(path)) throw new FileNotFoundException("Build scene missing",path);
             var report=UnityEditor.BuildPipeline.BuildPlayer(new BuildPlayerOptions { scenes=scenes,

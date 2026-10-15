@@ -21,8 +21,11 @@ namespace CatSimulator
             public bool passed, propsStable, catPushesMouse, lampTips, plantFallsAndSettles, phoneTetherWorks, replayResets;
             public Vector3 deskSize;
             public int dynamicProps;
-            public float mouseTravel, lampAngle, plantFloorHeight, cableDistance, maximumCableDistance, phoneTravel;
+            public float mouseTravel, mousePeakSpeed, lampAngle, plantFloorHeight, cableDistance, maximumCableDistance, phoneTravel;
             public float averageFps, p95FrameMs, p99FrameMs;
+            public bool mouseApproachClear;
+            public Vector3 mouseCatStart,mouseCatEnd;
+            public string[] originalMouseApproachObstacles;
             public string[] missingDynamicCollisions, errors;
             public CushionCheck[] pillows;
         }
@@ -89,15 +92,33 @@ namespace CatSimulator
             var mouse = Find("Bedroom_Prop_Mouse").GetComponent<Rigidbody>();
             var mouseStart = mouse.position;
             // Exercise the actual controller, including its separate nose/rump collision cast.
-            cat.Teleport(new Vector3(mouse.position.x - .43f, .85f, mouse.position.z + .01f));
+            // The old start overlaps the tissue box with the full cat's rump.
+            // Find a clear approach instead of depending on a push from far away.
+            Collider[] Approach(Vector3 p)=>Physics.OverlapCapsule(p+new Vector3(-.072f,.1935f,0),p+new Vector3(.2025f,.1935f,0),.1215f,~(1<<8),QueryTriggerInteraction.Ignore);
+            report.originalMouseApproachObstacles=Approach(new Vector3(mouse.position.x-.43f,.85f,mouse.position.z+.01f)).Select(c=>c.name).ToArray();
+            foreach(float offset in new[]{.43f,.36f,.30f,.26f})
+            {
+                var start=new Vector3(mouse.position.x-offset,.85f,mouse.position.z+.01f);
+                if(Approach(start).Length!=0)continue;
+                report.mouseApproachClear=true;cat.Teleport(start);break;
+            }
+            report.mouseCatStart=cat.transform.position;
             cat.transform.rotation = Quaternion.Euler(0, 90, 0);
             rig.enabled = true;
             rig.yaw = 90;
             cat.VerificationMovement = Vector2.up;
-            yield return new WaitForSeconds(.9f);
+            for(float until=Time.time+.9f;Time.time<until;)
+            {
+                yield return new WaitForFixedUpdate();
+                report.mousePeakSpeed=Mathf.Max(report.mousePeakSpeed,Vector3.ProjectOnPlane(mouse.linearVelocity,Vector3.up).magnitude);
+            }
             cat.VerificationMovement = Vector2.zero;
             report.mouseTravel = Vector3.Distance(mouse.position, mouseStart);
-            report.catPushesMouse = report.mouseTravel > .03f;
+            report.mouseCatEnd=cat.transform.position;
+            // A brief touch on the high-friction desk mat should move the mouse,
+            // without requiring the old sustained force or a minimum launch distance.
+            report.catPushesMouse = report.mouseApproachClear && report.mouseTravel > .005f
+                && report.mousePeakSpeed>.03f && report.mousePeakSpeed<cat.walkSpeed*1.5f+.1f;
             cat.Teleport(Find("BedroomPreviewCat").position);
 
             var lamp = Find("Bedroom_Prop_Lamp_Left").GetComponent<Rigidbody>();
