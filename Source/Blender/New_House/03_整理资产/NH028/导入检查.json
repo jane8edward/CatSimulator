@@ -1,0 +1,54 @@
+{
+  "id": "NH028",
+  "archive": "pendant+lamp+3d+model.zip",
+  "source": "02_解压原文件/NH028/tripo_convert_d63ac72b-a323-45ce-b36f-36ffdcdc8674.fbx",
+  "importBounds": {
+    "min": [
+      -0.3565673828125,
+      -0.356689453125,
+      -1.5591391289149215e-08
+    ],
+    "max": [
+      0.3565673828125,
+      0.3566894829273224,
+      1.0
+    ],
+    "dimensions": [
+      0.713134765625,
+      0.71337890625,
+      1.0
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 497978,
+  "sourceFaces": 995950,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_d63ac72b_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.7131481170654297,
+    0.7133896350860596,
+    1.000017762184143
+  ],
+  "seconds": 12.6,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "NH003",
+  "archive": "armchair+3d+model.zip",
+  "source": "02_解压原文件/NH003/tripo_convert_cc346168-8cbb-446a-8b1a-3c4a5172bd9c.fbx",
+  "importBounds": {
+    "min": [
+      -0.388153076171875,
+      -0.37652587890625,
+      -1.6458468365954104e-08
+    ],
+    "max": [
+      0.388153076171875,
+      0.3765259087085724,
+      1.0
+    ],
+    "dimensions": [
+      0.77630615234375,
+      0.7530517578125,
+      1.0
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 480375,
+  "sourceFaces": 960746,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_cc346168_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.776313066482544,
+    0.7530540227890015,
+    0.9999930262565613
+  ],
+  "seconds": 35.3,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

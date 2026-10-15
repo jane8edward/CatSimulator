@@ -1,0 +1,24 @@
+{
+  "id": "NH007",
+  "slug": "Sofa",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-001_Sofa_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    2.4499998092651367,
+    0.9599999189376831,
+    0.8799999952316284
+  ],
+  "targetDimensions_m": [
+    2.450000047683716,
+    0.9599999785423279,
+    0.8799999952316284
+  ],
+  "sceneFaces": 179999,
+  "sceneVertices": 90002,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 8.9
+}

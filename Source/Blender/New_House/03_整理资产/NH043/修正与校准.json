@@ -1,0 +1,26 @@
+{
+  "id": "NH043",
+  "slug": "ChoppingBoardKit_JarGlass",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-020_ChoppingBoardKit_JarGlass_ref_v001.png",
+  "corrections": [
+    "Restored wood lid and grain colors; added thin clear glass around retained grain geometry to complete the jar."
+  ],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.10499999672174454,
+    0.10499998927116394,
+    0.14999999105930328
+  ],
+  "targetDimensions_m": [
+    0.10499999672174454,
+    0.10499999672174454,
+    0.15000000596046448
+  ],
+  "sceneFaces": 180383,
+  "sceneVertices": 90386,
+  "meshObjects": 2,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 5.1
+}

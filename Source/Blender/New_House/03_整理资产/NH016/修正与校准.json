@@ -1,0 +1,24 @@
+{
+  "id": "NH016",
+  "slug": "DecorCushion_Sage",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-001_DecorCushion_Sage_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.4300000071525574,
+    0.16999998688697815,
+    0.4300000071525574
+  ],
+  "targetDimensions_m": [
+    0.4300000071525574,
+    0.17000000178813934,
+    0.4300000071525574
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 90002,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 4.0
+}

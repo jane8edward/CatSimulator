@@ -1,0 +1,54 @@
+{
+  "id": "NH018",
+  "archive": "kitchen+cabinet+3d+model.zip",
+  "source": "02_解压原文件/NH018/tripo_convert_ef606df7-69d4-4464-ab80-cb66a58ebc4f.fbx",
+  "importBounds": {
+    "min": [
+      -0.17279052734375,
+      -0.438995361328125,
+      -1.9189096533978045e-08
+    ],
+    "max": [
+      0.17279052734375,
+      0.4389953911304474,
+      1.0
+    ],
+    "dimensions": [
+      0.3455810546875,
+      0.87799072265625,
+      1.0
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 489895,
+  "sourceFaces": 973820,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_ef606df7_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.34558284282684326,
+    0.87799072265625,
+    1.0000109672546387
+  ],
+  "seconds": 12.3,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

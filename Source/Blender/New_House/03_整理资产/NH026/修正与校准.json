@@ -1,0 +1,26 @@
+{
+  "id": "NH026",
+  "slug": "BathHighWindow",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-DOR-008_BathHighWindow_Main_ref_v001.png",
+  "corrections": [
+    "Rebuilt only damaged AI-generated frame/pane surfaces with straight precision rails, 1 reference panels and thin clear glass; original high-resolution model retained in Asset.blend."
+  ],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    1.2999999523162842,
+    0.054999999701976776,
+    0.8999999761581421
+  ],
+  "targetDimensions_m": [
+    1.2999999523162842,
+    0.054999999701976776,
+    0.8999999761581421
+  ],
+  "sceneFaces": 30,
+  "sceneVertices": 40,
+  "meshObjects": 5,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 15.6
+}

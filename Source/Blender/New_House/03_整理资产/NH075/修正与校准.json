@@ -1,0 +1,24 @@
+{
+  "id": "NH075",
+  "slug": "KitchenWallCabinet",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-018_KitchenWallCabinet_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    2.0799999237060547,
+    0.3199999928474426,
+    0.7200000286102295
+  ],
+  "targetDimensions_m": [
+    2.0799999237060547,
+    0.3199999928474426,
+    0.7200000286102295
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 90002,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 4.5
+}

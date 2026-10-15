@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "source": "assets/Cats/CuteCat/Original/tripo_convert_2d32e978-5c95-4871-9754-04924e7d8ad8.fbx",
+  "meshObjects": 1,
+  "sourceFaces": 1899558,
+  "missingTextures": [],
+  "bounds": [
+    0.3130951225757599,
+    0.9797974824905396,
+    0.591156005859375
+  ],
+  "preview": "Source/Verification/NewHouse/cute-cat-source-preview.png",
+  "sourceModified": false,
+  "scope": "Original source import, material availability and render; no gameplay rig added"
+}

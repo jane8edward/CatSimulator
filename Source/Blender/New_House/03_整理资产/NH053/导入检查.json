@@ -1,0 +1,54 @@
+{
+  "id": "NH053",
+  "archive": "wooden+bench+3d+model.zip",
+  "source": "02_解压原文件/NH053/tripo_convert_4a8b1d75-0b46-466d-b0d0-ca66700efee8.fbx",
+  "importBounds": {
+    "min": [
+      -0.2041168212890625,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.2041168212890625,
+      0.5,
+      0.3707886040210724
+    ],
+    "dimensions": [
+      0.408233642578125,
+      1.0,
+      0.3707886338233948
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 476579,
+  "sourceFaces": 953154,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_4a8b1d75_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.4082283079624176,
+    1.0000147819519043,
+    0.37078404426574707
+  ],
+  "seconds": 11.9,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

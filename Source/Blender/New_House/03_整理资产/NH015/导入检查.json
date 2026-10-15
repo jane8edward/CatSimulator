@@ -1,0 +1,90 @@
+{
+  "id": "NH015",
+  "archive": "double+bowl+pet+feeder+3d+model.zip",
+  "source": "02_解压原文件/NH015/tripo_convert_8cc80a44-886c-4881-a8b0-500e02c20d71.fbx",
+  "importBounds": {
+    "min": [
+      -0.47283935546875,
+      -0.464691162109375,
+      -2.0411675905052107e-08
+    ],
+    "max": [
+      0.47076416015625,
+      0.4692383110523224,
+      0.947357177734375
+    ],
+    "dimensions": [
+      0.943603515625,
+      0.933929443359375,
+      0.947357177734375
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 974826,
+  "sourceFaces": 1949656,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_8cc80a44_0",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_8cc80a44_2",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_8cc80a44_3",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_8cc80a44_4",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.9962109923362732,
+    0.9858909845352173,
+    1.000059962272644
+  ],
+  "seconds": 27.4,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

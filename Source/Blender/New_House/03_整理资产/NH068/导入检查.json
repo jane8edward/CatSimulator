@@ -1,0 +1,90 @@
+{
+  "id": "NH068",
+  "archive": "wooden+pet+feeder+3d+model.zip",
+  "source": "02_解压原文件/NH068/tripo_convert_a86cfcd7-407a-417d-8f1c-65b19b496016.fbx",
+  "importBounds": {
+    "min": [
+      -0.276336669921875,
+      -0.489959716796875,
+      -2.141548627321299e-08
+    ],
+    "max": [
+      0.276336669921875,
+      0.4898987114429474,
+      0.539642333984375
+    ],
+    "dimensions": [
+      0.55267333984375,
+      0.9798583984375,
+      0.539642333984375
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 944775,
+  "sourceFaces": 1889539,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_a86cfcd7_0",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_a86cfcd7_2",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_a86cfcd7_3",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_a86cfcd7_4",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.564041018486023,
+    1.0000183582305908,
+    0.5507427453994751
+  ],
+  "seconds": 27.9,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

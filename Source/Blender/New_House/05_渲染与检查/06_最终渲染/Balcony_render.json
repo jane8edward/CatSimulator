@@ -1,0 +1,13 @@
+{
+  "view": "Balcony",
+  "engine": "Cycles",
+  "device": "GPU",
+  "samples": 64,
+  "resolution": [
+    1800,
+    1200
+  ],
+  "seconds": 215.1,
+  "sceneModifiedTime": 1792053895.656571,
+  "image": "05_\u6e32\u67d3\u4e0e\u68c0\u67e5/06_\u6700\u7ec8\u6e32\u67d3/New_House_Balcony_Cycles.png"
+}

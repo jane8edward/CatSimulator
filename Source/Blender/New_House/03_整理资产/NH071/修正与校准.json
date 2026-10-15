@@ -1,0 +1,24 @@
+{
+  "id": "NH071",
+  "slug": "TVConsole",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-003_TVConsole_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    1.8999998569488525,
+    0.3999999761581421,
+    0.44999998807907104
+  ],
+  "targetDimensions_m": [
+    1.899999976158142,
+    0.4000000059604645,
+    0.44999998807907104
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 90006,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 3.9
+}

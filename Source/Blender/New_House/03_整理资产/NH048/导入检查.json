@@ -1,0 +1,54 @@
+{
+  "id": "NH048",
+  "archive": "white+pillow+3d+model.zip",
+  "source": "02_解压原文件/NH048/tripo_convert_4a973ddf-0a08-4399-b7bb-d0f1104ebe07.fbx",
+  "importBounds": {
+    "min": [
+      -0.1780242919921875,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.1780242919921875,
+      0.5,
+      0.54522705078125
+    ],
+    "dimensions": [
+      0.356048583984375,
+      1.0,
+      0.54522705078125
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 469869,
+  "sourceFaces": 939878,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_4a973ddf_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.35605597496032715,
+    0.9999940991401672,
+    0.5452347993850708
+  ],
+  "seconds": 12.2,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

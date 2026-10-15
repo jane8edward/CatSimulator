@@ -1,0 +1,24 @@
+{
+  "id": "NH029",
+  "slug": "PlantTrailing",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-012_PlantTrailing_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.5499999523162842,
+    0.46000003814697266,
+    0.7400000095367432
+  ],
+  "targetDimensions_m": [
+    0.550000011920929,
+    0.46000000834465027,
+    0.7400000095367432
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 89860,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 4.4
+}

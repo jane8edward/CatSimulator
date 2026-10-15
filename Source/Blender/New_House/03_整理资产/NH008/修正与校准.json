@@ -1,0 +1,24 @@
+{
+  "id": "NH008",
+  "slug": "BookMagazineKit_Book",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-008_BookMagazineKit_Book_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.21000000834465027,
+    0.2799999713897705,
+    0.03200000151991844
+  ],
+  "targetDimensions_m": [
+    0.20999999344348907,
+    0.2800000011920929,
+    0.03200000151991844
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 90002,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 4.0
+}

@@ -1,0 +1,26 @@
+{
+  "id": "NH005",
+  "slug": "RoomRug_Bedroom",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-005_RoomRug_Bedroom_ref_v001.png",
+  "corrections": [
+    "Corrected generated excessive thickness and underside stubs to a thin textile profile; retained plan outline and texture."
+  ],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    2.4000000953674316,
+    1.7000000476837158,
+    0.012000000104308128
+  ],
+  "targetDimensions_m": [
+    2.4000000953674316,
+    1.7000000476837158,
+    0.012000000104308128
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 90004,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 4.0
+}

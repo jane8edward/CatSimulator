@@ -1,0 +1,24 @@
+{
+  "id": "NH051",
+  "slug": "GuestBed",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-008_GuestBed_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    1.1999999284744263,
+    2.0500001907348633,
+    0.8500000238418579
+  ],
+  "targetDimensions_m": [
+    1.2000000476837158,
+    2.049999952316284,
+    0.8500000238418579
+  ],
+  "sceneFaces": 179999,
+  "sceneVertices": 90002,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 3.8
+}

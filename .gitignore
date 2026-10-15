@@ -36,3 +36,10 @@ __pycache__/
 **/Builds/
 **/99_归档/
 **/90_待整理/
+
+# Regenerable local inspection data for the new Tripo art project
+Source/Blender/New_House/03_整理资产/*/*_Asset.blend
+Source/Blender/New_House/02_解压原文件/NH001/
+Source/Blender/New_House/05_渲染与检查/01_导入检查/
+Source/Blender/New_House/05_渲染与检查/05_试渲染/
+*.blend[0-9]*

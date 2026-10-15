@@ -1,0 +1,90 @@
+{
+  "id": "NH047",
+  "archive": "washing+machine+3d+model.zip",
+  "source": "02_解压原文件/NH047/tripo_convert_6ba9f597-b33d-45df-becd-171a1dcc9c35.fbx",
+  "importBounds": {
+    "min": [
+      -0.3572998046875,
+      -0.360595703125,
+      -1.5753467863532933e-08
+    ],
+    "max": [
+      0.35791015625,
+      0.3601990044116974,
+      0.98046875
+    ],
+    "dimensions": [
+      0.7152099609375,
+      0.720794677734375,
+      0.98046875
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 929720,
+  "sourceFaces": 1859383,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_6ba9f597_0",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_6ba9f597_2",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_6ba9f597_3",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_6ba9f597_4",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.7294665575027466,
+    0.7351710796356201,
+    0.9999911785125732
+  ],
+  "seconds": 27.1,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

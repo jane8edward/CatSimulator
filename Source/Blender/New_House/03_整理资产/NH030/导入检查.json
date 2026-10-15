@@ -1,0 +1,41 @@
+{
+  "id": "NH030",
+  "archive": "potted+grass+3d+model.zip",
+  "source": "02_解压原文件/NH030/tripo_convert_8abe5ea3-5354-44cd-b8de-7e5922b02f35.fbx",
+  "importBounds": {
+    "min": [
+      -0.492340087890625,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.492340087890625,
+      0.5000000596046448,
+      0.90057373046875
+    ],
+    "dimensions": [
+      0.98468017578125,
+      1.0,
+      0.90057373046875
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 470642,
+  "sourceFaces": 941435,
+  "reviewLongestDimension_m": 1,
+  "images": [],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.9847375154495239,
+    1.0001494884490967,
+    0.9005489349365234
+  ],
+  "seconds": 11.5,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

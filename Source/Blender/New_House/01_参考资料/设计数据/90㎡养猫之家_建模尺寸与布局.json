@@ -1,0 +1,596 @@
+{
+  "version": 1,
+  "date": "2026-10-12",
+  "units": "metres",
+  "coordinateSystem": "origin=south-west corner; +X=east; +Y=north; +Z=up",
+  "footprint": [
+    10,
+    9
+  ],
+  "modeledEnvelopeArea_m2": 90,
+  "includes": "walls and full balcony footprint",
+  "clearHeight_m": 2.8,
+  "wallThickness_m": {
+    "exterior": 0.2,
+    "interior": 0.12
+  },
+  "clearRectangleAreaTotal_m2": 78.5784,
+  "rooms": [
+    {
+      "name": "主卧",
+      "rect": [
+        0.2,
+        0.2,
+        3.94,
+        3.74
+      ],
+      "surface": "wood",
+      "label": [
+        2.0,
+        1.15
+      ],
+      "area_m2": 14.7356
+    },
+    {
+      "name": "次卧·书房",
+      "rect": [
+        0.2,
+        4.06,
+        2.74,
+        2.88
+      ],
+      "surface": "wood",
+      "label": [
+        2.12,
+        4.85
+      ],
+      "area_m2": 7.8912
+    },
+    {
+      "name": "走廊",
+      "rect": [
+        3.06,
+        4.06,
+        1.08,
+        2.88
+      ],
+      "surface": "wood",
+      "label": [
+        3.6,
+        6.45
+      ],
+      "area_m2": 3.1104
+    },
+    {
+      "name": "玄关",
+      "rect": [
+        0.2,
+        7.06,
+        3.94,
+        1.74
+      ],
+      "surface": "wood",
+      "label": [
+        2.5,
+        7.88
+      ],
+      "area_m2": 6.8556
+    },
+    {
+      "name": "卫生间",
+      "rect": [
+        4.26,
+        6.06,
+        2.48,
+        2.74
+      ],
+      "surface": "bath",
+      "label": [
+        5.25,
+        7.05
+      ],
+      "area_m2": 6.7952
+    },
+    {
+      "name": "厨房",
+      "rect": [
+        6.86,
+        6.06,
+        2.94,
+        2.74
+      ],
+      "surface": "tile",
+      "label": [
+        8.2,
+        7.25
+      ],
+      "area_m2": 8.0556
+    },
+    {
+      "name": "客餐厅",
+      "rect": [
+        4.26,
+        1.66,
+        5.54,
+        4.28
+      ],
+      "surface": "wood",
+      "label": [
+        7.45,
+        2.15
+      ],
+      "area_m2": 23.7112
+    },
+    {
+      "name": "阳台",
+      "rect": [
+        4.26,
+        0.2,
+        5.54,
+        1.34
+      ],
+      "surface": "tile",
+      "label": [
+        7.15,
+        0.95
+      ],
+      "area_m2": 7.4236
+    }
+  ],
+  "furniture": [
+    {
+      "id": "master_bed",
+      "name": "主卧床",
+      "rect": [
+        0.75,
+        1.9,
+        1.8,
+        2.0
+      ],
+      "height_m": 0.55
+    },
+    {
+      "id": "master_wardrobe",
+      "name": "主卧衣柜",
+      "rect": [
+        3.35,
+        0.65,
+        0.6,
+        2.15
+      ],
+      "height_m": 2.6
+    },
+    {
+      "id": "guest_bed",
+      "name": "次卧床",
+      "rect": [
+        0.25,
+        4.9,
+        1.2,
+        2.0
+      ],
+      "height_m": 0.45
+    },
+    {
+      "id": "desk",
+      "name": "办公桌",
+      "rect": [
+        1.65,
+        6.25,
+        1.2,
+        0.6
+      ],
+      "height_m": 0.75
+    },
+    {
+      "id": "sofa",
+      "name": "沙发",
+      "rect": [
+        4.5,
+        2.4,
+        1.0,
+        2.45
+      ],
+      "height_m": 0.85
+    },
+    {
+      "id": "coffee_table",
+      "name": "茶几",
+      "rect": [
+        6.2,
+        3.0,
+        1.0,
+        0.65
+      ],
+      "height_m": 0.38
+    },
+    {
+      "id": "tv_console",
+      "name": "电视柜",
+      "rect": [
+        9.4,
+        2.6,
+        0.4,
+        1.9
+      ],
+      "height_m": 0.45
+    },
+    {
+      "id": "dining_table",
+      "name": "餐桌",
+      "rect": [
+        5.75,
+        5.0,
+        1.2,
+        0.7
+      ],
+      "height_m": 0.75
+    },
+    {
+      "id": "cat_zone",
+      "name": "猫咪活动区",
+      "rect": [
+        8.0,
+        4.65,
+        1.8,
+        1.15
+      ],
+      "height_m": 2.3
+    },
+    {
+      "id": "feeder",
+      "name": "喂食站",
+      "rect": [
+        4.38,
+        5.55,
+        0.58,
+        0.3
+      ],
+      "height_m": 0.35
+    },
+    {
+      "id": "water",
+      "name": "饮水站",
+      "rect": [
+        9.12,
+        1.8,
+        0.4,
+        0.4
+      ],
+      "height_m": 0.18
+    },
+    {
+      "id": "balcony_laundry",
+      "name": "洗衣收纳",
+      "rect": [
+        4.32,
+        0.48,
+        0.7,
+        0.76
+      ],
+      "height_m": 2.4
+    },
+    {
+      "id": "balcony_bench",
+      "name": "观景猫卧榻",
+      "rect": [
+        6.0,
+        0.28,
+        2.55,
+        0.4
+      ],
+      "height_m": 0.45
+    },
+    {
+      "id": "litter_cabinet",
+      "name": "猫砂柜",
+      "rect": [
+        9.02,
+        0.3,
+        0.76,
+        0.65
+      ],
+      "height_m": 0.7
+    }
+  ],
+  "doors": [
+    {
+      "type": "entry",
+      "width_m": 1,
+      "wall": "north",
+      "start": [
+        2.85,
+        8.9
+      ],
+      "height_m": 2.2
+    },
+    {
+      "type": "master",
+      "width_m": 0.9,
+      "start": [
+        3.15,
+        4
+      ],
+      "height_m": 2.2
+    },
+    {
+      "type": "guest",
+      "width_m": 0.85,
+      "start": [
+        3,
+        5.15
+      ],
+      "height_m": 2.2
+    },
+    {
+      "type": "bath_slider",
+      "width_m": 0.85,
+      "start": [
+        4.2,
+        7.4
+      ],
+      "height_m": 2.2
+    },
+    {
+      "type": "kitchen_slider",
+      "width_m": 1.1,
+      "start": [
+        7.75,
+        6
+      ],
+      "height_m": 2.2
+    },
+    {
+      "type": "balcony_slider",
+      "width_m": 3.2,
+      "start": [
+        5.45,
+        1.6
+      ],
+      "height_m": 2.2
+    }
+  ],
+  "catVerticalPlatforms_m": [
+    0.35,
+    0.75,
+    1.15,
+    1.65,
+    2.15
+  ],
+  "style": "warm modern, light oak, warm white, sage green, beige textiles",
+  "assumptions": "Concept game/home modeling layout for one office worker and one cat; no existing site dimensions supplied.",
+  "wallSegments": [
+    {
+      "id": "outer_south",
+      "start": [
+        0,
+        0.1
+      ],
+      "end": [
+        10,
+        0.1
+      ],
+      "thickness_m": 0.2,
+      "height_m": 2.8
+    },
+    {
+      "id": "outer_east",
+      "start": [
+        9.9,
+        0
+      ],
+      "end": [
+        9.9,
+        9
+      ],
+      "thickness_m": 0.2,
+      "height_m": 2.8
+    },
+    {
+      "id": "outer_north",
+      "start": [
+        10,
+        8.9
+      ],
+      "end": [
+        0,
+        8.9
+      ],
+      "thickness_m": 0.2,
+      "height_m": 2.8
+    },
+    {
+      "id": "outer_west",
+      "start": [
+        0.1,
+        9
+      ],
+      "end": [
+        0.1,
+        0
+      ],
+      "thickness_m": 0.2,
+      "height_m": 2.8
+    },
+    {
+      "id": "inner_1",
+      "start": [
+        4.2,
+        0
+      ],
+      "end": [
+        4.2,
+        9
+      ],
+      "thickness_m": 0.12,
+      "height_m": 2.8
+    },
+    {
+      "id": "inner_2",
+      "start": [
+        6.8,
+        6
+      ],
+      "end": [
+        6.8,
+        9
+      ],
+      "thickness_m": 0.12,
+      "height_m": 2.8
+    },
+    {
+      "id": "inner_3",
+      "start": [
+        4.2,
+        6
+      ],
+      "end": [
+        10,
+        6
+      ],
+      "thickness_m": 0.12,
+      "height_m": 2.8
+    },
+    {
+      "id": "inner_4",
+      "start": [
+        0,
+        7
+      ],
+      "end": [
+        4.2,
+        7
+      ],
+      "thickness_m": 0.12,
+      "height_m": 2.8
+    },
+    {
+      "id": "inner_5",
+      "start": [
+        0,
+        4
+      ],
+      "end": [
+        4.2,
+        4
+      ],
+      "thickness_m": 0.12,
+      "height_m": 2.8
+    },
+    {
+      "id": "inner_6",
+      "start": [
+        3,
+        4
+      ],
+      "end": [
+        3,
+        7
+      ],
+      "thickness_m": 0.12,
+      "height_m": 2.8
+    },
+    {
+      "id": "inner_7",
+      "start": [
+        4.2,
+        1.6
+      ],
+      "end": [
+        10,
+        1.6
+      ],
+      "thickness_m": 0.12,
+      "height_m": 2.8
+    }
+  ],
+  "openPassages": [
+    {
+      "start": [
+        3,
+        7
+      ],
+      "end": [
+        4.08,
+        7
+      ]
+    },
+    {
+      "start": [
+        4.2,
+        4.45
+      ],
+      "end": [
+        4.2,
+        5.72
+      ]
+    }
+  ],
+  "windows": [
+    {
+      "id": "master_south",
+      "start": [
+        0.85,
+        0.1
+      ],
+      "end": [
+        3.25,
+        0.1
+      ],
+      "sill_m": 0.9,
+      "head_m": 2.4
+    },
+    {
+      "id": "guest_west",
+      "start": [
+        0.1,
+        4.85
+      ],
+      "end": [
+        0.1,
+        6.35
+      ],
+      "sill_m": 0.9,
+      "head_m": 2.4
+    },
+    {
+      "id": "bath_north",
+      "start": [
+        4.85,
+        8.9
+      ],
+      "end": [
+        6.15,
+        8.9
+      ],
+      "sill_m": 1.5,
+      "head_m": 2.4
+    },
+    {
+      "id": "kitchen_north",
+      "start": [
+        7.4,
+        8.9
+      ],
+      "end": [
+        9.3,
+        8.9
+      ],
+      "sill_m": 1.0,
+      "head_m": 2.4
+    },
+    {
+      "id": "balcony_south",
+      "start": [
+        4.4,
+        0.1
+      ],
+      "end": [
+        9.8,
+        0.1
+      ],
+      "sill_m": 0,
+      "head_m": 2.5
+    }
+  ]
+}

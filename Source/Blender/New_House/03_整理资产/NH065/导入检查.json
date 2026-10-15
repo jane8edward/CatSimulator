@@ -1,0 +1,90 @@
+{
+  "id": "NH065",
+  "archive": "wooden+door+3d+model.zip",
+  "source": "02_解压原文件/NH065/tripo_convert_afcdfadf-8a7f-44d6-b175-6b40863f7bc9.fbx",
+  "importBounds": {
+    "min": [
+      -0.049571990966796875,
+      -0.2325439453125,
+      -1.0162818142589458e-08
+    ],
+    "max": [
+      0.050296783447265625,
+      0.23245243728160858,
+      0.978240966796875
+    ],
+    "dimensions": [
+      0.0998687744140625,
+      0.4649963974952698,
+      0.978240966796875
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 975046,
+  "sourceFaces": 1950235,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_afcdfadf_0",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_afcdfadf_2",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_afcdfadf_3",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_afcdfadf_4",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.10209712386131287,
+    0.47533953189849854,
+    1.0000224113464355
+  ],
+  "seconds": 26.8,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

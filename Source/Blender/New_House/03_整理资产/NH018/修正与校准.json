@@ -1,0 +1,24 @@
+{
+  "id": "NH018",
+  "slug": "LaundryStorage",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-019_LaundryStorage_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    1.2999999523162842,
+    0.7000000476837158,
+    2.4000003337860107
+  ],
+  "targetDimensions_m": [
+    1.2999999523162842,
+    0.699999988079071,
+    2.4000000953674316
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 90390,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 4.5
+}

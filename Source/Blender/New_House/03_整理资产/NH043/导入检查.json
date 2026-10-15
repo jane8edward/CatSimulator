@@ -1,0 +1,41 @@
+{
+  "id": "NH043",
+  "archive": "sugar+jar+3d+model.zip",
+  "source": "02_解压原文件/NH043/tripo_convert_f217ee99-6966-487e-bea2-be1d52e31360.fbx",
+  "importBounds": {
+    "min": [
+      -0.5,
+      -0.499725341796875,
+      -2.1843687747491458e-08
+    ],
+    "max": [
+      0.5,
+      0.4997253715991974,
+      0.997314453125
+    ],
+    "dimensions": [
+      1.0,
+      0.99945068359375,
+      0.997314453125
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 490119,
+  "sourceFaces": 980232,
+  "reviewLongestDimension_m": 1,
+  "images": [],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    1.000070571899414,
+    0.9994673728942871,
+    0.9973654747009277
+  ],
+  "seconds": 12.3,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

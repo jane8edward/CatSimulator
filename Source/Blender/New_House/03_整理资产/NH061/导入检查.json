@@ -1,0 +1,41 @@
+{
+  "id": "NH061",
+  "archive": "wooden+cutting+board+3d+model.zip",
+  "source": "02_解压原文件/NH061/tripo_convert_904f742e-8601-486f-bd10-30b6aecce473.fbx",
+  "importBounds": {
+    "min": [
+      -0.14508056640625,
+      -0.2991943359375,
+      -1.30781998564089e-08
+    ],
+    "max": [
+      0.14508056640625,
+      0.2991943657398224,
+      1.0
+    ],
+    "dimensions": [
+      0.2901611328125,
+      0.598388671875,
+      1.0
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 460535,
+  "sourceFaces": 921061,
+  "reviewLongestDimension_m": 1,
+  "images": [],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.290164589881897,
+    0.598388671875,
+    1.000016450881958
+  ],
+  "seconds": 11.3,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

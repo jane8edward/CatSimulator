@@ -1,0 +1,24 @@
+{
+  "id": "NH031",
+  "slug": "PlantBranching",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-013_PlantBranching_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.4399999976158142,
+    0.4000000059604645,
+    0.5299999713897705
+  ],
+  "targetDimensions_m": [
+    0.4399999976158142,
+    0.4000000059604645,
+    0.5299999713897705
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 89936,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 4.0
+}

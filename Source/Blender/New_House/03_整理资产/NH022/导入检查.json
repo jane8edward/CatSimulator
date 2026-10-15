@@ -1,0 +1,54 @@
+{
+  "id": "NH022",
+  "archive": "knitted+pillow+3d+model.zip",
+  "source": "02_解压原文件/NH022/tripo_convert_f1ffb67f-3133-4c60-a2e0-7c50f020da61.fbx",
+  "importBounds": {
+    "min": [
+      -0.30218505859375,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.30218505859375,
+      0.5000000596046448,
+      0.91448974609375
+    ],
+    "dimensions": [
+      0.6043701171875,
+      1.0,
+      0.91448974609375
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 477446,
+  "sourceFaces": 954888,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_f1ffb67f_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.6045709848403931,
+    1.0000388622283936,
+    0.9144921898841858
+  ],
+  "seconds": 12.2,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

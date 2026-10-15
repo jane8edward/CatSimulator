@@ -1,0 +1,54 @@
+{
+  "id": "NH035",
+  "archive": "round+braided+rug+3d+model.zip",
+  "source": "02_解压原文件/NH035/tripo_convert_3e23f086-4774-4e4c-9990-4b61b4be3f40.fbx",
+  "importBounds": {
+    "min": [
+      -0.5,
+      -0.499908447265625,
+      -2.1851692011409796e-08
+    ],
+    "max": [
+      0.5,
+      0.499908447265625,
+      0.11560060828924179
+    ],
+    "dimensions": [
+      1.0,
+      0.99981689453125,
+      0.11560063064098358
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 469581,
+  "sourceFaces": 939162,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_3e23f086_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    1.0000040531158447,
+    0.9998178482055664,
+    0.11565607041120529
+  ],
+  "seconds": 11.0,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

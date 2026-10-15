@@ -1,0 +1,54 @@
+{
+  "id": "NH072",
+  "archive": "wooden+soap+dish+3d+model.zip",
+  "source": "02_解压原文件/NH072/tripo_convert_e0ad82d0-e1ef-40a7-9319-77e49403badc.fbx",
+  "importBounds": {
+    "min": [
+      -0.309417724609375,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.309417724609375,
+      0.5,
+      0.1484069973230362
+    ],
+    "dimensions": [
+      0.61883544921875,
+      1.0,
+      0.1484070122241974
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 489682,
+  "sourceFaces": 979360,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_e0ad82d0_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.6188476085662842,
+    1.0000085830688477,
+    0.14840960502624512
+  ],
+  "seconds": 12.9,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

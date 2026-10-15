@@ -1,0 +1,90 @@
+{
+  "id": "NH004",
+  "archive": "bathroom+sink+cabinet+3d+model.zip",
+  "source": "02_解压原文件/NH004/tripo_convert_67969cb1-7b34-4f8a-97ba-1903a727779d.fbx",
+  "importBounds": {
+    "min": [
+      -0.29559326171875,
+      -0.429779052734375,
+      -1.878890643070008e-08
+    ],
+    "max": [
+      0.296112060546875,
+      0.4299011528491974,
+      0.9783935546875
+    ],
+    "dimensions": [
+      0.591705322265625,
+      0.85968017578125,
+      0.9783935546875
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 979284,
+  "sourceFaces": 1958552,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_67969cb1_0",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_67969cb1_2",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_67969cb1_3",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_67969cb1_4",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.604779064655304,
+    0.8786655068397522,
+    1.00001060962677
+  ],
+  "seconds": 28.5,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

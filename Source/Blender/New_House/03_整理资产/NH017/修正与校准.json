@@ -1,0 +1,24 @@
+{
+  "id": "NH017",
+  "slug": "Cooktop",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-004_Cooktop_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.3199999928474426,
+    0.5799999237060547,
+    0.05499999597668648
+  ],
+  "targetDimensions_m": [
+    0.3199999928474426,
+    0.5799999833106995,
+    0.054999999701976776
+  ],
+  "sceneFaces": 179996,
+  "sceneVertices": 90027,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 9.6
+}

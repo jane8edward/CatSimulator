@@ -1,0 +1,26 @@
+{
+  "id": "NH006",
+  "slug": "RoomRug_Living",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-005_RoomRug_Living_ref_v001.png",
+  "corrections": [
+    "Corrected generated excessive thickness and underside stubs to a thin textile profile; retained plan outline and texture."
+  ],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    2.0,
+    1.6000001430511475,
+    0.02200000174343586
+  ],
+  "targetDimensions_m": [
+    2.0,
+    1.600000023841858,
+    0.02199999988079071
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 90002,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 3.9
+}

@@ -1,0 +1,949 @@
+{
+  "NH002": {
+    "slug": "VentGrille",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-ARC-011_VentGrille_Main_ref_v001.png",
+    "dimensions_m": [
+      1.85,
+      0.035,
+      0.14
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH003": {
+    "slug": "OfficeChair",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-013_OfficeChair_Main_ref_v001.png",
+    "dimensions_m": [
+      0.6,
+      0.58,
+      0.83
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH004": {
+    "slug": "BathVanity",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-007_BathVanity_Main_ref_v001.png",
+    "dimensions_m": [
+      0.9,
+      0.5,
+      0.72
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH005": {
+    "slug": "RoomRug_Bedroom",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-005_RoomRug_Bedroom_ref_v001.png",
+    "dimensions_m": [
+      2.4,
+      1.7,
+      0.012
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "rug_flatten",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH006": {
+    "slug": "RoomRug_Living",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-005_RoomRug_Living_ref_v001.png",
+    "dimensions_m": [
+      2.0,
+      1.6,
+      0.022
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "rug_flatten",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH007": {
+    "slug": "Sofa",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-001_Sofa_Main_ref_v001.png",
+    "dimensions_m": [
+      2.45,
+      0.96,
+      0.88
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH008": {
+    "slug": "BookMagazineKit_Book",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-008_BookMagazineKit_Book_ref_v001.png",
+    "dimensions_m": [
+      0.21,
+      0.28,
+      0.032
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH009": {
+    "slug": "ScratchColumn",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-002_ScratchColumn_Main_ref_v001.png",
+    "dimensions_m": [
+      0.46,
+      0.46,
+      2.15
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH010": {
+    "slug": "Downlight",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-LGT-001_Downlight_Main_ref_v001.png",
+    "dimensions_m": [
+      0.14,
+      0.14,
+      0.025
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "downlight_cleanup",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH011": {
+    "slug": "WaterFountain",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-005_WaterFountain_Main_ref_v001.png",
+    "dimensions_m": [
+      0.27,
+      0.27,
+      0.18
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH012": {
+    "slug": "CeramicMug",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-009_CeramicMug_Main_ref_v001.png",
+    "dimensions_m": [
+      0.12,
+      0.095,
+      0.11
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH013": {
+    "slug": "PlanterKit",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-014_PlanterKit_Main_ref_v001.png",
+    "dimensions_m": [
+      0.18,
+      0.18,
+      0.17
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH014": {
+    "slug": "ChoppingBoardKit_JarCeramic",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-020_ChoppingBoardKit_JarCeramic_ref_v001.png",
+    "dimensions_m": [
+      0.16,
+      0.16,
+      0.13
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "ceramic",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH015": {
+    "slug": "ToyKit_Ball",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-008_ToyKit_Ball_ref_v001.png",
+    "dimensions_m": [
+      0.075,
+      0.075,
+      0.075
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH016": {
+    "slug": "DecorCushion_Sage",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-001_DecorCushion_Sage_ref_v001.png",
+    "dimensions_m": [
+      0.43,
+      0.17,
+      0.43
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH017": {
+    "slug": "Cooktop",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-004_Cooktop_Main_ref_v001.png",
+    "dimensions_m": [
+      0.32,
+      0.58,
+      0.055
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH018": {
+    "slug": "LaundryStorage",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-019_LaundryStorage_Main_ref_v001.png",
+    "dimensions_m": [
+      1.3,
+      0.7,
+      2.4
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH019": {
+    "slug": "ExtractorHood",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-005_ExtractorHood_Main_ref_v001.png",
+    "dimensions_m": [
+      0.75,
+      0.43,
+      0.12
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH020": {
+    "slug": "KitchenSink",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-006_KitchenSink_Main_ref_v001.png",
+    "dimensions_m": [
+      0.85,
+      0.5,
+      0.37
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH021": {
+    "slug": "ThrowBlanket",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-004_ThrowBlanket_Main_ref_v001.png",
+    "dimensions_m": [
+      0.5,
+      0.38,
+      0.13
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH022": {
+    "slug": "DecorCushion_Cream",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-001_DecorCushion_Cream_ref_v001.png",
+    "dimensions_m": [
+      0.43,
+      0.17,
+      0.43
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH023": {
+    "slug": "Ottoman",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-021_Ottoman_Main_ref_v001.png",
+    "dimensions_m": [
+      0.48,
+      0.48,
+      0.3
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH024": {
+    "slug": "Laptop",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-010_Laptop_Main_ref_v001.png",
+    "dimensions_m": [
+      0.32,
+      0.27,
+      0.22
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH025": {
+    "slug": "CabinetStrip",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-LGT-004_CabinetStrip_Main_ref_v001.png",
+    "dimensions_m": [
+      0.6,
+      0.035,
+      0.025
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH026": {
+    "slug": "BathHighWindow",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-DOR-008_BathHighWindow_Main_ref_v001.png",
+    "dimensions_m": [
+      1.3,
+      0.055,
+      0.9
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "window1",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH027": {
+    "slug": "Television",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-001_Television_Main_ref_v001.png",
+    "dimensions_m": [
+      1.35,
+      0.22,
+      0.79
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH028": {
+    "slug": "DiningPendant",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-LGT-002_DiningPendant_Main_ref_v001.png",
+    "dimensions_m": [
+      0.4,
+      0.4,
+      0.86
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH029": {
+    "slug": "PlantTrailing",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-012_PlantTrailing_Main_ref_v001.png",
+    "dimensions_m": [
+      0.55,
+      0.46,
+      0.74
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH030": {
+    "slug": "GrassPot",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-015_GrassPot_Main_ref_v001.png",
+    "dimensions_m": [
+      0.22,
+      0.22,
+      0.32
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "grass_color",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH031": {
+    "slug": "PlantBranching",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-013_PlantBranching_Main_ref_v001.png",
+    "dimensions_m": [
+      0.44,
+      0.4,
+      0.53
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH032": {
+    "slug": "PlantBroadleaf",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-011_PlantBroadleaf_Main_ref_v001.png",
+    "dimensions_m": [
+      0.48,
+      0.43,
+      0.65
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH033": {
+    "slug": "BeddingKit_Duvet",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-003_BeddingKit_Duvet_ref_v001.png",
+    "dimensions_m": [
+      0.55,
+      0.44,
+      0.1
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH034": {
+    "slug": "Refrigerator",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-002_Refrigerator_Main_ref_v001.png",
+    "dimensions_m": [
+      0.64,
+      0.66,
+      1.83
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH035": {
+    "slug": "CatMatKit_Round",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-007_CatMatKit_Round_ref_v001.png",
+    "dimensions_m": [
+      0.62,
+      0.62,
+      0.018
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH036": {
+    "slug": "CalicoCat",
+    "reference": "01_参考资料/效果图/04_阳台与猫咪观景区_效果图.png",
+    "dimensions_m": [
+      0.23,
+      0.48,
+      0.32
+    ],
+    "canonicalRotationZ_deg": 0,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH037": {
+    "slug": "ShowerKit",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-009_ShowerKit_Main_ref_v001.png",
+    "dimensions_m": [
+      1.05,
+      0.88,
+      2.05
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "shower_glass",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH038": {
+    "slug": "KitchenGlassSlider",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-DOR-004_KitchenGlassSlider_Main_ref_v001.png",
+    "dimensions_m": [
+      1.1,
+      0.085,
+      2.2
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "window2",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH039": {
+    "slug": "BalconyGlassSlider",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-DOR-005_BalconyGlassSlider_Main_ref_v001.png",
+    "dimensions_m": [
+      3.2,
+      0.1,
+      2.2
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "window4",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH040": {
+    "slug": "KitchenWindow",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-DOR-007_KitchenWindow_Main_ref_v001.png",
+    "dimensions_m": [
+      1.9,
+      0.075,
+      1.4
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "window2",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH041": {
+    "slug": "BedroomWindow",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-DOR-006_BedroomWindow_Main_ref_v001.png",
+    "dimensions_m": [
+      2.4,
+      0.075,
+      1.5
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "window2",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH042": {
+    "slug": "LaundryBottleKit_PumpBottle",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-017_LaundryBottleKit_PumpBottle_ref_v001.png",
+    "dimensions_m": [
+      0.075,
+      0.075,
+      0.2
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "pump_color",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH043": {
+    "slug": "ChoppingBoardKit_JarGlass",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-020_ChoppingBoardKit_JarGlass_ref_v001.png",
+    "dimensions_m": [
+      0.105,
+      0.105,
+      0.15
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "jar_color",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH044": {
+    "slug": "BedsideLamp",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-LGT-003_BedsideLamp_Main_ref_v001.png",
+    "dimensions_m": [
+      0.22,
+      0.22,
+      0.39
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH045": {
+    "slug": "Toilet",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-008_Toilet_Main_ref_v001.png",
+    "dimensions_m": [
+      0.39,
+      0.66,
+      0.76
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH046": {
+    "slug": "TowelStack_Towel",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-018_TowelStack_Towel_ref_v001.png",
+    "dimensions_m": [
+      0.33,
+      0.24,
+      0.065
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH047": {
+    "slug": "WashingMachine",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-003_WashingMachine_Main_ref_v001.png",
+    "dimensions_m": [
+      0.6,
+      0.62,
+      0.85
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH048": {
+    "slug": "SleepingPillow",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-002_SleepingPillow_Cream_ref_v001.png",
+    "dimensions_m": [
+      0.6,
+      0.16,
+      0.4
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH049": {
+    "slug": "BalconyGlazing",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-DOR-009_BalconyGlazing_Main_ref_v001.png",
+    "dimensions_m": [
+      5.4,
+      0.1,
+      2.5
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "glazing5",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH050": {
+    "slug": "MasterBed",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-007_MasterBed_Main_ref_v001.png",
+    "dimensions_m": [
+      1.8,
+      2.08,
+      0.9
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "bed_cleanup",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH051": {
+    "slug": "GuestBed",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-008_GuestBed_Main_ref_v001.png",
+    "dimensions_m": [
+      1.2,
+      2.05,
+      0.85
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH052": {
+    "slug": "DiningBench",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-006_DiningBench_Main_ref_v001.png",
+    "dimensions_m": [
+      1.2,
+      0.38,
+      0.8
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH053": {
+    "slug": "EntryBench",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-016_EntryBench_Main_ref_v001.png",
+    "dimensions_m": [
+      1.15,
+      0.36,
+      0.44
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH054": {
+    "slug": "WallPlatformKit_Module",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-003_WallPlatformKit_Module_ref_v001.png",
+    "dimensions_m": [
+      0.48,
+      0.28,
+      0.065
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH055": {
+    "slug": "EntryStorage",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-014_EntryStorage_Main_ref_v001.png",
+    "dimensions_m": [
+      0.66,
+      0.52,
+      2.4
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH056": {
+    "slug": "GuestStorage",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-011_GuestStorage_Main_ref_v001.png",
+    "dimensions_m": [
+      1.45,
+      0.36,
+      0.58
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH057": {
+    "slug": "Hideout",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-001_Hideout_Main_ref_v001.png",
+    "dimensions_m": [
+      0.52,
+      0.49,
+      0.53
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH058": {
+    "slug": "EntryConsole",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-015_EntryConsole_Main_ref_v001.png",
+    "dimensions_m": [
+      1.0,
+      0.34,
+      0.92
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH059": {
+    "slug": "DiningChair",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-005_DiningChair_Main_ref_v001.png",
+    "dimensions_m": [
+      0.46,
+      0.49,
+      0.79
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH060": {
+    "slug": "CoffeeTable",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-002_CoffeeTable_Main_ref_v001.png",
+    "dimensions_m": [
+      1.0,
+      0.65,
+      0.38
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH061": {
+    "slug": "ChoppingBoardKit_BoardLarge",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-020_ChoppingBoardKit_BoardLarge_ref_v001.png",
+    "dimensions_m": [
+      0.23,
+      0.022,
+      0.4
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "board_color",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH062": {
+    "slug": "DiningTable",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-004_DiningTable_Main_ref_v001.png",
+    "dimensions_m": [
+      1.2,
+      0.7,
+      0.75
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH063": {
+    "slug": "Desk",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-012_Desk_Main_ref_v001.png",
+    "dimensions_m": [
+      1.2,
+      0.6,
+      0.75
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH064": {
+    "slug": "BedroomDoor",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-DOR-002_BedroomDoor_Main_ref_v001.png",
+    "dimensions_m": [
+      0.9,
+      0.095,
+      2.2
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH065": {
+    "slug": "EntranceDoor",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-DOR-001_EntranceDoor_Main_ref_v001.png",
+    "dimensions_m": [
+      1.0,
+      0.1,
+      2.2
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH066": {
+    "slug": "KitchenBaseCabinet",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-017_KitchenBaseCabinet_Main_ref_v001.png",
+    "dimensions_m": [
+      2.88,
+      2.64,
+      0.9
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH067": {
+    "slug": "BedsideTable",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-009_BedsideTable_Main_ref_v001.png",
+    "dimensions_m": [
+      0.43,
+      0.43,
+      0.48
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH068": {
+    "slug": "FeedingStation",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-004_FeedingStation_Main_ref_v001.png",
+    "dimensions_m": [
+      0.58,
+      0.3,
+      0.32
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH069": {
+    "slug": "LitterCabinet",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-006_LitterCabinet_Main_ref_v001.png",
+    "dimensions_m": [
+      0.76,
+      0.65,
+      0.7
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "litter_check",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH070": {
+    "slug": "ToyKit_ScratchBall",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-008_ToyKit_ScratchBall_ref_v001.png",
+    "dimensions_m": [
+      0.19,
+      0.19,
+      0.36
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH071": {
+    "slug": "TVConsole",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-003_TVConsole_Main_ref_v001.png",
+    "dimensions_m": [
+      1.9,
+      0.4,
+      0.45
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH072": {
+    "slug": "ServingTray",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-010_ServingTray_Main_ref_v001.png",
+    "dimensions_m": [
+      0.29,
+      0.17,
+      0.032
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH073": {
+    "slug": "WindowPerch",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-007_WindowPerch_Main_ref_v001.png",
+    "dimensions_m": [
+      0.85,
+      0.42,
+      0.34
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH074": {
+    "slug": "BalconyBench",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-020_BalconyBench_Main_ref_v001.png",
+    "dimensions_m": [
+      2.55,
+      0.4,
+      0.45
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH075": {
+    "slug": "KitchenWallCabinet",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-018_KitchenWallCabinet_Main_ref_v001.png",
+    "dimensions_m": [
+      2.08,
+      0.32,
+      0.72
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH076": {
+    "slug": "MasterWardrobe",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-010_MasterWardrobe_Main_ref_v001.png",
+    "dimensions_m": [
+      2.15,
+      0.6,
+      2.6
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "wardrobe_back",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH077": {
+    "slug": "LaundryBasket",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-019_LaundryBasket_Main_ref_v001.png",
+    "dimensions_m": [
+      0.34,
+      0.34,
+      0.46
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": "basket_color",
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH078": {
+    "slug": "EntryMat",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-006_EntryMat_Main_ref_v001.png",
+    "dimensions_m": [
+      0.76,
+      0.45,
+      0.013
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH079": {
+    "slug": "CatMatKit_Rectangular",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-007_CatMatKit_Rectangular_ref_v001.png",
+    "dimensions_m": [
+      0.45,
+      0.3,
+      0.045
+    ],
+    "canonicalRotationZ_deg": -90,
+    "correction": null,
+    "visualReview": "front, rear and underside checked; main silhouette retained"
+  },
+  "NH080": {
+    "slug": "Slipper",
+    "sourceType": "supplemental",
+    "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-016_ShoePairKit_Shoe_ref_v001.png",
+    "dimensions_m": [
+      0.1,
+      0.25,
+      0.065
+    ],
+    "correction": "missing source shoe model: supplemented from provided reference"
+  }
+}

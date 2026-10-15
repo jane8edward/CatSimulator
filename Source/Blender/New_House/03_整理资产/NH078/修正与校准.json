@@ -1,0 +1,24 @@
+{
+  "id": "NH078",
+  "slug": "EntryMat",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-006_EntryMat_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.7599999904632568,
+    0.4500000476837158,
+    0.013000001199543476
+  ],
+  "targetDimensions_m": [
+    0.7599999904632568,
+    0.44999998807907104,
+    0.013000000268220901
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 89988,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 3.8
+}

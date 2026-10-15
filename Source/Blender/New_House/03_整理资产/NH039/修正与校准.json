@@ -1,0 +1,26 @@
+{
+  "id": "NH039",
+  "slug": "BalconyGlassSlider",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-DOR-005_BalconyGlassSlider_Main_ref_v001.png",
+  "corrections": [
+    "Rebuilt only damaged AI-generated frame/pane surfaces with straight precision rails, 4 reference panels and thin clear glass; original high-resolution model retained in Asset.blend."
+  ],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    3.200000047683716,
+    0.11100000143051147,
+    2.200000047683716
+  ],
+  "targetDimensions_m": [
+    3.200000047683716,
+    0.10000000149011612,
+    2.200000047683716
+  ],
+  "sceneFaces": 78,
+  "sceneVertices": 104,
+  "meshObjects": 13,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 11.3
+}
