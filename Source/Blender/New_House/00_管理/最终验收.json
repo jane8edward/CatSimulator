@@ -1,11 +1,11 @@
 {
   "project": "New_House",
-  "file": "Source/Blender/New_House/04_场景工程/New_House_v001.blend",
+  "file": "04_场景工程/New_House_v001.blend",
   "blenderVersion": "5.2.2 LTS",
   "units": "METRIC",
   "archiveCount": 79,
   "modelArchives": 78,
-  "archiveExtraction": "all recorded file lengths verified",
+  "archiveExtraction": "all model-package file lengths verified; plugin package retained only on original workstation",
   "readyAssets": 79,
   "uniqueTripoAssets": 78,
   "supplementalAssets": 1,

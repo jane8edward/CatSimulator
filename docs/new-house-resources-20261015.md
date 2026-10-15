@@ -34,3 +34,19 @@ blender --background --python tools/verify-new-house.py
 Unity 复测使用 6000.3.26f1，以当前默认可玩场景构建到 `Builds/NewHouseSubmission/CatSimulator.app`；Builds 与日志不提交。新模型的验证范围是 Blender 资产与原始 FBX，Unity 构建及试玩用于检查现有关卡回归。
 
 本次实际结果见 `Source/Verification/NewHouse/validation-summary.json`；四张住宅 Cycles 图是本次建模交付的正式渲染，已经随原生工程保留。
+
+## 本次验证结果
+
+- Blender 5.2.2 LTS：重新读取主工程和 79 个 Ready 资产；78 份原始模型文件完整，124 个实例、16 个阵列，缺失贴图 0。新提供的猫原始 FBX 导入并完成渲染。
+- 712 个二进制来源文件 SHA-256 与桌面原件一致。新增范围 Git LFS 对象校验通过。全仓库扫描还发现历史美术/媒体的本地 LFS 缓存未全量下载；本次未改动这些历史文件。
+- Unity 6000.3.26f1：Mac 通用开发构建 Succeeded，构建错误 0；191 个现有 Unity GUID 无重复，无缺失 .meta。
+- Apple M4 实际运行：猫动画、位移、暂停、重置、旧住宅 1352 个网格加载通过，运行错误 0。
+- 原关卡：移动、跳跃、爬架支撑、286 个实体网格碰撞覆盖、两项任务、镜头和重玩通过，顺序为先水杯后窗帘。
+- 合入远程 main `b63affc`，无文件冲突；带入的菜单与原生猫贴图修复均保留。
+
+构建调用现有 `CatSimulator.Editor.ModelResourceIntegration.BuildMac`，输出另存于 `Builds/NewHouseSubmission`，旧构建与历史验证记录已恢复保留。复测可调用仓库已有 `tools/build-mac.sh`（默认输出 `Builds/Mac`），然后对其生成的程序运行：
+
+```sh
+"Builds/Mac/CatSimulator.app/Contents/MacOS/Cat Simulator" --verify-model-resources --verification-output "$PWD/Source/Verification/NewHouse/Runtime"
+"Builds/Mac/CatSimulator.app/Contents/MacOS/Cat Simulator" --verify-playable --verification-output "$PWD/Source/Verification/NewHouse/Playable"
+```
