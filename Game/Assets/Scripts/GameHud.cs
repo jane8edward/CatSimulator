@@ -56,6 +56,7 @@ namespace CatSimulator
 
         void Update()
         {
+            if (ContentPreviewMenu.GameplayInputBlocked) return;
             if (!cat.Automated && Input.GetKeyDown(KeyCode.Escape)) { completion.SetActive(false);credits.SetActive(false);SetPaused(!cat.Paused);pause.SetActive(cat.Paused); }
             prompt.text = cat.Paused ? "" : cat.IsBusy ? "" : cat.Nearest != null ? "E  " + cat.Nearest.prompt : "";
             version.text="开发原型 "+Application.version+" · "+(cat.transform.position.x>4.25f?"卧室":"客厅");
