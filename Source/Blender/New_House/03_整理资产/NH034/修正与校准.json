@@ -1,0 +1,24 @@
+{
+  "id": "NH034",
+  "slug": "Refrigerator",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-002_Refrigerator_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.6399999856948853,
+    0.6600000858306885,
+    1.8300000429153442
+  ],
+  "targetDimensions_m": [
+    0.6399999856948853,
+    0.6600000262260437,
+    1.8300000429153442
+  ],
+  "sceneFaces": 179998,
+  "sceneVertices": 90004,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 8.3
+}

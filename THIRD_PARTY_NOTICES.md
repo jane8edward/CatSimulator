@@ -17,3 +17,7 @@
 - `Game/Assets/Cat/Resources/NotoSansSC.ttf`：Noto Sans SC，SIL Open Font License 1.1。完整授权保留在 `Game/Assets/Cat/FONT_LICENSE.txt`。
 - `assets/Cats` 中的猫咪参考图、Tripo 原始模型及贴图由本工作区用户提供；原始模型保留，修复蒙皮版本单独保存。上传记录不构成对第三方素材版权的重新授权。
 - `Source/Blender/CatHome90` 是按本工作区住宅参考方案构建的原生场景与资产库；生成参考图和来源映射随资产库保存。
+
+## 本次用户提供的 Tripo 资源（2026-10-15）
+
+`Source/Blender/New_House/02_解压原文件` 和 `assets/Cats/CuteCat/Original` 为用户提供的 Tripo 模型及贴图；原始来源、文件名和校验值记录在 `Source/Verification/NewHouse/submission-inventory.json`。修正后模型、住宅搭建及补建拖鞋保存在独立目录。Tripo 插件源码压缩包没有纳入本次分发。本记录不改变第三方素材原有的权利归属。

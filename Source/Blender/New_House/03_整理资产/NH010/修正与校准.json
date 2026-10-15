@@ -1,0 +1,26 @@
+{
+  "id": "NH010",
+  "slug": "Downlight",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-LGT-001_Downlight_Main_ref_v001.png",
+  "corrections": [
+    "Removed disconnected background sheet and floating triangles; aligned retained circular downlight horizontally."
+  ],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.14000000059604645,
+    0.14000000059604645,
+    0.02499999850988388
+  ],
+  "targetDimensions_m": [
+    0.14000000059604645,
+    0.14000000059604645,
+    0.02500000037252903
+  ],
+  "sceneFaces": 128302,
+  "sceneVertices": 64153,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 4.5
+}

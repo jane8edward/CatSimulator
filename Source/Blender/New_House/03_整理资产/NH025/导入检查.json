@@ -1,0 +1,54 @@
+{
+  "id": "NH025",
+  "archive": "linear+led+light+3d+model.zip",
+  "source": "02_解压原文件/NH025/tripo_convert_f0f831bf-4751-41eb-ae20-747944d194ca.fbx",
+  "importBounds": {
+    "min": [
+      -0.0862579345703125,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.0862579345703125,
+      0.5,
+      0.2900390923023224
+    ],
+    "dimensions": [
+      0.172515869140625,
+      1.0,
+      0.2900391221046448
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 486290,
+  "sourceFaces": 972576,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_f0f831bf_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.17250877618789673,
+    1.0000137090682983,
+    0.2900489866733551
+  ],
+  "seconds": 11.5,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

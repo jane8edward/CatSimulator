@@ -1,0 +1,26 @@
+{
+  "id": "NH037",
+  "slug": "ShowerKit",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-009_ShowerKit_Main_ref_v001.png",
+  "corrections": [
+    "Converted 79185 reconstructed opaque panel faces to transmission glass; retained shower hardware and frame."
+  ],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    1.0499999523162842,
+    0.8799999952316284,
+    2.049999952316284
+  ],
+  "targetDimensions_m": [
+    1.0499999523162842,
+    0.8799999952316284,
+    2.049999952316284
+  ],
+  "sceneFaces": 179998,
+  "sceneVertices": 90076,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 8.7
+}

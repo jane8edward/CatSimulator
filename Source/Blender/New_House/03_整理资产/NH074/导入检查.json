@@ -1,0 +1,54 @@
+{
+  "id": "NH074",
+  "archive": "wooden+storage+bench+3d+model.zip",
+  "source": "02_解压原文件/NH074/tripo_convert_556dc691-8ddc-41ed-9eae-8d162630a8e9.fbx",
+  "importBounds": {
+    "min": [
+      -0.10547637939453125,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.10547637939453125,
+      0.5,
+      0.2086792141199112
+    ],
+    "dimensions": [
+      0.2109527587890625,
+      1.0,
+      0.2086792290210724
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 482653,
+  "sourceFaces": 965301,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_556dc691_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.21095246076583862,
+    1.000006914138794,
+    0.2086789458990097
+  ],
+  "seconds": 13.5,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "NH046",
+  "slug": "TowelStack_Towel",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-018_TowelStack_Towel_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.33000001311302185,
+    0.23999997973442078,
+    0.06499999761581421
+  ],
+  "targetDimensions_m": [
+    0.33000001311302185,
+    0.23999999463558197,
+    0.06499999761581421
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 90002,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 3.7
+}

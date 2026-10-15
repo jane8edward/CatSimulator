@@ -1,0 +1,54 @@
+{
+  "id": "NH006",
+  "archive": "beige+rug+3d+model.zip",
+  "source": "02_解压原文件/NH006/tripo_convert_25e95239-a78f-40e0-8870-fdc8c99752e5.fbx",
+  "importBounds": {
+    "min": [
+      -0.355804443359375,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.355804443359375,
+      0.5,
+      0.1341858059167862
+    ],
+    "dimensions": [
+      0.71160888671875,
+      1.0,
+      0.1341858208179474
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 490110,
+  "sourceFaces": 980216,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_25e95239_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.7115656733512878,
+    0.9999747276306152,
+    0.13423947989940643
+  ],
+  "seconds": 12.9,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

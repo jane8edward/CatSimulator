@@ -1,0 +1,24 @@
+{
+  "id": "NH011",
+  "slug": "WaterFountain",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-005_WaterFountain_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.27000004053115845,
+    0.27000001072883606,
+    0.18000000715255737
+  ],
+  "targetDimensions_m": [
+    0.27000001072883606,
+    0.27000001072883606,
+    0.18000000715255737
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 89974,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 8.7
+}

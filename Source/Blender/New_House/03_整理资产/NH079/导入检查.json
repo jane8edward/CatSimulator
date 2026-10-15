@@ -1,0 +1,54 @@
+{
+  "id": "NH079",
+  "archive": "woven+rope+soap+dish+3d+model.zip",
+  "source": "02_解压原文件/NH079/tripo_convert_d89bd086-ff9f-431b-bfea-cef7e7182641.fbx",
+  "importBounds": {
+    "min": [
+      -0.316436767578125,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.316436767578125,
+      0.5,
+      0.1672516018152237
+    ],
+    "dimensions": [
+      0.63287353515625,
+      1.0,
+      0.1672516167163849
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 475252,
+  "sourceFaces": 950500,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_d89bd086_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.6329094767570496,
+    0.9999889731407166,
+    0.1672888845205307
+  ],
+  "seconds": 9.6,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

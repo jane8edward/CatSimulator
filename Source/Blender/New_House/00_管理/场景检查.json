@@ -1,0 +1,2088 @@
+{
+  "project": "New_House",
+  "sourceBatch": "New_House_Items",
+  "footprint_m": [
+    10,
+    9
+  ],
+  "units": "metres",
+  "uniqueTripoModels": 78,
+  "supplementalModels": 1,
+  "collectionInstances": 124,
+  "arrayModifiers": [
+    {
+      "object": "NH_FloorModule_MBR",
+      "modifier": "NH_ARRAY_Columns_MBR",
+      "count": 5
+    },
+    {
+      "object": "NH_FloorModule_MBR",
+      "modifier": "NH_ARRAY_Rows_MBR",
+      "count": 20
+    },
+    {
+      "object": "NH_FloorModule_OFF",
+      "modifier": "NH_ARRAY_Columns_OFF",
+      "count": 3
+    },
+    {
+      "object": "NH_FloorModule_OFF",
+      "modifier": "NH_ARRAY_Rows_OFF",
+      "count": 16
+    },
+    {
+      "object": "NH_FloorModule_HALL",
+      "modifier": "NH_ARRAY_Columns_HALL",
+      "count": 2
+    },
+    {
+      "object": "NH_FloorModule_HALL",
+      "modifier": "NH_ARRAY_Rows_HALL",
+      "count": 16
+    },
+    {
+      "object": "NH_FloorModule_ENT",
+      "modifier": "NH_ARRAY_Columns_ENT",
+      "count": 5
+    },
+    {
+      "object": "NH_FloorModule_ENT",
+      "modifier": "NH_ARRAY_Rows_ENT",
+      "count": 10
+    },
+    {
+      "object": "NH_FloorModule_BTH",
+      "modifier": "NH_ARRAY_Columns_BTH",
+      "count": 5
+    },
+    {
+      "object": "NH_FloorModule_BTH",
+      "modifier": "NH_ARRAY_Rows_BTH",
+      "count": 5
+    },
+    {
+      "object": "NH_FloorModule_KIT",
+      "modifier": "NH_ARRAY_Columns_KIT",
+      "count": 5
+    },
+    {
+      "object": "NH_FloorModule_KIT",
+      "modifier": "NH_ARRAY_Rows_KIT",
+      "count": 5
+    },
+    {
+      "object": "NH_FloorModule_LIV",
+      "modifier": "NH_ARRAY_Columns_LIV",
+      "count": 6
+    },
+    {
+      "object": "NH_FloorModule_LIV",
+      "modifier": "NH_ARRAY_Rows_LIV",
+      "count": 23
+    },
+    {
+      "object": "NH_FloorModule_BAL",
+      "modifier": "NH_ARRAY_Columns_BAL",
+      "count": 10
+    },
+    {
+      "object": "NH_FloorModule_BAL",
+      "modifier": "NH_ARRAY_Rows_BAL",
+      "count": 3
+    }
+  ],
+  "placements": [
+    {
+      "name": "NH_ENT_NH065_EntranceDoor_01",
+      "id": "NH065",
+      "room": "ENT",
+      "position_m": [
+        3.35,
+        8.9,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        1.0,
+        0.1,
+        2.2
+      ]
+    },
+    {
+      "name": "NH_MBR_NH064_BedroomDoor_01",
+      "id": "NH064",
+      "room": "MBR",
+      "position_m": [
+        3.6,
+        4.0,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.9,
+        0.095,
+        2.2
+      ]
+    },
+    {
+      "name": "NH_OFF_NH064_BedroomDoor_02",
+      "id": "NH064",
+      "room": "OFF",
+      "position_m": [
+        3.0,
+        5.575,
+        0
+      ],
+      "rotationZ_deg": 90,
+      "dimensions_m": [
+        0.85,
+        0.095,
+        2.2
+      ]
+    },
+    {
+      "name": "NH_BTH_NH038_BathSlider_01",
+      "id": "NH038",
+      "room": "BTH",
+      "position_m": [
+        4.2,
+        7.825,
+        0
+      ],
+      "rotationZ_deg": 90,
+      "dimensions_m": [
+        0.85,
+        0.085,
+        2.2
+      ]
+    },
+    {
+      "name": "NH_KIT_NH038_KitchenGlassSlider_02",
+      "id": "NH038",
+      "room": "KIT",
+      "position_m": [
+        8.3,
+        6.0,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        1.1,
+        0.085,
+        2.2
+      ]
+    },
+    {
+      "name": "NH_LIV_NH039_BalconyGlassSlider_01",
+      "id": "NH039",
+      "room": "LIV",
+      "position_m": [
+        7.05,
+        1.6,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        3.2,
+        0.1,
+        2.2
+      ]
+    },
+    {
+      "name": "NH_MBR_NH041_BedroomWindow_01",
+      "id": "NH041",
+      "room": "MBR",
+      "position_m": [
+        2.05,
+        0.1,
+        0.9
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        2.4,
+        0.075,
+        1.5
+      ]
+    },
+    {
+      "name": "NH_OFF_NH041_BedroomWindow_02",
+      "id": "NH041",
+      "room": "OFF",
+      "position_m": [
+        0.1,
+        5.6,
+        0.9
+      ],
+      "rotationZ_deg": 90,
+      "dimensions_m": [
+        1.5,
+        0.075,
+        1.5
+      ]
+    },
+    {
+      "name": "NH_BTH_NH026_BathHighWindow_01",
+      "id": "NH026",
+      "room": "BTH",
+      "position_m": [
+        5.5,
+        8.9,
+        1.5
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        1.3,
+        0.055,
+        0.9
+      ]
+    },
+    {
+      "name": "NH_KIT_NH040_KitchenWindow_01",
+      "id": "NH040",
+      "room": "KIT",
+      "position_m": [
+        8.35,
+        8.9,
+        1.0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        1.9,
+        0.075,
+        1.4
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "room": "BAL",
+      "position_m": [
+        7.1,
+        0.1,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        5.4,
+        0.1,
+        2.5
+      ]
+    },
+    {
+      "name": "NH_MBR_NH050_MasterBed_01",
+      "id": "NH050",
+      "room": "MBR",
+      "position_m": [
+        1.65,
+        2.88,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        1.8,
+        2.08,
+        0.9
+      ]
+    },
+    {
+      "name": "NH_MBR_NH076_MasterWardrobe_01",
+      "id": "NH076",
+      "room": "MBR",
+      "position_m": [
+        3.65,
+        1.73,
+        0
+      ],
+      "rotationZ_deg": -90,
+      "dimensions_m": [
+        2.15,
+        0.6,
+        2.6
+      ]
+    },
+    {
+      "name": "NH_MBR_NH067_BedsideTable_01",
+      "id": "NH067",
+      "room": "MBR",
+      "position_m": [
+        0.49,
+        3.57,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.43,
+        0.43,
+        0.48
+      ]
+    },
+    {
+      "name": "NH_MBR_NH044_BedsideLamp_01",
+      "id": "NH044",
+      "room": "MBR",
+      "position_m": [
+        0.49,
+        3.57,
+        0.48
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.22,
+        0.22,
+        0.39
+      ]
+    },
+    {
+      "name": "NH_MBR_NH067_BedsideTable_02",
+      "id": "NH067",
+      "room": "MBR",
+      "position_m": [
+        2.81,
+        3.57,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.43,
+        0.43,
+        0.48
+      ]
+    },
+    {
+      "name": "NH_MBR_NH044_BedsideLamp_02",
+      "id": "NH044",
+      "room": "MBR",
+      "position_m": [
+        2.81,
+        3.57,
+        0.48
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.22,
+        0.22,
+        0.39
+      ]
+    },
+    {
+      "name": "NH_MBR_NH005_RoomRug_Bedroom_01",
+      "id": "NH005",
+      "room": "MBR",
+      "position_m": [
+        1.65,
+        2.22,
+        0.003
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        2.6,
+        2.15,
+        0.012
+      ]
+    },
+    {
+      "name": "NH_MBR_NH048_SleepingPillow_01",
+      "id": "NH048",
+      "room": "MBR",
+      "position_m": [
+        1.22,
+        3.25,
+        0.646594123840332
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.6,
+        0.16,
+        0.4
+      ]
+    },
+    {
+      "name": "NH_MBR_NH048_SleepingPillow_02",
+      "id": "NH048",
+      "room": "MBR",
+      "position_m": [
+        2.05,
+        3.25,
+        0.646594123840332
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.6,
+        0.16,
+        0.4
+      ]
+    },
+    {
+      "name": "NH_MBR_NH033_BeddingKit_Duvet_01",
+      "id": "NH033",
+      "room": "MBR",
+      "position_m": [
+        1.85,
+        2.02,
+        0.576594123840332
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.55,
+        0.44,
+        0.1
+      ]
+    },
+    {
+      "name": "NH_MBR_NH016_DecorCushion_Sage_01",
+      "id": "NH016",
+      "room": "MBR",
+      "position_m": [
+        1.72,
+        3.17,
+        0.586594123840332
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.37,
+        0.14,
+        0.37
+      ]
+    },
+    {
+      "name": "NH_MBR_NH073_WindowPerch_01",
+      "id": "NH073",
+      "room": "MBR",
+      "position_m": [
+        2.0,
+        0.46,
+        0.5
+      ],
+      "rotationZ_deg": 180,
+      "dimensions_m": [
+        0.85,
+        0.42,
+        0.34
+      ]
+    },
+    {
+      "name": "NH_MBR_NH032_PlantBroadleaf_01",
+      "id": "NH032",
+      "room": "MBR",
+      "position_m": [
+        0.48,
+        0.6,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.4,
+        0.36,
+        0.57
+      ]
+    },
+    {
+      "name": "NH_OFF_NH051_GuestBed_01",
+      "id": "NH051",
+      "room": "OFF",
+      "position_m": [
+        0.87,
+        5.9,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        1.2,
+        2.05,
+        0.85
+      ]
+    },
+    {
+      "name": "NH_OFF_NH063_Desk_01",
+      "id": "NH063",
+      "room": "OFF",
+      "position_m": [
+        2.23,
+        6.53,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        1.2,
+        0.6,
+        0.75
+      ]
+    },
+    {
+      "name": "NH_OFF_NH003_OfficeChair_01",
+      "id": "NH003",
+      "room": "OFF",
+      "position_m": [
+        2.23,
+        5.79,
+        0
+      ],
+      "rotationZ_deg": 180,
+      "dimensions_m": [
+        0.6,
+        0.58,
+        0.83
+      ]
+    },
+    {
+      "name": "NH_OFF_NH056_GuestStorage_01",
+      "id": "NH056",
+      "room": "OFF",
+      "position_m": [
+        1.57,
+        4.3,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        1.45,
+        0.36,
+        0.58
+      ]
+    },
+    {
+      "name": "NH_OFF_NH024_Laptop_01",
+      "id": "NH024",
+      "room": "OFF",
+      "position_m": [
+        2.24,
+        6.53,
+        0.75
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.32,
+        0.27,
+        0.22
+      ]
+    },
+    {
+      "name": "NH_OFF_NH048_SleepingPillow_03",
+      "id": "NH048",
+      "room": "OFF",
+      "position_m": [
+        0.87,
+        6.46,
+        0.6143934249877929
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.55,
+        0.15,
+        0.36
+      ]
+    },
+    {
+      "name": "NH_OFF_NH033_BeddingKit_Duvet_02",
+      "id": "NH033",
+      "room": "OFF",
+      "position_m": [
+        0.87,
+        5.38,
+        0.549393424987793
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.55,
+        0.44,
+        0.1
+      ]
+    },
+    {
+      "name": "NH_OFF_NH023_Ottoman_01",
+      "id": "NH023",
+      "room": "OFF",
+      "position_m": [
+        1.77,
+        5.11,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.41,
+        0.41,
+        0.27
+      ]
+    },
+    {
+      "name": "NH_OFF_NH031_PlantBranching_01",
+      "id": "NH031",
+      "room": "OFF",
+      "position_m": [
+        2.75,
+        4.32,
+        0.58
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.27,
+        0.25,
+        0.33
+      ]
+    },
+    {
+      "name": "NH_OFF_NH008_BookMagazineKit_Book_01",
+      "id": "NH008",
+      "room": "OFF",
+      "position_m": [
+        1.88,
+        6.5,
+        0.75
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.21,
+        0.28,
+        0.032
+      ]
+    },
+    {
+      "name": "NH_ENT_NH055_EntryStorage_01",
+      "id": "NH055",
+      "room": "ENT",
+      "position_m": [
+        0.49,
+        7.52,
+        0
+      ],
+      "rotationZ_deg": 90,
+      "dimensions_m": [
+        0.66,
+        0.52,
+        2.4
+      ]
+    },
+    {
+      "name": "NH_ENT_NH055_EntryStorage_02",
+      "id": "NH055",
+      "room": "ENT",
+      "position_m": [
+        0.49,
+        8.18,
+        0
+      ],
+      "rotationZ_deg": 90,
+      "dimensions_m": [
+        0.66,
+        0.52,
+        2.4
+      ]
+    },
+    {
+      "name": "NH_ENT_NH058_EntryConsole_01",
+      "id": "NH058",
+      "room": "ENT",
+      "position_m": [
+        1.77,
+        8.59,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        1.0,
+        0.34,
+        0.92
+      ]
+    },
+    {
+      "name": "NH_ENT_NH053_EntryBench_01",
+      "id": "NH053",
+      "room": "ENT",
+      "position_m": [
+        1.82,
+        7.35,
+        0
+      ],
+      "rotationZ_deg": 180,
+      "dimensions_m": [
+        1.15,
+        0.36,
+        0.44
+      ]
+    },
+    {
+      "name": "NH_ENT_NH078_EntryMat_01",
+      "id": "NH078",
+      "room": "ENT",
+      "position_m": [
+        3.35,
+        8.13,
+        0.002
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.76,
+        0.45,
+        0.013
+      ]
+    },
+    {
+      "name": "NH_ENT_NH032_PlantBroadleaf_02",
+      "id": "NH032",
+      "room": "ENT",
+      "position_m": [
+        0.57,
+        7.21,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.3,
+        0.28,
+        0.43
+      ]
+    },
+    {
+      "name": "NH_ENT_NH046_TowelStack_Towel_01",
+      "id": "NH046",
+      "room": "ENT",
+      "position_m": [
+        1.52,
+        8.59,
+        0.92
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.33,
+        0.24,
+        0.065
+      ]
+    },
+    {
+      "name": "NH_ENT_NH013_PlanterKit_01",
+      "id": "NH013",
+      "room": "ENT",
+      "position_m": [
+        2.09,
+        8.56,
+        0.92
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.18,
+        0.18,
+        0.17
+      ]
+    },
+    {
+      "name": "NH_ENT_NH080_Slipper_01",
+      "id": "NH080",
+      "room": "ENT",
+      "position_m": [
+        1.78,
+        7.67,
+        0.003
+      ],
+      "rotationZ_deg": 8,
+      "dimensions_m": [
+        0.1,
+        0.25,
+        0.065
+      ]
+    },
+    {
+      "name": "NH_ENT_NH080_Slipper_02",
+      "id": "NH080",
+      "room": "ENT",
+      "position_m": [
+        1.91,
+        7.67,
+        0.003
+      ],
+      "rotationZ_deg": -6,
+      "dimensions_m": [
+        0.1,
+        0.25,
+        0.065
+      ]
+    },
+    {
+      "name": "NH_LIV_NH007_Sofa_01",
+      "id": "NH007",
+      "room": "LIV",
+      "position_m": [
+        5.0,
+        3.625,
+        0
+      ],
+      "rotationZ_deg": 90,
+      "dimensions_m": [
+        2.45,
+        0.96,
+        0.88
+      ]
+    },
+    {
+      "name": "NH_LIV_NH006_RoomRug_Living_01",
+      "id": "NH006",
+      "room": "LIV",
+      "position_m": [
+        6.72,
+        3.33,
+        0.003
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        2.0,
+        1.6,
+        0.022
+      ]
+    },
+    {
+      "name": "NH_LIV_NH060_CoffeeTable_01",
+      "id": "NH060",
+      "room": "LIV",
+      "position_m": [
+        6.7,
+        3.325,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        1.0,
+        0.65,
+        0.38
+      ]
+    },
+    {
+      "name": "NH_LIV_NH071_TVConsole_01",
+      "id": "NH071",
+      "room": "LIV",
+      "position_m": [
+        9.58,
+        3.55,
+        0
+      ],
+      "rotationZ_deg": -90,
+      "dimensions_m": [
+        1.9,
+        0.4,
+        0.45
+      ]
+    },
+    {
+      "name": "NH_LIV_NH027_Television_01",
+      "id": "NH027",
+      "room": "LIV",
+      "position_m": [
+        9.55,
+        3.58,
+        0.45
+      ],
+      "rotationZ_deg": -90,
+      "dimensions_m": [
+        1.35,
+        0.22,
+        0.79
+      ]
+    },
+    {
+      "name": "NH_LIV_NH016_DecorCushion_Sage_02",
+      "id": "NH016",
+      "room": "LIV",
+      "position_m": [
+        5.05,
+        2.85,
+        0.46
+      ],
+      "rotationZ_deg": 90,
+      "dimensions_m": [
+        0.43,
+        0.17,
+        0.43
+      ]
+    },
+    {
+      "name": "NH_LIV_NH016_DecorCushion_Sage_03",
+      "id": "NH016",
+      "room": "LIV",
+      "position_m": [
+        5.05,
+        4.36,
+        0.46
+      ],
+      "rotationZ_deg": 90,
+      "dimensions_m": [
+        0.43,
+        0.17,
+        0.43
+      ]
+    },
+    {
+      "name": "NH_LIV_NH022_DecorCushion_Cream_01",
+      "id": "NH022",
+      "room": "LIV",
+      "position_m": [
+        5.11,
+        3.08,
+        0.46
+      ],
+      "rotationZ_deg": 90,
+      "dimensions_m": [
+        0.43,
+        0.17,
+        0.43
+      ]
+    },
+    {
+      "name": "NH_LIV_NH021_ThrowBlanket_01",
+      "id": "NH021",
+      "room": "LIV",
+      "position_m": [
+        5.05,
+        4.55,
+        0.69
+      ],
+      "rotationZ_deg": 90,
+      "dimensions_m": [
+        0.5,
+        0.38,
+        0.13
+      ]
+    },
+    {
+      "name": "NH_LIV_NH062_DiningTable_01",
+      "id": "NH062",
+      "room": "LIV",
+      "position_m": [
+        6.35,
+        5.35,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        1.2,
+        0.7,
+        0.75
+      ]
+    },
+    {
+      "name": "NH_LIV_NH052_DiningBench_01",
+      "id": "NH052",
+      "room": "LIV",
+      "position_m": [
+        6.35,
+        5.8,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        1.2,
+        0.38,
+        0.8
+      ]
+    },
+    {
+      "name": "NH_LIV_NH059_DiningChair_01",
+      "id": "NH059",
+      "room": "LIV",
+      "position_m": [
+        5.99,
+        4.68,
+        0
+      ],
+      "rotationZ_deg": 180,
+      "dimensions_m": [
+        0.46,
+        0.49,
+        0.79
+      ]
+    },
+    {
+      "name": "NH_LIV_NH059_DiningChair_02",
+      "id": "NH059",
+      "room": "LIV",
+      "position_m": [
+        6.71,
+        4.68,
+        0
+      ],
+      "rotationZ_deg": 180,
+      "dimensions_m": [
+        0.46,
+        0.49,
+        0.79
+      ]
+    },
+    {
+      "name": "NH_LIV_NH068_FeedingStation_01",
+      "id": "NH068",
+      "room": "LIV",
+      "position_m": [
+        4.69,
+        5.68,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.58,
+        0.3,
+        0.32
+      ]
+    },
+    {
+      "name": "NH_LIV_NH011_WaterFountain_01",
+      "id": "NH011",
+      "room": "LIV",
+      "position_m": [
+        9.32,
+        1.99,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.27,
+        0.27,
+        0.18
+      ]
+    },
+    {
+      "name": "NH_LIV_NH057_Hideout_01",
+      "id": "NH057",
+      "room": "LIV",
+      "position_m": [
+        8.55,
+        5.3,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.52,
+        0.49,
+        0.53
+      ]
+    },
+    {
+      "name": "NH_LIV_NH009_ScratchColumn_01",
+      "id": "NH009",
+      "room": "LIV",
+      "position_m": [
+        9.3,
+        5.32,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.46,
+        0.46,
+        2.15
+      ]
+    },
+    {
+      "name": "NH_LIV_NH035_CatMatKit_Round_01",
+      "id": "NH035",
+      "room": "LIV",
+      "position_m": [
+        8.98,
+        4.9,
+        0.003
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.62,
+        0.62,
+        0.018
+      ]
+    },
+    {
+      "name": "NH_LIV_NH070_ToyKit_ScratchBall_01",
+      "id": "NH070",
+      "room": "LIV",
+      "position_m": [
+        8.09,
+        5.09,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.19,
+        0.19,
+        0.36
+      ]
+    },
+    {
+      "name": "NH_LIV_NH015_ToyKit_Ball_01",
+      "id": "NH015",
+      "room": "LIV",
+      "position_m": [
+        8.28,
+        4.87,
+        0.004
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.075,
+        0.075,
+        0.075
+      ]
+    },
+    {
+      "name": "NH_LIV_NH079_CatMatKit_Rectangular_01",
+      "id": "NH079",
+      "room": "LIV",
+      "position_m": [
+        8.14,
+        5.48,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.45,
+        0.3,
+        0.045
+      ]
+    },
+    {
+      "name": "NH_LIV_NH054_CatPlatform_1_01",
+      "id": "NH054",
+      "room": "LIV",
+      "position_m": [
+        9.64,
+        4.79,
+        0.35
+      ],
+      "rotationZ_deg": -90,
+      "dimensions_m": [
+        0.48,
+        0.28,
+        0.065
+      ]
+    },
+    {
+      "name": "NH_LIV_NH054_CatPlatform_2_02",
+      "id": "NH054",
+      "room": "LIV",
+      "position_m": [
+        9.64,
+        5.69,
+        0.75
+      ],
+      "rotationZ_deg": -90,
+      "dimensions_m": [
+        0.48,
+        0.28,
+        0.065
+      ]
+    },
+    {
+      "name": "NH_LIV_NH054_CatPlatform_3_03",
+      "id": "NH054",
+      "room": "LIV",
+      "position_m": [
+        9.64,
+        4.79,
+        1.15
+      ],
+      "rotationZ_deg": -90,
+      "dimensions_m": [
+        0.48,
+        0.28,
+        0.065
+      ]
+    },
+    {
+      "name": "NH_LIV_NH054_CatPlatform_4_04",
+      "id": "NH054",
+      "room": "LIV",
+      "position_m": [
+        9.64,
+        5.69,
+        1.65
+      ],
+      "rotationZ_deg": -90,
+      "dimensions_m": [
+        0.48,
+        0.28,
+        0.065
+      ]
+    },
+    {
+      "name": "NH_LIV_NH054_CatPlatform_5_05",
+      "id": "NH054",
+      "room": "LIV",
+      "position_m": [
+        9.64,
+        4.79,
+        2.15
+      ],
+      "rotationZ_deg": -90,
+      "dimensions_m": [
+        0.48,
+        0.28,
+        0.065
+      ]
+    },
+    {
+      "name": "NH_LIV_NH029_PlantTrailing_01",
+      "id": "NH029",
+      "room": "LIV",
+      "position_m": [
+        9.51,
+        5.15,
+        2.18
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.44,
+        0.38,
+        0.6
+      ]
+    },
+    {
+      "name": "NH_LIV_NH032_PlantBroadleaf_03",
+      "id": "NH032",
+      "room": "LIV",
+      "position_m": [
+        8.76,
+        5.68,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.48,
+        0.43,
+        0.65
+      ]
+    },
+    {
+      "name": "NH_LIV_NH031_PlantBranching_02",
+      "id": "NH031",
+      "room": "LIV",
+      "position_m": [
+        9.57,
+        2.86,
+        0.45
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.26,
+        0.24,
+        0.33
+      ]
+    },
+    {
+      "name": "NH_LIV_NH023_Ottoman_02",
+      "id": "NH023",
+      "room": "LIV",
+      "position_m": [
+        8.35,
+        2.15,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.48,
+        0.48,
+        0.3
+      ]
+    },
+    {
+      "name": "NH_LIV_NH031_PlantBranching_03",
+      "id": "NH031",
+      "room": "LIV",
+      "position_m": [
+        6.35,
+        5.35,
+        0.75
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.26,
+        0.24,
+        0.33
+      ]
+    },
+    {
+      "name": "NH_LIV_NH014_ChoppingBoardKit_JarCeramic_01",
+      "id": "NH014",
+      "room": "LIV",
+      "position_m": [
+        6.68,
+        5.43,
+        0.75
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.16,
+        0.16,
+        0.13
+      ]
+    },
+    {
+      "name": "NH_LIV_NH029_PlantTrailing_02",
+      "id": "NH029",
+      "room": "LIV",
+      "position_m": [
+        6.48,
+        3.43,
+        0.38
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.27,
+        0.25,
+        0.34
+      ]
+    },
+    {
+      "name": "NH_LIV_NH012_CeramicMug_01",
+      "id": "NH012",
+      "room": "LIV",
+      "position_m": [
+        6.9,
+        3.21,
+        0.38
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.12,
+        0.095,
+        0.11
+      ]
+    },
+    {
+      "name": "NH_LIV_NH008_BookMagazineKit_Book_02",
+      "id": "NH008",
+      "room": "LIV",
+      "position_m": [
+        6.94,
+        3.5,
+        0.38
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.21,
+        0.28,
+        0.032
+      ]
+    },
+    {
+      "name": "NH_LIV_NH072_ServingTray_01",
+      "id": "NH072",
+      "room": "LIV",
+      "position_m": [
+        6.99,
+        3.49,
+        0.414
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.26,
+        0.15,
+        0.028
+      ]
+    },
+    {
+      "name": "NH_KIT_NH066_KitchenBaseCabinet_01",
+      "id": "NH066",
+      "room": "KIT",
+      "position_m": [
+        8.33,
+        7.46,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        2.88,
+        2.64,
+        0.9
+      ]
+    },
+    {
+      "name": "NH_KIT_NH034_Refrigerator_01",
+      "id": "NH034",
+      "room": "KIT",
+      "position_m": [
+        7.22,
+        6.51,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.64,
+        0.66,
+        1.83
+      ]
+    },
+    {
+      "name": "NH_KIT_NH020_KitchenSink_01",
+      "id": "NH020",
+      "room": "KIT",
+      "position_m": [
+        7.79,
+        8.33,
+        0.7967531967163086
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        1.08,
+        0.62,
+        0.37
+      ]
+    },
+    {
+      "name": "NH_KIT_NH017_Cooktop_01",
+      "id": "NH017",
+      "room": "KIT",
+      "position_m": [
+        9.39,
+        7.06,
+        0.912
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.32,
+        0.58,
+        0.055
+      ]
+    },
+    {
+      "name": "NH_KIT_NH019_ExtractorHood_01",
+      "id": "NH019",
+      "room": "KIT",
+      "position_m": [
+        9.43,
+        7.06,
+        2.0
+      ],
+      "rotationZ_deg": 90,
+      "dimensions_m": [
+        0.75,
+        0.43,
+        0.12
+      ]
+    },
+    {
+      "name": "NH_KIT_NH075_KitchenWallCabinet_01",
+      "id": "NH075",
+      "room": "KIT",
+      "position_m": [
+        9.64,
+        7.23,
+        1.83
+      ],
+      "rotationZ_deg": -90,
+      "dimensions_m": [
+        2.08,
+        0.32,
+        0.72
+      ]
+    },
+    {
+      "name": "NH_KIT_NH061_ChoppingBoardKit_BoardLarge_01",
+      "id": "NH061",
+      "room": "KIT",
+      "position_m": [
+        9.61,
+        8.35,
+        0.9
+      ],
+      "rotationZ_deg": -90,
+      "dimensions_m": [
+        0.23,
+        0.022,
+        0.4
+      ]
+    },
+    {
+      "name": "NH_KIT_NH043_ChoppingBoardKit_JarGlass_01",
+      "id": "NH043",
+      "room": "KIT",
+      "position_m": [
+        9.46,
+        7.96,
+        0.9
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.105,
+        0.105,
+        0.15
+      ]
+    },
+    {
+      "name": "NH_KIT_NH014_ChoppingBoardKit_JarCeramic_02",
+      "id": "NH014",
+      "room": "KIT",
+      "position_m": [
+        9.49,
+        8.17,
+        0.9
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.16,
+        0.16,
+        0.13
+      ]
+    },
+    {
+      "name": "NH_KIT_NH030_GrassPot_01",
+      "id": "NH030",
+      "room": "KIT",
+      "position_m": [
+        7.38,
+        8.52,
+        0.9
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.18,
+        0.18,
+        0.27
+      ]
+    },
+    {
+      "name": "NH_KIT_NH025_CabinetStrip_01",
+      "id": "NH025",
+      "room": "KIT",
+      "position_m": [
+        9.43,
+        7.23,
+        1.81
+      ],
+      "rotationZ_deg": 90,
+      "dimensions_m": [
+        1.68,
+        0.035,
+        0.025
+      ]
+    },
+    {
+      "name": "NH_KIT_NH061_SmallCuttingBoard_02",
+      "id": "NH061",
+      "room": "KIT",
+      "position_m": [
+        9.58,
+        8.54,
+        0.9
+      ],
+      "rotationZ_deg": -90,
+      "dimensions_m": [
+        0.145,
+        0.022,
+        0.26
+      ]
+    },
+    {
+      "name": "NH_BTH_NH004_BathVanity_01",
+      "id": "NH004",
+      "room": "BTH",
+      "position_m": [
+        4.94,
+        8.52,
+        0.22
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.9,
+        0.5,
+        0.72
+      ]
+    },
+    {
+      "name": "NH_BTH_NH045_Toilet_01",
+      "id": "NH045",
+      "room": "BTH",
+      "position_m": [
+        6.05,
+        7.9,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.39,
+        0.66,
+        0.76
+      ]
+    },
+    {
+      "name": "NH_BTH_NH037_ShowerKit_01",
+      "id": "NH037",
+      "room": "BTH",
+      "position_m": [
+        6.1,
+        6.68,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        1.05,
+        0.88,
+        2.05
+      ]
+    },
+    {
+      "name": "NH_BTH_NH042_LaundryBottleKit_PumpBottle_01",
+      "id": "NH042",
+      "room": "BTH",
+      "position_m": [
+        5.27,
+        8.49,
+        0.94
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.075,
+        0.075,
+        0.2
+      ]
+    },
+    {
+      "name": "NH_BTH_NH046_TowelStack_Towel_02",
+      "id": "NH046",
+      "room": "BTH",
+      "position_m": [
+        4.69,
+        8.48,
+        0.94
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.33,
+        0.24,
+        0.065
+      ]
+    },
+    {
+      "name": "NH_BAL_NH018_LaundryStorage_01",
+      "id": "NH018",
+      "room": "BAL",
+      "position_m": [
+        4.67,
+        0.87,
+        0
+      ],
+      "rotationZ_deg": 90,
+      "dimensions_m": [
+        1.3,
+        0.7,
+        2.4
+      ]
+    },
+    {
+      "name": "NH_BAL_NH047_WashingMachine_01",
+      "id": "NH047",
+      "room": "BAL",
+      "position_m": [
+        4.68,
+        0.545,
+        0
+      ],
+      "rotationZ_deg": 90,
+      "dimensions_m": [
+        0.6,
+        0.62,
+        0.85
+      ]
+    },
+    {
+      "name": "NH_BAL_NH074_BalconyBench_01",
+      "id": "NH074",
+      "room": "BAL",
+      "position_m": [
+        7.275,
+        0.48,
+        0
+      ],
+      "rotationZ_deg": 180,
+      "dimensions_m": [
+        2.55,
+        0.4,
+        0.45
+      ]
+    },
+    {
+      "name": "NH_BAL_NH069_LitterCabinet_01",
+      "id": "NH069",
+      "room": "BAL",
+      "position_m": [
+        9.4,
+        0.64,
+        0
+      ],
+      "rotationZ_deg": 180,
+      "dimensions_m": [
+        0.76,
+        0.65,
+        0.7
+      ]
+    },
+    {
+      "name": "NH_BAL_NH077_LaundryBasket_01",
+      "id": "NH077",
+      "room": "BAL",
+      "position_m": [
+        5.34,
+        0.57,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.34,
+        0.34,
+        0.46
+      ]
+    },
+    {
+      "name": "NH_BAL_NH032_PlantBroadleaf_04",
+      "id": "NH032",
+      "room": "BAL",
+      "position_m": [
+        5.62,
+        0.41,
+        0
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.38,
+        0.35,
+        0.54
+      ]
+    },
+    {
+      "name": "NH_BAL_NH030_GrassPot_02",
+      "id": "NH030",
+      "room": "BAL",
+      "position_m": [
+        9.4,
+        0.64,
+        0.7
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.22,
+        0.22,
+        0.32
+      ]
+    },
+    {
+      "name": "NH_BAL_NH036_CalicoCat_01",
+      "id": "NH036",
+      "room": "BAL",
+      "position_m": [
+        7.14,
+        0.48,
+        0.455
+      ],
+      "rotationZ_deg": 180,
+      "dimensions_m": [
+        0.23,
+        0.48,
+        0.32
+      ]
+    },
+    {
+      "name": "NH_BAL_NH016_DecorCushion_Sage_04",
+      "id": "NH016",
+      "room": "BAL",
+      "position_m": [
+        6.45,
+        0.53,
+        0.45
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.4,
+        0.16,
+        0.33
+      ]
+    },
+    {
+      "name": "NH_BAL_NH022_DecorCushion_Cream_02",
+      "id": "NH022",
+      "room": "BAL",
+      "position_m": [
+        6.84,
+        0.54,
+        0.45
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.36,
+        0.15,
+        0.36
+      ]
+    },
+    {
+      "name": "NH_BAL_NH021_ThrowBlanket_02",
+      "id": "NH021",
+      "room": "BAL",
+      "position_m": [
+        7.88,
+        0.48,
+        0.45
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.46,
+        0.32,
+        0.11
+      ]
+    },
+    {
+      "name": "NH_BAL_NH029_PlantTrailing_03",
+      "id": "NH029",
+      "room": "BAL",
+      "position_m": [
+        8.34,
+        0.54,
+        0.45
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.29,
+        0.26,
+        0.39
+      ]
+    },
+    {
+      "name": "NH_BAL_NH042_LaundryBottleKit_PumpBottle_02",
+      "id": "NH042",
+      "room": "BAL",
+      "position_m": [
+        4.66,
+        0.36,
+        0.93
+      ],
+      "rotationZ_deg": 90,
+      "dimensions_m": [
+        0.075,
+        0.075,
+        0.2
+      ]
+    },
+    {
+      "name": "NH_BAL_NH046_TowelStack_Towel_03",
+      "id": "NH046",
+      "room": "BAL",
+      "position_m": [
+        4.68,
+        1.14,
+        0.93
+      ],
+      "rotationZ_deg": 90,
+      "dimensions_m": [
+        0.33,
+        0.24,
+        0.065
+      ]
+    },
+    {
+      "name": "NH_BAL_NH046_TowelStack_Top_04",
+      "id": "NH046",
+      "room": "BAL",
+      "position_m": [
+        4.68,
+        1.14,
+        0.995
+      ],
+      "rotationZ_deg": 90,
+      "dimensions_m": [
+        0.33,
+        0.24,
+        0.065
+      ]
+    },
+    {
+      "name": "NH_LIV_NH028_DiningPendant_01",
+      "id": "NH028",
+      "room": "LIV",
+      "position_m": [
+        6.35,
+        5.35,
+        1.94
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.4,
+        0.4,
+        0.86
+      ]
+    },
+    {
+      "name": "NH_LIV_NH002_VentGrille_01",
+      "id": "NH002",
+      "room": "LIV",
+      "position_m": [
+        7.03,
+        5.91,
+        2.62
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        1.85,
+        0.035,
+        0.14
+      ]
+    },
+    {
+      "name": "NH_LIV_NH010_Downlight_01",
+      "id": "NH010",
+      "room": "LIV",
+      "position_m": [
+        5.3,
+        2.2,
+        2.775
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.14,
+        0.14,
+        0.025
+      ]
+    },
+    {
+      "name": "NH_LIV_NH010_Downlight_02",
+      "id": "NH010",
+      "room": "LIV",
+      "position_m": [
+        8.6,
+        2.2,
+        2.775
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.14,
+        0.14,
+        0.025
+      ]
+    },
+    {
+      "name": "NH_LIV_NH010_Downlight_03",
+      "id": "NH010",
+      "room": "LIV",
+      "position_m": [
+        7.6,
+        4.3,
+        2.775
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.14,
+        0.14,
+        0.025
+      ]
+    },
+    {
+      "name": "NH_MBR_NH010_Downlight_04",
+      "id": "NH010",
+      "room": "MBR",
+      "position_m": [
+        1.2,
+        1.2,
+        2.775
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.14,
+        0.14,
+        0.025
+      ]
+    },
+    {
+      "name": "NH_MBR_NH010_Downlight_05",
+      "id": "NH010",
+      "room": "MBR",
+      "position_m": [
+        2.8,
+        2.4,
+        2.775
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.14,
+        0.14,
+        0.025
+      ]
+    },
+    {
+      "name": "NH_OFF_NH010_Downlight_06",
+      "id": "NH010",
+      "room": "OFF",
+      "position_m": [
+        2,
+        5.6,
+        2.775
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.14,
+        0.14,
+        0.025
+      ]
+    },
+    {
+      "name": "NH_KIT_NH010_Downlight_07",
+      "id": "NH010",
+      "room": "KIT",
+      "position_m": [
+        8.6,
+        7.5,
+        2.775
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.14,
+        0.14,
+        0.025
+      ]
+    },
+    {
+      "name": "NH_ENT_NH010_Downlight_08",
+      "id": "NH010",
+      "room": "ENT",
+      "position_m": [
+        2.3,
+        7.9,
+        2.775
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.14,
+        0.14,
+        0.025
+      ]
+    },
+    {
+      "name": "NH_BTH_NH010_Downlight_09",
+      "id": "NH010",
+      "room": "BTH",
+      "position_m": [
+        5.4,
+        7.4,
+        2.775
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.14,
+        0.14,
+        0.025
+      ]
+    },
+    {
+      "name": "NH_BAL_NH010_Downlight_10",
+      "id": "NH010",
+      "room": "BAL",
+      "position_m": [
+        7.0,
+        0.9,
+        2.775
+      ],
+      "rotationZ_deg": 0,
+      "dimensions_m": [
+        0.14,
+        0.14,
+        0.025
+      ]
+    }
+  ],
+  "previousSceneOpened": false,
+  "architecture": "new meshes from reference layout JSON",
+  "supportHeights_m": {
+    "masterMattress": 0.566594123840332,
+    "guestMattress": 0.539393424987793,
+    "sinkRimLocal": 0.1082468032836914
+  },
+  "missingTextures": []
+}

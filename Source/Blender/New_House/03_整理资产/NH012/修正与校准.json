@@ -1,0 +1,24 @@
+{
+  "id": "NH012",
+  "slug": "CeramicMug",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-009_CeramicMug_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.12000000476837158,
+    0.0950000062584877,
+    0.11000000685453415
+  ],
+  "targetDimensions_m": [
+    0.11999999731779099,
+    0.0949999988079071,
+    0.10999999940395355
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 90004,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 3.9
+}

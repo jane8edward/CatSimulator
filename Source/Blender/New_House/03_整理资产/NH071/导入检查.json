@@ -1,0 +1,54 @@
+{
+  "id": "NH071",
+  "archive": "wooden+sideboard+3d+model.zip",
+  "source": "02_解压原文件/NH071/tripo_convert_654ea0fc-0def-4d8e-a1ec-abac8b9651bf.fbx",
+  "importBounds": {
+    "min": [
+      -0.1369171142578125,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.1369171142578125,
+      0.5,
+      0.2926636040210724
+    ],
+    "dimensions": [
+      0.273834228515625,
+      1.0,
+      0.2926636338233948
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 470742,
+  "sourceFaces": 941472,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_654ea0fc_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.2738395929336548,
+    1.0000064373016357,
+    0.29266151785850525
+  ],
+  "seconds": 11.9,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

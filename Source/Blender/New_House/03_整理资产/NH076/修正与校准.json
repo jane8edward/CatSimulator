@@ -1,0 +1,26 @@
+{
+  "id": "NH076",
+  "slug": "MasterWardrobe",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-010_MasterWardrobe_Main_ref_v001.png",
+  "corrections": [
+    "Removed hallucinated repeated knob details from outer panels; restored plain oak back and three front door panels, retaining the cabinet shell."
+  ],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    2.1500000953674316,
+    0.5537500381469727,
+    2.5999999046325684
+  ],
+  "targetDimensions_m": [
+    2.1500000953674316,
+    0.6000000238418579,
+    2.5999999046325684
+  ],
+  "sceneFaces": 180011,
+  "sceneVertices": 90048,
+  "meshObjects": 3,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 4.3
+}

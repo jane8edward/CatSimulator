@@ -1,0 +1,26 @@
+{
+  "id": "NH036",
+  "slug": "CalicoCat",
+  "reference": "01_参考资料/效果图/04_阳台与猫咪观景区_效果图.png",
+  "corrections": [
+    "Corrected canonical forward axis to retain the natural body proportions before metre calibration."
+  ],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.23000000417232513,
+    0.48000001907348633,
+    0.3199999928474426
+  ],
+  "targetDimensions_m": [
+    0.23000000417232513,
+    0.47999998927116394,
+    0.3199999928474426
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 89998,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 9.0
+}

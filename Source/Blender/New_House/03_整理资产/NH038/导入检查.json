@@ -1,0 +1,90 @@
+{
+  "id": "NH038",
+  "archive": "sliding+glass+door+3d+model (1).zip",
+  "source": "02_解压原文件/NH038/tripo_convert_8a95d4d2-2823-4c3f-b4b4-fe34437fc6a5.fbx",
+  "importBounds": {
+    "min": [
+      -0.08834075927734375,
+      -0.479400634765625,
+      -2.0955267743261174e-08
+    ],
+    "max": [
+      0.0888214111328125,
+      0.4794006645679474,
+      0.97869873046875
+    ],
+    "dimensions": [
+      0.17716217041015625,
+      0.95880126953125,
+      0.97869873046875
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 965792,
+  "sourceFaces": 1931594,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_8a95d4d2_0",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_8a95d4d2_2",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_8a95d4d2_3",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_8a95d4d2_4",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.18101906776428223,
+    0.9796727895736694,
+    0.9999880194664001
+  ],
+  "seconds": 25.8,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

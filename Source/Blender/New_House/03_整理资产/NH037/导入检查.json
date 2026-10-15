@@ -1,0 +1,90 @@
+{
+  "id": "NH037",
+  "archive": "shower+glass+panel+3d+model.zip",
+  "source": "02_解压原文件/NH037/tripo_convert_5a1fd144-5716-4179-ac05-2a9ce068201b.fbx",
+  "importBounds": {
+    "min": [
+      -0.2059478759765625,
+      -0.337371826171875,
+      -1.4745657139769719e-08
+    ],
+    "max": [
+      0.207489013671875,
+      0.3373108208179474,
+      0.980072021484375
+    ],
+    "dimensions": [
+      0.4134368896484375,
+      0.6746826171875,
+      0.980072021484375
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 955223,
+  "sourceFaces": 1910293,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_5a1fd144_0",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_5a1fd144_2",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_5a1fd144_3",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_5a1fd144_4",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.421832412481308,
+    0.6884149312973022,
+    1.0000061988830566
+  ],
+  "seconds": 25.4,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "NH045",
+  "archive": "toilet+3d+model.zip",
+  "source": "02_解压原文件/NH045/tripo_convert_f6d3c3fa-04e3-4e91-b85b-cdfa8147b991.fbx",
+  "importBounds": {
+    "min": [
+      -0.42474365234375,
+      -0.254852294921875,
+      -1.1136612521056577e-08
+    ],
+    "max": [
+      0.424774169921875,
+      0.2546997368335724,
+      0.97991943359375
+    ],
+    "dimensions": [
+      0.849517822265625,
+      0.509552001953125,
+      0.97991943359375
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 948169,
+  "sourceFaces": 1896318,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_f6d3c3fa_0",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_f6d3c3fa_2",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_f6d3c3fa_3",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_f6d3c3fa_4",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.8669358491897583,
+    0.5199949145317078,
+    0.9999704360961914
+  ],
+  "seconds": 26.4,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

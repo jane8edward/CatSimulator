@@ -1,0 +1,24 @@
+{
+  "id": "NH062",
+  "slug": "DiningTable",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-004_DiningTable_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    1.2000000476837158,
+    0.699999988079071,
+    0.7499999403953552
+  ],
+  "targetDimensions_m": [
+    1.2000000476837158,
+    0.699999988079071,
+    0.75
+  ],
+  "sceneFaces": 179999,
+  "sceneVertices": 90002,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 3.9
+}

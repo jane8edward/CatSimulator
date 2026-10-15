@@ -1,0 +1,54 @@
+{
+  "id": "NH021",
+  "archive": "knitted+blanket+3d+model.zip",
+  "source": "02_解压原文件/NH021/tripo_convert_b9e5a913-8eb3-4756-b97f-4acbc3df00a1.fbx",
+  "importBounds": {
+    "min": [
+      -0.5,
+      -0.32574462890625,
+      -1.4238749734829526e-08
+    ],
+    "max": [
+      0.5,
+      0.3257446587085724,
+      0.4522705078125
+    ],
+    "dimensions": [
+      1.0,
+      0.6514892578125,
+      0.4522705078125
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 471464,
+  "sourceFaces": 942944,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_b9e5a913_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    1.00016188621521,
+    0.6515843868255615,
+    0.4524962902069092
+  ],
+  "seconds": 11.9,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

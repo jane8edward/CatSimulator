@@ -1,0 +1,27 @@
+{
+  "id": "NH050",
+  "slug": "MasterBed",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-007_MasterBed_Main_ref_v001.png",
+  "corrections": [
+    "Removed 2276 vertices of detached spurious cloth above mattress/headboard; retained bed frame and mattress.",
+    "Removed 58062 white background/cloth faces above the mattress while retaining wood headboard faces."
+  ],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    1.7999999523162842,
+    2.0799999237060547,
+    0.8999999165534973
+  ],
+  "targetDimensions_m": [
+    1.7999999523162842,
+    2.0799999237060547,
+    0.8999999761581421
+  ],
+  "sceneFaces": 117389,
+  "sceneVertices": 59582,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 4.7
+}

@@ -1,0 +1,54 @@
+{
+  "id": "NH076",
+  "archive": "wooden+wardrobe+3d+model.zip",
+  "source": "02_解压原文件/NH076/tripo_convert_75423240-6f1b-403d-99b5-79eba5e25172.fbx",
+  "importBounds": {
+    "min": [
+      -0.1719970703125,
+      -0.496307373046875,
+      -2.169428370280002e-08
+    ],
+    "max": [
+      0.1719970703125,
+      0.4963074028491974,
+      1.0
+    ],
+    "dimensions": [
+      0.343994140625,
+      0.99261474609375,
+      1.0
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 476500,
+  "sourceFaces": 952693,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_75423240_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.3439960479736328,
+    0.9926109910011292,
+    1.0000048875808716
+  ],
+  "seconds": 12.2,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

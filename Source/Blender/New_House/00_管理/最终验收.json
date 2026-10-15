@@ -1,0 +1,168 @@
+{
+  "project": "New_House",
+  "file": "Source/Blender/New_House/04_场景工程/New_House_v001.blend",
+  "blenderVersion": "5.2.2 LTS",
+  "units": "METRIC",
+  "archiveCount": 79,
+  "modelArchives": 78,
+  "archiveExtraction": "all recorded file lengths verified",
+  "readyAssets": 79,
+  "uniqueTripoAssets": 78,
+  "supplementalAssets": 1,
+  "collectionInstances": 124,
+  "arrayModifiers": [
+    {
+      "object": "NH_FloorModule_MBR",
+      "modifier": "NH_ARRAY_Columns_MBR",
+      "count": 5
+    },
+    {
+      "object": "NH_FloorModule_MBR",
+      "modifier": "NH_ARRAY_Rows_MBR",
+      "count": 20
+    },
+    {
+      "object": "NH_FloorModule_OFF",
+      "modifier": "NH_ARRAY_Columns_OFF",
+      "count": 3
+    },
+    {
+      "object": "NH_FloorModule_OFF",
+      "modifier": "NH_ARRAY_Rows_OFF",
+      "count": 16
+    },
+    {
+      "object": "NH_FloorModule_HALL",
+      "modifier": "NH_ARRAY_Columns_HALL",
+      "count": 2
+    },
+    {
+      "object": "NH_FloorModule_HALL",
+      "modifier": "NH_ARRAY_Rows_HALL",
+      "count": 16
+    },
+    {
+      "object": "NH_FloorModule_ENT",
+      "modifier": "NH_ARRAY_Columns_ENT",
+      "count": 5
+    },
+    {
+      "object": "NH_FloorModule_ENT",
+      "modifier": "NH_ARRAY_Rows_ENT",
+      "count": 10
+    },
+    {
+      "object": "NH_FloorModule_BTH",
+      "modifier": "NH_ARRAY_Columns_BTH",
+      "count": 5
+    },
+    {
+      "object": "NH_FloorModule_BTH",
+      "modifier": "NH_ARRAY_Rows_BTH",
+      "count": 5
+    },
+    {
+      "object": "NH_FloorModule_KIT",
+      "modifier": "NH_ARRAY_Columns_KIT",
+      "count": 5
+    },
+    {
+      "object": "NH_FloorModule_KIT",
+      "modifier": "NH_ARRAY_Rows_KIT",
+      "count": 5
+    },
+    {
+      "object": "NH_FloorModule_LIV",
+      "modifier": "NH_ARRAY_Columns_LIV",
+      "count": 6
+    },
+    {
+      "object": "NH_FloorModule_LIV",
+      "modifier": "NH_ARRAY_Rows_LIV",
+      "count": 23
+    },
+    {
+      "object": "NH_FloorModule_BAL",
+      "modifier": "NH_ARRAY_Columns_BAL",
+      "count": 10
+    },
+    {
+      "object": "NH_FloorModule_BAL",
+      "modifier": "NH_ARRAY_Rows_BAL",
+      "count": 3
+    }
+  ],
+  "uniqueMeshFaces": 12847735,
+  "uniqueMeshVertices": 6426566,
+  "missingTextures": [],
+  "invertedGeneratedBoxNormals": [],
+  "unpackedImages": [],
+  "externalLibraries": [],
+  "cameras": [
+    "NH_CAM_Overview",
+    "NH_CAM_Living",
+    "NH_CAM_Balcony",
+    "NH_CAM_Top"
+  ],
+  "previousSceneOpened": false,
+  "uiOpenedAndSaved": true,
+  "postRenderChanges": "Viewport overlays hidden and selection/display state saved; asset placements verified against build report",
+  "finalRenders": [
+    {
+      "view": "Overview",
+      "engine": "Cycles",
+      "device": "GPU",
+      "samples": 64,
+      "resolution": [
+        1800,
+        1512
+      ],
+      "seconds": 68.77,
+      "sceneModifiedTime": 1792053895.656571,
+      "image": "05_渲染与检查/06_最终渲染/New_House_Overview_Cycles.png"
+    },
+    {
+      "view": "Top",
+      "engine": "Cycles",
+      "device": "GPU",
+      "samples": 64,
+      "resolution": [
+        1800,
+        1512
+      ],
+      "seconds": 38.63,
+      "sceneModifiedTime": 1792053895.656571,
+      "image": "05_渲染与检查/06_最终渲染/New_House_Top_Cycles.png"
+    },
+    {
+      "view": "Living",
+      "engine": "Cycles",
+      "device": "GPU",
+      "samples": 64,
+      "resolution": [
+        1800,
+        1200
+      ],
+      "seconds": 54.74,
+      "sceneModifiedTime": 1792053895.656571,
+      "image": "05_渲染与检查/06_最终渲染/New_House_Living_Cycles.png"
+    },
+    {
+      "view": "Balcony",
+      "engine": "Cycles",
+      "device": "GPU",
+      "samples": 64,
+      "resolution": [
+        1800,
+        1200
+      ],
+      "seconds": 215.1,
+      "sceneModifiedTime": 1792053895.656571,
+      "image": "05_渲染与检查/06_最终渲染/New_House_Balcony_Cycles.png"
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "status": "passed",
+  "scope": "visual model review, static scene assembly and rendering; no animation or runtime optimization"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "NH029",
+  "archive": "pothos+plant+3d+model.zip",
+  "source": "02_解压原文件/NH029/tripo_convert_cbfb3e00-1d40-41eb-a8d5-e5e016b37b07.fbx",
+  "importBounds": {
+    "min": [
+      -0.331085205078125,
+      -0.42535400390625,
+      -1.8592814399198687e-08
+    ],
+    "max": [
+      0.331085205078125,
+      0.4253540337085724,
+      1.0
+    ],
+    "dimensions": [
+      0.66217041015625,
+      0.8507080078125,
+      1.0
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 490621,
+  "sourceFaces": 981522,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_cbfb3e00_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.662111759185791,
+    0.8507584929466248,
+    1.00001859664917
+  ],
+  "seconds": 12.5,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

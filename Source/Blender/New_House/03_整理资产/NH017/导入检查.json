@@ -1,0 +1,90 @@
+{
+  "id": "NH017",
+  "archive": "induction+cooktop+3d+model.zip",
+  "source": "02_解压原文件/NH017/tripo_convert_46f087f4-29aa-41b9-9462-4b037e278b88.fbx",
+  "importBounds": {
+    "min": [
+      -0.4908447265625,
+      -0.260650634765625,
+      -1.140073813132858e-08
+    ],
+    "max": [
+      0.49078369140625,
+      0.260986328125,
+      0.12421800196170807
+    ],
+    "dimensions": [
+      0.98162841796875,
+      0.521636962890625,
+      0.12421801686286926
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 984537,
+  "sourceFaces": 1969018,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_46f087f4_0",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_46f087f4_2",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_46f087f4_3",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_46f087f4_4",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.9999886751174927,
+    0.5313957929611206,
+    0.126543790102005
+  ],
+  "seconds": 27.2,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

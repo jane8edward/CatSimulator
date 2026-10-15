@@ -1,0 +1,41 @@
+{
+  "id": "NH042",
+  "archive": "soap+dispenser+3d+model.zip",
+  "source": "02_解压原文件/NH042/tripo_convert_3b63d991-9ea5-4f8e-9e65-2c425f458a1e.fbx",
+  "importBounds": {
+    "min": [
+      -0.2091217041015625,
+      -0.2086029052734375,
+      -9.11832298555737e-09
+    ],
+    "max": [
+      0.2091217041015625,
+      0.20860294997692108,
+      1.0
+    ],
+    "dimensions": [
+      0.418243408203125,
+      0.4172058701515198,
+      1.0
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 478641,
+  "sourceFaces": 957274,
+  "reviewLongestDimension_m": 1,
+  "images": [],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.4182535409927368,
+    0.41720932722091675,
+    1.0000221729278564
+  ],
+  "seconds": 10.6,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}
