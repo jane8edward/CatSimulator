@@ -17,9 +17,9 @@
             "pause": true,
             "preview": true,
             "replay": true,
-            "walkMeters": 0.2242743968963623,
-            "runMeters": 0.46576952934265139,
-            "jumpMeters": 0.645934522151947,
+            "walkMeters": 0.22442126274108888,
+            "runMeters": 0.46578335762023928,
+            "jumpMeters": 0.6459124684333801,
             "minimumY": 0.002574983984231949,
             "visitedRooms": [
                 "客餐厅",
@@ -46,9 +46,9 @@
             "pause": true,
             "preview": true,
             "replay": true,
-            "walkMeters": 0.14921021461486817,
-            "runMeters": 0.3022787570953369,
-            "jumpMeters": 0.6459208130836487,
+            "walkMeters": 0.14956879615783692,
+            "runMeters": 0.30137133598327639,
+            "jumpMeters": 0.5682756900787354,
             "minimumY": 0.0025749988853931429,
             "visitedRooms": []
         },
@@ -66,9 +66,9 @@
             "pause": true,
             "preview": true,
             "replay": true,
-            "walkMeters": 0.2241346836090088,
-            "runMeters": 0.46576881408691409,
-            "jumpMeters": 0.645937979221344,
+            "walkMeters": 0.2627675533294678,
+            "runMeters": 0.48596787452697756,
+            "jumpMeters": 0.544994056224823,
             "minimumY": 0.0025749988853931429,
             "visitedRooms": []
         }
