@@ -15,6 +15,7 @@ namespace CatSimulator
             public string name;
             public int toggles, obstructions, propObstructions;
             public float propFinalSpeed, propMaxSpeed, propMaxHeight;
+            public float pausedDoorDelta, pausedBallMeters, resumedDoorDelta, resumedBallMeters;
             public bool repeated, spamGuard, smooth, idleStable, paused, previewPaused, catSafe, propSafe, blocksClosed, passesOpen, interactionPrompt;
             public bool obstructionTested, passageTested, windowInteraction;
             public float endpointError, maxStepMeters, maxStepDegrees;
@@ -99,14 +100,22 @@ namespace CatSimulator
                 if (r.name == "主卧门")
                 {
                     Stage("pause-and-preview");
-                    door.RequestToggle(); yield return new WaitForSeconds(.3f);
-                    ballBody.linearVelocity = Vector3.right * .5f; yield return new WaitForFixedUpdate();
+                    door.RequestToggle();
+                    // UI input runs after this frame's fixed-step catch-up. Do not pause from a
+                    // WaitForFixedUpdate continuation while further physics steps are queued.
+                    while (door.IsMoving && door.Progress > .8f) yield return null;
+                    ballBody.linearVelocity = Vector3.right * .5f; ballBody.WakeUp();
+                    yield return null;
                     ContentPreviewMenu.Instance.Open(); float progress = door.Progress; var position = ballBody.position;
                     yield return new WaitForSecondsRealtime(.25f);
-                    r.paused = door.Progress == progress && Vector3.Distance(position, ballBody.position) < 1e-6f;
+                    r.pausedDoorDelta = Mathf.Abs(door.Progress - progress);
+                    r.pausedBallMeters = Vector3.Distance(position, ballBody.position);
+                    r.paused = Time.timeScale == 0 && cat.Paused && r.pausedDoorDelta == 0 && r.pausedBallMeters < 1e-6f;
                     ContentPreviewMenu.Instance.Close();
                     yield return new WaitForSeconds(.15f);
-                    r.paused &= door.Progress != progress && Vector3.Distance(position, ballBody.position) > .001f;
+                    r.resumedDoorDelta = Mathf.Abs(door.Progress - progress);
+                    r.resumedBallMeters = Vector3.Distance(position, ballBody.position);
+                    r.paused &= r.resumedDoorDelta > .0001f && r.resumedBallMeters > .001f;
                     exploration.SetPreview(true); progress = door.Progress; position = ballBody.position;
                     yield return new WaitForSecondsRealtime(.25f);
                     r.previewPaused = door.Progress == progress && Vector3.Distance(position, ballBody.position) < 1e-6f;
