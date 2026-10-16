@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "sharedGameplayFilesAndOriginalScenesUnchanged": true,
+  "missingMeta": [],
+  "duplicateGuids": [],
+  "changedProtectedFiles": [],
+  "staticColliders": 256,
+  "worldThresholdHeightMeters": 0.024,
+  "playerScale": 0.75
+}

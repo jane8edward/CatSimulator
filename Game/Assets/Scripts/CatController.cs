@@ -110,7 +110,10 @@ namespace CatSimulator
                 if(closest>=0)
                 {
                     var hit=pawContacts[closest];var point=hit.point;var normal=hit.normal;
-                    if(hit.distance==0)
+                    // Only a pushable contact needs a closest point; non-convex static meshes do not support this query.
+                    bool closestPointSupported = hit.collider is BoxCollider || hit.collider is SphereCollider || hit.collider is CapsuleCollider ||
+                        hit.collider is MeshCollider mesh && mesh.convex;
+                    if(hit.distance==0 && closestPointSupported && hit.collider.GetComponentInParent<PushableProp>() != null)
                     {
                         point=hit.collider.ClosestPoint(paw);var outward=paw-point;
                         if(outward.sqrMagnitude>1e-8f)normal=outward.normalized;

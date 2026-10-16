@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "branch": "Version-10-16",
+  "sourceCommit": "4590f8485ca4823d591d7a4809bf0788b4952c90",
+  "mergedMain": "55fc81f126693414893642f98d2e746a107fb3c4",
+  "build": {
+    "result": "Succeeded",
+    "errors": 0,
+    "bytes": 611958325
+  },
+  "checks": [
+    {
+      "check": "Runtime",
+      "passed": true,
+      "exitCode": 0,
+      "seconds": 144.37,
+      "errors": [],
+      "unsupportedCollisionQueries": false,
+      "report": "Source/Verification/NewHouseInteractions/Runtime/validation-summary.json"
+    },
+    {
+      "check": "ControlsRegression",
+      "passed": true,
+      "exitCode": 0,
+      "seconds": 58.46,
+      "errors": [],
+      "unsupportedCollisionQueries": false,
+      "report": "Source/Verification/NewHouseInteractions/ControlsRegression/controls-check.json"
+    },
+    {
+      "check": "SelectionRegression",
+      "passed": true,
+      "exitCode": 0,
+      "seconds": 13.1,
+      "errors": [],
+      "unsupportedCollisionQueries": false,
+      "report": "Source/Verification/NewHouseInteractions/SelectionRegression/selection-check.json"
+    }
+  ]
+}

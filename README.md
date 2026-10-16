@@ -1,5 +1,15 @@
 # 猫咪模拟器
 
+## New_House 更新（Version-10-16）
+
+新增 **New_House · 养猫之家** 场景，在开始界面选择猫咪后进入「开始游戏 → New_House」。住宅支持三只猫的移动、奔跑、跳跃和跟随镜头，包含连续地面及墙体、家具碰撞。客厅亚麻球可碰撞滚动；五处门和三处窗支持靠近按 **E** 平滑开关，并提供重复操作保护和遇阻避让。按 **V** 可切换全屋查看，暂停时冻结物理与门窗运动。
+
+- Unity 场景：`Game/Assets/Scenes/New_House_Preview.unity`；运行模型、贴图、材质和物理资源：`Game/Assets/Art/NewHouse`，均附有 `.meta`。
+- 从新克隆工程启动时，打开 `Assets/Scenes/StartMenu.unity` 并按 Play，即可选择场景和猫咪。
+- Mac 构建入口：`CatSimulator.Editor.ModelResourceIntegration.BuildMac`，生成本地 `Builds/Mac/CatSimulator.app`；构建程序不入库。编辑器版本沿用 **6000.3.26f1**。
+- 操控与互动说明：[New_House 操控](docs/new-house-controls.md)、[物理与门窗互动](docs/new-house-interactions.md)。Apple M4 本地构建及三组渲染运行检查结果见 `Source/Verification/NewHouseInteractions/release-checks.json`。
+- 对应 Blender 源工程见 [New_House 源资源 PR #2](https://github.com/jane8edward/CatSimulator/pull/2)。此分支包含 Unity 运行所需的完整住宅资源。
+
 ## 当前试玩版 0.3.1
 
 修正阳台三花猫的前肢翻转、前爪侧扭与走跑循环衔接；待机和行走时抬尾，跑动时降低尾巴。猫与小物件的接触改用相对速度、质量和转动惯量计算碰撞冲量，保留物件的重力、摩擦、滚动和翻倒。运行根目录 `开始游戏.cmd` 试玩。详见 [动作与碰撞更新](docs/cat-polish-031.md)。

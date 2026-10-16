@@ -13,7 +13,7 @@ namespace CatSimulator.Editor
     {
         public const string StartPath = "Assets/Scenes/StartMenu.unity", HomePath = "Assets/Scenes/Home90.unity";
         public static string[] ScenePaths => new[] { StartPath, "Assets/Scenes/LivingRoom.unity", HomePath,
-            "Assets/Cat/Scenes/Walk_Preview.unity", "Assets/Scenes/Home90_Preview.unity" };
+            "Assets/Cat/Scenes/Walk_Preview.unity", "Assets/Scenes/Home90_Preview.unity", "Assets/Scenes/New_House_Preview.unity" };
         const string CatalogPath = "Assets/Resources/Gameplay/CatCatalog.asset";
         public static void EnsureAssets()
         {

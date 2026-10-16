@@ -1,0 +1,39 @@
+{
+    "passed": true,
+    "originalStartMenu": true,
+    "allSceneChoices": true,
+    "renderersValid": true,
+    "sharedMeshes": true,
+    "meshRenderers": 282,
+    "uniqueMeshes": 220,
+    "placements": 124,
+    "gpu": "Apple M4",
+    "stage": "complete",
+    "cats": [
+        {
+            "id": "original",
+            "gallery": true,
+            "selectionRetained": true,
+            "newHouse": true,
+            "firstLevel": true,
+            "secondLevel": true
+        },
+        {
+            "id": "abyssinian",
+            "gallery": true,
+            "selectionRetained": true,
+            "newHouse": true,
+            "firstLevel": true,
+            "secondLevel": true
+        },
+        {
+            "id": "balcony",
+            "gallery": true,
+            "selectionRetained": true,
+            "newHouse": true,
+            "firstLevel": true,
+            "secondLevel": true
+        }
+    ],
+    "errors": []
+}
