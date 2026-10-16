@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44df6d217c801e6438c98d621e96c7b5, type: 3}
+  m_Name: NewHouseLevel
+  m_EditorClassIdentifier: Assembly-CSharp::CatSimulator.LevelDefinition
+  levelId: new-house-03
+  displayName: "New_House \xB7 \u81EA\u7531\u63A2\u7D22"
+  requiredObjectives: []
+  activityBounds:
+    m_Center: {x: -5, y: 1.5, z: -4.5}
+    m_Extent: {x: 4.9, y: 2, z: 4.4}
+  spawnPosition: {x: -7.55, y: 0.035, z: -2.35}
+  spawnYaw: 180
+  playerScale: 0.75
+  daylightColor: {r: 1, g: 0.91, b: 0.78, a: 1}
+  sunlightEuler: {x: 42, y: -32, z: 0}
+  areas:
+  - name: "\u4E3B\u5367"
+    bounds:
+      m_Center: {x: -2.1699998, y: 1.4, z: -2.07}
+      m_Extent: {x: 1.97, y: 1.6, z: 1.8699999}
+  - name: "\u6B21\u5367\u4E0E\u4E66\u623F"
+    bounds:
+      m_Center: {x: -1.5699999, y: 1.4, z: -5.5}
+      m_Extent: {x: 1.37, y: 1.6, z: 1.4399999}
+  - name: "\u8D70\u5ECA"
+    bounds:
+      m_Center: {x: -3.6, y: 1.4, z: -5.5}
+      m_Extent: {x: 0.54, y: 1.6, z: 1.4399999}
+  - name: "\u7384\u5173"
+    bounds:
+      m_Center: {x: -2.1699998, y: 1.4, z: -7.93}
+      m_Extent: {x: 1.97, y: 1.6, z: 0.86999995}
+  - name: "\u536B\u751F\u95F4"
+    bounds:
+      m_Center: {x: -5.5, y: 1.4, z: -7.43}
+      m_Extent: {x: 1.2399999, y: 1.6, z: 1.3699999}
+  - name: "\u53A8\u623F"
+    bounds:
+      m_Center: {x: -8.33, y: 1.4, z: -7.43}
+      m_Extent: {x: 1.47, y: 1.6, z: 1.3699999}
+  - name: "\u5BA2\u9910\u5385"
+    bounds:
+      m_Center: {x: -7.0299997, y: 1.4, z: -3.8}
+      m_Extent: {x: 2.77, y: 1.6, z: 2.1399999}
+  - name: "\u9633\u53F0"
+    bounds:
+      m_Center: {x: -7.0299997, y: 1.4, z: -0.87}
+      m_Extent: {x: 2.77, y: 1.6, z: 0.66999996}

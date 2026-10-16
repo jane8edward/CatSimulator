@@ -1,0 +1,4632 @@
+{
+  "project": "New_House",
+  "source": "Source/Blender/New_House/04_场景工程/New_House_v001.blend",
+  "collectionInstances": 124,
+  "cameras": [
+    {
+      "name": "Overview",
+      "position": [
+        -9.0,
+        -13.0,
+        18.5
+      ],
+      "forward": [
+        0.4881102442741394,
+        0.6101376414299011,
+        -0.6240835785865784
+      ],
+      "up": [
+        0.389862060546875,
+        0.48732736706733704,
+        0.78135746717453
+      ],
+      "ortho": true,
+      "size": 15.899999618530273,
+      "fov": 46.397181333762305
+    },
+    {
+      "name": "Living",
+      "position": [
+        5.869999885559082,
+        2.0999999046325684,
+        1.440000057220459
+      ],
+      "forward": [
+        0.5474975109100342,
+        0.8336893916130066,
+        -0.07217007875442505
+      ],
+      "up": [
+        0.03961622714996338,
+        0.06032474711537361,
+        0.9973924160003662
+      ],
+      "ortho": false,
+      "size": 6.0,
+      "fov": 57.22092063977898
+    },
+    {
+      "name": "Balcony",
+      "position": [
+        7.119999885559082,
+        2.259999990463257,
+        1.3700000047683716
+      ],
+      "forward": [
+        1.45783687344192e-07,
+        -0.999423086643219,
+        -0.033961087465286255
+      ],
+      "up": [
+        1.5594967806009663e-07,
+        -0.033961087465286255,
+        0.999423086643219
+      ],
+      "ortho": false,
+      "size": 6.0,
+      "fov": 70.4351851741651
+    },
+    {
+      "name": "Top",
+      "position": [
+        5.0,
+        4.5,
+        21.0
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "ortho": true,
+      "size": 11.5,
+      "fov": 46.397181333762305
+    }
+  ],
+  "materials": [
+    {
+      "name": "NH_MAT_BathTile",
+      "color": [
+        0.4000000059604645,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "roughness": 0.5699999928474426,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_CountertopInfill",
+      "color": [
+        0.800000011920929,
+        0.7799999713897705,
+        0.7099999785423279,
+        1.0
+      ],
+      "roughness": 0.44999998807907104,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_CreamStone",
+      "color": [
+        0.699999988079071,
+        0.6600000262260437,
+        0.550000011920929,
+        1.0
+      ],
+      "roughness": 0.47999998927116394,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_DistantBuildings",
+      "color": [
+        0.4000000059604645,
+        0.44999998807907104,
+        0.47999998927116394,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_GreyTile",
+      "color": [
+        0.41999998688697815,
+        0.4300000071525574,
+        0.4000000059604645,
+        1.0
+      ],
+      "roughness": 0.5799999833106995,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH010_LampWhite",
+      "color": [
+        0.8999999761581421,
+        0.8799999952316284,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.4000000059604645,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.4000000059604645,
+      "emissionColor": [
+        0.8999999761581421,
+        0.8799999952316284,
+        0.800000011920929,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH014_Ceramic",
+      "color": [
+        0.7599999904632568,
+        0.699999988079071,
+        0.5899999737739563,
+        1.0
+      ],
+      "roughness": 0.30000001192092896,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH026_ClearGlass",
+      "color": [
+        0.9100000262260437,
+        0.9599999785423279,
+        0.949999988079071,
+        1.0
+      ],
+      "roughness": 0.03500000014901161,
+      "metallic": 0.0,
+      "glass": true,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH026_Frame",
+      "color": [
+        0.2199999988079071,
+        0.25,
+        0.23999999463558197,
+        1.0
+      ],
+      "roughness": 0.30000001192092896,
+      "metallic": 0.550000011920929,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH028_Diffuser",
+      "color": [
+        1.0,
+        0.7900000214576721,
+        0.46000000834465027,
+        1.0
+      ],
+      "roughness": 0.44999998807907104,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.800000011920929,
+      "emissionColor": [
+        1.0,
+        0.7900000214576721,
+        0.46000000834465027,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH030_Ceramic",
+      "color": [
+        0.7599999904632568,
+        0.699999988079071,
+        0.5899999737739563,
+        1.0
+      ],
+      "roughness": 0.30000001192092896,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH030_Grass",
+      "color": [
+        0.2199999988079071,
+        0.3400000035762787,
+        0.07999999821186066,
+        1.0
+      ],
+      "roughness": 0.75,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH037_ShowerGlass",
+      "color": [
+        0.9100000262260437,
+        0.9700000286102295,
+        0.9599999785423279,
+        1.0
+      ],
+      "roughness": 0.03500000014901161,
+      "metallic": 0.0,
+      "glass": true,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH038_ClearGlass",
+      "color": [
+        0.9100000262260437,
+        0.9599999785423279,
+        0.949999988079071,
+        1.0
+      ],
+      "roughness": 0.03500000014901161,
+      "metallic": 0.0,
+      "glass": true,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH038_Frame",
+      "color": [
+        0.054999999701976776,
+        0.06499999761581421,
+        0.05999999865889549,
+        1.0
+      ],
+      "roughness": 0.30000001192092896,
+      "metallic": 0.550000011920929,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH039_ClearGlass",
+      "color": [
+        0.9100000262260437,
+        0.9599999785423279,
+        0.949999988079071,
+        1.0
+      ],
+      "roughness": 0.03500000014901161,
+      "metallic": 0.0,
+      "glass": true,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH039_Frame",
+      "color": [
+        0.054999999701976776,
+        0.06499999761581421,
+        0.05999999865889549,
+        1.0
+      ],
+      "roughness": 0.30000001192092896,
+      "metallic": 0.550000011920929,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH040_ClearGlass",
+      "color": [
+        0.9100000262260437,
+        0.9599999785423279,
+        0.949999988079071,
+        1.0
+      ],
+      "roughness": 0.03500000014901161,
+      "metallic": 0.0,
+      "glass": true,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH040_Frame",
+      "color": [
+        0.2199999988079071,
+        0.25,
+        0.23999999463558197,
+        1.0
+      ],
+      "roughness": 0.30000001192092896,
+      "metallic": 0.550000011920929,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH041_ClearGlass",
+      "color": [
+        0.9100000262260437,
+        0.9599999785423279,
+        0.949999988079071,
+        1.0
+      ],
+      "roughness": 0.03500000014901161,
+      "metallic": 0.0,
+      "glass": true,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH041_Frame",
+      "color": [
+        0.2199999988079071,
+        0.25,
+        0.23999999463558197,
+        1.0
+      ],
+      "roughness": 0.30000001192092896,
+      "metallic": 0.550000011920929,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH042_Ceramic",
+      "color": [
+        0.7599999904632568,
+        0.699999988079071,
+        0.5899999737739563,
+        1.0
+      ],
+      "roughness": 0.30000001192092896,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH042_Pump",
+      "color": [
+        0.25999999046325684,
+        0.27000001072883606,
+        0.25,
+        1.0
+      ],
+      "roughness": 0.30000001192092896,
+      "metallic": 0.3499999940395355,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH043_Grain",
+      "color": [
+        0.5699999928474426,
+        0.38999998569488525,
+        0.17000000178813934,
+        1.0
+      ],
+      "roughness": 0.6800000071525574,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH043_JarGlass",
+      "color": [
+        0.949999988079071,
+        0.9800000190734863,
+        0.9700000286102295,
+        1.0
+      ],
+      "roughness": 0.03999999910593033,
+      "metallic": 0.0,
+      "glass": true,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH043_WoodLid",
+      "color": [
+        0.49000000953674316,
+        0.3100000023841858,
+        0.12999999523162842,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH049_ClearGlass",
+      "color": [
+        0.9100000262260437,
+        0.9599999785423279,
+        0.949999988079071,
+        1.0
+      ],
+      "roughness": 0.03500000014901161,
+      "metallic": 0.0,
+      "glass": true,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH049_Frame",
+      "color": [
+        0.2199999988079071,
+        0.25,
+        0.23999999463558197,
+        1.0
+      ],
+      "roughness": 0.30000001192092896,
+      "metallic": 0.550000011920929,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH061_Oak",
+      "color": [
+        0.49000000953674316,
+        0.30000001192092896,
+        0.12999999523162842,
+        1.0
+      ],
+      "roughness": 0.5400000214576721,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH076_BackOak",
+      "color": [
+        0.47999998927116394,
+        0.3199999928474426,
+        0.17000000178813934,
+        1.0
+      ],
+      "roughness": 0.6499999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH076_PanelSeam",
+      "color": [
+        0.20000000298023224,
+        0.11999999731779099,
+        0.05999999865889549,
+        1.0
+      ],
+      "roughness": 0.75,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_NH077_Wicker",
+      "color": [
+        0.47999998927116394,
+        0.30000001192092896,
+        0.12999999523162842,
+        1.0
+      ],
+      "roughness": 0.8199999928474426,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_OakFloor",
+      "color": [
+        0.5299999713897705,
+        0.3700000047683716,
+        0.20999999344348907,
+        1.0
+      ],
+      "roughness": 0.44999998807907104,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_SageTextile",
+      "color": [
+        0.25,
+        0.3100000023841858,
+        0.2199999988079071,
+        1.0
+      ],
+      "roughness": 0.8500000238418579,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_SlipperFabric",
+      "color": [
+        0.6600000262260437,
+        0.5600000023841858,
+        0.4099999964237213,
+        1.0
+      ],
+      "roughness": 0.9200000166893005,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_StudioGround",
+      "color": [
+        0.8199999928474426,
+        0.800000011920929,
+        0.7400000095367432,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_MAT_WarmWhite",
+      "color": [
+        0.8100000023841858,
+        0.7699999809265137,
+        0.6800000071525574,
+        1.0
+      ],
+      "roughness": 0.8500000238418579,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "NH_Runtime_NeutralCotton",
+      "color": [
+        0.7200000286102295,
+        0.6899999976158142,
+        0.6200000047683716,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "tripo_mat_05b34d69",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_05b34d69_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_05b34d69_normal.png"
+    },
+    {
+      "name": "tripo_mat_0a29144a",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_0a29144a_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_0a29144a_normal.png"
+    },
+    {
+      "name": "tripo_mat_102234e5",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_102234e5_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_102234e5_normal.png"
+    },
+    {
+      "name": "tripo_mat_10c4cb33",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_10c4cb33_base.png"
+    },
+    {
+      "name": "tripo_mat_116a6331",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_116a6331_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_116a6331_normal.png"
+    },
+    {
+      "name": "tripo_mat_12dbb2dc",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_12dbb2dc_base.png"
+    },
+    {
+      "name": "tripo_mat_1a6993a3",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_1a6993a3_base.png"
+    },
+    {
+      "name": "tripo_mat_1e3660fe",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_1e3660fe_base.png"
+    },
+    {
+      "name": "tripo_mat_25e95239",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_25e95239_base.png"
+    },
+    {
+      "name": "tripo_mat_2a4007fe",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_2a4007fe_base.png"
+    },
+    {
+      "name": "tripo_mat_31b33506",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_31b33506_base.png"
+    },
+    {
+      "name": "tripo_mat_32387dd6",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_32387dd6_base.png"
+    },
+    {
+      "name": "tripo_mat_36cf737d",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_36cf737d_base.png"
+    },
+    {
+      "name": "tripo_mat_394e0766",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_394e0766_base.png"
+    },
+    {
+      "name": "tripo_mat_3e23f086",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_3e23f086_base.png"
+    },
+    {
+      "name": "tripo_mat_46f087f4",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_46f087f4_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_46f087f4_normal.png"
+    },
+    {
+      "name": "tripo_mat_47cf42eb",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_47cf42eb_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_47cf42eb_normal.png"
+    },
+    {
+      "name": "tripo_mat_4a8b1d75",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_4a8b1d75_base.png"
+    },
+    {
+      "name": "tripo_mat_4a973ddf",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_4a973ddf_base.png"
+    },
+    {
+      "name": "tripo_mat_4adc8606",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_4adc8606_base.png"
+    },
+    {
+      "name": "tripo_mat_53561302",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_53561302_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_53561302_normal.png"
+    },
+    {
+      "name": "tripo_mat_54e80fb0",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_54e80fb0_base.png"
+    },
+    {
+      "name": "tripo_mat_556dc691",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_556dc691_base.png"
+    },
+    {
+      "name": "tripo_mat_5a1fd144",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_5a1fd144_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_5a1fd144_normal.png"
+    },
+    {
+      "name": "tripo_mat_5d8921bb",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_5d8921bb_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_5d8921bb_normal.png"
+    },
+    {
+      "name": "tripo_mat_654ea0fc",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_654ea0fc_base.png"
+    },
+    {
+      "name": "tripo_mat_67969cb1",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_67969cb1_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_67969cb1_normal.png"
+    },
+    {
+      "name": "tripo_mat_6ba9f597",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_6ba9f597_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_6ba9f597_normal.png"
+    },
+    {
+      "name": "tripo_mat_72a98cf2",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_72a98cf2_base.png"
+    },
+    {
+      "name": "tripo_mat_75423240",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_75423240_base.png"
+    },
+    {
+      "name": "tripo_mat_7d879076",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_7d879076_base.png"
+    },
+    {
+      "name": "tripo_mat_854c218e",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_854c218e_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_854c218e_normal.png"
+    },
+    {
+      "name": "tripo_mat_86268e53",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_86268e53_base.png"
+    },
+    {
+      "name": "tripo_mat_8cc80a44",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_8cc80a44_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_8cc80a44_normal.png"
+    },
+    {
+      "name": "tripo_mat_8e431a37",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_8e431a37_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_8e431a37_normal.png"
+    },
+    {
+      "name": "tripo_mat_8e51e9ea",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_8e51e9ea_base.png"
+    },
+    {
+      "name": "tripo_mat_8edba7c0",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_8edba7c0_base.png"
+    },
+    {
+      "name": "tripo_mat_902a7b09",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_902a7b09_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_902a7b09_normal.png"
+    },
+    {
+      "name": "tripo_mat_91911ee2",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_91911ee2_base.png"
+    },
+    {
+      "name": "tripo_mat_a52d3d72",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_a52d3d72_base.png"
+    },
+    {
+      "name": "tripo_mat_a86cfcd7",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_a86cfcd7_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_a86cfcd7_normal.png"
+    },
+    {
+      "name": "tripo_mat_acb9d2fb",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_acb9d2fb_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_acb9d2fb_normal.png"
+    },
+    {
+      "name": "tripo_mat_afcdfadf",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_afcdfadf_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_afcdfadf_normal.png"
+    },
+    {
+      "name": "tripo_mat_b00b5aab",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_b00b5aab_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_b00b5aab_normal.png"
+    },
+    {
+      "name": "tripo_mat_b3815ce0",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_b3815ce0_base.png"
+    },
+    {
+      "name": "tripo_mat_b65f52d0",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_b65f52d0_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_b65f52d0_normal.png"
+    },
+    {
+      "name": "tripo_mat_b9e5a913",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_b9e5a913_base.png"
+    },
+    {
+      "name": "tripo_mat_cbfb3e00",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_cbfb3e00_base.png"
+    },
+    {
+      "name": "tripo_mat_cc346168",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_cc346168_base.png"
+    },
+    {
+      "name": "tripo_mat_d13bb9d7",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_d13bb9d7_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_d13bb9d7_normal.png"
+    },
+    {
+      "name": "tripo_mat_d333e79d",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_d333e79d_base.png"
+    },
+    {
+      "name": "tripo_mat_d63ac72b",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_d63ac72b_base.png"
+    },
+    {
+      "name": "tripo_mat_d89bd086",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_d89bd086_base.png"
+    },
+    {
+      "name": "tripo_mat_df4818a7",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_df4818a7_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_df4818a7_normal.png"
+    },
+    {
+      "name": "tripo_mat_e005ff74",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_e005ff74_base.png"
+    },
+    {
+      "name": "tripo_mat_e0ad82d0",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_e0ad82d0_base.png"
+    },
+    {
+      "name": "tripo_mat_e633015e",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_e633015e_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_e633015e_normal.png"
+    },
+    {
+      "name": "tripo_mat_eacd88c6",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_eacd88c6_base.png"
+    },
+    {
+      "name": "tripo_mat_ef606df7",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_ef606df7_base.png"
+    },
+    {
+      "name": "tripo_mat_f0f831bf",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_f0f831bf_base.png"
+    },
+    {
+      "name": "tripo_mat_f1ffb67f",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_f1ffb67f_base.png"
+    },
+    {
+      "name": "tripo_mat_f6d3c3fa",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_f6d3c3fa_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_f6d3c3fa_normal.png"
+    },
+    {
+      "name": "tripo_mat_f8318af8",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_f8318af8_base.png"
+    },
+    {
+      "name": "tripo_mat_fdca3a62",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false,
+      "emission": 0.0,
+      "emissionColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "baseTexture": "Assets/Art/NewHouse/Textures/tripo_mat_fdca3a62_base.png",
+      "normalTexture": "Assets/Art/NewHouse/Textures/tripo_mat_fdca3a62_normal.png"
+    }
+  ],
+  "objects": [
+    {
+      "name": "NH_Wall_outer_south_Lower__0000",
+      "source": "NH_Wall_outer_south_Lower",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_outer_east_Lower__0001",
+      "source": "NH_Wall_outer_east_Lower",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_outer_north_Lower__0002",
+      "source": "NH_Wall_outer_north_Lower",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_outer_west_Lower__0003",
+      "source": "NH_Wall_outer_west_Lower",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_inner_1_Lower__0004",
+      "source": "NH_Wall_inner_1_Lower",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_inner_2_Lower__0005",
+      "source": "NH_Wall_inner_2_Lower",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_inner_3_Lower__0006",
+      "source": "NH_Wall_inner_3_Lower",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_inner_4_Lower__0007",
+      "source": "NH_Wall_inner_4_Lower",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_inner_5_Lower__0008",
+      "source": "NH_Wall_inner_5_Lower",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_inner_6_Lower__0009",
+      "source": "NH_Wall_inner_6_Lower",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_inner_7_Lower__0010",
+      "source": "NH_Wall_inner_7_Lower",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_outer_south_Upper__0011",
+      "source": "NH_Wall_outer_south_Upper",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_outer_east_Upper__0012",
+      "source": "NH_Wall_outer_east_Upper",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_outer_north_Upper__0013",
+      "source": "NH_Wall_outer_north_Upper",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_outer_west_Upper__0014",
+      "source": "NH_Wall_outer_west_Upper",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_inner_1_Upper__0015",
+      "source": "NH_Wall_inner_1_Upper",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_inner_2_Upper__0016",
+      "source": "NH_Wall_inner_2_Upper",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_inner_3_Upper__0017",
+      "source": "NH_Wall_inner_3_Upper",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_inner_4_Upper__0018",
+      "source": "NH_Wall_inner_4_Upper",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_inner_5_Upper__0019",
+      "source": "NH_Wall_inner_5_Upper",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_inner_6_Upper__0020",
+      "source": "NH_Wall_inner_6_Upper",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Wall_inner_7_Upper__0021",
+      "source": "NH_Wall_inner_7_Upper",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Foundation__0022",
+      "source": "NH_Foundation",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_CreamStone"
+      ]
+    },
+    {
+      "name": "NH_Subfloor_MBR__0023",
+      "source": "NH_Subfloor_MBR",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_FloorModule_MBR__0024",
+      "source": "NH_FloorModule_MBR",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_Subfloor_OFF__0025",
+      "source": "NH_Subfloor_OFF",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_FloorModule_OFF__0026",
+      "source": "NH_FloorModule_OFF",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_Subfloor_HALL__0027",
+      "source": "NH_Subfloor_HALL",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_FloorModule_HALL__0028",
+      "source": "NH_FloorModule_HALL",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_Subfloor_ENT__0029",
+      "source": "NH_Subfloor_ENT",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_FloorModule_ENT__0030",
+      "source": "NH_FloorModule_ENT",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_Subfloor_BTH__0031",
+      "source": "NH_Subfloor_BTH",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_BathTile"
+      ]
+    },
+    {
+      "name": "NH_FloorModule_BTH__0032",
+      "source": "NH_FloorModule_BTH",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_BathTile"
+      ]
+    },
+    {
+      "name": "NH_Subfloor_KIT__0033",
+      "source": "NH_Subfloor_KIT",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_GreyTile"
+      ]
+    },
+    {
+      "name": "NH_FloorModule_KIT__0034",
+      "source": "NH_FloorModule_KIT",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_GreyTile"
+      ]
+    },
+    {
+      "name": "NH_Subfloor_LIV__0035",
+      "source": "NH_Subfloor_LIV",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_FloorModule_LIV__0036",
+      "source": "NH_FloorModule_LIV",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_Subfloor_BAL__0037",
+      "source": "NH_Subfloor_BAL",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_GreyTile"
+      ]
+    },
+    {
+      "name": "NH_FloorModule_BAL__0038",
+      "source": "NH_FloorModule_BAL",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_GreyTile"
+      ]
+    },
+    {
+      "name": "NH_Ceiling_MBR__0039",
+      "source": "NH_Ceiling_MBR",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Ceiling_OFF__0040",
+      "source": "NH_Ceiling_OFF",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Ceiling_HALL__0041",
+      "source": "NH_Ceiling_HALL",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Ceiling_ENT__0042",
+      "source": "NH_Ceiling_ENT",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Ceiling_BTH__0043",
+      "source": "NH_Ceiling_BTH",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Ceiling_KIT__0044",
+      "source": "NH_Ceiling_KIT",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Ceiling_LIV__0045",
+      "source": "NH_Ceiling_LIV",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Ceiling_BAL__0046",
+      "source": "NH_Ceiling_BAL",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_LivingBulkhead__0047",
+      "source": "NH_LivingBulkhead",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_WarmWhite"
+      ]
+    },
+    {
+      "name": "NH_Skirting_MBR_W__0048",
+      "source": "NH_Skirting_MBR_W",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_Skirting_MBR_N__0049",
+      "source": "NH_Skirting_MBR_N",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_Skirting_LIV_E__0050",
+      "source": "NH_Skirting_LIV_E",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_Skirting_LIV_N__0051",
+      "source": "NH_Skirting_LIV_N",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_Skirting_OFF_W__0052",
+      "source": "NH_Skirting_OFF_W",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_Skirting_OFF_S__0053",
+      "source": "NH_Skirting_OFF_S",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_Skirting_ENT_W__0054",
+      "source": "NH_Skirting_ENT_W",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH064_BedroomDoor_01__0055",
+      "source": "NH_NH064_BedroomDoor_Body_01",
+      "placement": "NH_MBR_NH064_BedroomDoor_01",
+      "id": "NH064",
+      "materials": [
+        "tripo_mat_102234e5"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH041_BedroomWindow_01__0056",
+      "source": "NH_NH041_OuterJamb",
+      "placement": "NH_MBR_NH041_BedroomWindow_01",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_Frame"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH041_BedroomWindow_01__0057",
+      "source": "NH_NH041_OuterJamb.001",
+      "placement": "NH_MBR_NH041_BedroomWindow_01",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_Frame"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH041_BedroomWindow_01__0058",
+      "source": "NH_NH041_OuterRail",
+      "placement": "NH_MBR_NH041_BedroomWindow_01",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_Frame"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH041_BedroomWindow_01__0059",
+      "source": "NH_NH041_OuterRail.001",
+      "placement": "NH_MBR_NH041_BedroomWindow_01",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_Frame"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH041_BedroomWindow_01__0060",
+      "source": "NH_NH041_Mullion_1",
+      "placement": "NH_MBR_NH041_BedroomWindow_01",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_Frame"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH041_BedroomWindow_01__0061",
+      "source": "NH_NH041_ClearPane_1_0",
+      "placement": "NH_MBR_NH041_BedroomWindow_01",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH041_BedroomWindow_01__0062",
+      "source": "NH_NH041_ClearPane_2_0",
+      "placement": "NH_MBR_NH041_BedroomWindow_01",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH041_BedroomWindow_01__0063",
+      "source": "NH_NH041_RecessedHandle",
+      "placement": "NH_MBR_NH041_BedroomWindow_01",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_Frame"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH041_BedroomWindow_01__0064",
+      "source": "NH_NH041_RecessedHandle.001",
+      "placement": "NH_MBR_NH041_BedroomWindow_01",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_Frame"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH050_MasterBed_01__0065",
+      "source": "NH_NH050_MasterBed_Body_01",
+      "placement": "NH_MBR_NH050_MasterBed_01",
+      "id": "NH050",
+      "materials": [
+        "tripo_mat_31b33506"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH076_MasterWardrobe_01__0066",
+      "source": "NH_NH076_MasterWardrobe_Body_01",
+      "placement": "NH_MBR_NH076_MasterWardrobe_01",
+      "id": "NH076",
+      "materials": [
+        "tripo_mat_75423240",
+        "NH_MAT_NH076_BackOak"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH076_MasterWardrobe_01__0067",
+      "source": "NH_NH076_DoorPanelSeam_-0.36",
+      "placement": "NH_MBR_NH076_MasterWardrobe_01",
+      "id": "NH076",
+      "materials": [
+        "NH_MAT_NH076_PanelSeam"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH076_MasterWardrobe_01__0068",
+      "source": "NH_NH076_DoorPanelSeam_0.36",
+      "placement": "NH_MBR_NH076_MasterWardrobe_01",
+      "id": "NH076",
+      "materials": [
+        "NH_MAT_NH076_PanelSeam"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH067_BedsideTable_01__0069",
+      "source": "NH_NH067_BedsideTable_Body_01",
+      "placement": "NH_MBR_NH067_BedsideTable_01",
+      "id": "NH067",
+      "materials": [
+        "tripo_mat_f8318af8"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH044_BedsideLamp_01__0070",
+      "source": "NH_NH044_BedsideLamp_Body_01",
+      "placement": "NH_MBR_NH044_BedsideLamp_01",
+      "id": "NH044",
+      "materials": [
+        "tripo_mat_36cf737d"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH067_BedsideTable_02__0071",
+      "source": "NH_NH067_BedsideTable_Body_01",
+      "placement": "NH_MBR_NH067_BedsideTable_02",
+      "id": "NH067",
+      "materials": [
+        "tripo_mat_f8318af8"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH044_BedsideLamp_02__0072",
+      "source": "NH_NH044_BedsideLamp_Body_01",
+      "placement": "NH_MBR_NH044_BedsideLamp_02",
+      "id": "NH044",
+      "materials": [
+        "tripo_mat_36cf737d"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH005_RoomRug_Bedroom_01__0073",
+      "source": "NH_NH005_RoomRug_Bedroom_Body_01",
+      "placement": "NH_MBR_NH005_RoomRug_Bedroom_01",
+      "id": "NH005",
+      "materials": [
+        "tripo_mat_d333e79d"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH048_SleepingPillow_01__0074",
+      "source": "NH_NH048_SleepingPillow_Body_01",
+      "placement": "NH_MBR_NH048_SleepingPillow_01",
+      "id": "NH048",
+      "materials": [
+        "tripo_mat_4a973ddf"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH048_SleepingPillow_02__0075",
+      "source": "NH_NH048_SleepingPillow_Body_01",
+      "placement": "NH_MBR_NH048_SleepingPillow_02",
+      "id": "NH048",
+      "materials": [
+        "tripo_mat_4a973ddf"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH033_BeddingKit_Duvet_01__0076",
+      "source": "NH_NH033_BeddingKit_Duvet_Body_01",
+      "placement": "NH_MBR_NH033_BeddingKit_Duvet_01",
+      "id": "NH033",
+      "materials": [
+        "tripo_mat_12dbb2dc"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH016_DecorCushion_Sage_01__0077",
+      "source": "NH_NH016_DecorCushion_Sage_Body_01",
+      "placement": "NH_MBR_NH016_DecorCushion_Sage_01",
+      "id": "NH016",
+      "materials": [
+        "tripo_mat_10c4cb33"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH073_WindowPerch_01__0078",
+      "source": "NH_NH073_WindowPerch_Body_01",
+      "placement": "NH_MBR_NH073_WindowPerch_01",
+      "id": "NH073",
+      "materials": [
+        "tripo_mat_b00b5aab"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH032_PlantBroadleaf_01__0079",
+      "source": "NH_NH032_PlantBroadleaf_Body_01",
+      "placement": "NH_MBR_NH032_PlantBroadleaf_01",
+      "id": "NH032",
+      "materials": [
+        "tripo_mat_72a98cf2"
+      ]
+    },
+    {
+      "name": "NH_WindowPerch_Top__0080",
+      "source": "NH_WindowPerch_Top",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_WindowPerch_Side__0081",
+      "source": "NH_WindowPerch_Side",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_WindowPerch_Side.001__0082",
+      "source": "NH_WindowPerch_Side.001",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_OakFloor"
+      ]
+    },
+    {
+      "name": "NH_MasterBedCover__0083",
+      "source": "NH_MasterBedCover",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_SageTextile"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH010_Downlight_04__0084",
+      "source": "NH_NH010_Downlight_Body_01",
+      "placement": "NH_MBR_NH010_Downlight_04",
+      "id": "NH010",
+      "materials": [
+        "NH_MAT_NH010_LampWhite"
+      ]
+    },
+    {
+      "name": "NH_MBR_NH010_Downlight_05__0085",
+      "source": "NH_NH010_Downlight_Body_01",
+      "placement": "NH_MBR_NH010_Downlight_05",
+      "id": "NH010",
+      "materials": [
+        "NH_MAT_NH010_LampWhite"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH064_BedroomDoor_02__0086",
+      "source": "NH_NH064_BedroomDoor_Body_01",
+      "placement": "NH_OFF_NH064_BedroomDoor_02",
+      "id": "NH064",
+      "materials": [
+        "tripo_mat_102234e5"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH041_BedroomWindow_02__0087",
+      "source": "NH_NH041_OuterJamb",
+      "placement": "NH_OFF_NH041_BedroomWindow_02",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_Frame"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH041_BedroomWindow_02__0088",
+      "source": "NH_NH041_OuterJamb.001",
+      "placement": "NH_OFF_NH041_BedroomWindow_02",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_Frame"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH041_BedroomWindow_02__0089",
+      "source": "NH_NH041_OuterRail",
+      "placement": "NH_OFF_NH041_BedroomWindow_02",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_Frame"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH041_BedroomWindow_02__0090",
+      "source": "NH_NH041_OuterRail.001",
+      "placement": "NH_OFF_NH041_BedroomWindow_02",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_Frame"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH041_BedroomWindow_02__0091",
+      "source": "NH_NH041_Mullion_1",
+      "placement": "NH_OFF_NH041_BedroomWindow_02",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_Frame"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH041_BedroomWindow_02__0092",
+      "source": "NH_NH041_ClearPane_1_0",
+      "placement": "NH_OFF_NH041_BedroomWindow_02",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH041_BedroomWindow_02__0093",
+      "source": "NH_NH041_ClearPane_2_0",
+      "placement": "NH_OFF_NH041_BedroomWindow_02",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH041_BedroomWindow_02__0094",
+      "source": "NH_NH041_RecessedHandle",
+      "placement": "NH_OFF_NH041_BedroomWindow_02",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_Frame"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH041_BedroomWindow_02__0095",
+      "source": "NH_NH041_RecessedHandle.001",
+      "placement": "NH_OFF_NH041_BedroomWindow_02",
+      "id": "NH041",
+      "materials": [
+        "NH_MAT_NH041_Frame"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH051_GuestBed_01__0096",
+      "source": "NH_NH051_GuestBed_Body_01",
+      "placement": "NH_OFF_NH051_GuestBed_01",
+      "id": "NH051",
+      "materials": [
+        "tripo_mat_b3815ce0"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH063_Desk_01__0097",
+      "source": "NH_NH063_Desk_Body_01",
+      "placement": "NH_OFF_NH063_Desk_01",
+      "id": "NH063",
+      "materials": [
+        "tripo_mat_86268e53"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH003_OfficeChair_01__0098",
+      "source": "NH_NH003_OfficeChair_Body_01",
+      "placement": "NH_OFF_NH003_OfficeChair_01",
+      "id": "NH003",
+      "materials": [
+        "tripo_mat_cc346168"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH056_GuestStorage_01__0099",
+      "source": "NH_NH056_GuestStorage_Body_01",
+      "placement": "NH_OFF_NH056_GuestStorage_01",
+      "id": "NH056",
+      "materials": [
+        "tripo_mat_8edba7c0"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH024_Laptop_01__0100",
+      "source": "NH_NH024_Laptop_Body_01",
+      "placement": "NH_OFF_NH024_Laptop_01",
+      "id": "NH024",
+      "materials": [
+        "tripo_mat_acb9d2fb"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH048_SleepingPillow_03__0101",
+      "source": "NH_NH048_SleepingPillow_Body_01",
+      "placement": "NH_OFF_NH048_SleepingPillow_03",
+      "id": "NH048",
+      "materials": [
+        "tripo_mat_4a973ddf"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH033_BeddingKit_Duvet_02__0102",
+      "source": "NH_NH033_BeddingKit_Duvet_Body_01",
+      "placement": "NH_OFF_NH033_BeddingKit_Duvet_02",
+      "id": "NH033",
+      "materials": [
+        "tripo_mat_12dbb2dc"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH023_Ottoman_01__0103",
+      "source": "NH_NH023_Ottoman_Body_01",
+      "placement": "NH_OFF_NH023_Ottoman_01",
+      "id": "NH023",
+      "materials": [
+        "tripo_mat_91911ee2"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH031_PlantBranching_01__0104",
+      "source": "NH_NH031_PlantBranching_Body_01",
+      "placement": "NH_OFF_NH031_PlantBranching_01",
+      "id": "NH031",
+      "materials": [
+        "tripo_mat_394e0766"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH008_BookMagazineKit_Book_01__0105",
+      "source": "NH_NH008_BookMagazineKit_Book_Body_01",
+      "placement": "NH_OFF_NH008_BookMagazineKit_Book_01",
+      "id": "NH008",
+      "materials": [
+        "tripo_mat_54e80fb0"
+      ]
+    },
+    {
+      "name": "NH_GuestBedCover__0106",
+      "source": "NH_GuestBedCover",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_SageTextile"
+      ]
+    },
+    {
+      "name": "NH_OFF_NH010_Downlight_06__0107",
+      "source": "NH_NH010_Downlight_Body_01",
+      "placement": "NH_OFF_NH010_Downlight_06",
+      "id": "NH010",
+      "materials": [
+        "NH_MAT_NH010_LampWhite"
+      ]
+    },
+    {
+      "name": "NH_ENT_NH065_EntranceDoor_01__0108",
+      "source": "NH_NH065_EntranceDoor_Body_01",
+      "placement": "NH_ENT_NH065_EntranceDoor_01",
+      "id": "NH065",
+      "materials": [
+        "tripo_mat_afcdfadf"
+      ]
+    },
+    {
+      "name": "NH_ENT_NH055_EntryStorage_01__0109",
+      "source": "NH_NH055_EntryStorage_Body_01",
+      "placement": "NH_ENT_NH055_EntryStorage_01",
+      "id": "NH055",
+      "materials": [
+        "tripo_mat_a52d3d72"
+      ]
+    },
+    {
+      "name": "NH_ENT_NH055_EntryStorage_02__0110",
+      "source": "NH_NH055_EntryStorage_Body_01",
+      "placement": "NH_ENT_NH055_EntryStorage_02",
+      "id": "NH055",
+      "materials": [
+        "tripo_mat_a52d3d72"
+      ]
+    },
+    {
+      "name": "NH_ENT_NH058_EntryConsole_01__0111",
+      "source": "NH_NH058_EntryConsole_Body_01",
+      "placement": "NH_ENT_NH058_EntryConsole_01",
+      "id": "NH058",
+      "materials": [
+        "tripo_mat_4adc8606"
+      ]
+    },
+    {
+      "name": "NH_ENT_NH053_EntryBench_01__0112",
+      "source": "NH_NH053_EntryBench_Body_01",
+      "placement": "NH_ENT_NH053_EntryBench_01",
+      "id": "NH053",
+      "materials": [
+        "tripo_mat_4a8b1d75"
+      ]
+    },
+    {
+      "name": "NH_ENT_NH078_EntryMat_01__0113",
+      "source": "NH_NH078_EntryMat_Body_01",
+      "placement": "NH_ENT_NH078_EntryMat_01",
+      "id": "NH078",
+      "materials": [
+        "tripo_mat_eacd88c6"
+      ]
+    },
+    {
+      "name": "NH_ENT_NH032_PlantBroadleaf_02__0114",
+      "source": "NH_NH032_PlantBroadleaf_Body_01",
+      "placement": "NH_ENT_NH032_PlantBroadleaf_02",
+      "id": "NH032",
+      "materials": [
+        "tripo_mat_72a98cf2"
+      ]
+    },
+    {
+      "name": "NH_ENT_NH046_TowelStack_Towel_01__0115",
+      "source": "NH_NH046_TowelStack_Towel_Body_01",
+      "placement": "NH_ENT_NH046_TowelStack_Towel_01",
+      "id": "NH046",
+      "materials": [
+        "NH_Runtime_NeutralCotton"
+      ]
+    },
+    {
+      "name": "NH_ENT_NH013_PlanterKit_01__0116",
+      "source": "NH_NH013_PlanterKit_Body_01",
+      "placement": "NH_ENT_NH013_PlanterKit_01",
+      "id": "NH013",
+      "materials": [
+        "tripo_mat_1e3660fe"
+      ]
+    },
+    {
+      "name": "NH_ENT_NH080_Slipper_01__0117",
+      "source": "NH_NH080_Slipper_Sole",
+      "placement": "NH_ENT_NH080_Slipper_01",
+      "id": "NH080",
+      "materials": [
+        "NH_MAT_SlipperFabric"
+      ]
+    },
+    {
+      "name": "NH_ENT_NH080_Slipper_01__0118",
+      "source": "NH_NH080_Slipper_Upper",
+      "placement": "NH_ENT_NH080_Slipper_01",
+      "id": "NH080",
+      "materials": [
+        "NH_MAT_SlipperFabric"
+      ]
+    },
+    {
+      "name": "NH_ENT_NH080_Slipper_02__0119",
+      "source": "NH_NH080_Slipper_Sole",
+      "placement": "NH_ENT_NH080_Slipper_02",
+      "id": "NH080",
+      "materials": [
+        "NH_MAT_SlipperFabric"
+      ]
+    },
+    {
+      "name": "NH_ENT_NH080_Slipper_02__0120",
+      "source": "NH_NH080_Slipper_Upper",
+      "placement": "NH_ENT_NH080_Slipper_02",
+      "id": "NH080",
+      "materials": [
+        "NH_MAT_SlipperFabric"
+      ]
+    },
+    {
+      "name": "NH_ENT_NH010_Downlight_08__0121",
+      "source": "NH_NH010_Downlight_Body_01",
+      "placement": "NH_ENT_NH010_Downlight_08",
+      "id": "NH010",
+      "materials": [
+        "NH_MAT_NH010_LampWhite"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH038_BathSlider_01__0122",
+      "source": "NH_NH038_OuterJamb",
+      "placement": "NH_BTH_NH038_BathSlider_01",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_Frame"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH038_BathSlider_01__0123",
+      "source": "NH_NH038_OuterJamb.001",
+      "placement": "NH_BTH_NH038_BathSlider_01",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_Frame"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH038_BathSlider_01__0124",
+      "source": "NH_NH038_OuterRail",
+      "placement": "NH_BTH_NH038_BathSlider_01",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_Frame"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH038_BathSlider_01__0125",
+      "source": "NH_NH038_OuterRail.001",
+      "placement": "NH_BTH_NH038_BathSlider_01",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_Frame"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH038_BathSlider_01__0126",
+      "source": "NH_NH038_Mullion_1",
+      "placement": "NH_BTH_NH038_BathSlider_01",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_Frame"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH038_BathSlider_01__0127",
+      "source": "NH_NH038_ClearPane_1_0",
+      "placement": "NH_BTH_NH038_BathSlider_01",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH038_BathSlider_01__0128",
+      "source": "NH_NH038_ClearPane_2_0",
+      "placement": "NH_BTH_NH038_BathSlider_01",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH038_BathSlider_01__0129",
+      "source": "NH_NH038_RecessedHandle",
+      "placement": "NH_BTH_NH038_BathSlider_01",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_Frame"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH038_BathSlider_01__0130",
+      "source": "NH_NH038_RecessedHandle.001",
+      "placement": "NH_BTH_NH038_BathSlider_01",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_Frame"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH026_BathHighWindow_01__0131",
+      "source": "NH_NH026_OuterJamb",
+      "placement": "NH_BTH_NH026_BathHighWindow_01",
+      "id": "NH026",
+      "materials": [
+        "NH_MAT_NH026_Frame"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH026_BathHighWindow_01__0132",
+      "source": "NH_NH026_OuterJamb.001",
+      "placement": "NH_BTH_NH026_BathHighWindow_01",
+      "id": "NH026",
+      "materials": [
+        "NH_MAT_NH026_Frame"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH026_BathHighWindow_01__0133",
+      "source": "NH_NH026_OuterRail",
+      "placement": "NH_BTH_NH026_BathHighWindow_01",
+      "id": "NH026",
+      "materials": [
+        "NH_MAT_NH026_Frame"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH026_BathHighWindow_01__0134",
+      "source": "NH_NH026_OuterRail.001",
+      "placement": "NH_BTH_NH026_BathHighWindow_01",
+      "id": "NH026",
+      "materials": [
+        "NH_MAT_NH026_Frame"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH026_BathHighWindow_01__0135",
+      "source": "NH_NH026_ClearPane_1_0",
+      "placement": "NH_BTH_NH026_BathHighWindow_01",
+      "id": "NH026",
+      "materials": [
+        "NH_MAT_NH026_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH004_BathVanity_01__0136",
+      "source": "NH_NH004_BathVanity_Body_01",
+      "placement": "NH_BTH_NH004_BathVanity_01",
+      "id": "NH004",
+      "materials": [
+        "tripo_mat_67969cb1"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH045_Toilet_01__0137",
+      "source": "NH_NH045_Toilet_Body_01",
+      "placement": "NH_BTH_NH045_Toilet_01",
+      "id": "NH045",
+      "materials": [
+        "tripo_mat_f6d3c3fa"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH037_ShowerKit_01__0138",
+      "source": "NH_NH037_ShowerKit_Body_01",
+      "placement": "NH_BTH_NH037_ShowerKit_01",
+      "id": "NH037",
+      "materials": [
+        "tripo_mat_5a1fd144",
+        "NH_MAT_NH037_ShowerGlass"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH042_LaundryBottleKit_PumpBottle_01__0139",
+      "source": "NH_NH042_LaundryBottleKit_PumpBottle_Body_01",
+      "placement": "NH_BTH_NH042_LaundryBottleKit_PumpBottle_01",
+      "id": "NH042",
+      "materials": [
+        "NH_MAT_NH042_Ceramic",
+        "NH_MAT_NH042_Pump"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH046_TowelStack_Towel_02__0140",
+      "source": "NH_NH046_TowelStack_Towel_Body_01",
+      "placement": "NH_BTH_NH046_TowelStack_Towel_02",
+      "id": "NH046",
+      "materials": [
+        "NH_Runtime_NeutralCotton"
+      ]
+    },
+    {
+      "name": "NH_BTH_NH010_Downlight_09__0141",
+      "source": "NH_NH010_Downlight_Body_01",
+      "placement": "NH_BTH_NH010_Downlight_09",
+      "id": "NH010",
+      "materials": [
+        "NH_MAT_NH010_LampWhite"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH038_KitchenGlassSlider_02__0142",
+      "source": "NH_NH038_OuterJamb",
+      "placement": "NH_KIT_NH038_KitchenGlassSlider_02",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_Frame"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH038_KitchenGlassSlider_02__0143",
+      "source": "NH_NH038_OuterJamb.001",
+      "placement": "NH_KIT_NH038_KitchenGlassSlider_02",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_Frame"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH038_KitchenGlassSlider_02__0144",
+      "source": "NH_NH038_OuterRail",
+      "placement": "NH_KIT_NH038_KitchenGlassSlider_02",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_Frame"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH038_KitchenGlassSlider_02__0145",
+      "source": "NH_NH038_OuterRail.001",
+      "placement": "NH_KIT_NH038_KitchenGlassSlider_02",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_Frame"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH038_KitchenGlassSlider_02__0146",
+      "source": "NH_NH038_Mullion_1",
+      "placement": "NH_KIT_NH038_KitchenGlassSlider_02",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_Frame"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH038_KitchenGlassSlider_02__0147",
+      "source": "NH_NH038_ClearPane_1_0",
+      "placement": "NH_KIT_NH038_KitchenGlassSlider_02",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH038_KitchenGlassSlider_02__0148",
+      "source": "NH_NH038_ClearPane_2_0",
+      "placement": "NH_KIT_NH038_KitchenGlassSlider_02",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH038_KitchenGlassSlider_02__0149",
+      "source": "NH_NH038_RecessedHandle",
+      "placement": "NH_KIT_NH038_KitchenGlassSlider_02",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_Frame"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH038_KitchenGlassSlider_02__0150",
+      "source": "NH_NH038_RecessedHandle.001",
+      "placement": "NH_KIT_NH038_KitchenGlassSlider_02",
+      "id": "NH038",
+      "materials": [
+        "NH_MAT_NH038_Frame"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH040_KitchenWindow_01__0151",
+      "source": "NH_NH040_OuterJamb",
+      "placement": "NH_KIT_NH040_KitchenWindow_01",
+      "id": "NH040",
+      "materials": [
+        "NH_MAT_NH040_Frame"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH040_KitchenWindow_01__0152",
+      "source": "NH_NH040_OuterJamb.001",
+      "placement": "NH_KIT_NH040_KitchenWindow_01",
+      "id": "NH040",
+      "materials": [
+        "NH_MAT_NH040_Frame"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH040_KitchenWindow_01__0153",
+      "source": "NH_NH040_OuterRail",
+      "placement": "NH_KIT_NH040_KitchenWindow_01",
+      "id": "NH040",
+      "materials": [
+        "NH_MAT_NH040_Frame"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH040_KitchenWindow_01__0154",
+      "source": "NH_NH040_OuterRail.001",
+      "placement": "NH_KIT_NH040_KitchenWindow_01",
+      "id": "NH040",
+      "materials": [
+        "NH_MAT_NH040_Frame"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH040_KitchenWindow_01__0155",
+      "source": "NH_NH040_Mullion_1",
+      "placement": "NH_KIT_NH040_KitchenWindow_01",
+      "id": "NH040",
+      "materials": [
+        "NH_MAT_NH040_Frame"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH040_KitchenWindow_01__0156",
+      "source": "NH_NH040_ClearPane_1_0",
+      "placement": "NH_KIT_NH040_KitchenWindow_01",
+      "id": "NH040",
+      "materials": [
+        "NH_MAT_NH040_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH040_KitchenWindow_01__0157",
+      "source": "NH_NH040_ClearPane_2_0",
+      "placement": "NH_KIT_NH040_KitchenWindow_01",
+      "id": "NH040",
+      "materials": [
+        "NH_MAT_NH040_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH040_KitchenWindow_01__0158",
+      "source": "NH_NH040_RecessedHandle",
+      "placement": "NH_KIT_NH040_KitchenWindow_01",
+      "id": "NH040",
+      "materials": [
+        "NH_MAT_NH040_Frame"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH040_KitchenWindow_01__0159",
+      "source": "NH_NH040_RecessedHandle.001",
+      "placement": "NH_KIT_NH040_KitchenWindow_01",
+      "id": "NH040",
+      "materials": [
+        "NH_MAT_NH040_Frame"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH066_KitchenBaseCabinet_01__0160",
+      "source": "NH_NH066_KitchenBaseCabinet_Body_01",
+      "placement": "NH_KIT_NH066_KitchenBaseCabinet_01",
+      "id": "NH066",
+      "materials": [
+        "tripo_mat_e005ff74"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH034_Refrigerator_01__0161",
+      "source": "NH_NH034_Refrigerator_Body_01",
+      "placement": "NH_KIT_NH034_Refrigerator_01",
+      "id": "NH034",
+      "materials": [
+        "tripo_mat_53561302"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH020_KitchenSink_01__0162",
+      "source": "NH_NH020_KitchenSink_Body_01",
+      "placement": "NH_KIT_NH020_KitchenSink_01",
+      "id": "NH020",
+      "materials": [
+        "tripo_mat_5d8921bb"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH017_Cooktop_01__0163",
+      "source": "NH_NH017_Cooktop_Body_01",
+      "placement": "NH_KIT_NH017_Cooktop_01",
+      "id": "NH017",
+      "materials": [
+        "tripo_mat_46f087f4"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH019_ExtractorHood_01__0164",
+      "source": "NH_NH019_ExtractorHood_Body_01",
+      "placement": "NH_KIT_NH019_ExtractorHood_01",
+      "id": "NH019",
+      "materials": [
+        "tripo_mat_0a29144a"
+      ]
+    },
+    {
+      "name": "NH_CooktopInfill_W__0165",
+      "source": "NH_CooktopInfill_W",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_CountertopInfill"
+      ]
+    },
+    {
+      "name": "NH_CooktopInfill_E__0166",
+      "source": "NH_CooktopInfill_E",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_CountertopInfill"
+      ]
+    },
+    {
+      "name": "NH_CooktopInfill_N__0167",
+      "source": "NH_CooktopInfill_N",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_CountertopInfill"
+      ]
+    },
+    {
+      "name": "NH_CooktopInfill_S__0168",
+      "source": "NH_CooktopInfill_S",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_CountertopInfill"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH075_KitchenWallCabinet_01__0169",
+      "source": "NH_NH075_KitchenWallCabinet_Body_01",
+      "placement": "NH_KIT_NH075_KitchenWallCabinet_01",
+      "id": "NH075",
+      "materials": [
+        "tripo_mat_2a4007fe"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH061_ChoppingBoardKit_BoardLarge_01__0170",
+      "source": "NH_NH061_ChoppingBoardKit_BoardLarge_Body_01",
+      "placement": "NH_KIT_NH061_ChoppingBoardKit_BoardLarge_01",
+      "id": "NH061",
+      "materials": [
+        "NH_MAT_NH061_Oak"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH043_ChoppingBoardKit_JarGlass_01__0171",
+      "source": "NH_NH043_ChoppingBoardKit_JarGlass_Body_01",
+      "placement": "NH_KIT_NH043_ChoppingBoardKit_JarGlass_01",
+      "id": "NH043",
+      "materials": [
+        "NH_MAT_NH043_Grain",
+        "NH_MAT_NH043_WoodLid"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH043_ChoppingBoardKit_JarGlass_01__0172",
+      "source": "NH_NH043_JarGlassShell",
+      "placement": "NH_KIT_NH043_ChoppingBoardKit_JarGlass_01",
+      "id": "NH043",
+      "materials": [
+        "NH_MAT_NH043_JarGlass"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH014_ChoppingBoardKit_JarCeramic_02__0173",
+      "source": "NH_NH014_ChoppingBoardKit_JarCeramic_Body_01",
+      "placement": "NH_KIT_NH014_ChoppingBoardKit_JarCeramic_02",
+      "id": "NH014",
+      "materials": [
+        "NH_MAT_NH014_Ceramic"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH030_GrassPot_01__0174",
+      "source": "NH_NH030_GrassPot_Body_01",
+      "placement": "NH_KIT_NH030_GrassPot_01",
+      "id": "NH030",
+      "materials": [
+        "NH_MAT_NH030_Ceramic",
+        "NH_MAT_NH030_Grass"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH025_CabinetStrip_01__0175",
+      "source": "NH_NH025_CabinetStrip_Body_01",
+      "placement": "NH_KIT_NH025_CabinetStrip_01",
+      "id": "NH025",
+      "materials": [
+        "tripo_mat_f0f831bf"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH061_SmallCuttingBoard_02__0176",
+      "source": "NH_NH061_ChoppingBoardKit_BoardLarge_Body_01",
+      "placement": "NH_KIT_NH061_SmallCuttingBoard_02",
+      "id": "NH061",
+      "materials": [
+        "NH_MAT_NH061_Oak"
+      ]
+    },
+    {
+      "name": "NH_KIT_NH010_Downlight_07__0177",
+      "source": "NH_NH010_Downlight_Body_01",
+      "placement": "NH_KIT_NH010_Downlight_07",
+      "id": "NH010",
+      "materials": [
+        "NH_MAT_NH010_LampWhite"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH039_BalconyGlassSlider_01__0178",
+      "source": "NH_NH039_OuterJamb",
+      "placement": "NH_LIV_NH039_BalconyGlassSlider_01",
+      "id": "NH039",
+      "materials": [
+        "NH_MAT_NH039_Frame"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH039_BalconyGlassSlider_01__0179",
+      "source": "NH_NH039_OuterJamb.001",
+      "placement": "NH_LIV_NH039_BalconyGlassSlider_01",
+      "id": "NH039",
+      "materials": [
+        "NH_MAT_NH039_Frame"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH039_BalconyGlassSlider_01__0180",
+      "source": "NH_NH039_OuterRail",
+      "placement": "NH_LIV_NH039_BalconyGlassSlider_01",
+      "id": "NH039",
+      "materials": [
+        "NH_MAT_NH039_Frame"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH039_BalconyGlassSlider_01__0181",
+      "source": "NH_NH039_OuterRail.001",
+      "placement": "NH_LIV_NH039_BalconyGlassSlider_01",
+      "id": "NH039",
+      "materials": [
+        "NH_MAT_NH039_Frame"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH039_BalconyGlassSlider_01__0182",
+      "source": "NH_NH039_Mullion_1",
+      "placement": "NH_LIV_NH039_BalconyGlassSlider_01",
+      "id": "NH039",
+      "materials": [
+        "NH_MAT_NH039_Frame"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH039_BalconyGlassSlider_01__0183",
+      "source": "NH_NH039_Mullion_2",
+      "placement": "NH_LIV_NH039_BalconyGlassSlider_01",
+      "id": "NH039",
+      "materials": [
+        "NH_MAT_NH039_Frame"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH039_BalconyGlassSlider_01__0184",
+      "source": "NH_NH039_Mullion_3",
+      "placement": "NH_LIV_NH039_BalconyGlassSlider_01",
+      "id": "NH039",
+      "materials": [
+        "NH_MAT_NH039_Frame"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH039_BalconyGlassSlider_01__0185",
+      "source": "NH_NH039_ClearPane_1_0",
+      "placement": "NH_LIV_NH039_BalconyGlassSlider_01",
+      "id": "NH039",
+      "materials": [
+        "NH_MAT_NH039_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH039_BalconyGlassSlider_01__0186",
+      "source": "NH_NH039_ClearPane_2_0",
+      "placement": "NH_LIV_NH039_BalconyGlassSlider_01",
+      "id": "NH039",
+      "materials": [
+        "NH_MAT_NH039_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH039_BalconyGlassSlider_01__0187",
+      "source": "NH_NH039_ClearPane_3_0",
+      "placement": "NH_LIV_NH039_BalconyGlassSlider_01",
+      "id": "NH039",
+      "materials": [
+        "NH_MAT_NH039_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH039_BalconyGlassSlider_01__0188",
+      "source": "NH_NH039_ClearPane_4_0",
+      "placement": "NH_LIV_NH039_BalconyGlassSlider_01",
+      "id": "NH039",
+      "materials": [
+        "NH_MAT_NH039_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH039_BalconyGlassSlider_01__0189",
+      "source": "NH_NH039_RecessedHandle",
+      "placement": "NH_LIV_NH039_BalconyGlassSlider_01",
+      "id": "NH039",
+      "materials": [
+        "NH_MAT_NH039_Frame"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH039_BalconyGlassSlider_01__0190",
+      "source": "NH_NH039_RecessedHandle.001",
+      "placement": "NH_LIV_NH039_BalconyGlassSlider_01",
+      "id": "NH039",
+      "materials": [
+        "NH_MAT_NH039_Frame"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH007_Sofa_01__0191",
+      "source": "NH_NH007_Sofa_Body_01",
+      "placement": "NH_LIV_NH007_Sofa_01",
+      "id": "NH007",
+      "materials": [
+        "tripo_mat_47cf42eb"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH006_RoomRug_Living_01__0192",
+      "source": "NH_NH006_RoomRug_Living_Body_01",
+      "placement": "NH_LIV_NH006_RoomRug_Living_01",
+      "id": "NH006",
+      "materials": [
+        "tripo_mat_25e95239"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH060_CoffeeTable_01__0193",
+      "source": "NH_NH060_CoffeeTable_Body_01",
+      "placement": "NH_LIV_NH060_CoffeeTable_01",
+      "id": "NH060",
+      "materials": [
+        "tripo_mat_854c218e"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH071_TVConsole_01__0194",
+      "source": "NH_NH071_TVConsole_Body_01",
+      "placement": "NH_LIV_NH071_TVConsole_01",
+      "id": "NH071",
+      "materials": [
+        "tripo_mat_654ea0fc"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH027_Television_01__0195",
+      "source": "NH_NH027_Television_Body_01",
+      "placement": "NH_LIV_NH027_Television_01",
+      "id": "NH027",
+      "materials": [
+        "tripo_mat_e633015e"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH016_DecorCushion_Sage_02__0196",
+      "source": "NH_NH016_DecorCushion_Sage_Body_01",
+      "placement": "NH_LIV_NH016_DecorCushion_Sage_02",
+      "id": "NH016",
+      "materials": [
+        "tripo_mat_10c4cb33"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH016_DecorCushion_Sage_03__0197",
+      "source": "NH_NH016_DecorCushion_Sage_Body_01",
+      "placement": "NH_LIV_NH016_DecorCushion_Sage_03",
+      "id": "NH016",
+      "materials": [
+        "tripo_mat_10c4cb33"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH022_DecorCushion_Cream_01__0198",
+      "source": "NH_NH022_DecorCushion_Cream_Body_01",
+      "placement": "NH_LIV_NH022_DecorCushion_Cream_01",
+      "id": "NH022",
+      "materials": [
+        "tripo_mat_f1ffb67f"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH021_ThrowBlanket_01__0199",
+      "source": "NH_NH021_ThrowBlanket_Body_01",
+      "placement": "NH_LIV_NH021_ThrowBlanket_01",
+      "id": "NH021",
+      "materials": [
+        "tripo_mat_b9e5a913"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH062_DiningTable_01__0200",
+      "source": "NH_NH062_DiningTable_Body_01",
+      "placement": "NH_LIV_NH062_DiningTable_01",
+      "id": "NH062",
+      "materials": [
+        "tripo_mat_1a6993a3"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH052_DiningBench_01__0201",
+      "source": "NH_NH052_DiningBench_Body_01",
+      "placement": "NH_LIV_NH052_DiningBench_01",
+      "id": "NH052",
+      "materials": [
+        "tripo_mat_7d879076"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH059_DiningChair_01__0202",
+      "source": "NH_NH059_DiningChair_Body_01",
+      "placement": "NH_LIV_NH059_DiningChair_01",
+      "id": "NH059",
+      "materials": [
+        "tripo_mat_8e51e9ea"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH059_DiningChair_02__0203",
+      "source": "NH_NH059_DiningChair_Body_01",
+      "placement": "NH_LIV_NH059_DiningChair_02",
+      "id": "NH059",
+      "materials": [
+        "tripo_mat_8e51e9ea"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH068_FeedingStation_01__0204",
+      "source": "NH_NH068_FeedingStation_Body_01",
+      "placement": "NH_LIV_NH068_FeedingStation_01",
+      "id": "NH068",
+      "materials": [
+        "tripo_mat_a86cfcd7"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH011_WaterFountain_01__0205",
+      "source": "NH_NH011_WaterFountain_Body_01",
+      "placement": "NH_LIV_NH011_WaterFountain_01",
+      "id": "NH011",
+      "materials": [
+        "tripo_mat_d13bb9d7"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH057_Hideout_01__0206",
+      "source": "NH_NH057_Hideout_Body_01",
+      "placement": "NH_LIV_NH057_Hideout_01",
+      "id": "NH057",
+      "materials": [
+        "tripo_mat_8e431a37"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH009_ScratchColumn_01__0207",
+      "source": "NH_NH009_ScratchColumn_Body_01",
+      "placement": "NH_LIV_NH009_ScratchColumn_01",
+      "id": "NH009",
+      "materials": [
+        "tripo_mat_fdca3a62"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH035_CatMatKit_Round_01__0208",
+      "source": "NH_NH035_CatMatKit_Round_Body_01",
+      "placement": "NH_LIV_NH035_CatMatKit_Round_01",
+      "id": "NH035",
+      "materials": [
+        "tripo_mat_3e23f086"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH070_ToyKit_ScratchBall_01__0209",
+      "source": "NH_NH070_ToyKit_ScratchBall_Body_01",
+      "placement": "NH_LIV_NH070_ToyKit_ScratchBall_01",
+      "id": "NH070",
+      "materials": [
+        "tripo_mat_902a7b09"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH015_ToyKit_Ball_01__0210",
+      "source": "NH_NH015_ToyKit_Ball_Body_01",
+      "placement": "NH_LIV_NH015_ToyKit_Ball_01",
+      "id": "NH015",
+      "materials": [
+        "tripo_mat_8cc80a44"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH079_CatMatKit_Rectangular_01__0211",
+      "source": "NH_NH079_CatMatKit_Rectangular_Body_01",
+      "placement": "NH_LIV_NH079_CatMatKit_Rectangular_01",
+      "id": "NH079",
+      "materials": [
+        "tripo_mat_d89bd086"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH054_CatPlatform_1_01__0212",
+      "source": "NH_NH054_WallPlatformKit_Module_Body_01",
+      "placement": "NH_LIV_NH054_CatPlatform_1_01",
+      "id": "NH054",
+      "materials": [
+        "tripo_mat_b65f52d0"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH054_CatPlatform_2_02__0213",
+      "source": "NH_NH054_WallPlatformKit_Module_Body_01",
+      "placement": "NH_LIV_NH054_CatPlatform_2_02",
+      "id": "NH054",
+      "materials": [
+        "tripo_mat_b65f52d0"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH054_CatPlatform_3_03__0214",
+      "source": "NH_NH054_WallPlatformKit_Module_Body_01",
+      "placement": "NH_LIV_NH054_CatPlatform_3_03",
+      "id": "NH054",
+      "materials": [
+        "tripo_mat_b65f52d0"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH054_CatPlatform_4_04__0215",
+      "source": "NH_NH054_WallPlatformKit_Module_Body_01",
+      "placement": "NH_LIV_NH054_CatPlatform_4_04",
+      "id": "NH054",
+      "materials": [
+        "tripo_mat_b65f52d0"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH054_CatPlatform_5_05__0216",
+      "source": "NH_NH054_WallPlatformKit_Module_Body_01",
+      "placement": "NH_LIV_NH054_CatPlatform_5_05",
+      "id": "NH054",
+      "materials": [
+        "tripo_mat_b65f52d0"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH029_PlantTrailing_01__0217",
+      "source": "NH_NH029_PlantTrailing_Body_01",
+      "placement": "NH_LIV_NH029_PlantTrailing_01",
+      "id": "NH029",
+      "materials": [
+        "tripo_mat_cbfb3e00"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH032_PlantBroadleaf_03__0218",
+      "source": "NH_NH032_PlantBroadleaf_Body_01",
+      "placement": "NH_LIV_NH032_PlantBroadleaf_03",
+      "id": "NH032",
+      "materials": [
+        "tripo_mat_72a98cf2"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH031_PlantBranching_02__0219",
+      "source": "NH_NH031_PlantBranching_Body_01",
+      "placement": "NH_LIV_NH031_PlantBranching_02",
+      "id": "NH031",
+      "materials": [
+        "tripo_mat_394e0766"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH023_Ottoman_02__0220",
+      "source": "NH_NH023_Ottoman_Body_01",
+      "placement": "NH_LIV_NH023_Ottoman_02",
+      "id": "NH023",
+      "materials": [
+        "tripo_mat_91911ee2"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH031_PlantBranching_03__0221",
+      "source": "NH_NH031_PlantBranching_Body_01",
+      "placement": "NH_LIV_NH031_PlantBranching_03",
+      "id": "NH031",
+      "materials": [
+        "tripo_mat_394e0766"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH014_ChoppingBoardKit_JarCeramic_01__0222",
+      "source": "NH_NH014_ChoppingBoardKit_JarCeramic_Body_01",
+      "placement": "NH_LIV_NH014_ChoppingBoardKit_JarCeramic_01",
+      "id": "NH014",
+      "materials": [
+        "NH_MAT_NH014_Ceramic"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH029_PlantTrailing_02__0223",
+      "source": "NH_NH029_PlantTrailing_Body_01",
+      "placement": "NH_LIV_NH029_PlantTrailing_02",
+      "id": "NH029",
+      "materials": [
+        "tripo_mat_cbfb3e00"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH012_CeramicMug_01__0224",
+      "source": "NH_NH012_CeramicMug_Body_01",
+      "placement": "NH_LIV_NH012_CeramicMug_01",
+      "id": "NH012",
+      "materials": [
+        "tripo_mat_32387dd6"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH008_BookMagazineKit_Book_02__0225",
+      "source": "NH_NH008_BookMagazineKit_Book_Body_01",
+      "placement": "NH_LIV_NH008_BookMagazineKit_Book_02",
+      "id": "NH008",
+      "materials": [
+        "tripo_mat_54e80fb0"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH072_ServingTray_01__0226",
+      "source": "NH_NH072_ServingTray_Body_01",
+      "placement": "NH_LIV_NH072_ServingTray_01",
+      "id": "NH072",
+      "materials": [
+        "tripo_mat_e0ad82d0"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH028_DiningPendant_01__0227",
+      "source": "NH_NH028_DiningPendant_Body_01",
+      "placement": "NH_LIV_NH028_DiningPendant_01",
+      "id": "NH028",
+      "materials": [
+        "tripo_mat_d63ac72b",
+        "NH_MAT_NH028_Diffuser"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH002_VentGrille_01__0228",
+      "source": "NH_NH002_VentGrille_Body_01",
+      "placement": "NH_LIV_NH002_VentGrille_01",
+      "id": "NH002",
+      "materials": [
+        "tripo_mat_116a6331"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH010_Downlight_01__0229",
+      "source": "NH_NH010_Downlight_Body_01",
+      "placement": "NH_LIV_NH010_Downlight_01",
+      "id": "NH010",
+      "materials": [
+        "NH_MAT_NH010_LampWhite"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH010_Downlight_02__0230",
+      "source": "NH_NH010_Downlight_Body_01",
+      "placement": "NH_LIV_NH010_Downlight_02",
+      "id": "NH010",
+      "materials": [
+        "NH_MAT_NH010_LampWhite"
+      ]
+    },
+    {
+      "name": "NH_LIV_NH010_Downlight_03__0231",
+      "source": "NH_NH010_Downlight_Body_01",
+      "placement": "NH_LIV_NH010_Downlight_03",
+      "id": "NH010",
+      "materials": [
+        "NH_MAT_NH010_LampWhite"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0232",
+      "source": "NH_NH049_OuterJamb",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_Frame"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0233",
+      "source": "NH_NH049_OuterJamb.001",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_Frame"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0234",
+      "source": "NH_NH049_OuterRail",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_Frame"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0235",
+      "source": "NH_NH049_OuterRail.001",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_Frame"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0236",
+      "source": "NH_NH049_Mullion_1",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_Frame"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0237",
+      "source": "NH_NH049_Mullion_2",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_Frame"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0238",
+      "source": "NH_NH049_Mullion_3",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_Frame"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0239",
+      "source": "NH_NH049_Mullion_4",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_Frame"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0240",
+      "source": "NH_NH049_LowerTransom",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_Frame"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0241",
+      "source": "NH_NH049_ClearPane_1_0",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0242",
+      "source": "NH_NH049_ClearPane_1_1",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0243",
+      "source": "NH_NH049_ClearPane_2_0",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0244",
+      "source": "NH_NH049_ClearPane_2_1",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0245",
+      "source": "NH_NH049_ClearPane_3_0",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0246",
+      "source": "NH_NH049_ClearPane_3_1",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0247",
+      "source": "NH_NH049_ClearPane_4_0",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0248",
+      "source": "NH_NH049_ClearPane_4_1",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0249",
+      "source": "NH_NH049_ClearPane_5_0",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0250",
+      "source": "NH_NH049_ClearPane_5_1",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_ClearGlass"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0251",
+      "source": "NH_NH049_RecessedHandle",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_Frame"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH049_BalconyGlazing_01__0252",
+      "source": "NH_NH049_RecessedHandle.001",
+      "placement": "NH_BAL_NH049_BalconyGlazing_01",
+      "id": "NH049",
+      "materials": [
+        "NH_MAT_NH049_Frame"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH018_LaundryStorage_01__0253",
+      "source": "NH_NH018_LaundryStorage_Body_01",
+      "placement": "NH_BAL_NH018_LaundryStorage_01",
+      "id": "NH018",
+      "materials": [
+        "tripo_mat_ef606df7"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH047_WashingMachine_01__0254",
+      "source": "NH_NH047_WashingMachine_Body_01",
+      "placement": "NH_BAL_NH047_WashingMachine_01",
+      "id": "NH047",
+      "materials": [
+        "tripo_mat_6ba9f597"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH074_BalconyBench_01__0255",
+      "source": "NH_NH074_BalconyBench_Body_01",
+      "placement": "NH_BAL_NH074_BalconyBench_01",
+      "id": "NH074",
+      "materials": [
+        "tripo_mat_556dc691"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH069_LitterCabinet_01__0256",
+      "source": "NH_NH069_LitterCabinet_Body_01",
+      "placement": "NH_BAL_NH069_LitterCabinet_01",
+      "id": "NH069",
+      "materials": [
+        "tripo_mat_df4818a7"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH077_LaundryBasket_01__0257",
+      "source": "NH_NH077_LaundryBasket_Body_01",
+      "placement": "NH_BAL_NH077_LaundryBasket_01",
+      "id": "NH077",
+      "materials": [
+        "NH_MAT_NH077_Wicker"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH032_PlantBroadleaf_04__0258",
+      "source": "NH_NH032_PlantBroadleaf_Body_01",
+      "placement": "NH_BAL_NH032_PlantBroadleaf_04",
+      "id": "NH032",
+      "materials": [
+        "tripo_mat_72a98cf2"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH030_GrassPot_02__0259",
+      "source": "NH_NH030_GrassPot_Body_01",
+      "placement": "NH_BAL_NH030_GrassPot_02",
+      "id": "NH030",
+      "materials": [
+        "NH_MAT_NH030_Ceramic",
+        "NH_MAT_NH030_Grass"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH036_CalicoCat_01__0260",
+      "source": "NH_NH036_CalicoCat_Body_01",
+      "placement": "NH_BAL_NH036_CalicoCat_01",
+      "id": "NH036",
+      "materials": [
+        "tripo_mat_05b34d69"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH016_DecorCushion_Sage_04__0261",
+      "source": "NH_NH016_DecorCushion_Sage_Body_01",
+      "placement": "NH_BAL_NH016_DecorCushion_Sage_04",
+      "id": "NH016",
+      "materials": [
+        "tripo_mat_10c4cb33"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH022_DecorCushion_Cream_02__0262",
+      "source": "NH_NH022_DecorCushion_Cream_Body_01",
+      "placement": "NH_BAL_NH022_DecorCushion_Cream_02",
+      "id": "NH022",
+      "materials": [
+        "tripo_mat_f1ffb67f"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH021_ThrowBlanket_02__0263",
+      "source": "NH_NH021_ThrowBlanket_Body_01",
+      "placement": "NH_BAL_NH021_ThrowBlanket_02",
+      "id": "NH021",
+      "materials": [
+        "tripo_mat_b9e5a913"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH029_PlantTrailing_03__0264",
+      "source": "NH_NH029_PlantTrailing_Body_01",
+      "placement": "NH_BAL_NH029_PlantTrailing_03",
+      "id": "NH029",
+      "materials": [
+        "tripo_mat_cbfb3e00"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH042_LaundryBottleKit_PumpBottle_02__0265",
+      "source": "NH_NH042_LaundryBottleKit_PumpBottle_Body_01",
+      "placement": "NH_BAL_NH042_LaundryBottleKit_PumpBottle_02",
+      "id": "NH042",
+      "materials": [
+        "NH_MAT_NH042_Ceramic",
+        "NH_MAT_NH042_Pump"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH046_TowelStack_Towel_03__0266",
+      "source": "NH_NH046_TowelStack_Towel_Body_01",
+      "placement": "NH_BAL_NH046_TowelStack_Towel_03",
+      "id": "NH046",
+      "materials": [
+        "NH_Runtime_NeutralCotton"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH046_TowelStack_Top_04__0267",
+      "source": "NH_NH046_TowelStack_Towel_Body_01",
+      "placement": "NH_BAL_NH046_TowelStack_Top_04",
+      "id": "NH046",
+      "materials": [
+        "NH_Runtime_NeutralCotton"
+      ]
+    },
+    {
+      "name": "NH_LaundryStoneTop__0268",
+      "source": "NH_LaundryStoneTop",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_CreamStone"
+      ]
+    },
+    {
+      "name": "NH_BAL_NH010_Downlight_10__0269",
+      "source": "NH_NH010_Downlight_Body_01",
+      "placement": "NH_BAL_NH010_Downlight_10",
+      "id": "NH010",
+      "materials": [
+        "NH_MAT_NH010_LampWhite"
+      ]
+    },
+    {
+      "name": "NH_BackdropBuilding_0__0270",
+      "source": "NH_BackdropBuilding_0",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_DistantBuildings"
+      ]
+    },
+    {
+      "name": "NH_BackdropBuilding_1__0271",
+      "source": "NH_BackdropBuilding_1",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_DistantBuildings"
+      ]
+    },
+    {
+      "name": "NH_BackdropBuilding_2__0272",
+      "source": "NH_BackdropBuilding_2",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_DistantBuildings"
+      ]
+    },
+    {
+      "name": "NH_BackdropBuilding_3__0273",
+      "source": "NH_BackdropBuilding_3",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_DistantBuildings"
+      ]
+    },
+    {
+      "name": "NH_BackdropBuilding_4__0274",
+      "source": "NH_BackdropBuilding_4",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_DistantBuildings"
+      ]
+    },
+    {
+      "name": "NH_BackdropBuilding_5__0275",
+      "source": "NH_BackdropBuilding_5",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_DistantBuildings"
+      ]
+    },
+    {
+      "name": "NH_BackdropBuilding_6__0276",
+      "source": "NH_BackdropBuilding_6",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_DistantBuildings"
+      ]
+    },
+    {
+      "name": "NH_StudioBase__0277",
+      "source": "NH_StudioBase",
+      "placement": "",
+      "id": "",
+      "materials": [
+        "NH_MAT_StudioGround"
+      ]
+    }
+  ]
+}

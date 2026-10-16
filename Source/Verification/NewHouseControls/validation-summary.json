@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "build": {
+    "result": "Succeeded",
+    "errors": 0,
+    "bytes": 607340925
+  },
+  "gpu": "Apple M4",
+  "catsTested": [
+    "original",
+    "abyssinian",
+    "balcony"
+  ],
+  "continuousRouteRooms": [
+    "客餐厅",
+    "厨房",
+    "走廊",
+    "主卧",
+    "次卧与书房",
+    "玄关",
+    "卫生间",
+    "阳台"
+  ],
+  "runtimeErrors": [],
+  "selectionRegressionPassed": true,
+  "entry": "/Users/eddieyan/Desktop/猫咪游戏/猫咪模拟器-场景选择版.app",
+  "project": "/Users/eddieyan/Desktop/猫咪游戏/CatSimulator-NewHouse-Selection/Game"
+}

@@ -1,0 +1,13 @@
+{
+  "mainCommit": "55fc81f126693414893642f98d2e746a107fb3c4",
+  "passed": true,
+  "changedExistingFiles": [
+    "Game/Assets/Editor/FullGameBuilder.cs",
+    "Game/Assets/Scripts/ContentPreviewMenu.cs",
+    "Game/ProjectSettings/EditorBuildSettings.asset"
+  ],
+  "missingMeta": [],
+  "duplicateGuids": [],
+  "guiAndCatSelectionUnchanged": true,
+  "worktree": "/Users/eddieyan/Desktop/猫咪游戏/CatSimulator-NewHouse-Selection"
+}

@@ -20,5 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Home90_Preview.unity
     guid: 8aa282f0b91e041eaad626884b5371cc
+  - enabled: 1
+    path: Assets/Scenes/New_House_Preview.unity
+    guid: 592e834befe1b43628e4a84e76c3264e
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

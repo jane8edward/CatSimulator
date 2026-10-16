@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "build": {
+    "result": "Succeeded",
+    "errors": 0,
+    "bytes": 611958286
+  },
+  "checks": [
+    {
+      "check": "ControlsRegression",
+      "passed": true,
+      "exitCode": 0,
+      "seconds": 59.56,
+      "errors": [],
+      "unsupportedCollisionQueries": false,
+      "report": "Source/Verification/NewHouseInteractions/ControlsRegression/controls-check.json"
+    },
+    {
+      "check": "Runtime",
+      "passed": true,
+      "exitCode": 0,
+      "seconds": 138.9,
+      "errors": [],
+      "unsupportedCollisionQueries": false,
+      "report": "Source/Verification/NewHouseInteractions/Runtime/validation-summary.json"
+    },
+    {
+      "check": "SelectionRegression",
+      "passed": true,
+      "exitCode": 0,
+      "seconds": 12.78,
+      "errors": [],
+      "unsupportedCollisionQueries": false,
+      "report": "Source/Verification/NewHouseInteractions/SelectionRegression/selection-check.json"
+    }
+  ]
+}
