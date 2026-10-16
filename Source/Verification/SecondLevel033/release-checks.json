@@ -1,0 +1,87 @@
+{
+  "version": "0.3.3",
+  "builtAt": "2026-10-16T18:30:41.013760+08:00",
+  "sourceBaseCommit": "dae0b8f608c60d751a61c2b472dc5135598c7a74",
+  "assemblyCSharpSHA256": "CC8CCA62E45CBA9B6602ED28C4CC2A804C00A96D739249F60F8DA16228C46A8A",
+  "localUncommittedChanges": true,
+  "gitSubmitted": false,
+  "passed": false,
+  "functionalPassed": true,
+  "performancePassed": false,
+  "unity": "6000.3.26f1",
+  "graphicsAPI": "Direct3D11",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "resolution": "1920x1080",
+  "playableLevels": [
+    "客厅与卧室",
+    "温馨大宅"
+  ],
+  "oldHomeShipped": false,
+  "newHouseChecks": 54,
+  "medianFps": 79.47673797607422,
+  "p5Fps": 72.94637298583984,
+  "performanceChecks": [
+    {
+      "name": "soft-rendered-60fps-LIV_NH007",
+      "detail": "median=90.0",
+      "passed": true
+    },
+    {
+      "name": "soft-rendered-60fps-MBR_NH050",
+      "detail": "median=43.8",
+      "passed": false
+    },
+    {
+      "name": "soft-rendered-60fps-MBR_NH048_SleepingPillow_01",
+      "detail": "median=53.6",
+      "passed": false
+    },
+    {
+      "name": "soft-rendered-60fps-OFF_NH051",
+      "detail": "median=90.0",
+      "passed": true
+    },
+    {
+      "name": "soft-rendered-60fps-LIV_NH023",
+      "detail": "median=90.0",
+      "passed": true
+    },
+    {
+      "name": "soft-rendered-60fps-MBR_NH073",
+      "detail": "median=69.4",
+      "passed": true
+    },
+    {
+      "name": "rendered-60fps",
+      "detail": "median=79.5 p5=72.9",
+      "passed": true
+    }
+  ],
+  "regressionChecks": [
+    {
+      "name": "FinalFlow",
+      "passed": true,
+      "exitCode": 0
+    },
+    {
+      "name": "FinalBedroom",
+      "passed": true,
+      "exitCode": 0
+    },
+    {
+      "name": "FinalContacts",
+      "passed": true,
+      "exitCode": 0
+    },
+    {
+      "name": "FinalHouse",
+      "passed": false,
+      "exitCode": 1
+    },
+    {
+      "name": "FinalSelection",
+      "passed": true,
+      "exitCode": 0
+    }
+  ]
+}

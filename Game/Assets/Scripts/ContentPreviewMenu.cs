@@ -11,7 +11,7 @@ namespace CatSimulator
     [DefaultExecutionOrder(-100)]
     public sealed class ContentPreviewMenu : MonoBehaviour
     {
-        public const string StartScene = "StartMenu", PlayableScene = "LivingRoom", HomeScene = "Home90";
+        public const string StartScene = "StartMenu", PlayableScene = "LivingRoom", HomeScene = "New_House_Preview";
         public const string NewHouseScene = "New_House_Preview";
         public static ContentPreviewMenu Instance { get; private set; }
         public static bool GameplayInputBlocked => Instance != null && (Instance.IsOpen || Instance.closedAtFrame == Time.frameCount);
@@ -113,10 +113,10 @@ namespace CatSimulator
         }
         public void LoadLevel(int level)
         {
-            if (level != 1 && level != 2 && level != 3) throw new ArgumentOutOfRangeException(nameof(level));
+            if (level != 1 && level != 2) throw new ArgumentOutOfRangeException(nameof(level));
             Time.timeScale = 1; IsOpen = false; closedAtFrame = Time.frameCount;
             content.SetActive(false); shade.SetActive(false);
-            SceneManager.LoadScene(level == 1 ? PlayableScene : level == 2 ? HomeScene : NewHouseScene);
+            SceneManager.LoadScene(level == 1 ? PlayableScene : HomeScene);
         }
         public void ShowLevels() => ShowPage(Page.Levels);
         public void ShowCats()
@@ -145,10 +145,9 @@ namespace CatSimulator
             else if (value == Page.Levels)
             {
                 Label(panel,"主角："+CatCatalog.Selected.displayName,new Vector2(0,234),new Vector2(660,44),23,TextAnchor.MiddleCenter);
-                Card("Level1","第一关 · 客厅与卧室","打翻水杯、抓坏窗帘，猫爬架和纸箱也等着你",120,()=>LoadLevel(1));
-                Card("Level2","第二关 · 宽敞住宅","没有任务，去每个房间自由探索",-8,()=>LoadLevel(2));
-                Card("Level3","New_House · 养猫之家","控制选中的猫咪，探索新住宅与阳台",-136,()=>LoadLevel(3));
-                Button(panel,"Back","返回",new Vector2(0,-260),new Vector2(620,58),()=>ShowPage(Page.Home));
+                Card("Level1","第一关 · 客厅与卧室","打翻水杯、抓坏窗帘，猫爬架和纸箱也等着你",100,()=>LoadLevel(1));
+                Card("Level2","第二关 · 温馨大宅","没有任务，自由探索各个房间与阳台",-42,()=>LoadLevel(2));
+                Button(panel,"Back","返回",new Vector2(0,-222),new Vector2(620,58),()=>ShowPage(Page.Home));
             }
             else if (gallery != null)
             {

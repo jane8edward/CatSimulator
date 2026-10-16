@@ -12,12 +12,14 @@ namespace CatSimulator.Editor
     public static class FullGameBuilder
     {
         public const string StartPath = "Assets/Scenes/StartMenu.unity", HomePath = "Assets/Scenes/Home90.unity";
-        public static string[] ScenePaths => new[] { StartPath, "Assets/Scenes/LivingRoom.unity", HomePath,
-            "Assets/Cat/Scenes/Walk_Preview.unity", "Assets/Scenes/Home90_Preview.unity", "Assets/Scenes/New_House_Preview.unity" };
+        public const string ExplorationPath = "Assets/Scenes/New_House_Preview.unity";
+        public static string[] ScenePaths => new[] { StartPath, "Assets/Scenes/LivingRoom.unity", ExplorationPath };
         const string CatalogPath = "Assets/Resources/Gameplay/CatCatalog.asset";
         public static void EnsureAssets()
         {
-            if (!File.Exists(StartPath) || !File.Exists(HomePath) || !File.Exists(CatalogPath)) Setup();
+            var missing = ScenePaths.Append(CatalogPath).Where(p => !File.Exists(p)).ToArray();
+            if (missing.Length > 0) throw new InvalidOperationException("Missing authored game assets: " + string.Join(", ", missing));
+            EditorBuildSettings.scenes = ScenePaths.Select(p => new EditorBuildSettingsScene(p, true)).ToArray();
         }
         public static void SetupAndBuild() { Setup(); FirstPlayableBuilder.Build(); }
         public static void UpdateControlsAndBuild()

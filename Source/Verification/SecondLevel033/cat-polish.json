@@ -1,0 +1,137 @@
+{
+    "version": "0.3.3",
+    "passed": true,
+    "separatingContact": true,
+    "offCentreEnergy": true,
+    "walkTailRaised": true,
+    "runTailTrails": true,
+    "incidentEnergy": 0.19375455379486085,
+    "remainingEnergy": 0.1788274645805359,
+    "idleTailRise": 0.07624156773090363,
+    "walkTailRise": 0.0751335471868515,
+    "runTailRise": 0.027189701795578004,
+    "masses": [
+        {
+            "mass": 0.04500000178813934,
+            "expected": 0.5759232640266419,
+            "actual": 0.5759232640266419,
+            "passed": true
+        },
+        {
+            "mass": 0.2199999988079071,
+            "expected": 0.49818071722984316,
+            "actual": 0.49818068742752077,
+            "passed": true
+        },
+        {
+            "mass": 0.6499999761581421,
+            "expected": 0.3740982413291931,
+            "actual": 0.3740982413291931,
+            "passed": true
+        },
+        {
+            "mass": 1.7999999523162842,
+            "expected": 0.22453251481056214,
+            "actual": 0.22453251481056214,
+            "passed": true
+        },
+        {
+            "mass": 8.0,
+            "expected": 0.07115679234266281,
+            "actual": 0.07115678489208222,
+            "passed": true
+        }
+    ],
+    "frameRates": [
+        {
+            "renderRate": 30,
+            "peakSpeed": 0.6000000238418579,
+            "passed": true
+        },
+        {
+            "renderRate": 60,
+            "peakSpeed": 0.6000000238418579,
+            "passed": true
+        },
+        {
+            "renderRate": 144,
+            "peakSpeed": 0.6000000238418579,
+            "passed": true
+        }
+    ],
+    "realContacts": [
+        {
+            "name": "NH_Physics_LinenBall",
+            "mode": "walk",
+            "catSpeed": 0.5264999866485596,
+            "peakHorizontal": 0.45113274455070498,
+            "peakUp": 1.4901161193847657e-8,
+            "travel": 0.37722015380859377,
+            "passed": true
+        },
+        {
+            "name": "NH_Physics_LinenBall",
+            "mode": "run",
+            "catSpeed": 1.093500018119812,
+            "peakHorizontal": 0.9360310435295105,
+            "peakUp": 0.0,
+            "travel": 1.0271377563476563,
+            "passed": true
+        },
+        {
+            "name": "NH_LIV_NH012_CeramicMug_01",
+            "mode": "walk",
+            "catSpeed": 0.5264999866485596,
+            "peakHorizontal": 0.5588792562484741,
+            "peakUp": 0.15930375456809998,
+            "travel": 0.25387611985206606,
+            "passed": true
+        },
+        {
+            "name": "NH_LIV_NH012_CeramicMug_01",
+            "mode": "run",
+            "catSpeed": 1.093500018119812,
+            "peakHorizontal": 1.1408628225326539,
+            "peakUp": 0.3687518239021301,
+            "travel": 0.8791040182113648,
+            "passed": true
+        },
+        {
+            "name": "NH_LIV_NH008_BookMagazineKit_Book_02",
+            "mode": "walk",
+            "catSpeed": 0.5264999866485596,
+            "peakHorizontal": 0.2560427188873291,
+            "peakUp": 0.000012964010238647461,
+            "travel": 0.1171189621090889,
+            "passed": true
+        },
+        {
+            "name": "NH_LIV_NH008_BookMagazineKit_Book_02",
+            "mode": "run",
+            "catSpeed": 1.093500018119812,
+            "peakHorizontal": 0.8214631676673889,
+            "peakUp": 0.000002041459083557129,
+            "travel": 0.342740535736084,
+            "passed": true
+        },
+        {
+            "name": "NH_LIV_NH029_PlantTrailing_02",
+            "mode": "walk",
+            "catSpeed": 0.5264999866485596,
+            "peakHorizontal": 0.5357244610786438,
+            "peakUp": 0.18782289326190949,
+            "travel": 0.275228887796402,
+            "passed": true
+        },
+        {
+            "name": "NH_LIV_NH029_PlantTrailing_02",
+            "mode": "run",
+            "catSpeed": 1.093500018119812,
+            "peakHorizontal": 1.3074266910552979,
+            "peakUp": 0.4634166657924652,
+            "travel": 1.0470696687698365,
+            "passed": true
+        }
+    ],
+    "errors": []
+}

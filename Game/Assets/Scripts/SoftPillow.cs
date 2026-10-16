@@ -9,6 +9,8 @@ namespace CatSimulator
         public float recoveryTime = .42f;
         public bool useSharedHeightRange;
         public float deformationBaseY,deformationTopY,activationCeilingY;
+        // Optional contact mesh lets scanned furniture keep its detailed render geometry.
+        public Mesh collisionTemplate;
         public float CurrentIndentation { get; private set; }
         public float CollisionIndentation { get; private set; }
         Mesh mesh;
@@ -19,6 +21,8 @@ namespace CatSimulator
         CatController cat;
         float pressure, pressureVelocity, nextCollisionUpdate, lastSurfaceUpdate;
         bool collisionDirty;
+        Mesh contactMesh;
+        Vector3[] contactRest,contactWorld,contactDeformed;
 
         void Awake()
         {
@@ -34,6 +38,13 @@ namespace CatSimulator
             surface = GetComponent<MeshCollider>();
             surface.sharedMesh = mesh;
             restBounds = GetComponent<Renderer>().bounds;
+            if(collisionTemplate)
+            {
+                contactMesh=Instantiate(collisionTemplate);contactMesh.MarkDynamic();
+                contactRest=contactMesh.vertices;contactWorld=new Vector3[contactRest.Length];contactDeformed=(Vector3[])contactRest.Clone();
+                for(int i=0;i<contactRest.Length;i++)contactWorld[i]=transform.TransformPoint(contactRest[i]);
+                surface.sharedMesh=contactMesh;
+            }
             cat = FindFirstObjectByType<CatController>();
         }
 
@@ -81,6 +92,18 @@ namespace CatSimulator
             mesh.vertices = deformed;
             mesh.RecalculateNormals();
             mesh.RecalculateBounds();
+            if(contactMesh)
+            {
+                for(int i=0;i<contactRest.Length;i++)
+                {
+                    var world=contactWorld[i];
+                    var height=Mathf.InverseLerp(useSharedHeightRange?deformationBaseY:restBounds.min.y,useSharedHeightRange?deformationTopY:restBounds.max.y,world.y);
+                    float influence=0;for(int p=0;p<paws.Length;p++){float dx=world.x-paws[p].x,dz=world.z-paws[p].z;influence+=Mathf.Exp(-(dx*dx+dz*dz)/(.145f*.145f));}
+                    float depth=pressure<.0005f?0:maximumSink*pressure*Mathf.Min(1,influence/1.8f)*Mathf.SmoothStep(0,1,height);
+                    contactDeformed[i]=contactRest[i]+localDown*depth;
+                }
+                contactMesh.vertices=contactDeformed;contactMesh.RecalculateBounds();
+            }
             collisionDirty = true;
         }
 
@@ -89,12 +112,12 @@ namespace CatSimulator
             if (!collisionDirty || Time.time < nextCollisionUpdate) return;
             // Re-cook only loaded/recovering cushions, at 15 Hz; both paws and render use this surface.
             surface.sharedMesh = null;
-            surface.sharedMesh = mesh;
+            surface.sharedMesh = contactMesh ? contactMesh : mesh;
             CollisionIndentation = CurrentIndentation;
             nextCollisionUpdate = Time.time + 1f / 15;
             collisionDirty = false;
         }
 
-        void OnDestroy() { if (mesh != null) Destroy(mesh); }
+        void OnDestroy() { if (mesh != null) Destroy(mesh);if(contactMesh)Destroy(contactMesh); }
     }
 }

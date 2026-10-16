@@ -64,7 +64,7 @@ namespace CatSimulator
             yield return new WaitForSecondsRealtime(.4f);
             foreach (var choice in CatCatalog.Current.cats)
             {
-                CatCatalog.Select(choice.id, false); ContentPreviewMenu.Instance.LoadLevel(3);
+                CatCatalog.Select(choice.id, false); ContentPreviewMenu.Instance.LoadLevel(2);
                 yield return new WaitForSeconds(.6f); Connect();
                 Stage("ball:" + choice.id);
                 var r = new BallResult { cat = choice.id }; balls.Add(r);
@@ -88,7 +88,7 @@ namespace CatSimulator
                 Write();
             }
             // Fresh scene for deterministic door start states after all three real cat contacts.
-            CatCatalog.Select(CatCatalog.Current.cats[0].id, false); ContentPreviewMenu.Instance.LoadLevel(3);
+            CatCatalog.Select(CatCatalog.Current.cats[0].id, false); ContentPreviewMenu.Instance.LoadLevel(2);
             yield return new WaitForSeconds(.5f); Connect();
             var all = FindObjectsByType<NewHouseDoor>(FindObjectsSortMode.None).OrderBy(d => d.displayName).ToArray();
             foreach (var door in all)

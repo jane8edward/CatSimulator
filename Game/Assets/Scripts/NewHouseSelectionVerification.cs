@@ -9,7 +9,7 @@ using UnityEngine.UI;
 
 namespace CatSimulator
 {
-    // Explicit smoke check for the additional scene entry; no normal-play behavior.
+    // Explicit smoke check for both levels and the three independent cat rigs.
     public sealed class NewHouseSelectionVerification : MonoBehaviour
     {
         [Serializable] class ChoiceResult
@@ -54,7 +54,8 @@ namespace CatSimulator
             if (Menu == null) { errors.Add("Main menu missing"); Finish(); yield break; }
             report.originalStartMenu = SceneManager.GetActiveScene().name == ContentPreviewMenu.StartScene && Buttons().Count() == 2;
             Click("StartGame"); yield return null;
-            report.allSceneChoices = new[] { "Level1", "Level2", "Level3" }.All(Has);
+            report.allSceneChoices = new[] { "Level1", "Level2" }.All(Has) && !Has("Level3") &&
+                !Application.CanStreamedLevelBeLoaded("Home90") && !Application.CanStreamedLevelBeLoaded("Home90_Preview");
             yield return Capture("scene-selection");
             Click("Back"); yield return null;
             foreach (var choice in CatCatalog.Current.cats)
@@ -67,8 +68,9 @@ namespace CatSimulator
                 var gallery = FindFirstObjectByType<CatModelGallery>();
                 result.gallery = gallery != null && gallery.DisplayedId == choice.id && gallery.GetComponentInChildren<Animator>().avatar.isValid;
                 Click("UseCat"); yield return null;
-                Click("Back"); yield return null; Click("StartGame"); yield return null; Click("Level3");
+                Click("Back"); yield return null; Click("StartGame"); yield return null; Click("Level2");
                 yield return new WaitForSecondsRealtime(.45f);
+                while(!FindFirstObjectByType<NewHouseExploration>().IsReady)yield return null;
                 var viewer = FindFirstObjectByType<NewHousePreview>();
                 result.newHouse = SceneManager.GetActiveScene().name == ContentPreviewMenu.NewHouseScene && viewer && !Menu.IsOpen;
                 result.selectionRetained = CatCatalog.SelectedId == choice.id;
@@ -116,8 +118,13 @@ namespace CatSimulator
         void Click(string name) => Buttons().Single(b => b.name == name).onClick.Invoke();
         IEnumerator Capture(string name)
         {
+            var gallery=FindFirstObjectByType<CatModelGallery>();
+            var game=FindFirstObjectByType<NewHouseExploration>();
+            var camera=gallery?gallery.galleryCamera:game.IsPreview?game.preview.viewCamera:game.followCamera.GetComponent<Camera>();
+            VerificationRenderTarget.Initialize(camera);
             yield return new WaitForEndOfFrame();
-            ScreenCapture.CaptureScreenshot(Path.Combine(output, name + ".png"));
+            var image=VerificationRenderTarget.Capture();
+            File.WriteAllBytes(Path.Combine(output,name+".png"),image.EncodeToPNG());Destroy(image);
             yield return new WaitForSecondsRealtime(.15f);
         }
         void Finish()

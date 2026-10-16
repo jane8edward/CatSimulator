@@ -54,7 +54,7 @@ namespace CatSimulator
             foreach (var choice in CatCatalog.Current.cats)
             {
                 CatCatalog.Select(choice.id, false);
-                ContentPreviewMenu.Instance.LoadLevel(3);
+                ContentPreviewMenu.Instance.LoadLevel(2);
                 yield return new WaitForSecondsRealtime(.6f);
                 cat = FindFirstObjectByType<CatController>(); rig = FindFirstObjectByType<CatCamera>();
                 gameplay = FindFirstObjectByType<NewHouseExploration>();

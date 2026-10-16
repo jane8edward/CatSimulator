@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
 
 namespace CatSimulator
@@ -14,17 +16,50 @@ namespace CatSimulator
         public GameHud hud;
         public NewHousePreview preview;
         public bool IsPreview { get; private set; }
+        public bool IsReady { get; private set; }
         float previousAnimationSpeed, previousTimeScale = 1;
+        static bool shadersWarmed;
 
         IEnumerator Start()
         {
+            cat.Paused=true;
+            if(!shadersWarmed){yield return WarmHouseViews();shadersWarmed=true;}
             SetPreview(false);
+            IsReady=true;
             yield return null;
             // Use the bundled font on macOS for this scene's existing HUD.
             var font = Resources.Load<Font>("NotoSansSC");
             if (font) foreach (var text in hud.GetComponentsInChildren<Text>(true)) text.font = font;
+            var nameLabel = hud.GetComponentsInChildren<Text>(true).FirstOrDefault(t => t.name == "Name");
+            if(nameLabel){nameLabel.fontSize=22;nameLabel.horizontalOverflow=HorizontalWrapMode.Overflow;nameLabel.verticalOverflow=VerticalWrapMode.Overflow;nameLabel.rectTransform.sizeDelta=new Vector2(420,44);}
             var controls = hud.GetComponentsInChildren<Text>(true).FirstOrDefault(t => t.name == "Controls");
             if (controls) controls.text = "WASD 移动 · 鼠标转镜头 · 空格跳跃 · Shift 奔跑 · E 开关门窗 · V 全屋视图 · Esc 菜单";
+        }
+
+        IEnumerator WarmHouseViews()
+        {
+            // Render only this house's actual material/light combinations. Global
+            // Shader.WarmupAllShaders can crash inside Unity's native warmup on this GPU.
+            var camera=new GameObject("HouseMaterialWarmup").AddComponent<Camera>();
+            camera.CopyFrom(followCamera.GetComponent<Camera>());camera.enabled=false;
+            var settings=camera.GetUniversalAdditionalCameraData();
+            var source=followCamera.GetComponent<Camera>().GetUniversalAdditionalCameraData();
+            settings.renderPostProcessing=source.renderPostProcessing;settings.renderShadows=source.renderShadows;
+            settings.antialiasing=source.antialiasing;settings.volumeLayerMask=source.volumeLayerMask;
+            var target=RenderTexture.GetTemporary(480,270,24,RenderTextureFormat.ARGB32,RenderTextureReadWrite.Default,4);
+            camera.targetTexture=target;
+            var request=new UniversalRenderPipeline.SingleCameraRequest{destination=target};
+            var points=FindObjectsByType<NewHouseItem>(FindObjectsSortMode.None)
+                .Where(i=>i.GetComponentInChildren<SoftPillow>()).Select(i=>i.Bounds.center)
+                .Concat(cat.session.definition.areas.Select(a=>a.bounds.center)).ToArray();
+            foreach(var point in points)
+            {
+                var offset=new Vector3(-1.5f,.9f,1.2f);
+                camera.transform.SetPositionAndRotation(point+offset,Quaternion.LookRotation(-offset));
+                RenderPipeline.SubmitRenderRequest(camera,request);
+                yield return null;
+            }
+            camera.targetTexture=null;RenderTexture.ReleaseTemporary(target);Destroy(camera.gameObject);
         }
 
         void Update()

@@ -42,7 +42,9 @@ namespace CatSimulator
             began=Time.realtimeSinceStartup;
             yield return new WaitForSecondsRealtime(.3f);CatCatalog.Select("balcony",false);SceneManager.LoadScene(ContentPreviewMenu.HomeScene);
             yield return new WaitForSecondsRealtime(.8f);
+            while(!FindFirstObjectByType<NewHouseExploration>().IsReady)yield return null;
             var cat=FindFirstObjectByType<CatController>();var camera=FindFirstObjectByType<CatCamera>();cat.Automated=true;camera.Automated=true;
+            VerificationRenderTarget.Initialize(camera.GetComponent<Camera>());QualitySettings.vSyncCount=0;
             report.version=Application.version;float mass=3.5f*Mathf.Pow(cat.BodyScale,3);const float speed=.6f;
             var checks=new List<MassCheck>();
             foreach(float objectMass in new[]{.045f,.22f,.65f,1.8f,8f})
@@ -79,8 +81,9 @@ namespace CatSimulator
             report.remainingEnergy=.5f*mass*actorAfter.sqrMagnitude+.5f*offset.mass*offset.linearVelocity.sqrMagnitude+.5f*Vector3.Dot(spin,Vector3.Scale(offset.inertiaTensor,spin));
             report.offCentreEnergy=report.remainingEnergy<=report.incidentEnergy+.0005f;Destroy(offset.gameObject);
 
-            var house=GameObject.Find("Home90Residence");var bodies=house.GetComponentsInChildren<Rigidbody>();
-            var chosen=new[]{bodies.First(b=>b.name.Contains("_SisalBall_")),bodies.First(b=>b.name.Contains("_Book_")),bodies.First(b=>b.name.Contains("_CoffeeMug_")),bodies.First(b=>b.name.Contains("_TablePlant_"))};
+            var bodies=FindObjectsByType<NewHouseItem>(FindObjectsSortMode.None).Where(i=>i.GetComponent<Rigidbody>()).ToArray();
+            var chosen=new[]{"LIV_NH015","LIV_NH012","LIV_NH008","LIV_NH029_PlantTrailing_02"}
+                .Select(id=>bodies.Single(i=>i.placement.Contains(id)).GetComponent<Rigidbody>()).ToArray();
             var originalBounds=cat.session.definition.activityBounds;var originalPosition=cat.transform.position;
             cat.session.definition.activityBounds=new Bounds(new Vector3(40,2,40),new Vector3(12,8,12));
             var floor=GameObject.CreatePrimitive(PrimitiveType.Cube);floor.name="VerificationFloor";floor.transform.position=new Vector3(40,-.05f,40);floor.transform.localScale=new Vector3(12,.1f,12);
@@ -88,6 +91,9 @@ namespace CatSimulator
             var results=new List<ContactCheck>();
             foreach(var body in chosen)foreach(bool run in new[]{false,true})
             {
+                // The test moves the real prop to a separate contact floor outside the
+                // residence; suspend only its out-of-bounds recovery during that fixture.
+                var recovery=body.GetComponent<NewHouseBall>();if(recovery)recovery.enabled=false;
                 var position=body.position;var rotation=body.rotation;cat.Paused=true;
                 body.position=new Vector3(40,.5f,40);Physics.SyncTransforms();var bounds=BodyBounds(body);
                 body.position+=new Vector3(40-bounds.center.x,.001f-bounds.min.y,40-bounds.center.z);body.linearVelocity=body.angularVelocity=Vector3.zero;Physics.SyncTransforms();
@@ -106,6 +112,7 @@ namespace CatSimulator
                 bool touched=body.name.Contains("_Book_")?check.travel>.0005f && check.peakHorizontal>.05f:check.travel>.015f;
                 check.passed=touched && check.peakHorizontal<check.catSpeed*1.5f+.1f && check.peakUp<.8f;
                 results.Add(check);body.position=position;body.rotation=rotation;body.linearVelocity=body.angularVelocity=Vector3.zero;body.Sleep();Physics.SyncTransforms();
+                if(recovery)recovery.enabled=true;
             }
             report.realContacts=results.ToArray();
             cat.Teleport(new Vector3(40,.015f,40));cat.transform.rotation=Quaternion.identity;camera.yaw=-55;camera.pitch=13;camera.distance=1.15f;
@@ -120,7 +127,8 @@ namespace CatSimulator
                 if(state=="idle")report.idleTailRise=rise;else if(state=="walk")report.walkTailRise=rise;else report.runTailRise=rise;
                 var frame=VerificationRenderTarget.Capture();if(frame){File.WriteAllBytes(Path.Combine(output,"cat-"+state+".png"),frame.EncodeToPNG());Destroy(frame);}
             }
-            report.walkTailRaised=report.idleTailRise>.075f && report.walkTailRise>.075f;report.runTailTrails=report.runTailRise<report.walkTailRise*.8f;
+            float minimumTailRise=.1f*cat.BodyScale;
+            report.walkTailRaised=report.idleTailRise>minimumTailRise && report.walkTailRise>minimumTailRise;report.runTailTrails=report.runTailRise<report.walkTailRise*.8f;
             cat.session.definition.activityBounds=originalBounds;cat.Teleport(originalPosition);Destroy(floor);Destroy(material);
             report.errors=errors.ToArray();report.passed=report.masses.All(c=>c.passed) && report.frameRates.All(c=>c.passed) && report.separatingContact && report.offCentreEnergy && report.realContacts.All(c=>c.passed) && report.walkTailRaised && report.runTailTrails && errors.Count==0;
             File.WriteAllText(Path.Combine(output,"cat-polish.json"),JsonUtility.ToJson(report,true));Application.Quit(report.passed?0:2);

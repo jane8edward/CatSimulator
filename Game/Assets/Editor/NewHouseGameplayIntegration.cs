@@ -140,7 +140,7 @@ namespace CatSimulator.Editor
             rig.cat = cat; rig.yaw = 180; rig.pitch = 16; rig.Automated = false;
             hud.cat = cat; hud.session = session;
             var definition = ScriptableObject.CreateInstance<LevelDefinition>();
-            definition.levelId = "new-house-03"; definition.displayName = "New_House · 自由探索";
+            definition.levelId = "home-02"; definition.displayName = "温馨大宅 · 自由探索";
             definition.requiredObjectives = Array.Empty<string>(); definition.playerScale = .75f;
             definition.spawnPosition = P(7.55f, 2.35f, .035f); definition.spawnYaw = 180;
             definition.activityBounds = new Bounds(P(5, 4.5f, 1.5f), new Vector3(9.8f, 4, 8.8f));

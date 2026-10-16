@@ -12,47 +12,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44df6d217c801e6438c98d621e96c7b5, type: 3}
   m_Name: NewHouseLevel
   m_EditorClassIdentifier: Assembly-CSharp::CatSimulator.LevelDefinition
-  levelId: new-house-03
-  displayName: "New_House \xB7 \u81EA\u7531\u63A2\u7D22"
+  levelId: home-02
+  displayName: "\u6E29\u99A8\u5927\u5B85 \xB7 \u81EA\u7531\u63A2\u7D22"
   requiredObjectives: []
   activityBounds:
-    m_Center: {x: -5, y: 1.5, z: -4.5}
-    m_Extent: {x: 4.9, y: 2, z: 4.4}
-  spawnPosition: {x: -7.55, y: 0.035, z: -2.35}
+    m_Center: {x: -6, y: 1.5, z: -5.4}
+    m_Extent: {x: 5.88, y: 2, z: 5.28}
+  spawnPosition: {x: -9.06, y: 0.035, z: -2.82}
   spawnYaw: 180
-  playerScale: 0.75
+  playerScale: 0.675
   daylightColor: {r: 1, g: 0.91, b: 0.78, a: 1}
   sunlightEuler: {x: 42, y: -32, z: 0}
   areas:
   - name: "\u4E3B\u5367"
     bounds:
-      m_Center: {x: -2.1699998, y: 1.4, z: -2.07}
-      m_Extent: {x: 1.97, y: 1.6, z: 1.8699999}
+      m_Center: {x: -2.6039999, y: 1.4, z: -2.484}
+      m_Extent: {x: 2.364, y: 1.6, z: 2.244}
   - name: "\u6B21\u5367\u4E0E\u4E66\u623F"
     bounds:
-      m_Center: {x: -1.5699999, y: 1.4, z: -5.5}
-      m_Extent: {x: 1.37, y: 1.6, z: 1.4399999}
+      m_Center: {x: -1.884, y: 1.4, z: -6.6000004}
+      m_Extent: {x: 1.644, y: 1.6, z: 1.728}
   - name: "\u8D70\u5ECA"
     bounds:
-      m_Center: {x: -3.6, y: 1.4, z: -5.5}
-      m_Extent: {x: 0.54, y: 1.6, z: 1.4399999}
+      m_Center: {x: -4.32, y: 1.4, z: -6.6000004}
+      m_Extent: {x: 0.64800006, y: 1.6, z: 1.728}
   - name: "\u7384\u5173"
     bounds:
-      m_Center: {x: -2.1699998, y: 1.4, z: -7.93}
-      m_Extent: {x: 1.97, y: 1.6, z: 0.86999995}
+      m_Center: {x: -2.6039999, y: 1.4, z: -9.516}
+      m_Extent: {x: 2.364, y: 1.6, z: 1.044}
   - name: "\u536B\u751F\u95F4"
     bounds:
-      m_Center: {x: -5.5, y: 1.4, z: -7.43}
-      m_Extent: {x: 1.2399999, y: 1.6, z: 1.3699999}
+      m_Center: {x: -6.6000004, y: 1.4, z: -8.916}
+      m_Extent: {x: 1.4879999, y: 1.6, z: 1.6439999}
   - name: "\u53A8\u623F"
     bounds:
-      m_Center: {x: -8.33, y: 1.4, z: -7.43}
-      m_Extent: {x: 1.47, y: 1.6, z: 1.3699999}
+      m_Center: {x: -9.996, y: 1.4, z: -8.916}
+      m_Extent: {x: 1.764, y: 1.6, z: 1.6439999}
   - name: "\u5BA2\u9910\u5385"
     bounds:
-      m_Center: {x: -7.0299997, y: 1.4, z: -3.8}
-      m_Extent: {x: 2.77, y: 1.6, z: 2.1399999}
+      m_Center: {x: -8.436, y: 1.4, z: -4.56}
+      m_Extent: {x: 3.3240001, y: 1.6, z: 2.5679998}
   - name: "\u9633\u53F0"
     bounds:
-      m_Center: {x: -7.0299997, y: 1.4, z: -0.87}
-      m_Extent: {x: 2.77, y: 1.6, z: 0.66999996}
+      m_Center: {x: -8.436, y: 1.4, z: -1.044}
+      m_Extent: {x: 3.3240001, y: 1.6, z: 0.80399996}
