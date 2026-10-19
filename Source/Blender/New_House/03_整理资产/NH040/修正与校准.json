@@ -1,0 +1,26 @@
+{
+  "id": "NH040",
+  "slug": "KitchenWindow",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-DOR-007_KitchenWindow_Main_ref_v001.png",
+  "corrections": [
+    "Rebuilt only damaged AI-generated frame/pane surfaces with straight precision rails, 2 reference panels and thin clear glass; original high-resolution model retained in Asset.blend."
+  ],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    1.899999976158142,
+    0.0860000029206276,
+    1.399999976158142
+  ],
+  "targetDimensions_m": [
+    1.899999976158142,
+    0.07500000298023224,
+    1.399999976158142
+  ],
+  "sceneFaces": 54,
+  "sceneVertices": 72,
+  "meshObjects": 9,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 11.1
+}

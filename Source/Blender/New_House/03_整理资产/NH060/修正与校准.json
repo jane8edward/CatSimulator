@@ -1,0 +1,24 @@
+{
+  "id": "NH060",
+  "slug": "CoffeeTable",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-002_CoffeeTable_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    1.0,
+    0.6499999761581421,
+    0.37999996542930603
+  ],
+  "targetDimensions_m": [
+    1.0,
+    0.6499999761581421,
+    0.3799999952316284
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 89998,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 8.7
+}

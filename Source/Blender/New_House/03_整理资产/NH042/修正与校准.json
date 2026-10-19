@@ -1,0 +1,26 @@
+{
+  "id": "NH042",
+  "slug": "LaundryBottleKit_PumpBottle",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-017_LaundryBottleKit_PumpBottle_ref_v001.png",
+  "corrections": [
+    "Restored cream bottle and grey pump material absent from the source package."
+  ],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.07500000298023224,
+    0.07500000298023224,
+    0.20000000298023224
+  ],
+  "targetDimensions_m": [
+    0.07500000298023224,
+    0.07500000298023224,
+    0.20000000298023224
+  ],
+  "sceneFaces": 179999,
+  "sceneVertices": 90002,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 3.7
+}

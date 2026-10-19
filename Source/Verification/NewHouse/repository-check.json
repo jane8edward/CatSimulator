@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "sourceBinaryFilesVerified": 712,
+  "binaryHashMismatches": [],
+  "missingUnityMeta": [],
+  "duplicateUnityGUIDs": {},
+  "excludedFilesInDiff": [],
+  "existingUnityMetaCount": 191,
+  "sourceOutsideAssetsNeedsMeta": false,
+  "latestMainIsAncestor": true
+}

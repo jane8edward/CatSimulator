@@ -1,0 +1,90 @@
+{
+  "id": "NH057",
+  "archive": "wooden+cabinet+3d+model (3).zip",
+  "source": "02_解压原文件/NH057/tripo_convert_8e431a37-c19d-4e4d-836f-3ea03d9a9f4e.fbx",
+  "importBounds": {
+    "min": [
+      -0.454833984375,
+      -0.489105224609375,
+      -2.1380134995752087e-08
+    ],
+    "max": [
+      0.454833984375,
+      0.4891357719898224,
+      0.926055908203125
+    ],
+    "dimensions": [
+      0.90966796875,
+      0.978240966796875,
+      0.926055908203125
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 952175,
+  "sourceFaces": 1904168,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_8e431a37_0",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_8e431a37_2",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_8e431a37_3",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_8e431a37_4",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.9299286603927612,
+    1.0,
+    0.9466484189033508
+  ],
+  "seconds": 25.8,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

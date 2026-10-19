@@ -1,0 +1,54 @@
+{
+  "id": "NH066",
+  "archive": "wooden+kitchen+cabinet+3d+model.zip",
+  "source": "02_解压原文件/NH066/tripo_convert_e005ff74-303f-4861-905b-d4664adbb1c1.fbx",
+  "importBounds": {
+    "min": [
+      -0.442535400390625,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.442535400390625,
+      0.5,
+      0.4382629692554474
+    ],
+    "dimensions": [
+      0.88507080078125,
+      1.0,
+      0.4382629990577698
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 463530,
+  "sourceFaces": 927056,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_e005ff74_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.8850727081298828,
+    1.0000241994857788,
+    0.4382616877555847
+  ],
+  "seconds": 12.3,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

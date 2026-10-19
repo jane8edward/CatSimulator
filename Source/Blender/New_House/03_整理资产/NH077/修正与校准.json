@@ -1,0 +1,26 @@
+{
+  "id": "NH077",
+  "slug": "LaundryBasket",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-019_LaundryBasket_Main_ref_v001.png",
+  "corrections": [
+    "Restored natural wicker color absent from the source package; retained woven geometry."
+  ],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.3399999737739563,
+    0.3400000333786011,
+    0.46000000834465027
+  ],
+  "targetDimensions_m": [
+    0.3400000035762787,
+    0.3400000035762787,
+    0.46000000834465027
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 90060,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 3.7
+}

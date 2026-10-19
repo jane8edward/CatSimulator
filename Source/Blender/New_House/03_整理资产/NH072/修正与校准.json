@@ -1,0 +1,24 @@
+{
+  "id": "NH072",
+  "slug": "ServingTray",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-010_ServingTray_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.28999996185302734,
+    0.17000000178813934,
+    0.03199999779462814
+  ],
+  "targetDimensions_m": [
+    0.28999999165534973,
+    0.17000000178813934,
+    0.03200000151991844
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 90002,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 4.1
+}

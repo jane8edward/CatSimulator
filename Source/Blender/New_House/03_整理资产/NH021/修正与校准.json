@@ -1,0 +1,24 @@
+{
+  "id": "NH021",
+  "slug": "ThrowBlanket",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-004_ThrowBlanket_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.5,
+    0.3799999952316284,
+    0.12999999523162842
+  ],
+  "targetDimensions_m": [
+    0.5,
+    0.3799999952316284,
+    0.12999999523162842
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 89992,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 3.8
+}

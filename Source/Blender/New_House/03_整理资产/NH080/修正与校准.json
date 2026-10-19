@@ -1,0 +1,14 @@
+{
+  "id": "NH080",
+  "status": "supplemental reference model",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-016_ShoePairKit_Shoe_ref_v001.png",
+  "dimensions_m": [
+    0.1,
+    0.25,
+    0.065
+  ],
+  "sourcePreserved": true,
+  "corrections": [
+    "No shoe supplied in the 78 Tripo model packages; modelled slipper sole and fabric upper from the reference."
+  ]
+}

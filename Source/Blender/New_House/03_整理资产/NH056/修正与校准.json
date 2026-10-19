@@ -1,0 +1,24 @@
+{
+  "id": "NH056",
+  "slug": "GuestStorage",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-011_GuestStorage_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    1.4500000476837158,
+    0.36000001430511475,
+    0.5799999237060547
+  ],
+  "targetDimensions_m": [
+    1.4500000476837158,
+    0.36000001430511475,
+    0.5799999833106995
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 90000,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 3.8
+}

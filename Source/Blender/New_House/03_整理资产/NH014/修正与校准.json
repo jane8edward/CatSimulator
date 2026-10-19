@@ -1,0 +1,26 @@
+{
+  "id": "NH014",
+  "slug": "ChoppingBoardKit_JarCeramic",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-020_ChoppingBoardKit_JarCeramic_ref_v001.png",
+  "corrections": [
+    "Restored warm ceramic material absent from the source package."
+  ],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.1599999964237213,
+    0.1599999964237213,
+    0.12999998033046722
+  ],
+  "targetDimensions_m": [
+    0.1599999964237213,
+    0.1599999964237213,
+    0.12999999523162842
+  ],
+  "sceneFaces": 179999,
+  "sceneVertices": 90004,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 3.5
+}

@@ -1,0 +1,54 @@
+{
+  "id": "NH050",
+  "archive": "wooden+bed+3d+model (1).zip",
+  "source": "02_解压原文件/NH050/tripo_convert_31b33506-5332-4e45-a590-604a18951240.fbx",
+  "importBounds": {
+    "min": [
+      -0.5,
+      -0.411407470703125,
+      -1.7983191824555433e-08
+    ],
+    "max": [
+      0.5,
+      0.4114075005054474,
+      0.3845825493335724
+    ],
+    "dimensions": [
+      1.0,
+      0.82281494140625,
+      0.3845825791358948
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 468494,
+  "sourceFaces": 937035,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_31b33506_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    1.000020980834961,
+    0.8228319883346558,
+    0.3845793604850769
+  ],
+  "seconds": 12.6,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

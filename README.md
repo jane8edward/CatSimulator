@@ -140,3 +140,7 @@ git lfs pull
 ## 新增美术资源（2026-10-14）
 
 90㎡养猫住宅、84 类独立原生资产、物体参考图、猫四视图、阿比尼西亚猫蒙皮修复与循环行走动画已作为独立资源接入。打开方式与 Mac 构建/复测见 [资源接入说明](docs/model-resources-20261014.md)。现有 `LivingRoom.unity` 的玩法和玩家保持原样，另有 `Home90_Preview.unity` 与 `Assets/Cat/Scenes/Walk_Preview.unity` 供检查。
+
+## New_House 与新增猫资源（2026-10-15）
+
+最新 Tripo 全屋源工程、78 份原始模型、79 个校准资产、新猫模型及改进三花四视图已单独整理到仓库。New_House 保留实例、阵列、基础灯光和四视角 Cycles 渲染；目录、排除规则与验证方式见 [本次资源说明](docs/new-house-resources-20261015.md)。该高密度美术源工程独立于旧住宅和现有 Unity 可玩关卡。

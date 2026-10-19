@@ -1,0 +1,41 @@
+{
+  "id": "NH014",
+  "archive": "ceramic+pot+3d+model.zip",
+  "source": "02_解压原文件/NH014/tripo_convert_df2823e6-1030-4ec1-88ed-10985bee9aad.fbx",
+  "importBounds": {
+    "min": [
+      -0.499481201171875,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.499481201171875,
+      0.5000000596046448,
+      0.78790283203125
+    ],
+    "dimensions": [
+      0.99896240234375,
+      1.0,
+      0.78790283203125
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 470907,
+  "sourceFaces": 941805,
+  "reviewLongestDimension_m": 1,
+  "images": [],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.9989662170410156,
+    1.000004529953003,
+    0.7879068851470947
+  ],
+  "seconds": 12.0,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

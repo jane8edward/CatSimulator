@@ -1,0 +1,41 @@
+{
+  "id": "NH077",
+  "archive": "woven+basket+3d+model.zip",
+  "source": "02_解压原文件/NH077/tripo_convert_42425ec3-97d6-42b6-a190-2358cc4c26e0.fbx",
+  "importBounds": {
+    "min": [
+      -0.466064453125,
+      -0.466644287109375,
+      -2.0397669331373436e-08
+    ],
+    "max": [
+      0.466064453125,
+      0.4666443169116974,
+      1.0
+    ],
+    "dimensions": [
+      0.93212890625,
+      0.93328857421875,
+      1.0
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 477079,
+  "sourceFaces": 948315,
+  "reviewLongestDimension_m": 1,
+  "images": [],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.9323645830154419,
+    0.9331716299057007,
+    1.0003736019134521
+  ],
+  "seconds": 10.3,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

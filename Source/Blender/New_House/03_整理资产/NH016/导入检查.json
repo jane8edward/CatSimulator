@@ -1,0 +1,54 @@
+{
+  "id": "NH016",
+  "archive": "green+cushion+3d+model.zip",
+  "source": "02_解压原文件/NH016/tripo_convert_10c4cb33-ff8f-4d53-adb9-0ad6535d4db0.fbx",
+  "importBounds": {
+    "min": [
+      -0.24932861328125,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.24932861328125,
+      0.5000000596046448,
+      0.87896728515625
+    ],
+    "dimensions": [
+      0.4986572265625,
+      1.0,
+      0.87896728515625
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 483053,
+  "sourceFaces": 966102,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_10c4cb33_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.49865514039993286,
+    1.0000176429748535,
+    0.878987193107605
+  ],
+  "seconds": 12.7,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

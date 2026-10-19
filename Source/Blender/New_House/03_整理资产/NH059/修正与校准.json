@@ -1,0 +1,24 @@
+{
+  "id": "NH059",
+  "slug": "DiningChair",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-005_DiningChair_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.46000000834465027,
+    0.4899999797344208,
+    0.7899999618530273
+  ],
+  "targetDimensions_m": [
+    0.46000000834465027,
+    0.49000000953674316,
+    0.7900000214576721
+  ],
+  "sceneFaces": 179999,
+  "sceneVertices": 89994,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 4.0
+}

@@ -1,0 +1,54 @@
+{
+  "id": "NH005",
+  "archive": "beige+rectangular+mat+3d+model.zip",
+  "source": "02_解压原文件/NH005/tripo_convert_d333e79d-eb3d-4a54-81d8-66bc0d61456e.fbx",
+  "importBounds": {
+    "min": [
+      -0.37908935546875,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.37908935546875,
+      0.5,
+      0.08255770057439804
+    ],
+    "dimensions": [
+      0.7581787109375,
+      1.0,
+      0.08255772292613983
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 495345,
+  "sourceFaces": 990682,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_d333e79d_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.7582187056541443,
+    0.9999993443489075,
+    0.08256961405277252
+  ],
+  "seconds": 14.2,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

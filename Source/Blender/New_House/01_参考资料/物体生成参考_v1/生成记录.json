@@ -1,0 +1,3010 @@
+{
+  "schemaVersion": 1,
+  "scope": "全屋场景可见物品，经用户确认；不含墙地面、天空和未在效果图出现的可选道具",
+  "created": "2026-10-13",
+  "mode": "built-in image_gen",
+  "root": "/Users/eddieyan/Desktop/猫咪游戏/90㎡养猫之家-三维资产/01_参考资料/物体生成参考_v1",
+  "archive": "[original workspace]/outputs/home_object_references_v1",
+  "sources": {
+    "R02": "/Users/eddieyan/Desktop/猫咪游戏/90㎡养猫之家-三维资产/01_参考资料/物体生成参考_v1/00_源场景/02_全屋轴测效果图.png",
+    "R03": "/Users/eddieyan/Desktop/猫咪游戏/90㎡养猫之家-三维资产/01_参考资料/物体生成参考_v1/00_源场景/03_客厅与猫咪活动区_效果图.png",
+    "R04": "/Users/eddieyan/Desktop/猫咪游戏/90㎡养猫之家-三维资产/01_参考资料/物体生成参考_v1/00_源场景/04_阳台与猫咪观景区_效果图.png"
+  },
+  "groups": [
+    {
+      "id": "G01",
+      "name": "大件软装家具",
+      "references": [
+        "R03",
+        "R04",
+        "R02"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-FUR-001",
+          "variant": "Main",
+          "name": "米色三人沙发",
+          "slug": "Sofa",
+          "description": "The exact cream-beige woven fabric three-seat sofa from R03: rounded thick arms, three seat cushions, softly padded back, low light-oak legs. Remove only loose decorative pillows. Keep the whole sofa visible, including both arms and its base.",
+          "source": "R03",
+          "filename": "H90-FUR-001_Sofa_Main_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            632,
+            615
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-001_Sofa_Main_ref_v001.png",
+          "sha256": "733ffbd882cd5c4908e52784933874f5c43b0d42c6b42af2ea3809327d742d66",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考",
+          "paddingOffset": [
+            68,
+            76
+          ]
+        },
+        {
+          "assetId": "H90-FUR-007",
+          "variant": "Main",
+          "name": "主卧双人床",
+          "slug": "MasterBed",
+          "description": "The master-bedroom light-oak double bed in R02, low rectangular wood frame and straight broad low headboard, cream mattress. Remove pillows, covers and blankets to expose the bed frame. No bedside furniture.",
+          "source": "R02",
+          "filename": "H90-FUR-007_MasterBed_Main_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            632,
+            0,
+            1254,
+            615
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-007_MasterBed_Main_ref_v001.png",
+          "sha256": "6a048bdebdf771cc406f1c5e4514659dc7e4ee752ce98931b9d2106d1f182623",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考",
+          "paddingOffset": [
+            73,
+            76
+          ]
+        },
+        {
+          "assetId": "H90-FUR-008",
+          "variant": "Main",
+          "name": "次卧单人床",
+          "slug": "GuestBed",
+          "description": "The guest-room narrow light-oak single bed in R02 with straight low headboard and cream mattress. Remove pillows and green blanket. Retain its narrow single-bed proportions.",
+          "source": "R02",
+          "filename": "H90-FUR-008_GuestBed_Main_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            615,
+            609,
+            1254
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-008_GuestBed_Main_ref_v001.png",
+          "sha256": "851cdf3affbbfd78ca9307b6f531e00250b9082002d0bbddade6019d8ec7219b",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考",
+          "paddingOffset": [
+            79,
+            64
+          ]
+        },
+        {
+          "assetId": "H90-FUR-020",
+          "variant": "Main",
+          "name": "阳台观景卧榻",
+          "slug": "BalconyBench",
+          "description": "The exact very long light-oak balcony storage bench in R04, three broad flush drawer fronts, thin sage-green seat cushion and low plinth. Remove cat, loose pillows, throw and plants; preserve long low rectangular body.",
+          "source": "R04",
+          "filename": "H90-FUR-020_BalconyBench_Main_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            609,
+            615,
+            1254,
+            1254
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-020_BalconyBench_Main_ref_v001.png",
+          "sha256": "2b826b7406e6b14b55f5ed0b707dc076acd910b265551e47929ecc9922f3e1ea",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考",
+          "paddingOffset": [
+            61,
+            64
+          ]
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R03, Image 2 = R04, Image 3 = R02.\n\nTOP LEFT: The exact cream-beige woven fabric three-seat sofa from R03: rounded thick arms, three seat cushions, softly padded back, low light-oak legs. Remove only loose decorative pillows. Keep the whole sofa visible, including both arms and its base. Source authority R03.\n\nTOP RIGHT: The master-bedroom light-oak double bed in R02, low rectangular wood frame and straight broad low headboard, cream mattress. Remove pillows, covers and blankets to expose the bed frame. No bedside furniture. Source authority R02.\n\nBOTTOM LEFT: The guest-room narrow light-oak single bed in R02 with straight low headboard and cream mattress. Remove pillows and green blanket. Retain its narrow single-bed proportions. Source authority R02.\n\nBOTTOM RIGHT: The exact very long light-oak balcony storage bench in R04, three broad flush drawer fronts, thin sage-green seat cushion and low plinth. Remove cat, loose pillows, throw and plants; preserve long low rectangular body. Source authority R04.\n",
+      "gridFilename": "G01_大件软装家具_2x2_v001.png",
+      "status": "generated-reviewed",
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G01_大件软装家具_2x2_v001.png",
+      "sha256": "983006c631c1926f1e60f61577e775361213a145ddecf977cda3c5642c27a95e",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-3b51a256-90bd-483b-8aac-112f8c5e2a97.png",
+      "visualReview": "主体完整、宫格顺序正确、白底无环境投影；已对照源场景核对。",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          539,
+          692
+        ],
+        "topVertical": [
+          613,
+          651
+        ],
+        "bottomVertical": [
+          580,
+          639
+        ]
+      }
+    },
+    {
+      "id": "G02",
+      "name": "桌与低柜",
+      "references": [
+        "R03",
+        "R02"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-FUR-002",
+          "variant": "Main",
+          "name": "圆角茶几",
+          "slug": "CoffeeTable",
+          "description": "The R03 light-oak rounded rectangular coffee table, broad rounded corners, four tapered wood legs, low height, no shelf; top completely empty.",
+          "source": "R03",
+          "filename": "H90-FUR-002_CoffeeTable_Main_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            625,
+            629
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-002_CoffeeTable_Main_ref_v001.png",
+          "sha256": "1c32a144edd46389e31a7145e4e2cc7c6264bd3a36842de9c53e1cc2f33e7b63",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考",
+          "paddingOffset": [
+            71,
+            69
+          ]
+        },
+        {
+          "assetId": "H90-FUR-004",
+          "variant": "Main",
+          "name": "餐桌",
+          "slug": "DiningTable",
+          "description": "The R03 light-oak dining table, softly rounded rectangle top, four gently tapered legs. Remove chairs and all tabletop decorations.",
+          "source": "R03",
+          "filename": "H90-FUR-004_DiningTable_Main_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            625,
+            0,
+            1254,
+            629
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-004_DiningTable_Main_ref_v001.png",
+          "sha256": "97cc33d81e149f1c9507a808fd230b8554a3a3cadfebef224ee63e65042ad605",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考",
+          "paddingOffset": [
+            69,
+            69
+          ]
+        },
+        {
+          "assetId": "H90-FUR-012",
+          "variant": "Main",
+          "name": "办公桌",
+          "slug": "Desk",
+          "description": "The R02 guest-room simple oak writing desk with rectangular thin solid top and four straight/slightly tapered wooden legs. Remove laptop, chair, lamp and plant.",
+          "source": "R02",
+          "filename": "H90-FUR-012_Desk_Main_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            629,
+            620,
+            1254
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-012_Desk_Main_ref_v001.png",
+          "sha256": "26e54bb33a838e865155156c19df4cc8addadda53d7c62521db37895628b4e40",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考",
+          "paddingOffset": [
+            74,
+            71
+          ]
+        },
+        {
+          "assetId": "H90-FUR-003",
+          "variant": "Main",
+          "name": "电视柜",
+          "slug": "TVConsole",
+          "description": "The R03 long light-oak low TV console with flat slab top, warm oak flush doors/drawers and short round tapered legs. Preserve visible door seams. Remove TV and plants.",
+          "source": "R03",
+          "filename": "H90-FUR-003_TVConsole_Main_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            620,
+            629,
+            1254,
+            1254
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-003_TVConsole_Main_ref_v001.png",
+          "sha256": "ef93645b8d722c1f4435833de3d2014a20cebd44df403c59e013e34adc7bf57c",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考",
+          "paddingOffset": [
+            67,
+            71
+          ]
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R03, Image 2 = R02.\n\nTOP LEFT: The R03 light-oak rounded rectangular coffee table, broad rounded corners, four tapered wood legs, low height, no shelf; top completely empty. Source authority R03.\n\nTOP RIGHT: The R03 light-oak dining table, softly rounded rectangle top, four gently tapered legs. Remove chairs and all tabletop decorations. Source authority R03.\n\nBOTTOM LEFT: The R02 guest-room simple oak writing desk with rectangular thin solid top and four straight/slightly tapered wooden legs. Remove laptop, chair, lamp and plant. Source authority R02.\n\nBOTTOM RIGHT: The R03 long light-oak low TV console with flat slab top, warm oak flush doors/drawers and short round tapered legs. Preserve visible door seams. Remove TV and plants. Source authority R03.\n",
+      "gridFilename": "G02_桌与低柜_2x2_v001.png",
+      "status": "generated-reviewed",
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G02_桌与低柜_2x2_v001.png",
+      "sha256": "54b04b14add2d288e04ed05e0931ac00d5a1df93a7d936d74e3ea0649aee872b",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-419e9085-9de0-4260-95af-7b7d96f5cf82.png",
+      "visualReview": "主体完整、宫格顺序正确、白底无环境投影；已对照源场景核对。",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          541,
+          717
+        ],
+        "topVertical": [
+          606,
+          644
+        ],
+        "bottomVertical": [
+          599,
+          642
+        ]
+      }
+    },
+    {
+      "id": "G03",
+      "name": "椅凳",
+      "references": [
+        "R03",
+        "R02"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-FUR-005",
+          "variant": "Main",
+          "name": "餐椅",
+          "slug": "DiningChair",
+          "description": "One exact R03 dining chair: oak four-leg frame, muted sage-green upholstered broad rounded rectangular backrest and seat; no armrests.",
+          "source": "R03",
+          "filename": "H90-FUR-005_DiningChair_Main_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            639,
+            666
+          ],
+          "paddingOffset": [
+            64,
+            51
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-005_DiningChair_Main_ref_v001.png",
+          "sha256": "10de3d840a5f2fec476deb8617607949cbeb48c5189f9d8edd18703d200ad577",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-FUR-013",
+          "variant": "Main",
+          "name": "办公椅",
+          "slug": "OfficeChair",
+          "description": "The R02 guest-room sage-green upholstered office desk chair, compact rounded back/arm shell and four slim dark legs. Match the visible chair; do not invent wheels or a swivel pedestal.",
+          "source": "R02",
+          "filename": "H90-FUR-013_OfficeChair_Main_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            639,
+            0,
+            1254,
+            666
+          ],
+          "paddingOffset": [
+            76,
+            51
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-013_OfficeChair_Main_ref_v001.png",
+          "sha256": "fb1b6890147e89122773457e3b6ae952f396af53823b90680586af7f9c51fe35",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-FUR-006",
+          "variant": "Main",
+          "name": "餐桌长凳",
+          "slug": "DiningBench",
+          "description": "The R03 light-oak dining bench behind dining table: rectangular seat, low straight wood back and four wood legs. Extract alone, remove the table in front of it.",
+          "source": "R03",
+          "filename": "H90-FUR-006_DiningBench_Main_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            666,
+            684,
+            1254
+          ],
+          "paddingOffset": [
+            42,
+            90
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-006_DiningBench_Main_ref_v001.png",
+          "sha256": "4c25c0b6202eb17399aa7d1d69de84f89a47c585e4e48bb41076343b3249263b",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-FUR-021",
+          "variant": "Main",
+          "name": "针织圆脚凳",
+          "slug": "Ottoman",
+          "description": "The R03 small low round sage-grey knitted pouf, thick cylindrical cushion with rounded edges and knit stitch texture, no legs.",
+          "source": "R03",
+          "filename": "H90-FUR-021_Ottoman_Main_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            684,
+            666,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            99,
+            90
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-021_Ottoman_Main_ref_v001.png",
+          "sha256": "9320b56a9c8b2f87edd1a5114886ee5c4b0184a53f9346536813cbd9b5fb7d72",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R03, Image 2 = R02.\n\nTOP LEFT: One exact R03 dining chair: oak four-leg frame, muted sage-green upholstered broad rounded rectangular backrest and seat; no armrests. Source authority R03.\n\nTOP RIGHT: The R02 guest-room sage-green upholstered office desk chair, compact rounded back/arm shell and four slim dark legs. Match the visible chair; do not invent wheels or a swivel pedestal. Source authority R02.\n\nBOTTOM LEFT: The R03 light-oak dining bench behind dining table: rectangular seat, low straight wood back and four wood legs. Extract alone, remove the table in front of it. Source authority R03.\n\nBOTTOM RIGHT: The R03 small low round sage-grey knitted pouf, thick cylindrical cushion with rounded edges and knit stitch texture, no legs. Source authority R03.\n",
+      "gridFilename": "G03_椅凳_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          612,
+          720
+        ],
+        "topVertical": [
+          551,
+          727
+        ],
+        "bottomVertical": [
+          664,
+          704
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G03_椅凳_2x2_v001.png",
+      "sha256": "51f12bf677422e7cb8553ad4e352243cf9240fcb28549ec9c1f5af5ba3c79a3a",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-5ee607ac-0701-4f3a-910f-9e55fd484301.png",
+      "visualReview": "主体完整、宫格顺序正确、白底无环境投影；已对照源场景核对。"
+    },
+    {
+      "id": "G04",
+      "name": "小型储物家具",
+      "references": [
+        "R02",
+        "R03"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-FUR-009",
+          "variant": "Main",
+          "name": "床头柜",
+          "slug": "BedsideTable",
+          "description": "One R02 master-bedroom small round light-oak bedside table, round top and rounded small drawer body with dark pull, short legs; remove lamp.",
+          "source": "R02",
+          "filename": "H90-FUR-009_BedsideTable_Main_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            519,
+            598
+          ],
+          "paddingOffset": [
+            124,
+            85
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-009_BedsideTable_Main_ref_v001.png",
+          "sha256": "ce4529fb37ea16ca8e28b995957a7ebd2b3c30f312e4a7eec9d6d70baedb7839",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-FUR-011",
+          "variant": "Main",
+          "name": "次卧储物柜",
+          "slug": "GuestStorage",
+          "description": "The R02 low long rectangular oak storage cabinet at foot of guest single bed, flat top and flush wood doors, low plinth, no decor.",
+          "source": "R02",
+          "filename": "H90-FUR-011_GuestStorage_Main_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            519,
+            0,
+            1254,
+            598
+          ],
+          "paddingOffset": [
+            16,
+            85
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-011_GuestStorage_Main_ref_v001.png",
+          "sha256": "f72041b118588f73ad4d78b7b202c4ad2cd89f1ce6d30db9b4dd110b95d26a71",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-FUR-015",
+          "variant": "Main",
+          "name": "玄关置物台",
+          "slug": "EntryConsole",
+          "description": "The R03 entrance console against left hallway wall: compact light-oak cabinet, small upper drawers and lower flat doors, raised four short legs. Remove plants, vase and objects.",
+          "source": "R03",
+          "filename": "H90-FUR-015_EntryConsole_Main_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            598,
+            550,
+            1254
+          ],
+          "paddingOffset": [
+            109,
+            56
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-015_EntryConsole_Main_ref_v001.png",
+          "sha256": "4432fee7470c59b62480b9e63736ae67217d4d48e955bee2cca1be7f16eedd41",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-FUR-016",
+          "variant": "Main",
+          "name": "换鞋凳",
+          "slug": "EntryBench",
+          "description": "The R02 north-west entry low oak bench with an open divided shoe-cubby shelf beneath the flat seat. Empty all cubbies, remove cushion and shoes so cubby geometry is visible.",
+          "source": "R02",
+          "filename": "H90-FUR-016_EntryBench_Main_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            550,
+            598,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            32,
+            56
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-016_EntryBench_Main_ref_v001.png",
+          "sha256": "5c3047082d6a39332d7375fe0cbef44b62239798eb6f1892aac2d297d38745d8",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R02, Image 2 = R03.\n\nTOP LEFT: One R02 master-bedroom small round light-oak bedside table, round top and rounded small drawer body with dark pull, short legs; remove lamp. Source authority R02.\n\nTOP RIGHT: The R02 low long rectangular oak storage cabinet at foot of guest single bed, flat top and flush wood doors, low plinth, no decor. Source authority R02.\n\nBOTTOM LEFT: The R03 entrance console against left hallway wall: compact light-oak cabinet, small upper drawers and lower flat doors, raised four short legs. Remove plants, vase and objects. Source authority R03.\n\nBOTTOM RIGHT: The R02 north-west entry low oak bench with an open divided shoe-cubby shelf beneath the flat seat. Empty all cubbies, remove cushion and shoes so cubby geometry is visible. Source authority R02.\n",
+      "gridFilename": "G04_小型储物家具_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          539,
+          658
+        ],
+        "topVertical": [
+          473,
+          565
+        ],
+        "bottomVertical": [
+          516,
+          584
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G04_小型储物家具_2x2_v001.png",
+      "sha256": "ab078a9287b5309211b31b3c8832ad9357adc3d7244616c8e0587d910b564281",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-b3bce977-5462-4976-a74d-dd438af9d141.png",
+      "visualReview": "主体完整、宫格顺序正确、白底无环境投影；已对照源场景核对。"
+    },
+    {
+      "id": "G05",
+      "name": "高柜与吊柜",
+      "references": [
+        "R02",
+        "R03",
+        "R04"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-FUR-010",
+          "variant": "Main",
+          "name": "主卧衣柜",
+          "slug": "MasterWardrobe",
+          "description": "The R02 master-bedroom long tall light-oak wardrobe: full-height flat slab front doors with restrained vertical seams, rectangular carcass and small plinth, no ornamental molding.",
+          "source": "R02",
+          "filename": "H90-FUR-010_MasterWardrobe_Main_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            715,
+            615
+          ],
+          "paddingOffset": [
+            26,
+            76
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-010_MasterWardrobe_Main_ref_v001.png",
+          "sha256": "0f276c10940d06025bac03ded82c7a2b86f37a2d69c56e0580b9638dfd410109",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-FUR-014",
+          "variant": "Main",
+          "name": "玄关衣鞋柜",
+          "slug": "EntryStorage",
+          "description": "The R02 north-west tall narrow light-oak entry cabinet, floor-standing full-height flat doors with very small simple pulls and low plinth.",
+          "source": "R02",
+          "filename": "H90-FUR-014_EntryStorage_Main_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            715,
+            0,
+            1254,
+            615
+          ],
+          "paddingOffset": [
+            114,
+            76
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-014_EntryStorage_Main_ref_v001.png",
+          "sha256": "6ca4d06cb23203df3dbb51d3c1e429923a3dfa49a5669a9f0a05ae181b842478",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-FUR-018",
+          "variant": "Main",
+          "name": "厨房吊柜",
+          "slug": "KitchenWallCabinet",
+          "description": "The R03 kitchen wall-hung light-oak overhead cabinet bank, rectangular closed flat-front doors and slim vertical seams, no counters, no backsplash.",
+          "source": "R03",
+          "filename": "H90-FUR-018_KitchenWallCabinet_Main_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            615,
+            657,
+            1254
+          ],
+          "paddingOffset": [
+            55,
+            64
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-018_KitchenWallCabinet_Main_ref_v001.png",
+          "sha256": "6eeda4a8a0ad0e746f56d62cfa58cfe8c189ea8e6d854a5aec09833000dfb1ad",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-FUR-019",
+          "variant": "Main",
+          "name": "洗衣收纳柜",
+          "slug": "LaundryStorage",
+          "description": "The R04 west laundry cabinet assembly alone: light-oak upper closed wall cabinet, pale counter and tall narrow left lower wood cabinet/side panel, white right lower door, open rectangular appliance bay under counter for washer. Remove washer, towels, bottles and plants; preserve source enclosure dimensions.",
+          "source": "R04",
+          "filename": "H90-FUR-019_LaundryStorage_Main_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            657,
+            615,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            85,
+            64
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-FUR-019_LaundryStorage_Main_ref_v001.png",
+          "sha256": "86cf56fcd2ee9054fcbee612670395638320aa09f339c7c0a78fd52019ee31e3",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R02, Image 2 = R03, Image 3 = R04.\n\nTOP LEFT: The R02 master-bedroom long tall light-oak wardrobe: full-height flat slab front doors with restrained vertical seams, rectangular carcass and small plinth, no ornamental molding. Source authority R02.\n\nTOP RIGHT: The R02 north-west tall narrow light-oak entry cabinet, floor-standing full-height flat doors with very small simple pulls and low plinth. Source authority R02.\n\nBOTTOM LEFT: The R03 kitchen wall-hung light-oak overhead cabinet bank, rectangular closed flat-front doors and slim vertical seams, no counters, no backsplash. Source authority R03.\n\nBOTTOM RIGHT: The R04 west laundry cabinet assembly alone: light-oak upper closed wall cabinet, pale counter and tall narrow left lower wood cabinet/side panel, white right lower door, open rectangular appliance bay under counter for washer. Remove washer, towels, bottles and plants; preserve source enclosure dimensions. Source authority R04.\n",
+      "gridFilename": "G05_高柜与吊柜_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          604,
+          626
+        ],
+        "topVertical": [
+          583,
+          847
+        ],
+        "bottomVertical": [
+          599,
+          715
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G05_高柜与吊柜_2x2_v001.png",
+      "sha256": "ad54f7dc4a306bcd2672eb60aaf374065084e0d7fc124a28fac778a9ea90a9cc",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-2753b18d-3351-4827-835e-d90571060d9e.png",
+      "visualReview": "主体完整、宫格顺序正确、白底无环境投影；已对照源场景核对。"
+    },
+    {
+      "id": "G06",
+      "name": "厨房与洗手设施",
+      "references": [
+        "R02",
+        "R03"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-FUR-017",
+          "variant": "Main",
+          "name": "L形厨房地柜",
+          "slug": "KitchenBaseCabinet",
+          "description": "The R03/R02 continuous L-shaped light-oak kitchen base cabinet with pale cream stone countertop, flat flush wood doors, subtle plinth. Remove sink, faucet, cooktop and decor; leave neat sink and cooktop recesses in the countertop. Show full L profile from elevated three-quarter angle.",
+          "source": "R03",
+          "filename": "H90-FUR-017_KitchenBaseCabinet_Main_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            772,
+            617
+          ],
+          "paddingOffset": [
+            30,
+            107
+          ],
+          "imageSize": [
+            832,
+            832
+          ],
+          "imagePath": "02_单物体图/H90-FUR-017_KitchenBaseCabinet_Main_ref_v001.png",
+          "sha256": "8c2d91b4fb20bc4cf898ba39f88056eb718ea056f74cc53a7f3f30242c3336fd",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-APP-007",
+          "variant": "Main",
+          "name": "浴室洗手台",
+          "slug": "BathVanity",
+          "description": "The R02 wall-hung bathroom vanity, compact grey rectangular cabinet below pale countertop, white rectangular inset basin and slim silver faucet. No wall or mirror; full fixture assembly alone.",
+          "source": "R02",
+          "filename": "H90-APP-007_BathVanity_Main_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            772,
+            0,
+            1254,
+            617
+          ],
+          "paddingOffset": [
+            143,
+            75
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-APP-007_BathVanity_Main_ref_v001.png",
+          "sha256": "544bc46dfeb285576a885b40de0b8a246a2943c5b51d6f5c5617604cbaf18983",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-APP-006",
+          "variant": "Main",
+          "name": "厨房水槽与龙头",
+          "slug": "KitchenSink",
+          "description": "The R02/R03 stainless steel rectangular single-basin kitchen sink with integral left drainboard and slim high silver faucet. Full basin, drainboard and faucet alone, no countertop or cabinet.",
+          "source": "R02",
+          "filename": "H90-APP-006_KitchenSink_Main_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            617,
+            742,
+            1254
+          ],
+          "paddingOffset": [
+            13,
+            65
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-APP-006_KitchenSink_Main_ref_v001.png",
+          "sha256": "bccf7341b9036e64f583ce2abb31421fad78bc985e0b667bfa83188e6290ab8d",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-APP-004",
+          "variant": "Main",
+          "name": "双头灶台",
+          "slug": "Cooktop",
+          "description": "The R02 black narrow rectangular two-zone cooktop with two circular burners/cooking rings and tiny integrated controls, no invented extra burners. Show at elevated three-quarter angle so top and edge are visible.",
+          "source": "R02",
+          "filename": "H90-APP-004_Cooktop_Main_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            742,
+            617,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            128,
+            65
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-APP-004_Cooktop_Main_ref_v001.png",
+          "sha256": "d61b06ad4b295f65c4dd9cee03834c5507ecfa9e44631559d6178dab80f8bda2",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R02, Image 2 = R03.\n\nTOP LEFT: The R03/R02 continuous L-shaped light-oak kitchen base cabinet with pale cream stone countertop, flat flush wood doors, subtle plinth. Remove sink, faucet, cooktop and decor; leave neat sink and cooktop recesses in the countertop. Show full L profile from elevated three-quarter angle. Source authority R03.\n\nTOP RIGHT: The R02 wall-hung bathroom vanity, compact grey rectangular cabinet below pale countertop, white rectangular inset basin and slim silver faucet. No wall or mirror; full fixture assembly alone. Source authority R02.\n\nBOTTOM LEFT: The R02/R03 stainless steel rectangular single-basin kitchen sink with integral left drainboard and slim high silver faucet. Full basin, drainboard and faucet alone, no countertop or cabinet. Source authority R02.\n\nBOTTOM RIGHT: The R02 black narrow rectangular two-zone cooktop with two circular burners/cooking rings and tiny integrated controls, no invented extra burners. Show at elevated three-quarter angle so top and edge are visible. Source authority R02.\n",
+      "gridFilename": "G06_厨房与洗手设施_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          587,
+          648
+        ],
+        "topVertical": [
+          742,
+          803
+        ],
+        "bottomVertical": [
+          727,
+          758
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G06_厨房与洗手设施_2x2_v001.png",
+      "sha256": "7744793d4614caa986d0effa5f22e2de2cc71f0d2d853a2386315d87a380ac97",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-396ef283-4d5e-47d0-9057-4a7355a96fc5.png",
+      "visualReview": "主体完整、宫格顺序正确、白底无环境投影；已对照源场景核对。"
+    },
+    {
+      "id": "G07",
+      "name": "家电",
+      "references": [
+        "R03",
+        "R04",
+        "R02"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-APP-002",
+          "variant": "Main",
+          "name": "冰箱",
+          "slug": "Refrigerator",
+          "description": "The R03/R02 tall grey-silver refrigerator with separate upper refrigeration and lower freezer compartment, flat restrained door fronts, slim seam and discreet handles. No logos.",
+          "source": "R03",
+          "filename": "H90-APP-002_Refrigerator_Main_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            589,
+            663
+          ],
+          "paddingOffset": [
+            89,
+            52
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-APP-002_Refrigerator_Main_ref_v001.png",
+          "sha256": "74515a8d14461c8381b81ba1585cbf0c9d88bd68b1d3a1ac7d7d6ae469abf32f",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-APP-003",
+          "variant": "Main",
+          "name": "滚筒洗衣机",
+          "slug": "WashingMachine",
+          "description": "The R04 exact white front-loading washing machine with large round black-glass door, left detergent drawer and top-right grey digital panel/knob. Remove all cabinets and clutter. Door closed.",
+          "source": "R04",
+          "filename": "H90-APP-003_WashingMachine_Main_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            589,
+            0,
+            1254,
+            663
+          ],
+          "paddingOffset": [
+            51,
+            52
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-APP-003_WashingMachine_Main_ref_v001.png",
+          "sha256": "77a9b2fad47729b7a9cb9a03cb8d3d65d5f4ff8fc8e0dfd3faf8ed1f8dde35f5",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-APP-005",
+          "variant": "Main",
+          "name": "抽油烟机",
+          "slug": "ExtractorHood",
+          "description": "The R03 slim rectangular grey stainless under-cabinet extractor hood above the right kitchen cooktop, flat low profile with thin underside filter, no invented chimney stack.",
+          "source": "R03",
+          "filename": "H90-APP-005_ExtractorHood_Main_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            663,
+            630,
+            1254
+          ],
+          "paddingOffset": [
+            69,
+            88
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-APP-005_ExtractorHood_Main_ref_v001.png",
+          "sha256": "978fd7127b678bdb1c478cd0f973dc8b6dfb5b2a125ce4a8a9ebd547e1322210",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-APP-001",
+          "variant": "Main",
+          "name": "电视",
+          "slug": "Television",
+          "description": "The R03 black ultra-thin flat widescreen TV, narrow black bezel and low flat dark stand, glossy dark switched-off screen with neutral subtle shading and NO room reflection. Alone without console.",
+          "source": "R03",
+          "filename": "H90-APP-001_Television_Main_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            630,
+            663,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            72,
+            88
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-APP-001_Television_Main_ref_v001.png",
+          "sha256": "acb19e8f6e86e312eb5dd4c4230437fe463298f8a3af2e42497f373a3b69fbd9",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R03, Image 2 = R04, Image 3 = R02.\n\nTOP LEFT: The R03/R02 tall grey-silver refrigerator with separate upper refrigeration and lower freezer compartment, flat restrained door fronts, slim seam and discreet handles. No logos. Source authority R03.\n\nTOP RIGHT: The R04 exact white front-loading washing machine with large round black-glass door, left detergent drawer and top-right grey digital panel/knob. Remove all cabinets and clutter. Door closed. Source authority R04.\n\nBOTTOM LEFT: The R03 slim rectangular grey stainless under-cabinet extractor hood above the right kitchen cooktop, flat low profile with thin underside filter, no invented chimney stack. Source authority R03.\n\nBOTTOM RIGHT: The R03 black ultra-thin flat widescreen TV, narrow black bezel and low flat dark stand, glossy dark switched-off screen with neutral subtle shading and NO room reflection. Alone without console. Source authority R03.\n",
+      "gridFilename": "G07_家电_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          624,
+          702
+        ],
+        "topVertical": [
+          453,
+          726
+        ],
+        "bottomVertical": [
+          599,
+          661
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G07_家电_2x2_v001.png",
+      "sha256": "9ed7edd5644d3f2952037f88efc97153db7a3905fd3bf7def4ab7827d38e752f",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-822bdca1-8cf3-47d2-8ef9-42c462889438.png",
+      "visualReview": "主体完整、宫格顺序正确、白底无环境投影；已对照源场景核对。"
+    },
+    {
+      "id": "G08",
+      "name": "猫屋与猫台",
+      "references": [
+        "R03",
+        "R04",
+        "R02"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-CAT-001",
+          "variant": "Main",
+          "name": "木质猫屋",
+          "slug": "Hideout",
+          "description": "The exact R03 light-oak square cuboid hideout with large circular front opening, open dark interior and flat top, low oak base; remove cat and adjacent toys. No added door, cushion or decoration.",
+          "source": "R03",
+          "filename": "H90-CAT-001_Hideout_Main_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            607,
+            549
+          ],
+          "paddingOffset": [
+            80,
+            109
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-CAT-001_Hideout_Main_ref_v001.png",
+          "sha256": "6505196cd6486e44733225b8068d6a9e946be8bb367e3d7aea8803d53135aaf8",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-CAT-006",
+          "variant": "Main",
+          "name": "阳台猫砂柜",
+          "slug": "LitterCabinet",
+          "description": "The exact R04 oak rectangular litter cabinet: broad circular front entry on the left, two narrow vertical ventilation slots to the right, pale stone-look top, low plinth; no grass pot on top. Match shape and slot count, straight low plinth without round feet.",
+          "source": "R04",
+          "filename": "H90-CAT-006_LitterCabinet_Main_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            607,
+            0,
+            1254,
+            549
+          ],
+          "paddingOffset": [
+            60,
+            109
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-CAT-006_LitterCabinet_Main_ref_v001.png",
+          "sha256": "05b8ed67f934173be0d2a943ebccd40539e9d9884c1b7460d17d7a926107cfe1",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-CAT-007",
+          "variant": "Main",
+          "name": "窗边猫台",
+          "slug": "WindowPerch",
+          "description": "The R02 master-bedroom window-end light-oak low rectangular perch platform with a shallow oval cream padded cat bed on top. Remove cat, plants and floor mat; show complete platform and integral bed.",
+          "source": "R02",
+          "filename": "H90-CAT-007_WindowPerch_Main_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            549,
+            739,
+            1254
+          ],
+          "paddingOffset": [
+            14,
+            31
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-CAT-007_WindowPerch_Main_ref_v001.png",
+          "sha256": "f67118b73f9cf93fcf08bdbd8faecac3d47b63203fc0e77830490bcf6383defd",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-CAT-002",
+          "variant": "Main",
+          "name": "剑麻抓柱",
+          "slug": "ScratchColumn",
+          "description": "The exact R03 very tall straight cylindrical sisal scratching column with round light-oak top sleeping platform, shallow cream padding and raised oak rim, round stable base. Entire upright column fits in its cell with no crop.",
+          "source": "R03",
+          "filename": "H90-CAT-002_ScratchColumn_Main_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            739,
+            549,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            126,
+            31
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-CAT-002_ScratchColumn_Main_ref_v001.png",
+          "sha256": "54d6b5419ed3f50c14591a10610f4c6d25874cd45c4742661f2bba7d8e2a29b6",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R03, Image 2 = R04, Image 3 = R02.\n\nTOP LEFT: The exact R03 light-oak square cuboid hideout with large circular front opening, open dark interior and flat top, low oak base; remove cat and adjacent toys. No added door, cushion or decoration. Source authority R03.\n\nTOP RIGHT: The exact R04 oak rectangular litter cabinet: broad circular front entry on the left, three narrow vertical ventilation slots to the right, pale stone-look top, low plinth; no grass pot on top. Match shape and slot count. Source authority R04.\n\nBOTTOM LEFT: The R02 master-bedroom window-end light-oak low rectangular perch platform with a shallow oval cream padded cat bed on top. Remove cat, plants and floor mat; show complete platform and integral bed. Source authority R02.\n\nBOTTOM RIGHT: The exact R03 very tall straight cylindrical sisal scratching column with round light-oak top sleeping platform, shallow cream padding and raised oak rim, round stable base. Entire upright column fits in its cell with no crop. Source authority R03.\n",
+      "gridFilename": "G08_猫屋与猫台_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          529,
+          569
+        ],
+        "topVertical": [
+          554,
+          661
+        ],
+        "bottomVertical": [
+          660,
+          819
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G08_猫屋与猫台_2x2_v001.png",
+      "sha256": "bdc0389b7df1b7b2731b4a3ebf4f1600242cb438b8552e8cb7e72a7ad78e4bde",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-488e2543-aca2-47fd-a1e4-ed67c5b2dd1c.png",
+      "visualReview": "按阳台近景纠正为两条通风槽与直线底座，移除非原图圆脚；猫台前板简化，抓柱上沿改为完整圆周。",
+      "revisionPrompt": "Edit Image 1, the existing 2x2 cat furniture object-reference sheet. Keep all four objects in exactly the same quadrant positions, scale, photographic material style, pure white background with NO cast shadows and no text. Make ONLY these source-fidelity corrections: TOP RIGHT litter cabinet must match Image 2 original balcony detail: EXACTLY TWO vertical ventilation slots, circular opening offset left, pale stone top; replace invented round feet with the original low straight rectangular plinth and square corner stiles, not round feet. TOP LEFT cat hideout must match Image 3 source living-room image: plain oak cube with circular entry, supported by a low flat rectangular wood base, NO cylindrical feet. BOTTOM LEFT window perch: retain low oak rectangular body and oval cream padded bed, simplify its hidden front to a plain oak panel without an invented drawer seam, no round feet. BOTTOM RIGHT tall sisal column: keep its straight height, rope and round wood base, but top sleeping tray must have a continuous circular shallow oak rim at uniform height, without an invented front scoop/cutout. No added objects, decorations, animals or floor. All subjects fully visible and separated by wide white gutters. Image 1 is the edit target; Images 2 and 3 are authoritative source scenes/details; Image 4 is whole-home supporting reference.",
+      "discardedToolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-7796dfc4-a499-4f75-82cb-54fd064a98ef.png"
+    },
+    {
+      "id": "G09",
+      "name": "猫咪功能用品",
+      "references": [
+        "R03",
+        "R02"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-CAT-003",
+          "variant": "Module",
+          "name": "攀爬平台模块",
+          "slug": "WallPlatformKit",
+          "description": "One exact R03 thick solid light-oak floating wall step, rectangular shelf block with softly rounded front corners and concealed wall fixing. Extract a single repeatable module, no wall, no plants.",
+          "source": "R03",
+          "filename": "H90-CAT-003_WallPlatformKit_Module_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            630,
+            602
+          ],
+          "paddingOffset": [
+            69,
+            83
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-CAT-003_WallPlatformKit_Module_ref_v001.png",
+          "sha256": "7fd86825f75f8ed0acb767d5e0b2742d2c5f5ef569f80d928f53fec2e32224e9",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-CAT-004",
+          "variant": "Main",
+          "name": "双碗喂食站",
+          "slug": "FeedingStation",
+          "description": "The exact R03 low oak raised two-bowl feeding stand: small rounded rectangular top holding two cream ceramic bowls, slender short legs and visible open storage shelf below. Full stand and both bowls, no food spill.",
+          "source": "R03",
+          "filename": "H90-CAT-004_FeedingStation_Main_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            630,
+            0,
+            1254,
+            602
+          ],
+          "paddingOffset": [
+            72,
+            83
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-CAT-004_FeedingStation_Main_ref_v001.png",
+          "sha256": "59e4fa359cbe764993bcd9627bb70fa91a96cae680a661f7e0364aa45b80a61a",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-CAT-005",
+          "variant": "Main",
+          "name": "陶瓷饮水器",
+          "slug": "WaterFountain",
+          "description": "The exact R03 low off-white matte ceramic cat water fountain, round bowl-like squat cylindrical body, shallow visible upper water recess and short central white spout, no cord, no surrounding mat.",
+          "source": "R03",
+          "filename": "H90-CAT-005_WaterFountain_Main_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            602,
+            659,
+            1254
+          ],
+          "paddingOffset": [
+            54,
+            58
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-CAT-005_WaterFountain_Main_ref_v001.png",
+          "sha256": "1395c91b79eebd834921cc511f0afd58bf36220c77038bf6493527da78282b0f",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-CAT-008",
+          "variant": "Ball",
+          "name": "剑麻玩具球",
+          "slug": "ToyKit",
+          "description": "One exact natural beige sisal rope toy ball from the R03 cat activity floor: small sphere wrapped in rough rope, no added feather, rod or colored pattern.",
+          "source": "R03",
+          "filename": "H90-CAT-008_ToyKit_Ball_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            659,
+            602,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            86,
+            58
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-CAT-008_ToyKit_Ball_ref_v001.png",
+          "sha256": "83b6e74f6f86058e29af3368bc3d11fccff5098fc857a47bbe4aafc636f8eb5a",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R03, Image 2 = R02.\n\nTOP LEFT: One exact R03 thick solid light-oak floating wall step, rectangular shelf block with softly rounded front corners and concealed wall fixing. Extract a single repeatable module, no wall, no plants. Source authority R03.\n\nTOP RIGHT: The exact R03 low oak raised two-bowl feeding stand: small rounded rectangular top holding two cream ceramic bowls, slender short legs and visible open storage shelf below. Full stand and both bowls, no food spill. Source authority R03.\n\nBOTTOM LEFT: The exact R03 low off-white matte ceramic cat water fountain, round bowl-like squat cylindrical body, shallow visible upper water recess and short central white spout, no cord, no surrounding mat. Source authority R03.\n\nBOTTOM RIGHT: One exact natural beige sisal rope toy ball from the R03 cat activity floor: small sphere wrapped in rough rope, no added feather, rod or colored pattern. Source authority R03.\n",
+      "gridFilename": "G09_猫咪功能用品_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          519,
+          686
+        ],
+        "topVertical": [
+          592,
+          668
+        ],
+        "bottomVertical": [
+          577,
+          742
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G09_猫咪功能用品_2x2_v001.png",
+      "sha256": "c94a8ea16764b2fdfc2398c521120864b99a66c1aeb92172f0e92886a35905e5",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-2d98ef2a-da98-454d-9579-5013b26080e6.png",
+      "visualReview": "主体完整、宫格顺序正确、白底无环境投影；已对照源场景核对。"
+    },
+    {
+      "id": "G10",
+      "name": "软装织物",
+      "references": [
+        "R03",
+        "R04",
+        "R02"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-PRP-001",
+          "variant": "Sage",
+          "name": "绿色靠垫",
+          "slug": "DecorCushion",
+          "description": "One R03/R04 square muted sage-green fabric decorative cushion with piping-free seams, soft filled pillow shape. Alone, no sofa.",
+          "source": "R03",
+          "filename": "H90-PRP-001_DecorCushion_Sage_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            629,
+            614
+          ],
+          "paddingOffset": [
+            69,
+            77
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-001_DecorCushion_Sage_ref_v001.png",
+          "sha256": "c1d422c6032a66b4b5701f0573e8ff626ae04096f001d4eb4817c49fa76b8042",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-002",
+          "variant": "Cream",
+          "name": "睡眠枕头",
+          "slug": "SleepingPillow",
+          "description": "One R02 master-bed cream-white rectangular sleeping pillow, simple white cotton case and subtly raised soft filled form.",
+          "source": "R02",
+          "filename": "H90-PRP-002_SleepingPillow_Cream_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            629,
+            0,
+            1254,
+            614
+          ],
+          "paddingOffset": [
+            71,
+            77
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-002_SleepingPillow_Cream_ref_v001.png",
+          "sha256": "79e0f26c2a6aa6b6c4af70982009152b6a2448350b88a9f107afa00f63027c5f",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-003",
+          "variant": "Duvet",
+          "name": "绿色床被",
+          "slug": "BeddingKit",
+          "description": "The R02 master-bedroom muted sage-green stitched quilt/duvet alone, laid flat as one softly thick rectangular textile with subtle source stitching. No bed, white sheet or pillows obscuring it.",
+          "source": "R02",
+          "filename": "H90-PRP-003_BeddingKit_Duvet_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            614,
+            648,
+            1254
+          ],
+          "paddingOffset": [
+            60,
+            64
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-003_BeddingKit_Duvet_ref_v001.png",
+          "sha256": "f9b612c63fcf94e89432878d22aa2d54d56ddece5b2c4e3d791bc12ccfe9a6fd",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-004",
+          "variant": "Main",
+          "name": "针织流苏毯",
+          "slug": "ThrowBlanket",
+          "description": "The R04 beige-grey chunky knitted throw with cream fringe ends, partially folded once so the knit pattern and complete rectangular outline are visible. No bench.",
+          "source": "R04",
+          "filename": "H90-PRP-004_ThrowBlanket_Main_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            648,
+            614,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            81,
+            64
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-004_ThrowBlanket_Main_ref_v001.png",
+          "sha256": "9992ca778f5c98c1f1dd71e625f63e42d5437dac76133fad2abe03d1cac200db",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R03, Image 2 = R04, Image 3 = R02.\n\nTOP LEFT: One R03/R04 square muted sage-green fabric decorative cushion with piping-free seams, soft filled pillow shape. Alone, no sofa. Source authority R03.\n\nTOP RIGHT: One R02 master-bed cream-white rectangular sleeping pillow, simple white cotton case and subtly raised soft filled form. Source authority R02.\n\nBOTTOM LEFT: The R02 master-bedroom muted sage-green stitched quilt/duvet alone, laid flat as one softly thick rectangular textile with subtle source stitching. No bed, white sheet or pillows obscuring it. Source authority R02.\n\nBOTTOM RIGHT: The R04 beige-grey chunky knitted throw with cream fringe ends, partially folded once so the knit pattern and complete rectangular outline are visible. No bench. Source authority R04.\n",
+      "gridFilename": "G10_软装织物_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          550,
+          679
+        ],
+        "topVertical": [
+          588,
+          670
+        ],
+        "bottomVertical": [
+          627,
+          669
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G10_软装织物_2x2_v001.png",
+      "sha256": "7a0395f32aa55b3127c5070aa3a3999af578f025f83c70374d9844c9f87384ad",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-3c8faceb-11d0-4dfb-8891-ba85fe7f2ad7.png",
+      "visualReview": "主体完整、宫格顺序正确、白底无环境投影；已对照源场景核对。"
+    },
+    {
+      "id": "G11",
+      "name": "地毯与地垫",
+      "references": [
+        "R03",
+        "R02"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-PRP-005",
+          "variant": "Living",
+          "name": "客厅地毯",
+          "slug": "RoomRug",
+          "description": "The R03 living-room rectangular cream off-white thick shag/wool rug with subtle irregular tuft texture. Alone, flat, full rectangle visible from a slightly elevated near-top angle, no furniture.",
+          "source": "R03",
+          "filename": "H90-PRP-005_RoomRug_Living_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            627,
+            616
+          ],
+          "paddingOffset": [
+            70,
+            76
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-005_RoomRug_Living_ref_v001.png",
+          "sha256": "14dceac8b0541d257a72a34962adc321526da68bed30020e474095cd3054e5c9",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-005",
+          "variant": "Bedroom",
+          "name": "主卧地毯",
+          "slug": "RoomRug",
+          "description": "The R02 master-bedroom rectangular beige thin woven rug beneath the bed, full rug alone, flat, subtle natural weave and plain restrained edging.",
+          "source": "R02",
+          "filename": "H90-PRP-005_RoomRug_Bedroom_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            627,
+            0,
+            1254,
+            616
+          ],
+          "paddingOffset": [
+            70,
+            76
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-005_RoomRug_Bedroom_ref_v001.png",
+          "sha256": "15490e2e15fc2f0fc3e59e8adb5f0267cdb98461889be4ddc8d660b3cde3b226",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-006",
+          "variant": "Main",
+          "name": "入户地垫",
+          "slug": "EntryMat",
+          "description": "The R03 entrance small rectangular natural tan jute doormat with coarse tight basket-woven texture, full flat rectangle, no words or pattern.",
+          "source": "R03",
+          "filename": "H90-PRP-006_EntryMat_Main_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            616,
+            645,
+            1254
+          ],
+          "paddingOffset": [
+            61,
+            65
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-006_EntryMat_Main_ref_v001.png",
+          "sha256": "2e73ea7f8bf9339f40e8c7b784547bfbf701527e063bf0105cf43061fabc4ab6",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-007",
+          "variant": "Round",
+          "name": "圆形剑麻地垫",
+          "slug": "CatMatKit",
+          "description": "The R03 round natural beige spiral-braided sisal cat mat from the tall scratching column base area. Flat disc, complete outline, no cat, toys or post.",
+          "source": "R03",
+          "filename": "H90-PRP-007_CatMatKit_Round_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            645,
+            616,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            79,
+            65
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-007_CatMatKit_Round_ref_v001.png",
+          "sha256": "7f746d2df3dc86736cdf76d9f24c082cf1892bf714e5d47569e837c386c0d066",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R03, Image 2 = R02.\n\nTOP LEFT: The R03 living-room rectangular cream off-white thick shag/wool rug with subtle irregular tuft texture. Alone, flat, full rectangle visible from a slightly elevated near-top angle, no furniture. Source authority R03.\n\nTOP RIGHT: The R02 master-bedroom rectangular beige thin woven rug beneath the bed, full rug alone, flat, subtle natural weave and plain restrained edging. Source authority R02.\n\nBOTTOM LEFT: The R03 entrance small rectangular natural tan jute doormat with coarse tight basket-woven texture, full flat rectangle, no words or pattern. Source authority R03.\n\nBOTTOM RIGHT: The R03 round natural beige spiral-braided sisal cat mat from the tall scratching column base area. Flat disc, complete outline, no cat, toys or post. Source authority R03.\n",
+      "gridFilename": "G11_地毯与地垫_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          522,
+          710
+        ],
+        "topVertical": [
+          612,
+          642
+        ],
+        "bottomVertical": [
+          598,
+          693
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G11_地毯与地垫_2x2_v001.png",
+      "sha256": "1d416128c265d507829bbda733b5003003aa97404fc32e78b49901b59c240e82",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-c1d07cf4-2a06-4c67-8cf0-0afa98f6965c.png",
+      "visualReview": "主体完整、宫格顺序正确、白底无环境投影；已对照源场景核对。"
+    },
+    {
+      "id": "G12",
+      "name": "绿植",
+      "references": [
+        "R04",
+        "R03",
+        "R02"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-PRP-011",
+          "variant": "Main",
+          "name": "阔叶盆栽",
+          "slug": "PlantBroadleaf",
+          "description": "The R04 left of bench medium broad-leaf green plant, multiple stems and oval glossy leaves in a simple cylindrical matte warm-beige pot. Preserve plant silhouette; whole foliage and pot visible.",
+          "source": "R04",
+          "filename": "H90-PRP-011_PlantBroadleaf_Main_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            639,
+            647
+          ],
+          "paddingOffset": [
+            64,
+            60
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-011_PlantBroadleaf_Main_ref_v001.png",
+          "sha256": "7be0ac5765b231d2ccd872e143e0f3982989a25d1daa633c385da1129745beed",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-012",
+          "variant": "Main",
+          "name": "垂挂盆栽",
+          "slug": "PlantTrailing",
+          "description": "The R03 upper cat shelf trailing pothos-like plant with heart-shaped green leaves and long cascading stems in a matte beige rounded pot. Full hanging stems unobstructed. No shelf.",
+          "source": "R03",
+          "filename": "H90-PRP-012_PlantTrailing_Main_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            639,
+            0,
+            1254,
+            647
+          ],
+          "paddingOffset": [
+            76,
+            60
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-012_PlantTrailing_Main_ref_v001.png",
+          "sha256": "834097237018f7986cb0a8878008a87d7a239d4d7ba4ed318fd89b52803488cb",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-013",
+          "variant": "Main",
+          "name": "枝条盆栽",
+          "slug": "PlantBranching",
+          "description": "The R03 dining tabletop airy branching green plant with thin brown woody stems and small oval green leaves in a simple small off-white rounded ceramic vase. Whole plant and vase, no table.",
+          "source": "R03",
+          "filename": "H90-PRP-013_PlantBranching_Main_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            647,
+            644,
+            1254
+          ],
+          "paddingOffset": [
+            62,
+            80
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-013_PlantBranching_Main_ref_v001.png",
+          "sha256": "7c39f05a3a75a9f16ec5abdb536ea1e2627d6ce3b06ff215e26a48300fbcd863",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-015",
+          "variant": "Main",
+          "name": "猫草盆",
+          "slug": "GrassPot",
+          "description": "The R04 on litter cabinet small dense upright fine green grass-like clump in a warm beige simple round pot. No cat or cabinet.",
+          "source": "R04",
+          "filename": "H90-PRP-015_GrassPot_Main_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            644,
+            647,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            79,
+            80
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-015_GrassPot_Main_ref_v001.png",
+          "sha256": "950ddc5179479a6a5d47820b04458556c5e2487a9e4ad6ede37271442af4127d",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R04, Image 2 = R03, Image 3 = R02.\n\nTOP LEFT: The R04 left of bench medium broad-leaf green plant, multiple stems and oval glossy leaves in a simple cylindrical matte warm-beige pot. Preserve plant silhouette; whole foliage and pot visible. Source authority R04.\n\nTOP RIGHT: The R03 upper cat shelf trailing pothos-like plant with heart-shaped green leaves and long cascading stems in a matte beige rounded pot. Full hanging stems unobstructed. No shelf. Source authority R03.\n\nBOTTOM LEFT: The R03 dining tabletop airy branching green plant with thin brown woody stems and small oval green leaves in a simple small off-white rounded ceramic vase. Whole plant and vase, no table. Source authority R03.\n\nBOTTOM RIGHT: The R04 on litter cabinet small dense upright fine green grass-like clump in a warm beige simple round pot. No cat or cabinet. Source authority R04.\n",
+      "gridFilename": "G12_绿植_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          599,
+          695
+        ],
+        "topVertical": [
+          544,
+          734
+        ],
+        "bottomVertical": [
+          570,
+          719
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G12_绿植_2x2_v001.png",
+      "sha256": "41408a65a658489fc855fd76bdecbe5215169f726b62a37b22ebe1db6e853113",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-a35c5c91-8855-4337-adf1-17320c33bc15.png",
+      "visualReview": "缩小并重新居中四盆绿植，完整保留垂枝，确保四格安全拆分；保持源场景植物与盆器颜色形态。",
+      "revisionPrompt": "Edit ONLY the layout and framing of Image 1, the four-plant 2x2 reference sheet. Preserve exactly the same four individual plant species, all leaf shapes, branching arrangements, green colors, beige pots, ceramic vase, and textures. Do not change the identity of any plant. Keep the 2x2 order: top left broadleaf plant, top right trailing pothos, bottom left woody branching plant in cream vase, bottom right grass pot. REDUCE EACH entire plant and pot uniformly to 80% of its current rendered size and center it WITHIN its own exact quarter of the square canvas. Trailing leaves in TOP RIGHT must ALL end ABOVE the horizontal center line, with at least 40 white pixels of clearance; bottom-row foliage starts at least 40 pixels BELOW that line. No leaf or pot may cross either center line. Four clean white gutters and empty outer margins. Preserve each entire plant including every trailing stem. Background PURE WHITE; no shadows, captions or added objects. Image 1 is the edit target; Images 2 and 3 are source home renders for identity validation only, do not redesign the plants.",
+      "discardedToolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-b3c5fdca-346c-48c3-b53c-6691b856f474.png"
+    },
+    {
+      "id": "G13",
+      "name": "桌面小物",
+      "references": [
+        "R03",
+        "R04"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-PRP-009",
+          "variant": "Main",
+          "name": "陶瓷杯",
+          "slug": "CeramicMug",
+          "description": "The exact R03 cream ceramic cylindrical coffee mug with one rounded loop handle, plain glaze, empty and no printed logo.",
+          "source": "R03",
+          "filename": "H90-PRP-009_CeramicMug_Main_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            607,
+            614
+          ],
+          "paddingOffset": [
+            80,
+            77
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-009_CeramicMug_Main_ref_v001.png",
+          "sha256": "e3b0248dd48b8402c6a182796ba0bbde6c09ea86aa3a461e27cd1204f5eba7ca",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-010",
+          "variant": "Main",
+          "name": "木托盘",
+          "slug": "ServingTray",
+          "description": "The exact R03 small light-oak oval shallow serving tray with gently raised rim, empty; remove everything inside.",
+          "source": "R03",
+          "filename": "H90-PRP-010_ServingTray_Main_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            607,
+            0,
+            1254,
+            614
+          ],
+          "paddingOffset": [
+            60,
+            77
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-010_ServingTray_Main_ref_v001.png",
+          "sha256": "1ace78de9c8624632a951dfcc443260414a68c1720f3e5697f6fb485f53a7430",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-008",
+          "variant": "Book",
+          "name": "书本",
+          "slug": "BookMagazineKit",
+          "description": "One R03 coffee table plain cream/off-white hardcover book, closed, rectangular cover with visible white page block; no text or objects on top.",
+          "source": "R03",
+          "filename": "H90-PRP-008_BookMagazineKit_Book_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            614,
+            676,
+            1254
+          ],
+          "paddingOffset": [
+            46,
+            64
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-008_BookMagazineKit_Book_ref_v001.png",
+          "sha256": "ce3c2e2d85aad99cbbd7061cbc3777f8d5b67fc458ddc60f092c7c03646b01b9",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-014",
+          "variant": "Main",
+          "name": "陶瓷花盆",
+          "slug": "PlanterKit",
+          "description": "One R04/R03 warm-beige plain matte ceramic planter with softly rounded cylindrical silhouette, empty, open mouth visible, no plant.",
+          "source": "R04",
+          "filename": "H90-PRP-014_PlanterKit_Main_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            676,
+            614,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            95,
+            64
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-014_PlanterKit_Main_ref_v001.png",
+          "sha256": "f15f99c2f2aa1f322894f2bad1c9fcf4304ca96a3a3df7653ef1697ab2232adb",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R03, Image 2 = R04.\n\nTOP LEFT: The exact R03 cream ceramic cylindrical coffee mug with one rounded loop handle, plain glaze, empty and no printed logo. Source authority R03.\n\nTOP RIGHT: The exact R03 small light-oak oval shallow serving tray with gently raised rim, empty; remove everything inside. Source authority R03.\n\nBOTTOM LEFT: One R03 coffee table plain cream/off-white hardcover book, closed, rectangular cover with visible white page block; no text or objects on top. Source authority R03.\n\nBOTTOM RIGHT: One R04/R03 warm-beige plain matte ceramic planter with softly rounded cylindrical silhouette, empty, open mouth visible, no plant. Source authority R04.\n",
+      "gridFilename": "G13_桌面小物_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          519,
+          710
+        ],
+        "topVertical": [
+          564,
+          650
+        ],
+        "bottomVertical": [
+          614,
+          739
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G13_桌面小物_2x2_v001.png",
+      "sha256": "655cecfa09dbdd90c92a0c63633930d314126dc27635b48e0dc2accbec0c52f1",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-70d9fb47-d065-4918-9b2e-7a4fe4e50f3c.png",
+      "visualReview": "主体完整、宫格顺序正确、白底无环境投影；已对照源场景核对。"
+    },
+    {
+      "id": "G14",
+      "name": "玄关与洗护用品",
+      "references": [
+        "R04",
+        "R02"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-PRP-017",
+          "variant": "PumpBottle",
+          "name": "洗护泵瓶",
+          "slug": "LaundryBottleKit",
+          "description": "One exact R04 laundry counter off-white tall detergent/soap bottle with narrow neck and small grey pump. Plain label area without lettering.",
+          "source": "R04",
+          "filename": "H90-PRP-017_LaundryBottleKit_PumpBottle_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            526,
+            622
+          ],
+          "paddingOffset": [
+            121,
+            73
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-017_LaundryBottleKit_PumpBottle_ref_v001.png",
+          "sha256": "a15ad69578e65aeba1fb0a9128beb00e2db779d4428c839c307b2ef99a97ab45",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-018",
+          "variant": "Towel",
+          "name": "折叠毛巾",
+          "slug": "TowelStack",
+          "description": "One exact R04 cream-white folded fluffy bath towel, folded into a neat softly rectangular thick packet, show textile edge and terry texture.",
+          "source": "R04",
+          "filename": "H90-PRP-018_TowelStack_Towel_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            526,
+            0,
+            1254,
+            622
+          ],
+          "paddingOffset": [
+            20,
+            73
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-018_TowelStack_Towel_ref_v001.png",
+          "sha256": "b2fefc6be05e1913be1a2206eaf08d2f0e5aa2d242f65894345b19f25068f543",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-019",
+          "variant": "Main",
+          "name": "编织洗衣篮",
+          "slug": "LaundryBasket",
+          "description": "The R02 balcony by washer small cylindrical tan wicker laundry basket with open top and tight natural weave, full basket alone, no clothes.",
+          "source": "R02",
+          "filename": "H90-PRP-019_LaundryBasket_Main_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            622,
+            585,
+            1254
+          ],
+          "paddingOffset": [
+            91,
+            68
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-019_LaundryBasket_Main_ref_v001.png",
+          "sha256": "27e7b11bc804369f86f8ff19e440479c632d1ec2953fd60982e789935631b3f9",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-016",
+          "variant": "Shoe",
+          "name": "玄关鞋",
+          "slug": "ShoePairKit",
+          "description": "One neutral tan slip-on house shoe visible within the R02 entry bench cubby, simple cloth upper and thin sole. Single shoe, fully visible, no box or foot.",
+          "source": "R02",
+          "filename": "H90-PRP-016_ShoePairKit_Shoe_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            585,
+            622,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            49,
+            68
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-016_ShoePairKit_Shoe_ref_v001.png",
+          "sha256": "b9cc1bd033231a574d5798623cb2ad077c9892fb9122c9bb7a700b6e4a0d9dec",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R04, Image 2 = R02.\n\nTOP LEFT: One exact R04 laundry counter off-white tall detergent/soap bottle with narrow neck and small grey pump. Plain label area without lettering. Source authority R04.\n\nTOP RIGHT: One exact R04 cream-white folded fluffy bath towel, folded into a neat softly rectangular thick packet, show textile edge and terry texture. Source authority R04.\n\nBOTTOM LEFT: The R02 balcony by washer small cylindrical tan wicker laundry basket with open top and tight natural weave, full basket alone, no clothes. Source authority R02.\n\nBOTTOM RIGHT: One neutral tan slip-on house shoe visible within the R02 entry bench cubby, simple cloth upper and thin sole. Single shoe, fully visible, no box or foot. Source authority R02.\n",
+      "gridFilename": "G14_玄关与洗护用品_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          597,
+          647
+        ],
+        "topVertical": [
+          430,
+          622
+        ],
+        "bottomVertical": [
+          535,
+          635
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G14_玄关与洗护用品_2x2_v001.png",
+      "sha256": "3617c77b4e7544549aa1bbb2c3ea85144089cfa19b5654ecbe94d0613c232002",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-41268574-2fd8-4495-bbf8-3dc426918e11.png",
+      "visualReview": "主体完整、宫格顺序正确、白底无环境投影；已对照源场景核对。"
+    },
+    {
+      "id": "G15",
+      "name": "厨房小道具",
+      "references": [
+        "R03"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-PRP-020",
+          "variant": "BoardLarge",
+          "name": "大砧板",
+          "slug": "ChoppingBoardKit",
+          "description": "The R03 kitchen backsplash large warm-oak cutting board standing upright, rounded rectangular body and narrow short integrated top handle with hanging hole, no background wall.",
+          "source": "R03",
+          "filename": "H90-PRP-020_ChoppingBoardKit_BoardLarge_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            677,
+            715
+          ],
+          "paddingOffset": [
+            45,
+            26
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-020_ChoppingBoardKit_BoardLarge_ref_v001.png",
+          "sha256": "8f002a6c2444f66e40a2f8b5425be9c61e009b08b21be832490608e60c79c7b9",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-020",
+          "variant": "BoardSmall",
+          "name": "小砧板",
+          "slug": "ChoppingBoardKit",
+          "description": "The R03 second smaller warm-oak chopping board beside the larger board, narrow rounded rectangular body and short integrated handle, no extra utensils.",
+          "source": "R03",
+          "filename": "H90-PRP-020_ChoppingBoardKit_BoardSmall_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            677,
+            0,
+            1254,
+            715
+          ],
+          "paddingOffset": [
+            95,
+            26
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-020_ChoppingBoardKit_BoardSmall_ref_v001.png",
+          "sha256": "3b828bd1aaf3628a69a4cfa624320abeb3f43cd5e190f6e75dd5616f410cb0aa",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-020",
+          "variant": "JarGlass",
+          "name": "玻璃调味罐",
+          "slug": "ChoppingBoardKit",
+          "description": "One R03 kitchen counter small clear cylindrical seasoning jar with pale lid and beige contents, simple form, no readable text, alone.",
+          "source": "R03",
+          "filename": "H90-PRP-020_ChoppingBoardKit_JarGlass_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            715,
+            619,
+            1254
+          ],
+          "paddingOffset": [
+            74,
+            114
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-020_ChoppingBoardKit_JarGlass_ref_v001.png",
+          "sha256": "c143df683ef9a00bed693a3eaf4509cf974d12f4c0cd21bd0f6dd48f832af363",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-020",
+          "variant": "JarCeramic",
+          "name": "陶瓷调味罐",
+          "slug": "ChoppingBoardKit",
+          "description": "The R03 small off-white ceramic storage pot with a fitted round lid and short knob, plain small round squat body, alone without tray or plant.",
+          "source": "R03",
+          "filename": "H90-PRP-020_ChoppingBoardKit_JarCeramic_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            619,
+            715,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            66,
+            114
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-020_ChoppingBoardKit_JarCeramic_ref_v001.png",
+          "sha256": "63c6fcc3e39d9be6b4712a4cdb590f76f04c494c5fe0edd0cb57adf27e7cd8a0",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R03.\n\nTOP LEFT: The R03 kitchen backsplash large warm-oak cutting board standing upright, rounded rectangular body and narrow short integrated top handle with hanging hole, no background wall. Source authority R03.\n\nTOP RIGHT: The R03 second smaller warm-oak chopping board beside the larger board, narrow rounded rectangular body and short integrated handle, no extra utensils. Source authority R03.\n\nBOTTOM LEFT: One R03 kitchen counter small clear cylindrical seasoning jar with pale lid and beige contents, simple form, no readable text, alone. Source authority R03.\n\nBOTTOM RIGHT: The R03 small off-white ceramic storage pot with a fitted round lid and short knob, plain small round squat body, alone without tray or plant. Source authority R03.\n",
+      "gridFilename": "G15_厨房小道具_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          661,
+          770
+        ],
+        "topVertical": [
+          512,
+          842
+        ],
+        "bottomVertical": [
+          519,
+          720
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G15_厨房小道具_2x2_v001.png",
+      "sha256": "0f261f679c617ab7e3e190db71d1ceca90bf37d5ae9fa501a7ab9579d3963a57",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-fd3abd82-f7b0-4117-894a-34cf8eeb4fa3.png",
+      "visualReview": "主体完整、宫格顺序正确、白底无环境投影；已对照源场景核对。"
+    },
+    {
+      "id": "G16",
+      "name": "灯具",
+      "references": [
+        "R03",
+        "R04",
+        "R02"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-LGT-002",
+          "variant": "Main",
+          "name": "餐区吊灯",
+          "slug": "DiningPendant",
+          "description": "The exact R03 warm cream domed dining pendant with smooth hemispherical shade, small oak/brass neck, thin black suspension wire and circular black ceiling rose. Complete lamp including wire and rose. Light off, no glow or shadow.",
+          "source": "R03",
+          "filename": "H90-LGT-002_DiningPendant_Main_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            655,
+            716
+          ],
+          "paddingOffset": [
+            56,
+            26
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-LGT-002_DiningPendant_Main_ref_v001.png",
+          "sha256": "4e94197e306f2fb67d5de3100a85271c19372c10092f5ba0b08042eaba2d76d6",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-LGT-003",
+          "variant": "Main",
+          "name": "床头台灯",
+          "slug": "BedsideLamp",
+          "description": "The R02 compact master bedroom bedside lamp: small white rounded cylindrical/domed shade and slim beige/brass pedestal with round base. Alone, light off.",
+          "source": "R02",
+          "filename": "H90-LGT-003_BedsideLamp_Main_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            655,
+            0,
+            1254,
+            716
+          ],
+          "paddingOffset": [
+            84,
+            26
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-LGT-003_BedsideLamp_Main_ref_v001.png",
+          "sha256": "16a4dde6db4dcf71e0f3a88444bc5dbba9b62b7536a42d4c0e24be8cd728051c",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-LGT-001",
+          "variant": "Main",
+          "name": "嵌入筒灯",
+          "slug": "Downlight",
+          "description": "One R03 small round white recessed ceiling downlight, thin white trim ring and slightly recessed pale lens, isolated fitting alone. Light off, no ceiling fragment.",
+          "source": "R03",
+          "filename": "H90-LGT-001_Downlight_Main_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            716,
+            569,
+            1254
+          ],
+          "paddingOffset": [
+            99,
+            115
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-LGT-001_Downlight_Main_ref_v001.png",
+          "sha256": "6655196d28b1f9556bdff996264f66422b8d69dc365ebb006932253f396132b3",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-LGT-004",
+          "variant": "Main",
+          "name": "柜下灯带",
+          "slug": "CabinetStrip",
+          "description": "The R04 slim straight under-wall-cabinet LED light fitting, narrow pale metal channel with frosted cream diffuser strip; isolated complete channel at slight three-quarter angle, light off, no glow.",
+          "source": "R04",
+          "filename": "H90-LGT-004_CabinetStrip_Main_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            569,
+            716,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            41,
+            115
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-LGT-004_CabinetStrip_Main_ref_v001.png",
+          "sha256": "d625705710864a74508d9b1a280b3b9dedc9f8ca7432be70d21fb3c824ef06d2",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R03, Image 2 = R04, Image 3 = R02.\n\nTOP LEFT: The exact R03 warm cream domed dining pendant with smooth hemispherical shade, small oak/brass neck, thin black suspension wire and circular black ceiling rose. Complete lamp including wire and rose. Light off, no glow or shadow. Source authority R03.\n\nTOP RIGHT: The R02 compact master bedroom bedside lamp: small white rounded cylindrical/domed shade and slim beige/brass pedestal with round base. Alone, light off. Source authority R02.\n\nBOTTOM LEFT: One R03 small round white recessed ceiling downlight, thin white trim ring and slightly recessed pale lens, isolated fitting alone. Light off, no ceiling fragment. Source authority R03.\n\nBOTTOM RIGHT: The R04 slim straight under-wall-cabinet LED light fitting, narrow pale metal channel with frosted cream diffuser strip; isolated complete channel at slight three-quarter angle, light off, no glow. Source authority R04.\n",
+      "gridFilename": "G16_灯具_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          611,
+          822
+        ],
+        "topVertical": [
+          513,
+          798
+        ],
+        "bottomVertical": [
+          507,
+          632
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G16_灯具_2x2_v001.png",
+      "sha256": "0b74094211cc9946c12d5197ed52b922c2a3bd87a585cdcb70c807eb6d5f0f9a",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-d8efc0dd-6383-477f-b88d-93bd40a21945.png",
+      "visualReview": "主体完整、宫格顺序正确、白底无环境投影；已对照源场景核对。"
+    },
+    {
+      "id": "G17",
+      "name": "门组件",
+      "references": [
+        "R03",
+        "R02"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-DOR-001",
+          "variant": "Main",
+          "name": "入户门",
+          "slug": "EntranceDoor",
+          "description": "The R02 entry plain warm-oak entrance door, complete rectangular timber frame and slab, dark handle and hinge set. Closed front three-quarter angle, no surrounding wall.",
+          "source": "R02",
+          "filename": "H90-DOR-001_EntranceDoor_Main_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            628,
+            619
+          ],
+          "paddingOffset": [
+            70,
+            74
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-DOR-001_EntranceDoor_Main_ref_v001.png",
+          "sha256": "d0cc7fa43475f33c2a549354cd369b8d00497d7cc1d7a3402a66edff52cb7794",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-DOR-002",
+          "variant": "Main",
+          "name": "卧室门",
+          "slug": "BedroomDoor",
+          "description": "The R03 left hallway plain oak interior bedroom door, vertical wood grain slab, thin matching frame and black lever handle, no extra panels or ornament. Closed, isolated complete assembly.",
+          "source": "R03",
+          "filename": "H90-DOR-002_BedroomDoor_Main_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            628,
+            0,
+            1254,
+            619
+          ],
+          "paddingOffset": [
+            71,
+            74
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-DOR-002_BedroomDoor_Main_ref_v001.png",
+          "sha256": "097a6718264e9217c1e94d3919b2eb0477e1475427453915e4aada2876acba04",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-DOR-004",
+          "variant": "Main",
+          "name": "厨房玻璃移门",
+          "slug": "KitchenGlassSlider",
+          "description": "The exact R03 two-panel black slim metal-framed kitchen sliding glass door with simple black vertical handle. Clear glass shows only white backdrop, no room reflections, full rectangular door frame and tracks.",
+          "source": "R03",
+          "filename": "H90-DOR-004_KitchenGlassSlider_Main_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            619,
+            592,
+            1254
+          ],
+          "paddingOffset": [
+            88,
+            66
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-DOR-004_KitchenGlassSlider_Main_ref_v001.png",
+          "sha256": "201da96d48058e47d43c6632e096b57f72db045c11c3380da1ecd65d653d7d3e",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-DOR-005",
+          "variant": "Main",
+          "name": "阳台玻璃移门",
+          "slug": "BalconyGlassSlider",
+          "description": "The R02 wide low-sill multi-panel grey metal framed balcony sliding glass door, slim horizontal sill and upper track, full rectangular assembly. Glass shows clean white backdrop, no interior or landscape.",
+          "source": "R02",
+          "filename": "H90-DOR-005_BalconyGlassSlider_Main_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            592,
+            619,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            53,
+            66
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-DOR-005_BalconyGlassSlider_Main_ref_v001.png",
+          "sha256": "142c5386c658a2c1ad8807fa0ce4040f3a3a7d843c4a54c3296568640cae632c",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R03, Image 2 = R02.\n\nTOP LEFT: The R02 entry plain warm-oak entrance door, complete rectangular timber frame and slab, dark handle and hinge set. Closed front three-quarter angle, no surrounding wall. Source authority R02.\n\nTOP RIGHT: The R03 left hallway plain oak interior bedroom door, vertical wood grain slab, thin matching frame and black lever handle, no extra panels or ornament. Closed, isolated complete assembly. Source authority R03.\n\nBOTTOM LEFT: The exact R03 two-panel black slim metal-framed kitchen sliding glass door with simple black vertical handle. Clear glass shows only white backdrop, no room reflections, full rectangular door frame and tracks. Source authority R03.\n\nBOTTOM RIGHT: The R02 wide low-sill multi-panel grey metal framed balcony sliding glass door, slim horizontal sill and upper track, full rectangular assembly. Glass shows clean white backdrop, no interior or landscape. Source authority R02.\n",
+      "gridFilename": "G17_门组件_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          597,
+          641
+        ],
+        "topVertical": [
+          434,
+          823
+        ],
+        "bottomVertical": [
+          540,
+          645
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G17_门组件_2x2_v001.png",
+      "sha256": "8bd92c6103f51afd59aae062dbd2fa4b38406c6377f93497c17aa220cee714b5",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-d40c8903-b210-43f6-ade7-4ad331158d72.png",
+      "visualReview": "主体完整、宫格顺序正确、白底无环境投影；已对照源场景核对。"
+    },
+    {
+      "id": "G18",
+      "name": "窗组件",
+      "references": [
+        "R02",
+        "R04"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-DOR-006",
+          "variant": "Main",
+          "name": "卧室窗",
+          "slug": "BedroomWindow",
+          "description": "The R02 master-bedroom wide rectangular silver-grey slim framed low-sill bedroom window, two sliding clear glass panels, full outer frame isolated. Glass shows white backdrop only.",
+          "source": "R02",
+          "filename": "H90-DOR-006_BedroomWindow_Main_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            624,
+            620
+          ],
+          "paddingOffset": [
+            72,
+            74
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-DOR-006_BedroomWindow_Main_ref_v001.png",
+          "sha256": "18402e40a43d71368835f60a2818c818dc70e7f8ec53677b163034e576a1b4cd",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-DOR-007",
+          "variant": "Main",
+          "name": "厨房窗",
+          "slug": "KitchenWindow",
+          "description": "The R02 north kitchen slim grey framed wide rectangular window above sink, low horizontal proportions, sliding clear panels, isolated outer frame. No sink, wall or outdoor scene.",
+          "source": "R02",
+          "filename": "H90-DOR-007_KitchenWindow_Main_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            624,
+            0,
+            1254,
+            620
+          ],
+          "paddingOffset": [
+            69,
+            74
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-DOR-007_KitchenWindow_Main_ref_v001.png",
+          "sha256": "91bcc44421e5ce2b0bbc620dd8e5662316ea0233c63c91f14eb33ed8c4708483",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-DOR-008",
+          "variant": "Main",
+          "name": "卫生间高窗",
+          "slug": "BathHighWindow",
+          "description": "The R02 bathroom north-wall very narrow wide horizontal high window, slim grey rectangular frame and translucent pale glass. Complete frame alone.",
+          "source": "R02",
+          "filename": "H90-DOR-008_BathHighWindow_Main_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            620,
+            622,
+            1254
+          ],
+          "paddingOffset": [
+            73,
+            67
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-DOR-008_BathHighWindow_Main_ref_v001.png",
+          "sha256": "a1f89cac3634945efe731fbd1fdddd43cf387dac625c4c1863434b83f7b4d7da",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-DOR-009",
+          "variant": "Main",
+          "name": "阳台封窗",
+          "slug": "BalconyGlazing",
+          "description": "The exact R04 panoramic balcony glazing: dark grey full-width multi-bay frame, five tall upper bays and shallow lower glass row, operable end panels with subtle safety screen mesh. Glass background white, no skyline or trees. Full assembly isolated.",
+          "source": "R04",
+          "filename": "H90-DOR-009_BalconyGlazing_Main_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            622,
+            620,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            68,
+            67
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-DOR-009_BalconyGlazing_Main_ref_v001.png",
+          "sha256": "29907901999b8d16055ed402df88b3a1f1a21a9fba482e6a359ca7c12c2e54b8",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R02, Image 2 = R04.\n\nTOP LEFT: The R02 master-bedroom wide rectangular silver-grey slim framed low-sill bedroom window, two sliding clear glass panels, full outer frame isolated. Glass shows white backdrop only. Source authority R02.\n\nTOP RIGHT: The R02 north kitchen slim grey framed wide rectangular window above sink, low horizontal proportions, sliding clear panels, isolated outer frame. No sink, wall or outdoor scene. Source authority R02.\n\nBOTTOM LEFT: The R02 bathroom north-wall very narrow wide horizontal high window, slim grey rectangular frame and translucent pale glass. Complete frame alone. Source authority R02.\n\nBOTTOM RIGHT: The exact R04 panoramic balcony glazing: dark grey full-width multi-bay frame, five tall upper bays and shallow lower glass row, operable end panels with subtle safety screen mesh. Glass background white, no skyline or trees. Full assembly isolated. Source authority R04.\n",
+      "gridFilename": "G18_窗组件_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          519,
+          722
+        ],
+        "topVertical": [
+          588,
+          661
+        ],
+        "bottomVertical": [
+          592,
+          652
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G18_窗组件_2x2_v001.png",
+      "sha256": "2a688d8aebdcbecbdfb05e91df940ffb64bc3dc03f1b6014b0952bd5b382e2b2",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-60c3b279-dc4c-4863-b532-0322cfbf34e6.png",
+      "visualReview": "主体完整、宫格顺序正确、白底无环境投影；已对照源场景核对。"
+    },
+    {
+      "id": "G19",
+      "name": "卫浴与安装构件",
+      "references": [
+        "R02",
+        "R03"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-APP-008",
+          "variant": "Main",
+          "name": "坐便器",
+          "slug": "Toilet",
+          "description": "The R02 simple glossy white contemporary floor-standing toilet with oval bowl, closed white seat lid and compact integrated rear tank, complete toilet alone.",
+          "source": "R02",
+          "filename": "H90-APP-008_Toilet_Main_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            638,
+            718
+          ],
+          "paddingOffset": [
+            65,
+            25
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-APP-008_Toilet_Main_ref_v001.png",
+          "sha256": "53943482cf70c2d52fca8cd227616618aa309c5eeb52286a10b4d4eb0dd4e38d",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-APP-009",
+          "variant": "Main",
+          "name": "淋浴玻璃隔断",
+          "slug": "ShowerKit",
+          "description": "The R02 bathroom transparent shower enclosure, thin grey metal edging and simple rectangular glass panel/door with silver rail/shower fixture inside. No walls, floor tiles or surrounding architecture; clear glass over white backdrop, full fixture visible.",
+          "source": "R02",
+          "filename": "H90-APP-009_ShowerKit_Main_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            638,
+            0,
+            1254,
+            718
+          ],
+          "paddingOffset": [
+            76,
+            25
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-APP-009_ShowerKit_Main_ref_v001.png",
+          "sha256": "f5e4e62606068f516e37a475febfa45c7482d1370e15817b24465ad1e16031e5",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-ARC-011",
+          "variant": "Main",
+          "name": "通风格栅",
+          "slug": "VentGrille",
+          "description": "The R03 ceiling bulkhead long horizontal white-beige ventilation grille, thin rectangular frame and many narrow dark horizontal louver slits. Isolated vent assembly, no ceiling.",
+          "source": "R03",
+          "filename": "H90-ARC-011_VentGrille_Main_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            718,
+            633,
+            1254
+          ],
+          "paddingOffset": [
+            67,
+            116
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-ARC-011_VentGrille_Main_ref_v001.png",
+          "sha256": "1f3228db8d530772dde72c42e4de98c3b4907dc924b233142cfe1d4381e99c32",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-007",
+          "variant": "Rectangular",
+          "name": "矩形猫抓垫",
+          "slug": "CatMatKit",
+          "description": "The R03 light beige small rectangular thick sisal scratch pad on the floor beside the cat hideout, shallow layered rectangular base and woven scratch surface; no toys or cat.",
+          "source": "R03",
+          "filename": "H90-PRP-007_CatMatKit_Rectangular_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            633,
+            718,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            73,
+            116
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-007_CatMatKit_Rectangular_ref_v001.png",
+          "sha256": "f2d7f95d635ac25fdf2ebc7a3148d87b32b49e1c136e263567af87f195052605",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R02, Image 2 = R03.\n\nTOP LEFT: The R02 simple glossy white contemporary floor-standing toilet with oval bowl, closed white seat lid and compact integrated rear tank, complete toilet alone. Source authority R02.\n\nTOP RIGHT: The R02 bathroom transparent shower enclosure, thin grey metal edging and simple rectangular glass panel/door with silver rail/shower fixture inside. No walls, floor tiles or surrounding architecture; clear glass over white backdrop, full fixture visible. Source authority R02.\n\nBOTTOM LEFT: The R03 ceiling bulkhead long horizontal white-beige ventilation grille, thin rectangular frame and many narrow dark horizontal louver slits. Isolated vent assembly, no ceiling. Source authority R03.\n\nBOTTOM RIGHT: The R03 light beige small rectangular thick sisal scratch pad on the floor beside the cat hideout, shallow layered rectangular base and woven scratch surface; no toys or cat. Source authority R03.\n",
+      "gridFilename": "G19_卫浴与安装构件_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          650,
+          786
+        ],
+        "topVertical": [
+          528,
+          749
+        ],
+        "bottomVertical": [
+          609,
+          658
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G19_卫浴与安装构件_2x2_v001.png",
+      "sha256": "98edf55c2a4db68355a6e3b7ed31c9bf8371560aeefbfea1775eb63d545d7453",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-05bdaabb-b5c9-4e0f-a1ad-c91d5a434d5e.png",
+      "visualReview": "淋浴隔断对照原轴测图修正为两片L形玻璃与淋浴立杆，移除非原图白色底盘和第三片玻璃；其余三格保留。",
+      "revisionPrompt": "Image 1 is a finished 2x2 object reference sheet. Edit ONLY its TOP RIGHT shower assembly to match Image 2, a detail crop of the original home scene, and Image 3, the full original scene. Leave the toilet TOP LEFT, vent BOTTOM LEFT and sisal pad BOTTOM RIGHT EXACTLY unchanged, including sizes, materials, camera, positions and white background. Shower correction: replace the invented three-sided cabin by the original simple L-shaped corner screen consisting of ONLY TWO perpendicular clear glass planes, one broad front panel and one narrow left return panel, joined with thin grey metal edging. No third rear glass wall. Retain the original slim silver right-side shower riser with round overhead head and simple handheld fixture, shown unobstructed through clear glass. REMOVE the entire invented white shower tray and any drain/base floor; the two glass planes have only slim bottom metal rails and open white space beneath. NO architecture walls, ceiling or floor slab. The glass background must remain pure white, with restrained light transparent glass tint and zero room reflections. Entire corrected L-screen and fixture comfortably fit top-right quadrant with empty central gutters. Pure white no cast shadows, no text, no added objects. Maintain original scene fixture character rather than a freestanding retail shower cabin.",
+      "discardedToolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-7f16e107-c22e-4a46-bcc6-b3037e703cd5.png"
+    },
+    {
+      "id": "G20",
+      "name": "补充小件",
+      "references": [
+        "R02",
+        "R03",
+        "R04"
+      ],
+      "objects": [
+        {
+          "assetId": "H90-APP-010",
+          "variant": "Main",
+          "name": "办公笔记本",
+          "slug": "Laptop",
+          "description": "The R02 guest desk dark grey laptop, open roughly 105 degrees with black screen and compact silver-grey keyboard deck. Full laptop alone, no cable, logos, text or reflected room.",
+          "source": "R02",
+          "filename": "H90-APP-010_Laptop_Main_ref_v001.png",
+          "position": "左上",
+          "cropBox": [
+            0,
+            0,
+            672,
+            617
+          ],
+          "paddingOffset": [
+            48,
+            75
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-APP-010_Laptop_Main_ref_v001.png",
+          "sha256": "28aab6abe95bcfb4804d59b3af4b8b4cd914b7100ec7c4a63d32e17fc5d62a8c",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-001",
+          "variant": "Cream",
+          "name": "米色纹理靠垫",
+          "slug": "DecorCushion",
+          "description": "The R04 bench cream-beige square pillow with visible subtle knitted herringbone texture, full softly filled rectangular cushion alone.",
+          "source": "R04",
+          "filename": "H90-PRP-001_DecorCushion_Cream_ref_v001.png",
+          "position": "右上",
+          "cropBox": [
+            672,
+            0,
+            1254,
+            617
+          ],
+          "paddingOffset": [
+            93,
+            75
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-001_DecorCushion_Cream_ref_v001.png",
+          "sha256": "4cc3a63663708233578e5b80c2ab3b32f1e119f862a5748ab08fbaac7414c7bd",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-PRP-018",
+          "variant": "Stack",
+          "name": "折叠毛巾叠放",
+          "slug": "TowelStack",
+          "description": "The exact R04 laundry countertop three cream-white neatly folded fluffy towels stacked vertically, complete coherent stack alone, no bottles or cabinets.",
+          "source": "R04",
+          "filename": "H90-PRP-018_TowelStack_Stack_ref_v001.png",
+          "position": "左下",
+          "cropBox": [
+            0,
+            617,
+            670,
+            1254
+          ],
+          "paddingOffset": [
+            49,
+            65
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-PRP-018_TowelStack_Stack_ref_v001.png",
+          "sha256": "1824d86e58f954b1df0c21aa6ef772cc81cdb3c5acbb53c7dc66fb8c335fa616",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        },
+        {
+          "assetId": "H90-CAT-008",
+          "variant": "ScratchBall",
+          "name": "短柱抓球",
+          "slug": "ToyKit",
+          "description": "The R03 low cat toy beside hideout: beige sisal rope ball atop a short slender natural rope upright post on a small stepped rectangular light-oak base. Full toy alone with no cat or other toys.",
+          "source": "R03",
+          "filename": "H90-CAT-008_ToyKit_ScratchBall_ref_v001.png",
+          "position": "右下",
+          "cropBox": [
+            670,
+            617,
+            1254,
+            1254
+          ],
+          "paddingOffset": [
+            92,
+            65
+          ],
+          "imageSize": [
+            768,
+            768
+          ],
+          "imagePath": "02_单物体图/H90-CAT-008_ToyKit_ScratchBall_ref_v001.png",
+          "sha256": "437081922b6840d31d970f2603cbeefc550fae40c1ee142e364c3d669b9f8ac8",
+          "edgeNonwhitePixels": 0,
+          "generatedReferenceStatus": "可用于建模参考"
+        }
+      ],
+      "prompt": "Use case: product-mockup. Create a production-ready 3D reconstruction object-reference sheet derived STRICTLY from the attached original home scene renders. These are source references, not a redesign brief. Output one square high-resolution 2048 x 2048 image containing an EXACT 2 x 2 grid of FOUR isolated objects on pure solid white (#FFFFFF). There is no visible grid line, no text, no lettering, no numbers, no watermark. Each equal square quadrant contains exactly its specified single object / coherent fixture assembly centered with generous 10 percent padding. Keep the horizontal and vertical center gutters empty white so the image can be split exactly at its midpoint. NO object may cross a quadrant boundary. Show each entire subject including legs, underside edges, handles, all outer silhouette, no cropping, no foreground/background obstruction. Use clean photorealistic product reference, orthographic-like elevated three-quarter view that reveals shape and thickness, mild perspective only, neutral color-balanced broad diffuse illumination. No floor plane, no ground cast shadow, no drop shadow, no contact-shadow halo, no reflected room, no extra object, no decorative staging, no cat, no person. Soft intrinsic surface shading is allowed solely to reveal volume, but the surrounding white remains perfectly shadowless. Render at the largest practical square resolution, precise natural material texture. Preserve the source item's proportions, silhouette, construction, colors, oak grain, sage/beige fabric, hardware and recognizable details; do not invent stylistic changes, ornate details or branding. Remove only detachable clutter specified below. Treat the detailed room render as authoritative for that room and use the whole-home image only for items visible in other rooms. Keep unseen rear surfaces simple and consistent with the same construction, never add new design features. All panels are independently framed; image scale is per-object and is not real-world scale.\nReference image order: Image 1 = R02, Image 2 = R03, Image 3 = R04.\n\nTOP LEFT: The R02 guest desk dark grey laptop, open roughly 105 degrees with black screen and compact silver-grey keyboard deck. Full laptop alone, no cable, logos, text or reflected room. Source authority R02.\n\nTOP RIGHT: The R04 bench cream-beige square pillow with visible subtle knitted herringbone texture, full softly filled rectangular cushion alone. Source authority R04.\n\nBOTTOM LEFT: The exact R04 laundry countertop three cream-white neatly folded fluffy towels stacked vertically, complete coherent stack alone, no bottles or cabinets. Source authority R04.\n\nBOTTOM RIGHT: The R03 low cat toy beside hideout: beige sisal rope ball atop a short slender natural rope upright post on a small stepped rectangular light-oak base. Full toy alone with no cat or other toys. Source authority R03.\n",
+      "gridFilename": "G20_补充小件_2x2_v001.png",
+      "status": "generated-reviewed",
+      "splitStrategy": "沿两行实际白色留白切分，保留跨中线的完整主体；等边白底补齐，不重采样",
+      "gutters": {
+        "horizontal": [
+          583,
+          651
+        ],
+        "topVertical": [
+          627,
+          717
+        ],
+        "bottomVertical": [
+          609,
+          732
+        ]
+      },
+      "gridSize": [
+        1254,
+        1254
+      ],
+      "gridPath": "01_宫格图/G20_补充小件_2x2_v001.png",
+      "sha256": "16e32c28279c0b01c70ab62d1ef78fd5fc28c24bb6011afcb31dc2d295ab7a3b",
+      "toolOriginal": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-73eea931-f803-4ec4-a6b8-7c0f4991a0bc.png",
+      "visualReview": "主体完整、宫格顺序正确、白底无环境投影；已对照源场景核对。"
+    }
+  ],
+  "counts": {
+    "groups": 20,
+    "images": 80,
+    "assetTypes": 72
+  },
+  "deliveryStatus": "complete",
+  "actualCounts": {
+    "grids": 20,
+    "individualImages": 80,
+    "assetTypes": 72
+  },
+  "actualResolution": {
+    "grids": {
+      "1254x1254": 20
+    },
+    "individualImages": {
+      "768x768": 79,
+      "832x832": 1
+    }
+  },
+  "processing": "Python + Pillow / NumPy: 沿实际白色间隔裁切；白底等边补齐；不重采样、不删除或改画物体像素。",
+  "limitations": "原图未展示的背面、内部和被遮挡部分按同一构造补全；不用于确定真实尺寸。所有物理尺寸仍以设计尺寸文件为准。"
+}

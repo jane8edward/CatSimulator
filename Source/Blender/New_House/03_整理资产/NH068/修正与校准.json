@@ -1,0 +1,24 @@
+{
+  "id": "NH068",
+  "slug": "FeedingStation",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-004_FeedingStation_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.5799999237060547,
+    0.29999998211860657,
+    0.3199999928474426
+  ],
+  "targetDimensions_m": [
+    0.5799999833106995,
+    0.30000001192092896,
+    0.3199999928474426
+  ],
+  "sceneFaces": 179999,
+  "sceneVertices": 90005,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 8.9
+}

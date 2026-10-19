@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-12",
+  "imageTool": "image_gen.imagegen (built-in)",
+  "drawingMethod": "Measured, programmatically drawn SVG with room coordinates in metres; rasterized with resvg.",
+  "prompts": [
+    {
+      "image": "02_全屋轴测效果图",
+      "prompt": "Use case: stylized-concept.\nAsset type: architectural 3D interior concept visualization, ONE whole-apartment dollhouse axonometric render.\nInput image 1 is the authoritative FLOOR PLAN, not a style image. Reproduce its room topology, wall and door positions, furniture orientation, and overall 10.0m east-west by 9.0m north-south rectangular outline. Approximate envelope area is 90 square metres including walls and balcony. Only TWO bedrooms, ONE combined living/dining room, ONE kitchen, ONE bathroom, ONE south balcony, entrance and short corridor.\nCamera: elevated southwest axonometric view, south in foreground and north at back, west on left and east on right. Remove the roof and ceiling, lower foreground walls and internal partition walls enough to reveal all rooms, retain enough wall height to read the plan. Clean architectural model presentation with a subtle white/off-white background, no text or callouts.\nLayout lock, using the plan's directions:\n- Southwest main bedroom takes west 4.2m bay and south 4m depth. One 1.8m double bed with its head to the north, bedside tables, east-side wardrobe, a low south-window cat perch.\n- Mid-west second bedroom, 3m bay, is a real guest bedroom AND home office: one 1.2m single/daybed along the west wall, a desk/laptop on the north wall, small storage.\n- Northwest entry/storage space, connected to the small north-south corridor between the bedrooms and living room. Entrance door at north edge near x=3.35m.\n- North-middle bathroom, between entry and kitchen, with washbasin north, WC and shower south/east. ONE bathroom only.\n- Northeast closed kitchen, north/east L-counter and refrigerator near the southwest corner. Glass sliding door opens south into the living room.\n- Large east/southeast living-dining room, about 24 sqm: beige 2.45m sofa along its WEST boundary facing an EAST-wall TV/low oak console. Rounded coffee table and pale rug between. Small two/three-person dining table at the northwestern part of living room.\n- Dedicated CAT ACTIVITY zone in living room's NORTHEAST corner, next to the TV wall but a distinct zone: low cat hideout, scratching column, a sequence of warm oak wall shelves and resting platforms, up to 2.3m high. No separate enclosed cat room.\n- SOUTH balcony across only the east 5.8m bay, depth1.6m gross. Full-height glazing on south outer edge, and a 3.2m glass sliding connection to living room. Laundry/storage at WEST end, long low window cat/lounge bench in middle, enclosed cat litter cabinet at EAST end.\nStyle/materials: a believable young office worker's home, warm modern, light natural oak plank floors, warm off-white walls, beige textiles, muted sage green accent bedding/chairs, light grey balcony/kitchen tiles, pale blue-grey bathroom. Soft afternoon daylight from southern windows, realistic gentle shadows and convincing furniture scale. Clothes/shoes/office bag neatly stored in entry and laptop in office; restrained lived-in details.\nOne small brown/orange/white tabby cat can be on the living floor or balcony perch, correctly scaled. Show laundry machine as ordinary appliance, no cats inside. No people, no decorative text, no dimension labels, no extra rooms, no open-plan kitchen, no second balcony, no fisheye. Landscape 1536x1024, whole apartment fully in frame."
+    },
+    {
+      "image": "02_全屋轴测效果图_修正",
+      "prompt": "Use case: precise-object-edit.\nInput image 1: whole apartment dollhouse render EDIT TARGET.\nInput image 2: authoritative floor plan.\nKeep image 1's architecture, exact room layout, doors, bathroom/kitchen fixtures, flooring, camera, daylight, palette, beds, office desk, sofas and balcony as they are. Make only these two corrections:\n1. Retain ONLY the small orange/brown/white cat sitting on the sunny BALCONY bench. Remove the additional kitten sitting on the living room cat-house platform. Keep the cat-house platform and cat furniture itself.\n2. The dedicated cat zone in the north-east corner of the living room needs a real VERTICAL WALL PLAY STRUCTURE, as specified by image 2. Along a small 1.2m long section of its east perimeter wall, retain a warm-white vertical wall panel about 2.45m tall (the rest of the dollhouse cut walls remain lowered). Attach a coherent ascent of five small natural-oak shelves/rest platforms, one sisal scratching column below, and one wider landing/resting shelf near the top at 2.15m. Keep this cat wall separate from the TV panel, and keep its floor hideout/sisal base within its existing corner footprint. Make it visible from the same southwest elevated angle without changing the floor plan, blocking the kitchen door, or obscuring adjacent rooms.\nNo new rooms, no extra cats, no people, no text, no signs. Preserve the whole apartment fully framed on a neutral off-white background. Landscape 1536x1024."
+    },
+    {
+      "image": "03_客厅与猫咪活动区_效果图",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: ONE photorealistic interior concept render, living/dining room and dedicated cat activity corner of this 90 sqm apartment.\nInput image 1: authoritative floor plan, use for room geometry, connections and furniture orientation.\nInput image 2: approved whole-apartment dollhouse render, use for light oak / warm white / beige / sage green material design and the same furnishings.\nInput image 3: identity reference for the single small brown-orange-white tabby kitten who lives here; cat should be small and correctly scaled.\nCamera is inside the living room near its SOUTHWEST corner / balcony threshold (world x=4.7m, y=2.1m), looking NORTHEAST toward the kitchen doorway and east cat wall, eye height 1.45m, restrained 24-28mm architecture photography with straight verticals and no fisheye. Warm daylight enters from the south balcony behind/beside camera. No visible people.\nGeometry: living/dining clear rectangle about 5.54m east-west x 4.28m north-south, indoor ceiling 2.8m. WEST wall has a beige fabric 2.45m three-seat sofa facing the EAST-wall TV and low oak TV console. A small rounded oak coffee table and a cream rug are between sofa and TV; keep a clear circulation aisle. Northwestern living area has the small oak dining table, sage green chairs and slim bench against the north partition. The north wall's east portion has a CLOSED KITCHEN behind a sliding glass door; show a hint of north/east kitchen counter through it. Do not turn kitchen into an open island kitchen. Entry/corridor opening is toward the northwestern/left part of room. Balcony is SOUTH behind camera; don't add a new north balcony or outside window on the north wall.\nEast wall north of the TV zone has a coherent dedicated CAT PLAY CORNER, floor footprint roughly 1.8m x 1.15m: low oak hideout with rounded entrance, sisal scratch column, five staggered shallow oak wall shelves forming an accessible upward path, an upper broad resting shelf at roughly 2.15m, maximum installation height2.3m. It is visibly a connected wall climbing route, with calm rounded details, no floating unattached objects and no unsafe-looking thin suspension cables. TV and cat wall are distinct adjoining parts of the same east wall.\nExactly ONE small reference tabby kitten can stand on the low cat platform; no second cat. Drinking bowl/fountain near south-east side; feeding station near north-west dining wall. No food placed in litter cabinet.\nStyle: warm lived-in modern office-worker home, light oak grain floors and wood cabinets, warm white matte plaster, beige sofa, muted sage pillows/chairs, soft curtains at south edge if in frame, a few books, a quietly placed work bag, uncluttered household props, realistic textile/wood texture. Soft natural shadows, warm daylight balanced by subtle ceiling lamps, believable domestic scale. Landscape 1536x1024, full living room composition with sofa, TV, dining and cat wall visible. No labels, no letters, no collage, no extra furniture blocking paths."
+    },
+    {
+      "image": "04_阳台与猫咪观景区_效果图",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: ONE architectural balcony concept render, full balcony layout study for 3D modeling.\nInput image 1: authoritative floor plan for size and WEST-to-EAST zoning.\nInput image 2: approved whole-apartment render for balcony furnishings, material palette and position relative to living room.\nInput image 3: living room render for the same warm modern home, lighting and finish quality.\nInput image 4: reference identity of the one tabby kitten.\nShow the apartment's SINGLE enclosed SOUTH balcony, about 5.54m usable east-west length and 1.34m usable depth, ceiling2.8m. This is a full-width architectural open-front / cutaway interior perspective: temporarily omit the NORTH living-room partition and its sliding frame for this design presentation so all three balcony zones are visible. Camera at normal eye height facing SOUTH with west on viewer LEFT and east on viewer RIGHT, from sufficient distance for a natural 28-35mm lens, straight vertical lines. It is a compact long balcony, not a deep spacious lounge or second room.\nSouth background is full-height slim-framed CLOSED glazing, soft sun, calm distant city buildings. A subtle fine protective mesh can be present in the operable window section. No open unguarded edge, no projecting outdoor railing beyond the apartment.\nLayout lock:\nLEFT/WEST end: one front-loading washing machine under or integrated into an oak/white storage cabinet, ordinary laundry supplies above and a few towels. Machine face points into balcony and door is CLOSED. No cat inside any appliance.\nMIDDLE against south windows: a low natural-oak viewing/rest bench approx2.55m long x0.40m deep x0.45m high, sage/cream slim washable cushions, space for the cat to watch outdoors. Exactly ONE small brown-orange-white tabby kitten lounging on the bench, preserving reference markings and realistic scale. Keep the walkway in front of the bench clear.\nRIGHT/EAST end: a separate natural-oak litter cabinet about0.76m wide x0.65m deep x0.70m high with a rounded cat entrance and visible ventilation slots, removable access panel, no food or water bowls here. Keep it at the end, separate from laundry and lounging.\nLight grey matte tile floor, warm off-white ceiling and end walls, pale oak cabinet grain matching the living room, a small cat-grass pot if desired, subtle afternoon light and realistic contact shadows. Warm everyday office-worker home rather than a luxury hotel. Photorealistic material detail and believable small balcony scale. Landscape1536x1024. ONE continuous balcony scene, no collage, no labels or dimensions, no people, no extra cats, no hanging wires, no kitchen furniture."
+    }
+  ],
+  "selectedImages": [
+    {
+      "file": "02_全屋轴测效果图.png",
+      "source": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-8d84f66b-5c75-4933-b939-601dc94f1fb3.png"
+    },
+    {
+      "file": "03_客厅与猫咪活动区_效果图.png",
+      "source": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-9305e926-c3af-4be0-b823-ae96f8b148da.png"
+    },
+    {
+      "file": "04_阳台与猫咪观景区_效果图.png",
+      "source": "/Users/eddieyan/.codex/generated_images/01a1259f-0003-75d3-9c7a-05f212de9f9a/exec-e0681d2f-6fd2-475b-a18b-5eda1ae6d7ed.png"
+    }
+  ],
+  "notes": [
+    "Approximately 90 sqm modeled external footprint including walls and full balcony; not a supplied surveyed apartment.",
+    "Technical plan and layout JSON are the geometry reference; generated concept views can have local furniture/dimension differences.",
+    "Balcony view hides north partition/frame to show all zones."
+  ],
+  "fileChecks": [
+    {
+      "file": "03_客厅与猫咪活动区_效果图.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "740a015093c2332ae49d227433fb20ab3ccf0f95228d8f9f13d6ece6fbd7448c"
+    },
+    {
+      "file": "01_90㎡养猫之家_设计平面图.png",
+      "dimensions": [
+        3000,
+        2270
+      ],
+      "sha256": "0865ef8df5c486cf8b2e0d3c27e712556f7cd8c5ed0d5722a059bd0c4d050740"
+    },
+    {
+      "file": "02_全屋轴测效果图.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "d47372672e8d827abb721699a5251897ce51397e2cdd613a30fd9410eb463e5f"
+    },
+    {
+      "file": "04_阳台与猫咪观景区_效果图.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "f84149df5a471e45cfbc932fecba384d0d936654bf36fcd31f9848e1a7427b88"
+    }
+  ],
+  "layoutChecks": {
+    "footprintArea_m2": 90,
+    "clearRectangleAreasSum_m2": 78.5784,
+    "roomsDoNotOverlap": true,
+    "roomsWithinFootprint": true,
+    "svgParses": true
+  },
+  "savedDestination": "/Users/eddieyan/Desktop/猫咪游戏/90㎡养猫之家-设计方案_v1"
+}

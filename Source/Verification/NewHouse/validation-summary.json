@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-15",
+  "branch": "feat/new-house-tripo-assets",
+  "artSourceCommit": "fded56d",
+  "testedMergedCommit": "66b7bf62b278d0ebd2b86173c6baa340f072a857",
+  "mainBase": "b63affc04b30be7f0267a4d72d7ecbd019ea026b",
+  "blender": {
+    "version": "5.2.2 LTS",
+    "nativeScene": "native-scene.json",
+    "uniqueTripoModels": 78,
+    "readyAssets": 79,
+    "collectionInstances": 124,
+    "arrayModifiers": 16,
+    "missingTextures": 0,
+    "newCatSource": "cute-cat-source.json"
+  },
+  "repository": {
+    "passed": true,
+    "sourceBinaryFilesVerified": 712,
+    "binaryHashMismatches": [],
+    "missingUnityMeta": [],
+    "duplicateUnityGUIDs": {},
+    "excludedFilesInDiff": [],
+    "existingUnityMetaCount": 191,
+    "sourceOutsideAssetsNeedsMeta": false,
+    "latestMainIsAncestor": true
+  },
+  "lfs": {
+    "scope": "origin/main..HEAD",
+    "command": "git lfs fsck --objects origin/main..HEAD",
+    "result": "Git LFS fsck OK",
+    "historicalCacheNote": "A whole-HEAD scan also found pre-existing uncached historical art/media. The incoming range and submitted binary sources passed; unrelated historical cache was not downloaded."
+  },
+  "macBuild": {
+    "result": "Succeeded",
+    "errors": 0,
+    "bytes": 406619234
+  },
+  "unityImport": {
+    "passed": true,
+    "homeMeshRenderers": 1352,
+    "walkAvatarValid": true,
+    "missingMeta": 0,
+    "existingPlayablePresent": true
+  },
+  "runtime": {
+    "passed": true,
+    "avatarValid": true,
+    "animationMoved": true,
+    "pauseStable": true,
+    "resetWorks": true,
+    "homeLoaded": true,
+    "travelledMeters": 0.10111609846353531,
+    "expectedMeters": 0.1011161208152771,
+    "maxBoneMotionMeters": 0.00012156509910710156,
+    "homeRenderers": 1352,
+    "gpu": "Apple M4",
+    "errors": []
+  },
+  "playable": {
+    "order": "cup-first",
+    "gpu": "Apple M4",
+    "resolution": "1920x1080",
+    "optionalDoesNotComplete": true,
+    "firstTaskDoesNotComplete": true,
+    "bothComplete": true,
+    "replayResets": true,
+    "cupMoves": true,
+    "clothChanges": true,
+    "movementWorks": true,
+    "jumpLands": true,
+    "climbHasSupport": true,
+    "cupColliderSized": true,
+    "cameraClearAtInteractions": true,
+    "roomRegressionPass": true,
+    "averageFps": 326.75634765625,
+    "p95FrameMs": 3.269373655319214,
+    "p99FrameMs": 3.3698766231536865,
+    "frames": 2635,
+    "errors": []
+  },
+  "roomRegression": "Playable/cup-first-room-regression.json",
+  "scope": [
+    "New_House and the new cat validated as Blender/FBX art sources",
+    "Existing Unity art previews loaded in the built player",
+    "Existing LivingRoom gameplay regression, cup then curtain"
+  ],
+  "limitations": [
+    "New_House remains an independent high-density Blender art scene, not a new Unity gameplay scene.",
+    "No mobile build or New_House runtime performance validation."
+  ],
+  "existingBuildAndVerificationPreserved": true,
+  "passed": true
+}

@@ -1,0 +1,90 @@
+{
+  "id": "NH069",
+  "archive": "wooden+pet+furniture+3d+model.zip",
+  "source": "02_解压原文件/NH069/tripo_convert_df4818a7-6f45-43dd-819b-faaf0966c38c.fbx",
+  "importBounds": {
+    "min": [
+      -0.332489013671875,
+      -0.490264892578125,
+      -2.1430158980706437e-08
+    ],
+    "max": [
+      0.332366943359375,
+      0.4902649223804474,
+      0.702423095703125
+    ],
+    "dimensions": [
+      0.66485595703125,
+      0.98052978515625,
+      0.702423095703125
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 953053,
+  "sourceFaces": 1906108,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_df4818a7_0",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_df4818a7_2",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_df4818a7_3",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_df4818a7_4",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.6780478358268738,
+    0.9999974370002747,
+    0.7163836359977722
+  ],
+  "seconds": 28.1,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

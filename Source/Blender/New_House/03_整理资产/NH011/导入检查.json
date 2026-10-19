@@ -1,0 +1,90 @@
+{
+  "id": "NH011",
+  "archive": "ceramic+bowl+fountain+3d+model.zip",
+  "source": "02_解压原文件/NH011/tripo_convert_d13bb9d7-576f-4886-b6ee-a5097bbdcb60.fbx",
+  "importBounds": {
+    "min": [
+      -0.488128662109375,
+      -0.490020751953125,
+      -2.141815258482893e-08
+    ],
+    "max": [
+      0.486602783203125,
+      0.4899597465991974,
+      0.735626220703125
+    ],
+    "dimensions": [
+      0.9747314453125,
+      0.97998046875,
+      0.735626220703125
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 955558,
+  "sourceFaces": 1911168,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_d13bb9d7_0",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_d13bb9d7_2",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_d13bb9d7_3",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_d13bb9d7_4",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.994664192199707,
+    1.0000264644622803,
+    0.750666618347168
+  ],
+  "seconds": 26.4,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

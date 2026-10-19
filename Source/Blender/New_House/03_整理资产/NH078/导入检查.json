@@ -1,0 +1,54 @@
+{
+  "id": "NH078",
+  "archive": "woven+placemat+3d+model.zip",
+  "source": "02_解压原文件/NH078/tripo_convert_eacd88c6-ea5f-4224-b656-9f8c3db6f559.fbx",
+  "importBounds": {
+    "min": [
+      -0.396270751953125,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.396270751953125,
+      0.5,
+      0.12158205360174179
+    ],
+    "dimensions": [
+      0.79254150390625,
+      1.0,
+      0.12158207595348358
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 469436,
+  "sourceFaces": 938896,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_eacd88c6_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.792676568031311,
+    1.0000340938568115,
+    0.12161829322576523
+  ],
+  "seconds": 12.3,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

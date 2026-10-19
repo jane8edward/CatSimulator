@@ -1,0 +1,54 @@
+{
+  "id": "NH058",
+  "archive": "wooden+cabinet+3d+model.zip",
+  "source": "02_解压原文件/NH058/tripo_convert_4adc8606-6099-4046-b32a-b310e108319e.fbx",
+  "importBounds": {
+    "min": [
+      -0.2419891357421875,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.2419891357421875,
+      0.5000000596046448,
+      0.999755859375
+    ],
+    "dimensions": [
+      0.483978271484375,
+      1.0,
+      0.999755859375
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 481878,
+  "sourceFaces": 963752,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_4adc8606_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.4839678406715393,
+    1.0000075101852417,
+    0.9997531175613403
+  ],
+  "seconds": 12.4,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

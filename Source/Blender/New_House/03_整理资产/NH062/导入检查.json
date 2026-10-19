@@ -1,0 +1,54 @@
+{
+  "id": "NH062",
+  "archive": "wooden+dining+table+3d+model (1).zip",
+  "source": "02_解压原文件/NH062/tripo_convert_1a6993a3-95c8-43e1-ad47-83867ecacdc8.fbx",
+  "importBounds": {
+    "min": [
+      -0.282928466796875,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.282928466796875,
+      0.5,
+      0.4820251762866974
+    ],
+    "dimensions": [
+      0.56585693359375,
+      1.0,
+      0.4820252060890198
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 490176,
+  "sourceFaces": 980344,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_1a6993a3_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.5658838748931885,
+    1.000014066696167,
+    0.48201555013656616
+  ],
+  "seconds": 12.5,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

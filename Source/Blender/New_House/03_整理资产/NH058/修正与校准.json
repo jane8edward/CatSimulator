@@ -1,0 +1,24 @@
+{
+  "id": "NH058",
+  "slug": "EntryConsole",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-015_EntryConsole_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    1.0,
+    0.3400000333786011,
+    0.9200000166893005
+  ],
+  "targetDimensions_m": [
+    1.0,
+    0.3400000035762787,
+    0.9200000166893005
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 90002,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 4.1
+}

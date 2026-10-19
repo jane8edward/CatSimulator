@@ -1,0 +1,26 @@
+{
+  "id": "NH041",
+  "slug": "BedroomWindow",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-DOR-006_BedroomWindow_Main_ref_v001.png",
+  "corrections": [
+    "Rebuilt only damaged AI-generated frame/pane surfaces with straight precision rails, 2 reference panels and thin clear glass; original high-resolution model retained in Asset.blend."
+  ],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    2.4000000953674316,
+    0.0860000029206276,
+    1.5
+  ],
+  "targetDimensions_m": [
+    2.4000000953674316,
+    0.07500000298023224,
+    1.5
+  ],
+  "sceneFaces": 54,
+  "sceneVertices": 72,
+  "meshObjects": 9,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 11.3
+}

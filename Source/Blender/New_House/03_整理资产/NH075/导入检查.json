@@ -1,0 +1,54 @@
+{
+  "id": "NH075",
+  "archive": "wooden+wall+cabinet+3d+model.zip",
+  "source": "02_解压原文件/NH075/tripo_convert_2a4007fe-4bb4-49f8-97f8-1a6e9f493c3c.fbx",
+  "importBounds": {
+    "min": [
+      -0.1310577392578125,
+      -0.5,
+      -2.1855694143368964e-08
+    ],
+    "max": [
+      0.1310577392578125,
+      0.5,
+      0.50225830078125
+    ],
+    "dimensions": [
+      0.262115478515625,
+      1.0,
+      0.50225830078125
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 495605,
+  "sourceFaces": 991206,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_2a4007fe_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.26212984323501587,
+    1.0000171661376953,
+    0.502261757850647
+  ],
+  "seconds": 13.6,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

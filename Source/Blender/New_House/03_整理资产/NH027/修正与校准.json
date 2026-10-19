@@ -1,0 +1,24 @@
+{
+  "id": "NH027",
+  "slug": "Television",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-001_Television_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    1.3500001430511475,
+    0.2199999839067459,
+    0.7900000214576721
+  ],
+  "targetDimensions_m": [
+    1.350000023841858,
+    0.2199999988079071,
+    0.7900000214576721
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 90002,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 8.8
+}

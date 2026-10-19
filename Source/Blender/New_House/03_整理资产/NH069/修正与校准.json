@@ -1,0 +1,26 @@
+{
+  "id": "NH069",
+  "slug": "LitterCabinet",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-006_LitterCabinet_Main_ref_v001.png",
+  "corrections": [
+    "Confirmed round entrance and two ventilation slots against reference; retained geometry, corrected mislabeled archive mapping."
+  ],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.7599999904632568,
+    0.6499999761581421,
+    0.699999988079071
+  ],
+  "targetDimensions_m": [
+    0.7599999904632568,
+    0.6499999761581421,
+    0.699999988079071
+  ],
+  "sceneFaces": 179999,
+  "sceneVertices": 89999,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 9.5
+}

@@ -1,0 +1,24 @@
+{
+  "id": "NH054",
+  "slug": "WallPlatformKit_Module",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-003_WallPlatformKit_Module_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.47999995946884155,
+    0.2800000309944153,
+    0.06499999761581421
+  ],
+  "targetDimensions_m": [
+    0.47999998927116394,
+    0.2800000011920929,
+    0.06499999761581421
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 90002,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 8.9
+}

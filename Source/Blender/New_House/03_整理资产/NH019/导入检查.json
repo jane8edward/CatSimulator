@@ -1,0 +1,90 @@
+{
+  "id": "NH019",
+  "archive": "kitchen+range+hood+3d+model.zip",
+  "source": "02_解压原文件/NH019/tripo_convert_0a29144a-9e88-436d-91d7-b8b923be40e0.fbx",
+  "importBounds": {
+    "min": [
+      -0.32318115234375,
+      -0.490478515625,
+      -2.143882937843955e-08
+    ],
+    "max": [
+      0.323028564453125,
+      0.490447998046875,
+      0.1429138332605362
+    ],
+    "dimensions": [
+      0.646209716796875,
+      0.980926513671875,
+      0.1429138481616974
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 992479,
+  "sourceFaces": 1984949,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_0a29144a_0",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_0a29144a_2",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_0a29144a_3",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_0a29144a_4",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.6587923169136047,
+    1.0000026226043701,
+    0.14569295942783356
+  ],
+  "seconds": 27.3,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "NH070",
+  "slug": "ToyKit_ScratchBall",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-CAT-008_ToyKit_ScratchBall_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.1899999976158142,
+    0.18999996781349182,
+    0.36000004410743713
+  ],
+  "targetDimensions_m": [
+    0.1899999976158142,
+    0.1899999976158142,
+    0.36000001430511475
+  ],
+  "sceneFaces": 179999,
+  "sceneVertices": 90004,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 9.3
+}

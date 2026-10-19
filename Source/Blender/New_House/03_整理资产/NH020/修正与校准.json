@@ -1,0 +1,24 @@
+{
+  "id": "NH020",
+  "slug": "KitchenSink",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-APP-006_KitchenSink_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.8500000238418579,
+    0.5,
+    0.37000003457069397
+  ],
+  "targetDimensions_m": [
+    0.8500000238418579,
+    0.5,
+    0.3700000047683716
+  ],
+  "sceneFaces": 179999,
+  "sceneVertices": 89956,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 8.9
+}

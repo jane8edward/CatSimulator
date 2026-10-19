@@ -1,0 +1,54 @@
+{
+  "id": "NH032",
+  "archive": "potted+plant+3d+model.zip",
+  "source": "02_解压原文件/NH032/tripo_convert_72a98cf2-72fc-4ef2-b9b0-44fb9d71d81d.fbx",
+  "importBounds": {
+    "min": [
+      -0.40899658203125,
+      -0.455322265625,
+      -1.990276921048917e-08
+    ],
+    "max": [
+      0.40899658203125,
+      0.4553222954273224,
+      1.0
+    ],
+    "dimensions": [
+      0.8179931640625,
+      0.91064453125,
+      1.0
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 487672,
+  "sourceFaces": 975346,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_72a98cf2_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.8179097175598145,
+    0.9104906916618347,
+    1.0000523328781128
+  ],
+  "seconds": 12.4,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

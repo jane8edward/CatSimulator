@@ -1,0 +1,24 @@
+{
+  "id": "NH055",
+  "slug": "EntryStorage",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-FUR-014_EntryStorage_Main_ref_v001.png",
+  "corrections": [],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.6599999666213989,
+    0.5199999809265137,
+    2.4000000953674316
+  ],
+  "targetDimensions_m": [
+    0.6600000262260437,
+    0.5199999809265137,
+    2.4000000953674316
+  ],
+  "sceneFaces": 180000,
+  "sceneVertices": 90002,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 3.9
+}

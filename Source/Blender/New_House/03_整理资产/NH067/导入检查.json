@@ -1,0 +1,54 @@
+{
+  "id": "NH067",
+  "archive": "wooden+nightstand+3d+model.zip",
+  "source": "02_解压原文件/NH067/tripo_convert_f8318af8-5322-449f-9e7c-593329f3093b.fbx",
+  "importBounds": {
+    "min": [
+      -0.5,
+      -0.482757568359375,
+      -2.1102003699979832e-08
+    ],
+    "max": [
+      0.5,
+      0.4827575981616974,
+      0.984130859375
+    ],
+    "dimensions": [
+      1.0,
+      0.96551513671875,
+      0.984130859375
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 478529,
+  "sourceFaces": 957082,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_f8318af8_0",
+      "originalSize": [
+        2048,
+        2048
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.9999982714653015,
+    0.9655348062515259,
+    0.9841561317443848
+  ],
+  "seconds": 11.9,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

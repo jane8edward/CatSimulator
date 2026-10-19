@@ -1,0 +1,2486 @@
+[
+  {
+    "id": "NH001",
+    "archive": "Tripo3d_Blender_Bridge-latest.zip",
+    "archiveBytes": 224044,
+    "unpackedBytes": 835362,
+    "files": [
+      {
+        "path": "Tripo3d_Blender_Bridge/__init__.py",
+        "bytes": 1231
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/i18n/dictionary.py",
+        "bytes": 94116
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/i18n/__init__.py",
+        "bytes": 557
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/__init__.py",
+        "bytes": 26
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/auth.py",
+        "bytes": 568
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/http11.py",
+        "bytes": 15619
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/cli.py",
+        "bytes": 5336
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/server.py",
+        "bytes": 21790
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/utils.py",
+        "bytes": 1197
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/connection.py",
+        "bytes": 323
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/version.py",
+        "bytes": 3203
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/__main__.py",
+        "bytes": 62
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/speedups.c",
+        "bytes": 5767
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/streams.py",
+        "bytes": 4071
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/speedups.pyi",
+        "bytes": 102
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/datastructures.py",
+        "bytes": 5518
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/py.typed",
+        "bytes": 0
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/http.py",
+        "bytes": 659
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/protocol.py",
+        "bytes": 27247
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/headers.py",
+        "bytes": 16046
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/exceptions.py",
+        "bytes": 12859
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/typing.py",
+        "bytes": 1946
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/uri.py",
+        "bytes": 3125
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/frames.py",
+        "bytes": 12889
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/client.py",
+        "bytes": 13789
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/proxy.py",
+        "bytes": 4969
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/__init__.py",
+        "bytes": 7058
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/imports.py",
+        "bytes": 2795
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/trio/utils.py",
+        "bytes": 1095
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/trio/connection.py",
+        "bytes": 43952
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/trio/messages.py",
+        "bytes": 10302
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/trio/__init__.py",
+        "bytes": 0
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/extensions/__init__.py",
+        "bytes": 98
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/extensions/base.py",
+        "bytes": 2903
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/extensions/permessage_deflate.py",
+        "bytes": 25770
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/asyncio/server.py",
+        "bytes": 37941
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/asyncio/async_timeout.py",
+        "bytes": 8971
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/asyncio/connection.py",
+        "bytes": 49099
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/asyncio/messages.py",
+        "bytes": 11129
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/asyncio/router.py",
+        "bytes": 7520
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/asyncio/client.py",
+        "bytes": 30850
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/asyncio/__init__.py",
+        "bytes": 0
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/asyncio/compatibility.py",
+        "bytes": 786
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/legacy/auth.py",
+        "bytes": 6531
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/legacy/server.py",
+        "bytes": 45251
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/legacy/http.py",
+        "bytes": 7061
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/legacy/protocol.py",
+        "bytes": 63758
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/legacy/exceptions.py",
+        "bytes": 1924
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/legacy/client.py",
+        "bytes": 26815
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/legacy/handshake.py",
+        "bytes": 5285
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/legacy/__init__.py",
+        "bytes": 276
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/legacy/framing.py",
+        "bytes": 6366
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/sync/server.py",
+        "bytes": 27655
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/sync/utils.py",
+        "bytes": 1107
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/sync/connection.py",
+        "bytes": 41824
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/sync/messages.py",
+        "bytes": 12858
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/sync/router.py",
+        "bytes": 7172
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/sync/client.py",
+        "bytes": 22108
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/lib/websockets/sync/__init__.py",
+        "bytes": 0
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/utils/logger.py",
+        "bytes": 1354
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/utils/text_wrap.py",
+        "bytes": 4278
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/utils/__init__.py",
+        "bytes": 107
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/assets/logo.png",
+        "bytes": 1247
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/ui/sidebar_panel.py",
+        "bytes": 4191
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/ui/__init__.py",
+        "bytes": 124
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/core/ws_server.py",
+        "bytes": 25641
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/core/status_manager.py",
+        "bytes": 3895
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/core/task.py",
+        "bytes": 1340
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/core/file_transfer.py",
+        "bytes": 1693
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/core/bind_errors.py",
+        "bytes": 2109
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/core/__init__.py",
+        "bytes": 115
+      },
+      {
+        "path": "Tripo3d_Blender_Bridge/core/model_loader.py",
+        "bytes": 19993
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH001",
+    "archiveSha256": "8260e3f9344c56bbc508862131a5a05b24b9f0f8dc1d51281531bf0f2e0440fb",
+    "models": [],
+    "kind": "Blender addon source (extracted only)"
+  },
+  {
+    "id": "NH002",
+    "archive": "air+vent+grille+3d+model.zip",
+    "archiveBytes": 77134849,
+    "unpackedBytes": 80533624,
+    "files": [
+      {
+        "path": "tripo_convert_116a6331-f3cd-4b81-a03d-8f118a9c91a8.fbx",
+        "bytes": 66678876
+      },
+      {
+        "path": "tripo_convert_116a6331-f3cd-4b81-a03d-8f118a9c91a8.fbm/tripo_image_116a6331-f3cd-4b81-a03d-8f118a9c91a8_0_Metallic.jpg",
+        "bytes": 2036408
+      },
+      {
+        "path": "tripo_convert_116a6331-f3cd-4b81-a03d-8f118a9c91a8.fbm/tripo_image_116a6331_1.jpg",
+        "bytes": 2053648
+      },
+      {
+        "path": "tripo_convert_116a6331-f3cd-4b81-a03d-8f118a9c91a8.fbm/tripo_image_116a6331-f3cd-4b81-a03d-8f118a9c91a8_0_Roughness.jpg",
+        "bytes": 1824819
+      },
+      {
+        "path": "tripo_convert_116a6331-f3cd-4b81-a03d-8f118a9c91a8.fbm/tripo_image_116a6331_2.png",
+        "bytes": 4755717
+      },
+      {
+        "path": "tripo_convert_116a6331-f3cd-4b81-a03d-8f118a9c91a8.fbm/tripo_image_116a6331_0.jpg",
+        "bytes": 3184156
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH002",
+    "archiveSha256": "5e81faa971d27168500ad96b33fa6f3614941bdbf76742f13ee90f24121743bf",
+    "models": [
+      "02_解压原文件/NH002/tripo_convert_116a6331-f3cd-4b81-a03d-8f118a9c91a8.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH003",
+    "archive": "armchair+3d+model.zip",
+    "archiveBytes": 32486355,
+    "unpackedBytes": 34190474,
+    "files": [
+      {
+        "path": "tripo_convert_cc346168-8cbb-446a-8b1a-3c4a5172bd9c.fbx",
+        "bytes": 32297996
+      },
+      {
+        "path": "tripo_convert_cc346168-8cbb-446a-8b1a-3c4a5172bd9c.fbm/tripo_image_cc346168_0.jpg",
+        "bytes": 1892478
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH003",
+    "archiveSha256": "abb9c4b42ce1df6d94289d614aa20044489b3679758c43af368a5e93e65f8870",
+    "models": [
+      "02_解压原文件/NH003/tripo_convert_cc346168-8cbb-446a-8b1a-3c4a5172bd9c.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH004",
+    "archive": "bathroom+sink+cabinet+3d+model.zip",
+    "archiveBytes": 63377458,
+    "unpackedBytes": 66942014,
+    "files": [
+      {
+        "path": "tripo_convert_67969cb1-7b34-4f8a-97ba-1903a727779d.fbx",
+        "bytes": 59657244
+      },
+      {
+        "path": "tripo_convert_67969cb1-7b34-4f8a-97ba-1903a727779d.fbm/tripo_image_67969cb1_0.jpg",
+        "bytes": 1875942
+      },
+      {
+        "path": "tripo_convert_67969cb1-7b34-4f8a-97ba-1903a727779d.fbm/tripo_image_67969cb1_1.jpg",
+        "bytes": 1279696
+      },
+      {
+        "path": "tripo_convert_67969cb1-7b34-4f8a-97ba-1903a727779d.fbm/tripo_image_67969cb1-7b34-4f8a-97ba-1903a727779d_0_Metallic.jpg",
+        "bytes": 1204596
+      },
+      {
+        "path": "tripo_convert_67969cb1-7b34-4f8a-97ba-1903a727779d.fbm/tripo_image_67969cb1-7b34-4f8a-97ba-1903a727779d_0_Roughness.jpg",
+        "bytes": 1103210
+      },
+      {
+        "path": "tripo_convert_67969cb1-7b34-4f8a-97ba-1903a727779d.fbm/tripo_image_67969cb1_2.png",
+        "bytes": 1821326
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH004",
+    "archiveSha256": "a8065b4f350b19f52058ceaf83054e324e624d19005f363092b701efb0873152",
+    "models": [
+      "02_解压原文件/NH004/tripo_convert_67969cb1-7b34-4f8a-97ba-1903a727779d.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH005",
+    "archive": "beige+rectangular+mat+3d+model.zip",
+    "archiveBytes": 32614597,
+    "unpackedBytes": 34417623,
+    "files": [
+      {
+        "path": "tripo_convert_d333e79d-eb3d-4a54-81d8-66bc0d61456e.fbx",
+        "bytes": 32983436
+      },
+      {
+        "path": "tripo_convert_d333e79d-eb3d-4a54-81d8-66bc0d61456e.fbm/tripo_image_d333e79d_0.jpg",
+        "bytes": 1434187
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH005",
+    "archiveSha256": "6b491f739703ce645e818c330e3ebd98c81ebb961cbe3301898d4fbcb0b4e3be",
+    "models": [
+      "02_解压原文件/NH005/tripo_convert_d333e79d-eb3d-4a54-81d8-66bc0d61456e.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH006",
+    "archive": "beige+rug+3d+model.zip",
+    "archiveBytes": 28315432,
+    "unpackedBytes": 30044552,
+    "files": [
+      {
+        "path": "tripo_convert_25e95239-a78f-40e0-8870-fdc8c99752e5.fbx",
+        "bytes": 28823196
+      },
+      {
+        "path": "tripo_convert_25e95239-a78f-40e0-8870-fdc8c99752e5.fbm/tripo_image_25e95239_0.jpg",
+        "bytes": 1221356
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH006",
+    "archiveSha256": "2da68510265e6ba64fb5247266c82014ba13e10358c0ce6d443cddf8f32984d4",
+    "models": [
+      "02_解压原文件/NH006/tripo_convert_25e95239-a78f-40e0-8870-fdc8c99752e5.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH007",
+    "archive": "beige+sofa+3d+model.zip",
+    "archiveBytes": 70000237,
+    "unpackedBytes": 73420600,
+    "files": [
+      {
+        "path": "tripo_convert_47cf42eb-c052-453d-acd9-a0b180190d22.fbx",
+        "bytes": 60442780
+      },
+      {
+        "path": "tripo_convert_47cf42eb-c052-453d-acd9-a0b180190d22.fbm/tripo_image_47cf42eb_0.jpg",
+        "bytes": 4332287
+      },
+      {
+        "path": "tripo_convert_47cf42eb-c052-453d-acd9-a0b180190d22.fbm/tripo_image_47cf42eb_2.png",
+        "bytes": 4249684
+      },
+      {
+        "path": "tripo_convert_47cf42eb-c052-453d-acd9-a0b180190d22.fbm/tripo_image_47cf42eb-c052-453d-acd9-a0b180190d22_0_Roughness.jpg",
+        "bytes": 1419316
+      },
+      {
+        "path": "tripo_convert_47cf42eb-c052-453d-acd9-a0b180190d22.fbm/tripo_image_47cf42eb-c052-453d-acd9-a0b180190d22_0_Metallic.jpg",
+        "bytes": 1443018
+      },
+      {
+        "path": "tripo_convert_47cf42eb-c052-453d-acd9-a0b180190d22.fbm/tripo_image_47cf42eb_1.jpg",
+        "bytes": 1533515
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH007",
+    "archiveSha256": "88d925636641a7be6909852dc0540237049bb1f526592c777e3735b7b194de36",
+    "models": [
+      "02_解压原文件/NH007/tripo_convert_47cf42eb-c052-453d-acd9-a0b180190d22.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH008",
+    "archive": "book+3d+model.zip",
+    "archiveBytes": 38849774,
+    "unpackedBytes": 40621279,
+    "files": [
+      {
+        "path": "tripo_convert_54e80fb0-ad56-49f1-8be3-ca6351695ba0.fbx",
+        "bytes": 40196668
+      },
+      {
+        "path": "tripo_convert_54e80fb0-ad56-49f1-8be3-ca6351695ba0.fbm/tripo_image_54e80fb0_0.jpg",
+        "bytes": 424611
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH008",
+    "archiveSha256": "274f13f04c929730bbb8a20632db8f6c6870720bfd93188314d3fff3f8a03ea1",
+    "models": [
+      "02_解压原文件/NH008/tripo_convert_54e80fb0-ad56-49f1-8be3-ca6351695ba0.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH009",
+    "archive": "cat+scratching+post+3d+model.zip",
+    "archiveBytes": 65523726,
+    "unpackedBytes": 69060319,
+    "files": [
+      {
+        "path": "tripo_convert_fdca3a62-9114-41a2-b77d-fb953cb007e5.fbx",
+        "bytes": 56302956
+      },
+      {
+        "path": "tripo_convert_fdca3a62-9114-41a2-b77d-fb953cb007e5.fbm/tripo_image_fdca3a62_2.png",
+        "bytes": 5532445
+      },
+      {
+        "path": "tripo_convert_fdca3a62-9114-41a2-b77d-fb953cb007e5.fbm/tripo_image_fdca3a62-9114-41a2-b77d-fb953cb007e5_0_Roughness.jpg",
+        "bytes": 1099736
+      },
+      {
+        "path": "tripo_convert_fdca3a62-9114-41a2-b77d-fb953cb007e5.fbm/tripo_image_fdca3a62-9114-41a2-b77d-fb953cb007e5_0_Metallic.jpg",
+        "bytes": 1104123
+      },
+      {
+        "path": "tripo_convert_fdca3a62-9114-41a2-b77d-fb953cb007e5.fbm/tripo_image_fdca3a62_0.jpg",
+        "bytes": 3849028
+      },
+      {
+        "path": "tripo_convert_fdca3a62-9114-41a2-b77d-fb953cb007e5.fbm/tripo_image_fdca3a62_1.jpg",
+        "bytes": 1172031
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH009",
+    "archiveSha256": "42f5790664b3d221e5f98d49ca3d9ffa9707752129392044e0cfc8f27fadb5fb",
+    "models": [
+      "02_解压原文件/NH009/tripo_convert_fdca3a62-9114-41a2-b77d-fb953cb007e5.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH010",
+    "archive": "ceiling+light+3d+model.zip",
+    "archiveBytes": 28107204,
+    "unpackedBytes": 29839101,
+    "files": [
+      {
+        "path": "tripo_convert_1f8ec88a-0bfb-45da-97d9-8fa27c6c1d68.fbx",
+        "bytes": 29479452
+      },
+      {
+        "path": "tripo_convert_1f8ec88a-0bfb-45da-97d9-8fa27c6c1d68.fbm/tripo_image_1f8ec88a_0.jpg",
+        "bytes": 359649
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH010",
+    "archiveSha256": "a2609e97db9336aa4e867895a181585f11fbf6d35b3df241b56df8c47effb787",
+    "models": [
+      "02_解压原文件/NH010/tripo_convert_1f8ec88a-0bfb-45da-97d9-8fa27c6c1d68.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH011",
+    "archive": "ceramic+bowl+fountain+3d+model.zip",
+    "archiveBytes": 66585720,
+    "unpackedBytes": 70151612,
+    "files": [
+      {
+        "path": "tripo_convert_d13bb9d7-576f-4886-b6ee-a5097bbdcb60.fbx",
+        "bytes": 62702908
+      },
+      {
+        "path": "tripo_convert_d13bb9d7-576f-4886-b6ee-a5097bbdcb60.fbm/tripo_image_d13bb9d7_1.jpg",
+        "bytes": 835358
+      },
+      {
+        "path": "tripo_convert_d13bb9d7-576f-4886-b6ee-a5097bbdcb60.fbm/tripo_image_d13bb9d7-576f-4886-b6ee-a5097bbdcb60_0_Metallic.jpg",
+        "bytes": 843181
+      },
+      {
+        "path": "tripo_convert_d13bb9d7-576f-4886-b6ee-a5097bbdcb60.fbm/tripo_image_d13bb9d7-576f-4886-b6ee-a5097bbdcb60_0_Roughness.jpg",
+        "bytes": 804577
+      },
+      {
+        "path": "tripo_convert_d13bb9d7-576f-4886-b6ee-a5097bbdcb60.fbm/tripo_image_d13bb9d7_2.png",
+        "bytes": 3323095
+      },
+      {
+        "path": "tripo_convert_d13bb9d7-576f-4886-b6ee-a5097bbdcb60.fbm/tripo_image_d13bb9d7_0.jpg",
+        "bytes": 1642493
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH011",
+    "archiveSha256": "673c033dc9f00563ff071bc6ccd0f674e1303eae330d0100c90ebd5f11b4923c",
+    "models": [
+      "02_解压原文件/NH011/tripo_convert_d13bb9d7-576f-4886-b6ee-a5097bbdcb60.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH012",
+    "archive": "ceramic+mug+3d+model.zip",
+    "archiveBytes": 31162548,
+    "unpackedBytes": 32883382,
+    "files": [
+      {
+        "path": "tripo_convert_32387dd6-40c2-40dc-ad15-6eaf79507db4.fbx",
+        "bytes": 32506892
+      },
+      {
+        "path": "tripo_convert_32387dd6-40c2-40dc-ad15-6eaf79507db4.fbm/tripo_image_32387dd6_0.jpg",
+        "bytes": 376490
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH012",
+    "archiveSha256": "839bb508a28c833984bb5f0b6a2a1989c67af4c77e15689623f678efca792c0a",
+    "models": [
+      "02_解压原文件/NH012/tripo_convert_32387dd6-40c2-40dc-ad15-6eaf79507db4.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH013",
+    "archive": "ceramic+pot+3d+model (1).zip",
+    "archiveBytes": 31787446,
+    "unpackedBytes": 33564814,
+    "files": [
+      {
+        "path": "tripo_convert_1e3660fe-c35b-4d57-8bbf-3c0df9bed873.fbx",
+        "bytes": 33219388
+      },
+      {
+        "path": "tripo_convert_1e3660fe-c35b-4d57-8bbf-3c0df9bed873.fbm/tripo_image_1e3660fe_0.jpg",
+        "bytes": 345426
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH013",
+    "archiveSha256": "98013b8ec773e1070ca81cb5dd8f79c12b55501ab9ce4c44edd1bb9c854fb401",
+    "models": [
+      "02_解压原文件/NH013/tripo_convert_1e3660fe-c35b-4d57-8bbf-3c0df9bed873.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH014",
+    "archive": "ceramic+pot+3d+model.zip",
+    "archiveBytes": 24063652,
+    "unpackedBytes": 25470508,
+    "files": [
+      {
+        "path": "tripo_convert_df2823e6-1030-4ec1-88ed-10985bee9aad.fbx",
+        "bytes": 25470508
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH014",
+    "archiveSha256": "c3a34d7322a7114ce8bbba13bcaf69a6085fd56750d8f8014ef62ea86d74d1d1",
+    "models": [
+      "02_解压原文件/NH014/tripo_convert_df2823e6-1030-4ec1-88ed-10985bee9aad.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH015",
+    "archive": "double+bowl+pet+feeder+3d+model.zip",
+    "archiveBytes": 73289734,
+    "unpackedBytes": 76698545,
+    "files": [
+      {
+        "path": "tripo_convert_8cc80a44-886c-4881-a8b0-500e02c20d71.fbx",
+        "bytes": 57496044
+      },
+      {
+        "path": "tripo_convert_8cc80a44-886c-4881-a8b0-500e02c20d71.fbm/tripo_image_8cc80a44-886c-4881-a8b0-500e02c20d71_0_Roughness.jpg",
+        "bytes": 1848989
+      },
+      {
+        "path": "tripo_convert_8cc80a44-886c-4881-a8b0-500e02c20d71.fbm/tripo_image_8cc80a44-886c-4881-a8b0-500e02c20d71_0_Metallic.jpg",
+        "bytes": 1861254
+      },
+      {
+        "path": "tripo_convert_8cc80a44-886c-4881-a8b0-500e02c20d71.fbm/tripo_image_8cc80a44_1.jpg",
+        "bytes": 1996464
+      },
+      {
+        "path": "tripo_convert_8cc80a44-886c-4881-a8b0-500e02c20d71.fbm/tripo_image_8cc80a44_0.jpg",
+        "bytes": 2858036
+      },
+      {
+        "path": "tripo_convert_8cc80a44-886c-4881-a8b0-500e02c20d71.fbm/tripo_image_8cc80a44_2.png",
+        "bytes": 10637758
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH015",
+    "archiveSha256": "59b744713b573612f5f2ad6a6bdbc1031e77ed443fa52e7690f218b469d25610",
+    "models": [
+      "02_解压原文件/NH015/tripo_convert_8cc80a44-886c-4881-a8b0-500e02c20d71.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH016",
+    "archive": "green+cushion+3d+model.zip",
+    "archiveBytes": 30938691,
+    "unpackedBytes": 32655747,
+    "files": [
+      {
+        "path": "tripo_convert_10c4cb33-ff8f-4d53-adb9-0ad6535d4db0.fbx",
+        "bytes": 30697388
+      },
+      {
+        "path": "tripo_convert_10c4cb33-ff8f-4d53-adb9-0ad6535d4db0.fbm/tripo_image_10c4cb33_0.jpg",
+        "bytes": 1958359
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH016",
+    "archiveSha256": "af0b5d72e6c2bfa9be2beb8a1e30797204130973cea31abfddfd80b50a840642",
+    "models": [
+      "02_解压原文件/NH016/tripo_convert_10c4cb33-ff8f-4d53-adb9-0ad6535d4db0.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH017",
+    "archive": "induction+cooktop+3d+model.zip",
+    "archiveBytes": 80536390,
+    "unpackedBytes": 84149703,
+    "files": [
+      {
+        "path": "tripo_convert_46f087f4-29aa-41b9-9462-4b037e278b88.fbx",
+        "bytes": 76176652
+      },
+      {
+        "path": "tripo_convert_46f087f4-29aa-41b9-9462-4b037e278b88.fbm/tripo_image_46f087f4_2.png",
+        "bytes": 2442303
+      },
+      {
+        "path": "tripo_convert_46f087f4-29aa-41b9-9462-4b037e278b88.fbm/tripo_image_46f087f4-29aa-41b9-9462-4b037e278b88_0_Roughness.jpg",
+        "bytes": 1131975
+      },
+      {
+        "path": "tripo_convert_46f087f4-29aa-41b9-9462-4b037e278b88.fbm/tripo_image_46f087f4_0.jpg",
+        "bytes": 1745537
+      },
+      {
+        "path": "tripo_convert_46f087f4-29aa-41b9-9462-4b037e278b88.fbm/tripo_image_46f087f4-29aa-41b9-9462-4b037e278b88_0_Metallic.jpg",
+        "bytes": 1394172
+      },
+      {
+        "path": "tripo_convert_46f087f4-29aa-41b9-9462-4b037e278b88.fbm/tripo_image_46f087f4_1.jpg",
+        "bytes": 1259064
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH017",
+    "archiveSha256": "6acdf2a5346c651977185a6b4c879e8fa45fa9261ca9a83fe0b255e3d41ed48a",
+    "models": [
+      "02_解压原文件/NH017/tripo_convert_46f087f4-29aa-41b9-9462-4b037e278b88.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH018",
+    "archive": "kitchen+cabinet+3d+model.zip",
+    "archiveBytes": 28636643,
+    "unpackedBytes": 30328184,
+    "files": [
+      {
+        "path": "tripo_convert_ef606df7-69d4-4464-ab80-cb66a58ebc4f.fbx",
+        "bytes": 29866108
+      },
+      {
+        "path": "tripo_convert_ef606df7-69d4-4464-ab80-cb66a58ebc4f.fbm/tripo_image_ef606df7_0.jpg",
+        "bytes": 462076
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH018",
+    "archiveSha256": "731aa9ad436a24f80292bca58da7ef6b93086cee32d7900a2782c85bee0d13fa",
+    "models": [
+      "02_解压原文件/NH018/tripo_convert_ef606df7-69d4-4464-ab80-cb66a58ebc4f.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH019",
+    "archive": "kitchen+range+hood+3d+model.zip",
+    "archiveBytes": 62198241,
+    "unpackedBytes": 65605058,
+    "files": [
+      {
+        "path": "tripo_convert_0a29144a-9e88-436d-91d7-b8b923be40e0.fbx",
+        "bytes": 52314748
+      },
+      {
+        "path": "tripo_convert_0a29144a-9e88-436d-91d7-b8b923be40e0.fbm/tripo_image_0a29144a-9e88-436d-91d7-b8b923be40e0_0_Roughness.jpg",
+        "bytes": 1421208
+      },
+      {
+        "path": "tripo_convert_0a29144a-9e88-436d-91d7-b8b923be40e0.fbm/tripo_image_0a29144a_2.png",
+        "bytes": 5425746
+      },
+      {
+        "path": "tripo_convert_0a29144a-9e88-436d-91d7-b8b923be40e0.fbm/tripo_image_0a29144a-9e88-436d-91d7-b8b923be40e0_0_Metallic.jpg",
+        "bytes": 1767458
+      },
+      {
+        "path": "tripo_convert_0a29144a-9e88-436d-91d7-b8b923be40e0.fbm/tripo_image_0a29144a_0.jpg",
+        "bytes": 3102800
+      },
+      {
+        "path": "tripo_convert_0a29144a-9e88-436d-91d7-b8b923be40e0.fbm/tripo_image_0a29144a_1.jpg",
+        "bytes": 1573098
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH019",
+    "archiveSha256": "ac4e31bfd8741b17a51c1792308b42120c8c25440a0abf1b4f90e4fb3f9d3e4b",
+    "models": [
+      "02_解压原文件/NH019/tripo_convert_0a29144a-9e88-436d-91d7-b8b923be40e0.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH020",
+    "archive": "kitchen+sink+3d+model.zip",
+    "archiveBytes": 74227483,
+    "unpackedBytes": 77693914,
+    "files": [
+      {
+        "path": "tripo_convert_5d8921bb-e5a1-4baa-90a2-f75a9f1d9c68.fbx",
+        "bytes": 67756204
+      },
+      {
+        "path": "tripo_convert_5d8921bb-e5a1-4baa-90a2-f75a9f1d9c68.fbm/tripo_image_5d8921bb_0.jpg",
+        "bytes": 1817157
+      },
+      {
+        "path": "tripo_convert_5d8921bb-e5a1-4baa-90a2-f75a9f1d9c68.fbm/tripo_image_5d8921bb-e5a1-4baa-90a2-f75a9f1d9c68_0_Metallic.jpg",
+        "bytes": 1666964
+      },
+      {
+        "path": "tripo_convert_5d8921bb-e5a1-4baa-90a2-f75a9f1d9c68.fbm/tripo_image_5d8921bb_1.jpg",
+        "bytes": 1552850
+      },
+      {
+        "path": "tripo_convert_5d8921bb-e5a1-4baa-90a2-f75a9f1d9c68.fbm/tripo_image_5d8921bb-e5a1-4baa-90a2-f75a9f1d9c68_0_Roughness.jpg",
+        "bytes": 1451671
+      },
+      {
+        "path": "tripo_convert_5d8921bb-e5a1-4baa-90a2-f75a9f1d9c68.fbm/tripo_image_5d8921bb_2.png",
+        "bytes": 3449068
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH020",
+    "archiveSha256": "d3ab34a61ba3a9b8bd3870807d222b1d731cf3cb73f8938500a8677398f2f94a",
+    "models": [
+      "02_解压原文件/NH020/tripo_convert_5d8921bb-e5a1-4baa-90a2-f75a9f1d9c68.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH021",
+    "archive": "knitted+blanket+3d+model.zip",
+    "archiveBytes": 25560192,
+    "unpackedBytes": 27242260,
+    "files": [
+      {
+        "path": "tripo_convert_b9e5a913-8eb3-4756-b97f-4acbc3df00a1.fbx",
+        "bytes": 26007884
+      },
+      {
+        "path": "tripo_convert_b9e5a913-8eb3-4756-b97f-4acbc3df00a1.fbm/tripo_image_b9e5a913_0.jpg",
+        "bytes": 1234376
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH021",
+    "archiveSha256": "5b8b59b554cd472780ff8fe8cb916312401d43fe9d8dba284ac3cad0e94e7a0e",
+    "models": [
+      "02_解压原文件/NH021/tripo_convert_b9e5a913-8eb3-4756-b97f-4acbc3df00a1.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH022",
+    "archive": "knitted+pillow+3d+model.zip",
+    "archiveBytes": 25850108,
+    "unpackedBytes": 27551975,
+    "files": [
+      {
+        "path": "tripo_convert_f1ffb67f-3133-4c60-a2e0-7c50f020da61.fbx",
+        "bytes": 26540940
+      },
+      {
+        "path": "tripo_convert_f1ffb67f-3133-4c60-a2e0-7c50f020da61.fbm/tripo_image_f1ffb67f_0.jpg",
+        "bytes": 1011035
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH022",
+    "archiveSha256": "40684ce20b1520d955eaf9c3c53612890900b34dfcec11d2a8b61101e880be4e",
+    "models": [
+      "02_解压原文件/NH022/tripo_convert_f1ffb67f-3133-4c60-a2e0-7c50f020da61.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH023",
+    "archive": "knitted+pouf+3d+model.zip",
+    "archiveBytes": 27095033,
+    "unpackedBytes": 28870354,
+    "files": [
+      {
+        "path": "tripo_convert_91911ee2-048a-4161-8686-703bfff0a648.fbx",
+        "bytes": 27469276
+      },
+      {
+        "path": "tripo_convert_91911ee2-048a-4161-8686-703bfff0a648.fbm/tripo_image_91911ee2_0.jpg",
+        "bytes": 1401078
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH023",
+    "archiveSha256": "ba4ebc0e83c688f6c166e7f9d0a945d81f9b58b2bbd68e2bfbb475a3cf700491",
+    "models": [
+      "02_解压原文件/NH023/tripo_convert_91911ee2-048a-4161-8686-703bfff0a648.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH024",
+    "archive": "laptop+3d+model.zip",
+    "archiveBytes": 72324529,
+    "unpackedBytes": 75791320,
+    "files": [
+      {
+        "path": "tripo_convert_acb9d2fb-99cc-4623-8ce4-a75b6f7f0479.fbx",
+        "bytes": 64724300
+      },
+      {
+        "path": "tripo_convert_acb9d2fb-99cc-4623-8ce4-a75b6f7f0479.fbm/tripo_image_acb9d2fb_1.jpg",
+        "bytes": 1866881
+      },
+      {
+        "path": "tripo_convert_acb9d2fb-99cc-4623-8ce4-a75b6f7f0479.fbm/tripo_image_acb9d2fb-99cc-4623-8ce4-a75b6f7f0479_0_Metallic.jpg",
+        "bytes": 1917614
+      },
+      {
+        "path": "tripo_convert_acb9d2fb-99cc-4623-8ce4-a75b6f7f0479.fbm/tripo_image_acb9d2fb_0.jpg",
+        "bytes": 2409818
+      },
+      {
+        "path": "tripo_convert_acb9d2fb-99cc-4623-8ce4-a75b6f7f0479.fbm/tripo_image_acb9d2fb-99cc-4623-8ce4-a75b6f7f0479_0_Roughness.jpg",
+        "bytes": 1580399
+      },
+      {
+        "path": "tripo_convert_acb9d2fb-99cc-4623-8ce4-a75b6f7f0479.fbm/tripo_image_acb9d2fb_2.png",
+        "bytes": 3292308
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH024",
+    "archiveSha256": "3bab1a19310fb25b2ba23b0f51ad2ad3cc96c36e9ec4557396da1e16d3c903ad",
+    "models": [
+      "02_解压原文件/NH024/tripo_convert_acb9d2fb-99cc-4623-8ce4-a75b6f7f0479.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH025",
+    "archive": "linear+led+light+3d+model.zip",
+    "archiveBytes": 27586688,
+    "unpackedBytes": 29386723,
+    "files": [
+      {
+        "path": "tripo_convert_f0f831bf-4751-41eb-ae20-747944d194ca.fbx",
+        "bytes": 28956636
+      },
+      {
+        "path": "tripo_convert_f0f831bf-4751-41eb-ae20-747944d194ca.fbm/tripo_image_f0f831bf_0.jpg",
+        "bytes": 430087
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH025",
+    "archiveSha256": "bacd1706eec25efd1df3d8642bbea3d7ebe4ab38060962d95e67d28441c00059",
+    "models": [
+      "02_解压原文件/NH025/tripo_convert_f0f831bf-4751-41eb-ae20-747944d194ca.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH026",
+    "archive": "linear+wall+light+3d+model.zip",
+    "archiveBytes": 54589727,
+    "unpackedBytes": 58084082,
+    "files": [
+      {
+        "path": "tripo_convert_84e58977-33cd-4cad-b673-a1a1be4cdf5a.fbx",
+        "bytes": 50135932
+      },
+      {
+        "path": "tripo_convert_84e58977-33cd-4cad-b673-a1a1be4cdf5a.fbm/tripo_image_84e58977_0.jpg",
+        "bytes": 1698397
+      },
+      {
+        "path": "tripo_convert_84e58977-33cd-4cad-b673-a1a1be4cdf5a.fbm/tripo_image_84e58977-33cd-4cad-b673-a1a1be4cdf5a_0_Metallic.jpg",
+        "bytes": 1534418
+      },
+      {
+        "path": "tripo_convert_84e58977-33cd-4cad-b673-a1a1be4cdf5a.fbm/tripo_image_84e58977_2.png",
+        "bytes": 2121554
+      },
+      {
+        "path": "tripo_convert_84e58977-33cd-4cad-b673-a1a1be4cdf5a.fbm/tripo_image_84e58977_1.jpg",
+        "bytes": 1396852
+      },
+      {
+        "path": "tripo_convert_84e58977-33cd-4cad-b673-a1a1be4cdf5a.fbm/tripo_image_84e58977-33cd-4cad-b673-a1a1be4cdf5a_0_Roughness.jpg",
+        "bytes": 1196929
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH026",
+    "archiveSha256": "bd0658bcec49403f336ccbaa39df38f5855e201f6165b4fb467234a30822f517",
+    "models": [
+      "02_解压原文件/NH026/tripo_convert_84e58977-33cd-4cad-b673-a1a1be4cdf5a.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH027",
+    "archive": "monitor+3d+model.zip",
+    "archiveBytes": 63888234,
+    "unpackedBytes": 67475954,
+    "files": [
+      {
+        "path": "tripo_convert_e633015e-06d4-4cec-ae1d-430ddee2af9c.fbx",
+        "bytes": 60414396
+      },
+      {
+        "path": "tripo_convert_e633015e-06d4-4cec-ae1d-430ddee2af9c.fbm/tripo_image_e633015e_1.jpg",
+        "bytes": 1167327
+      },
+      {
+        "path": "tripo_convert_e633015e-06d4-4cec-ae1d-430ddee2af9c.fbm/tripo_image_e633015e-06d4-4cec-ae1d-430ddee2af9c_0_Roughness.jpg",
+        "bytes": 1104544
+      },
+      {
+        "path": "tripo_convert_e633015e-06d4-4cec-ae1d-430ddee2af9c.fbm/tripo_image_e633015e-06d4-4cec-ae1d-430ddee2af9c_0_Metallic.jpg",
+        "bytes": 1117278
+      },
+      {
+        "path": "tripo_convert_e633015e-06d4-4cec-ae1d-430ddee2af9c.fbm/tripo_image_e633015e_2.png",
+        "bytes": 2012967
+      },
+      {
+        "path": "tripo_convert_e633015e-06d4-4cec-ae1d-430ddee2af9c.fbm/tripo_image_e633015e_0.jpg",
+        "bytes": 1659442
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH027",
+    "archiveSha256": "4f56ed2cf51d8eb861bbe5327de453dfcc706fb54b12d6bfd52692ad79df9696",
+    "models": [
+      "02_解压原文件/NH027/tripo_convert_e633015e-06d4-4cec-ae1d-430ddee2af9c.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH028",
+    "archive": "pendant+lamp+3d+model.zip",
+    "archiveBytes": 30472369,
+    "unpackedBytes": 32243138,
+    "files": [
+      {
+        "path": "tripo_convert_d63ac72b-a323-45ce-b36f-36ffdcdc8674.fbx",
+        "bytes": 31905516
+      },
+      {
+        "path": "tripo_convert_d63ac72b-a323-45ce-b36f-36ffdcdc8674.fbm/tripo_image_d63ac72b_0.jpg",
+        "bytes": 337622
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH028",
+    "archiveSha256": "c02a9255b2b69b27ebef4ce65e9a7367315982a020738f7bfe7b66c655eda2d3",
+    "models": [
+      "02_解压原文件/NH028/tripo_convert_d63ac72b-a323-45ce-b36f-36ffdcdc8674.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH029",
+    "archive": "pothos+plant+3d+model.zip",
+    "archiveBytes": 27757548,
+    "unpackedBytes": 29503555,
+    "files": [
+      {
+        "path": "tripo_convert_cbfb3e00-1d40-41eb-a8d5-e5e016b37b07.fbx",
+        "bytes": 28595676
+      },
+      {
+        "path": "tripo_convert_cbfb3e00-1d40-41eb-a8d5-e5e016b37b07.fbm/tripo_image_cbfb3e00_0.jpg",
+        "bytes": 907879
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH029",
+    "archiveSha256": "d3b7b056e6862c5ab15495482763dd982efc4f8dc807c122b1946f86d43bb36d",
+    "models": [
+      "02_解压原文件/NH029/tripo_convert_cbfb3e00-1d40-41eb-a8d5-e5e016b37b07.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH030",
+    "archive": "potted+grass+3d+model.zip",
+    "archiveBytes": 20447777,
+    "unpackedBytes": 21867292,
+    "files": [
+      {
+        "path": "tripo_convert_8abe5ea3-5354-44cd-b8de-7e5922b02f35.fbx",
+        "bytes": 21867292
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH030",
+    "archiveSha256": "2ea7e9a690b49f13721aa188289611cf316d297cb95d35e1d332be77ae36e317",
+    "models": [
+      "02_解压原文件/NH030/tripo_convert_8abe5ea3-5354-44cd-b8de-7e5922b02f35.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH031",
+    "archive": "potted+plant+3d+model (1).zip",
+    "archiveBytes": 27454524,
+    "unpackedBytes": 29232862,
+    "files": [
+      {
+        "path": "tripo_convert_394e0766-0397-4622-a10e-bb216bad1f69.fbx",
+        "bytes": 28391916
+      },
+      {
+        "path": "tripo_convert_394e0766-0397-4622-a10e-bb216bad1f69.fbm/tripo_image_394e0766_0.jpg",
+        "bytes": 840946
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH031",
+    "archiveSha256": "52e0f19da3feed2f068114d816a9644b4a1dd3cdf715b0a97584c30c0fbdfaf9",
+    "models": [
+      "02_解压原文件/NH031/tripo_convert_394e0766-0397-4622-a10e-bb216bad1f69.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH032",
+    "archive": "potted+plant+3d+model.zip",
+    "archiveBytes": 27350736,
+    "unpackedBytes": 29072321,
+    "files": [
+      {
+        "path": "tripo_convert_72a98cf2-72fc-4ef2-b9b0-44fb9d71d81d.fbx",
+        "bytes": 28287804
+      },
+      {
+        "path": "tripo_convert_72a98cf2-72fc-4ef2-b9b0-44fb9d71d81d.fbm/tripo_image_72a98cf2_0.jpg",
+        "bytes": 784517
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH032",
+    "archiveSha256": "1b52842953a04921b3d85022d01222bd266a0ad29e44c02e568b4ec353581f7b",
+    "models": [
+      "02_解压原文件/NH032/tripo_convert_72a98cf2-72fc-4ef2-b9b0-44fb9d71d81d.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH033",
+    "archive": "quilted+blanket+3d+model.zip",
+    "archiveBytes": 28489329,
+    "unpackedBytes": 30207678,
+    "files": [
+      {
+        "path": "tripo_convert_12dbb2dc-ee90-4913-9cbb-96bf1ea93aeb.fbx",
+        "bytes": 29205980
+      },
+      {
+        "path": "tripo_convert_12dbb2dc-ee90-4913-9cbb-96bf1ea93aeb.fbm/tripo_image_12dbb2dc_0.jpg",
+        "bytes": 1001698
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH033",
+    "archiveSha256": "2f2ef96b8e68a9dc60d33fec1bdee3d0f1d71bd61bfdcc6653fcd4d20ac2d46c",
+    "models": [
+      "02_解压原文件/NH033/tripo_convert_12dbb2dc-ee90-4913-9cbb-96bf1ea93aeb.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH034",
+    "archive": "refrigerator+3d+model.zip",
+    "archiveBytes": 46350903,
+    "unpackedBytes": 49575357,
+    "files": [
+      {
+        "path": "tripo_convert_53561302-405b-4d93-aea0-67d715c06a2e.fbx",
+        "bytes": 41039468
+      },
+      {
+        "path": "tripo_convert_53561302-405b-4d93-aea0-67d715c06a2e.fbm/tripo_image_53561302_2.png",
+        "bytes": 3379413
+      },
+      {
+        "path": "tripo_convert_53561302-405b-4d93-aea0-67d715c06a2e.fbm/tripo_image_53561302-405b-4d93-aea0-67d715c06a2e_0_Metallic.jpg",
+        "bytes": 1262944
+      },
+      {
+        "path": "tripo_convert_53561302-405b-4d93-aea0-67d715c06a2e.fbm/tripo_image_53561302_1.jpg",
+        "bytes": 1167976
+      },
+      {
+        "path": "tripo_convert_53561302-405b-4d93-aea0-67d715c06a2e.fbm/tripo_image_53561302-405b-4d93-aea0-67d715c06a2e_0_Roughness.jpg",
+        "bytes": 1114972
+      },
+      {
+        "path": "tripo_convert_53561302-405b-4d93-aea0-67d715c06a2e.fbm/tripo_image_53561302_0.jpg",
+        "bytes": 1610584
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH034",
+    "archiveSha256": "a6526931d2e6b08f2503ed950ff38c80deba5fd56a8f5ec84129b0fcbbc1484c",
+    "models": [
+      "02_解压原文件/NH034/tripo_convert_53561302-405b-4d93-aea0-67d715c06a2e.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH035",
+    "archive": "round+braided+rug+3d+model.zip",
+    "archiveBytes": 27855611,
+    "unpackedBytes": 29517009,
+    "files": [
+      {
+        "path": "tripo_convert_3e23f086-4774-4e4c-9990-4b61b4be3f40.fbx",
+        "bytes": 28503692
+      },
+      {
+        "path": "tripo_convert_3e23f086-4774-4e4c-9990-4b61b4be3f40.fbm/tripo_image_3e23f086_0.jpg",
+        "bytes": 1013317
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH035",
+    "archiveSha256": "71f106c157ba0e2bd56def8c4fc0916d4e89f6475063dd6b610c818c40dc56e7",
+    "models": [
+      "02_解压原文件/NH035/tripo_convert_3e23f086-4774-4e4c-9990-4b61b4be3f40.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH036",
+    "archive": "sanhua_cat.zip",
+    "archiveBytes": 64327416,
+    "unpackedBytes": 67667789,
+    "files": [
+      {
+        "path": "tripo_convert_05b34d69-d0f8-4a7d-9fca-cea1980d9775.fbx",
+        "bytes": 52961372
+      },
+      {
+        "path": "tripo_convert_05b34d69-d0f8-4a7d-9fca-cea1980d9775.fbm/sanhua_cat_normal.PNG",
+        "bytes": 4465000
+      },
+      {
+        "path": "tripo_convert_05b34d69-d0f8-4a7d-9fca-cea1980d9775.fbm/sanhua_cat_basecolor.JPEG",
+        "bytes": 4870124
+      },
+      {
+        "path": "tripo_convert_05b34d69-d0f8-4a7d-9fca-cea1980d9775.fbm/sanhua_cat_roughness.JPEG",
+        "bytes": 1745028
+      },
+      {
+        "path": "tripo_convert_05b34d69-d0f8-4a7d-9fca-cea1980d9775.fbm/sanhua_cat_metallic.JPEG",
+        "bytes": 1721868
+      },
+      {
+        "path": "tripo_convert_05b34d69-d0f8-4a7d-9fca-cea1980d9775.fbm/sanhua_cat_rm.JPEG",
+        "bytes": 1904397
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH036",
+    "archiveSha256": "2a5667149462b3be647995297059ea4683772d2d86bb784676e5bcb19133e03f",
+    "models": [
+      "02_解压原文件/NH036/tripo_convert_05b34d69-d0f8-4a7d-9fca-cea1980d9775.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH037",
+    "archive": "shower+glass+panel+3d+model.zip",
+    "archiveBytes": 61173930,
+    "unpackedBytes": 64563308,
+    "files": [
+      {
+        "path": "tripo_convert_5a1fd144-5716-4179-ac05-2a9ce068201b.fbx",
+        "bytes": 55235740
+      },
+      {
+        "path": "tripo_convert_5a1fd144-5716-4179-ac05-2a9ce068201b.fbm/tripo_image_5a1fd144-5716-4179-ac05-2a9ce068201b_0_Metallic.jpg",
+        "bytes": 1909966
+      },
+      {
+        "path": "tripo_convert_5a1fd144-5716-4179-ac05-2a9ce068201b.fbm/tripo_image_5a1fd144_1.jpg",
+        "bytes": 1617700
+      },
+      {
+        "path": "tripo_convert_5a1fd144-5716-4179-ac05-2a9ce068201b.fbm/tripo_image_5a1fd144_0.jpg",
+        "bytes": 2061095
+      },
+      {
+        "path": "tripo_convert_5a1fd144-5716-4179-ac05-2a9ce068201b.fbm/tripo_image_5a1fd144-5716-4179-ac05-2a9ce068201b_0_Roughness.jpg",
+        "bytes": 1323284
+      },
+      {
+        "path": "tripo_convert_5a1fd144-5716-4179-ac05-2a9ce068201b.fbm/tripo_image_5a1fd144_2.png",
+        "bytes": 2415523
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH037",
+    "archiveSha256": "a2ce3d6c34767640fd3373990a0471724e456008f5fc5f97b8087223123bb452",
+    "models": [
+      "02_解压原文件/NH037/tripo_convert_5a1fd144-5716-4179-ac05-2a9ce068201b.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH038",
+    "archive": "sliding+glass+door+3d+model (1).zip",
+    "archiveBytes": 60531930,
+    "unpackedBytes": 64064223,
+    "files": [
+      {
+        "path": "tripo_convert_8a95d4d2-2823-4c3f-b4b4-fe34437fc6a5.fbx",
+        "bytes": 57405612
+      },
+      {
+        "path": "tripo_convert_8a95d4d2-2823-4c3f-b4b4-fe34437fc6a5.fbm/tripo_image_8a95d4d2_1.jpg",
+        "bytes": 1368022
+      },
+      {
+        "path": "tripo_convert_8a95d4d2-2823-4c3f-b4b4-fe34437fc6a5.fbm/tripo_image_8a95d4d2-2823-4c3f-b4b4-fe34437fc6a5_0_Roughness.jpg",
+        "bytes": 1196443
+      },
+      {
+        "path": "tripo_convert_8a95d4d2-2823-4c3f-b4b4-fe34437fc6a5.fbm/tripo_image_8a95d4d2-2823-4c3f-b4b4-fe34437fc6a5_0_Metallic.jpg",
+        "bytes": 1418077
+      },
+      {
+        "path": "tripo_convert_8a95d4d2-2823-4c3f-b4b4-fe34437fc6a5.fbm/tripo_image_8a95d4d2_2.png",
+        "bytes": 1126330
+      },
+      {
+        "path": "tripo_convert_8a95d4d2-2823-4c3f-b4b4-fe34437fc6a5.fbm/tripo_image_8a95d4d2_0.jpg",
+        "bytes": 1549739
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH038",
+    "archiveSha256": "fd9040468e9ef915dd1d4d07762d3a3b04d243465bfc4fbd1ebe1641aa334011",
+    "models": [
+      "02_解压原文件/NH038/tripo_convert_8a95d4d2-2823-4c3f-b4b4-fe34437fc6a5.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH039",
+    "archive": "sliding+glass+door+3d+model.zip",
+    "archiveBytes": 66710143,
+    "unpackedBytes": 70149473,
+    "files": [
+      {
+        "path": "tripo_convert_660fb3b2-4d79-4cbf-9801-1cb34537f8fe.fbx",
+        "bytes": 60218028
+      },
+      {
+        "path": "tripo_convert_660fb3b2-4d79-4cbf-9801-1cb34537f8fe.fbm/tripo_image_660fb3b2_1.jpg",
+        "bytes": 1812345
+      },
+      {
+        "path": "tripo_convert_660fb3b2-4d79-4cbf-9801-1cb34537f8fe.fbm/tripo_image_660fb3b2_2.png",
+        "bytes": 2374544
+      },
+      {
+        "path": "tripo_convert_660fb3b2-4d79-4cbf-9801-1cb34537f8fe.fbm/tripo_image_660fb3b2-4d79-4cbf-9801-1cb34537f8fe_0_Roughness.jpg",
+        "bytes": 1555582
+      },
+      {
+        "path": "tripo_convert_660fb3b2-4d79-4cbf-9801-1cb34537f8fe.fbm/tripo_image_660fb3b2_0.jpg",
+        "bytes": 2266491
+      },
+      {
+        "path": "tripo_convert_660fb3b2-4d79-4cbf-9801-1cb34537f8fe.fbm/tripo_image_660fb3b2-4d79-4cbf-9801-1cb34537f8fe_0_Metallic.jpg",
+        "bytes": 1922483
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH039",
+    "archiveSha256": "a1d700aaeba698c2843098d5e85b5125908bc33989289a39bbde8291a653ebaf",
+    "models": [
+      "02_解压原文件/NH039/tripo_convert_660fb3b2-4d79-4cbf-9801-1cb34537f8fe.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH040",
+    "archive": "sliding+glass+window+3d+model.zip",
+    "archiveBytes": 62628834,
+    "unpackedBytes": 66247668,
+    "files": [
+      {
+        "path": "tripo_convert_85bbeb66-b4ea-430a-9295-9d9414c37031.fbx",
+        "bytes": 57858716
+      },
+      {
+        "path": "tripo_convert_85bbeb66-b4ea-430a-9295-9d9414c37031.fbm/tripo_image_85bbeb66_2.png",
+        "bytes": 2537238
+      },
+      {
+        "path": "tripo_convert_85bbeb66-b4ea-430a-9295-9d9414c37031.fbm/tripo_image_85bbeb66-b4ea-430a-9295-9d9414c37031_0_Roughness.jpg",
+        "bytes": 1149101
+      },
+      {
+        "path": "tripo_convert_85bbeb66-b4ea-430a-9295-9d9414c37031.fbm/tripo_image_85bbeb66-b4ea-430a-9295-9d9414c37031_0_Metallic.jpg",
+        "bytes": 1494706
+      },
+      {
+        "path": "tripo_convert_85bbeb66-b4ea-430a-9295-9d9414c37031.fbm/tripo_image_85bbeb66_0.jpg",
+        "bytes": 1864437
+      },
+      {
+        "path": "tripo_convert_85bbeb66-b4ea-430a-9295-9d9414c37031.fbm/tripo_image_85bbeb66_1.jpg",
+        "bytes": 1343470
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH040",
+    "archiveSha256": "6915c28d338eee307bd02191a4a6487848828a9e2a66d5d62884ca5215d01098",
+    "models": [
+      "02_解压原文件/NH040/tripo_convert_85bbeb66-b4ea-430a-9295-9d9414c37031.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH041",
+    "archive": "sliding+window+3d+model.zip",
+    "archiveBytes": 67036579,
+    "unpackedBytes": 70633972,
+    "files": [
+      {
+        "path": "tripo_convert_c01a3f88-9ca9-4ace-9675-3244eaf918c6.fbx",
+        "bytes": 60742380
+      },
+      {
+        "path": "tripo_convert_c01a3f88-9ca9-4ace-9675-3244eaf918c6.fbm/tripo_image_c01a3f88-9ca9-4ace-9675-3244eaf918c6_0_Roughness.jpg",
+        "bytes": 1660510
+      },
+      {
+        "path": "tripo_convert_c01a3f88-9ca9-4ace-9675-3244eaf918c6.fbm/tripo_image_c01a3f88_0.jpg",
+        "bytes": 1806900
+      },
+      {
+        "path": "tripo_convert_c01a3f88-9ca9-4ace-9675-3244eaf918c6.fbm/tripo_image_c01a3f88-9ca9-4ace-9675-3244eaf918c6_0_Metallic.jpg",
+        "bytes": 2329605
+      },
+      {
+        "path": "tripo_convert_c01a3f88-9ca9-4ace-9675-3244eaf918c6.fbm/tripo_image_c01a3f88_2.png",
+        "bytes": 2201794
+      },
+      {
+        "path": "tripo_convert_c01a3f88-9ca9-4ace-9675-3244eaf918c6.fbm/tripo_image_c01a3f88_1.jpg",
+        "bytes": 1892783
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH041",
+    "archiveSha256": "66d4f3b52f4898741c0daf2bd863818907726259ed2a5848299c0ed575a8d339",
+    "models": [
+      "02_解压原文件/NH041/tripo_convert_c01a3f88-9ca9-4ace-9675-3244eaf918c6.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH042",
+    "archive": "soap+dispenser+3d+model.zip",
+    "archiveBytes": 24473342,
+    "unpackedBytes": 25916012,
+    "files": [
+      {
+        "path": "tripo_convert_3b63d991-9ea5-4f8e-9e65-2c425f458a1e.fbx",
+        "bytes": 25916012
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH042",
+    "archiveSha256": "20d5cff9aa7b2c28c94e6d5b548c416bee0d3fb91a0aee8ffddc886536ea16bc",
+    "models": [
+      "02_解压原文件/NH042/tripo_convert_3b63d991-9ea5-4f8e-9e65-2c425f458a1e.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH043",
+    "archive": "sugar+jar+3d+model.zip",
+    "archiveBytes": 23136424,
+    "unpackedBytes": 24598956,
+    "files": [
+      {
+        "path": "tripo_convert_f217ee99-6966-487e-bea2-be1d52e31360.fbx",
+        "bytes": 24598956
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH043",
+    "archiveSha256": "84fdd6928c0133c23dde65483a61485154e667cef93745c68d75088ace2710b9",
+    "models": [
+      "02_解压原文件/NH043/tripo_convert_f217ee99-6966-487e-bea2-be1d52e31360.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH044",
+    "archive": "table+lamp+3d+model.zip",
+    "archiveBytes": 30089418,
+    "unpackedBytes": 31817856,
+    "files": [
+      {
+        "path": "tripo_convert_36cf737d-5bc3-42a8-8d1d-d785de66c7b0.fbx",
+        "bytes": 31480364
+      },
+      {
+        "path": "tripo_convert_36cf737d-5bc3-42a8-8d1d-d785de66c7b0.fbm/tripo_image_36cf737d_0.jpg",
+        "bytes": 337492
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH044",
+    "archiveSha256": "8fd0e8ce0c93dfedb566d5b9207d2922e4537c8081e1f5f1827c2d0192cd5d0c",
+    "models": [
+      "02_解压原文件/NH044/tripo_convert_36cf737d-5bc3-42a8-8d1d-d785de66c7b0.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH045",
+    "archive": "toilet+3d+model.zip",
+    "archiveBytes": 73138117,
+    "unpackedBytes": 76870290,
+    "files": [
+      {
+        "path": "tripo_convert_f6d3c3fa-04e3-4e91-b85b-cdfa8147b991.fbx",
+        "bytes": 69815244
+      },
+      {
+        "path": "tripo_convert_f6d3c3fa-04e3-4e91-b85b-cdfa8147b991.fbm/tripo_image_f6d3c3fa-04e3-4e91-b85b-cdfa8147b991_0_Metallic.jpg",
+        "bytes": 673446
+      },
+      {
+        "path": "tripo_convert_f6d3c3fa-04e3-4e91-b85b-cdfa8147b991.fbm/tripo_image_f6d3c3fa-04e3-4e91-b85b-cdfa8147b991_0_Roughness.jpg",
+        "bytes": 678013
+      },
+      {
+        "path": "tripo_convert_f6d3c3fa-04e3-4e91-b85b-cdfa8147b991.fbm/tripo_image_f6d3c3fa_0.jpg",
+        "bytes": 1541734
+      },
+      {
+        "path": "tripo_convert_f6d3c3fa-04e3-4e91-b85b-cdfa8147b991.fbm/tripo_image_f6d3c3fa_2.png",
+        "bytes": 3457348
+      },
+      {
+        "path": "tripo_convert_f6d3c3fa-04e3-4e91-b85b-cdfa8147b991.fbm/tripo_image_f6d3c3fa_1.jpg",
+        "bytes": 704505
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH045",
+    "archiveSha256": "f720d98e3a7d667edee1bb9f1e71760dd271e41d714b37a09665b0443249d35a",
+    "models": [
+      "02_解压原文件/NH045/tripo_convert_f6d3c3fa-04e3-4e91-b85b-cdfa8147b991.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH046",
+    "archive": "towel+3d+model.zip",
+    "archiveBytes": 21876531,
+    "unpackedBytes": 23327340,
+    "files": [
+      {
+        "path": "tripo_convert_5f77a4f8-9f8d-4d57-9b14-74202f5186a4.fbx",
+        "bytes": 23327340
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH046",
+    "archiveSha256": "3795960bccaf723da20c0333924acf958f5f8b3c71a5b4a780516fd4df597d9a",
+    "models": [
+      "02_解压原文件/NH046/tripo_convert_5f77a4f8-9f8d-4d57-9b14-74202f5186a4.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH047",
+    "archive": "washing+machine+3d+model.zip",
+    "archiveBytes": 61395173,
+    "unpackedBytes": 64767332,
+    "files": [
+      {
+        "path": "tripo_convert_6ba9f597-b33d-45df-becd-171a1dcc9c35.fbx",
+        "bytes": 55787692
+      },
+      {
+        "path": "tripo_convert_6ba9f597-b33d-45df-becd-171a1dcc9c35.fbm/tripo_image_6ba9f597-b33d-45df-becd-171a1dcc9c35_0_Roughness.jpg",
+        "bytes": 1171565
+      },
+      {
+        "path": "tripo_convert_6ba9f597-b33d-45df-becd-171a1dcc9c35.fbm/tripo_image_6ba9f597_2.png",
+        "bytes": 3189383
+      },
+      {
+        "path": "tripo_convert_6ba9f597-b33d-45df-becd-171a1dcc9c35.fbm/tripo_image_6ba9f597_1.jpg",
+        "bytes": 1274088
+      },
+      {
+        "path": "tripo_convert_6ba9f597-b33d-45df-becd-171a1dcc9c35.fbm/tripo_image_6ba9f597-b33d-45df-becd-171a1dcc9c35_0_Metallic.jpg",
+        "bytes": 1335300
+      },
+      {
+        "path": "tripo_convert_6ba9f597-b33d-45df-becd-171a1dcc9c35.fbm/tripo_image_6ba9f597_0.jpg",
+        "bytes": 2009304
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH047",
+    "archiveSha256": "0b8a2f0e241273c9186791b8ad40a287b6044879e1f4b6903f6df3f7cf29bbe7",
+    "models": [
+      "02_解压原文件/NH047/tripo_convert_6ba9f597-b33d-45df-becd-171a1dcc9c35.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH048",
+    "archive": "white+pillow+3d+model.zip",
+    "archiveBytes": 27661790,
+    "unpackedBytes": 29319814,
+    "files": [
+      {
+        "path": "tripo_convert_4a973ddf-0a08-4399-b7bb-d0f1104ebe07.fbx",
+        "bytes": 28985612
+      },
+      {
+        "path": "tripo_convert_4a973ddf-0a08-4399-b7bb-d0f1104ebe07.fbm/tripo_image_4a973ddf_0.jpg",
+        "bytes": 334202
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH048",
+    "archiveSha256": "b1337d70685c67b391276fa198f0b1d2b16b1978ca7c74c2c5f463d5e11bcd9d",
+    "models": [
+      "02_解压原文件/NH048/tripo_convert_4a973ddf-0a08-4399-b7bb-d0f1104ebe07.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH049",
+    "archive": "window+frame+3d+model.zip",
+    "archiveBytes": 65309652,
+    "unpackedBytes": 68730159,
+    "files": [
+      {
+        "path": "tripo_convert_6c6fa4bd-554a-422b-a40b-fd5e9990033c.fbx",
+        "bytes": 58179404
+      },
+      {
+        "path": "tripo_convert_6c6fa4bd-554a-422b-a40b-fd5e9990033c.fbm/tripo_image_6c6fa4bd_2.png",
+        "bytes": 3083764
+      },
+      {
+        "path": "tripo_convert_6c6fa4bd-554a-422b-a40b-fd5e9990033c.fbm/tripo_image_6c6fa4bd-554a-422b-a40b-fd5e9990033c_0_Metallic.jpg",
+        "bytes": 1489844
+      },
+      {
+        "path": "tripo_convert_6c6fa4bd-554a-422b-a40b-fd5e9990033c.fbm/tripo_image_6c6fa4bd_1.jpg",
+        "bytes": 1712040
+      },
+      {
+        "path": "tripo_convert_6c6fa4bd-554a-422b-a40b-fd5e9990033c.fbm/tripo_image_6c6fa4bd-554a-422b-a40b-fd5e9990033c_0_Roughness.jpg",
+        "bytes": 1572059
+      },
+      {
+        "path": "tripo_convert_6c6fa4bd-554a-422b-a40b-fd5e9990033c.fbm/tripo_image_6c6fa4bd_0.jpg",
+        "bytes": 2693048
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH049",
+    "archiveSha256": "6d1eb5d0da445b5ee0db31f4bf7dae613373331b42bf3871378023150cefc818",
+    "models": [
+      "02_解压原文件/NH049/tripo_convert_6c6fa4bd-554a-422b-a40b-fd5e9990033c.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH050",
+    "archive": "wooden+bed+3d+model (1).zip",
+    "archiveBytes": 29310421,
+    "unpackedBytes": 30948484,
+    "files": [
+      {
+        "path": "tripo_convert_31b33506-5332-4e45-a590-604a18951240.fbx",
+        "bytes": 30377452
+      },
+      {
+        "path": "tripo_convert_31b33506-5332-4e45-a590-604a18951240.fbm/tripo_image_31b33506_0.jpg",
+        "bytes": 571032
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH050",
+    "archiveSha256": "158d024520e89bdc9e51b31bb2172a42b8a1211ac31de42f572ff73f31bb5101",
+    "models": [
+      "02_解压原文件/NH050/tripo_convert_31b33506-5332-4e45-a590-604a18951240.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH051",
+    "archive": "wooden+bed+3d+model.zip",
+    "archiveBytes": 29270312,
+    "unpackedBytes": 30922687,
+    "files": [
+      {
+        "path": "tripo_convert_b3815ce0-ec0f-4e67-9e6e-e0fa346183ca.fbx",
+        "bytes": 30371692
+      },
+      {
+        "path": "tripo_convert_b3815ce0-ec0f-4e67-9e6e-e0fa346183ca.fbm/tripo_image_b3815ce0_0.jpg",
+        "bytes": 550995
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH051",
+    "archiveSha256": "20e137c097bf208ae3c76708afce0c95bf2932514ebdef13e43229797f4ed909",
+    "models": [
+      "02_解压原文件/NH051/tripo_convert_b3815ce0-ec0f-4e67-9e6e-e0fa346183ca.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH052",
+    "archive": "wooden+bench+3d+model (1).zip",
+    "archiveBytes": 32719777,
+    "unpackedBytes": 34371237,
+    "files": [
+      {
+        "path": "tripo_convert_7d879076-a5a2-4fde-b3d4-72c3e4503460.fbx",
+        "bytes": 33586188
+      },
+      {
+        "path": "tripo_convert_7d879076-a5a2-4fde-b3d4-72c3e4503460.fbm/tripo_image_7d879076_0.jpg",
+        "bytes": 785049
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH052",
+    "archiveSha256": "bc1e7b8c74b3fe08504b41661964cf6c30795cbfe64aba2bcf4f148d1e2ddcff",
+    "models": [
+      "02_解压原文件/NH052/tripo_convert_7d879076-a5a2-4fde-b3d4-72c3e4503460.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH053",
+    "archive": "wooden+bench+3d+model.zip",
+    "archiveBytes": 31432350,
+    "unpackedBytes": 33093764,
+    "files": [
+      {
+        "path": "tripo_convert_4a8b1d75-0b46-466d-b0d0-ca66700efee8.fbx",
+        "bytes": 32309836
+      },
+      {
+        "path": "tripo_convert_4a8b1d75-0b46-466d-b0d0-ca66700efee8.fbm/tripo_image_4a8b1d75_0.jpg",
+        "bytes": 783928
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH053",
+    "archiveSha256": "a5c933a51c3507693d96b0cc390779396cf4600c54d0478cef2deee279ec905a",
+    "models": [
+      "02_解压原文件/NH053/tripo_convert_4a8b1d75-0b46-466d-b0d0-ca66700efee8.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH054",
+    "archive": "wooden+block+3d+model.zip",
+    "archiveBytes": 79890545,
+    "unpackedBytes": 83408272,
+    "files": [
+      {
+        "path": "tripo_convert_b65f52d0-011c-4906-ab68-8b28fb184555.fbx",
+        "bytes": 59757644
+      },
+      {
+        "path": "tripo_convert_b65f52d0-011c-4906-ab68-8b28fb184555.fbm/tripo_image_b65f52d0_2.png",
+        "bytes": 13716746
+      },
+      {
+        "path": "tripo_convert_b65f52d0-011c-4906-ab68-8b28fb184555.fbm/tripo_image_b65f52d0_0.jpg",
+        "bytes": 6233977
+      },
+      {
+        "path": "tripo_convert_b65f52d0-011c-4906-ab68-8b28fb184555.fbm/tripo_image_b65f52d0-011c-4906-ab68-8b28fb184555_0_Metallic.jpg",
+        "bytes": 1282991
+      },
+      {
+        "path": "tripo_convert_b65f52d0-011c-4906-ab68-8b28fb184555.fbm/tripo_image_b65f52d0-011c-4906-ab68-8b28fb184555_0_Roughness.jpg",
+        "bytes": 1191440
+      },
+      {
+        "path": "tripo_convert_b65f52d0-011c-4906-ab68-8b28fb184555.fbm/tripo_image_b65f52d0_1.jpg",
+        "bytes": 1225474
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH054",
+    "archiveSha256": "3b25ce596741e31fe30b681ac7958560c200005d2b78e9620d0a0414789fe70f",
+    "models": [
+      "02_解压原文件/NH054/tripo_convert_b65f52d0-011c-4906-ab68-8b28fb184555.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH055",
+    "archive": "wooden+cabinet+3d+model (1).zip",
+    "archiveBytes": 29277640,
+    "unpackedBytes": 31019886,
+    "files": [
+      {
+        "path": "tripo_convert_a52d3d72-8c90-4788-9054-69f9614b1f19.fbx",
+        "bytes": 30560108
+      },
+      {
+        "path": "tripo_convert_a52d3d72-8c90-4788-9054-69f9614b1f19.fbm/tripo_image_a52d3d72_0.jpg",
+        "bytes": 459778
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH055",
+    "archiveSha256": "c1e981db2288aa5b072441df12e85f1797444aa8661272c330033b3de258f120",
+    "models": [
+      "02_解压原文件/NH055/tripo_convert_a52d3d72-8c90-4788-9054-69f9614b1f19.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH056",
+    "archive": "wooden+cabinet+3d+model (2).zip",
+    "archiveBytes": 27996920,
+    "unpackedBytes": 29654802,
+    "files": [
+      {
+        "path": "tripo_convert_8edba7c0-dffc-47ae-8a8f-e9d0190e2453.fbx",
+        "bytes": 28914924
+      },
+      {
+        "path": "tripo_convert_8edba7c0-dffc-47ae-8a8f-e9d0190e2453.fbm/tripo_image_8edba7c0_0.jpg",
+        "bytes": 739878
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH056",
+    "archiveSha256": "9d01a3159fdfb3d2caa9c0aab6c91ea7829d1dfad002a8457cc08a147e969e73",
+    "models": [
+      "02_解压原文件/NH056/tripo_convert_8edba7c0-dffc-47ae-8a8f-e9d0190e2453.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH057",
+    "archive": "wooden+cabinet+3d+model (3).zip",
+    "archiveBytes": 68323705,
+    "unpackedBytes": 71694847,
+    "files": [
+      {
+        "path": "tripo_convert_8e431a37-c19d-4e4d-836f-3ea03d9a9f4e.fbx",
+        "bytes": 60390972
+      },
+      {
+        "path": "tripo_convert_8e431a37-c19d-4e4d-836f-3ea03d9a9f4e.fbm/tripo_image_8e431a37_2.png",
+        "bytes": 4736382
+      },
+      {
+        "path": "tripo_convert_8e431a37-c19d-4e4d-836f-3ea03d9a9f4e.fbm/tripo_image_8e431a37-c19d-4e4d-836f-3ea03d9a9f4e_0_Roughness.jpg",
+        "bytes": 1214666
+      },
+      {
+        "path": "tripo_convert_8e431a37-c19d-4e4d-836f-3ea03d9a9f4e.fbm/tripo_image_8e431a37_0.jpg",
+        "bytes": 2816220
+      },
+      {
+        "path": "tripo_convert_8e431a37-c19d-4e4d-836f-3ea03d9a9f4e.fbm/tripo_image_8e431a37-c19d-4e4d-836f-3ea03d9a9f4e_0_Metallic.jpg",
+        "bytes": 1284313
+      },
+      {
+        "path": "tripo_convert_8e431a37-c19d-4e4d-836f-3ea03d9a9f4e.fbm/tripo_image_8e431a37_1.jpg",
+        "bytes": 1252294
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH057",
+    "archiveSha256": "903935410df8a17e8acba7fda67a240a20b367d5ac14a12d559adbf72ff50807",
+    "models": [
+      "02_解压原文件/NH057/tripo_convert_8e431a37-c19d-4e4d-836f-3ea03d9a9f4e.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH058",
+    "archive": "wooden+cabinet+3d+model.zip",
+    "archiveBytes": 30512882,
+    "unpackedBytes": 32224359,
+    "files": [
+      {
+        "path": "tripo_convert_4adc8606-6099-4046-b32a-b310e108319e.fbx",
+        "bytes": 31560316
+      },
+      {
+        "path": "tripo_convert_4adc8606-6099-4046-b32a-b310e108319e.fbm/tripo_image_4adc8606_0.jpg",
+        "bytes": 664043
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH058",
+    "archiveSha256": "88b243d1bf4042f7064e3c19d76c34a6dd69b098b5408552564772d56060bdba",
+    "models": [
+      "02_解压原文件/NH058/tripo_convert_4adc8606-6099-4046-b32a-b310e108319e.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH059",
+    "archive": "wooden+chair+3d+model.zip",
+    "archiveBytes": 33693134,
+    "unpackedBytes": 35456457,
+    "files": [
+      {
+        "path": "tripo_convert_8e51e9ea-f343-4909-957b-ece7662beddb.fbx",
+        "bytes": 33719132
+      },
+      {
+        "path": "tripo_convert_8e51e9ea-f343-4909-957b-ece7662beddb.fbm/tripo_image_8e51e9ea_0.jpg",
+        "bytes": 1737325
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH059",
+    "archiveSha256": "1e33e4e14f2c27d0945c51f972c583c1e6e558babae4c21a2606de38fc2c7fe9",
+    "models": [
+      "02_解压原文件/NH059/tripo_convert_8e51e9ea-f343-4909-957b-ece7662beddb.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH060",
+    "archive": "wooden+coffee+table+3d+model.zip",
+    "archiveBytes": 70009591,
+    "unpackedBytes": 73526731,
+    "files": [
+      {
+        "path": "tripo_convert_854c218e-1d69-482d-9a1b-7f872d4a81d7.fbx",
+        "bytes": 60141468
+      },
+      {
+        "path": "tripo_convert_854c218e-1d69-482d-9a1b-7f872d4a81d7.fbm/tripo_image_854c218e_2.png",
+        "bytes": 6176385
+      },
+      {
+        "path": "tripo_convert_854c218e-1d69-482d-9a1b-7f872d4a81d7.fbm/tripo_image_854c218e-1d69-482d-9a1b-7f872d4a81d7_0_Roughness.jpg",
+        "bytes": 985662
+      },
+      {
+        "path": "tripo_convert_854c218e-1d69-482d-9a1b-7f872d4a81d7.fbm/tripo_image_854c218e-1d69-482d-9a1b-7f872d4a81d7_0_Metallic.jpg",
+        "bytes": 979078
+      },
+      {
+        "path": "tripo_convert_854c218e-1d69-482d-9a1b-7f872d4a81d7.fbm/tripo_image_854c218e_1.jpg",
+        "bytes": 1015588
+      },
+      {
+        "path": "tripo_convert_854c218e-1d69-482d-9a1b-7f872d4a81d7.fbm/tripo_image_854c218e_0.jpg",
+        "bytes": 4228550
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH060",
+    "archiveSha256": "a9d97ef740c7f86ecb807d10dfbc20ee2ea471ce503e2a388a4ce9044a0093c2",
+    "models": [
+      "02_解压原文件/NH060/tripo_convert_854c218e-1d69-482d-9a1b-7f872d4a81d7.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH061",
+    "archive": "wooden+cutting+board+3d+model.zip",
+    "archiveBytes": 23348876,
+    "unpackedBytes": 24731452,
+    "files": [
+      {
+        "path": "tripo_convert_904f742e-8601-486f-bd10-30b6aecce473.fbx",
+        "bytes": 24731452
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH061",
+    "archiveSha256": "1e2c0359524f6dcdac5b8e7fe56fdff4fb729592fec3b2b4687e36753039d66c",
+    "models": [
+      "02_解压原文件/NH061/tripo_convert_904f742e-8601-486f-bd10-30b6aecce473.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH062",
+    "archive": "wooden+dining+table+3d+model (1).zip",
+    "archiveBytes": 28920466,
+    "unpackedBytes": 30649144,
+    "files": [
+      {
+        "path": "tripo_convert_1a6993a3-95c8-43e1-ad47-83867ecacdc8.fbx",
+        "bytes": 30136636
+      },
+      {
+        "path": "tripo_convert_1a6993a3-95c8-43e1-ad47-83867ecacdc8.fbm/tripo_image_1a6993a3_0.jpg",
+        "bytes": 512508
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH062",
+    "archiveSha256": "38535d12f207c06f72afa2f073f2756191e049cf399a10d0fc03db01ebd4e68a",
+    "models": [
+      "02_解压原文件/NH062/tripo_convert_1a6993a3-95c8-43e1-ad47-83867ecacdc8.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH063",
+    "archive": "wooden+dining+table+3d+model.zip",
+    "archiveBytes": 27877983,
+    "unpackedBytes": 29609773,
+    "files": [
+      {
+        "path": "tripo_convert_86268e53-0770-4481-b933-6494eb20fa62.fbx",
+        "bytes": 29111356
+      },
+      {
+        "path": "tripo_convert_86268e53-0770-4481-b933-6494eb20fa62.fbm/tripo_image_86268e53_0.jpg",
+        "bytes": 498417
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH063",
+    "archiveSha256": "cd312f5dd3dfb4be452717e846c002bc1104b18069eb2ce1fb34e966368d38d1",
+    "models": [
+      "02_解压原文件/NH063/tripo_convert_86268e53-0770-4481-b933-6494eb20fa62.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH064",
+    "archive": "wooden+door+3d+model (1).zip",
+    "archiveBytes": 70515720,
+    "unpackedBytes": 73957849,
+    "files": [
+      {
+        "path": "tripo_convert_102234e5-c51c-4208-825d-27f45580bcfc.fbx",
+        "bytes": 61612044
+      },
+      {
+        "path": "tripo_convert_102234e5-c51c-4208-825d-27f45580bcfc.fbm/tripo_image_102234e5-c51c-4208-825d-27f45580bcfc_0_Metallic.jpg",
+        "bytes": 1321631
+      },
+      {
+        "path": "tripo_convert_102234e5-c51c-4208-825d-27f45580bcfc.fbm/tripo_image_102234e5_0.jpg",
+        "bytes": 3957473
+      },
+      {
+        "path": "tripo_convert_102234e5-c51c-4208-825d-27f45580bcfc.fbm/tripo_image_102234e5-c51c-4208-825d-27f45580bcfc_0_Roughness.jpg",
+        "bytes": 1257259
+      },
+      {
+        "path": "tripo_convert_102234e5-c51c-4208-825d-27f45580bcfc.fbm/tripo_image_102234e5_1.jpg",
+        "bytes": 1318406
+      },
+      {
+        "path": "tripo_convert_102234e5-c51c-4208-825d-27f45580bcfc.fbm/tripo_image_102234e5_2.png",
+        "bytes": 4491036
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH064",
+    "archiveSha256": "b6321026b15d584afe2738bd1745e2b24010a982c7a40829c4c6021b5975216f",
+    "models": [
+      "02_解压原文件/NH064/tripo_convert_102234e5-c51c-4208-825d-27f45580bcfc.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH065",
+    "archive": "wooden+door+3d+model.zip",
+    "archiveBytes": 70410621,
+    "unpackedBytes": 73895014,
+    "files": [
+      {
+        "path": "tripo_convert_afcdfadf-8a7f-44d6-b175-6b40863f7bc9.fbx",
+        "bytes": 61821644
+      },
+      {
+        "path": "tripo_convert_afcdfadf-8a7f-44d6-b175-6b40863f7bc9.fbm/tripo_image_afcdfadf-8a7f-44d6-b175-6b40863f7bc9_0_Roughness.jpg",
+        "bytes": 1071781
+      },
+      {
+        "path": "tripo_convert_afcdfadf-8a7f-44d6-b175-6b40863f7bc9.fbm/tripo_image_afcdfadf-8a7f-44d6-b175-6b40863f7bc9_0_Metallic.jpg",
+        "bytes": 1095862
+      },
+      {
+        "path": "tripo_convert_afcdfadf-8a7f-44d6-b175-6b40863f7bc9.fbm/tripo_image_afcdfadf_1.jpg",
+        "bytes": 1104149
+      },
+      {
+        "path": "tripo_convert_afcdfadf-8a7f-44d6-b175-6b40863f7bc9.fbm/tripo_image_afcdfadf_2.png",
+        "bytes": 5065360
+      },
+      {
+        "path": "tripo_convert_afcdfadf-8a7f-44d6-b175-6b40863f7bc9.fbm/tripo_image_afcdfadf_0.jpg",
+        "bytes": 3736218
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH065",
+    "archiveSha256": "5f899416d781c95fe63d36b149da89749736ad02f6d027fed220fd50441ddfb2",
+    "models": [
+      "02_解压原文件/NH065/tripo_convert_afcdfadf-8a7f-44d6-b175-6b40863f7bc9.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH066",
+    "archive": "wooden+kitchen+cabinet+3d+model.zip",
+    "archiveBytes": 26918021,
+    "unpackedBytes": 28538802,
+    "files": [
+      {
+        "path": "tripo_convert_e005ff74-303f-4861-905b-d4664adbb1c1.fbx",
+        "bytes": 27921676
+      },
+      {
+        "path": "tripo_convert_e005ff74-303f-4861-905b-d4664adbb1c1.fbm/tripo_image_e005ff74_0.jpg",
+        "bytes": 617126
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH066",
+    "archiveSha256": "a33567d5b52f111708a375e619fe7f162ee7f21edc92fa3799786a7b1aa73187",
+    "models": [
+      "02_解压原文件/NH066/tripo_convert_e005ff74-303f-4861-905b-d4664adbb1c1.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH067",
+    "archive": "wooden+nightstand+3d+model.zip",
+    "archiveBytes": 29268768,
+    "unpackedBytes": 30961754,
+    "files": [
+      {
+        "path": "tripo_convert_f8318af8-5322-449f-9e7c-593329f3093b.fbx",
+        "bytes": 30255596
+      },
+      {
+        "path": "tripo_convert_f8318af8-5322-449f-9e7c-593329f3093b.fbm/tripo_image_f8318af8_0.jpg",
+        "bytes": 706158
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH067",
+    "archiveSha256": "990b3f7a61e5d9a0d158cf94780a964d6e56a4969ca1b4b8248ab394cf6282d6",
+    "models": [
+      "02_解压原文件/NH067/tripo_convert_f8318af8-5322-449f-9e7c-593329f3093b.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH068",
+    "archive": "wooden+pet+feeder+3d+model.zip",
+    "archiveBytes": 69167925,
+    "unpackedBytes": 72538284,
+    "files": [
+      {
+        "path": "tripo_convert_a86cfcd7-407a-417d-8f1c-65b19b496016.fbx",
+        "bytes": 60707708
+      },
+      {
+        "path": "tripo_convert_a86cfcd7-407a-417d-8f1c-65b19b496016.fbm/tripo_image_a86cfcd7_0.jpg",
+        "bytes": 3525096
+      },
+      {
+        "path": "tripo_convert_a86cfcd7-407a-417d-8f1c-65b19b496016.fbm/tripo_image_a86cfcd7_1.jpg",
+        "bytes": 1396011
+      },
+      {
+        "path": "tripo_convert_a86cfcd7-407a-417d-8f1c-65b19b496016.fbm/tripo_image_a86cfcd7_2.png",
+        "bytes": 4233289
+      },
+      {
+        "path": "tripo_convert_a86cfcd7-407a-417d-8f1c-65b19b496016.fbm/tripo_image_a86cfcd7-407a-417d-8f1c-65b19b496016_0_Metallic.jpg",
+        "bytes": 1358462
+      },
+      {
+        "path": "tripo_convert_a86cfcd7-407a-417d-8f1c-65b19b496016.fbm/tripo_image_a86cfcd7-407a-417d-8f1c-65b19b496016_0_Roughness.jpg",
+        "bytes": 1317718
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH068",
+    "archiveSha256": "2a70a36111868ca5cf0649bb83552e925055abf201b28c15069f6c35dab632cf",
+    "models": [
+      "02_解压原文件/NH068/tripo_convert_a86cfcd7-407a-417d-8f1c-65b19b496016.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH069",
+    "archive": "wooden+pet+furniture+3d+model.zip",
+    "archiveBytes": 70290906,
+    "unpackedBytes": 73743529,
+    "files": [
+      {
+        "path": "tripo_convert_df4818a7-6f45-43dd-819b-faaf0966c38c.fbx",
+        "bytes": 62974604
+      },
+      {
+        "path": "tripo_convert_df4818a7-6f45-43dd-819b-faaf0966c38c.fbm/tripo_image_df4818a7_0.jpg",
+        "bytes": 3680517
+      },
+      {
+        "path": "tripo_convert_df4818a7-6f45-43dd-819b-faaf0966c38c.fbm/tripo_image_df4818a7_1.jpg",
+        "bytes": 1179219
+      },
+      {
+        "path": "tripo_convert_df4818a7-6f45-43dd-819b-faaf0966c38c.fbm/tripo_image_df4818a7-6f45-43dd-819b-faaf0966c38c_0_Roughness.jpg",
+        "bytes": 1135547
+      },
+      {
+        "path": "tripo_convert_df4818a7-6f45-43dd-819b-faaf0966c38c.fbm/tripo_image_df4818a7_2.png",
+        "bytes": 3608300
+      },
+      {
+        "path": "tripo_convert_df4818a7-6f45-43dd-819b-faaf0966c38c.fbm/tripo_image_df4818a7-6f45-43dd-819b-faaf0966c38c_0_Metallic.jpg",
+        "bytes": 1165342
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH069",
+    "archiveSha256": "a808eb2808fb8efb72138cf53fed7d2e21cb063541448b44c50a895f4380ba85",
+    "models": [
+      "02_解压原文件/NH069/tripo_convert_df4818a7-6f45-43dd-819b-faaf0966c38c.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH070",
+    "archive": "wooden+scratching+post+3d+model.zip",
+    "archiveBytes": 71396692,
+    "unpackedBytes": 74762959,
+    "files": [
+      {
+        "path": "tripo_convert_902a7b09-4f9c-49eb-b094-2890d75f11a0.fbx",
+        "bytes": 55663484
+      },
+      {
+        "path": "tripo_convert_902a7b09-4f9c-49eb-b094-2890d75f11a0.fbm/tripo_image_902a7b09_0.jpg",
+        "bytes": 4579302
+      },
+      {
+        "path": "tripo_convert_902a7b09-4f9c-49eb-b094-2890d75f11a0.fbm/tripo_image_902a7b09-4f9c-49eb-b094-2890d75f11a0_0_Roughness.jpg",
+        "bytes": 1197111
+      },
+      {
+        "path": "tripo_convert_902a7b09-4f9c-49eb-b094-2890d75f11a0.fbm/tripo_image_902a7b09_1.jpg",
+        "bytes": 1239899
+      },
+      {
+        "path": "tripo_convert_902a7b09-4f9c-49eb-b094-2890d75f11a0.fbm/tripo_image_902a7b09_2.png",
+        "bytes": 10903783
+      },
+      {
+        "path": "tripo_convert_902a7b09-4f9c-49eb-b094-2890d75f11a0.fbm/tripo_image_902a7b09-4f9c-49eb-b094-2890d75f11a0_0_Metallic.jpg",
+        "bytes": 1179380
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH070",
+    "archiveSha256": "c535b3f49630fda01b0e83d36c18ba55f52b2d358e57bb5d61ae43565f48aa64",
+    "models": [
+      "02_解压原文件/NH070/tripo_convert_902a7b09-4f9c-49eb-b094-2890d75f11a0.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH071",
+    "archive": "wooden+sideboard+3d+model.zip",
+    "archiveBytes": 34634337,
+    "unpackedBytes": 36333456,
+    "files": [
+      {
+        "path": "tripo_convert_654ea0fc-0def-4d8e-a1ec-abac8b9651bf.fbx",
+        "bytes": 35695948
+      },
+      {
+        "path": "tripo_convert_654ea0fc-0def-4d8e-a1ec-abac8b9651bf.fbm/tripo_image_654ea0fc_0.jpg",
+        "bytes": 637508
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH071",
+    "archiveSha256": "bfc780f9abb17587b2f0988598887cf6ba7eba326c36b1b8be6e32b48514dd96",
+    "models": [
+      "02_解压原文件/NH071/tripo_convert_654ea0fc-0def-4d8e-a1ec-abac8b9651bf.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH072",
+    "archive": "wooden+soap+dish+3d+model.zip",
+    "archiveBytes": 30312378,
+    "unpackedBytes": 32039517,
+    "files": [
+      {
+        "path": "tripo_convert_e0ad82d0-e1ef-40a7-9319-77e49403badc.fbx",
+        "bytes": 31365580
+      },
+      {
+        "path": "tripo_convert_e0ad82d0-e1ef-40a7-9319-77e49403badc.fbm/tripo_image_e0ad82d0_0.jpg",
+        "bytes": 673937
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH072",
+    "archiveSha256": "a955fedfa90ed8c8421141873236e1e507e70203bf428c1e84b0a5bc61701864",
+    "models": [
+      "02_解压原文件/NH072/tripo_convert_e0ad82d0-e1ef-40a7-9319-77e49403badc.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH073",
+    "archive": "wooden+storage+bench+3d+model (1).zip",
+    "archiveBytes": 83441263,
+    "unpackedBytes": 86895581,
+    "files": [
+      {
+        "path": "tripo_convert_b00b5aab-1b43-4d92-9fec-9493d86c5278.fbx",
+        "bytes": 70048556
+      },
+      {
+        "path": "tripo_convert_b00b5aab-1b43-4d92-9fec-9493d86c5278.fbm/tripo_image_b00b5aab-1b43-4d92-9fec-9493d86c5278_0_Roughness.jpg",
+        "bytes": 1382965
+      },
+      {
+        "path": "tripo_convert_b00b5aab-1b43-4d92-9fec-9493d86c5278.fbm/tripo_image_b00b5aab_0.jpg",
+        "bytes": 5976884
+      },
+      {
+        "path": "tripo_convert_b00b5aab-1b43-4d92-9fec-9493d86c5278.fbm/tripo_image_b00b5aab_2.png",
+        "bytes": 6668553
+      },
+      {
+        "path": "tripo_convert_b00b5aab-1b43-4d92-9fec-9493d86c5278.fbm/tripo_image_b00b5aab-1b43-4d92-9fec-9493d86c5278_0_Metallic.jpg",
+        "bytes": 1313318
+      },
+      {
+        "path": "tripo_convert_b00b5aab-1b43-4d92-9fec-9493d86c5278.fbm/tripo_image_b00b5aab_1.jpg",
+        "bytes": 1505305
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH073",
+    "archiveSha256": "76a428284427db5620562031e5b4c607181ce6b9d8c9ca7ddce48de63b6bbe30",
+    "models": [
+      "02_解压原文件/NH073/tripo_convert_b00b5aab-1b43-4d92-9fec-9493d86c5278.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH074",
+    "archive": "wooden+storage+bench+3d+model.zip",
+    "archiveBytes": 36339824,
+    "unpackedBytes": 38081520,
+    "files": [
+      {
+        "path": "tripo_convert_556dc691-8ddc-41ed-9eae-8d162630a8e9.fbx",
+        "bytes": 37525004
+      },
+      {
+        "path": "tripo_convert_556dc691-8ddc-41ed-9eae-8d162630a8e9.fbm/tripo_image_556dc691_0.jpg",
+        "bytes": 556516
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH074",
+    "archiveSha256": "55a4b89128546e1049fbcc326b77b04e2b19d8ac95034f87d3e0ba899999911f",
+    "models": [
+      "02_解压原文件/NH074/tripo_convert_556dc691-8ddc-41ed-9eae-8d162630a8e9.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH075",
+    "archive": "wooden+wall+cabinet+3d+model.zip",
+    "archiveBytes": 32975061,
+    "unpackedBytes": 34743004,
+    "files": [
+      {
+        "path": "tripo_convert_2a4007fe-4bb4-49f8-97f8-1a6e9f493c3c.fbx",
+        "bytes": 34281756
+      },
+      {
+        "path": "tripo_convert_2a4007fe-4bb4-49f8-97f8-1a6e9f493c3c.fbm/tripo_image_2a4007fe_0.jpg",
+        "bytes": 461248
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH075",
+    "archiveSha256": "7446353d7f54edd0e8c1951c54bc658aa211c38995801fa9335428767fcd55d3",
+    "models": [
+      "02_解压原文件/NH075/tripo_convert_2a4007fe-4bb4-49f8-97f8-1a6e9f493c3c.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH076",
+    "archive": "wooden+wardrobe+3d+model.zip",
+    "archiveBytes": 28976529,
+    "unpackedBytes": 30646705,
+    "files": [
+      {
+        "path": "tripo_convert_75423240-6f1b-403d-99b5-79eba5e25172.fbx",
+        "bytes": 30034764
+      },
+      {
+        "path": "tripo_convert_75423240-6f1b-403d-99b5-79eba5e25172.fbm/tripo_image_75423240_0.jpg",
+        "bytes": 611941
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH076",
+    "archiveSha256": "26655377e4d79115c03e367ec25ba48c7e791ea0610d78d78d59e720da1429ca",
+    "models": [
+      "02_解压原文件/NH076/tripo_convert_75423240-6f1b-403d-99b5-79eba5e25172.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH077",
+    "archive": "woven+basket+3d+model.zip",
+    "archiveBytes": 19344065,
+    "unpackedBytes": 20793100,
+    "files": [
+      {
+        "path": "tripo_convert_42425ec3-97d6-42b6-a190-2358cc4c26e0.fbx",
+        "bytes": 20793100
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH077",
+    "archiveSha256": "5bd19855d65429e8505693b11d015d20169a144975a3c90ea5d67d965b4f6766",
+    "models": [
+      "02_解压原文件/NH077/tripo_convert_42425ec3-97d6-42b6-a190-2358cc4c26e0.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH078",
+    "archive": "woven+placemat+3d+model.zip",
+    "archiveBytes": 26705391,
+    "unpackedBytes": 28383449,
+    "files": [
+      {
+        "path": "tripo_convert_eacd88c6-ea5f-4224-b656-9f8c3db6f559.fbx",
+        "bytes": 27298620
+      },
+      {
+        "path": "tripo_convert_eacd88c6-ea5f-4224-b656-9f8c3db6f559.fbm/tripo_image_eacd88c6_0.jpg",
+        "bytes": 1084829
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH078",
+    "archiveSha256": "ef4417e30258e822233538edd76256bfce56b77dd563e2c2b35a6f00327f0c9c",
+    "models": [
+      "02_解压原文件/NH078/tripo_convert_eacd88c6-ea5f-4224-b656-9f8c3db6f559.fbx"
+    ],
+    "kind": "model"
+  },
+  {
+    "id": "NH079",
+    "archive": "woven+rope+soap+dish+3d+model.zip",
+    "archiveBytes": 29944939,
+    "unpackedBytes": 31615285,
+    "files": [
+      {
+        "path": "tripo_convert_d89bd086-ff9f-431b-bfea-cef7e7182641.fbx",
+        "bytes": 30545660
+      },
+      {
+        "path": "tripo_convert_d89bd086-ff9f-431b-bfea-cef7e7182641.fbm/tripo_image_d89bd086_0.jpg",
+        "bytes": 1069625
+      }
+    ],
+    "extractedFolder": "02_解压原文件/NH079",
+    "archiveSha256": "e5c55f34ce28ee82ddae3b848a2e4c7374b1d02a9073af9ee4e5120c8e15ab25",
+    "models": [
+      "02_解压原文件/NH079/tripo_convert_d89bd086-ff9f-431b-bfea-cef7e7182641.fbx"
+    ],
+    "kind": "model"
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "id": "NH020",
+  "archive": "kitchen+sink+3d+model.zip",
+  "source": "02_解压原文件/NH020/tripo_convert_5d8921bb-e5a1-4baa-90a2-f75a9f1d9c68.fbx",
+  "importBounds": {
+    "min": [
+      -0.29766845703125,
+      -0.490264892578125,
+      -2.14221547167881e-08
+    ],
+    "max": [
+      0.297210693359375,
+      0.4898987114429474,
+      0.709716796875
+    ],
+    "dimensions": [
+      0.594879150390625,
+      0.98016357421875,
+      0.709716796875
+    ]
+  },
+  "meshObjects": 1,
+  "sourceVertices": 963259,
+  "sourceFaces": 1926605,
+  "reviewLongestDimension_m": 1,
+  "images": [
+    {
+      "name": "tripo_image_5d8921bb_0",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_5d8921bb_2",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_5d8921bb_3",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    },
+    {
+      "name": "tripo_image_5d8921bb_4",
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "reviewSize": [
+        2048,
+        2048
+      ],
+      "available": true
+    }
+  ],
+  "missingImages": [],
+  "status": "imported; visual review completed",
+  "reviewDimensions": [
+    0.6069090366363525,
+    1.000007152557373,
+    0.7240560054779053
+  ],
+  "seconds": 27.0,
+  "reviewAngles": [
+    "front",
+    "rear",
+    "underside"
+  ],
+  "reviewReport": "00_管理/模型检查与修正记录.md"
+}

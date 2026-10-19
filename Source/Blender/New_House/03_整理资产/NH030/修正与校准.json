@@ -1,0 +1,26 @@
+{
+  "id": "NH030",
+  "slug": "GrassPot",
+  "reference": "01_参考资料/物体生成参考_v1/02_单物体图/H90-PRP-015_GrassPot_Main_ref_v001.png",
+  "corrections": [
+    "Restored green grass and ceramic pot materials absent from the source package."
+  ],
+  "sourcePreserved": true,
+  "units": "metres",
+  "dimensions_m": [
+    0.2199999839067459,
+    0.2199999988079071,
+    0.3199999928474426
+  ],
+  "targetDimensions_m": [
+    0.2199999988079071,
+    0.2199999988079071,
+    0.3199999928474426
+  ],
+  "sceneFaces": 179999,
+  "sceneVertices": 89923,
+  "meshObjects": 1,
+  "missingTextures": [],
+  "status": "reviewed; scene copy ready",
+  "seconds": 4.2
+}

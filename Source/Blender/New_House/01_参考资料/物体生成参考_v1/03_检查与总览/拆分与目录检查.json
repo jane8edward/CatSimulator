@@ -1,0 +1,1141 @@
+{
+  "status": "passed",
+  "gridCount": 20,
+  "individualCount": 80,
+  "assetTypeCount": 72,
+  "sourcePixelPreservationChecks": 80,
+  "edgeClippingChecks": 80,
+  "brokenLinks": [],
+  "originalModelStatusesPreserved": true,
+  "actualResolution": {
+    "grids": {
+      "1254x1254": 20
+    },
+    "individualImages": {
+      "768x768": 79,
+      "832x832": 1
+    }
+  },
+  "images": [
+    {
+      "assetId": "H90-FUR-001",
+      "variant": "Main",
+      "position": "左上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-FUR-001_Sofa_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "733ffbd882cd5c4908e52784933874f5c43b0d42c6b42af2ea3809327d742d66",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-007",
+      "variant": "Main",
+      "position": "右上",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-FUR-007_MasterBed_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "6a048bdebdf771cc406f1c5e4514659dc7e4ee752ce98931b9d2106d1f182623",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-008",
+      "variant": "Main",
+      "position": "左下",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-FUR-008_GuestBed_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "851cdf3affbbfd78ca9307b6f531e00250b9082002d0bbddade6019d8ec7219b",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-020",
+      "variant": "Main",
+      "position": "右下",
+      "source": "R04",
+      "imagePath": "02_单物体图/H90-FUR-020_BalconyBench_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "2b826b7406e6b14b55f5ed0b707dc076acd910b265551e47929ecc9922f3e1ea",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-002",
+      "variant": "Main",
+      "position": "左上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-FUR-002_CoffeeTable_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "1c32a144edd46389e31a7145e4e2cc7c6264bd3a36842de9c53e1cc2f33e7b63",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-004",
+      "variant": "Main",
+      "position": "右上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-FUR-004_DiningTable_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "97cc33d81e149f1c9507a808fd230b8554a3a3cadfebef224ee63e65042ad605",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-012",
+      "variant": "Main",
+      "position": "左下",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-FUR-012_Desk_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "26e54bb33a838e865155156c19df4cc8addadda53d7c62521db37895628b4e40",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-003",
+      "variant": "Main",
+      "position": "右下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-FUR-003_TVConsole_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "ef93645b8d722c1f4435833de3d2014a20cebd44df403c59e013e34adc7bf57c",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-005",
+      "variant": "Main",
+      "position": "左上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-FUR-005_DiningChair_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "10de3d840a5f2fec476deb8617607949cbeb48c5189f9d8edd18703d200ad577",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-013",
+      "variant": "Main",
+      "position": "右上",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-FUR-013_OfficeChair_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "fb1b6890147e89122773457e3b6ae952f396af53823b90680586af7f9c51fe35",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-006",
+      "variant": "Main",
+      "position": "左下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-FUR-006_DiningBench_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "4c25c0b6202eb17399aa7d1d69de84f89a47c585e4e48bb41076343b3249263b",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-021",
+      "variant": "Main",
+      "position": "右下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-FUR-021_Ottoman_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "9320b56a9c8b2f87edd1a5114886ee5c4b0184a53f9346536813cbd9b5fb7d72",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-009",
+      "variant": "Main",
+      "position": "左上",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-FUR-009_BedsideTable_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "ce4529fb37ea16ca8e28b995957a7ebd2b3c30f312e4a7eec9d6d70baedb7839",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-011",
+      "variant": "Main",
+      "position": "右上",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-FUR-011_GuestStorage_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "f72041b118588f73ad4d78b7b202c4ad2cd89f1ce6d30db9b4dd110b95d26a71",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-015",
+      "variant": "Main",
+      "position": "左下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-FUR-015_EntryConsole_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "4432fee7470c59b62480b9e63736ae67217d4d48e955bee2cca1be7f16eedd41",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-016",
+      "variant": "Main",
+      "position": "右下",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-FUR-016_EntryBench_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "5c3047082d6a39332d7375fe0cbef44b62239798eb6f1892aac2d297d38745d8",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-010",
+      "variant": "Main",
+      "position": "左上",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-FUR-010_MasterWardrobe_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "0f276c10940d06025bac03ded82c7a2b86f37a2d69c56e0580b9638dfd410109",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-014",
+      "variant": "Main",
+      "position": "右上",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-FUR-014_EntryStorage_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "6ca4d06cb23203df3dbb51d3c1e429923a3dfa49a5669a9f0a05ae181b842478",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-018",
+      "variant": "Main",
+      "position": "左下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-FUR-018_KitchenWallCabinet_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "6eeda4a8a0ad0e746f56d62cfa58cfe8c189ea8e6d854a5aec09833000dfb1ad",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-019",
+      "variant": "Main",
+      "position": "右下",
+      "source": "R04",
+      "imagePath": "02_单物体图/H90-FUR-019_LaundryStorage_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "86cf56fcd2ee9054fcbee612670395638320aa09f339c7c0a78fd52019ee31e3",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-FUR-017",
+      "variant": "Main",
+      "position": "左上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-FUR-017_KitchenBaseCabinet_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "8c2d91b4fb20bc4cf898ba39f88056eb718ea056f74cc53a7f3f30242c3336fd",
+      "size": [
+        832,
+        832
+      ]
+    },
+    {
+      "assetId": "H90-APP-007",
+      "variant": "Main",
+      "position": "右上",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-APP-007_BathVanity_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "544bc46dfeb285576a885b40de0b8a246a2943c5b51d6f5c5617604cbaf18983",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-APP-006",
+      "variant": "Main",
+      "position": "左下",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-APP-006_KitchenSink_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "bccf7341b9036e64f583ce2abb31421fad78bc985e0b667bfa83188e6290ab8d",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-APP-004",
+      "variant": "Main",
+      "position": "右下",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-APP-004_Cooktop_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "d61b06ad4b295f65c4dd9cee03834c5507ecfa9e44631559d6178dab80f8bda2",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-APP-002",
+      "variant": "Main",
+      "position": "左上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-APP-002_Refrigerator_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "74515a8d14461c8381b81ba1585cbf0c9d88bd68b1d3a1ac7d7d6ae469abf32f",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-APP-003",
+      "variant": "Main",
+      "position": "右上",
+      "source": "R04",
+      "imagePath": "02_单物体图/H90-APP-003_WashingMachine_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "77a9b2fad47729b7a9cb9a03cb8d3d65d5f4ff8fc8e0dfd3faf8ed1f8dde35f5",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-APP-005",
+      "variant": "Main",
+      "position": "左下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-APP-005_ExtractorHood_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "978fd7127b678bdb1c478cd0f973dc8b6dfb5b2a125ce4a8a9ebd547e1322210",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-APP-001",
+      "variant": "Main",
+      "position": "右下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-APP-001_Television_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "acb19e8f6e86e312eb5dd4c4230437fe463298f8a3af2e42497f373a3b69fbd9",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-CAT-001",
+      "variant": "Main",
+      "position": "左上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-CAT-001_Hideout_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "6505196cd6486e44733225b8068d6a9e946be8bb367e3d7aea8803d53135aaf8",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-CAT-006",
+      "variant": "Main",
+      "position": "右上",
+      "source": "R04",
+      "imagePath": "02_单物体图/H90-CAT-006_LitterCabinet_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "05b8ed67f934173be0d2a943ebccd40539e9d9884c1b7460d17d7a926107cfe1",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-CAT-007",
+      "variant": "Main",
+      "position": "左下",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-CAT-007_WindowPerch_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "f67118b73f9cf93fcf08bdbd8faecac3d47b63203fc0e77830490bcf6383defd",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-CAT-002",
+      "variant": "Main",
+      "position": "右下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-CAT-002_ScratchColumn_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "54d6b5419ed3f50c14591a10610f4c6d25874cd45c4742661f2bba7d8e2a29b6",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-CAT-003",
+      "variant": "Module",
+      "position": "左上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-CAT-003_WallPlatformKit_Module_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "7fd86825f75f8ed0acb767d5e0b2742d2c5f5ef569f80d928f53fec2e32224e9",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-CAT-004",
+      "variant": "Main",
+      "position": "右上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-CAT-004_FeedingStation_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "59e4fa359cbe764993bcd9627bb70fa91a96cae680a661f7e0364aa45b80a61a",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-CAT-005",
+      "variant": "Main",
+      "position": "左下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-CAT-005_WaterFountain_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "1395c91b79eebd834921cc511f0afd58bf36220c77038bf6493527da78282b0f",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-CAT-008",
+      "variant": "Ball",
+      "position": "右下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-CAT-008_ToyKit_Ball_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "83b6e74f6f86058e29af3368bc3d11fccff5098fc857a47bbe4aafc636f8eb5a",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-001",
+      "variant": "Sage",
+      "position": "左上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-PRP-001_DecorCushion_Sage_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "c1d422c6032a66b4b5701f0573e8ff626ae04096f001d4eb4817c49fa76b8042",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-002",
+      "variant": "Cream",
+      "position": "右上",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-PRP-002_SleepingPillow_Cream_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "79e0f26c2a6aa6b6c4af70982009152b6a2448350b88a9f107afa00f63027c5f",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-003",
+      "variant": "Duvet",
+      "position": "左下",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-PRP-003_BeddingKit_Duvet_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "f9b612c63fcf94e89432878d22aa2d54d56ddece5b2c4e3d791bc12ccfe9a6fd",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-004",
+      "variant": "Main",
+      "position": "右下",
+      "source": "R04",
+      "imagePath": "02_单物体图/H90-PRP-004_ThrowBlanket_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "9992ca778f5c98c1f1dd71e625f63e42d5437dac76133fad2abe03d1cac200db",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-005",
+      "variant": "Living",
+      "position": "左上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-PRP-005_RoomRug_Living_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "14dceac8b0541d257a72a34962adc321526da68bed30020e474095cd3054e5c9",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-005",
+      "variant": "Bedroom",
+      "position": "右上",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-PRP-005_RoomRug_Bedroom_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "15490e2e15fc2f0fc3e59e8adb5f0267cdb98461889be4ddc8d660b3cde3b226",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-006",
+      "variant": "Main",
+      "position": "左下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-PRP-006_EntryMat_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "2e73ea7f8bf9339f40e8c7b784547bfbf701527e063bf0105cf43061fabc4ab6",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-007",
+      "variant": "Round",
+      "position": "右下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-PRP-007_CatMatKit_Round_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "7f746d2df3dc86736cdf76d9f24c082cf1892bf714e5d47569e837c386c0d066",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-011",
+      "variant": "Main",
+      "position": "左上",
+      "source": "R04",
+      "imagePath": "02_单物体图/H90-PRP-011_PlantBroadleaf_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "7be0ac5765b231d2ccd872e143e0f3982989a25d1daa633c385da1129745beed",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-012",
+      "variant": "Main",
+      "position": "右上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-PRP-012_PlantTrailing_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "834097237018f7986cb0a8878008a87d7a239d4d7ba4ed318fd89b52803488cb",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-013",
+      "variant": "Main",
+      "position": "左下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-PRP-013_PlantBranching_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "7c39f05a3a75a9f16ec5abdb536ea1e2627d6ce3b06ff215e26a48300fbcd863",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-015",
+      "variant": "Main",
+      "position": "右下",
+      "source": "R04",
+      "imagePath": "02_单物体图/H90-PRP-015_GrassPot_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "950ddc5179479a6a5d47820b04458556c5e2487a9e4ad6ede37271442af4127d",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-009",
+      "variant": "Main",
+      "position": "左上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-PRP-009_CeramicMug_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "e3b0248dd48b8402c6a182796ba0bbde6c09ea86aa3a461e27cd1204f5eba7ca",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-010",
+      "variant": "Main",
+      "position": "右上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-PRP-010_ServingTray_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "1ace78de9c8624632a951dfcc443260414a68c1720f3e5697f6fb485f53a7430",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-008",
+      "variant": "Book",
+      "position": "左下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-PRP-008_BookMagazineKit_Book_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "ce3c2e2d85aad99cbbd7061cbc3777f8d5b67fc458ddc60f092c7c03646b01b9",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-014",
+      "variant": "Main",
+      "position": "右下",
+      "source": "R04",
+      "imagePath": "02_单物体图/H90-PRP-014_PlanterKit_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "f15f99c2f2aa1f322894f2bad1c9fcf4304ca96a3a3df7653ef1697ab2232adb",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-017",
+      "variant": "PumpBottle",
+      "position": "左上",
+      "source": "R04",
+      "imagePath": "02_单物体图/H90-PRP-017_LaundryBottleKit_PumpBottle_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "a15ad69578e65aeba1fb0a9128beb00e2db779d4428c839c307b2ef99a97ab45",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-018",
+      "variant": "Towel",
+      "position": "右上",
+      "source": "R04",
+      "imagePath": "02_单物体图/H90-PRP-018_TowelStack_Towel_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "b2fefc6be05e1913be1a2206eaf08d2f0e5aa2d242f65894345b19f25068f543",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-019",
+      "variant": "Main",
+      "position": "左下",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-PRP-019_LaundryBasket_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "27e7b11bc804369f86f8ff19e440479c632d1ec2953fd60982e789935631b3f9",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-016",
+      "variant": "Shoe",
+      "position": "右下",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-PRP-016_ShoePairKit_Shoe_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "b9cc1bd033231a574d5798623cb2ad077c9892fb9122c9bb7a700b6e4a0d9dec",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-020",
+      "variant": "BoardLarge",
+      "position": "左上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-PRP-020_ChoppingBoardKit_BoardLarge_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "8f002a6c2444f66e40a2f8b5425be9c61e009b08b21be832490608e60c79c7b9",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-020",
+      "variant": "BoardSmall",
+      "position": "右上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-PRP-020_ChoppingBoardKit_BoardSmall_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "3b828bd1aaf3628a69a4cfa624320abeb3f43cd5e190f6e75dd5616f410cb0aa",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-020",
+      "variant": "JarGlass",
+      "position": "左下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-PRP-020_ChoppingBoardKit_JarGlass_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "c143df683ef9a00bed693a3eaf4509cf974d12f4c0cd21bd0f6dd48f832af363",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-020",
+      "variant": "JarCeramic",
+      "position": "右下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-PRP-020_ChoppingBoardKit_JarCeramic_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "63c6fcc3e39d9be6b4712a4cdb590f76f04c494c5fe0edd0cb57adf27e7cd8a0",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-LGT-002",
+      "variant": "Main",
+      "position": "左上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-LGT-002_DiningPendant_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "4e94197e306f2fb67d5de3100a85271c19372c10092f5ba0b08042eaba2d76d6",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-LGT-003",
+      "variant": "Main",
+      "position": "右上",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-LGT-003_BedsideLamp_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "16a4dde6db4dcf71e0f3a88444bc5dbba9b62b7536a42d4c0e24be8cd728051c",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-LGT-001",
+      "variant": "Main",
+      "position": "左下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-LGT-001_Downlight_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "6655196d28b1f9556bdff996264f66422b8d69dc365ebb006932253f396132b3",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-LGT-004",
+      "variant": "Main",
+      "position": "右下",
+      "source": "R04",
+      "imagePath": "02_单物体图/H90-LGT-004_CabinetStrip_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "d625705710864a74508d9b1a280b3b9dedc9f8ca7432be70d21fb3c824ef06d2",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-DOR-001",
+      "variant": "Main",
+      "position": "左上",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-DOR-001_EntranceDoor_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "d0cc7fa43475f33c2a549354cd369b8d00497d7cc1d7a3402a66edff52cb7794",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-DOR-002",
+      "variant": "Main",
+      "position": "右上",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-DOR-002_BedroomDoor_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "097a6718264e9217c1e94d3919b2eb0477e1475427453915e4aada2876acba04",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-DOR-004",
+      "variant": "Main",
+      "position": "左下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-DOR-004_KitchenGlassSlider_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "201da96d48058e47d43c6632e096b57f72db045c11c3380da1ecd65d653d7d3e",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-DOR-005",
+      "variant": "Main",
+      "position": "右下",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-DOR-005_BalconyGlassSlider_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "142c5386c658a2c1ad8807fa0ce4040f3a3a7d843c4a54c3296568640cae632c",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-DOR-006",
+      "variant": "Main",
+      "position": "左上",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-DOR-006_BedroomWindow_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "18402e40a43d71368835f60a2818c818dc70e7f8ec53677b163034e576a1b4cd",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-DOR-007",
+      "variant": "Main",
+      "position": "右上",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-DOR-007_KitchenWindow_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "91bcc44421e5ce2b0bbc620dd8e5662316ea0233c63c91f14eb33ed8c4708483",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-DOR-008",
+      "variant": "Main",
+      "position": "左下",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-DOR-008_BathHighWindow_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "a1f89cac3634945efe731fbd1fdddd43cf387dac625c4c1863434b83f7b4d7da",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-DOR-009",
+      "variant": "Main",
+      "position": "右下",
+      "source": "R04",
+      "imagePath": "02_单物体图/H90-DOR-009_BalconyGlazing_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "29907901999b8d16055ed402df88b3a1f1a21a9fba482e6a359ca7c12c2e54b8",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-APP-008",
+      "variant": "Main",
+      "position": "左上",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-APP-008_Toilet_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "53943482cf70c2d52fca8cd227616618aa309c5eeb52286a10b4d4eb0dd4e38d",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-APP-009",
+      "variant": "Main",
+      "position": "右上",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-APP-009_ShowerKit_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "f5e4e62606068f516e37a475febfa45c7482d1370e15817b24465ad1e16031e5",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-ARC-011",
+      "variant": "Main",
+      "position": "左下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-ARC-011_VentGrille_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "1f3228db8d530772dde72c42e4de98c3b4907dc924b233142cfe1d4381e99c32",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-007",
+      "variant": "Rectangular",
+      "position": "右下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-PRP-007_CatMatKit_Rectangular_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "f2d7f95d635ac25fdf2ebc7a3148d87b32b49e1c136e263567af87f195052605",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-APP-010",
+      "variant": "Main",
+      "position": "左上",
+      "source": "R02",
+      "imagePath": "02_单物体图/H90-APP-010_Laptop_Main_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "28aab6abe95bcfb4804d59b3af4b8b4cd914b7100ec7c4a63d32e17fc5d62a8c",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-001",
+      "variant": "Cream",
+      "position": "右上",
+      "source": "R04",
+      "imagePath": "02_单物体图/H90-PRP-001_DecorCushion_Cream_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "4cc3a63663708233578e5b80c2ab3b32f1e119f862a5748ab08fbaac7414c7bd",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-PRP-018",
+      "variant": "Stack",
+      "position": "左下",
+      "source": "R04",
+      "imagePath": "02_单物体图/H90-PRP-018_TowelStack_Stack_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "1824d86e58f954b1df0c21aa6ef772cc81cdb3c5acbb53c7dc66fb8c335fa616",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "assetId": "H90-CAT-008",
+      "variant": "ScratchBall",
+      "position": "右下",
+      "source": "R03",
+      "imagePath": "02_单物体图/H90-CAT-008_ToyKit_ScratchBall_ref_v001.png",
+      "sourcePixelsPreserved": true,
+      "borderClipping": false,
+      "sha256": "437081922b6840d31d970f2603cbeefc550fae40c1ee142e364c3d669b9f8ac8",
+      "size": [
+        768,
+        768
+      ]
+    }
+  ]
+}
