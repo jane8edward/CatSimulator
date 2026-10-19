@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "version": "0.3.3-local",
+  "head": "32a1482",
+  "gitSubmitted": false,
+  "build": "Succeeded",
+  "assemblySha256": "3EDD643AD9EC77D811F18423C764D05D7EF842CBBF0F27E2520C4BC03DE5776E",
+  "sceneSha256": "B358A1498F6EB52221FAE2E30938453F661DAE798EC8750101274EE7B3F3A01C",
+  "checks": [
+    {
+      "path": "Source/Verification/HouseTasks/house-tasks.json",
+      "passed": true,
+      "count": 89
+    },
+    {
+      "path": "Source/Verification/HouseTasksJumpRobot/jump-vacuum.json",
+      "passed": true,
+      "count": 36
+    },
+    {
+      "path": "Source/Verification/HouseTasksFlow/game-flow.json",
+      "passed": true,
+      "cats": 3
+    }
+  ],
+  "limitations": [
+    "Full-scene 60 FPS is not claimed; historical pillow performance limitation remains."
+  ],
+  "backups": "Source/Backups/before-house-tasks-20261018-230559"
+}

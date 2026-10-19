@@ -44,7 +44,7 @@ namespace CatSimulator
             choices.Single(b=>b.name=="Level2").onClick.Invoke();yield return new WaitForSecondsRealtime(.5f);
             while(!FindFirstObjectByType<NewHouseExploration>().IsReady)yield return null;
             Connect();
-            CheckIt("second-level-is-new-house",UnityEngine.SceneManagement.SceneManager.GetActiveScene().name==ContentPreviewMenu.HomeScene&&cat.session.definition.levelId=="home-02"&&cat.session.definition.IsExploration);
+            CheckIt("second-level-is-new-house",UnityEngine.SceneManagement.SceneManager.GetActiveScene().name==ContentPreviewMenu.HomeScene&&cat.session.definition.levelId=="home-02"&&cat.session.definition.requiredObjectives.Length==5);
             if(args.Contains("--check-new-house-perf")){yield return ProfileWindow();Finish();yield break;}
             if(args.Contains("--check-new-house-exit"))
             {
@@ -55,7 +55,7 @@ namespace CatSimulator
             CheckIt("expanded-house",Mathf.Abs(layout.horizontalExpansion-1.2f)<.001f,cat.session.definition.activityBounds.size.ToString("F3"));
             CheckIt("smaller-cat",Mathf.Abs(cat.BodyScale-.675f)<.001f,"scale="+cat.BodyScale);
             var bodies=items.Where(i=>i.GetComponent<Rigidbody>()).ToArray();
-            CheckIt("dynamic-props",bodies.Length>=34,"count="+bodies.Length);
+            CheckIt("dynamic-props",bodies.Length>=33,"count="+bodies.Length+"; one bedside lamp replaced by charging phone");
             CheckIt("soft-surface-coverage",layout.GetComponentsInChildren<SoftPillow>().Length>=19,"count="+layout.GetComponentsInChildren<SoftPillow>().Length);
             var cornerSofa=Item("LIV_NH007").Bounds;
             float backGap=-5.112f-cornerSofa.max.x,sideGap=-1.992f-cornerSofa.max.z;
@@ -193,7 +193,8 @@ namespace CatSimulator
         }
         IEnumerator ProfileWindow()
         {
-            var item=Item("MBR_NH073");var b=item.Bounds;
+            var args=Environment.GetCommandLineArgs();int itemIndex=Array.IndexOf(args,"--profile-item");
+            var item=Item(itemIndex>=0&&itemIndex+1<args.Length?args[itemIndex+1]:"MBR_NH073");var b=item.Bounds;
             var soft=item.GetComponentInChildren<SoftPillow>();soft.GetComponent<MeshCollider>().Raycast(new Ray(new Vector3(b.center.x,3,b.center.z),Vector3.down),out var hit,4);
             cat.Teleport(hit.point+Vector3.up*.025f);yield return new WaitForSeconds(1);
             yield return Profile("window-normal");

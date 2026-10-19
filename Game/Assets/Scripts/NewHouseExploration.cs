@@ -23,7 +23,11 @@ namespace CatSimulator
         IEnumerator Start()
         {
             cat.Paused=true;
+            var robot=FindFirstObjectByType<RobotVacuum>();
+            float robotDeadline=Time.realtimeSinceStartup+15;
+            while(robot&&!robot.Ready&&Time.realtimeSinceStartup<robotDeadline)yield return null;
             if(!shadersWarmed){yield return WarmHouseViews();shadersWarmed=true;}
+            yield return null;
             SetPreview(false);
             IsReady=true;
             yield return null;
@@ -33,7 +37,7 @@ namespace CatSimulator
             var nameLabel = hud.GetComponentsInChildren<Text>(true).FirstOrDefault(t => t.name == "Name");
             if(nameLabel){nameLabel.fontSize=22;nameLabel.horizontalOverflow=HorizontalWrapMode.Overflow;nameLabel.verticalOverflow=VerticalWrapMode.Overflow;nameLabel.rectTransform.sizeDelta=new Vector2(420,44);}
             var controls = hud.GetComponentsInChildren<Text>(true).FirstOrDefault(t => t.name == "Controls");
-            if (controls) controls.text = "WASD 移动 · 鼠标转镜头 · 空格跳跃 · Shift 奔跑 · E 开关门窗 · V 全屋视图 · Esc 菜单";
+            if (controls) {controls.text = "WASD 移动 · 空格短按跳 / 长按蓄力松开 · Shift 跑 · E 互动 · 扫地机上 F 坐下/站起 · V 全屋 · Esc 菜单";controls.fontSize=19;}
         }
 
         IEnumerator WarmHouseViews()
@@ -51,7 +55,8 @@ namespace CatSimulator
             var request=new UniversalRenderPipeline.SingleCameraRequest{destination=target};
             var points=FindObjectsByType<NewHouseItem>(FindObjectsSortMode.None)
                 .Where(i=>i.GetComponentInChildren<SoftPillow>()).Select(i=>i.Bounds.center)
-                .Concat(cat.session.definition.areas.Select(a=>a.bounds.center)).ToArray();
+                .Concat(cat.session.definition.areas.Select(a=>a.bounds.center))
+                .Concat(FindObjectsByType<RobotVacuum>(FindObjectsSortMode.None).Where(r=>r.Ready).Select(r=>r.Seat)).ToArray();
             foreach(var point in points)
             {
                 var offset=new Vector3(-1.5f,.9f,1.2f);

@@ -1,0 +1,6 @@
+NH_MBR_NH050_MasterBed_01__0065 Center: (-1.980, 0.624, -3.456), Extents: (0.899, 0.274, 1.039)
+FixedFurnitureFrame Center: (-1.980, 0.197, -3.456), Extents: (0.900, 0.197, 1.040)
+NH_MBR_NH048_SleepingPillow_01__0074 Center: (-1.560, 0.653, -4.046), Extents: (0.299, 0.080, 0.199)
+NH_MBR_NH048_SleepingPillow_02__0075 Center: (-2.400, 0.653, -4.046), Extents: (0.299, 0.080, 0.199)
+NH_MasterBedCover__0083 Center: (-1.980, 0.469, -3.196), Extents: (0.859, 0.119, 0.379)
+ContinuousSoftSupport Center: (-1.980, 0.420, -3.436), Extents: (0.850, 0.090, 0.940)

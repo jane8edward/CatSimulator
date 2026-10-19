@@ -1,0 +1,80 @@
+{
+    "passed": true,
+    "stage": "look-outside",
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "medianFps": 0.0,
+    "p5Fps": 0.0,
+    "checks": [
+        {
+            "name": "two-level-menu",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "legacy-house-not-shipped",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "second-level-is-new-house",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "window-normal",
+            "detail": "fps=90.00",
+            "passed": true
+        },
+        {
+            "name": "soft-disabled",
+            "detail": "fps=70.09",
+            "passed": true
+        },
+        {
+            "name": "controller-paused",
+            "detail": "fps=63.58",
+            "passed": true
+        },
+        {
+            "name": "shadow-distance-8",
+            "detail": "fps=67.19",
+            "passed": true
+        },
+        {
+            "name": "one-cascade-distance-10",
+            "detail": "fps=79.09",
+            "passed": true
+        },
+        {
+            "name": "shadow-map-1024",
+            "detail": "fps=64.07",
+            "passed": true
+        },
+        {
+            "name": "sun-shadow-disabled",
+            "detail": "fps=90.00",
+            "passed": true
+        },
+        {
+            "name": "fill-lights-disabled",
+            "detail": "fps=65.41",
+            "passed": true
+        },
+        {
+            "name": "lights-disabled",
+            "detail": "fps=90.00",
+            "passed": true
+        },
+        {
+            "name": "architecture-hidden",
+            "detail": "fps=69.32",
+            "passed": true
+        },
+        {
+            "name": "look-outside",
+            "detail": "fps=90.00",
+            "passed": true
+        }
+    ],
+    "errors": []
+}

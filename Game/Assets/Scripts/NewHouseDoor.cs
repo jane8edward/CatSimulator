@@ -103,7 +103,7 @@ namespace CatSimulator
                     var cat = other.GetComponentInParent<CatController>();
                     var body = other.attachedRigidbody;
                     // Frames, tracks and other static architecture intentionally overlap the leaf edges.
-                    if (!cat && (!body || body.isKinematic)) continue;
+                    if (!cat && !other.GetComponentInParent<RobotVacuum>() && (!body || body.isKinematic)) continue;
                     if (!Physics.ComputePenetration(shape, position, rotation, other, other.transform.position,
                         other.transform.rotation, out _, out float depth)) continue;
                     bool already = Physics.ComputePenetration(shape, p.body.position, p.body.rotation, other,

@@ -1,0 +1,156 @@
+{
+    "passed": true,
+    "checks": [
+        {
+            "name": "short-jump-original",
+            "detail": "height=0.642",
+            "passed": true
+        },
+        {
+            "name": "short-land-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "charged-jump-original",
+            "detail": "height=1.395",
+            "passed": true
+        },
+        {
+            "name": "charged-land-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "kitchen-sink-jump-original",
+            "detail": "attempts=1 position=(-9.50, 0.90, -10.03) sink=Center: (-9.35, 0.98, -10.00), Extents: (0.54, 0.18, 0.31) blocker=",
+            "passed": true
+        },
+        {
+            "name": "pause-cancels-charge-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "mount-original",
+            "detail": "robot=(-8.58, 0.03, -2.10) cat=(-8.58, 0.16, -2.10) status=正在规划路线",
+            "passed": true
+        },
+        {
+            "name": "ride-follows-original",
+            "detail": "travel=1.950",
+            "passed": true
+        },
+        {
+            "name": "pause-freezes-robot-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "safe-dismount-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "short-jump-abyssinian",
+            "detail": "height=0.647",
+            "passed": true
+        },
+        {
+            "name": "short-land-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "charged-jump-abyssinian",
+            "detail": "height=1.396",
+            "passed": true
+        },
+        {
+            "name": "charged-land-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "kitchen-sink-jump-abyssinian",
+            "detail": "attempts=1 position=(-9.50, 0.90, -9.99) sink=Center: (-9.35, 0.98, -10.00), Extents: (0.54, 0.18, 0.31) blocker=",
+            "passed": true
+        },
+        {
+            "name": "pause-cancels-charge-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "mount-abyssinian",
+            "detail": "robot=(-8.58, 0.03, -2.10) cat=(-8.58, 0.16, -2.10) status=正在规划路线",
+            "passed": true
+        },
+        {
+            "name": "ride-follows-abyssinian",
+            "detail": "travel=1.700",
+            "passed": true
+        },
+        {
+            "name": "pause-freezes-robot-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "safe-dismount-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "short-jump-balcony",
+            "detail": "height=0.644",
+            "passed": true
+        },
+        {
+            "name": "short-land-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "charged-jump-balcony",
+            "detail": "height=1.397",
+            "passed": true
+        },
+        {
+            "name": "charged-land-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "kitchen-sink-jump-balcony",
+            "detail": "attempts=1 position=(-9.50, 0.90, -10.03) sink=Center: (-9.35, 0.98, -10.00), Extents: (0.54, 0.18, 0.31) blocker=",
+            "passed": true
+        },
+        {
+            "name": "pause-cancels-charge-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "mount-balcony",
+            "detail": "robot=(-8.58, 0.03, -2.10) cat=(-8.58, 0.16, -2.10) status=正在规划路线",
+            "passed": true
+        },
+        {
+            "name": "ride-follows-balcony",
+            "detail": "travel=1.709",
+            "passed": true
+        },
+        {
+            "name": "pause-freezes-robot-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "safe-dismount-balcony",
+            "detail": "",
+            "passed": true
+        }
+    ],
+    "errors": []
+}

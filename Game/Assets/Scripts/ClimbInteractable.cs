@@ -17,6 +17,7 @@ namespace CatSimulator
                 yield return new WaitForSeconds(.16f);
             }
             session.Discover(interactionId);
+            session.CompleteObjective(interactionId);
         }
     }
 

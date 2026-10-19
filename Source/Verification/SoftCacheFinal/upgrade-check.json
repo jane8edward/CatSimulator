@@ -1,0 +1,280 @@
+{
+    "passed": false,
+    "stage": "rendered-performance",
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "medianFps": 72.72464752197266,
+    "p5Fps": 59.72431182861328,
+    "checks": [
+        {
+            "name": "two-level-menu",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "legacy-house-not-shipped",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "second-level-is-new-house",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "expanded-house",
+            "detail": "(11.760, 4.000, 10.560)",
+            "passed": true
+        },
+        {
+            "name": "smaller-cat",
+            "detail": "scale=0.675",
+            "passed": true
+        },
+        {
+            "name": "dynamic-props",
+            "detail": "count=34",
+            "passed": true
+        },
+        {
+            "name": "soft-surface-coverage",
+            "detail": "count=19",
+            "passed": true
+        },
+        {
+            "name": "sofa-wall-corner",
+            "detail": "back=0.100 side=0.100",
+            "passed": true
+        },
+        {
+            "name": "continuous-contacts",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "initial-stability",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "dining-clearance",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "wardrobe-front",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "fridge-front",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "cat-bowls-size",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "two-master-pillows",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "props-supported",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "finite-contact-LIV_NH012",
+            "detail": "m/s=0.0937",
+            "passed": true
+        },
+        {
+            "name": "finite-contact-LIV_NH008",
+            "detail": "m/s=0.1333",
+            "passed": true
+        },
+        {
+            "name": "finite-contact-LIV_NH029_PlantTrailing_02",
+            "detail": "m/s=0.0737",
+            "passed": true
+        },
+        {
+            "name": "finite-contact-LIV_NH015",
+            "detail": "m/s=0.4570",
+            "passed": true
+        },
+        {
+            "name": "finite-contact-KIT_NH061_ChoppingBoard",
+            "detail": "m/s=0.0115",
+            "passed": true
+        },
+        {
+            "name": "soft-rendered-60fps-LIV_NH007",
+            "detail": "median=90.0",
+            "passed": true
+        },
+        {
+            "name": "soft-load-LIV_NH007",
+            "detail": "visual=0.0350 collider=0.0350 actual=0.0350 footSink=0.0330",
+            "passed": true
+        },
+        {
+            "name": "soft-recovery-LIV_NH007",
+            "detail": "indent=0.00008",
+            "passed": true
+        },
+        {
+            "name": "soft-rendered-60fps-MBR_NH050",
+            "detail": "median=90.0",
+            "passed": true
+        },
+        {
+            "name": "soft-load-MBR_NH050",
+            "detail": "visual=0.0300 collider=0.0300 actual=0.0300 footSink=0.0111",
+            "passed": true
+        },
+        {
+            "name": "soft-recovery-MBR_NH050",
+            "detail": "indent=0.00006",
+            "passed": true
+        },
+        {
+            "name": "soft-rendered-60fps-MBR_NH048_SleepingPillow_01",
+            "detail": "median=52.1",
+            "passed": false
+        },
+        {
+            "name": "soft-load-MBR_NH048_SleepingPillow_01",
+            "detail": "visual=0.0450 collider=0.0450 actual=0.0450 footSink=0.0447",
+            "passed": true
+        },
+        {
+            "name": "soft-recovery-MBR_NH048_SleepingPillow_01",
+            "detail": "indent=0.00009",
+            "passed": true
+        },
+        {
+            "name": "soft-rendered-60fps-OFF_NH051",
+            "detail": "median=90.0",
+            "passed": true
+        },
+        {
+            "name": "soft-load-OFF_NH051",
+            "detail": "visual=0.0299 collider=0.0299 actual=0.0299 footSink=0.0294",
+            "passed": true
+        },
+        {
+            "name": "soft-recovery-OFF_NH051",
+            "detail": "indent=0.00005",
+            "passed": true
+        },
+        {
+            "name": "soft-rendered-60fps-LIV_NH023",
+            "detail": "median=90.0",
+            "passed": true
+        },
+        {
+            "name": "soft-load-LIV_NH023",
+            "detail": "visual=0.0300 collider=0.0300 actual=0.0300 footSink=0.0297",
+            "passed": true
+        },
+        {
+            "name": "soft-recovery-LIV_NH023",
+            "detail": "indent=0.00006",
+            "passed": true
+        },
+        {
+            "name": "soft-rendered-60fps-MBR_NH073",
+            "detail": "median=90.0",
+            "passed": true
+        },
+        {
+            "name": "soft-load-MBR_NH073",
+            "detail": "visual=0.0250 collider=0.0250 actual=0.0250 footSink=0.0249",
+            "passed": true
+        },
+        {
+            "name": "soft-recovery-MBR_NH073",
+            "detail": "indent=0.00005",
+            "passed": true
+        },
+        {
+            "name": "jump-onto-sofa",
+            "detail": "position=(-5.84, 0.49, -2.89) blocker=",
+            "passed": true
+        },
+        {
+            "name": "leave-sofa",
+            "detail": "position=(-7.37, 0.00, -2.89)",
+            "passed": true
+        },
+        {
+            "name": "door-书房门",
+            "detail": "obstructions=0",
+            "passed": true
+        },
+        {
+            "name": "door-主卧门",
+            "detail": "obstructions=0",
+            "passed": true
+        },
+        {
+            "name": "door-厨房移门",
+            "detail": "obstructions=0",
+            "passed": true
+        },
+        {
+            "name": "door-卫生间移门",
+            "detail": "obstructions=0",
+            "passed": true
+        },
+        {
+            "name": "door-阳台移门",
+            "detail": "obstructions=0",
+            "passed": true
+        },
+        {
+            "name": "door-书房窗户",
+            "detail": "obstructions=0",
+            "passed": true
+        },
+        {
+            "name": "door-主卧窗户",
+            "detail": "obstructions=0",
+            "passed": true
+        },
+        {
+            "name": "door-厨房窗户",
+            "detail": "obstructions=0",
+            "passed": true
+        },
+        {
+            "name": "eight-room-route",
+            "detail": "客餐厅,厨房,走廊,主卧,次卧与书房,玄关,卫生间,阳台 (-8.46, 0.04, -1.32) reached=(-8.46, 0.00, -1.35) room=阳台 blocker=",
+            "passed": true
+        },
+        {
+            "name": "cat-original",
+            "detail": "walk=0.263 jump=0.657",
+            "passed": true
+        },
+        {
+            "name": "cat-abyssinian",
+            "detail": "walk=0.176 jump=0.657",
+            "passed": true
+        },
+        {
+            "name": "cat-balcony",
+            "detail": "walk=0.263 jump=0.654",
+            "passed": true
+        },
+        {
+            "name": "rendered-60fps",
+            "detail": "median=72.7 p5=59.7",
+            "passed": true
+        }
+    ],
+    "errors": []
+}

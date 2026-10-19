@@ -105,7 +105,7 @@ namespace CatSimulator
                 yield return new WaitForSecondsRealtime(.5f);
                 cat = FindFirstObjectByType<CatController>();
                 result.secondLevel = SceneManager.GetActiveScene().name == ContentPreviewMenu.HomeScene &&
-                    cat && cat.animationDriver && cat.animationDriver.CatId == choice.id && cat.session.definition.IsExploration;
+                    cat && cat.animationDriver && cat.animationDriver.CatId == choice.id && cat.session.definition.requiredObjectives.Length==5;
                 Menu.ReturnToStart(); yield return new WaitForSecondsRealtime(.35f);
             }
             report.passed = report.originalStartMenu && report.allSceneChoices && report.renderersValid && report.sharedMeshes &&

@@ -1,0 +1,451 @@
+{
+    "passed": true,
+    "checks": [
+        {
+            "name": "scene-furniture-original",
+            "detail": "parked=(-11.46, 0.01, -2.96)",
+            "passed": true
+        },
+        {
+            "name": "F-from-floor-does-not-board-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "five-objectives-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "jump-onto-without-F-original",
+            "detail": "cat=(-9.25, 0.07, -3.25) robot=(-9.25, 0.01, -3.25)",
+            "passed": true
+        },
+        {
+            "name": "standing-carried-original",
+            "detail": "travel=0.7020664 drift=0.0008075759",
+            "passed": true
+        },
+        {
+            "name": "F-only-sits-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "F-stands-on-platform-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "jump-off-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "E-reachable-bite-laptop-original",
+            "detail": "nearest=bite-laptop",
+            "passed": true
+        },
+        {
+            "name": "highlight-bite-laptop-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "objective-bite-laptop-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "effect-bite-laptop-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "E-reachable-wet-slippers-original",
+            "detail": "nearest=wet-slippers",
+            "passed": true
+        },
+        {
+            "name": "highlight-wet-slippers-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "objective-wet-slippers-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "effect-wet-slippers-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "E-reachable-cut-phone-cable-original",
+            "detail": "nearest=cut-phone-cable",
+            "passed": true
+        },
+        {
+            "name": "highlight-cut-phone-cable-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "objective-cut-phone-cable-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "effect-cut-phone-cable-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "cord-sparks-and-unplugged-indicator-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "E-reachable-eat-cat-food-original",
+            "detail": "nearest=eat-cat-food",
+            "passed": true
+        },
+        {
+            "name": "highlight-eat-cat-food-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "objective-eat-cat-food-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "effect-eat-cat-food-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "E-reachable-climb-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "reused-climb-top-original",
+            "detail": "cat=(-11.53, 2.21, -5.75) top=(-11.53, 2.23, -5.75) support=NH_LIV_NH054_CatPlatform_5_05__0216 y=2.205628",
+            "passed": true
+        },
+        {
+            "name": "all-five-complete-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "thin-body-fits-under-bed",
+            "detail": "height=0.055 center=(-1.98, 0.01, -3.46)",
+            "passed": true
+        },
+        {
+            "name": "actually-drives-under-bed",
+            "detail": "position=(-1.98, 0.02, -3.42) status=原地转向 blocker=",
+            "passed": true
+        },
+        {
+            "name": "replay-restores-original",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "scene-furniture-abyssinian",
+            "detail": "parked=(-11.46, 0.01, -2.96)",
+            "passed": true
+        },
+        {
+            "name": "F-from-floor-does-not-board-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "five-objectives-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "jump-onto-without-F-abyssinian",
+            "detail": "cat=(-9.25, 0.07, -3.25) robot=(-9.25, 0.01, -3.25)",
+            "passed": true
+        },
+        {
+            "name": "standing-carried-abyssinian",
+            "detail": "travel=0.7020664 drift=0.0008075759",
+            "passed": true
+        },
+        {
+            "name": "F-only-sits-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "F-stands-on-platform-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "jump-off-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "E-reachable-bite-laptop-abyssinian",
+            "detail": "nearest=bite-laptop",
+            "passed": true
+        },
+        {
+            "name": "highlight-bite-laptop-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "objective-bite-laptop-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "effect-bite-laptop-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "E-reachable-wet-slippers-abyssinian",
+            "detail": "nearest=wet-slippers",
+            "passed": true
+        },
+        {
+            "name": "highlight-wet-slippers-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "objective-wet-slippers-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "effect-wet-slippers-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "E-reachable-cut-phone-cable-abyssinian",
+            "detail": "nearest=cut-phone-cable",
+            "passed": true
+        },
+        {
+            "name": "highlight-cut-phone-cable-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "objective-cut-phone-cable-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "effect-cut-phone-cable-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "cord-sparks-and-unplugged-indicator-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "E-reachable-eat-cat-food-abyssinian",
+            "detail": "nearest=eat-cat-food",
+            "passed": true
+        },
+        {
+            "name": "highlight-eat-cat-food-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "objective-eat-cat-food-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "effect-eat-cat-food-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "E-reachable-climb-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "reused-climb-top-abyssinian",
+            "detail": "cat=(-11.53, 2.21, -5.75) top=(-11.53, 2.23, -5.75) support=NH_LIV_NH054_CatPlatform_5_05__0216 y=2.205628",
+            "passed": true
+        },
+        {
+            "name": "all-five-complete-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "replay-restores-abyssinian",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "scene-furniture-balcony",
+            "detail": "parked=(-11.46, 0.01, -2.96)",
+            "passed": true
+        },
+        {
+            "name": "F-from-floor-does-not-board-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "five-objectives-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "jump-onto-without-F-balcony",
+            "detail": "cat=(-9.25, 0.07, -3.25) robot=(-9.25, 0.01, -3.25)",
+            "passed": true
+        },
+        {
+            "name": "standing-carried-balcony",
+            "detail": "travel=0.7738865 drift=1.490116E-08",
+            "passed": true
+        },
+        {
+            "name": "F-only-sits-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "F-stands-on-platform-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "jump-off-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "E-reachable-bite-laptop-balcony",
+            "detail": "nearest=bite-laptop",
+            "passed": true
+        },
+        {
+            "name": "highlight-bite-laptop-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "objective-bite-laptop-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "effect-bite-laptop-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "E-reachable-wet-slippers-balcony",
+            "detail": "nearest=wet-slippers",
+            "passed": true
+        },
+        {
+            "name": "highlight-wet-slippers-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "objective-wet-slippers-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "effect-wet-slippers-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "E-reachable-cut-phone-cable-balcony",
+            "detail": "nearest=cut-phone-cable",
+            "passed": true
+        },
+        {
+            "name": "highlight-cut-phone-cable-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "objective-cut-phone-cable-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "effect-cut-phone-cable-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "cord-sparks-and-unplugged-indicator-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "E-reachable-eat-cat-food-balcony",
+            "detail": "nearest=eat-cat-food",
+            "passed": true
+        },
+        {
+            "name": "highlight-eat-cat-food-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "objective-eat-cat-food-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "effect-eat-cat-food-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "E-reachable-climb-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "reused-climb-top-balcony",
+            "detail": "cat=(-11.53, 2.21, -5.75) top=(-11.53, 2.23, -5.75) support=NH_LIV_NH054_CatPlatform_5_05__0216 y=2.205628",
+            "passed": true
+        },
+        {
+            "name": "all-five-complete-balcony",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "replay-restores-balcony",
+            "detail": "",
+            "passed": true
+        }
+    ],
+    "errors": []
+}

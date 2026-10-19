@@ -146,7 +146,7 @@ namespace CatSimulator
             {
                 Label(panel,"主角："+CatCatalog.Selected.displayName,new Vector2(0,234),new Vector2(660,44),23,TextAnchor.MiddleCenter);
                 Card("Level1","第一关 · 客厅与卧室","打翻水杯、抓坏窗帘，猫爬架和纸箱也等着你",100,()=>LoadLevel(1));
-                Card("Level2","第二关 · 温馨大宅","没有任务，自由探索各个房间与阳台",-42,()=>LoadLevel(2));
+                Card("Level2","第二关 · 温馨大宅","咬电脑、闯点小祸，再搭扫地机兜风",-42,()=>LoadLevel(2));
                 Button(panel,"Back","返回",new Vector2(0,-222),new Vector2(620,58),()=>ShowPage(Page.Home));
             }
             else if (gallery != null)

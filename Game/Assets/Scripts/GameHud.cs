@@ -22,16 +22,17 @@ namespace CatSimulator
             scaler.referenceResolution = new Vector2(1920, 1080); scaler.matchWidthOrHeight = .5f;
             gameObject.AddComponent<GraphicRaycaster>();
             var events = new GameObject("InputEvents"); events.AddComponent<EventSystem>(); events.AddComponent<StandaloneInputModule>();
-            var taskPanel = Panel("TaskPanel", new Vector2(28,-28), new Vector2(465,185), new Vector2(0,1));
+            bool houseTasks=session.definition.levelId=="home-02";
+            var taskPanel = Panel("TaskPanel", new Vector2(28,-28), new Vector2(465,houseTasks?265:185), new Vector2(0,1));
             nameLabel = Label(taskPanel,"Name",new Vector2(24,-20),new Vector2(420,38),27);
-            tasks = Label(taskPanel,"Tasks",new Vector2(24,-70),new Vector2(420,110),23);
+            tasks = Label(taskPanel,"Tasks",new Vector2(24,-70),new Vector2(420,houseTasks?190:110),23);
             prompt = Label(transform,"InteractionPrompt",new Vector2(-280,140),new Vector2(560,54),28,new Vector2(.5f,0));
             prompt.alignment = TextAnchor.MiddleCenter;
             var controlStrip = Panel("ControlsBackground",new Vector2(18,76),new Vector2(1370,48),new Vector2(0,0));
             controlStrip.GetComponent<Image>().raycastTarget=false;
             Label(controlStrip,"Controls",new Vector2(12,-5),new Vector2(1346,38),21).text = session.definition.IsExploration ?
-                "WASD 移动  ·  鼠标转镜头  ·  空格跳跃  ·  Shift 奔跑  ·  Esc 菜单" :
-                "WASD 移动  ·  鼠标转镜头  ·  空格跳跃  ·  Shift 奔跑  ·  E 互动  ·  Esc 菜单";
+                "WASD 移动  ·  鼠标转镜头  ·  空格短按跳 / 长按蓄力松开  ·  Shift 奔跑  ·  Esc 菜单" :
+                "WASD 移动  ·  鼠标转镜头  ·  空格短按跳 / 长按蓄力松开  ·  Shift 奔跑  ·  E 互动  ·  Esc 菜单";
             version=Label(transform,"Version",new Vector2(-285,54),new Vector2(260,32),18,new Vector2(1,0));
             pause = Panel("Pause",new Vector2(-270,300),new Vector2(540,600),new Vector2(.5f,.5f)).gameObject;
             Label(pause.transform,"Title",new Vector2(30,-24),new Vector2(480,50),32).text="小猫休息一下";
@@ -53,7 +54,7 @@ namespace CatSimulator
             completion = Panel("Completion",new Vector2(-285,200),new Vector2(570,400),new Vector2(.5f,.5f)).gameObject;
             Label(completion.transform,"Title",new Vector2(35,-24),new Vector2(500,55),34).text="今天也很调皮！";
             rating=Label(completion.transform,"Rating",new Vector2(35,-102),new Vector2(500,48),30);
-            Label(completion.transform,"Hint",new Vector2(35,-155),new Vector2(500,55),21).text="水杯与窗帘任务已完成。\n猫爬架和纸箱还可以继续玩。";
+            Label(completion.transform,"Hint",new Vector2(35,-155),new Vector2(500,55),21).text=houseTasks?"大宅里的五项任务已完成。\n还可以吃猫粮、爬高或搭扫地机兜风。":"水杯与窗帘任务已完成。\n猫爬架和纸箱还可以继续玩。";
             Button(completion.transform,"继续探索",new Vector2(35,-238),()=>{completion.SetActive(false);SetPaused(false);});
             Button(completion.transform,"再玩一次",new Vector2(35,-314),session.Replay); completion.SetActive(false);
             session.Changed += Refresh; Refresh();
@@ -64,6 +65,15 @@ namespace CatSimulator
             if (ContentPreviewMenu.GameplayInputBlocked) return;
             if (!cat.Automated && Input.GetKeyDown(KeyCode.Escape)) { completion.SetActive(false);credits.SetActive(false);SetPaused(!cat.Paused);pause.SetActive(cat.Paused); }
             prompt.text = cat.Paused ? "" : cat.IsBusy ? "" : cat.Nearest != null ? "E  " + cat.Nearest.prompt : "";
+            if(!cat.Paused&&!cat.IsBusy)
+            {
+                var vacuum=FindFirstObjectByType<RobotVacuum>();
+                if(cat.IsRiding)prompt.text="F  站起 · 空格站起后起跳 · "+cat.Ride.Status;
+                else if(cat.JumpCharge>0)prompt.text="跳跃蓄力 "+Mathf.RoundToInt(cat.JumpCharge*100)+"% · 松开空格起跳";
+                else if(vacuum&&vacuum.CanMount)prompt.text="F  坐下 · 可走动或跳离扫地机"+(cat.Nearest?"  ·  E "+cat.Nearest.prompt:"");
+                else if(vacuum&&vacuum.Ready&&Vector3.Distance(cat.transform.position,vacuum.Seat)<.95f&&cat.GetComponent<CharacterController>().isGrounded)
+                    prompt.text="跳上扫地机即可随车移动，车上按 F 坐下";
+            }
             version.text="开发原型 "+Application.version+" · "+session.definition.LocationAt(cat.transform.position);
         }
 
@@ -72,6 +82,12 @@ namespace CatSimulator
             nameLabel.text=session.CatName+" · "+session.definition.displayName;
             tasks.text=session.definition.IsExploration ? "自由探索\n去卧室、厨房或阳台看看" :
                 (session.HasObjective("spill-cup")?"✓":"○")+" 打翻桌上的水杯\n"+(session.HasObjective("damage-curtain")?"✓":"○")+" 抓坏窗边的窗帘";
+            if(session.definition.objectiveLabels.Length==session.definition.requiredObjectives.Length && session.definition.objectiveLabels.Length>0)
+            {
+                tasks.text="";
+                for(int i=0;i<session.definition.requiredObjectives.Length;i++)
+                    tasks.text+=(i>0?"\n":"")+(session.HasObjective(session.definition.requiredObjectives[i])?"✓ ":"○ ")+session.definition.objectiveLabels[i];
+            }
             rating.text = new string('★',session.Stars)+new string('☆',5-session.Stars);
             if(session.IsComplete && !resultShown && !cat.Automated) ShowResult();
         }

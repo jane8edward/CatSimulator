@@ -13,8 +13,19 @@ MonoBehaviour:
   m_Name: NewHouseLevel
   m_EditorClassIdentifier: Assembly-CSharp::CatSimulator.LevelDefinition
   levelId: home-02
-  displayName: "\u6E29\u99A8\u5927\u5B85 \xB7 \u81EA\u7531\u63A2\u7D22"
-  requiredObjectives: []
+  displayName: "\u6E29\u99A8\u5927\u5B85"
+  requiredObjectives:
+  - bite-laptop
+  - wet-slippers
+  - climb-house-tree
+  - cut-phone-cable
+  - eat-cat-food
+  objectiveLabels:
+  - "\u54AC\u574F\u4E66\u623F\u7535\u8111\u7684\u4E00\u89D2"
+  - "\u5728\u7384\u5173\u62D6\u978B\u91CC\u6492\u5C3F"
+  - "\u722C\u5230\u732B\u722C\u67B6\u9876\u7AEF"
+  - "\u54AC\u65AD\u5E8A\u5934\u624B\u673A\u5145\u7535\u7EBF"
+  - "\u5403\u4E00\u53E3\u5BA2\u5385\u732B\u7CAE"
   activityBounds:
     m_Center: {x: -6, y: 1.5, z: -5.4}
     m_Extent: {x: 5.88, y: 2, z: 5.28}

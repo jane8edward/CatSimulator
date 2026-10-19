@@ -1,0 +1,67 @@
+{
+  "version": "0.3.3-local",
+  "date": "2026-10-17",
+  "passed": true,
+  "features": {
+    "passed": true,
+    "source": "ChargedJumpRobotFinal/jump-vacuum.json",
+    "checks": 30
+  },
+  "navigation": {
+    "source": "ChargedJumpRobot/jump-vacuum.json",
+    "note": "Navigation code is unchanged in the final build. Earlier cold-start jump failures remain in the source report; final startup warmup and all three cats were retested separately.",
+    "sourceSuitePassed": false,
+    "sourceSuiteFailures": [
+      {
+        "name": "short-jump-original",
+        "detail": "height=0.064",
+        "passed": false
+      },
+      {
+        "name": "charged-jump-original",
+        "detail": "height=0.764",
+        "passed": false
+      }
+    ],
+    "checks": [
+      {
+        "name": "forward-only",
+        "detail": "travel=57.91",
+        "passed": true
+      },
+      {
+        "name": "turns-in-place",
+        "detail": "turn-frames=2338",
+        "passed": true
+      },
+      {
+        "name": "room-roaming",
+        "detail": "rooms=客餐厅,走廊,玄关,卫生间,厨房,阳台,主卧,次卧与书房 reachable=主卧,温馨大宅 · 自由探索,走廊,客餐厅,次卧与书房,玄关,卫生间,厨房,阳台",
+        "passed": true
+      },
+      {
+        "name": "new-obstacle-no-penetration",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "new-obstacle-keeps-roaming",
+        "detail": "travel=1.99",
+        "passed": true
+      },
+      {
+        "name": "replay-resets-robot",
+        "detail": "",
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "gameFlow": {
+    "stage": "complete",
+    "passed": true,
+    "source": "ChargedJumpRobotFinalFlow/game-flow.json"
+  },
+  "gitSubmissionPerformed": false,
+  "global60FpsClaimed": false
+}

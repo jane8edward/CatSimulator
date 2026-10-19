@@ -23,6 +23,34 @@ namespace CatSimulator
         bool collisionDirty;
         Mesh contactMesh;
         Vector3[] contactRest,contactWorld,contactDeformed;
+        float[] renderWeights, contactWeights;
+        readonly Vector3[] cachedPaws = new Vector3[4];
+        bool weightsValid;
+        float appliedPressure = -1;
+
+        float[] CalculateWeights(Vector3[] points)
+        {
+            var weights = new float[points.Length];
+            UpdateWeights(points, weights);
+            return weights;
+        }
+
+        void UpdateWeights(Vector3[] points, float[] weights)
+        {
+            for (int i = 0; i < points.Length; i++)
+            {
+                var world = points[i];
+                float height = Mathf.InverseLerp(useSharedHeightRange ? deformationBaseY : restBounds.min.y,
+                    useSharedHeightRange ? deformationTopY : restBounds.max.y, world.y);
+                float influence = 0;
+                for (int p = 0; p < paws.Length; p++)
+                {
+                    float dx = world.x - paws[p].x, dz = world.z - paws[p].z;
+                    influence += Mathf.Exp(-(dx * dx + dz * dz) / (.145f * .145f));
+                }
+                weights[i] = Mathf.Min(1, influence / 1.8f) * Mathf.SmoothStep(0, 1, height);
+            }
+        }
 
         void Awake()
         {
@@ -69,23 +97,31 @@ namespace CatSimulator
             pressure = Mathf.SmoothDamp(pressure, loaded ? 1 : 0, ref pressureVelocity,
                 loaded ? .10f : recoveryTime, Mathf.Infinity, elapsed);
             if (pressure < .0005f && previous < .0005f && CurrentIndentation == 0) return;
+            bool pawsChanged = !weightsValid;
+            for (int p = 0; p < paws.Length; p++)
+                // Vertical sinking changes pressure, but not the horizontal footprint.
+                pawsChanged |= paws[p].x != cachedPaws[p].x || paws[p].z != cachedPaws[p].z;
+            if (pawsChanged)
+            {
+                if (renderWeights == null) renderWeights = CalculateWeights(restWorld);
+                else UpdateWeights(restWorld, renderWeights);
+                if (contactMesh)
+                {
+                    if (contactWeights == null) contactWeights = CalculateWeights(contactWorld);
+                    else UpdateWeights(contactWorld, contactWeights);
+                }
+                System.Array.Copy(paws, cachedPaws, paws.Length);
+                weightsValid = true;
+            }
+            // Once settled, identical inputs produce identical geometry and contact support.
+            float effectivePressure = pressure < .0005f ? 0 : pressure;
+            if (!pawsChanged && effectivePressure == appliedPressure) return;
+            appliedPressure = effectivePressure;
             CurrentIndentation = 0;
             var localDown = transform.InverseTransformVector(Vector3.down);
             for (var i = 0; i < rest.Length; i++)
             {
-                var world = restWorld[i];
-                var height = Mathf.InverseLerp(useSharedHeightRange?deformationBaseY:restBounds.min.y,
-                    useSharedHeightRange?deformationTopY:restBounds.max.y,world.y);
-                var influence = 0f;
-                for (var p = 0; p < paws.Length; p++)
-                {
-                    var dx = world.x - paws[p].x;
-                    var dz = world.z - paws[p].z;
-                    influence += Mathf.Exp(-(dx * dx + dz * dz) / (.145f * .145f));
-                }
-                var depth = maximumSink * pressure * Mathf.Min(1, influence / 1.8f)
-                    * Mathf.SmoothStep(0, 1, height);
-                if (pressure < .0005f) depth = 0;
+                var depth = maximumSink * effectivePressure * renderWeights[i];
                 deformed[i] = rest[i] + localDown * depth;
                 CurrentIndentation = Mathf.Max(CurrentIndentation, depth);
             }
@@ -96,10 +132,7 @@ namespace CatSimulator
             {
                 for(int i=0;i<contactRest.Length;i++)
                 {
-                    var world=contactWorld[i];
-                    var height=Mathf.InverseLerp(useSharedHeightRange?deformationBaseY:restBounds.min.y,useSharedHeightRange?deformationTopY:restBounds.max.y,world.y);
-                    float influence=0;for(int p=0;p<paws.Length;p++){float dx=world.x-paws[p].x,dz=world.z-paws[p].z;influence+=Mathf.Exp(-(dx*dx+dz*dz)/(.145f*.145f));}
-                    float depth=pressure<.0005f?0:maximumSink*pressure*Mathf.Min(1,influence/1.8f)*Mathf.SmoothStep(0,1,height);
+                    float depth=maximumSink*effectivePressure*contactWeights[i];
                     contactDeformed[i]=contactRest[i]+localDown*depth;
                 }
                 contactMesh.vertices=contactDeformed;contactMesh.RecalculateBounds();

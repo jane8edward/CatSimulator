@@ -89,7 +89,7 @@ namespace CatSimulator
                 yield return new WaitForSecondsRealtime(1);
                 while(!FindFirstObjectByType<NewHouseExploration>().IsReady)yield return null;
                 cat = FindFirstObjectByType<CatController>(); camera = FindFirstObjectByType<CatCamera>(); cat.Automated = true; camera.Automated = true;
-                result.exploration = cat.session.definition.IsExploration && !cat.session.IsComplete && cat.animationDriver.CatId == choice.id;
+                result.exploration = cat.session.definition.requiredObjectives.Length==5 && !cat.session.IsComplete && cat.animationDriver.CatId == choice.id;
                 result.homeScale=cat.BodyScale;result.controllerHeight=cat.GetComponent<CharacterController>().height;result.visualScale=cat.visual.localScale.x;
                 result.scaleCorrect=Mathf.Abs(result.firstLevelScale-1)<.001f && Mathf.Abs(result.homeScale-.675f)<.001f &&
                     Mathf.Abs(result.controllerHeight-.36f*.675f)<.001f && Mathf.Abs(result.visualScale-choice.visualScale*.675f)<.001f;

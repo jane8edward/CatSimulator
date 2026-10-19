@@ -39,6 +39,10 @@ namespace CatSimulator
 
         public void Highlight(bool enabled)
         {
+            // Editor-authored outlines survive scene serialization; the runtime list does not.
+            if(outlines.Count==0)
+                foreach(var child in GetComponentsInChildren<Transform>(true))
+                    if(child.name=="InteractionOutline")outlines.Add(child.gameObject);
             foreach (var outline in outlines) if (outline != null) outline.SetActive(enabled);
         }
     }
